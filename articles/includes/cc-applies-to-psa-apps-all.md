@@ -1,0 +1,1 @@
+<span data-ttu-id="dcf4a-101">חל על יישום Project Service בגירסאות ‎3.x‏, ‎2.x ו- ‎1.x</span><span class="sxs-lookup"><span data-stu-id="dcf4a-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>
