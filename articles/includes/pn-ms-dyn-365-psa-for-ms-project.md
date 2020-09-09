@@ -1,0 +1,1 @@
+תוסף של Dynamics 365 Project Service Automation עבור Microsoft Project
