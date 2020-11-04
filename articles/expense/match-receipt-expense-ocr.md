@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,82 +15,82 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02c1bafbe907a657689b610ae792f88085320903
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897002"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077273"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>התאמת קבלה להוצאה באמצעות OCR
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a><span data-ttu-id="484c6-103">התאמת קבלה להוצאה באמצעות OCR</span><span class="sxs-lookup"><span data-stu-id="484c6-103">Match a receipt to an expense using OCR</span></span>
 
-_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
+<span data-ttu-id="484c6-104">_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="484c6-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-הזנת ההוצאות שופרה באמצעות הכנסת עיבוד זיהוי תווים אופטי (OCR) לקבלות. פונקציונליות זו נועדה לשפר את חווית המשתמש בעת יצירת דוחות הוצאות.
+<span data-ttu-id="484c6-105">הזנת ההוצאות שופרה באמצעות הכנסת עיבוד זיהוי תווים אופטי (OCR) לקבלות.</span><span class="sxs-lookup"><span data-stu-id="484c6-105">Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts.</span></span> <span data-ttu-id="484c6-106">פונקציונליות זו נועדה לשפר את חווית המשתמש בעת יצירת דוחות הוצאות.</span><span class="sxs-lookup"><span data-stu-id="484c6-106">This functionality is designed to improve the user experience when creating expense reports.</span></span>
 
-## <a name="key-features"></a>תכונות מרכזיות
+## <a name="key-features"></a><span data-ttu-id="484c6-107">תכונות מרכזיות</span><span class="sxs-lookup"><span data-stu-id="484c6-107">Key features</span></span>
 
-- המערכת מחלצת את שם הסוחר, התאריך והסכום הכולל מהתקבולים.
-- המערכת תנסה להתאים קבלות שלא שויכו לעסקאות הוצאות שלא שויכו.
-- ניתן ליצור עסקאות הוצאות שהוזנו ידנית מקבלות.
+- <span data-ttu-id="484c6-108">המערכת מחלצת את שם הסוחר, התאריך והסכום הכולל מהתקבולים.</span><span class="sxs-lookup"><span data-stu-id="484c6-108">The system extracts the merchant name, date, and total amount from receipts.</span></span>
+- <span data-ttu-id="484c6-109">המערכת תנסה להתאים קבלות שלא שויכו לעסקאות הוצאות שלא שויכו.</span><span class="sxs-lookup"><span data-stu-id="484c6-109">The system will try to match unattached receipts to unattached expense transactions.</span></span>
+- <span data-ttu-id="484c6-110">ניתן ליצור עסקאות הוצאות שהוזנו ידנית מקבלות.</span><span class="sxs-lookup"><span data-stu-id="484c6-110">You can create manually entered expense transactions from receipts.</span></span>
 
-## <a name="attach-receipts-to-an-expense-report"></a>צרף קבלות לדוח הוצאות
+## <a name="attach-receipts-to-an-expense-report"></a><span data-ttu-id="484c6-111">צרף קבלות לדוח הוצאות</span><span class="sxs-lookup"><span data-stu-id="484c6-111">Attach receipts to an expense report</span></span>
 
-כדי לצרף אוטומטית קבלות הכוללות עסקאות בכרטיסי אשראי בעת יצירת דוח הוצאות, בצע את השלבים הבאים.
+<span data-ttu-id="484c6-112">כדי לצרף אוטומטית קבלות הכוללות עסקאות בכרטיסי אשראי בעת יצירת דוח הוצאות, בצע את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="484c6-112">To automatically attach receipts that include credit card transactions when an expense report is created, complete the following steps.</span></span>
 
-  1. פתח את סביבת העבודה **ניהול הוצאות**.
-  2. בכרטיסיה **קבלות**, ודא שיש קבלות שלא שויכו. ניתן גם להעלות קבלות בכרטיסיה **קבלות**.
-  3. בכרטיסיה **הוצאות**, ודא שיש הוצאות שלא שויכו. בדרך כלל, מנהל מערכת של ההוצאות מייבא את ההוצאות האלה מספק כרטיסי האשראי.
-  4. בחר **דוח הוצאות חדש**. שים לב שאתה יכול לכלול הוצאות וקבלות גם עכשיו כשאתה יוצר דוח הוצאות. אם אתה מוסיף גם הוצאות וגם קבלות, מופעלת התאמה אוטומטית של הקבלות להוצאות.
+  1. <span data-ttu-id="484c6-113">פתח את סביבת העבודה **ניהול הוצאות**.</span><span class="sxs-lookup"><span data-stu-id="484c6-113">Open the **Expense management** workspace.</span></span>
+  2. <span data-ttu-id="484c6-114">בכרטיסיה **קבלות** , ודא שיש קבלות שלא שויכו.</span><span class="sxs-lookup"><span data-stu-id="484c6-114">On the **Receipts** tab, verify that unattached receipts exist.</span></span> <span data-ttu-id="484c6-115">ניתן גם להעלות קבלות בכרטיסיה **קבלות**.</span><span class="sxs-lookup"><span data-stu-id="484c6-115">You can also upload receipts on the **Receipts** tab.</span></span>
+  3. <span data-ttu-id="484c6-116">בכרטיסיה **הוצאות** , ודא שיש הוצאות שלא שויכו.</span><span class="sxs-lookup"><span data-stu-id="484c6-116">On the **Expenses** tab, verify that unattached expenses exist.</span></span> <span data-ttu-id="484c6-117">בדרך כלל, מנהל מערכת של ההוצאות מייבא את ההוצאות האלה מספק כרטיסי האשראי.</span><span class="sxs-lookup"><span data-stu-id="484c6-117">Typically, the expense administrator imports these expenses from the credit card provider.</span></span>
+  4. <span data-ttu-id="484c6-118">בחר **דוח הוצאות חדש**.</span><span class="sxs-lookup"><span data-stu-id="484c6-118">Select **New expense report**.</span></span> <span data-ttu-id="484c6-119">שים לב שאתה יכול לכלול הוצאות וקבלות גם עכשיו כשאתה יוצר דוח הוצאות.</span><span class="sxs-lookup"><span data-stu-id="484c6-119">Notice that you can include expenses, and receipts, now as well, when you create an expense report.</span></span> <span data-ttu-id="484c6-120">אם אתה מוסיף גם הוצאות וגם קבלות, מופעלת התאמה אוטומטית של הקבלות להוצאות.</span><span class="sxs-lookup"><span data-stu-id="484c6-120">If you add both expenses and receipts, automatic matching of the receipts against the expenses is triggered.</span></span>
 
-## <a name="create-or-match-receipts-to-an-expense-report"></a>צור או התאם קבלות לדוח הוצאות
-כדי ליצור הוצאה, או להתאים הוצאה מקבלה, בצע את השלבים הבאים.
+## <a name="create-or-match-receipts-to-an-expense-report"></a><span data-ttu-id="484c6-121">צור או התאם קבלות לדוח הוצאות</span><span class="sxs-lookup"><span data-stu-id="484c6-121">Create or match receipts to an expense report</span></span>
+<span data-ttu-id="484c6-122">כדי ליצור הוצאה, או להתאים הוצאה מקבלה, בצע את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="484c6-122">To create an expense, or match an expense from a receipt, complete the following steps.</span></span>
 
-  1. בדוח הוצאות, בכרטיסיה **קבלות**, צרף קבלה על ידי בחירה באפשרות **הוסף קבלות**.
-  2. מתחת לתמונה שהועלתה של הקבלה, שים לב לאפשרויות **יצירה** ו**התאמה**.
+  1. <span data-ttu-id="484c6-123">בדוח הוצאות, בכרטיסיה **קבלות** , צרף קבלה על ידי בחירה באפשרות **הוסף קבלות**.</span><span class="sxs-lookup"><span data-stu-id="484c6-123">On an expense report, on the **Receipts** tab, attach a receipt by selecting **Add receipts**.</span></span>
+  2. <span data-ttu-id="484c6-124">מתחת לתמונה שהועלתה של הקבלה, שים לב לאפשרויות **יצירה** ו **התאמה**.</span><span class="sxs-lookup"><span data-stu-id="484c6-124">Under the uploaded image of the receipt, notice the **Create** and **Match** options.</span></span>
 
-      - בחר **יצירה** כדי ליצור עסקת הוצאות שהוזנה ידנית ולמלא את הערכים שחולצו מהקבלה.
-      - אם תבחר **התאמה**, המערכת מנסה להתאים הוצאה קיימת לקבלה.
+      - <span data-ttu-id="484c6-125">בחר **יצירה** כדי ליצור עסקת הוצאות שהוזנה ידנית ולמלא את הערכים שחולצו מהקבלה.</span><span class="sxs-lookup"><span data-stu-id="484c6-125">Select **Create** to create a manually entered expense transaction and fill in the values that are extracted from the receipt.</span></span>
+      - <span data-ttu-id="484c6-126">אם תבחר **התאמה** , המערכת מנסה להתאים הוצאה קיימת לקבלה.</span><span class="sxs-lookup"><span data-stu-id="484c6-126">If you select **Match** , the system tries to match an existing expense to the receipt.</span></span>
 
-## <a name="installation"></a>התקנה
+## <a name="installation"></a><span data-ttu-id="484c6-127">התקנה</span><span class="sxs-lookup"><span data-stu-id="484c6-127">Installation</span></span>
 
-כדי להשתמש ביכולות המתקדמות של הוצאות, התקן את תוספת השירות של ניהול הוצאות עבור Microsoft Dynamics 365 Finance והפעל את התכונות במופע שלך. אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).
+<span data-ttu-id="484c6-128">כדי להשתמש ביכולות המתקדמות של הוצאות, התקן את תוספת השירות של ניהול הוצאות עבור Microsoft Dynamics 365 Finance והפעל את התכונות במופע שלך.</span><span class="sxs-lookup"><span data-stu-id="484c6-128">To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance.</span></span> <span data-ttu-id="484c6-129">אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="484c6-129">You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-1. היכנס ל- LCS ופתח את הסביבה הרצויה.
-2. עבור אל **פרטים מלאים**.
-3. בחר **תחזק** או גלול מטה אל **תוספות לסביבה** FastTab.
-4. בחר **התקן תוסף חדש**.
-5. בחר **שירות ניהול הוצאות**.
-6. עקוב אחר מדריך ההתקנה והסכם לתנאים ולהגבלות.
-7. בחר **התקנה**.
+1. <span data-ttu-id="484c6-130">היכנס ל- LCS ופתח את הסביבה הרצויה.</span><span class="sxs-lookup"><span data-stu-id="484c6-130">Sign in to LCS, and open the desired environment.</span></span>
+2. <span data-ttu-id="484c6-131">עבור אל **פרטים מלאים**.</span><span class="sxs-lookup"><span data-stu-id="484c6-131">Go to **Full details**.</span></span>
+3. <span data-ttu-id="484c6-132">בחר **תחזק** או גלול מטה אל **תוספות לסביבה** FastTab.</span><span class="sxs-lookup"><span data-stu-id="484c6-132">Select **Maintain** , or scroll down to the **Environment add-ins** FastTab.</span></span>
+4. <span data-ttu-id="484c6-133">בחר **התקן תוסף חדש**.</span><span class="sxs-lookup"><span data-stu-id="484c6-133">Select **Install a new add-in**.</span></span>
+5. <span data-ttu-id="484c6-134">בחר **שירות ניהול הוצאות**.</span><span class="sxs-lookup"><span data-stu-id="484c6-134">Select **Expense Management Service**.</span></span>
+6. <span data-ttu-id="484c6-135">עקוב אחר מדריך ההתקנה והסכם לתנאים ולהגבלות.</span><span class="sxs-lookup"><span data-stu-id="484c6-135">Follow the installation guide, and agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="484c6-136">בחר **התקנה**.</span><span class="sxs-lookup"><span data-stu-id="484c6-136">Select **Install**.</span></span>
 
-בסביבת העבודה **ניהול תכונות**, הפעל את התכונות הבאות:
+<span data-ttu-id="484c6-137">בסביבת העבודה **ניהול תכונות** , הפעל את התכונות הבאות:</span><span class="sxs-lookup"><span data-stu-id="484c6-137">In the **Feature management** workspace, turn on the following features:</span></span>
 
-- דוחות הוצאות שעוצבו מחדש
-- התאמה אוטומטית ויצירת הוצאה מקבלה
+- <span data-ttu-id="484c6-138">דוחות הוצאות שעוצבו מחדש</span><span class="sxs-lookup"><span data-stu-id="484c6-138">Expense reports re-imagined</span></span>
+- <span data-ttu-id="484c6-139">התאמה אוטומטית ויצירת הוצאה מקבלה</span><span class="sxs-lookup"><span data-stu-id="484c6-139">Auto-match and create expense from receipt</span></span>
 
-כאשר אתה מפעיל תכונות אלה מתרחשות הפעולות הבאות:
+<span data-ttu-id="484c6-140">כאשר אתה מפעיל תכונות אלה מתרחשות הפעולות הבאות:</span><span class="sxs-lookup"><span data-stu-id="484c6-140">When you turn on these features the following actions occur:</span></span>
 
-- סביבת העבודה הקיימת של **ניהול הוצאות** מוחלפת בסביבת העבודה החדשה.
-- נוסף פריט תפריט חדש שבו ניתן לראות את שדות ההוצאות.
-- אתה עדיין יכול לפתוח את דף **דוחות הוצאות** הקודם על ידי מעבר אל **ניהול הוצאות > ההוצאות שלי > דוחות הוצאות**.
-- זרימות עבודה וכל האישורים עדיין מעבירים אותך לדף דוחות ההוצאות הקיים.
-- הקבלות יעובדו באמצעות Microsoft Azure Cognitive Services, ומטא נתונים יחולצו ויתווספו.
-- מתווספת אפשרות שמאפשרת ליצור דוח הוצאות הכולל קבלות תואמות שלא שויכו.
-- אפשרות שמתווספת לדוחות הוצאות כדי ליצור שורת הוצאות מתוך קבלה, או שמנסה להתאים קבלה קיימת לשורת הוצאות קיימת.
+- <span data-ttu-id="484c6-141">סביבת העבודה הקיימת של **ניהול הוצאות** מוחלפת בסביבת העבודה החדשה.</span><span class="sxs-lookup"><span data-stu-id="484c6-141">The existing **Expense management** workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="484c6-142">נוסף פריט תפריט חדש שבו ניתן לראות את שדות ההוצאות.</span><span class="sxs-lookup"><span data-stu-id="484c6-142">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="484c6-143">אתה עדיין יכול לפתוח את דף **דוחות הוצאות** הקודם על ידי מעבר אל **ניהול הוצאות > ההוצאות שלי > דוחות הוצאות**.</span><span class="sxs-lookup"><span data-stu-id="484c6-143">You can still open the former **Expense reports** page by going to **Expense management > My expenses > Expense reports**.</span></span>
+- <span data-ttu-id="484c6-144">זרימות עבודה וכל האישורים עדיין מעבירים אותך לדף דוחות ההוצאות הקיים.</span><span class="sxs-lookup"><span data-stu-id="484c6-144">Workflows and any approvals still take you to the existing expense reports page.</span></span>
+- <span data-ttu-id="484c6-145">הקבלות יעובדו באמצעות Microsoft Azure Cognitive Services, ומטא נתונים יחולצו ויתווספו.</span><span class="sxs-lookup"><span data-stu-id="484c6-145">Receipts will be processed through Microsoft Azure Cognitive Services, and metadata will be extracted and added.</span></span>
+- <span data-ttu-id="484c6-146">מתווספת אפשרות שמאפשרת ליצור דוח הוצאות הכולל קבלות תואמות שלא שויכו.</span><span class="sxs-lookup"><span data-stu-id="484c6-146">An option is added that lets you create an expense report that includes matched unattached receipts.</span></span>
+- <span data-ttu-id="484c6-147">אפשרות שמתווספת לדוחות הוצאות כדי ליצור שורת הוצאות מתוך קבלה, או שמנסה להתאים קבלה קיימת לשורת הוצאות קיימת.</span><span class="sxs-lookup"><span data-stu-id="484c6-147">An option that is added to expense reports lets you create an expense line from a receipt, or attempts to match an existing receipt to an existing expense line.</span></span>
 
-## <a name="frequently-asked-questions"></a>שאלות נפוצות
+## <a name="frequently-asked-questions"></a><span data-ttu-id="484c6-148">שאלות נפוצות</span><span class="sxs-lookup"><span data-stu-id="484c6-148">Frequently asked questions</span></span>
 
-**האם Microsoft משתמשת בנתונים שלי עבור המודלים שלה?**
+<span data-ttu-id="484c6-149">**האם Microsoft משתמשת בנתונים שלי עבור המודלים שלה?**</span><span class="sxs-lookup"><span data-stu-id="484c6-149">**Does Microsoft use my data for its models?**</span></span>
 
-לא, Microsoft בנתה מודל למידת מכונה כללי לשירות עיבוד הקבלות שלה. מודל זה אינו מבוסס על הקבלות שאתה מעלה.
+<span data-ttu-id="484c6-150">לא, Microsoft בנתה מודל למידת מכונה כללי לשירות עיבוד הקבלות שלה.</span><span class="sxs-lookup"><span data-stu-id="484c6-150">No, Microsoft has built a general machine learning model for its receipt processing service.</span></span> <span data-ttu-id="484c6-151">מודל זה אינו מבוסס על הקבלות שאתה מעלה.</span><span class="sxs-lookup"><span data-stu-id="484c6-151">This model isn't based on the receipts that you upload.</span></span>
 
-**היכן תכונה זו זמינה ומעובדת?**
+<span data-ttu-id="484c6-152">**היכן תכונה זו זמינה ומעובדת?**</span><span class="sxs-lookup"><span data-stu-id="484c6-152">**Where is this feature available and processed?**</span></span>
 
-נכון לעכשיו, היא פועלת בארצות הברית.
+<span data-ttu-id="484c6-153">נכון לעכשיו, היא פועלת בארצות הברית.</span><span class="sxs-lookup"><span data-stu-id="484c6-153">Currently, the United States is supported.</span></span>
 
-**לאן עוברות הקבלות שלי?**
+<span data-ttu-id="484c6-154">**לאן עוברות הקבלות שלי?**</span><span class="sxs-lookup"><span data-stu-id="484c6-154">**Where do my receipts go?**</span></span>
 
-Finance ייצור קשר עם Cognitive Services כדי לחלץ את נתוני השדות. Cognitive Services ישמור עותק של הקבלה למשך עד 24 שעות תוך כדי העיבוד. לאחר סיום העיבוד, Cognitive Services יסיר את הקבלה. הקבלות עדיין מאוחסנות ב- Finance.
+<span data-ttu-id="484c6-155">Finance ייצור קשר עם Cognitive Services כדי לחלץ את נתוני השדות.</span><span class="sxs-lookup"><span data-stu-id="484c6-155">Finance will contact Cognitive Services to extract the field data.</span></span> <span data-ttu-id="484c6-156">Cognitive Services ישמור עותק של הקבלה למשך עד 24 שעות תוך כדי העיבוד.</span><span class="sxs-lookup"><span data-stu-id="484c6-156">Cognitive Services will retain a copy of your receipt for up to 24 hours while processing occurs.</span></span> <span data-ttu-id="484c6-157">לאחר סיום העיבוד, Cognitive Services יסיר את הקבלה.</span><span class="sxs-lookup"><span data-stu-id="484c6-157">After processing is completed, Cognitive Services will remove the receipt.</span></span> <span data-ttu-id="484c6-158">הקבלות עדיין מאוחסנות ב- Finance.</span><span class="sxs-lookup"><span data-stu-id="484c6-158">Receipts are still stored in Finance.</span></span>
 
-למידע נוסף ראה [אפשר הבנת קבלות באמצעות היכולת החדשה של Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+<span data-ttu-id="484c6-159">למידע נוסף ראה [אפשר הבנת קבלות באמצעות היכולת החדשה של Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).</span><span class="sxs-lookup"><span data-stu-id="484c6-159">For more information, see [Enable receipt understanding with Form Recognizer's new capability](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).</span></span>

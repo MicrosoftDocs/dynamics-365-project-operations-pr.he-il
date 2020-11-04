@@ -9,37 +9,37 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077225"
 ---
-# <a name="skills-and-certifications"></a>כישורים והסמכות
-_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
+# <a name="skills-and-certifications"></a><span data-ttu-id="be9a5-103">כישורים והסמכות</span><span class="sxs-lookup"><span data-stu-id="be9a5-103">Skills and certifications</span></span>
+<span data-ttu-id="be9a5-104">_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="be9a5-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-מאפיינים משמשים להעשרת התכונות המשמשות לתיאור היכולות של משאב. ניתן לתאר כל מאפיין של משאב כ**כישור** או **הסמכה**.
+<span data-ttu-id="be9a5-105">מאפיינים משמשים להעשרת התכונות המשמשות לתיאור היכולות של משאב.</span><span class="sxs-lookup"><span data-stu-id="be9a5-105">Characteristics are used to enrich the attributes used to describe the abilities of a resource.</span></span> <span data-ttu-id="be9a5-106">ניתן לתאר כל מאפיין של משאב כ **כישור** או **הסמכה**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-106">Each characteristic of a resource can be described as a **Skill** or a **Certification**.</span></span>
 
-הוספת מאפיינים לדרישות משאבים מאפשרת לתעד את הידע או המומחיות הדרושים למשאב לצורך השלמת המשימות בפרוייקט. מאפיינים מאפשרים לך לסנן את רשימת המשאבים הזמינים לפי אלה בעלי המאפיינים הנדרשים בעת תזמון הדרישה למשאבים.
+<span data-ttu-id="be9a5-107">הוספת מאפיינים לדרישות משאבים מאפשרת לתעד את הידע או המומחיות הדרושים למשאב לצורך השלמת המשימות בפרויקט.</span><span class="sxs-lookup"><span data-stu-id="be9a5-107">Adding characteristics to resource requirements lets you document the knowledge or expertise needed by a resource to complete tasks on a project.</span></span> <span data-ttu-id="be9a5-108">מאפיינים מאפשרים לך לסנן את רשימת המשאבים הזמינים לפי אלה בעלי המאפיינים הנדרשים בעת תזמון הדרישה למשאבים.</span><span class="sxs-lookup"><span data-stu-id="be9a5-108">Characteristics let you filter the list of available resources to those resources that have the required characteristics when scheduling the resource requirement.</span></span>
 
-## <a name="add-characteristics"></a>הוסף מאפיינים
+## <a name="add-characteristics"></a><span data-ttu-id="be9a5-109">הוסף מאפיינים</span><span class="sxs-lookup"><span data-stu-id="be9a5-109">Add characteristics</span></span>
 
-1. בתפריט הראשי, פתח את **משאבים** ובמקטע **משאבים**, בחר **כישורים**.
-2. בחר **חדש** כדי להוסיף מאפיינים.
-3. מלא את השדות הנדרשים ובחר **סוג מאפיין**.
+1. <span data-ttu-id="be9a5-110">בתפריט הראשי, פתח את **משאבים** ובמקטע **משאבים** , בחר **כישורים**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-110">From the main menu, open **Resources** and in the **Resources** section, select **Skills**.</span></span>
+2. <span data-ttu-id="be9a5-111">בחר **חדש** כדי להוסיף מאפיינים.</span><span class="sxs-lookup"><span data-stu-id="be9a5-111">Select **New** to add characteristics.</span></span>
+3. <span data-ttu-id="be9a5-112">מלא את השדות הנדרשים ובחר **סוג מאפיין**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-112">Fill in the required fields and select the **Characteristic Type**.</span></span>
 
-## <a name="assign-characteristics-to-resources"></a>הקצאת מאפיינים למשאבים
+## <a name="assign-characteristics-to-resources"></a><span data-ttu-id="be9a5-113">הקצאת מאפיינים למשאבים</span><span class="sxs-lookup"><span data-stu-id="be9a5-113">Assign characteristics to resources</span></span>
 
-1. בתפריט הראשי, בחר **משאבים** > **‏‫משאבים הניתנים להזמנה**. הדף **משאבים פעילים הניתנים להזמנה** ייפתח ויציג רשימה של כל המשאבים הזמינים במערכת.
-2. בחר ברשימה את שמו של משאב ניתן להזמנה.
-3. במקטע **שירות הפרוייקטים**, בחר **+הוסף רשומה של מאפייני משאב הניתן להזמנה**.
-4. בחלון המוקפץ שייפתח, אתר ובחר את המאפיינים הנדרשים והוסף **ערך דירוג** עבור המשאב.
-5. בחר **Save & Close**.
+1. <span data-ttu-id="be9a5-114">בתפריט הראשי, בחר **משאבים** > **‏‫משאבים הניתנים להזמנה**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-114">From the main menu, select **Resources** > **Bookable Resources**.</span></span> <span data-ttu-id="be9a5-115">הדף **משאבים פעילים הניתנים להזמנה** ייפתח ויציג רשימה של כל המשאבים הזמינים במערכת.</span><span class="sxs-lookup"><span data-stu-id="be9a5-115">The **Active Bookable Resources** page opens and you can view a list of all available resources in the system.</span></span>
+2. <span data-ttu-id="be9a5-116">בחר ברשימה את שמו של משאב ניתן להזמנה.</span><span class="sxs-lookup"><span data-stu-id="be9a5-116">From the list, select the name of a bookable resource.</span></span>
+3. <span data-ttu-id="be9a5-117">במקטע **שירות הפרויקטים** , בחר **+הוסף רשומה של מאפייני משאב הניתן להזמנה**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-117">In the **Project Service** section, select **+Add Bookable Resource Characteristics record**.</span></span>
+4. <span data-ttu-id="be9a5-118">בחלון המוקפץ שייפתח, אתר ובחר את המאפיינים הנדרשים והוסף **ערך דירוג** עבור המשאב.</span><span class="sxs-lookup"><span data-stu-id="be9a5-118">In the pop-up window that opens, find and select the required characteristics, and add a **Rating Value** for the resource.</span></span>
+5. <span data-ttu-id="be9a5-119">בחר **Save & Close**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-119">Select **Save & Close**.</span></span>
 
-## <a name="assign-characteristics-to-resource-requirements"></a>הקצאת מאפיינים לדרישות משאב
+## <a name="assign-characteristics-to-resource-requirements"></a><span data-ttu-id="be9a5-120">הקצאת מאפיינים לדרישות משאב</span><span class="sxs-lookup"><span data-stu-id="be9a5-120">Assign characteristics to resource requirements</span></span>
 
-1. ברשת חברי הצוות, מצא ולחץ פעמיים על חבר הצוות הגנרי בעל המאפיינים שיש לעדכן.
-2. בתוך ה**פרט חבר צוות בפרוייקט**, בחר את הכרטיסיה **דרישת משאב**.
-3. ברשת המשנה **כישורים**, בחר **+הוסף מאפיין דרישה חדש.**
-4. בחלונית היצירה המהירה, מצא ובחר את המאפיינים הנדרשים והוסף **ערך דירוג**.
-5. בחר **Save & Close**.
+1. <span data-ttu-id="be9a5-121">ברשת חברי הצוות, מצא ולחץ פעמיים על חבר הצוות הגנרי בעל המאפיינים שיש לעדכן.</span><span class="sxs-lookup"><span data-stu-id="be9a5-121">In the team member grid, find and double-click the generic team member with the characteristics that need to be updated.</span></span>
+2. <span data-ttu-id="be9a5-122">בתוך ה **פרט חבר צוות בפרויקט** , בחר את הכרטיסיה **דרישת משאב**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-122">In the **Project Team member Detail** , select the **Resource Requirement** tab.</span></span>
+3. <span data-ttu-id="be9a5-123">ברשת המשנה **כישורים** , בחר **+הוסף מאפיין דרישה חדש.**</span><span class="sxs-lookup"><span data-stu-id="be9a5-123">In the **Skills** subgrid, select **+Add new Requirement Characteristic.**</span></span>
+4. <span data-ttu-id="be9a5-124">בחלונית היצירה המהירה, מצא ובחר את המאפיינים הנדרשים והוסף **ערך דירוג**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-124">In the quick create pane, find and select the required characteristics and add a **Rating Value**.</span></span>
+5. <span data-ttu-id="be9a5-125">בחר **Save & Close**.</span><span class="sxs-lookup"><span data-stu-id="be9a5-125">Select **Save & Close**.</span></span>

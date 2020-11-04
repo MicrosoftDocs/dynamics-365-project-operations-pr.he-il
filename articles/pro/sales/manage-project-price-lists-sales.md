@@ -9,61 +9,61 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077231"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>נהל מחירוני פרויקטים בהצעות מחיר (מכירות)
+# <a name="manage-project-price-lists-on-project-quotes-sales"></a><span data-ttu-id="93414-104">נהל מחירוני פרויקטים בהצעות מחיר (מכירות)</span><span class="sxs-lookup"><span data-stu-id="93414-104">Manage project price lists on project quotes (Sales)</span></span>
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+<span data-ttu-id="93414-105">_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="93414-105">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
 
-מחירונים של פרויקטים נועדו לתמוך במחירוני מכירות מרובים התקפים בתאריכים מסוימים. עם Dynamics 365 Project Operations, ישות משויכת חדשה הנקראת **מחירוני פרויקט** מתווספת. לישות זו קשר אחד לרבים להצעת מחיר של הפרויקט.
+<span data-ttu-id="93414-106">מחירונים של פרויקטים נועדו לתמוך במחירוני מכירות מרובים התקפים בתאריכים מסוימים.</span><span class="sxs-lookup"><span data-stu-id="93414-106">Project quotes are designed to support multiple date effective sales price lists.</span></span> <span data-ttu-id="93414-107">עם Dynamics 365 Project Operations, ישות משויכת חדשה הנקראת **מחירוני פרויקט** מתווספת.</span><span class="sxs-lookup"><span data-stu-id="93414-107">With Dynamics 365 Project Operations, a new associated entity called **Project price lists** is added.</span></span> <span data-ttu-id="93414-108">לישות זו קשר אחד לרבים להצעת מחיר של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-108">This entity has a 1-to-many relationship to a project quote.</span></span>
 
-מחירוני הפרויקט משמשים לתמחור עסקאות זמן והוצאות בפרויקט. כאשר להצעת מחיר יש מחירון פרוייקט אחד או יותר, מחירונים אלה משמשים לתמחור הערכות זמן והוצאות ונתונים בפועל בפרויקטים המשויכים להצעת המחיר דרך שורת הצעת המחיר.
+<span data-ttu-id="93414-109">מחירוני הפרויקט משמשים לתמחור עסקאות זמן והוצאות בפרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-109">Project price lists are used to price time and expense transactions on a project.</span></span> <span data-ttu-id="93414-110">כאשר להצעת מחיר יש מחירון פרויקט אחד או יותר, מחירונים אלה משמשים לתמחור הערכות זמן והוצאות ונתונים בפועל בפרויקטים המשויכים להצעת המחיר דרך שורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="93414-110">When a quote has one or more project price lists, these price lists are used to price time and expense estimates and actuals on projects that are associated to the quote through the quote line.</span></span>
 
-כאשר אין מחירוני פרויקט בהצעת מחיר של פרויקט, תקבל הודעת אזהרה. ההודעה מציינת שמכיוון שאין מחירוני פרויקט, העבודה וההוצאות המשוערות והאקטואליות של הפרויקט יתומחרו. במקום זאת, יהיה להם מחיר של אפס (0) לערכי מכירה.
+<span data-ttu-id="93414-111">כאשר אין מחירוני פרויקט בהצעת מחיר של פרויקט, תקבל הודעת אזהרה.</span><span class="sxs-lookup"><span data-stu-id="93414-111">When there are no project price lists on a project quote, you will receive a warning message.</span></span> <span data-ttu-id="93414-112">ההודעה מציינת שמכיוון שאין מחירוני פרויקט, העבודה וההוצאות המשוערות והאקטואליות של הפרויקט יתומחרו.</span><span class="sxs-lookup"><span data-stu-id="93414-112">The message states that because there are no project price lists, your estimated and actual project work and expenses will not be priced.</span></span> <span data-ttu-id="93414-113">במקום זאת, יהיה להם מחיר של אפס (0) לערכי מכירה.</span><span class="sxs-lookup"><span data-stu-id="93414-113">Instead, they will have zero (0) price for sales values.</span></span>
 
-## <a name="associate-or-disassociate-a-project-price-list-on-a-project-quote"></a>שיוך או ביטול השיוך של מחירון הפרויקט בהצעת מחיר של פרויקט
+## <a name="associate-or-disassociate-a-project-price-list-on-a-project-quote"></a><span data-ttu-id="93414-114">שיוך או ביטול השיוך של מחירון הפרויקט בהצעת מחיר של פרויקט</span><span class="sxs-lookup"><span data-stu-id="93414-114">Associate or disassociate a project price list on a project quote</span></span>
 
-כדי ליצור או לבחור מחירון ספציפי להערכת עבודה והוצאות מבוססות פרויקט, בצע את השלבים הבאים.
+<span data-ttu-id="93414-115">כדי ליצור או לבחור מחירון ספציפי להערכת עבודה והוצאות מבוססות פרויקט, בצע את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="93414-115">To create or select a specific price list for estimating project-based work and expenses, complete the following steps.</span></span>
 
-1. בהצעת המחיר, בחר את הכרטיסיה **מחיר הפרויקט** וברשת המשנה, בחר **+ הוסף מחירון פרוייקט חדש**.
-2. בדף היצירה מהירה בחר מחירון. הרשימה הנפתחת מציגה את כל המחירונים שבהם ההקשר מוגדר ל**מכירות** והמטבע תואם את המטבע שבהצעת המחיר.
-4. הזן תיאור עבור שיוך מחירון הפרויקט ובחר **שמור וסגור**.
+1. <span data-ttu-id="93414-116">בהצעת המחיר, בחר את הכרטיסיה **מחיר הפרויקט** וברשת המשנה, בחר **+ הוסף מחירון פרויקט חדש**.</span><span class="sxs-lookup"><span data-stu-id="93414-116">On the quote, select the **Project Price** tab and in the subgrid, select **+ Add New Project Price List**.</span></span>
+2. <span data-ttu-id="93414-117">בדף היצירה מהירה בחר מחירון.</span><span class="sxs-lookup"><span data-stu-id="93414-117">On the Quick Create page, select a price list.</span></span> <span data-ttu-id="93414-118">הרשימה הנפתחת מציגה את כל המחירונים שבהם ההקשר מוגדר ל **מכירות** והמטבע תואם את המטבע שבהצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="93414-118">The drop-down list shows all price lists that have the context set to **Sales** and the currency matches the currency on the quote.</span></span>
+4. <span data-ttu-id="93414-119">הזן תיאור עבור שיוך מחירון הפרויקט ובחר **שמור וסגור**.</span><span class="sxs-lookup"><span data-stu-id="93414-119">Enter a description for the project price list association and select **Save and Close**.</span></span>
 
-נוצר שיוך למחירון פרוייקט.
+<span data-ttu-id="93414-120">נוצר שיוך למחירון פרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-120">A project price list association is created.</span></span>
 
-ניתן לחזור על תהליך זה אם עליך לשייך יותר ממחירון פרוייקט אחד להצעת המחיר של הפרויקט. יש ליצור מחירוני פרוייקטים מרובים רק אם יש לך תאריכים תוקף שונים בכל אחד ממחירוני הפרויקט המשויכים.
+<span data-ttu-id="93414-121">ניתן לחזור על תהליך זה אם עליך לשייך יותר ממחירון פרויקט אחד להצעת המחיר של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-121">You can repeat this process if you need to associate more than one project price list to the project quote.</span></span> <span data-ttu-id="93414-122">יש ליצור מחירוני פרויקטים מרובים רק אם יש לך תאריכים תוקף שונים בכל אחד ממחירוני הפרויקט המשויכים.</span><span class="sxs-lookup"><span data-stu-id="93414-122">Only create multiple project price lists if you have different effective dates on each of the associated project price lists.</span></span>
 
 > [!NOTE]
-> Project Operations אינו תומך בחפיפת תוקף תאריכים של מחירוני הפרויקטים. אם קיימות מספר מחירוני פרויקט עבור עסקה עם תאריך נותן, כברירת מחדל המחיר של אותה עסקה יוגדר לאפס (0).
-כדי להסיר שיוך של מחירון פרוייקט, בחר את מחירון הפרויקט ואז בחר **מחק את מחירון הפרויקט של הצעת מחיר**. המחירון יוסר ממחירוני הפרויקט של הצעת המחיר, אך המחירון עצמו אינו נמחק. רק השיוך להצעת המחיר נמחק.
+> <span data-ttu-id="93414-123">Project Operations אינו תומך בחפיפת תוקף תאריכים של מחירוני הפרויקטים.</span><span class="sxs-lookup"><span data-stu-id="93414-123">Project Operations does't support overlapping date effectivity of the project price lists.</span></span> <span data-ttu-id="93414-124">אם קיימות מספר מחירוני פרויקט עבור עסקה עם תאריך נותן, כברירת מחדל המחיר של אותה עסקה יוגדר לאפס (0).</span><span class="sxs-lookup"><span data-stu-id="93414-124">If there are multiple project prices lists for a transaction with given date, the price on that transaction will be defaulted to zero (0).</span></span>
+<span data-ttu-id="93414-125">כדי להסיר שיוך של מחירון פרויקט, בחר את מחירון הפרויקט ואז בחר **מחק את מחירון הפרויקט של הצעת מחיר**.</span><span class="sxs-lookup"><span data-stu-id="93414-125">To remove a project price list association, select the project price list and then select **Delete Quote Project Price List**.</span></span> <span data-ttu-id="93414-126">המחירון יוסר ממחירוני הפרויקט של הצעת המחיר, אך המחירון עצמו אינו נמחק.</span><span class="sxs-lookup"><span data-stu-id="93414-126">The price list is removed from the project price lists of the quote, but the price list itself is not deleted.</span></span> <span data-ttu-id="93414-127">רק השיוך להצעת המחיר נמחק.</span><span class="sxs-lookup"><span data-stu-id="93414-127">Only the association to the quote is deleted.</span></span>
 
-## <a name="set-up-default-project-price-lists-on-a-quote"></a>הגדר מחירוני פרוייקט ברירת מחדל בהצעת מחיר
+## <a name="set-up-default-project-price-lists-on-a-quote"></a><span data-ttu-id="93414-128">הגדר מחירוני פרויקט ברירת מחדל בהצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="93414-128">Set up default project price lists on a quote</span></span>
 
-ניתן להגדיר מחירוני פרוייקטים כברירת מחדל בהצעת מחיר של פרויקט. הגדרה זו מבטיחה שכל הצעות המחיר בארגון שלך תמיד מתחילות במחירון סטנדרטי לאותה לתקופת המחיר.
+<span data-ttu-id="93414-129">ניתן להגדיר מחירוני פרויקטים כברירת מחדל בהצעת מחיר של פרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-129">Project price lists can be set up to default on a project quote.</span></span> <span data-ttu-id="93414-130">הגדרה זו מבטיחה שכל הצעות המחיר בארגון שלך תמיד מתחילות במחירון סטנדרטי לאותה לתקופת המחיר.</span><span class="sxs-lookup"><span data-stu-id="93414-130">This setup ensures that all quotes in your organization always start with a standard price list for that price period.</span></span>
 
-### <a name="set-up-organizational-default-for-project-price-lists"></a>הגדר ברירת מחדל ארגוני עבור מחירוני פרויקט
+### <a name="set-up-organizational-default-for-project-price-lists"></a><span data-ttu-id="93414-131">הגדר ברירת מחדל ארגוני עבור מחירוני פרויקט</span><span class="sxs-lookup"><span data-stu-id="93414-131">Set up organizational default for project price lists</span></span>
 
-1. עבור אל **הגדרות** > **כללי** > **פרמטרים**.
-2. בדף הרשימה **פרמטרים פעילים**, אתר את הרשומה ולחץ פעמיים כדי לפתוח אותה. 
-3. בדף **פרמטרים** בחר את הכרטיסיה **מחירון**. תוכל לראות את רשימת המחירונים המוגדרים כברירת מחדל. זוהי רשימת מחירי עלות סטנדרטיים ומחירוני מכירה. כאשר יש מחירון מכירות המשויך כאן לכל מטבע שבו אתה מוכר, הדבר יבטיח כי מחירון מכירה זה יוגדר כברירת מחדל בכל הצעת מחיר שתיצור עבור לקוחות המבצעים עסקאות במטבע זה.
+1. <span data-ttu-id="93414-132">עבור אל **הגדרות** > **כללי** > **פרמטרים**.</span><span class="sxs-lookup"><span data-stu-id="93414-132">Go to **Settings** > **General** > **Parameters**.</span></span>
+2. <span data-ttu-id="93414-133">בדף הרשימה **פרמטרים פעילים** , אתר את הרשומה ולחץ פעמיים כדי לפתוח אותה.</span><span class="sxs-lookup"><span data-stu-id="93414-133">On the **Active Parameters** list page, locate the record and double-click to open it.</span></span> 
+3. <span data-ttu-id="93414-134">בדף **פרמטרים** בחר את הכרטיסיה **מחירון**. תוכל לראות את רשימת המחירונים המוגדרים כברירת מחדל.</span><span class="sxs-lookup"><span data-stu-id="93414-134">On the **Parameters** page, select the **Price List** tab. You can see the list of default price lists is shown.</span></span> <span data-ttu-id="93414-135">זוהי רשימת מחירי עלות סטנדרטיים ומחירוני מכירה.</span><span class="sxs-lookup"><span data-stu-id="93414-135">This is a list standard cost and sales price lists.</span></span> <span data-ttu-id="93414-136">כאשר יש מחירון מכירות המשויך כאן לכל מטבע שבו אתה מוכר, הדבר יבטיח כי מחירון מכירה זה יוגדר כברירת מחדל בכל הצעת מחיר שתיצור עבור לקוחות המבצעים עסקאות במטבע זה.</span><span class="sxs-lookup"><span data-stu-id="93414-136">Having a sales price list associated here for every currency that you sell in, will ensure that this sales price list is defaulted on any quote that you create for customers that transact in this currency.</span></span>
 
-### <a name="set-up-customer-specific-project-price-lists"></a>הגדר מחירוני פרויקט ספציפיים ללקוח
+### <a name="set-up-customer-specific-project-price-lists"></a><span data-ttu-id="93414-137">הגדר מחירוני פרויקט ספציפיים ללקוח</span><span class="sxs-lookup"><span data-stu-id="93414-137">Set up customer-specific project price lists</span></span>
 
-ניתן להגדיר מחירוני פרויקט ספציפיים ללקוח גם כאשר סיכמתם במשא ומתן על הסכם תמחור ראשי עם הלקוחות שלכם.
+<span data-ttu-id="93414-138">ניתן להגדיר מחירוני פרויקט ספציפיים ללקוח גם כאשר סיכמתם במשא ומתן על הסכם תמחור ראשי עם הלקוחות שלכם.</span><span class="sxs-lookup"><span data-stu-id="93414-138">Customer-specific project price lists can also be set up when you have negotiated a master pricing agreement with your customers.</span></span>
 
-כדי להגדיר מחירון פרויקט ספציפי ללקוח, בצע את השלבים הבאים.
+<span data-ttu-id="93414-139">כדי להגדיר מחירון פרויקט ספציפי ללקוח, בצע את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="93414-139">To set up a customer-specific project price list, complete the following steps.</span></span>
 
-1. באזור **מכירות** , בחר **לקוחות**.
-2. ברשימת תיקי הלקוח הפעילים שלך, בחר ופתח את הרשומה של הלקוח שעבורו יש לך מחירון מיוחד.
-3. על הכרטיסיסה **מחירוני לפרויקט**, ניתן ליצור שיוך מחירון חדש כדי לקבל את מחירון הפרויקט הספציפי של לקוח זה.
+1. <span data-ttu-id="93414-140">באזור **מכירות** , בחר **לקוחות**.</span><span class="sxs-lookup"><span data-stu-id="93414-140">In the **Sales** area, select **Customers**.</span></span>
+2. <span data-ttu-id="93414-141">ברשימת תיקי הלקוח הפעילים שלך, בחר ופתח את הרשומה של הלקוח שעבורו יש לך מחירון מיוחד.</span><span class="sxs-lookup"><span data-stu-id="93414-141">In the list of your active accounts, select and open the customer record that you have special price list for.</span></span>
+3. <span data-ttu-id="93414-142">על הכרטיסיסה **מחירוני לפרויקט** , ניתן ליצור שיוך מחירון חדש כדי לקבל את מחירון הפרויקט הספציפי של לקוח זה.</span><span class="sxs-lookup"><span data-stu-id="93414-142">On the **Project Price Lists** tab, you can create a new price list association to have the project price list that is specific to this customer.</span></span>
 
-## <a name="create-custom-pricing-on-a-project-quote"></a>יצירת תמחור מותאם אישית בהצעת מחיר של פרויקט
+## <a name="create-custom-pricing-on-a-project-quote"></a><span data-ttu-id="93414-143">יצירת תמחור מותאם אישית בהצעת מחיר של פרויקט</span><span class="sxs-lookup"><span data-stu-id="93414-143">Create custom pricing on a project quote</span></span>
 
-לאחר הגדרת מחירוני פרוייקט ברירת מחדל שהם ספציפיים לארגונים וללקוחות, הצעות המחיר להפרויקט ייווצרו אוטומטית עם שיוכים אלו של מחירוני פרויקט. עם זאת, במקרים מסוימים, ייתכן שיהיה עליך ליצור תמחור מותאם אישית להצעת מחיר ספציפית של פרויקט. 
+<span data-ttu-id="93414-144">לאחר הגדרת מחירוני פרויקט ברירת מחדל שהם ספציפיים לארגונים וללקוחות, הצעות המחיר להפרויקט ייווצרו אוטומטית עם שיוכים אלו של מחירוני פרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-144">After you have organizational and customer-specific default project price lists, your project quotes will automatically be created with these project price list associations.</span></span> <span data-ttu-id="93414-145">עם זאת, במקרים מסוימים, ייתכן שיהיה עליך ליצור תמחור מותאם אישית להצעת מחיר ספציפית של פרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-145">However, in certain cases, you may need to create custom pricing for a specific project quote.</span></span> 
 
-1. ב**הצעת מחיר של פרויקט**, בכרטיסיה **מחירון הפרויקט**, ודא ברשת המשנה שלא נבחרה רשומת מחירון ספציפית.
-2. בחר **צור תמחור מותאם אישית**. פעולה זו תיצור עותקים של כל המחירונים הסטנדרטיים המשויכים כרגע להצעת המחיר ותשייך עותקים אלה אל הצעת המחיר. השיוכים הקיימות למחירונים הסטנדרטיים יוסרו. לאחר מכן, איש המכירות יכול להתחיל לערוך את המחירים בהעתקים אלה. מחירים אלה ששונו, יחולו רק על הצעת המחיר זו לפרויקט.
+1. <span data-ttu-id="93414-146">ב **הצעת מחיר של פרויקט** , בכרטיסיה **מחירון הפרויקט** , ודא ברשת המשנה שלא נבחרה רשומת מחירון ספציפית.</span><span class="sxs-lookup"><span data-stu-id="93414-146">On the **Project Quote** , on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.</span></span>
+2. <span data-ttu-id="93414-147">בחר **צור תמחור מותאם אישית**.</span><span class="sxs-lookup"><span data-stu-id="93414-147">Select **Create Custom Pricing**.</span></span> <span data-ttu-id="93414-148">פעולה זו תיצור עותקים של כל המחירונים הסטנדרטיים המשויכים כרגע להצעת המחיר ותשייך עותקים אלה אל הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="93414-148">This will make copies of all the standard price lists currently associated to the quote and associate these copies to the quote.</span></span> <span data-ttu-id="93414-149">השיוכים הקיימות למחירונים הסטנדרטיים יוסרו.</span><span class="sxs-lookup"><span data-stu-id="93414-149">The existing associations to standard price lists will be removed.</span></span> <span data-ttu-id="93414-150">לאחר מכן, איש המכירות יכול להתחיל לערוך את המחירים בהעתקים אלה.</span><span class="sxs-lookup"><span data-stu-id="93414-150">The salesperson can then begin making edits to prices on these copies.</span></span> <span data-ttu-id="93414-151">מחירים אלה ששונו, יחולו רק על הצעת המחיר זו לפרויקט.</span><span class="sxs-lookup"><span data-stu-id="93414-151">These changed prices will be applicable to this project quote only.</span></span>

@@ -3,67 +3,67 @@ title: ייבוא הערכות עובר פרוייקט לשורת הצעת מח�
 description: נושא זה מספק מידע על ייבוא הערכות מפרויקט לשורת הצעת מחיר.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077224"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>ייבוא הערכות עובר פרוייקט לשורת הצעת מחיר מבוססת פרויקט
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="5a677-103">ייבוא הערכות עובר פרוייקט לשורת הצעת מחיר מבוססת פרויקט</span><span class="sxs-lookup"><span data-stu-id="5a677-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
+<span data-ttu-id="5a677-104">_**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="5a677-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-אם פרויקט נוצר בשלב טרום המכירה, ניתן לבחור לייבא את ההערכה הכספית מהפרויקט לשורת הצעת המחיר מבוססת הפרויקט.
+<span data-ttu-id="5a677-105">אם פרויקט נוצר בשלב טרום המכירה, ניתן לבחור לייבא את ההערכה הכספית מהפרויקט לשורת הצעת המחיר מבוססת הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="5a677-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. וודא כי פרטי הפרויקט קיימים בשורת הצעת המחיר מבוססת הפרויקט, בשדה **פרויקט**.
-2. בכרטיסיה **פרטים בשורת הצעת מחיר**, בחר **ייבא מהערכת הפרוייקט**.
-3. לאחר פתיחת דף הדו-שיח, בחר באחת מהאפשרויות הסיכום הבאות.
+1. <span data-ttu-id="5a677-106">וודא כי פרטי הפרויקט קיימים בשורת הצעת המחיר מבוססת הפרויקט, בשדה **פרויקט**.</span><span class="sxs-lookup"><span data-stu-id="5a677-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="5a677-107">בכרטיסיה **פרטים בשורת הצעת מחיר** , בחר **ייבא מהערכת הפרוייקט**.</span><span class="sxs-lookup"><span data-stu-id="5a677-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="5a677-108">לאחר פתיחת דף הדו-שיח, בחר באחת מהאפשרויות הסיכום הבאות:</span><span class="sxs-lookup"><span data-stu-id="5a677-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **מחלקת עסקה**
-  - **קטגוריה**
-  - **תפקיד** 
-  - **משימת פרוייקט**
+  - <span data-ttu-id="5a677-109">**מחלקת עסקה**</span><span class="sxs-lookup"><span data-stu-id="5a677-109">**Transaction class**</span></span>
+  - <span data-ttu-id="5a677-110">**קטגוריה**</span><span class="sxs-lookup"><span data-stu-id="5a677-110">**Category**</span></span>
+  - <span data-ttu-id="5a677-111">**תפקיד**</span><span class="sxs-lookup"><span data-stu-id="5a677-111">**Role**</span></span> 
+  - <span data-ttu-id="5a677-112">**משימת פרוייקט**</span><span class="sxs-lookup"><span data-stu-id="5a677-112">**Project task**</span></span>
 
-על סמך בחירתך, ההערכה מהפרויקט עבור כל סווגי העסקאות הכלולות בשורת הצעת מחיר זו מועתקת. כדי לבדוק אילו סיווגי עסקאות כלולות, בחר בכרטיסיה **כללי** בשורת הצעת המחיר מבוססת הפרויקט, ובדוק את הערכים עבור **כלול זמן**, **כלול הוצאות**, ו**כלול עמלות**.
+<span data-ttu-id="5a677-113">על סמך בחירתך, ההערכה מהפרויקט עבור כל סווגי העסקאות הכלולות בשורת הצעת מחיר זו מועתקת.</span><span class="sxs-lookup"><span data-stu-id="5a677-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="5a677-114">כדי לבדוק אילו סיווגי עסקאות כלולות, בחר בכרטיסיה **כללי** בשורת הצעת המחיר מבוססת הפרויקט, ובדוק את הערכים עבור **כלול זמן** , **כלול הוצאות** , ו **כלול עמלות**.</span><span class="sxs-lookup"><span data-stu-id="5a677-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-כאשר אתה מייבא הערכות, המערכת תגדיר תמחור ברירת המחדל בהתבסס על מחירוני הפרויקט המצורפים להצעת המחיר וסוג החיוב שהוגדר בשורת הצעת המחיר מבוססת הפרויקט. אם תפקיד או קטגוריה מוגדרים בשורת הצעת המחיר מבוססת הפרויקט כבלתי ניתנים לחיוב, שורת ההערכה המיובאת תוגדר כבלתי ניתנת לחיוב ולא תגיע לערך הצעת המחיר שבשורת הצעת המחיר.
+<span data-ttu-id="5a677-115">כשמייבאים הערכות, המערכת תגדיר תמחור ברירת המחדל בהתבסס על מחירוני הפרויקט המצורפים להצעת המחיר וסוג החיוב שהוגדר בשורת הצעת המחיר מבוססת הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="5a677-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="5a677-116">אם תפקיד או קטגוריה מוגדרים בשורת הצעת המחיר מבוססת הפרויקט כבלתי ניתנים לחיוב, שורת ההערכה המיובאת תוגדר כבלתי ניתנת לחיוב ולא תגיע לערך הצעת המחיר שבשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="5a677-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-כאשר קיימים פרטים בשורת הצעת מחיר, השדות **ערך הצעת המחיר** ו**המס המשוער** בשורת הצעת המחיר מסוכמים ואינם ניתנים לעריכה.
+<span data-ttu-id="5a677-117">כאשר קיימים פרטים בשורת הצעת מחיר, השדות **ערך הצעת המחיר** ו **המס המשוער** בשורת הצעת המחיר מסוכמים ואינם ניתנים לעריכה.</span><span class="sxs-lookup"><span data-stu-id="5a677-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-כאשר נבחרות אפשרויות סיכום מרובות, הסיכום מנסה לסכם לפי כל האפשרויות שנבחרו. המשמעות היא שהסכום של שורות הצעת מחיר מיובאות יהיה גבוה יותר מאשר אם הייתה נבחרת אפשרות סיכום אחת בלבד.
+<span data-ttu-id="5a677-118">כאשר נבחרות אפשרויות סיכום מרובות, המערכת מנסה לסכם לפי כל האפשרויות שנבחרו.</span><span class="sxs-lookup"><span data-stu-id="5a677-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="5a677-119">התוצאה היא שהפלט של שורות הצעת מחיר מיובאות יהיה גבוה יותר מאשר אם הייתה נבחרת אפשרות סיכום אחת בלבד.</span><span class="sxs-lookup"><span data-stu-id="5a677-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-לדוגמא, אם בפרויקט קיימות שורות ההערכה הבאות להוצאות.
+<span data-ttu-id="5a677-120">לדוגמה, אם בפרויקט קיימות שורות ההערכה הבאות להוצאות.</span><span class="sxs-lookup"><span data-stu-id="5a677-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| משימה | קטגוריה | תאריך | כמות | מחיר יחידה | סכום |
+| <span data-ttu-id="5a677-121">משימה</span><span class="sxs-lookup"><span data-stu-id="5a677-121">Task</span></span> | <span data-ttu-id="5a677-122">קטגוריה</span><span class="sxs-lookup"><span data-stu-id="5a677-122">Category</span></span> | <span data-ttu-id="5a677-123">תאריך</span><span class="sxs-lookup"><span data-stu-id="5a677-123">Date</span></span> | <span data-ttu-id="5a677-124">כמות</span><span class="sxs-lookup"><span data-stu-id="5a677-124">Quantity</span></span> | <span data-ttu-id="5a677-125">מחיר יחידה</span><span class="sxs-lookup"><span data-stu-id="5a677-125">Unit price</span></span> | <span data-ttu-id="5a677-126">סכום</span><span class="sxs-lookup"><span data-stu-id="5a677-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| משימה א' | טיסות | 1/10/2020 | 4 | 400 | 1600 |
-| משימה ב' | בתי מלון | 1/10/2020 | 4 | 200 | 800 |
-| משימה ג' | בתי מלון | 1/11/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="5a677-127">משימה א'</span><span class="sxs-lookup"><span data-stu-id="5a677-127">Task A</span></span> | <span data-ttu-id="5a677-128">טיסות</span><span class="sxs-lookup"><span data-stu-id="5a677-128">Airfare</span></span> | <span data-ttu-id="5a677-129">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-129">10/1/2020</span></span> | <span data-ttu-id="5a677-130">4</span><span class="sxs-lookup"><span data-stu-id="5a677-130">4</span></span> | <span data-ttu-id="5a677-131">400</span><span class="sxs-lookup"><span data-stu-id="5a677-131">400</span></span> | <span data-ttu-id="5a677-132">1600</span><span class="sxs-lookup"><span data-stu-id="5a677-132">1600</span></span> |
+| <span data-ttu-id="5a677-133">משימה ב'</span><span class="sxs-lookup"><span data-stu-id="5a677-133">Task B</span></span> | <span data-ttu-id="5a677-134">בתי מלון</span><span class="sxs-lookup"><span data-stu-id="5a677-134">Hotel</span></span> | <span data-ttu-id="5a677-135">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-135">10/1/2020</span></span> | <span data-ttu-id="5a677-136">4</span><span class="sxs-lookup"><span data-stu-id="5a677-136">4</span></span> | <span data-ttu-id="5a677-137">200</span><span class="sxs-lookup"><span data-stu-id="5a677-137">200</span></span> | <span data-ttu-id="5a677-138">800</span><span class="sxs-lookup"><span data-stu-id="5a677-138">800</span></span> |
+| <span data-ttu-id="5a677-139">משימה ג'</span><span class="sxs-lookup"><span data-stu-id="5a677-139">Task C</span></span> | <span data-ttu-id="5a677-140">בתי מלון</span><span class="sxs-lookup"><span data-stu-id="5a677-140">Hotel</span></span> | <span data-ttu-id="5a677-141">1/11/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-141">11/1/2020</span></span> | <span data-ttu-id="5a677-142">2</span><span class="sxs-lookup"><span data-stu-id="5a677-142">2</span></span> | <span data-ttu-id="5a677-143">200</span><span class="sxs-lookup"><span data-stu-id="5a677-143">200</span></span> | <span data-ttu-id="5a677-144">400</span><span class="sxs-lookup"><span data-stu-id="5a677-144">400</span></span> |
 
-כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות, המידע הבא ייובא.
+<span data-ttu-id="5a677-145">כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות, המידע הבא ייובא.</span><span class="sxs-lookup"><span data-stu-id="5a677-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| משימה | קטגוריה | תאריך | כמות | מחיר יחידה | סכום |
+| <span data-ttu-id="5a677-146">משימה</span><span class="sxs-lookup"><span data-stu-id="5a677-146">Task</span></span> | <span data-ttu-id="5a677-147">קטגוריה</span><span class="sxs-lookup"><span data-stu-id="5a677-147">Category</span></span> | <span data-ttu-id="5a677-148">תאריך</span><span class="sxs-lookup"><span data-stu-id="5a677-148">Date</span></span> | <span data-ttu-id="5a677-149">כמות</span><span class="sxs-lookup"><span data-stu-id="5a677-149">Quantity</span></span> | <span data-ttu-id="5a677-150">מחיר יחידה</span><span class="sxs-lookup"><span data-stu-id="5a677-150">Unit price</span></span> | <span data-ttu-id="5a677-151">סכום</span><span class="sxs-lookup"><span data-stu-id="5a677-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 1/10/2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="5a677-152">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-152">10/1/2020</span></span> | <span data-ttu-id="5a677-153">3.34</span><span class="sxs-lookup"><span data-stu-id="5a677-153">3.34</span></span> | <span data-ttu-id="5a677-154">840</span><span class="sxs-lookup"><span data-stu-id="5a677-154">840</span></span> | <span data-ttu-id="5a677-155">2800</span><span class="sxs-lookup"><span data-stu-id="5a677-155">2800</span></span> |
 
-כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות וקטגוריה, המידע הבא ייובא.
+<span data-ttu-id="5a677-156">כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות וקטגוריה, המידע הבא ייובא.</span><span class="sxs-lookup"><span data-stu-id="5a677-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| משימה | קטגוריה | תאריך | כמות | מחיר יחידה | סכום |
+| <span data-ttu-id="5a677-157">משימה</span><span class="sxs-lookup"><span data-stu-id="5a677-157">Task</span></span> | <span data-ttu-id="5a677-158">קטגוריה</span><span class="sxs-lookup"><span data-stu-id="5a677-158">Category</span></span> | <span data-ttu-id="5a677-159">תאריך</span><span class="sxs-lookup"><span data-stu-id="5a677-159">Date</span></span> | <span data-ttu-id="5a677-160">כמות</span><span class="sxs-lookup"><span data-stu-id="5a677-160">Quantity</span></span> | <span data-ttu-id="5a677-161">מחיר יחידה</span><span class="sxs-lookup"><span data-stu-id="5a677-161">Unit price</span></span> | <span data-ttu-id="5a677-162">סכום</span><span class="sxs-lookup"><span data-stu-id="5a677-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| משימה א' | טיסות | 1/10/2020 | 4 | 400 | 1600 |
-| | בתי מלון | 1/10/2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="5a677-163">משימה א'</span><span class="sxs-lookup"><span data-stu-id="5a677-163">Task A</span></span> | <span data-ttu-id="5a677-164">טיסות</span><span class="sxs-lookup"><span data-stu-id="5a677-164">Airfare</span></span> | <span data-ttu-id="5a677-165">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-165">10/1/2020</span></span> | <span data-ttu-id="5a677-166">4</span><span class="sxs-lookup"><span data-stu-id="5a677-166">4</span></span> | <span data-ttu-id="5a677-167">400</span><span class="sxs-lookup"><span data-stu-id="5a677-167">400</span></span> | <span data-ttu-id="5a677-168">1600</span><span class="sxs-lookup"><span data-stu-id="5a677-168">1600</span></span> |
+| | <span data-ttu-id="5a677-169">בתי מלון</span><span class="sxs-lookup"><span data-stu-id="5a677-169">Hotel</span></span> | <span data-ttu-id="5a677-170">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-170">10/1/2020</span></span> | <span data-ttu-id="5a677-171">6</span><span class="sxs-lookup"><span data-stu-id="5a677-171">6</span></span> | <span data-ttu-id="5a677-172">200</span><span class="sxs-lookup"><span data-stu-id="5a677-172">200</span></span> | <span data-ttu-id="5a677-173">1200</span><span class="sxs-lookup"><span data-stu-id="5a677-173">1200</span></span> |
 
-כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות, קטגוריה ומשימת צומת עלה, המידע הבא ייובא. שימו לב שתוצאה זו זהה למה שהיה בפרויקט.
+<span data-ttu-id="5a677-174">כאשר המשתמש בוחר לסכם לפי סיווגי עסקאות, קטגוריה ומשימת צומת עלה, המידע הבא ייובא.</span><span class="sxs-lookup"><span data-stu-id="5a677-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="5a677-175">שימו לב שתוצאה זו זהה למה שהיה בפרויקט.</span><span class="sxs-lookup"><span data-stu-id="5a677-175">Notice that this result is the same as what was on the project.</span></span>
 
-| משימה | קטגוריה | תאריך | כמות | מחיר יחידה | סכום |
+| <span data-ttu-id="5a677-176">משימה</span><span class="sxs-lookup"><span data-stu-id="5a677-176">Task</span></span> | <span data-ttu-id="5a677-177">קטגוריה</span><span class="sxs-lookup"><span data-stu-id="5a677-177">Category</span></span> | <span data-ttu-id="5a677-178">תאריך</span><span class="sxs-lookup"><span data-stu-id="5a677-178">Date</span></span> | <span data-ttu-id="5a677-179">כמות</span><span class="sxs-lookup"><span data-stu-id="5a677-179">Quantity</span></span> | <span data-ttu-id="5a677-180">מחיר יחידה</span><span class="sxs-lookup"><span data-stu-id="5a677-180">Unit price</span></span> | <span data-ttu-id="5a677-181">סכום</span><span class="sxs-lookup"><span data-stu-id="5a677-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| משימה א' | טיסות | 1/10/2020 | 4 | 400 | 1600 |
-| משימה ב' | בתי מלון | 1/10/2020 | 4 | 200 | 800 |
-| משימה ג' | בתי מלון | 1/11/2020 | 2 | 200 | 400 |
+| <span data-ttu-id="5a677-182">משימה א'</span><span class="sxs-lookup"><span data-stu-id="5a677-182">Task A</span></span> | <span data-ttu-id="5a677-183">טיסות</span><span class="sxs-lookup"><span data-stu-id="5a677-183">Airfare</span></span> | <span data-ttu-id="5a677-184">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-184">10/1/2020</span></span> | <span data-ttu-id="5a677-185">4</span><span class="sxs-lookup"><span data-stu-id="5a677-185">4</span></span> | <span data-ttu-id="5a677-186">400</span><span class="sxs-lookup"><span data-stu-id="5a677-186">400</span></span> | <span data-ttu-id="5a677-187">1600</span><span class="sxs-lookup"><span data-stu-id="5a677-187">1600</span></span> |
+| <span data-ttu-id="5a677-188">משימה ב'</span><span class="sxs-lookup"><span data-stu-id="5a677-188">Task B</span></span> | <span data-ttu-id="5a677-189">בתי מלון</span><span class="sxs-lookup"><span data-stu-id="5a677-189">Hotel</span></span> | <span data-ttu-id="5a677-190">1/10/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-190">10/1/2020</span></span> | <span data-ttu-id="5a677-191">4</span><span class="sxs-lookup"><span data-stu-id="5a677-191">4</span></span> | <span data-ttu-id="5a677-192">200</span><span class="sxs-lookup"><span data-stu-id="5a677-192">200</span></span> | <span data-ttu-id="5a677-193">800</span><span class="sxs-lookup"><span data-stu-id="5a677-193">800</span></span> |
+| <span data-ttu-id="5a677-194">משימה ג'</span><span class="sxs-lookup"><span data-stu-id="5a677-194">Task C</span></span> | <span data-ttu-id="5a677-195">בתי מלון</span><span class="sxs-lookup"><span data-stu-id="5a677-195">Hotel</span></span> | <span data-ttu-id="5a677-196">1/11/2020</span><span class="sxs-lookup"><span data-stu-id="5a677-196">11/1/2020</span></span> | <span data-ttu-id="5a677-197">2</span><span class="sxs-lookup"><span data-stu-id="5a677-197">2</span></span> | <span data-ttu-id="5a677-198">200</span><span class="sxs-lookup"><span data-stu-id="5a677-198">200</span></span> | <span data-ttu-id="5a677-199">400</span><span class="sxs-lookup"><span data-stu-id="5a677-199">400</span></span> |

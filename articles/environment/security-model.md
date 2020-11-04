@@ -8,71 +8,74 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896732"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077193"
 ---
-# <a name="security-model"></a>מודל האבטחה
+# <a name="security-model"></a><span data-ttu-id="7ff42-103">מודל האבטחה</span><span class="sxs-lookup"><span data-stu-id="7ff42-103">Security Model</span></span>
 
-_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
+<span data-ttu-id="7ff42-104">_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="7ff42-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Microsoft Dynamics 365 Project Operations מכיל מודל אבטחה ייחודי המאפשר מודל אבטחה עסקי מבוסס תפקיד המשתף פעולה עם Microsoft Office Groups. 
+<span data-ttu-id="7ff42-105">Microsoft Dynamics 365 Project Operations מכיל מודל אבטחה ייחודי המאפשר מודל אבטחה עסקי מבוסס תפקיד המשתף פעולה עם קבוצות Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="7ff42-105">Microsoft Dynamics 365 Project Operations contains a unique security model that allows for a role-based business security model that collaborates with Microsoft Office Groups.</span></span> 
 
 
-## <a name="security-roles"></a>תפקידי אבטחה
-יכולות החזית של Project Operations כוללות את התפקידים הבאים:
+## <a name="security-roles"></a><span data-ttu-id="7ff42-106">תפקידי אבטחה</span><span class="sxs-lookup"><span data-stu-id="7ff42-106">Security roles</span></span>
+<span data-ttu-id="7ff42-107">יכולות החזית של Project Operations כוללות את התפקידים הבאים:</span><span class="sxs-lookup"><span data-stu-id="7ff42-107">Project Operations front-end capabilities include the following roles:</span></span>
 
-| תפקיד                          | תיאור                                                                                                                                                                 | Scope |
+| <span data-ttu-id="7ff42-108">תפקיד</span><span class="sxs-lookup"><span data-stu-id="7ff42-108">Role</span></span>                          | <span data-ttu-id="7ff42-109">תיאור</span><span class="sxs-lookup"><span data-stu-id="7ff42-109">Description</span></span>                                                                                                                                                                 | <span data-ttu-id="7ff42-110">Scope</span><span class="sxs-lookup"><span data-stu-id="7ff42-110">Scope</span></span> |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| מנהל שיטות עבודה              | תומך בדיווח חוצה פרויקט.                                                                                                            | יחידה עסקית              |
-| מאשר הפרויקט              | מאשר שעות והוצאות כנגד פרויקט.                                                                                                                              | יחידה עסקית |
-| מנהל חיוב פרויקט | יוצר את הצעת החשבונית.                                                                                                                                                 | יחידה עסקית |
-| מנהל פרוייקט               | יוצר את תוכנית הפרויקט ומבקש משאבים.                                                                                                                              | יחידה עסקית |
-| משאב פרויקט              | חברי צוות שניתן להזמין אותם והם יכולים לדווח על שעות.                                                                                                          | יחידה עסקית|
-| מנהל משאבים              | כל פונקציות ניהול המשאבים, כגון מילוי בקשות והזמנות של משאבים, מופרדות לתמיכה בתצורה היברידית של מנהל פרויקט + מנהל משאבים ובתפקיד מנהל משאבים יחיד ומרכזי. | יחידה עסקית |
+| <span data-ttu-id="7ff42-111">מנהל שיטות עבודה</span><span class="sxs-lookup"><span data-stu-id="7ff42-111">Practice manager</span></span>              | <span data-ttu-id="7ff42-112">תומך בדיווח חוצה פרויקט.</span><span class="sxs-lookup"><span data-stu-id="7ff42-112">Supports cross-project reporting.</span></span>                                                                                                            | <span data-ttu-id="7ff42-113">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-113">Business unit</span></span>              |
+| <span data-ttu-id="7ff42-114">מאשר הפרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-114">Project approver</span></span>              | <span data-ttu-id="7ff42-115">מאשר שעות והוצאות כנגד פרויקט.</span><span class="sxs-lookup"><span data-stu-id="7ff42-115">Approves time and expenses against a project.</span></span>                                                                                                                              | <span data-ttu-id="7ff42-116">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-116">Business unit</span></span> |
+| <span data-ttu-id="7ff42-117">מנהל חיוב פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-117">Project billing administrator</span></span> | <span data-ttu-id="7ff42-118">יוצר את הצעת החשבונית.</span><span class="sxs-lookup"><span data-stu-id="7ff42-118">Creates the invoice proposal.</span></span>                                                                                                                                                 | <span data-ttu-id="7ff42-119">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-119">Business unit</span></span> |
+| <span data-ttu-id="7ff42-120">מנהל פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-120">Project manager</span></span>               | <span data-ttu-id="7ff42-121">יוצר את תוכנית הפרויקט ומבקש משאבים.</span><span class="sxs-lookup"><span data-stu-id="7ff42-121">Creates the project plan and requests resources.</span></span>                                                                                                                              | <span data-ttu-id="7ff42-122">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-122">Business unit</span></span> |
+| <span data-ttu-id="7ff42-123">משאב פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-123">Project resource</span></span>              | <span data-ttu-id="7ff42-124">חברי צוות שניתן להזמין אותם והם יכולים לדווח על שעות.</span><span class="sxs-lookup"><span data-stu-id="7ff42-124">Team members who can be booked and report time.</span></span>                                                                                                          | <span data-ttu-id="7ff42-125">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-125">Business unit</span></span>|
+| <span data-ttu-id="7ff42-126">מנהל משאבים</span><span class="sxs-lookup"><span data-stu-id="7ff42-126">Resource manager</span></span>              | <span data-ttu-id="7ff42-127">כל פונקציות ניהול המשאבים, כגון מילוי בקשות והזמנות של משאבים, מופרדות לתמיכה בתצורה היברידית של מנהל פרויקט + מנהל משאבים ובתפקיד מנהל משאבים יחיד ומרכזי.</span><span class="sxs-lookup"><span data-stu-id="7ff42-127">All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role.</span></span> | <span data-ttu-id="7ff42-128">יחידה עסקית</span><span class="sxs-lookup"><span data-stu-id="7ff42-128">Business unit</span></span> |
 
 
-Microsoft Project באינטרנט כולל את התפקידים הבאים:
-| תפקיד                          | תיאור                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| משתמש בפרויקט | משתמש משותף של Project המסוגל ליצור פרויקטים משלו ולהציג את כל הפרויקטים המשותפים איתו.| משתמש|
-| מערכת פרויקט | תפקיד המשמש להקשר יישום. לקוחות לא אמורים להשתמש בתפקיד מערכת זה. | כללי|
+<span data-ttu-id="7ff42-129">Microsoft Project באינטרנט כולל את התפקידים הבאים:</span><span class="sxs-lookup"><span data-stu-id="7ff42-129">Microsoft Project for the Web includes the following roles:</span></span>
 
-## <a name="security-enforcement"></a>אכיפת אבטחה
-פעולות המתבצעות ברמת הפרויקט מבוצעות בהקשר של המשתמש המחובר. המשמעות היא שכדי ליצור, לפתוח או למחוק פרויקט, למשתמש נדרשת גישה ל- CDS. ניתן להעניק גישה ל- CDS באמצעות כל אחד מהמנגנונים האפשריים הכלולים בפלטפורמה. לדוגמה, משתמש עם טווח גדול יותר רשאי לגשת לפרויקט או אם בוצעה פעולה מפורשת לשיתוף פרויקט המעניקה למשתמש גישה.
+| <span data-ttu-id="7ff42-130">תפקיד</span><span class="sxs-lookup"><span data-stu-id="7ff42-130">Role</span></span>           | <span data-ttu-id="7ff42-131">תיאור</span><span class="sxs-lookup"><span data-stu-id="7ff42-131">Description</span></span>                                                                                                        | <span data-ttu-id="7ff42-132">Scope</span><span class="sxs-lookup"><span data-stu-id="7ff42-132">Scope</span></span>  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| <span data-ttu-id="7ff42-133">משתמש בפרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-133">Project user</span></span>   | <span data-ttu-id="7ff42-134">משתמש משותף של Project המסוגל ליצור פרויקטים משלו ולהציג את כל הפרויקטים המשותפים איתו.</span><span class="sxs-lookup"><span data-stu-id="7ff42-134">Collaborative user of Project   who is able to create their own projects and view any projects shared with   them.</span></span> | <span data-ttu-id="7ff42-135">משתמש</span><span class="sxs-lookup"><span data-stu-id="7ff42-135">User</span></span>   |
+| <span data-ttu-id="7ff42-136">מערכת פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-136">Project system</span></span> | <span data-ttu-id="7ff42-137">תפקיד המשמש להקשר יישום.</span><span class="sxs-lookup"><span data-stu-id="7ff42-137">Role used for application   context.</span></span> <span data-ttu-id="7ff42-138">לקוחות לא אמורים להשתמש בתפקיד מערכת זה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-138">Customers should not use this system role.</span></span>                                    | <span data-ttu-id="7ff42-139">כללי</span><span class="sxs-lookup"><span data-stu-id="7ff42-139">Global</span></span> |
 
-חשוב להביא את זה בחשבון בעת יצירת פרויקטים ב- Project Operations.
+## <a name="security-enforcement"></a><span data-ttu-id="7ff42-140">אכיפת אבטחה</span><span class="sxs-lookup"><span data-stu-id="7ff42-140">Security enforcement</span></span>
+<span data-ttu-id="7ff42-141">פעולות המתבצעות ברמת הפרויקט מבוצעות בהקשר של המשתמש המחובר.</span><span class="sxs-lookup"><span data-stu-id="7ff42-141">Actions that are performed at the project level are performed in the context of the logged in user.</span></span> <span data-ttu-id="7ff42-142">המשמעות היא שכדי ליצור, לפתוח או למחוק פרויקט, למשתמש נדרשת גישה ל- CDS.</span><span class="sxs-lookup"><span data-stu-id="7ff42-142">This means that in order to create, open, or delete a project, the user is required to have access available in CDS.</span></span> <span data-ttu-id="7ff42-143">ניתן להעניק גישה ל- CDS באמצעות כל אחד מהמנגנונים האפשריים הכלולים בפלטפורמה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-143">Access in CDS may be granted through any of the possible mechanisms included in the platform.</span></span> <span data-ttu-id="7ff42-144">לדוגמה, משתמש עם טווח גדול יותר רשאי לגשת לפרויקט או אם בוצעה פעולה מפורשת לשיתוף פרויקט המעניקה למשתמש גישה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-144">For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.</span></span>
 
-## <a name="modern-group-collaboration-with-project-operations"></a>שיתוף פעולה מודרני בין קבוצות עם Project Operations
-Project באינטרנט ו- Project Operations תומכים בקבוצות מודרניות לשיתוף פעולה. משתמשים שנוספו לפרויקט באמצעות קבוצה יכולים לערוך את תוכנית הפרויקט.
+<span data-ttu-id="7ff42-145">חשוב להביא את זה בחשבון בעת יצירת פרויקטים ב- Project Operations.</span><span class="sxs-lookup"><span data-stu-id="7ff42-145">It's important to consider this when creating projects in Project Operations.</span></span>
 
-Project באינטרנט מוסיף משתמשים לקבוצה באופן אוטומטי עם ההקצאה.
+## <a name="modern-group-collaboration-with-project-operations"></a><span data-ttu-id="7ff42-146">שיתוף פעולה מודרני בין קבוצות עם Project Operations</span><span class="sxs-lookup"><span data-stu-id="7ff42-146">Modern group collaboration with Project Operations</span></span>
+<span data-ttu-id="7ff42-147">Project באינטרנט ו- Project Operations תומכים בקבוצות מודרניות לשיתוף פעולה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-147">Project for the Web and Project Operations support modern groups for collaboration.</span></span> <span data-ttu-id="7ff42-148">משתמשים שנוספו לפרויקט באמצעות קבוצה יכולים לערוך את תוכנית הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="7ff42-148">Users added to the project through a group are able to edit the project plan.</span></span>
 
-הקבוצות מאפשרות לעבוד בשיתוף פעולה על ההרשאות לפרויקט ועל תוצרים נתמכים של שיתוף הפעולה. התרשים הבא מתאר את האירועים ומציין שינויים שקורים במהלך תהליך הקצאת הקבוצה.
+<span data-ttu-id="7ff42-149">Project באינטרנט מוסיף משתמשים לקבוצה באופן אוטומטי עם ההקצאה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-149">Project for the Web adds users to the group automatically upon assignment.</span></span>
 
-Project Operations לא יוצר קבוצה באמצעות פעולה משתמעת ועושה זאת רק באמצעות פעולה מפורשת של קבוצות הדורשות זאת.
+<span data-ttu-id="7ff42-150">הקבוצות מאפשרות לעבוד בשיתוף פעולה על ההרשאות לפרויקט ועל תוצרים נתמכים של שיתוף הפעולה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-150">Groups allow the permissions of the project and supporting collaboration artifacts to be worked on collaboratively.</span></span> <span data-ttu-id="7ff42-151">התרשים הבא מתאר את האירועים ומציין שינויים שקורים במהלך תהליך הקצאת הקבוצה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-151">The following diagram depicts the events and state changes that happen during the group assignment process.</span></span>
 
-חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה. למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](https://docs.microsoft.com/power-platform/admin/control-user-access).
+<span data-ttu-id="7ff42-152">Project Operations לא יוצר קבוצה באמצעות פעולה משתמעת ועושה זאת רק באמצעות פעולה מפורשת של קבוצות הדורשות זאת.</span><span class="sxs-lookup"><span data-stu-id="7ff42-152">Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.</span></span>
 
-1. הפרויקט נוצר על-ידי המשתמש היוצר והוא בבעלותו.
-2. הבעלים של הפרויקט מעודכן בצוות.
-3. צוות הבעלים ממופה לקבוצת Office שצוינה או שנוצרה.
-4. הבעלים המקורי של הפרויקט מתווסף לקבוצת Office.
+<span data-ttu-id="7ff42-153">חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-153">Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group.</span></span> <span data-ttu-id="7ff42-154">למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](https://docs.microsoft.com/power-platform/admin/control-user-access).</span><span class="sxs-lookup"><span data-stu-id="7ff42-154">For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).</span></span>
 
-## <a name="deployment-recommendation"></a>המלצת פריסה
-ככל שמודל שיתוף הפעולה של קבוצת Office יתפתח, תתווסף פונקציונליות כדי לספק בקרה מפורטת יותר לאורך זמן. לקוחות הפורשים Project Operations היום מוזמנים להתמקד במודל האבטחה המסורתי של Microsoft Dynamics 365.
+![מצב הקבוצה](./media/groupsmode.png)
 
-לקבלת מידע נוסף, ראה [אבטחה ב- Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+1. <span data-ttu-id="7ff42-156">הפרויקט נוצר על-ידי המשתמש היוצר והוא בבעלותו.</span><span class="sxs-lookup"><span data-stu-id="7ff42-156">The Project is created and owned by the creating User.</span></span>
+2. <span data-ttu-id="7ff42-157">הבעלים של הפרויקט מעודכן בצוות.</span><span class="sxs-lookup"><span data-stu-id="7ff42-157">The Project owner is updated to the team.</span></span>
+3. <span data-ttu-id="7ff42-158">צוות הבעלים ממופה לקבוצת Office שצוינה או שנוצרה.</span><span class="sxs-lookup"><span data-stu-id="7ff42-158">The Owner team is mapped to the specified or created Office Group.</span></span>
+4. <span data-ttu-id="7ff42-159">הבעלים המקורי של הפרויקט מתווסף לקבוצת Office.</span><span class="sxs-lookup"><span data-stu-id="7ff42-159">The original owner of the Project is added to the Office Group.</span></span>
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>אבטחת Project Operations ו- Microsoft Dynamics 365 Finance
-Project Operations כולל את התפקידים הבאים:
+## <a name="deployment-recommendation"></a><span data-ttu-id="7ff42-160">המלצת פריסה</span><span class="sxs-lookup"><span data-stu-id="7ff42-160">Deployment recommendation</span></span>
+<span data-ttu-id="7ff42-161">ככל שמודל שיתוף הפעולה של קבוצת Office יתפתח, תתווסף פונקציונליות כדי לספק בקרה מפורטת יותר לאורך זמן.</span><span class="sxs-lookup"><span data-stu-id="7ff42-161">As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time.</span></span> <span data-ttu-id="7ff42-162">לקוחות הפורשים Project Operations היום מוזמנים להתמקד במודל האבטחה המסורתי של Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="7ff42-162">Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.</span></span>
 
-- מנהל פרוייקט
-- רואה חשבון של פרויקט
+<span data-ttu-id="7ff42-163">למידע נוסף, ראה [אבטחה ב- Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security)</span><span class="sxs-lookup"><span data-stu-id="7ff42-163">For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).</span></span>
 
-למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a><span data-ttu-id="7ff42-164">Project Operations ואבטחה של Microsoft Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="7ff42-164">Project Operations and Microsoft Dynamics 365 Finance security</span></span>
+<span data-ttu-id="7ff42-165">Project Operations כולל את התפקידים הבאים:</span><span class="sxs-lookup"><span data-stu-id="7ff42-165">Project Operations includes the following roles:</span></span>
+
+- <span data-ttu-id="7ff42-166">מנהל פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-166">Project manager</span></span>
+- <span data-ttu-id="7ff42-167">רואה חשבון של פרויקט</span><span class="sxs-lookup"><span data-stu-id="7ff42-167">Project accountant</span></span>
+
+<span data-ttu-id="7ff42-168">למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span><span class="sxs-lookup"><span data-stu-id="7ff42-168">For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).</span></span>
 
 
