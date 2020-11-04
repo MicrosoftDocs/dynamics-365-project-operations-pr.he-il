@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948895"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096623"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>החל את נתוני ההדגמה של Project Operations בסביבת Finance המתארחת בענן
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
->[חשוב] נושא זה חל רק על Microsoft Dynamics 365 Finance בגירסה 10.0.13 בלבד וניתן לבצע אותו רק בסביבה המתארחת בענן. השלם את השלבים בנושא זה **לפני** שאתה מחיל עדכוני איכות על הסביבה.
+> [!IMPORTANT]
+> נושא זה חל רק על Microsoft Dynamics 365 Finance בגירסה 10.0.13 בלבד וניתן לבצע אותו רק בסביבה המתארחת בענן. השלם את השלבים בנושא זה **לפני** שאתה מחיל עדכוני איכות על הסביבה.
 
 1. בפרויקט LCS שלך, פתח את הדף **פרטי סביבה**. שים לב שהוא כולל את הפרטים הדרושים להתחברות לסביבה באמצעות פרוטוקול שולחן עבודה מרוחק (RDP).
 
@@ -35,7 +36,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. עבור אל **שירותים** והפסק את שני הפריטים הבאים:
 
 - Microsoft Dynamics 365 Unified Operations: שירות ניהול אצווה
-- Microsoft Dynamics 365 Unified Operations: מסגרת ייצוא ייבוא נתונים
+- Microsoft Dynamics 365 Unified Operations: מסגרת לייצוא וייבוא נתונים
 
 ![הפסק שירותים](./media/3StopServices.png)
 
@@ -53,7 +54,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![מכשירי מקור](./media/6SourceDevice.png)
 
-10. בחר **אפשרויות** ואז בחר **החלף את מסד הנתונים הקיים** ו**סגור חיבורים קיימים למסד הנתונים המהווה יעד**. 
+10. בחר **אפשרויות** ואז בחר **החלף את מסד הנתונים הקיים** ו **סגור חיבורים קיימים למסד הנתונים המהווה יעד**. 
 11. בחר **אישור**.
 
 ![שחזר הגדרות](./media/7RestoreSetting.png)
