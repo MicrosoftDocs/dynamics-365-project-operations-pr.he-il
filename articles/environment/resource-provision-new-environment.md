@@ -3,17 +3,17 @@ title: הקצאת סביבה חדשה
 description: נושא זה מספק מידע אודות אופן הקצאת סביבת Project Operations חדשה.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949363"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077195"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
@@ -26,20 +26,20 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 השתמש בשלבים הבאים כדי להפוך את זרימת הקצאת המשאבים האוטומטית של Project Operations לאוטומטית עבור פרויקט LCS שלך.
 
 1. עבור אל [LCS](https://lcs.dynamics.com/v2) ובחר את האריח **ניהול תכונת תצוגה מקדימה**.
-2. ברשימת **תכונות התצוגה המקדימה**, בחר **Project Operations** ואז בחר **תכונת תצוגה מקדימה זמינה** כדי להפוך את Project Operations לזמין.
+2. ברשימת **תכונות התצוגה המקדימה** , בחר **תכונת Project Operations** ואז בחר **תכונת Preview זמינה** כדי להפוך את Project Operations לזמין.
 
 > [!NOTE]
 > שלב זה מבוצע פעם אחת בלבד לכל פרויקט LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>הקצאת סביבת Project Operations
 
-1. פתח פריסת [סביבת הדגמה](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) או [ארגז חול (Sandbox)‬/ סביבת ייצור](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) חדשה של Dynamics 365 Finance. 
+1. פתח פריסה חדשה של Dynamics 365 Finance [סביבת הדגמה](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) או [סביבת ארגז חול/ ייצור](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. הסבר על אשף **הקצאת הסביבה**. 
 
 > [!IMPORTANT]
 > ודא שגירסת היישום שנבחרה היא 10.0.13 ומעלה.
 
-3. להקצאת Project Operations, תחת **הגדרות מתקדמות**, בחר **Common Data Service**. 
+3. להקצאת Project Operations, תחת **הגדרות מתקדמות** , בחר **Common Data Service**. 
 4. הפוך את **הגדרת Common Data Service** לזמינה על-ידי בחירת **כן** ואז הזן מידע בשדות הנדרשים:
 
   - שם
@@ -47,7 +47,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   - שפה
   - מטבע
  
-5. בתוך השדה **תבנית Common Data Service**, בחר **Project Operations** 
+5. בשדה **תבנית Common Data Service** , בחר **Project Operations** 
 
 6. בחר את סוג הסביבה לפריסה. גירסת ניסיון מבוססת-מנוי תאפשר לך לפרוס סביבת CDS למשך 30 יום. 
 
@@ -76,11 +76,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ייתכן שתצטרך להחיל עדכוני איכות על סביבת Finance שלך כדי לקבל גירסה זו.
 
-1. ב- LCS, בדף **פרטי הסביבה**, במקטע **עדכונים זמינים**, בחר **הצג עדכון**.
+1. ב- LCS, בדף **פרטי הסביבה** , במקטע **עדכונים זמינים** , בחר **הצג עדכון**.
 
 ![הצג עדכונים](./media/5ViewUpdates.png)
 
-2. בדף **עדכונים בינאריים**, בחר **שמור חבילה.**
+2. בדף **עדכונים בינאריים** , בחר **שמור חבילה.**
 
 ![שמור חבילה](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ## <a name="establish-a-dual-write-connection"></a>יצירת חיבור כתיבה כפולה 
 
 1. בפרויקט LCS שלך, עבור אל הדף **פרטי סביבה**.
-2. בקטע **פרטי סביבה של Common Data Service**, בחר **קישור ל- CDS עבור יישומים**.
+2. בקטע **פרטי סביבה של Common Data Service** , בחר **קישור ל- CDS עבור יישומים**.
 3. לאחר השלמת הקישור, בחר **קישור ל- CDS עבור יישומים** שוב. תועבר לכתיבה כפולה ב- Finance.
 
 ![קישור ל- CDS](./media/12LinktoCDS.png)
@@ -120,7 +120,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![החל פתרונות](./media/13ApplySolutions.png)
 
-5. בחר בשני הפתרונות **מפת ישות כתיבה כפולה ב- Dynamics 365 Finance and Operations** ו**מפות ישות כתיבה כפולה ב- Dynamics 365 Project Operations** ולאחר מכן בחר **החל**.
+5. בחר בשני הפתרונות **מפת ישות כתיבה כפולה ב- Dynamics 365 Finance and Operations** ו **מפות ישות כתיבה כפולה ב- Dynamics 365 Project Operations** ולאחר מכן בחר **החל**.
 
 ![אשר פתרונות](./media/14ConfirmSolutions.png)
 
@@ -142,7 +142,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![פרמטרים של מסגרת](./media/17FrameworkParameters.png)
 
-3. בדף **הגדרות ישות**, בחר **רענן את רשימת הישויות**.
+3. בדף **הגדרות ישות** , בחר **רענן את רשימת הישויות**.
 
 ![רענן את רשימת הישויות](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ## <a name="run-project-operations-dual-write-maps"></a>הפעל את מפות כתיבה כפולה ב- Project Operations
 
 1. בפרויקט LCS שלך, עבור אל הדף **פרטי סביבה**.
-2. בקטע **פרטי סביבה של Common Data Service**, בחר **קישור ל- CDS עבור יישומים.** לאחר שתבחרו בקישור, תועברו לרשימת הישויות במיפויים.
+2. בקטע **פרטי סביבה של Common Data Service** , בחר **קישור ל- CDS עבור יישומים.** לאחר שתבחרו בקישור, תועברו לרשימת הישויות במיפויים.
 3. התחל את המפות כמתואר בטבלה הבאה. הקפד לעקוב אחר הרצף כמפורט.
 
 | **מפת ישויות** | **רענן ישות** | **סינכרון ראשוני** | **פריט ראשי לסינכרון ראשוני** | **הפעל דרישות מוקדמות** | **סינכרון ראשוני של דרישות מוקדמות** |
@@ -165,18 +165,19 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | **‏‫ישות שילוב ליחסי גומלין של עסקה בפרויקט‬ (msdyn\_transactionconnections)** | Yes | Yes | לא זמין | Yes | לא זמין |
 | **אבני דרך בסעיף חוזה לשילוב Project Operations (msdyn\_contractlinesscheduleofvalues)** | Yes | Yes | לא זמין | Yes | לא זמין |
 | **ישות שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines)** | Yes | Yes | לא זמין | Yes | לא זמין |
-| **ישות שילוב Project Operations להערכת שעות (msdyn\_resourceassignments)** | Yes | Yes | לא זמין | Yes | לא זמין |
+| **ישות ייצוא הוצאות פרויקט בשילוב Project Operations (msdyn\_expensecategories)** | Yes | Yes | לא זמין | Yes | לא זמין |
 | **ישות ייצוא הוצאות פרויקט בשילוב Project Operations (msdyn\_expenses)** | ‏‏כן | Yes | לא זמין | Yes | לא זמין |
 | **ישות שילוב Project Operations להערכת שעות (msdyn\_resourceassignments)** | ‏‏כן | Yes | לא זמין | Yes | לא זמין |
 
+
 4. כדי לרענן את הישות, בחר את שם המפה ואז בחר **רענן ישויות**. 
-5. המשך בהפעלת המפה לאחר השלמת הרענון.
+
 
 ![רענן מפה](./media/20RefreshMapping.png)
 
-לפני הפיכת המפה הבאה לזמינה, ודא שהמפה בטבלה במצב **פועלת**. הפעלת מפות עם מספר גדול יותר של תנאים מוקדמים עשויה להימשך זמן מה.
+5. לאחר השלמת הרענון, הפעל את המפה. לפני הפיכת המפה הבאה לזמינה, ודא שהמפה בטבלה במצב **פועלת**. הפעלת מפות עם מספר גדול יותר של תנאים מוקדמים עשויה להימשך זמן מה.
 
-להפעלת מפה עם תנאים מוקדמים, החלף את המצב של הלחצן **הצג מפות ישויות קשורות** לפועל. אם הטבלה מציינת כי **סינכרון ראשוני של דרישות מוקדמות** הוא במצב **לא**, ודא שהדגל **סינכרון ראשוני** הוא **כבוי** בכל מפות הדרישה המוקדמת לפני שתפעיל אותה.
+להפעלת מפה עם תנאים מוקדמים, החלף את המצב של הלחצן **הצג מפות ישויות קשורות** לפועל. אם הטבלה מציינת כי **סינכרון ראשוני של דרישות מוקדמות** הוא במצב **לא** , ודא שהדגל **סינכרון ראשוני** הוא **כבוי** בכל מפות הדרישה המוקדמת לפני שתפעיל אותה.
 
 ![הפעל מפה](./media/21RunMap.png)
 

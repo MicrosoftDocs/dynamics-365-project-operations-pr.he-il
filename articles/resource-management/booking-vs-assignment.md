@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: fa99783e52dbcdeaf80bbfd03df0f458f86b5e99
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896012"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077157"
 ---
 # <a name="bookings-vs-assignments"></a>הזמנות לעומת הקצאות
 
@@ -23,4 +23,4 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 הקצאות הן הקצאה של משאבים למשימות פרוייקט בלוח הזמנים של הפרוייקט. המשאבים יכולים להיות אמיתיים או כלליים. 
 
-באופן אידיאלי, עבור משאבים אמיתיים, ההזמנות וההקצאות צריכות להתאים, משום שהן לא שונות. עם זאת, Microsoft Dynamics Project Operations אינו אוכף את הסכם זה. התצוגה **התאמה** מציגה בפני מנהל פרוייקט מקומות שבהם הזמנות וההקצאות של משאב אינן תואמות.
+באופן אידיאלי, עבור משאבים אמיתיים, ההזמנות וההקצאות צריכות להתאים, משום שהן לא שונות. עם זאת, Project Operations Microsoft Dynamics אינו אוכף את הסכם זה. התצוגה **התאמה** מציגה בפני מנהל פרוייקט מקומות שבהם הזמנות וההקצאות של משאב אינן תואמות.

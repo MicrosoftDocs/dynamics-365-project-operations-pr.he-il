@@ -1,6 +1,6 @@
 ---
 title: שיתוף פעולה באמצעות קבוצות Office
-description: קבוצות Office מאפשרות לך לשתף פרויקט עם חברי צוות אחרים בתוך Common Data Service.
+description: קבוצות Office מאפשרות לך לשתף פרויקט עם חברי צוות אחרים במסגרת Common Data Service.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -9,13 +9,13 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 58868694987688e279e717d1f7acaf3fd9514770
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948894"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077167"
 ---
-# <a name="collaboration-with-office-groups"></a>שיתוף פעולה באמצעות קבוצות Office
+# <a name="collaboration-with-office-groups"></a>שיתוף פעולה ב- Office Groups
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 

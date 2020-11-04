@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077165"
 ---
 # <a name="start-a-new-project-in-lcs"></a>התחלת פרויקט חדש ב-LCS
 
@@ -29,7 +29,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   ![בחר סוג פרוייקט LCS](./media/create-lcs-1.png)
 
 5. תן שם לפרוייקט. 
-6. בחר **Finance and Operations** כשם המוצר, ובחר את התעשייה והמתודולוגיה. 
+6. בחר ב- **Finance and Operations** כשם המוצר, ובחר את התעשייה ואת המתודולוגיה. 
 7. בחר **Create** (צור).
 
 ![יצירת פרויקט LCS](./media/create-lcs-2.png)

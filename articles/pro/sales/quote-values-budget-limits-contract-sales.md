@@ -9,15 +9,15 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d050258ae457bb4392d5fa761442cfc7a444feb0
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966789"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077239"
 ---
 # <a name="summary-information-on-a-project-quote-sales"></a>נתוני סיכום בהצעת מחיר לפרויקט (מכירות)
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 מאמר זה מסביר את המידע החל על הצעת מחיר לפרויקט. הוא כולל את ההגדרות המשפיעות על כל שורות הצעת המחיר ומידע על הצעת המחיר שמסוכם בכל פריטי השורה כדי להניע את מחווני ה- KPI של הצעת המחיר לפרויקט.
 

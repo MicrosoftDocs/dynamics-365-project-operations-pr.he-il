@@ -9,15 +9,15 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965796"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077240"
 ---
 # <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>ניהול יחידות מורכבות, למשל לפי משתמש, או לפי חודש עבור שורות הצעות מחיר מבוססות מוצר
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 Dynamics 365 Project Operations משתמש בגורמי כמות כדי לתמוך במכירה של מוצרים מבוססי מנוי. עבור מוצרים מבוססי מנוי, הכמות בהצעת המחיר או בסעיף החוזה של הפרויקט מבוטאת כמספר החודשים של המשתמש.
 
@@ -29,8 +29,8 @@ Project Operations מאמתת שרק מאפיינים מספריים או מאפ
 
 לדוגמה, ייתכן שב-Dynamics 365 Sales יהיו המאפיינים הבאים:
 
-- **מס' המשתמשים**: מספר המשתמשים
-- **מס' החודשים**: מספר חודשי המנוי
+- **מס' המשתמשים** : מספר המשתמשים
+- **מס' החודשים** : מספר חודשי המנוי
 - **SKU של מוצר**
 
 ניתן לסמן בדגל את המאפיין **מס' המשתמשים** ואת המאפיין **מס' החודשים** כגורמי כמות על ידי עריכת המאפיינים של שורת המוצר.

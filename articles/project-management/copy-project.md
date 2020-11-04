@@ -3,23 +3,23 @@ title: העתקת פרוייקט
 description: נושא זה מספק מידע על העתקת פרוייקטים ב-Dynamics 365 Project operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077249"
 ---
 # <a name="copy-a-project"></a>העתקת פרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-באמצעות Dynamics 365 Project Operations, תוכל לבנות במהירות פרויקטים חדשים באמצעות הפעולה **העתק פרויקט** בטופס **פרויקטים**. להעתקת פרויקט, בחר פרויקט ולאחר מכן בחר **העתק**. הפעולה תעתיק:
+באמצעות Dynamics 365 Project Operations, ניתן לבנות במהירות פרויקטים חדשים באמצעות בחירה באפשרות **העתק פרויקט** בטופס **פרויקטים**. להעתקת פרויקט, פתח את הפרויקט שברצונך להעתיק ואז בחר **העתק פרויקט**. הפעולה תעתיק:
 
 - מאפייני פרויקט
 - מבנה התפלגות העבודה
@@ -58,4 +58,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="estimates"></a>הערכות
 
-כאשר מועתק הפרויקט, מעותקות גם שורות הערכת המשאבים וההוצאות מפרויקט המקור.
+כאשר מועתק הפרויקט, מעותקות גם שורות הערכת המשאבים וההוצאות מפרויקט המקור. 
+
+למידע על אופן הגישה הפרוגרמטית אל 'העתק פוריקט', ראה [פיתוח תבניות פרוייקט באמצעות 'העתקת פוריקט'](dev-copy-project.md).

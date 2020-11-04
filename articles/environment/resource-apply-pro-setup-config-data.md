@@ -1,5 +1,5 @@
 ---
-title: הגדר והחל נתוני תצורה ב- Common Data Service עבור Project Operations
+title: הגדרה והחלה של נתוני תצורה ב- Common Data Service עבור Project Operations
 description: נושא זה מספק מידע על הגדרה והחלה של נתוני התצורה ב- Project Operations.
 author: sigitac
 manager: Annbe
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077181"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>הגדר והחל נתוני תצורה ב- Common Data Service עבור Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>הגדרה והחלה של נתוני תצורה ב- Common Data Service עבור Project Operations
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
@@ -27,8 +27,8 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![‏‫העברת תצורה](./media/1ConfigurationMigration.png)
 
-4. בעמוד 2 של אשף ב-CMT בחר ב**Office 365** כ**סוג הפריסה**.
-5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו**הצג מתקדם**.
+4. בעמוד 2 של אשף ב-CMT בחר ב **Microsoft 365** כ **סוג הפריסה**.
+5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו **הצג מתקדם**.
 6. בחר את האזור של הדייר שלך, הזן את האישורים שלך ובחר **כניסה**.
 
 ![כניסת תצורה](./media/2ConfigurationSignin.png)
@@ -55,7 +55,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   - יחידה
   - קבוצת יחידות
   - מחירון
-  - מחירון פרמטרים של פרוייקט
+  - מחירון פרמטרים של פרויקט
   - תדירות חשבונית
   - קטגוריית משאבים הניתנים להזמנה
   - קטגוריית עסקה
@@ -71,7 +71,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="update-project-operations-configurations"></a>עדכן את התצורות של Project Operations
 
-1. נווט אל סביבת CE. אתה יכול למצוא אותה על-ידי פתיחת [מרכז הניהול של Power Platform](https://admin.powerplatform.microsoft.com/environments), בחירת הסביבה ואז בחירת האפשרות **פתח את הסביבה**. 
+1. נווט אל סביבת CE. אתה יכול למצוא אותה על-ידי פתיחת [מרכז הניהול של Power Platform](https://admin.powerplatform.microsoft.com/environments), בחירת הסביבה ואז בחירת האפשרות **פתח סביבה**. 
 
 ![פתח את הסביבה](./media/7OpenEnvironment.png)
 
@@ -79,11 +79,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![משאבים הניתנים להזמנה](./media/8BookableResources.png)
 
-3. בכרטיסיה **כללי**, בחר את המשתמש שהוא מנהל המערכת שלך. ודא שאזור הזמן תואם את זה שאתה נמצא בו. 
+3. בכרטיסיה **כללי** , בחר את המשתמש שהוא מנהל המערכת שלך. ודא שאזור הזמן תואם את זה שאתה נמצא בו. 
 
 ![משאב חדש הניתן להזמנה](./media/9NewBookableResource.png)
 
-4. בכרטיסיה **תזמון**, בשדה **חברה**, בחר את החברה **USPM** ולאחר מכן בחר **שמור**. 
+4. בכרטיסיה **תזמון** , בשדה **חברה** , בחר את החברה **USPM** ולאחר מכן בחר **שמור**. 
 
 ![כרטיסיית תזמון](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
  
 12. עדכן את השדות הבאים:
 
- - **חברת ברירת מחדל**: USPM
- - **יחידה ארגונית המוגדרת כברירת מחדל**: Contoso Robotics Global
- - **תדירות חשבונית**: היום השביעי והאחרון
- - **תבנית שעות עבודה**: שנה לתבנית שיצרת.
+ - **חברת ברירת מחדל** : USPM
+ - **יחידה ארגונית המוגדרת כברירת מחדל** : Contoso Robotics Global
+ - **תדירות חשבונית** : היום השביעי והאחרון
+ - **תבנית שעות עבודה** : שנה לתבנית שיצרת.
 
 13. בחר **שמור**. 
 

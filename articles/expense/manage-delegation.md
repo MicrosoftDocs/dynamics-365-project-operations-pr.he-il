@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896867"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077309"
 ---
 # <a name="manage-delegation"></a>ניהול הקצאה
 נציג הוצאות יכול ליצור ולנהל דוחות הוצאות לעובד אחר.
@@ -30,7 +29,7 @@ ms.locfileid: "3896867"
 
 כדי להגדיר משתמש כנציג הוצאות, בצע את השלבים הבאים. 
 1. עבור אל **ניהול הוצאות** > **הגדרה** > **כללי** > **נציגים**. 
-2. בדף **נציגים**, בחר **חדש** ואז בחר את העובד שיוגדר לו נציג. 
+2. בדף **נציגים** , בחר **חדש** ואז בחר את העובד שיוגדר לו נציג. 
 3. הזן את הכינוי של המשתמש הנציג ואת תאריך ההתחלה והסיום לתקופת ההקצאה.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>ניהול הוצאות בשם עובד אחר

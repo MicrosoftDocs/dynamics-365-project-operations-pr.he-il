@@ -3,17 +3,17 @@ title: הירשם למנוי Preview של Project Operations עבור תרחיש
 description: נושא זה מספק מידע אודות אופן ההרשמה ל- Project Operations ופריסה שלו עבור תרחישים מבוססי משאבים/ללא מלאי.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d35a8bf9e8a841b45808b26ae2587c5b7d99d72
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948892"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077194"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
@@ -29,48 +29,53 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="subscribe"></a>הירשם כמנוי
 
-כש[בקשת ‎Preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) שלך תקבל אישור, תקבל שתי הצעות מ-Microsoft בדואר. הצעות אלה מאפשרות לך לפרוס את Project Operations Preview:
+כש[בקשת ‎Preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) שלך תקבל אישור, תקבל שלוש הצעות מ-Microsoft בדואר. הצעות אלה מאפשרות לך לפרוס את Project Operations Preview:
 
-- Dynamics 365 Project Operations - גירסת הניסיון של Preview
-- גירסת הניסיון של Preview עבור Dynamics 365 for Finance and Operations.
+- Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview
+- Office 365 Project Operations - גירסת ניסיון של Preview
+- Dynamics 365 Finance - גירסת ניסיון של Preview
 
 > [!IMPORTANT]
 > רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו. אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.
 
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations - גרסת הניסיון של Preview
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview 
 
-1. ממש את ההצעה הראשונה, **גירסת הניסיון של Dynamics 365 Project Operations**, באמצעות כתובת ה-URL המופיעה בהודעת ברוכים הבאים שנשלחה אליך.
+לפני שתתחיל, ודא שאתה מחובר לדפדפן עם חשבון העבודה שלך בדייר שבו אתה רוצה את התצוגה המקדימה של Project Operations.
 
-![הצעה ראשונה](./media/1FirstOffer.png)
+1. ניתן לממש את קוד המבצע הראשון, **Dynamics 365 Project Operations (CRM) - Preview Trial** על ידי הדבקתו בשדה ה-URL בדפדפן.
 
-2. ודא שאתה מחובר כמשתמש המשתייך לארגון שיירשם כמנוי לשירות.
-3. המשך במימוש ההצעה. 
-4. בחר **כן, הוסף לתיק הלקוח שלי**.
+![ממש הצעה](./media/16RedeemFirstOfferNew.png)
 
-![ממש הצעה](./media/2RedeemFirstOffer.png)
+2. אשר את ההזמנה.
 
-![אשר את ההצעה](./media/3ConfirmFirstOffer.png)
+![אשר את ההזמנה](./media/17ConfirmOrderNew.png)
 
-![ההצעה מומשה](./media/4OfferSuccessfulyRedeemed.png)
+תראה שהצעת האישור מומשה בהצלחה.
 
-### <a name="dynamics-365-finance-preview-trial"></a>גירסת הניסיון של Preview עבור Dynamics 365 Finance
+![אישור](./media/18OrderConfirmationNew.png)
 
-חזור על אותם שלבים עם ההצעה השנייה מהודעת ברוכים הבאים שנשלחה אליך.
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - גירסת ניסיון של Preview
+
+חזור על אותם שלבים כמו בקוד המבצע הראשון. הקפד להוסיף את קוד המבצע השני באמצעות אותו חשבון משתמש שבו השתמשת עם קוד המבצע הראשון.
+
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance - גירסת ניסיון של Preview
+
+חזור על אותם שלבים עם המבצע האחרון מהודעת ברוכים הבאים שנשלחה אליך.
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
 
 > [!IMPORTANT]
-> תזדקק לגישה מנהלתית לפורטל Office 365 של הארגון שלך כדי להשלים את השלבים הבאים.
+> תזדקק לגישה מנהלתית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.
 
-1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות רישיונות למשתמשים שלך.
+1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.
 
-![פורטל הניהול של Office](./media/5OfficeAdminPortal.png)
+![דף הבית של מרכז הניהול](./media/14AdminPortal.png)
 
 2. בדף **משתמשים פעילים** בחר את המשתמשים שאליהם ברצונך להקצות רישיון.
 
-![הקצאת רשיונות](./media/6AssignLicenses.png)
+![הקצאת רשיונות](./media/15AssignLicenses.png)
 
-3. ודא כי הרישיון ל- Project Operations נבחר ובחר **שמור שינויים**. 
+3. יש לוודא שרישיון **Dynamics 365 Project Operations (CRM) Preview** ו- **Office 365 Project Operations - Preview** נבחרו ולבחור את האפשרות **שמור שינויים**.
 
 > [!NOTE]
 > אין צורך להקצות למשתמש את הצעת גירסת הניסיון ל- Finance.
@@ -85,9 +90,9 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>פרוס את סביבת ההדגמה של Finance עם Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
 
-פעל לפי ההנחיות בנושא [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview.
+פעל לפי ההנחיות בנושא [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>התקן הגדרת CDS ונתוני תצורה
 
 התקן הגדרת CDS ונתוני תצורה כמתואר בנושא [הגדר והחל נתוני תצורה ב- Common Data Service](resource-apply-pro-setup-config-data.md).
-
+השלם שלב זה רק לאחר פריסה של סביבת הדגמה של Finance ונתוני הדגמה ב- FO מוכנים.

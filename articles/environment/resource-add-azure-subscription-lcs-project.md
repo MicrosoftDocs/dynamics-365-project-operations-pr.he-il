@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948891"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077179"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>הוסף מנוי Azure לפרויקט LCS
 
@@ -23,11 +23,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="grant-admin-consent"></a>הענק הסכמה של מנהל מערכת
 
-1. בפרויקט LCS שלך, במקטע **סביבות**, בחר **הגדרות Microsoft Azure**.
+1. בפרויקט LCS שלך, במקטע **סביבות** , בחר **הגדרות Microsoft Azure**.
 
 ![הגדרות Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. בדף **הגדרות פרויקט**, בכרטיסיה **מחברי Azure**, בחר באפשרות **אשר**. כך מתאפשר לפרוס את הסביבות בפרויקט זה.
+2. בדף **הגדרות פרויקט** , בכרטיסיה **מחברי Azure** , בחר באפשרות **אשר**. כך מתאפשר לפרוס את הסביבות בפרויקט זה.
 
 ![מחברי Azure](./media/2AzureConnectors.png)
 
@@ -45,7 +45,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure
 
-1. עבור אל [חיוב Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) ובחר את המנוי שלך. כדי שתהיה אפשרות לפרוס סביבות, ל- Dynamics Deployment Services צריכה להיות גישה למנוי זה.
+1. עבור אל [חיוב ב- Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) ובחר את המנוי שלך. כדי שתהיה אפשרות לפרוס סביבות, ל- Dynamics Deployment Services צריכה להיות גישה למנוי זה.
 
 ![פרטי מנוי Azure](./media/6AzureSubscription.png)
 
@@ -57,11 +57,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>הוסף מחבר מנוי לפרויקט LCS
 
-1. בפרויקט LCS שלך, בדף **הגדרות Microsoft Azure**, בחר באפשרות **הוסף** כדי להוסיף מחבר חדש.
+1. בפרויקט LCS שלך, בדף **הגדרות Microsoft Azure** , בחר באפשרות **הוסף** כדי להוסיף מחבר חדש.
 2. הזן את מזהה המנוי שלך ב- Azure. אתה יכול למצוא את מזהה המנוי שלך [בפורטל Azure](https://ms.portal.azure.com/), בקטע  **הגדרות**  בפינה השמאלית התחתונה של המסך.
-3. בשדה **קבע את התצורה של Azure Resource Manager**, בחר באפשרות **כן**.
+3. בשדה **קבע את התצורה של Azure Resource Manager** , בחר באפשרות **כן**.
 4. ודא שתחום דייר AAD של מנוי Azure תואם למנוי Azure המוגדר כבעלים של התחום שבו אתה משתמש, ובחר באפשרות **הבא**.
-5. במסך **הגדרת Microsoft Azure**, בחר באפשרות **הבא** כדי לאשר. אם נתקלת בשגיאה במסך זה, חזור למקטע [ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure](#provide) בנושא זה כדי לוודא שהשלמת את כל השלבים.
+5. במסך **הגדרת Microsoft Azure** , בחר באפשרות **הבא** כדי לאשר. אם נתקלת בשגיאה במסך זה, חזור למקטע [ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure](#provide) בנושא זה כדי לוודא שהשלמת את כל השלבים.
 6. הורד את Azure Management Certificate לתיקיה מקומית במחשב שלך ולאחר מכן העלה אותו אל Azure Management Portal על-ידי מעבר אל **הגדרות** > **אישורי ניהול**. אישור זה יאפשר ל- LCS לתקשר עם Azure בשמך. אתה יכול לדלג על שלב זה אם למשתמש שלך יש גישה למנוי.
 7. בחר באפשרות  **הבא**.
 8. בחר את אזור Azure לפריסה ובחר מרכז נתונים הקרוב למקום בו אתה מתכנן להשתמש במערכת זו.

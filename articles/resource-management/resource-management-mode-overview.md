@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4a8e605109e48b50da68abeee989f8ac8d3d659c
-ms.sourcegitcommit: cf79185c8c84c55fbae55f9cfc1b17840e072b49
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077196"
 ---
 # <a name="resource-management-modes-overview"></a>מבט כולל על מצבי ניהול משאבים
 
@@ -33,7 +33,7 @@ Dynamics 365 Project Operations תומך בשני מצבים כדי שתוכל �
 - [הזמנת משאבים בעלי שם מדרישות משאב](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
 - [שליחת בקשת משאב](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
 - [מימוש בקשה למשאב](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [קבלה או דחייה של משאב פרוייקט מוצע מבקשת משאב](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [קבלה או דחייה של משאב פרויקט מוצע מבקשת משאב](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>מצב היברידי
 לארגונים שנדרשת להם גמישות בהקצאת משאבים, המצב ההיברידי מאפשר גם למנהלי פרויקטים וגם למנהלי משאבים להזמין משאבים.
@@ -43,7 +43,7 @@ Dynamics 365 Project Operations תומך בשני מצבים כדי שתוכל �
 בנוסף לתהליך המצב המרכזי הנתמך, עיין בנושאים הבאים לניהול כל זרימות ההזמנות הנתמכות הנוספות במצב היברידי:
 
 הזמן משאב ישירות לפרויקט:
-- [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרוייקט והקצאת משימות](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרויקט והקצאת משימות](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
 
 הזמן משאב מדרישות משאב:
 - [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)

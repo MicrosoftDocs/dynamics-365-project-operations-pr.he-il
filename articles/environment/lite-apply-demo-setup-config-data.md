@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948887"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077173"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>החל את הגדרת ההדגמה ונתונה התצורה עבור פריסת לייט של Project Operations - מהעסקה ועד להוצאת חשבונית פרופורמה
 
@@ -25,8 +25,8 @@ _פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופ�
 
 ![‏‫העברת תצורה](./media/1ConfigurationMigration.png)
 
-4. בעמוד 2 של אשף ב-CMT בחר ב**Office 365** כ**סוג הפריסה**.
-5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו**הצג מתקדם**.
+4. בעמוד 2 של אשף ב-CMT בחר ב **Microsoft 365** כ **סוג הפריסה**.
+5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו **הצג מתקדם**.
 6. בחר את האזור של הדייר שלך, הזן את האישורים שלך ואז בחר **כניסה**.
 
 ![כניסת תצורה](./media/2ConfigurationSignin.png)
@@ -53,7 +53,7 @@ _פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופ�
 - יחידה
 - קבוצת יחידות
 - מחירון
-- מחירון פרמטרים של פרוייקט
+- מחירון פרמטרים של פרויקט
 - תדירות חשבונית
 - פרטי תדירות של הגשת חשבונית
 - קטגוריית משאבים הניתנים להזמנה
