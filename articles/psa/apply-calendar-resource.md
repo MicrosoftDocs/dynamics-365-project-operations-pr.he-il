@@ -3,7 +3,7 @@ title: החלת לוח שנה על משאב
 description: כיצד להחיל לוח שנה על משאב ב- Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69427581f606783ed2b159dd6627481a2229a707
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4878d806dc2633bd2585b943133128bc8485587e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077508"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130129"
 ---
-# <a name="apply-a-calendar-to-a-resource-project-service"></a><span data-ttu-id="878f3-103">החלת לוח שנה על משאב (Project Service)</span><span class="sxs-lookup"><span data-stu-id="878f3-103">Apply a calendar to a resource (Project Service)</span></span>
+# <a name="apply-a-calendar-to-a-resource-project-service"></a><span data-ttu-id="9f2f8-103">החלת לוח שנה על משאב (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9f2f8-103">Apply a calendar to a resource (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="878f3-104">לאחר שיצרת תבנית שעות עבודה, עליך להקצות אותה למשאבים כך שבלוחות השנה שלהם יופיעו שעות העבודה שצוינו בתבנית.</span><span class="sxs-lookup"><span data-stu-id="878f3-104">Once you’ve created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.</span></span>  
+<span data-ttu-id="9f2f8-104">לאחר שיצרת תבנית שעות עבודה, עליך להקצות אותה למשאבים כך שבלוחות השנה שלהם יופיעו שעות העבודה שצוינו בתבנית.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-104">Once you’ve created a work hours template, you need to assign it to resources so their calendars reflect the working hours specified in the template.</span></span>  
   
-1.  <span data-ttu-id="878f3-105">עבור אל **Project Service > משאבים**.</span><span class="sxs-lookup"><span data-stu-id="878f3-105">Go to **Project Service > Resources**.</span></span>  
+1.  <span data-ttu-id="9f2f8-105">עבור אל **Project Service > משאבים**.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-105">Go to **Project Service > Resources**.</span></span>  
   
-2.  <span data-ttu-id="878f3-106">בחר את המשאב שעבורו ברצונך להגדיר את לוח השנה.</span><span class="sxs-lookup"><span data-stu-id="878f3-106">Select the resource you want to set the calendar for.</span></span> <span data-ttu-id="878f3-107">באפשרותך לבחור יותר ממשאב אחד.</span><span class="sxs-lookup"><span data-stu-id="878f3-107">You can select more than one resource.</span></span>  
+2.  <span data-ttu-id="9f2f8-106">בחר את המשאב שעבורו ברצונך להגדיר את לוח השנה.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-106">Select the resource you want to set the calendar for.</span></span> <span data-ttu-id="9f2f8-107">באפשרותך לבחור יותר ממשאב אחד.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-107">You can select more than one resource.</span></span>  
   
-3.  <span data-ttu-id="878f3-108">לחץ על **הגדר לוח שנה**.</span><span class="sxs-lookup"><span data-stu-id="878f3-108">Click **Set Calendar**.</span></span>  
+3.  <span data-ttu-id="9f2f8-108">לחץ על **הגדר לוח שנה**.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-108">Click **Set Calendar**.</span></span>  
   
-4.  <span data-ttu-id="878f3-109">בחר את תבנית שעות העבודה שברצונך להחיל.</span><span class="sxs-lookup"><span data-stu-id="878f3-109">Choose the work hours template you want to apply.</span></span>  
+4.  <span data-ttu-id="9f2f8-109">בחר את תבנית שעות העבודה שברצונך להחיל.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-109">Choose the work hours template you want to apply.</span></span>  
   
-5.  <span data-ttu-id="878f3-110">לחץ על **החל**.</span><span class="sxs-lookup"><span data-stu-id="878f3-110">Click **Apply**.</span></span>  
+5.  <span data-ttu-id="9f2f8-110">לחץ על **החל**.</span><span class="sxs-lookup"><span data-stu-id="9f2f8-110">Click **Apply**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="878f3-111">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="878f3-111">See Also</span></span>  
- [<span data-ttu-id="878f3-112">הגדרת משאבים</span><span class="sxs-lookup"><span data-stu-id="878f3-112">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="9f2f8-111">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="9f2f8-111">See Also</span></span>  
+ [<span data-ttu-id="9f2f8-112">הגדרת משאבים</span><span class="sxs-lookup"><span data-stu-id="9f2f8-112">Set up resources</span></span>](../psa/set-up-resources.md)
