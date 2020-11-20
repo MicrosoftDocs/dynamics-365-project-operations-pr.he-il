@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077188"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122837"
 ---
 # <a name="expense-home-page"></a>דף הבית של הוצאה
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations תומך ביכולת לעבד הוצאות. ע�
 
 ב-Project Operations, ישנם שני מודלים לפריסה נתמכים עבור הוצאות: 
 
-- **מלא** : פריסה מלאה זמינה עבור **Project Operations עבור תרחישים מבוססי משאבים / ללא מלאי** אוֹ עבור **Project Operations לתרחישים מבוססי הזמנות ייצור**.
-- **בסיסי** : פריסה בסיסית זמינה עבור **פעולות פרויקט לתרחישים מבוססי משאבים / ללא מלאי** ועובר **פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה**.
+- **מלא**: פריסה מלאה זמינה עבור **Project Operations עבור תרחישים מבוססי משאבים / ללא מלאי** אוֹ עבור **Project Operations לתרחישים מבוססי הזמנות ייצור**.
+- **בסיסי**: פריסה בסיסית זמינה עבור **פעולות פרויקט לתרחישים מבוססי משאבים / ללא מלאי** ועובר **פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה**.
 
 ## <a name="full"></a>מלא 
 פריסת הוצאות מלאה מספקת אכיפת מדיניות מלאה הכוללת את היכולת ליצור קווי מדיניות, כגון:
@@ -42,4 +42,4 @@ Dynamics 365 Project Operations תומך ביכולת לעבד הוצאות. ע�
 למידע נוסף ראה [ערך הוצאה (לייט)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>קביעת סוג הפריסת ההוצאות
-כדי לקבוע אם אתה מפעיל את פריסת ניהול ההוצאות הבסיסית, ודא שכתובת האתר מסתיימת ב- **.crm.dynamics.com**. 
+כדי לקבוע אם אתה מפעיל את פריסת ניהול ההוצאות הבסיסית, ודא שכתובת האתר מסתיימת ב-**.crm.dynamics.com**. 

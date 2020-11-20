@@ -3,7 +3,7 @@ title: כישורים ומודלים של מיומנות
 description: נושא זה מספק מידע על אופן השימוש בכישורים ובמודלים של מיומנות.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077528"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124189"
 ---
 # <a name="skills-and-proficiency-models"></a>כישורים ומודלים של מיומנות
 
@@ -41,8 +41,8 @@ ms.locfileid: "4077528"
 
 1. כדי ליצור מודל מיומנות, עבור אל **משאבים** \> **מודלים של מיומנות** ולאחר מכן בחר **חדש**.
 2. במודל הדירוג החדש, ציין את ערך הדירוג המינימלי, את ערך הדירוג המרבי ואת הישות המדורגת.
-3. ברשת המשנה **ערכי דירוג** , ניתן להגדיר את ערכי הדירוג השונים, מהערך המינימלי לערך המרבי.
+3. ברשת המשנה **ערכי דירוג**, ניתן להגדיר את ערכי הדירוג השונים, מהערך המינימלי לערך המרבי.
 
 > ![דירוגים מינימליים ומרביים הוגדרו](media/Resource-Management-image85.png)
 
-ערכי דירוג אלה מוצגים במסננים **דרישות משאב** , **לוח זמנים** ו **מסייע לוח הזמנים**.
+ערכי דירוג אלה מוצגים במסננים **דרישות משאב**, **לוח זמנים** ו **מסייע לוח הזמנים**.

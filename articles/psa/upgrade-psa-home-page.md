@@ -2,7 +2,7 @@
 title: שדרוג דף הבית
 description: נושא זה מראה היכן למצוא מידע חשוב על התכונות החדשות והתכונות שהשתנו ב- Dynamics 365 Project Service Automation, והתהליך לשדרוג לגירסה החדשה ביותר.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077389"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121759"
 ---
 # <a name="upgrade-home-page"></a>שדרוג דף הבית
 
@@ -61,4 +61,4 @@ ms.locfileid: "4077389"
 החל מה-1 במרץ 2020, לקוחות Dynamics PSA לא יוכלו עוד ליצור סביבות חדשות עם גרסאות ישנות יותר של PSA, למשל PSA גרסה 2.x ומטה. כל סביבה חדשה תדרוש גרסה 3.x של PSA.
 
 > [!NOTE]
-> לקבלת החוויה הטובה ביותר בעת השימוש בגירסאות ישנות יותר של האפליקציות Field Service ו- PSA, עבור אל **הגדרות המערכת** ובשדה **‏‫השתמש בממשק המאוחד החדש בלבד (מומלץ)** , בחר **לא** הואיל וגירסאות אלה אינן מיועדות להיטען כראוי ב- UCI. לאחר הביטול של UCI, תוכל לפתוח ולהפעיל גירסאות אלה של Field Service ו- PSA באמצעות לקוח האינטרנט הישן. 
+> לקבלת החוויה הטובה ביותר בעת השימוש בגירסאות ישנות יותר של האפליקציות Field Service ו- PSA, עבור אל **הגדרות המערכת** ובשדה **‏‫השתמש בממשק המאוחד החדש בלבד (מומלץ)**, בחר **לא** הואיל וגירסאות אלה אינן מיועדות להיטען כראוי ב- UCI. לאחר הביטול של UCI, תוכל לפתוח ולהפעיל גירסאות אלה של Field Service ו- PSA באמצעות לקוח האינטרנט הישן. 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077336"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122929"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>יצירת הערכות בשורת הצעת מחיר
 
@@ -83,8 +83,8 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 2. בחר **חיפוש** וחפש את יישום ה- plug-in לעדכון.
 3. בחר את יישום ה- plug-in ולאחר מכן, בדף הראשי, בחר **בחר**.
 4. בחר את השלב של יישום ה- plug-in כדי לעדכן, לחץ באמצעות לחצן העכבר הימני ולאחר מכן בחר **עדכן**.
-5. בתיבת הדו-שיח **עדכון שלב קיים** , בשדה **תכונות סינון** , בחר בלחצן שלוש הנקודות ( **...** ):
-6. בתיבת הדו-שיח **בחר תכונות** , בחר תיבות סימון עבור תכונות מותאמות אישית.
+5. בתיבת הדו-שיח **עדכון שלב קיים**, בשדה **תכונות סינון**, בחר בלחצן שלוש הנקודות (**...**):
+6. בתיבת הדו-שיח **בחר תכונות**, בחר תיבות סימון עבור תכונות מותאמות אישית.
 7. בחר **אישור** כדי לסגור את תיבת הדו-שיח ולאחר מכן בחר **עדכן שלב**.
 8. חזור על שלבים 1 עד 7 עבור יישום ה- plug-in השני.
 9. סגור את הכלי PluginRegistrationTool.

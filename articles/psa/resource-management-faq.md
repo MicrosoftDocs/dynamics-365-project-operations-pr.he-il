@@ -3,7 +3,7 @@ title: שאלות נפוצות בנושא ניהול משאבים
 description: נושא זה מספק תשובות לשאלות נפוצות לגבי ניהול משאבים.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077519"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120139"
 ---
 # <a name="resource-management-faq"></a>שאלות נפוצות בנושא ניהול משאבים
 
@@ -47,7 +47,7 @@ ms.locfileid: "4077519"
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>באילו סוגי משאבים תומך Project Service Automation?
 
-**משתמש** ו **איש קשר** הם סוגי המשאבים היחידים הנתמכים ב- Dynamics 365 Project Service Automation. על אף שניתן ליצור סוגים אחרים של משאבים (לדוגמה, **ציוד** ו **קבוצה** ), הם לא תומכים במקרי שימוש מקצה לקצה.
+**משתמש** ו **איש קשר** הם סוגי המשאבים היחידים הנתמכים ב- Dynamics 365 Project Service Automation. על אף שניתן ליצור סוגים אחרים של משאבים (לדוגמה, **ציוד** ו **קבוצה**), הם לא תומכים במקרי שימוש מקצה לקצה.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>מה ההבדל בין הקצאה להזמנה?
 

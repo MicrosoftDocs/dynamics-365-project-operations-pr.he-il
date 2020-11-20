@@ -2,7 +2,7 @@
 title: שיקולים לשדרוג - Microsoft Dynamics 365 Project Service Automation גירסה 2.x או 1.x לגירסה 3
 description: נושא זה מספק מידע על השיקולים הדרושים בעת השדרוג מגירסה ‎2.x או ‎1.x של Project Service Automation לגירסה 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077388"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121714"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>שיקולים לשדרוג – גירסה ‎2.x או ‎1.x של PSA לגירסה 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,7 +31,7 @@ ms.locfileid: "4077388"
 גם Dynamics 365 Project Service Automation וגם Dynamics 365 Field Service משתמשים בפתרון Universal Resourcing Scheduling‏ (URS) לתזמון משאבים. אם יש במופע שלכם גם Project Service Automation וגם Field Service, עליכם לשדרג את שני הפתרונות לגירסה האחרונה (גרסה 3.x עבור Project Service Automation, גרסה 8.x ל- Field Service). שדרוג Project Service Automation או Field Service יתקין את הגירסה העדכנית ביותר של URS, כלומר שייתכן שתיתקל באופן פעולה לא עקבי אם פתרונות Project Service Automation ו- Field Service באותו המופע אינם משודרגים שניהם לגירסה העדכנית ביותר.
 
 ## <a name="resource-assignments"></a>הקצאות משאבים
-בגירסה 2 ובגירסה 1 של Project Service Automation, הקצאות משימות אוחסנו כמשימות צאצא (שנקראו גם משימות שורה) ב **ישות המשימה** , והן היו קשורות בעקיפין לישות **הקצאת משאב**. משימת השורה היתה גלויה בחלון המוקפץ של ההקצאה במבנה התפלגות העבודה (WBS).
+בגירסה 2 ובגירסה 1 של Project Service Automation, הקצאות משימות אוחסנו כמשימות צאצא (שנקראו גם משימות שורה) ב **ישות המשימה**, והן היו קשורות בעקיפין לישות **הקצאת משאב**. משימת השורה היתה גלויה בחלון המוקפץ של ההקצאה במבנה התפלגות העבודה (WBS).
 
 ![משימות קו ב- WBS בגירסה 2 וגירסה 1 של Project Service Automation](media/upgrade-line-task-01.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "4077388"
 
 לפני שתתחיל בשדרוג, מומלץ ליצור מחדש את הצוות עבור כל פרויקט הכולל משימות המוקצות למשאבים כלליים, או שעדיין לא הופעל בו תהליך יצירת הצוות.
 
-עבור משימות המוקצות לחברי צוות כלליים שנוצרו באמצעות התכונה **צור צוות** , השדרוג ישאיר את המשאב הכללי בצוות וישאיר את ההקצאה לחבר צוות כללי זה. מומלץ ליצור את דרישת המשאב עבור חבר הצוות הכללי לאחר השדרוג, אבל לפני ההזמנה או שליחת הבקשה למשאב. פעולה זו תשמור על הקצאות של יחידות ארגוניות בחברי הצוות הכלליים שאינן היחידות הארגוניות המופיעות בחוזה הפרויקט.
+עבור משימות המוקצות לחברי צוות כלליים שנוצרו באמצעות התכונה **צור צוות**, השדרוג ישאיר את המשאב הכללי בצוות וישאיר את ההקצאה לחבר צוות כללי זה. מומלץ ליצור את דרישת המשאב עבור חבר הצוות הכללי לאחר השדרוג, אבל לפני ההזמנה או שליחת הבקשה למשאב. פעולה זו תשמור על הקצאות של יחידות ארגוניות בחברי הצוות הכלליים שאינן היחידות הארגוניות המופיעות בחוזה הפרויקט.
 
 לדוגמה, בפרויקט Z, היחידה הארגונית בחוזה היא Contoso US. בתוכנית הפרויקט, משימות בדיקה בשלב היישום הוקצו לתפקיד 'יועץ טכני' והיחידה הארגונית שהוקצתה היא Contoso India.
 

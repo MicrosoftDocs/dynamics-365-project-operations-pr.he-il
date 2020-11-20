@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096753"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122884"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית 
 
@@ -26,7 +26,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 בצע את השלבים הבאים כדי להפעיל תכונות נדרשות.
 
 1. ב- Dynamics 365 Finance, עבור אל סביבת העבודה **ניהול ישויות**.
-2. ב **רשימת תכונות** , מצא והפעל את התכונות הבאות:
+2. ב **רשימת תכונות**, מצא והפעל את התכונות הבאות:
   
     - **הפעל מספר סעיפי חוזה לפרויקט**
     - **הפעל את Project Operations ב- Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 כל ישות משפטית שמשתמשת ב- Project Operations ב- Dynamics 365 Customer Engagement צריכה קבוצה של פרמטרים המוגדרים כברירת מחדל. פרמטרים אלה מוגדרים בכרטיסיה **Project Operations** בדף **ניהול פרויקטים ופרמטרים חשבונאיים**. הפרמטרים הם:
 
-  - **ברירות מחדל של סוג חיוב** :‏ Project Operations משתמש בקבוצה קבועה של ברירות מחדל מסוג חיוב שיש למפות למאפייני השורות של Finance. צור רשומה עבור כל סוג חיוב: **לא מוגדר** , **בתשלום** , **ללא חיוב** , **משלים** ו **לא זמין**.
-  - **ברירות מחדל של קטגוריית הפרויקט** : בחר בקטגוריות הפרויקט המוגדרות כברירת מחדל לשימוש עבור כל סוג עסקה. ברירות מחדל אלה ישמשו ב- **כתב העת לשילוב Project Operations** ובהערכות שבהן לא מוגדרת קטגוריית עסקאות עבור הפרויקט בפועל.
-  - **תחזיות** : בחר במודל התחזית שישמש לאומדני זמן והוצאות.
+  - **ברירות מחדל של סוג חיוב**:‏ Project Operations משתמש בקבוצה קבועה של ברירות מחדל מסוג חיוב שיש למפות למאפייני השורות של Finance. צור רשומה עבור כל סוג חיוב: **לא מוגדר**, **בתשלום**, **ללא חיוב**, **משלים** ו **לא זמין**.
+  - **ברירות מחדל של קטגוריית הפרויקט**: בחר בקטגוריות הפרויקט המוגדרות כברירת מחדל לשימוש עבור כל סוג עסקה. ברירות מחדל אלה ישמשו ב- **כתב העת לשילוב Project Operations** ובהערכות שבהן לא מוגדרת קטגוריית עסקאות עבור הפרויקט בפועל.
+  - **תחזיות**: בחר במודל התחזית שישמש לאומדני זמן והוצאות.

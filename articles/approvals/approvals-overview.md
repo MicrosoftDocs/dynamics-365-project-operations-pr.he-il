@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077168"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123829"
 ---
 # <a name="approvals-overview"></a>מבט כולל על אישורים
 
@@ -27,7 +27,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ## <a name="approve-an-entry"></a>אישר ערך
 הטופס **אישורים** מאפשר לך לעבור בין תצוגות שונות כדי שתוכל לרואת את סוגי האישורים השונים.
   
-1. עבור אל הטופס **אישורים** ובחר **הוצאות** , **זמן** , או **אחזורים**.
+1. עבור אל הטופס **אישורים** ובחר **הוצאות**, **זמן**, או **אחזורים**.
 2. סקור כל אישור ובחר את האישורים שברצונך לאשר.
 3. בחר **אשר** כדי לאשר את הערכים שנבחרו.
 המערכת תעבד ערכים אלה ותיצור נתונים בפועל או הזמנה.
@@ -55,7 +55,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ## <a name="configure-the-users-manager"></a>קבע את התצורה של מנהל המשתמש
 
 1. עבור אל **הגדרות** > **אבטחה** > **משתמשים**.
-2. בחר את המשתמש אליו אתה מקצה מנהל ובתוך האזור **מידע על הארגון** , בחר את המנהל מתוך הרשימה. 
+2. בחר את המשתמש אליו אתה מקצה מנהל ובתוך האזור **מידע על הארגון**, בחר את המנהל מתוך הרשימה. 
 3. בחר **שמור**.
 
 
