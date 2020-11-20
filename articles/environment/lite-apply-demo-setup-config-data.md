@@ -1,23 +1,30 @@
 ---
-title: החל את הגדרת ההדגמה ואת נתוני התצורה
+title: החלת נתוני ההדגמה והתצורה - לייט
 description: נושא זה מספק מידע על אופן החלת הגדרת ההדגמה ונתוני התצורה עבור Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077173"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401264"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>החל את הגדרת ההדגמה ונתונה התצורה עבור פריסת לייט של Project Operations - מהעסקה ועד להוצאת חשבונית פרופורמה
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>החל את נתוני ההדגמה והתצורה עבור Project Operations - לייט 
 
-_פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה_
+
+## <a name="prerequisites"></a>דרישות מוקדמות
+
+לפני שתתחיל בקביעת התצורה, צריך להיות לך סביבת Common Data Service ‏(CDS) שמוקצה עבור Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>הוראות
 
 1. הורד את [חבילת נתוני האב](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. נווט לתיקיה *ProjOpsDemoDataSetupAndMaster - Integrated CMT* והפעל את קובץ ההפעלה, *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופ�
 10. הייבוא יפעל בין שתיים לעשר דקות, תלוי במהירות הרשת שלך. לאחר השלמת הייבוא, צא מאשף ה-CMT. 
 11. בדוק אם ישנם נתונים בארגון שלך ב-20 הישויות הבאות:
 
-- מטבע
-- יחידה ארגונית
-- איש קשר
-- קבוצת מיסים
-- קבוצת לקוחות
-- יחידה
-- קבוצת יחידות
-- מחירון
-- מחירון פרמטרים של פרויקט
-- תדירות חשבונית
-- פרטי תדירות של הגשת חשבונית
-- קטגוריית משאבים הניתנים להזמנה
-- קטגוריית עסקה
-- קטגוריית הוצאות
-- מחיר תפקיד
-- מחיר קטגוריית עסקה
-- מאפיין
-- משאב הניתן להזמנה
-- קטגוריות משאבים הניתנים להזמנה
-- מאפיין של משאב הניתן להזמנה
+-   מטבע
+-   חשבון
+-   יחידה ארגונית
+-   איש קשר
+-   קבוצת מיסים
+-   קבוצת לקוחות
+-   יחידה
+-   קבוצת יחידות
+-   מחירון
+-   מחירון פרמטרים של פרויקט 
+-   תדירות חשבונית
+-   קטגוריית משאבים הניתנים להזמנה
+-   קטגוריית עסקה
+-   קטגוריית הוצאות
+-   מחיר תפקיד
+-   מחיר קטגוריית עסקה
+-   מאפיין
+-   משאב הניתן להזמנה
+-   קטגוריות משאבים הניתנים להזמנה
+-   מאפיין של משאב הניתן להזמנה
 
 ![השלם את הייבוא](./media/6CompleteImport.png)

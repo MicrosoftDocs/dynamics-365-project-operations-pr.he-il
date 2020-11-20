@@ -1,23 +1,33 @@
 ---
-title: הגדרה והחלה של נתוני תצורה ב- Common Data Service עבור Project Operations
+title: הגדרה והחלה של נתוני  תצורה ב-Common Data Service
 description: נושא זה מספק מידע על הגדרה והחלה של נתוני התצורה ב- Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077181"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401129"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>הגדרה והחלה של נתוני תצורה ב- Common Data Service עבור Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>הגדרה והחלה של נתוני  תצורה ב-Common Data Service 
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
+
+## <a name="prerequisites"></a>דרישות מוקדמות
+
+לפני תחילת קביעת התצורה של נתונים ב-Common Data Service ‏(CDS), התנאים המוקדמים הבאים חייבים להתקיים:
+
+1.  הקצאת סביבת CDS וסביבת Dynamics 365 Finance ל-Project Operations.
+2.  מידע על הישות המשפטית מ-Dynamics 365 Finance משותף בסביבת CDS. פירוש הדבר שישות **חברה** ב- CDS כוללת את רשומות החברה הבאות:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>הגדרת התקנה ונתוני תצורה
 
@@ -79,11 +89,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![משאבים הניתנים להזמנה](./media/8BookableResources.png)
 
-3. בכרטיסיה **כללי** , בחר את המשתמש שהוא מנהל המערכת שלך. ודא שאזור הזמן תואם את זה שאתה נמצא בו. 
+3. בכרטיסיה **כללי**, בחר את המשתמש שהוא מנהל המערכת שלך. ודא שאזור הזמן תואם את זה שאתה נמצא בו. 
 
 ![משאב חדש הניתן להזמנה](./media/9NewBookableResource.png)
 
-4. בכרטיסיה **תזמון** , בשדה **חברה** , בחר את החברה **USPM** ולאחר מכן בחר **שמור**. 
+4. בכרטיסיה **תזמון**, בשדה **חברה**, בחר את החברה **USPM** ולאחר מכן בחר **שמור**. 
 
 ![כרטיסיית תזמון](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
  
 12. עדכן את השדות הבאים:
 
- - **חברת ברירת מחדל** : USPM
- - **יחידה ארגונית המוגדרת כברירת מחדל** : Contoso Robotics Global
- - **תדירות חשבונית** : היום השביעי והאחרון
- - **תבנית שעות עבודה** : שנה לתבנית שיצרת.
+ - **חברת ברירת מחדל**: USPM
+ - **יחידה ארגונית המוגדרת כברירת מחדל**: Contoso Robotics Global
+ - **תדירות חשבונית**: היום השביעי והאחרון
+ - **תבנית שעות עבודה**: שנה לתבנית שיצרת.
 
 13. בחר **שמור**. 
 

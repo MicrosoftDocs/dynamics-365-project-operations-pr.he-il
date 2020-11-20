@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077169"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181948"
 ---
 # <a name="project-based-opportunity-lines"></a>שורות הזדמנות המבוססות על פרויקט
 
@@ -26,7 +26,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 בהמשך מפורטים השדות בשורת ההזדמנות המבוססת על פרויקט:
 
-| **שדה** | **מיקום** | **רלוונטיות, מטרה והכוונה** | **השפעה במורד הזרם** |
+| **שדה** | **מיקום** | **תיאור** | **השפעה במורד הזרם** |
 | --- | --- | --- | --- |
 | סוג מוצר | כרטיסיה כללית (מוסתרת) | זהו שדה של קבוצת אפשרויות. אם מותקן אצלך Dynamics 365 Operations, אחת מהאפשרויות הזמינות היא **שירות מבוסס-פרויקטים**.  | הערך של שדה זה מוגדר בתור **שירות מבוסס-פרויקטים** כאשר אתה יוצר את שורת ההזדמנות המבוססת על פרויקט מרשת השורות מבוססת-הפרויקט בהזדמנות. <br> אם תשנה או תעקוף ערך זה, פונקציונליות הפרויקט לא תהיה זמינה בפריטי השורה מבוססי הפרויקט שלך. |
 | הזדמנות | הכרטיסיה 'כללי' | שדה זה הוא לקריאה בלבד והוא מפנה לרשומת הזדמנות האב שאליה שייך פריט השורה. | לשדה זה אין השפעה במורד הזרם. |

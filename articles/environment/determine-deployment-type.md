@@ -3,17 +3,17 @@ title: קביעת סוג הפריסה
 description: נושא זה מספק מידע שיעזור לך לקבוע איזה סוג פריסה של Project Operations מתאים לחברה שלך.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077312"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401219"
 ---
 # <a name="determine-your-deployment-type"></a>קביעת סוג הפריסה
 
@@ -25,7 +25,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>לקוחות קיימים של Dynamics באמצעות Dynamics 365 Project Service Automation
-Project Operations כולל את היכולות שנשלחו עם Project Service Automation. נתיב שדרוג ישוחרר ללקוחות אלה בעתיד.
+Project Operations כולל את היכולות שנשלחו עם Project Service Automation. נתיב שדרוג ישוחרר ללקוחות אלה בגל הפצה 1 של 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>לקוחות קיימים של Dynamics 365 Finance המשתמשים בניהול פרויקטים וחשבונאות 
 
@@ -47,12 +47,13 @@ Project Operations תומכות בתרחישים של מלאי/הזמנת ייצ
 
 הפריסת הלייט כוללת את היכולות הבאות:
 
+- תהליך מכירה לפרויקטים המרחיב את חווית היישום של Dynamics 365 Sales
 - תכנון פרויקטים באמצעות Microsoft Project באינטרנט
 - תמחור רב-ממדי
-- מאוחד ניהול משאבים
-- מעקב אחרי הזמן
+- ניהול משאבים מאוחד
+- מעקב אחר זמנים
 - הוצאה בסיסית
-- הצעת חשבונית
+- הפקת חשבוניות פרופורמה וחשבונית המוצגות ללקוח 
 
 #### <a name="deployment-steps"></a>שלבי הפריסה
 קבע את מודל הפריסה הטוב ביותר של Project Operations באמצעות [שאלון הפריסה](https://aka.ms/provisionprojectoperations).
@@ -62,16 +63,17 @@ Project Operations תומכות בתרחישים של מלאי/הזמנת ייצ
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations לתרחישים של משאבים/ללא מלאי
 Project Operations עבור תרחישי משאבים/ללא מלאי כולל את היכולות הבאות:
-  
+ 
+- תהליך מכירה לפרויקטים המרחיב את חווית היישום של Dynamics 365 Sales
 - תכנון פרויקטים באמצעות Microsoft Project באינטרנט
 - תמחור רב-ממדי
-- מאוחד ניהול משאבים
-- מעקב אחרי הזמן
+- ניהול משאבים מאוחד
+- מעקב אחר זמנים
 - הוצאה בסיסית
 - הוצאה מלאה
 - קבלת OCR
-- הפקת חשבונית מלאה
-- הכרה בהכנסה
+- הפקת חשבוניות פרופורמה וחשבונית המוצגות ללקוח 
+- הכרה בהכנסות מפרויקטים
 
 #### <a name="deployment-steps"></a>שלבי הפריסה
 קבע את מודל הפריסה הטוב ביותר של Project Operations באמצעות [שאלון הפריסה](https://aka.ms/provisionprojectoperations).

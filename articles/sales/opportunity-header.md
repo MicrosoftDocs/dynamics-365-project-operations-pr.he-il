@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077183"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181228"
 ---
-# <a name="opportunity-headersummary"></a>כותרת/סיכום הזדמנות
+# <a name="opportunity-settings"></a>הגדרות הזדמנות
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
@@ -26,7 +26,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 הטבלה הבאה כוללת את השדות בהזדמנות מבוססת פרויקט שהם ייחודיים ל-Project Operations או שהם כוללים שיוניים חשובים באופן הפעולה מ'הזדמנויות' שב-Sales.
 
-| **שדה** | **מיקום** | **רלוונטיות, מטרה והכוונה** | **השפעה במורד הזרם** |
+| **שדה** | **מיקום** | **תיאור** | **השפעה במורד הזרם** |
 | --- | --- | --- | --- |
 | סוג | כרטיסיה כללית (מוסתרת) | שדה קבוצת אפשרויות מכיל את האפשרויות הבאות:</br>- מבוססת עבודה (זמין רק כאשר Project Operations מותקן)</br>- מבוססת פריט (זמין רק Project Operations ו-Sales מותקנים)</br>- מבוססת תחזוקת שירות (זמין רק כאשר Field Service מותקן) | כאשר אתה משתמש ביישום Project Operations, הערך של שדה זה מוגדר אוטומטית ל **מבוססת עבודה** שמסווג את הזדמנות להזדמנות מבוססת פרויקט. על ההזדמנות להיות מבוססת פרויקט כדי לאפשר את כל ההרחבות והפונקציונליות הספציפיות לפרויקט בתהליך המכירה במורד הזרם עבור עסקה זו. |
 | החברה המהווה בעלים | הכרטיסיה 'כללי' | זוהי החברה או היישות המשפטית לתגיש את הפרויקט עבור הלקוח. | פרטי שדה זה יועתק לשדה המקביל בהצעת המחיר של הפרויקט שנוצר מהזדמנות זו. |
