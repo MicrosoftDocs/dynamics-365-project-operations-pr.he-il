@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077197"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131569"
 ---
 # <a name="estimate-projects-overview"></a>מבט כולל על הערכת פרויקטים
 
@@ -74,8 +74,8 @@ Project Operations אינו תומך בשינויי הזמנות בחוזים א
 2. בחר **חיפוש** וחפש את יישום ה- plug-in לעדכון.
 3. בחר את יישום ה- plug-in ולאחר מכן, בדף הראשי, ובחר **בחר**.
 4. בחר את השלב של יישום ה- plug-in כדי לעדכן, לחץ באמצעות לחצן העכבר הימני ולאחר מכן בחר **עדכן**.
-5. בתיבת הדו-שיח **עדכון שלב קיים** , בשדה **תכונות סינון** , בחר בלחצן שלוש הנקודות ( **...** ):
-6. בתיבת הדו-שיח **בחר תכונות** , בחר תיבות סימון עבור תכונות מותאמות אישית.
+5. בתיבת הדו-שיח **עדכון שלב קיים**, בשדה **תכונות סינון**, בחר בלחצן שלוש הנקודות (**...**):
+6. בתיבת הדו-שיח **בחר תכונות**, בחר תיבות סימון עבור תכונות מותאמות אישית.
 7. בחר **אישור** כדי לסגור את תיבת הדו-שיח ולאחר מכן בחר **עדכן שלב**.
 8. חזור על שלבים 1 עד 7 עבור יישום ה- plug-in השני.
 9. סגור את הכלי **PluginRegistrationTool**.

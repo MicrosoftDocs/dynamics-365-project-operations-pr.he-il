@@ -3,7 +3,7 @@ title: מדריך למנהל פרויקט
 description: מדריך לניהול פרויקטים עם Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89e33ae67f5d4134bf8c6f6c517fd4460c6879dd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bed91df141d19bf93703f6cad51432d6a1ffefa
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077278"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132040"
 ---
 # <a name="project-manager-guide-project-service"></a>מדריך למנהל פרויקט (Project Service)
 
@@ -53,21 +53,21 @@ ms.locfileid: "4077278"
   
 -   [‏‫‏‫קביעת הערכות של עלות הפרויקט וההכנסה](../psa/determine-project-cost-revenue-estimates.md)  
   
--   [מעקב אחר התקדמות בפרויקט ועלות](../psa/track-project-progress-cost.md)  
+-   [מעקב אחר התקדמות בפרוייקט ועלות](../psa/track-project-progress-cost.md)  
   
--   [יצירת תבנית פרויקט](../psa/create-project-template.md)  
+-   [יצירת תבנית פרוייקט](../psa/create-project-template.md)  
   
 -   [שליחת בקשות למשאבים](../psa/submit-resource-requests.md)  
   
--   [יצירת קבוצה של Office 365 עבור פרויקט](../psa/create-office-365-group-project.md)  
+-   [יצירת קבוצה של Office 365 עבור פרוייקט](../psa/create-office-365-group-project.md)  
   
--   [‏‫הוספת מסמכים לפרויקט](../psa/add-documents-project.md)  
+-   [‏‫הוספת מסמכים לפרוייקט](../psa/add-documents-project.md)  
   
--   [‏‫מעקב אחר מצב הפרויקט](../psa/track-project-status.md)  
+-   [‏‫מעקב אחר מצב הפרוייקט](../psa/track-project-status.md)  
   
--   [הצגת חברי הצוות בפרויקט וניהול הזמנות](../psa/view-project-team-members-manage-bookings.md)  
+-   [הצגת חברי הצוות בפרוייקט וניהול הזמנות](../psa/view-project-team-members-manage-bookings.md)  
   
--   [הצגה ועריכה של הערכות פרויקט](../psa/view-edit-project-estimates.md)  
+-   [הצגה ועריכה של הערכות פרוייקט](../psa/view-edit-project-estimates.md)  
   
 -   [אישור זמן והוצאות](../psa/approve-time-expenses.md)  
   

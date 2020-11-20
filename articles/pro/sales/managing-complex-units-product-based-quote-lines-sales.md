@@ -1,23 +1,23 @@
 ---
-title: ניהול יחידות מורכבות, למשל לפי משתמש, או לפי חודש עבור שורות הצעות מחיר מבוססות מוצר
+title: ניהול יחידות מורכבות, כגון 'לפי משתמש', לחודש עבור שורות הצעות מחיר מבוססות מוצר - לייט
 description: נושא זה מספק מידע על ניהול יחידות מורכבות עבור שורות הצעות מחיר מבוססות מוצר.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077240"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175577"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>ניהול יחידות מורכבות, למשל לפי משתמש, או לפי חודש עבור שורות הצעות מחיר מבוססות מוצר
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>ניהול יחידות מורכבות, כגון 'לפי משתמש', לחודש עבור שורות הצעות מחיר מבוססות מוצר - לייט
 
-_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 Dynamics 365 Project Operations משתמש בגורמי כמות כדי לתמוך במכירה של מוצרים מבוססי מנוי. עבור מוצרים מבוססי מנוי, הכמות בהצעת המחיר או בסעיף החוזה של הפרויקט מבוטאת כמספר החודשים של המשתמש.
 
@@ -29,8 +29,8 @@ Project Operations מאמתת שרק מאפיינים מספריים או מאפ
 
 לדוגמה, ייתכן שב-Dynamics 365 Sales יהיו המאפיינים הבאים:
 
-- **מס' המשתמשים** : מספר המשתמשים
-- **מס' החודשים** : מספר חודשי המנוי
+- **מס' המשתמשים**: מספר המשתמשים
+- **מס' החודשים**: מספר חודשי המנוי
 - **SKU של מוצר**
 
 ניתן לסמן בדגל את המאפיין **מס' המשתמשים** ואת המאפיין **מס' החודשים** כגורמי כמות על ידי עריכת המאפיינים של שורת המוצר.

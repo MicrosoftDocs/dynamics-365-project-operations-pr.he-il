@@ -1,23 +1,23 @@
 ---
-title: אישור חשבונית פרופורמה
+title: אישור חשבונית פרופורמה - לייט
 description: נושא זה מספק מידע על אישור חשבוניות פרופורמה ב-Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4b67ee6848efdcb85cf732c1eaa3e40cdc51a2e2
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077216"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176522"
 ---
-# <a name="confirming-a-proforma-invoice"></a>אישור חשבונית פרופורמה
+# <a name="confirm-a-proforma-invoice---lite"></a>אישור חשבונית פרופורמה - לייט
 
-_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 
 לאחר אישור חשבונית פרופורמה, מצב חשבונית הפרויקט מתעדכן ל **מאושר**. לאחר אישור חשבונית, היא תוגדר 'לקריאה בלבד'. בהמשך, ניתן לתקן את החשבונית רק אם ישנם תיקונים או זיכויים יזומים על ידי הלקוח, או אם החשבונית מסומנת כחשבונית ששולמה.

@@ -3,7 +3,7 @@ title: ‏‫אפשר לאדם אחר להזין את ערכי הזמן או ה�
 description: כיצד לאפשר לאחרים להזין את ערכי הזמן או ההוצאות שלך ב- Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077281"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130370"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>אפשר לאדם אחר להזין את ערכי הזמן או ההוצאות שלך (Project Service)
 
@@ -37,13 +37,13 @@ ms.locfileid: "4077281"
   
 2.  בשורת הפקודה, לחץ על **חדש**.  
   
-3. **שם** : הזן שם עבור רשומה.  
+3. **שם**: הזן שם עבור רשומה.  
   
-4. **סוג** : בחר אם הנציג יכול להזין ערכי זמן או הוצאות בשמך.  
+4. **סוג**: בחר אם הנציג יכול להזין ערכי זמן או הוצאות בשמך.  
   
-5. **נציג** : בחר את שם האדם שברצונך שיהיה הנציג.  
+5. **נציג**: בחר את שם האדם שברצונך שיהיה הנציג.  
   
-6. **תאריכי התחלה וסיום** : בחר תאריכים להתחלה ולסיום.  
+6. **תאריכי התחלה וסיום**: בחר תאריכים להתחלה ולסיום.  
   
 7.  בסיום, לחץ על **שמור וסגור**.  
   
@@ -55,7 +55,7 @@ ms.locfileid: "4077281"
   
 3.  בסרגל הפקודות, לחץ על **בטל הפעלה**.  
   
-4.  בתיבת הדו-שיח **אישור של ביטול הפעלה** , לחץ על **בטל הפעלה‏**.  
+4.  בתיבת הדו-שיח **אישור של ביטול הפעלה**, לחץ על **בטל הפעלה‏**.  
   
 ## <a name="enter-time-for-someone-else"></a>הזן זמן עבור מישהו אחר  
   

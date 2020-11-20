@@ -1,26 +1,26 @@
 ---
-title: סעיפי חוזה המבוססים על מוצר תמחיר
+title: סעיפי חוזה מבוססי מוצר של עלות - לייט
 description: נושא זה מספק מידע אודות יצירת
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4077539"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177242"
 ---
-# <a name="costing-product-based-contract-lines"></a>סעיפי חוזה המבוססים על מוצר תמחיר
+# <a name="cost-product-based-contract-lines---lite"></a>סעיפי חוזה מבוססי מוצר של עלות - לייט
 
-_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 
-סעיפי חוזה מבוססי מוצרים ב-Dynamics 365 Project Operations כוללים את השדה **מחיר עלות** , המאחסן את מחיר העלות של המוצר לצורך חישובי רווחיות במורד הזרם.
+סעיפי חוזה מבוססי מוצרים ב-Dynamics 365 Project Operations כוללים את השדה **מחיר עלות**, המאחסן את מחיר העלות של המוצר לצורך חישובי רווחיות במורד הזרם.
 
 כאשר נוצר סעיף חוזה מבוסס מוצר עבור מוצר קטלוג, עלות סעיף החוזה מבוססת מוצר נקבע כברירת מחדל מהשדה **עלות סטנדרטית** שבקטלוג המוצרים. השדה **עלות סטנדרטית** שבקטלוג המוצרים מוגדר במטבע הבסיס של הארגון. כאשר ברירת המחדל של עלות היחידה נקבעת בסעיף החוזה, היא מומרת למטבע המכירות בחוזה.
 

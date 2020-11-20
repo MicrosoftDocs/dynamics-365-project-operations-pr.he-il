@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077346"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130894"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>יצירת שדות וישויות מותאמים אישית כממדי תמחור
 
@@ -36,7 +36,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>יצירת פתרון מותאם אישית עבור ממדי תמחור
 1. עבור אל **הגדרות** > **פתרונות** ולאחר מכן בחר **חדש** כדי ליצור פתרון חדש. 
-2. תן שם לפתרון, **\<your organization name> ממדי תמחור** , הזן את המידע הדרוש שנותר ובחר **שמור**.
+2. תן שם לפתרון, **\<your organization name> ממדי תמחור**, הזן את המידע הדרוש שנותר ובחר **שמור**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>יצור שדות וקבוצות אפשרויות מותאמים אישית בפתרון ממד התמחור
 
@@ -62,8 +62,8 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 באפשרותך ליצור נתונים עבור ממדים מבוססי-ישות באופן ידני, או באמצעות ייבוא או קריאות שירות של Microsoft Excel. השתמש בשלבים שבהליך זה כדי ליצור שני תארים רגילים, **מהנדס מערכות** ו **מהנדס מערכות בכיר** מהממד מבוסס הישות, **כותרת סטנדרטית**. אם הנתונים שברצונך ליצור הם בכמות קטנה, בדומה לדוגמה הבאה, באפשרותך להשתמש בטופס רגיל.
 
-1. בחר **חיפוש מתקדם** , בחר את הישות **כותרת סטנדרטית** ובחר **תוצאות**. כל השורות בישות **כותרת סטנדרטית** יוצגו.
-2. בחר **חדש** , ובשדה **שם** הזן "מהנדס מערכות" ובחר **שמור**.
+1. בחר **חיפוש מתקדם**, בחר את הישות **כותרת סטנדרטית** ובחר **תוצאות**. כל השורות בישות **כותרת סטנדרטית** יוצגו.
+2. בחר **חדש**, ובשדה **שם** הזן "מהנדס מערכות" ובחר **שמור**.
 3. סגור את הטופס. 
 4. חזור על שלבים 1-3 כדי ליצור כותרת סטנדרטית נוספת עבור "מהנדס מערכות בכיר".
 
@@ -72,7 +72,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 1. בחר **הגדרות** > **פתרונות** ולחץ פעמיים על **\<your organization name> ממדי תמחור**. 
 2. בסייר הפתרונות, בחלונית הניווט הימנית בחר **הוסף קיים**  > **ישויות**.
-3. בתיבת הדו-שיח **רכיבי פתרון** , בחר את הישויות הבאות:
+3. בתיבת הדו-שיח **רכיבי פתרון**, בחר את הישויות הבאות:
 
   - בפועל
   - משאב הניתן להזמנה

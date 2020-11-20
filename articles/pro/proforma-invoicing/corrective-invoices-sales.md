@@ -1,23 +1,23 @@
 ---
-title: זיכויים וחשבוניות שתוקנו
+title: חשבוניות שתוקנו - לייט
 description: נושא זה מספק מידע על חשבוניות שתוקנו ב- Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077419"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176432"
 ---
-# <a name="credits-and-corrected-invoices"></a>זיכויים וחשבוניות שתוקנו
+# <a name="corrected-invoices---lite"></a>חשבוניות שתוקנו - לייט
 
-_**חל על** : פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
 ניתן לתקן חשבונית פרויקט שאושרה כדי לעבד שינויים או זיכויים בהתאם למשא ומתן עם הלקוח ועם מנהל הפרויקט.
 

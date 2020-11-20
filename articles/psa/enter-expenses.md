@@ -3,7 +3,7 @@ title: הזנת הוצאות
 description: כיצד להזין הוצאות ב- Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 360e2c6b103f3d441fd89995751ba038036563c4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34510b38773031795d3877c2736275fe67dbdd7b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077512"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132919"
 ---
 # <a name="enter-expenses-project-service"></a>הזנת הוצאות (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4077512"
   
 3. כדי להזין הוצאה, לחץ על **חדש** או לחץ פעמיים על לוח השנה ביום שברצונך להזין הוצאה עבורו.  
   
-4. מלא את השדות בטופס **הוצאה חדשה** , ולאחר מכן לחץ על **שמור**.  
+4. מלא את השדות בטופס **הוצאה חדשה**, ולאחר מכן לחץ על **שמור**.  
   
 5. המשך להזין את ההוצאות שלך עבור השבוע. כאשר תסיים והכל נראה נכון, לחץ על **שלח**. מנהל יבדוק ויאשר את ההוצאות שלך.  
   
@@ -49,7 +49,7 @@ ms.locfileid: "4077512"
   
    אם אתה משתמש באפליקציה לנייד:  
   
-8. מתוך התפריט, עבור אל **הוצאות**.     באפשרותך לעבור לתצוגת **יום** , **שבוע** , או **חודש** , או לעבור לתקופת הזמן הבאה או הקודמת.  
+8. מתוך התפריט, עבור אל **הוצאות**.     באפשרותך לעבור לתצוגת **יום**, **שבוע**, או **חודש**, או לעבור לתקופת הזמן הבאה או הקודמת.  
   
 9. הקש על **…** והקש על **חדש**.  
   

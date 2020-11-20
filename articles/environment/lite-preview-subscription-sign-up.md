@@ -1,21 +1,21 @@
 ---
-title: הרשמה למנוי Preview‏
+title: הרשמה למנוי Preview‏ - לייט
 description: נושא זה מספק מידע על אופן ההרשמה ל-Project Operations ועל אופן פריסתו בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077171"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175892"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>הירשם למנוי Preview לפריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה
+# <a name="sign-up-for-a-preview-subscription---lite"></a>הרשמה למנוי Preview‏ - לייט 
 
 נושא זה מסביר כיצד להירשם כמנוי להצעת Preview לשותפים ועל אופן פריסתו של Dynamics 365 Project Operations בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
 
