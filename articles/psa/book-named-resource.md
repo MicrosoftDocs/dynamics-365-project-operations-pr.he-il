@@ -3,7 +3,7 @@ title: הזמנת משאבים בעלי שם מדרישות משאב
 description: נושא זה מספק מידע אודות הזמנת משאבים בעלי שם עבור דרישת משאב כללי.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077513"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125899"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>הזמנת משאבים בעלי שם מדרישות משאב
 
@@ -31,14 +31,14 @@ ms.locfileid: "4077513"
 
 באפשרותך להזמין משאב בעל שם כדי להחליף משאב כללי בעל דרישת משאב.
 
-1. ב- Project Service Automation‏ (PSA), בדף **פרוייקטים** , לחץ על הכרטיסיה **צוות**.
+1. ב- Project Service Automation‏ (PSA), בדף **פרוייקטים**, לחץ על הכרטיסיה **צוות**.
 2. בחר את המשאב הכללי בעל דרישת משאב מהרשימה ולאחר מכן לחץ על **הזמן**. לחלופין, פתח את דרישת המשאב ולאחר מכן לחץ על **הזמן**.
 
 
 ![הזמנת חבר צוות כללי](media/RM-how-to-14.png)
 
 
-3. בדף **מסייע לוח הזמנים** , בחר משאב בעל שם כדי להזמין לצוות הפרוייקט שלך ולאחר מכן לחץ על **הזמן**.
+3. בדף **מסייע לוח הזמנים**, בחר משאב בעל שם כדי להזמין לצוות הפרוייקט שלך ולאחר מכן לחץ על **הזמן**.
 
 ![הזמנת חבר צוות כללי באמצעות מסייע לוחות הזמנים](media/RM-how-to-15.png)
 

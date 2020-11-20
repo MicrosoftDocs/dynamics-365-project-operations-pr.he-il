@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077378"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128419"
 ---
 # <a name="define-expense-policies"></a>הגדר מדיניות הוצאות
 
@@ -36,12 +36,12 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
         
 באפשרותך להגדיר שלושה סוגים של מדיניות:         
         
-- **אזהרה** : מאפשרת לעובד להגיש דוח הוצאות או דרישת נסיעה אך ההוצאה תסומן עבור כל המאשרים         
+- **אזהרה**: מאפשרת לעובד להגיש דוח הוצאות או דרישת נסיעה אך ההוצאה תסומן עבור כל המאשרים         
   ולדיווח מאוחר יותר.        
 
-- **שגיאה** : דורשת מהעובד לשנות את ההוצאה כדי לציית למדיניות לפני הגשת דוח ההוצאות או דרישת הנסיעה.        
+- **שגיאה**: דורשת מהעובד לשנות את ההוצאה כדי לציית למדיניות לפני הגשת דוח ההוצאות או דרישת הנסיעה.        
  
- - **הצדקה** : מחייבת את העובד או המנהל להזין הצדקה לחריגה מהסכום לפני הגשת דוח ההוצאות או דרישת הנסיעה.        
+ - **הצדקה**: מחייבת את העובד או המנהל להזין הצדקה לחריגה מהסכום לפני הגשת דוח ההוצאות או דרישת הנסיעה.        
 
 ## <a name="policy-tips"></a>טיפים למדיניות
 להלן מספר הצעות שיכולות לסייע לך בעת יצירת מדיניות חדשה לניהול הוצאות: 

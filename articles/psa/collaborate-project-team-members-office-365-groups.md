@@ -3,7 +3,7 @@ title: שיתוף פעולה עם חברי צוות הפרוייקט שלך בא
 description: כיצד לשתף פעולה עם חברי צוות Project Service שלך באמצעות קבוצות Office 365
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7caa9275c2df493b42f08a23d4cf450c56a8683
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077485"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126934"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>שיתוף פעולה עם חברי צוות הפרוייקט שלך באמצעות קבוצות Office 365‏ (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4077485"
   
 3. בסרגל שלרוחב חלקו העליון של המסך, בחר את החץ למטה לצד שם הפרוייקט ולאחר מכן לחץ על **קבוצות Office 365**. פעולה זו מציגה את הפרוייקט, יחד עם פריטים משותפים עם הקבוצה שלך.  
   
-4. כדי לפתוח את סביבת העבודה של הצוות שלך ב- [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], לחץ על **פתח לוח שנה** , **פתח שיחות** , **פתח מחברת** , **פתח מסמכים** או **פתח אנשים**.  
+4. כדי לפתוח את סביבת העבודה של הצוות שלך ב- [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], לחץ על **פתח לוח שנה**, **פתח שיחות**, **פתח מחברת**, **פתח מסמכים** או **פתח אנשים**.  
   
 ### <a name="see-also"></a>למידע נוסף  
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)

@@ -3,7 +3,7 @@ title: הגשת בקשות משאב
 description: כיצד לשלוח בקשות משאב ב- Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126889"
 ---
 # <a name="submit-resource-requests-project-service"></a>הגשת בקשות משאב (Project Service)
 
@@ -41,7 +41,7 @@ ms.locfileid: "4077400"
   
 5.  כדי לבצע הזמנה קשיחה של משאב במקום זאת, בחר את התפקיד, ולאחר מכן לחץ על **הזמנה קשיחה**. זה מציג תצוגת לוח שנה של כל המשאבים והזמינות שלהם, עם קידוד צבעים שמספק תצוגה חזותית למצב הזמנה של משאב. בצע אחת מהפעולות הבאות כדי למטב את החיפוש שלך:  
   
-    -   בחר סדר תצוגה או מיון מהחלק העליון של המסך. באפשרותך גם לבחור אם להציג זמינות עבור **יום** , **שבוע** , או **חודש** , ולהשתמש בחצים כדי להציג את תקופת הזמן הקודמת או הבאה. השתמש בתיבת החיפוש כדי לאתר משאב ספציפי.  
+    -   בחר סדר תצוגה או מיון מהחלק העליון של המסך. באפשרותך גם לבחור אם להציג זמינות עבור **יום**, **שבוע**, או **חודש**, ולהשתמש בחצים כדי להציג את תקופת הזמן הקודמת או הבאה. השתמש בתיבת החיפוש כדי לאתר משאב ספציפי.  
   
     -   לחץ על **אפשרויות** כדי לשנות את מה שמופיע. לדוגמה, באפשרותך להציג מקרא המציג את ערכת הצבעים עבור סוגים שונים של הזמנות, או באפשרותך לבחור להציג רק סוג מסוים של הזמנה (לדוגמה, הזמנה בטוחה או הזמנה טנטטיבית‬‬).  
   

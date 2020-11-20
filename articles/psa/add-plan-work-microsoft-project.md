@@ -3,7 +3,7 @@ title: שימוש בתוספת של ‏‫Project Service לתכנון העבו�
 description: נושא זה מספק מידע אודות אופן ההוספה, קביעת התצורה והשימוש בתוספת Microsoft project עבור Microsoft project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077438"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129679"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>השתמש בתוספת של ‏‫Project Service Automation‬ כדי לתכנן את העבודה שלך ב- Microsoft Project
 
@@ -59,7 +59,7 @@ ms.locfileid: "4077438"
 ## <a name="read-from-a-template"></a>קריאה מתוך תבנית  
  קרא מתוך תבנית שיצרת ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] והעתקת לתוך [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] כדי להתחיל את תכנון הפרוייקט שלך. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [יצירת תבנית לפרוייקט (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  מתוך הכרטיסיה **Project Service** , לחץ על **קריאה** > **תבנית פרוייקט של Project Service Automation**.  
+1.  מתוך הכרטיסיה **Project Service**, לחץ על **קריאה** > **תבנית פרוייקט של Project Service Automation**.  
 
 2.  בחר תבנית פרוייקט מהרשימה ולאחר מכן לחץ על **פתח**.  
 
@@ -78,7 +78,7 @@ ms.locfileid: "4077438"
 
 1.  מתוך הכרטיסיה Project Service, בחר שורה ולחץ על **חיפוש משאבים**.  
 
-2.  במסך **‏‫הזמן משאב‬** , בחר את המשאב שברצונך להשתמש בו עבור הפרוייקט.  
+2.  במסך **‏‫הזמן משאב‬**, בחר את המשאב שברצונך להשתמש בו עבור הפרוייקט.  
 
 3.  לחץ על **הזמן** ולאחר מכן לחץ על **אישור**.  
 
@@ -95,9 +95,9 @@ ms.locfileid: "4077438"
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **שימוש בנתוני שימוש**    |    מייבא לתוך המסך [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **‏‫הערכות פרוייקט‬**.     |
 
 **כדי לייבא ולפרסם את הפרוייקט שלך**  
-1. מתוך הכרטיסיה **Project Service** , לחץ על **פרסום** > **פרוייקט חדש של Project Service Automation**.  
+1. מתוך הכרטיסיה **Project Service**, לחץ על **פרסום** > **פרוייקט חדש של Project Service Automation**.  
 
-2. בתיבת הדו שיח **פרסם בפרוייקט חדש ב- Project Service** , הזן את **שם הפרוייקט** ובחר את **הלקוח**.  
+2. בתיבת הדו שיח **פרסם בפרוייקט חדש ב- Project Service**, הזן את **שם הפרוייקט** ובחר את **הלקוח**.  
 
 3. אם תרצה, תוכל לבחור את האפשרות **‏‫קשר את תוכנית הפרוייקט ל- Project Service Automation‬** כדי לקשר את קובץ תוכנית הפרוייקט אל Project Service Automation‬.  
 
@@ -139,11 +139,11 @@ ms.locfileid: "4077438"
 
 2. בחר **אל מסמכי פרוייקט של Project Service Automation**.  
 
-3. בדו-שיח **אפשר פתיחה ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , בחר **כן** או **לא**.  
+3. בדו-שיח **אפשר פתיחה ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, בחר **כן** או **לא**.  
 
-   - אם תלחץ על **כן** , תוכל לבחור בלחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ב- Project Service Automation, להפעיל את [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ולטעון את קובץ הפרוייקט מתוך ספריית המסמכים של SharePoint.  
+   - אם תלחץ על **כן**, תוכל לבחור בלחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ב- Project Service Automation, להפעיל את [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ולטעון את קובץ הפרוייקט מתוך ספריית המסמכים של SharePoint.  
 
-   - אם תלחץ על **לא** , הקישור ללחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** לא יעבוד.  
+   - אם תלחץ על **לא**, הקישור ללחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** לא יעבוד.  
 
 4. ניתן למצוא את קובץ [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] תחת **מסמכים** עבור פרוייקט [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ספציפי.  
 
@@ -153,20 +153,20 @@ ms.locfileid: "4077438"
 
 2. בחר **אל מסמכי פרוייקט של Project Service Automation**.  
 
-3. בדו-שיח **אפשר פתיחה ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , בחר **כן** או **לא**.  
+3. בדו-שיח **אפשר פתיחה ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, בחר **כן** או **לא**.  
 
-   - אם תלחץ על **כן** , תוכל לבחור בלחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ב- Project Service Automation, להפעיל את [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ולטעון את קובץ הפרוייקט מתוך ספריית המסמכים של SharePoint.  
+   - אם תלחץ על **כן**, תוכל לבחור בלחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** ב- Project Service Automation, להפעיל את [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ולטעון את קובץ הפרוייקט מתוך ספריית המסמכים של SharePoint.  
 
-   - אם תלחץ על **לא** , הקישור ללחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** לא יעבוד.  
+   - אם תלחץ על **לא**, הקישור ללחצן **פתח ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** לא יעבוד.  
 
 4. ניתן למצוא את קובץ [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] תחת **מסמכים** עבור פרוייקט [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ספציפי.  
 
 ## <a name="publish--your-project-as-a-template"></a>פרסום הפרוייקט שלך כתבנית  
  באפשרותך לשמור את הפרוייקט שלך ולעשות בו שימוש חוזר על-ידי שמירתו כתבנית פרוייקט ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  תבניות פרוייקט הן תוכניות פרוייקט הניתנות לשימוש חוזר ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [יצירת תבנית לפרוייקט (Project Service Automation)](../psa/create-project-template.md)  
 
-1. מתוך הכרטיסיה **Project Service** , לחץ על **פרסום** > **תבנית פרוייקט חדשה של Project Service Automation**.  
+1. מתוך הכרטיסיה **Project Service**, לחץ על **פרסום** > **תבנית פרוייקט חדשה של Project Service Automation**.  
 
-2. בתיבת הדו שיח **פרסם בפרוייקט חדש בתבנית Project Service** , הזן את **שם תבנית הפרוייקט**.  
+2. בתיבת הדו שיח **פרסם בפרוייקט חדש בתבנית Project Service**, הזן את **שם תבנית הפרוייקט**.  
 
 3. אם תרצה, תוכל לבחור את האפשרות **קשר את תוכנית הפרוייקט ל- Project Service Automation** כדי לקשר את קובץ הפרוייקט אל [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

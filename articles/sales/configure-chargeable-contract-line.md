@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d6f67d5dc6b94148d437b3399229c1235c702c6a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077245"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128689"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>קביעת תצורה של רכיבים הניתנים לחיוב של סעיף חוזה מבוסס פרויקט
 
@@ -35,13 +35,13 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 תפקיד יכול להיות ניתן לחיוב או לא ניתן לחיוב בסעיף חוזה מבוסס פרויקט ספציפי.
 
-עדכן את סוג החיוב עבור תפקיד בכרטיסיה **תפקידים הניתנים לחיוב** של סעיף חוזה מבוסס פרויקט, ברשת המשנה **קטגוריות הניתנות לחיוב** , בשדה **סוג החיוב**.
+בכרטיסיה **תפקידים הניתנים לחיוב** של שורת הצעת מחיר מבוססת פרויקט, ברשת המשנה **קטגוריות הניתנות לחיוב** בשדה **סוג החיוב**, עדכן את סוג החיוב עבור תפקיד.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>עדכן קטגוריית עסקאות כניתנת לחיוב או כלא ניתנת לחיוב
 
 קטגוריה של עסקאות יכולה להיות ניתנת לחיוב או לא ניתנת לחייב בסעיף חוזה ספציפי המבוסס פרויקט.
 
-עדכן את סוג החיוב עבור עסקה בכרטיסיה **קטגוריות הניתנות לחיוב** של סעיף חוזה מבוסס פרויקט, ברשת המשנה **קטגוריות הניתנות לחיוב** , בשדה **סוג החיוב**.
+בכרטיסיה **קטגוריות הניתנות לחיוב** של שורת הצעת מחיר מבוססת פרויקט, ברשת המשנה **קטגוריות הניתנות לחיוב** בשדה **סוג החיוב**, עדכן את סוג החיוב עבור תפקיד.
 
 ### <a name="resolve-chargeability"></a>פתרון של יכולת חיוב
 

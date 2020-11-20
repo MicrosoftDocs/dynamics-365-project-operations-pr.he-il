@@ -3,7 +3,7 @@ title: מה חדש או שונה במהדורה המעודכנת של Project Se
 description: סעיף זה מפרט את התכונות החדשות והתיקונים במהדורה 20, עדכון V3 של Project Service Automation
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077257"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126754"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>מהדורה 20, V3 של Project Service Automation
 
@@ -48,7 +48,7 @@ ms.locfileid: "4077257"
 
 הבעיות הבאות תוקנו:
 
-- בטופס **חוזה** , לחיצה כפולה על **צור חשבונית** יוצרת שתי חשבוניות עבור רשומה יחידה.
+- בטופס **חוזה**, לחיצה כפולה על **צור חשבונית** יוצרת שתי חשבוניות עבור רשומה יחידה.
 - ב- Internet Explorer 11, המשתמשים אינם יכולים ליצור ערכי הוצאות.
 - ביטול עלות והיפוך של פעולות מכירה שלא חויבו אינן קשורות.
 - הלחצן **רענן פעולות** בטופס **פרויקט** לא מרענן **שעות משימה בפועל**.
@@ -59,4 +59,4 @@ ms.locfileid: "4077257"
 - ערכי יחידות וקבוצת יחידות אינם חוזרים לברירת המחדל כראוי עבור קטגוריות הוצאות בטפסים **פרטי סעיף חוזה** ו- **פרטי סעיף בהצעת מחיר**.
 - רשימות **מחיר עלות יחידה ארגונית** מאפשרות חפיפה בתאריך.
 - משתמשים אינם רשאים לשנות את **OrgUnit** כאשר סוג ההזמנה אינו מבוסס עבודה מכיוון שהוא יוביל לשגיאת חריגה null.
-- כאשר מנסים לנווט מהטופס **פרטי סעיף הצעת מחיר** , חזרה אל הכרטיסיה **הצעת מחיר** , הטופס מרענן ומציג את הכרטיסיה **סיכום**.
+- כאשר מנסים לנווט מהטופס **פרטי סעיף הצעת מחיר**, חזרה אל הכרטיסיה **הצעת מחיר**, הטופס מרענן ומציג את הכרטיסיה **סיכום**.

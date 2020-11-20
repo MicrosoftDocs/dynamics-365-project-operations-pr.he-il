@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077176"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126124"
 ---
 # <a name="vat-recovery-in-expense-management"></a>החזר מע"מ בניהול הוצאות
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 כדי לקבל החזרים כספיים בגין עסקאות זכאיות למס ערך מוסף (מע"מ), על החברה או הארגון לזהות, לאסוף, לאמת ולהגיש מידע מדויק. תהליך זה כולל מספר משימות, ובהתאם לגודל החברה, עשוי לכלול מספר עובדים או תפקידים.
 
-כדי לקבל החזרי מע"מ במודול **ניהול הוצאות** , יש להשלים את ה‏‫דרישות המוקדמות הבאות:
+כדי לקבל החזרי מע"מ במודול **ניהול הוצאות**, יש להשלים את ה‏‫דרישות המוקדמות הבאות:
 
 - יש ליצור קודי מס עבור מדינות/אזורים בעלי הקצאות לקטגוריות של הוצאות.
 - יש ליצור קבוצת מע"מ עבור כל קוד מס.

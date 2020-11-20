@@ -3,7 +3,7 @@ title: ניהול פרויקטים והזמנות בלוח השנה של Office 
 description: כיצד לנהל פרויקטים והזמנות בלוח השנה של Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077342"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129049"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>ניהול פרויקטים והזמנות בלוח השנה שלך (Project Service)
 
@@ -60,7 +60,7 @@ ms.locfileid: "4077342"
   
 3.  לחץ על הכרטיסיה **סינכרון**.  
   
-4.  תחת **בחר אם לאפשר סינכרון של הזמנת משאבים עם** , סמן את **סנכרן הזמנת משאבים ב- Outlook**.  
+4.  תחת **בחר אם לאפשר סינכרון של הזמנת משאבים עם**, סמן את **סנכרן הזמנת משאבים ב- Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>הפעלת סינכרון עבור פרופיל המשתמש שלך (משימת משתמש)  
   
@@ -70,7 +70,7 @@ ms.locfileid: "4077342"
   
 3.  לחץ על הכרטיסיה **סינכרון**.  
   
-4.  תחת **סינכרון הזמנת משאבים ב- Outlook** , סמן את **סינכרון הזמנת משאבים עם Outlook**.  
+4.  תחת **סינכרון הזמנת משאבים ב- Outlook**, סמן את **סינכרון הזמנת משאבים עם Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>ייבוא הפעילויות האישיות שלך (משימת משתמש)  
  תוכל לייבא את הפגישות האישיות שלך מלוח השנה שלך לתצוגת ערכי הזמן של Project Service Automation.  
@@ -83,7 +83,7 @@ ms.locfileid: "4077342"
   
 4. בחר את הפגישה שברצונך להוסיף לתצוגת ערך הזמן של Project Service Automation.  
   
-5. בתיבה המוקפצת **ערך זמן** , בחר באפשרויות המתאימות כדי להמיר את הפגישה לתצוגת ערכי זמן של Project Service Automation.  
+5. בתיבה המוקפצת **ערך זמן**, בחר באפשרויות המתאימות כדי להמיר את הפגישה לתצוגת ערכי זמן של Project Service Automation.  
   
 6. לחץ על **שמור**.  
   

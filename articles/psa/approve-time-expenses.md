@@ -3,7 +3,7 @@ title: לאשר הוצאות וזמן
 description: כיצד לאשר זמן והוצאות ב- Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077486"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127114"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>אישור זמן והוצאות (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4077486"
   
 2.  לחץ על הפריט שברצונך לאשר.  
   
-3.  בכרטיסיות **ערכי זמן** , **ערכי הוצאות** , ו **היעדרות/חופשה** , בחן כל פריט ובצע את השינויים הנדרשים.  
+3.  בכרטיסיות **ערכי זמן**, **ערכי הוצאות**, ו **היעדרות/חופשה**, בחן כל פריט ובצע את השינויים הנדרשים.  
   
 4.  כדי לאשר פריט, בחר בו ולחץ על **אשר**. באפשרותך לבחור ולאשר פריטים מרובים בבת אחת.  
   

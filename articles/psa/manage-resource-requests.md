@@ -3,7 +3,7 @@ title: ‏‫ניהול בקשות משאב
 description: כיצד לנהל בקשות משאב ב- Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077307"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129004"
 ---
 # <a name="manage-resource-requests-project-service"></a>ניהול בקשות משאב (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4077307"
   
     בצע אחת מהפעולות הבאות כדי למטב את החיפוש שלך:  
   
-   -   בחר סדר תצוגה או מיון מהחלק העליון של המסך. באפשרותך גם לבחור אם להציג זמינות עבור **יום** , **שבוע** , או **חודש** , ולהשתמש בחצים כדי להציג את תקופת הזמן הקודמת או הבאה. השתמש בתיבת החיפוש כדי לאתר משאב ספציפי.  
+   -   בחר סדר תצוגה או מיון מהחלק העליון של המסך. באפשרותך גם לבחור אם להציג זמינות עבור **יום**, **שבוע**, או **חודש**, ולהשתמש בחצים כדי להציג את תקופת הזמן הקודמת או הבאה. השתמש בתיבת החיפוש כדי לאתר משאב ספציפי.  
   
    -   לחץ על **אפשרויות** כדי לשנות את מה שמופיע. לדוגמה, באפשרותך להציג מקרא המציג את ערכת הצבעים עבור סוגים שונים של הזמנות, או באפשרותך לבחור להציג רק סוג מסוים של הזמנה (לדוגמה, הזמנה בטוחה או הזמנה טנטטיבית‬‬).  
   
