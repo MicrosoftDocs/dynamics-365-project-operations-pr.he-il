@@ -4,7 +4,7 @@
   items:
     - name: קביעת סוג הפריסה
       href: environment/determine-deployment-type.md
-    - name: בחר את Project Operations
+    - name: עדכונים של Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations לתרחישים מבוססי משאבים/ללא מלאי
   items:
@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: מה חדש
       items:
+        - name: דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: נובמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: תהליך מכירות הפרוייקט
@@ -87,7 +89,7 @@
                 - name: ניהול לקוחות מרובים בשורות הצעות מחיר מבוססות פרוייקט
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: קביעת תצורה של הרכיבים הניתנים לחיוב של שורת הצעת מחיר של פרוייקט
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: יצירת הערכות בשורת הצעת מחיר
                   href: sales/create-estimate-quote-line.md
                 - name: ייבוא הערכות מפרוייקט לשורת הצעת מחיר מבוססת פרוייקט
@@ -109,7 +111,7 @@
             - name: ניהול מחירוני פרוייקטים בחוזים של פרוייקט
               href: sales/contracts-manage-project-price-lists.md
             - name: ניהול לקוחות מרובים בחוזים של פרוייקט
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: סעיפי חוזה מבוססי פרוייקט
               items:
                 - name: מבט כולל על סעיפי חוזה מבוססי פרוייקט
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: העתקת חוזה פרוייקט
               href: pro/sales/copy-project-contracts-sales.md
+            - name: מקדמות וריטיינרים
+              items:
+                - name: חוזים מבוססי מקדמות וריטיינרים - Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: הגדרת לוח זמנים של ריטיינרים - Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: יצירת מקדמה אד-הוק על חוזה - Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: תמחור ועלויות
       items:
         - name: הגדרת מחירון
@@ -158,10 +168,18 @@
           items:
             - name: מבט כולל על ממדי תמחור
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: יצירת פתרון עבור ממדי תמחור מותאם אישית
+              href: sales/create-solution-custompd.md
             - name: שימוש בשדות קיימים כממדי תמחור
               items:
                 - name: שדות של Project Operations כממדי תמחור
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: שימוש במשאב הניתן להזמנה כממד תמחור
+                  href: sales/use-br-as-pd.md
+                - name: שימוש בקטגוריית עסקה כממד תמחור
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: משאב הניתן להזמנה עם תפקידים מרובים בפרוייקט
+                  href: sales/br-playing-multiple-roles.md
             - name: שדות מותאמים אישית כממדי תמחור
               items:
                 - name: יצירת שדות וישויות מותאמים אישית כממדי תמחור
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: הגדרת שדות מותאמים אישית כממדי תמחור
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: עדכון תכונות של יישום plug-in כדי לכלול ממדי תמחור חדשים
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: ביטול ממד תמחור
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: ניהול פרוייקט
@@ -250,13 +270,19 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: ניהול משאבים
           items:
-            - name: הגדרת כישורים ומיומנויות
+            - name: יצירת משאבים
+              href: resource-management/create-resources.md
+            - name: הגדר כישורים ומיומנויות
               href: resource-management/define-skills-proficiencies.md
+            - name: הגדרת תפקידים
+              href: resource-management/define-roles.md
             - name: הגדרת לוחות שנה של משאבים
               href: resource-management/define-resource-calendars.md
         - name: שיטות הקצאה של הזמנות
           href: resource-management/booking-allocation-methods.md
-        - name: מודלים של כישורים ומיומנות
+        - name: מצבי הזמנות
+          href: resource-management/booking-status.md
+        - name: מודלים של כישורים ומיומנויות
           href: resource-management/skills-proficiency-models.md
         - name: התאמת משאבים
           items:
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: ניהול חשבונית פרופורמה של פרוייקט
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: הפקת חשבונית עבור ריטיינר או מקדמה
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: אישור חשבונית פרופורמה של פרוייקט
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: קביעת תצורה של אוטומציית חשבונית של פרוייקט
@@ -368,24 +396,52 @@
           href: project-accounting/configure-accounting-internal-projects.md
         - name: קביעת תצורה של חשבונאות לפרוייקטים הניתנים לחיוב
           href: project-accounting/configure-accounting-billable-projects.md
-        - name: יומן שילוב ב- Project Operations
+        - name: יומן שילוב ב-Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: הפקת חשבוניות בין-חברתית
+          items:
+            - name: מבט כולל על הפקת חשבוניות בין-חברתית
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: קביעת תצורה של הפקת חשבוניות בין-חברתית
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: יצירת חשבוניות לקוחות וספקים בין-חברתיות
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: יצירת עסקאות בין-חברתיות
+              href: project-accounting/create-intercompany-transactions.md
+    - name: זיהוי הכנסה
+      items:
+        - name: מבט כולל על זיהוי הכנסה
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: קביעת תצורה של זיהוי הכנסה
+          items:
+            - name: הגדרת סוגי תקופות
+              href: project-accounting/period-types.md
+            - name: הגדרת תבניות עלות
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: ניהול הערכות הכנסה
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: פרוייקטים של הערכת הכנסה במחיר קבוע
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: עלות להשלמת שיטות
+          href: revenue-recognition/cost-complete-methods.md
 - name: פריסה קלה – עסקה לחשבונית פרופורמה
   items:
     - name: תחילת העבודה
       items:
-        - name: סקירה כללית על פריסה קלה
+        - name: מבט כולל על פריסה קלה
           href: pro/project-operations-overview-lite.md
         - name: רישום למנוי Preview‏ - Lite
           href: environment/lite-preview-subscription-sign-up.md
         - name: פריסת Project Operations -‏ ‏Lite
           href: environment/lite-deployment.md
-        - name: החל את נתוני ההדגמה ואת נתוני ההגדרה - Lite
+        - name: החלה של הגדרת ההדגמה ונתוני קביעת התצורה - Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: מודל האבטחה
           href: environment/security-model.md
     - name: מה חדש
       items:
+        - name: מה חדש בדצמבר 2020 - פריסה קלה – עסקה לחשבונית פרופורמה
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: מה חדש בנובמבר 2020 - פריסה קלה – עסקה לחשבונית פרופורמה
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: תהליך מכירות הפרוייקט
@@ -538,10 +594,18 @@
           items:
             - name: מבט כולל על ממדי תמחור
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: יצירת פתרון עבור ממדי תמחור מותאם אישית
+              href: sales/create-solution-custompd.md
             - name: שימוש בשדות קיימים כממדי תמחור
               items:
-                - name: שימוש בשדה קיים כממד תמחור
+                - name: שדות של Project Operations כממדי תמחור
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: שימוש במשאב הניתן להזמנה כממד תמחור
+                  href: sales/use-br-as-pd.md
+                - name: שימוש בקטגוריית עסקה כממד תמחור
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: משאב הניתן להזמנה עם תפקידים מרובים בפרוייקט
+                  href: sales/br-playing-multiple-roles.md
             - name: שדות מותאמים אישית כממדי תמחור
               items:
                 - name: יצירת שדות וישויות מותאמים אישית כממדי תמחור
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: הגדרת שדות מותאמים אישית כממדי תמחור
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: עדכון תכונות של יישום plug-in כדי לכלול ממדי תמחור חדשים
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: ביטול ממד תמחור
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: ניהול פרוייקט
@@ -626,13 +692,19 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: ניהול משאבים
           items:
-            - name: הגדרת כישורים ומיומנויות
+            - name: יצירת משאבים
+              href: resource-management/create-resources.md
+            - name: הגדר כישורים ומיומנויות
               href: resource-management/define-skills-proficiencies.md
+            - name: הגדרת תפקידים
+              href: resource-management/define-roles.md
             - name: הגדרת לוחות שנה של משאבים
               href: resource-management/define-resource-calendars.md
         - name: הזמנת שיטות הקצאה
           href: resource-management/booking-allocation-methods.md
-        - name: מודלים של כישורים ומיומנות
+        - name: מצבי הזמנות
+          href: resource-management/booking-status.md
+        - name: מודלים של כישורים ומיומנויות
           href: resource-management/skills-proficiency-models.md
         - name: התאמת משאבים
           items:
@@ -834,6 +906,8 @@
       items:
         - name: עדכון לוח הזמנים להפצה של Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 24, V3'
