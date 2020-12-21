@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121129"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642960"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 נושא מסביר כיצד להירשם כמנוי להצעת Preview/שותף וכיצד לפרוס את סביבת Project Operations לתרחישים מבוססי משאבים/ללא מלאי.
 
@@ -31,18 +33,18 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 כש[בקשת ‎Preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) שלך תקבל אישור, תקבל שלוש הצעות מ-Microsoft בדואר. הצעות אלה מאפשרות לך לפרוס את Project Operations Preview:
 
-- Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview
+- Dynamics 365 Project Operations (CRM)‎ - גירסת ניסיון
 - Office 365 Project Operations - גירסת ניסיון של Preview
 - Dynamics 365 Finance - גירסת ניסיון של Preview
 
 > [!IMPORTANT]
 > רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו. אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM)‎ - גירסת ניסיון 
 
 לפני שתתחיל, ודא שאתה מחובר לדפדפן עם חשבון העבודה שלך בדייר שבו אתה רוצה את התצוגה המקדימה של Project Operations.
 
-1. ניתן לממש את קוד המבצע הראשון, **Dynamics 365 Project Operations (CRM) - Preview Trial** על ידי הדבקתו בשדה ה-URL בדפדפן.
+1. ניתן לממש את קוד המבצע הראשון, **Dynamics 365 Project Operations (CRM)‎ - גרסת ניסיון של Preview** על ידי הדבקה בכתובת האתר בדפדפן.
 
 ![ממש הצעה](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![הקצאת רשיונות](./media/15AssignLicenses.png)
 
-3. יש לוודא שרישיון **Dynamics 365 Project Operations (CRM) Preview** ו- **Office 365 Project Operations - Preview** נבחרו ולבחור את האפשרות **שמור שינויים**.
+3. יש לוודא שרישיון **Dynamics 365 Project Operations (CRM) Preview** ו- **Office 365 Project Operations - Preview** נבחר, ולבחור באפשרות **שמור שינויים**.
 
 > [!NOTE]
 > אין צורך להקצות למשתמש את הצעת גירסת הניסיון ל- Finance.

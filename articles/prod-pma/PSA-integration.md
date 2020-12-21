@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077449"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642454"
 ---
 # <a name="project-service-automation-overview"></a>מבט כולל על Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 פתרון השילוב Project Service Automation ל- Finance משתמש בתכונת שילוב הנתונים לסנכרון נתונים במופעים של Dynamics 365 Finance ו- Dynamics 365 Project Service Automation באמצעות Common Data Service. תבניות השילוב שזמינות עם תכונת שילוב הנתונים מאפשרות זרימה של פרויקטים, חוזי פרויקט, סעיפי חוזה של פרויקט, אבני דרך בסעיפי חוזה של פרויקט, משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות מ- Project Service Automation ל- Finance.
 
@@ -47,7 +48,7 @@ ms.locfileid: "4077449"
 - אחזקת משימות פרויקט ב- Project Service Automation וסנכרון שלהן ישירות מ- Project Service Automation ל- Finance.
 - אחזקת קטגוריות של עסקאות הוצאות ב- Finance וסנכרון שלהן ישירות מ- Finance ל- Project Service Automation.
 - יצירת הערכות של שעות בפרויקטים ב- Project Service Automation וסנכרון שלהם ישירות מ- Project Service Automation ל- Finance.
-- יצירת הערכות של הוצאות בפרויקטים ב- Project Service Automation וסנכרון שלהם ישירות מ- Project Service Automation ל- Finance.
+- יצירת הערכות של הוצאות בפרוייקטים ב- Project Service Automation וסנכרון שלהם ישירות מ- Project Service Automation ל- Finance.
 - יצירת שעות בפרויקט, הוצאות ונתונים בפועל של עמלות ב- Project Service Automation, ויצירת עסקאות פרויקט ביומן שילוב של Project Service Automation כך שניתן יהיה לרשום אותם ב- Finance.
 
 ## <a name="data-synchronization"></a>‏‏סינכרון נתונים

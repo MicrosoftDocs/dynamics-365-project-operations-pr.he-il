@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129679"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642769"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>השתמש בתוספת של ‏‫Project Service Automation‬ כדי לתכנן את העבודה שלך ב- Microsoft Project
 
@@ -174,5 +174,58 @@ ms.locfileid: "4129679"
 
 קישור קובץ הפרוייקט אל [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] הופך את קובץ הפרוייקט לקובץ ראשי ומגדיר את מבנה התפלגות העבודה בתבנית [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] לקריאה בלבד.  כדי לבצע שינויים בתוכנית הפרוייקט, עליך ליצור אותם ב- [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ולפרסם כעדכונים ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
+## <a name="read-a-resource-loaded-schedule"></a>קרא לוח זמנים שטעון משאבים
+
+בעת קריאת פרויקט מ- Project Service Automation, לוח השנה של המשאב אינו מסונכרן עם לקוח שולחן העבודה. אם יש הבדלים במשך המשימות, המאמץ או הסיום, זה כנראה בגלל שהמשאבים ולקוח שולחן העבודה אינם באותו לוח שנה של תבנית שעות עבודה על הפרויקט.
+
+
+## <a name="data-synchronization"></a>‏סנכרון נתונים
+
+הטבלה הבאה מתארת כיצד הנתונים מסונכרנים בין Project Service Automation לבין התוספת לשולחן העבודה של Microsoft Project.
+
+| **ישות** | **שדה** | **Microsoft Project ל- Project Service Automation** | **Project Service Automation ל- Microsoft Project** |
+| --- | --- | --- | --- |
+| משימת פרויקט | תאריך יעד | ● | - |
+| משימת פרויקט | מאמץ מוערך | ● | - |
+| משימת פרויקט | מזהה לקוח MS Project | ● | - |
+| משימת פרויקט | משימת אב | ● | - |
+| משימת פרויקט | פרויקט | ● | - |
+| משימת פרויקט | משימת פרוייקט | ● | - |
+| משימת פרויקט | שם משימת פרוייקט | ● | - |
+| משימת פרויקט | יחידת הקצאת משאבים (הוצא משימוש בגירסה 3.0) | ● | - |
+| משימת פרויקט | משך מתוזמן | ● | - |
+| משימת פרויקט | תאריך התחלה | ● | - |
+| משימת פרויקט | מזהה WBS | ● | - |
+
+| **ישות** | **שדה** | **Microsoft Project ל- Project Service Automation** | **Project Service Automation ל- Microsoft Project** |
+| --- | --- | --- | --- |
+| חבר צוות | מזהה לקוח MS Project | ● | - |
+| חבר צוות | שם עמדה | ● | - |
+| חבר צוות | פרויקט | ● | ● |
+| חבר צוות | צוות פרוייקט | ● | ● |
+| חבר צוות | יחידת הקצאת משאבים | - | ● |
+| חבר צוות | תפקיד | - | ● |
+| חבר צוות | שעות עבודה | לא מסונכרן | לא מסונכרן |
+
+| **ישות** | **שדה** | **Microsoft Project ל- Project Service Automation** | **Project Service Automation ל- Microsoft Project** |
+| --- | --- | --- | --- |
+| הקצאת משאבים | מתאריך | ● | - |
+| הקצאת משאבים | שעות | ● | - |
+| הקצאת משאבים | מזהה לקוח MS Project | ● | - |
+| הקצאת משאבים | עבודה מתוכננת | ● | - |
+| הקצאת משאבים | פרויקט | ● | - |
+| הקצאת משאבים | צוות פרוייקט | ● | - |
+| הקצאת משאבים | הקצאת משאבים | ● | - |
+| הקצאת משאבים | משימה | ● | - |
+| הקצאת משאבים | עד היום | ● | - |
+
+| **ישות** | **שדה** | **Microsoft Project ל- Project Service Automation** | **Project Service Automation ל- Microsoft Project** |
+| --- | --- | --- | --- |
+| ‏‫יחסי תלות במשימת פרוייקט | ‏‫יחס תלות במשימת פרוייקט | ● | - |
+| ‏‫יחסי תלות במשימת פרוייקט | סוג קישור | ● | - |
+| ‏‫יחסי תלות במשימת פרוייקט | משימת ‏‏פעילות קדם | ● | - |
+| ‏‫יחסי תלות במשימת פרוייקט | פרויקט | ● | - |
+| ‏‫יחסי תלות במשימת פרוייקט | משימת ‏‏פעילות עוקבת | ● | - |
+
 ### <a name="see-also"></a>למידע נוסף  
- [מדריך למנהל פרוייקט](../psa/project-manager-guide.md)
+ [מדריך למנהל פרויקט](../psa/project-manager-guide.md)

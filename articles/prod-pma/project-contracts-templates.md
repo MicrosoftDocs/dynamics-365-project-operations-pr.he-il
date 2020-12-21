@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077442"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642634"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון חוזי פרויקטים ופרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 נושא זה מתאר את התבנית ואת המשימות הבסיסיות המשמשות לסנכרון חוזי פרויקטים ופרויקטים ישירות מ- Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
 
@@ -95,11 +97,11 @@ ms.locfileid: "4077442"
 
 השדה **מזהה חוזה פרויקט** זמין בדף **חוזי פרויקט**. שדה זה הפך למפתח טבעי וייחודי כדי לתמוך בשילוב.
 
-כשנוצר חוזה פרויקט חדש, אם לא היה קיים כבר ערך של **מזהה חוזה פרויקט** , הוא ייווצר באופן אוטומטי באמצעות רצף מספרים. הערך מורכב מ- **ORD** ואחריו רצף מספרים הגדלים בהפרש קבוע ולאחר מכן סיומת של שישה תווים. הנה דוגמה: **ORD-01022-Z4M9Q0**.
+כשנוצר חוזה פרויקט חדש, אם לא היה קיים כבר ערך של **מזהה חוזה פרויקט**, הוא ייווצר באופן אוטומטי באמצעות רצף מספרים. הערך מורכב מ- **ORD** ואחריו רצף מספרים הגדלים בהפרש קבוע ולאחר מכן סיומת של שישה תווים. הנה דוגמה: **ORD-01022-Z4M9Q0**.
 
 השדה **מספר פרויקט** זמין בדף **פרויקטים**. שדה זה הפך למפתח טבעי וייחודי כדי לתמוך בשילוב.
 
-כשנוצר פרויקט חדש, אם לא היה קיים כבר ערך של **מספר פרויקט** , הוא ייווצר באופן אוטומטי באמצעות רצף מספרים. הערך מורכב מ- **PRJ** ואחריו רצף מספרים הגדלים בהפרש קבוע ולאחר מכן סיומת של שישה תווים. הנה דוגמה: **PRJ-01049-CCNID0**.
+כשנוצר פרויקט חדש, אם לא היה קיים כבר ערך של **מספר פרויקט**, הוא ייווצר באופן אוטומטי באמצעות רצף מספרים. הערך מורכב מ- **PRJ** ואחריו רצף מספרים הגדלים בהפרש קבוע ולאחר מכן סיומת של שישה תווים. הנה דוגמה: **PRJ-01049-CCNID0**.
 
 בעת החלת פתרון שילוב Project Service Automation ל- Finance, קובץ Script לשדרוג קובע את השדה **מזהה חוזה פרויקט** עבור חוזי פרויקטים קיימים ואת השדה **מספר פרויקט** עבור פרויקטים קיימים ב- Project Service Automation.
 
@@ -133,9 +135,9 @@ ms.locfileid: "4077442"
 ## <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים
 
 > [!NOTE] 
-> השדות **CustomerReference** ,‏ **AddressCity** , **AddressCountryRegionID** ,‏ **AddressDescription** ,‏ **AddressLine1** ,‏ **AddressLine2** ,‏ **AddressState** ו- **AddressZipCode** לא כלולים במיפוי ברירת המחדל עבור חוזי פרויקטים. באפשרותך להוסיף את המיפויים אם סנכרון נתונים אלו נדרש לחוזי פרויקט.
+> השדות **CustomerReference**,‏ **AddressCity**, **AddressCountryRegionID**,‏ **AddressDescription**,‏ **AddressLine1**,‏ **AddressLine2**,‏ **AddressState** ו- **AddressZipCode** לא כלולים במיפוי ברירת המחדל עבור חוזי פרויקטים. באפשרותך להוסיף את המיפויים אם סנכרון נתונים אלו נדרש לחוזי פרויקט.
 >
-> השדות **Description** ,‏ **ParentID** ,‏ **ProjectGroup** ‏, **ProjectManagerPersonnelNumber** ו- **ProjectType** אינם כלולים במיפוי ברירת המחדל עבור פרויקטים. באפשרותך להוסיף את המיפויים אם סנכרון נתונים אלו נדרש לפרויקטים.
+> השדות **Description**,‏ **ParentID**,‏ **ProjectGroup**‏, **ProjectManagerPersonnelNumber** ו- **ProjectType** אינם כלולים במיפוי ברירת המחדל עבור פרויקטים. באפשרותך להוסיף את המיפויים אם סנכרון נתונים אלו נדרש לפרויקטים.
 
 האיורים הבאים מציגים דוגמאות למיפויי משימות התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 

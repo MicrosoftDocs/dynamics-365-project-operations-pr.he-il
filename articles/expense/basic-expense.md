@@ -3,17 +3,17 @@ title: הזנת הוצאות (לייט)
 description: נושא זה מספק מידע על אופן העבודה עם הזנת הוצאות בפריסה בגרסת לייט.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121084"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590947"
 ---
 # <a name="expense-entry-lite"></a>הזנת הוצאות (לייט)
 
@@ -21,7 +21,7 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 
 ניהול הוצאות בסיסי, או לייט, הוא היכולת לרשום הוצאות פשוטות. ניתן לרשום הוצאות כנגד פרויקט, ולאחר מכן מאשר הפרויקט יבדוק ויאשר אותן.
 
-לקבלת מידע נוסף אודות יכולות הוצאות ב-Dynamics 365 Project Operations, ראה [מבט כולל על הוצאות](expense-overview.md).
+למידע נוסף על יכולות של הוצאות ב- Dynamics 365 Project Operations, ראה [סקירת הוצאות](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>לכידת הוצאה בסיסית
 
@@ -36,6 +36,10 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 
 1. עבור אל **הוצאות**, ובחר בהוצאה. לחלופין, בחר בכול ההוצאות באמצעות תיבת הסימון שבכותרת העליונה.
 2. בחר **שלח**. המערכת מעבדת את הערכים שנבחרו ואז יוצרת בקשות לאישור הוצאות.
+
+## <a name="add-an-attachment"></a>הוסף קובץ מצורף
+
+ייתכן שתצטרך לספק למאשר תיעוד נוסף לגבי ההוצאות. ניתן לצרף קבלה בציר הזמן של רישום ההוצאות. בחר **ערוך** ובמקטע **ציר זמן** בחר את סמל המהדק כדי לצרף את הקבלה שלך.
 
 ## <a name="recall-a-basic-expense"></a>אחזור של הוצאה בסיסית
 

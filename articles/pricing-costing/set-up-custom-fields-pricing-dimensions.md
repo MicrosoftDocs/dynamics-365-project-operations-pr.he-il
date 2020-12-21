@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119419"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650212"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>הגדרת שדות מותאמים אישית כממדי תמחור
 
@@ -41,9 +41,15 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 כדי ששדה יהפוך לממד תמחור, עליו לעמוד בתנאים הבאים:
 
 - עליו להיווצר כשדה בישויות **מחיר תפקיד** ו **ייקור מחיר תפקיד**. למידע נוסף שבעזרתו תגלה כיצד לעשות זאת, ראה [הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](add-custom-fields-price-setup-transactional-entities.md).
+
 - עליו להיווצר כשורה בטבלה **ממד תמחור**. לדוגמה, הוסף שורות ממד תמחור כמוצג בגרפיקה הבאה. 
 
+![שורות ממדי תמחור מבוססי-כמות](media/Amt-based-PD.png)
+
 שעות העבודה של המשאב (**msdyn_resourceworkhours**) נוספו כממד מבוסס-ייקור ונוספו לרשת בכרטיסיה **ממד תמחור מבוסס-ייקור**.
+
+![שורות ממדי תמחור מבוססי-ייקור](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > כל שינוי בנתונים של ממד התמחור בטבלה זו, קיים או חדש, מועבר בירושה ללוגיקה העסקית של תמחור רק לאחר רענון המטמון. זמן הרענון של המטמון עשוי להימשך עד 10 דקות. אפשר פרק זמן זה כדי לראות את השינויים בלוגיקת ברירת המחדל למחיר שעשויה לנבוע משינויים בנתוני ממד התמחור.

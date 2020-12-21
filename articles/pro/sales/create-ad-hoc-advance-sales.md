@@ -1,5 +1,5 @@
 ---
-title: יצירת מקדמה אד הוק על חוזה - לייט
+title: יצירת מקדמה אד-הוק על חוזה
 description: נושא זה מספק מידע על יצירת מקדמה במזומן על חוזה לפי הצורך.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181363"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595981"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>יצירת מקדמה אד הוק על חוזה - לייט
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>יצירת מקדמה אד-הוק על חוזה
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
- Microsoft Dynamics 365 Project Operations ‏תומך בתרחישים של חשבוניות הכוללים תשלומים מקדמים ומקדמות. תהליך השימוש ב **מקדמות במזומן** ב-**Project Operations** דומה לחוזי **ריטיינר**. 
+Microsoft Dynamics 365 Project Operations ‏תומך בתרחישים של חשבוניות הכוללים תשלומים מקדמים ומקדמות. תהליך השימוש ב **מקדמות במזומן** ב-**Project Operations** דומה לחוזי **ריטיינר**. 
 
 בצע את השלבים הבאים כדי להגיש ללקוח חשבונית על מקדמה במזומן.
 

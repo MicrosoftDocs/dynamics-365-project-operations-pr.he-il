@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121174"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642973"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מספק מידע אודות אופן הקצאת סביבת Dynamics 365 Project Operations חדשה לתרחישים מבוססי משאבים/ללא מלאי.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+נושא זה מספק מידע על הדרך להקצות סביבת Dynamics 365 Project Operations חדשה לתרחישים מבוססי משאבים/ללא מלאי.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>הפוך הקצאת משאבים אוטומטית של Project Operations לזמינה בפרויקט LCS
 
@@ -120,7 +122,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![החל פתרונות](./media/13ApplySolutions.png)
 
-5. בחר בשני הפתרונות **מפת ישות כתיבה כפולה ב- Dynamics 365 Finance and Operations** ו **מפות ישות כתיבה כפולה ב- Dynamics 365 Project Operations** ולאחר מכן בחר **החל**.
+5. בחר את שני הפתרונות, **מפת ישויות כתיבה כפולה של Dynamics 365 Finance and Operations** ו- **מפות ישויות כתיבה כפולה של Dynamics 365 Project Operations** ואז בחר **החל**.
 
 ![אשר פתרונות](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | --- | --- | --- | --- | --- | --- |
 | **תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories)** | Yes | ‏‏כן | Common Data Service | Yes | לא זמין |
 | **ישויות משפטיות (cdm\_companies)** | Yes | ‏‏כן | יישומי Finance and Operations | Yes | לא זמין |
+| **ספר (msdyn_ledgers)** | Yes | ‏‏כן | יישומי Finance and Operations | ‏‏כן | כן, יישומי Finance and Operations |
 | **שילוב Project Operations בפועל (msdyn\_actuals)** | Yes | Yes | לא זמין | ‏‏כן | Yes |
 | **סעיפי חוזה של פרויקט (salesorderdetails)** | Yes | Yes | לא זמין | Yes | Yes |
 | **‏‫ישות שילוב ליחסי גומלין של עסקה בפרויקט‬ (msdyn\_transactionconnections)** | Yes | Yes | לא זמין | Yes | לא זמין |

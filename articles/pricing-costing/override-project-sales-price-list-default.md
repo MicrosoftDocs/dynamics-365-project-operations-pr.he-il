@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130849"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672232"
 ---
 # <a name="override-project-sales-price-lists"></a>עקיפת מחירוני מכירות של פרויקט
 
@@ -21,13 +22,13 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="customer-specific-project-price-lists"></a>מחירוני פרוייקט ספציפיים ללקוח
 
-ניתן להגדיר הסכמי מחירים ספציפיים ללקוח כמחירוני פרוייקט ברשומת תיק לקוח ב-Dynamics 365 Project Operations.
+ניתן להגדיר הסכמי מחירים ספציפיים ללקוח כמחירוני פרוייקט ברשומת תיק לקוח ב- Dynamics 365 Project Operations.
 
 להגדרת מחירון פרויקט ספציפי ללקוח, באזור **מכירות**, נווט לרשומת תיק לקוח.
 
 1. פתח את הדף הרשימה **תיקי לקוח**.
 2. אתר ולחץ פעמיים על רשומת לקוח כדי לפתוח את דף הפרטים של **תיק לקוח**.
-3. בכרטיסיה **מחירוני הפרוייקט** בחר **+מחירון פרויקט חדש^^.
+3. בכרטיסיה **מחירוני הפרויקט** בחר **+מחירון פרויקט חדש**.
 4. בדף **מחירון פרוייקט חדש**, בחר מחירון מהתפריט הנפתח. רק מחירונים שההקשר מוגדר ל **מכירות** ושהמטבע שלהם תואם את מטבע תיק הלקוח יכללו.
 5. תן שם לשיוך ולאחר מכן בחר **שמור**. נוצר מחירון פרוייקט ספציפי ללקוח. מחירון זה ישמש כברירת מחדל למחירי פרויקטים בהצעות מחיר או חוזים של פרויקט שנוצרו עבור לקוח זה, כאשר התאריך היצירה של הצעת המחיר או חוזה הפרויקט נמצא במסגרת תוקף התאריך של המחירון.
 

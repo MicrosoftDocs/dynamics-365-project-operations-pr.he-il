@@ -1,5 +1,5 @@
 ---
-title: הגדרת לוח זמנים של ריטיינרים - לייט
+title: הגדר לוח זמנים של ריטיינר
 description: נושא זה מספק מידע על אופן הגדרת לוח זמנים לריטיינרים ב-Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181273"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596373"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>הגדרת לוח זמנים של ריטיינרים - לייט
+# <a name="set-up-a-retainer-schedule"></a>הגדר לוח זמנים של ריטיינר
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-לוחות הזמנים של ריטיינרים מוגדרים בדף **חוזה פרויקט** ב-Dynamics 365 Project Operations.
+לוחות הזמנים של ריטיינרים מוגדרים בדף **חוזה פרויקט** ב- Dynamics 365 Project Operations.
 
 1. בדף **חוזה פרויקט**, בכרטיסיה **מקדמות וריטיינרים**, בחר **הגדר לוח הזמנים של ריטיינרים**.
 2. בדף הדו-שיח שנפתח, מוצגים השדות המופיעים בטבלה הבאה. הטבלה מספקת תובנות לגבי השפעת הערכים שהוזנו על לוח הזמנים של ריטיינרים שייווצר.
