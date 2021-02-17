@@ -22,11 +22,9 @@
               href: environment/create-lcs-project.md
             - name: הוספת מנוי Azure לפרוייקט LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: החל נתוני הדגמה
+        - name: החלת נתוני הדגמה
           items:
-            - name: החל את נתוני ההדגמה על סביבת Finance המתארחת בענן
-              href: environment/resource-apply-finance-demo-data.md
-            - name: החל נתוני תצורה ב- Common Data Service
+            - name: החלת נתוני תצורה ב-Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: פריסת סביבות
           items:
@@ -38,6 +36,10 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: מה חדש
       items:
+        - name: פברואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: ינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-jan-2021-resource-based.md
         - name: דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: נובמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: מקדמות וריטיינרים
               items:
-                - name: חוזים מבוססי מקדמות וריטיינרים - Lite
+                - name: חוזים מבוססי מקדמות וריטיינרים
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: הגדרת לוח זמנים של ריטיינרים - Lite
+                - name: הגדרת לוח זמנים של ריטיינר
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: יצירת מקדמה אד-הוק על חוזה - Lite
+                - name: יצירת מקדמה אד-הוק על חוזה
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: תמחור ועלויות
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
+            - name: יצירת מבנה התפלגות עבודה
+              href: project-management/create-wbs.md
             - name: יצירת הקצאות
               href: project-management/create-assignments.md
         - name: הערכת פרוייקטים
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: ניהול חברי צוות
               href: project-management/maintain-team-members.md
+        - name: פתרון בעיות בעבודה ברשת המשימות
+          href: project-management/projectplanningUIFAQ.md
         - name: שיתוף פעולה
           items:
             - name: שיתוף פעולה בקבוצות Office
@@ -262,6 +268,8 @@
               href: resource-management/book-project.md
             - name: סקירת משאבים מוצעים
               href: resource-management/review-proposed-resources.md
+            - name: עריכת הזמנות
+              href: resource-management/edit-existing-bookings.md
         - name: הזמנת משאבים מבוזרת (היברידית)
           items:
             - name: הוספת חברי צוות מרשת 'חברי הצוות'
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: הגדרת קטגוריות הוצאות
                   href: expense/set-up-expense-categories.md
+            - name: עבודה עם הוצאות אישיות בדוח הוצאות
+              href: expense/personal-expenses-expense-report.md
             - name: יצירת דוחות הוצאות
               items:
                 - name: התפלגויות בדוח הוצאות
@@ -366,26 +376,32 @@
       items:
         - name: מבט כולל על נתונים בפועל
           href: actuals/actuals-overview.md
-        - name: יומנים לתיקון
+        - name: יומני תיקונים
           items:
             - name: יצירה ואישור של יומני תיקונים
               href: actuals/create-confirm-correction-journals.md
-    - name: חשבונית פרופורמה
+    - name: הפקת חשבונית
       items:
-        - name: ניהול של מצבור פריטי עבודה של חיובי פרוייקט
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: ניהול מצב ואימות של 'אין לחרוג'
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: יצירה ידנית של חשבונית פרופורמה של פרוייקט
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: ניהול חשבונית פרופורמה של פרוייקט
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: הפקת חשבונית עבור ריטיינר או מקדמה
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: אישור חשבונית פרופורמה של פרוייקט
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: קביעת תצורה של אוטומציית חשבונית של פרוייקט
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: מבט כולל על תהליך הפקת חשבונית
+          href: invoicing/post-project-invoices.md
+        - name: ניהול הצעות לחשבוניות פרוייקט
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: חשבונית פרופורמה
+          items:
+            - name: ניהול של מצבור פריטי עבודה של חיובי פרוייקט
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: ניהול מצב ואימות של 'אין לחרוג'
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: יצירה ידנית של חשבונית פרופורמה של פרוייקט
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: ניהול חשבונית פרופורמה של פרוייקט
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: הפקת חשבונית עבור ריטיינר או מקדמה
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: אישור חשבונית פרופורמה של פרוייקט
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: קביעת תצורה של אוטומציית חשבונית של פרוייקט
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: חשבונאות פרוייקט
       items:
         - name: ברירות מחדל של ממד פיננסי
@@ -404,26 +420,26 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: קביעת תצורה של הפקת חשבוניות בין-חברתית
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: יצירת חשבוניות לקוחות וספקים בין-חברתיות
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: יצירת עסקאות בין-חברתיות
               href: project-accounting/create-intercompany-transactions.md
+            - name: יצירת חשבוניות לקוחות וספקים בין-חברתיות
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: זיהוי הכנסה
       items:
         - name: מבט כולל על זיהוי הכנסה
           href: revenue-recognition/revenue-recognition-overview.md
-        - name: קביעת תצורה של זיהוי הכנסה
+        - name: הגדרת זיהוי הכנסה
           items:
             - name: הגדרת סוגי תקופות
               href: project-accounting/period-types.md
             - name: הגדרת תבניות עלות
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: ניהול הערכות הכנסה
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: פרוייקטים של הערכת הכנסה במחיר קבוע
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: עלות להשלמת שיטות
           href: revenue-recognition/cost-complete-methods.md
+        - name: ניהול הערכות הכנסה
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: פריסה קלה – עסקה לחשבונית פרופורמה
   items:
     - name: תחילת העבודה
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
-        - name: מה חדש בדצמבר 2020 - פריסה קלה – עסקה לחשבונית פרופורמה
+        - name: מה חדש בפברואר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: מה חדש בינואר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: מה חדש בדצמבר 2020 - פריסה קלה
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: מה חדש בנובמבר 2020 - פריסה קלה – עסקה לחשבונית פרופורמה
+        - name: מה חדש בנובמבר 2020 - פריסה קלה
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: תהליך מכירות הפרוייקט
       items:
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
+            - name: יצירת מבנה התפלגות עבודה
+              href: project-management/create-wbs.md
             - name: יצירת הקצאות
               href: project-management/create-assignments.md
         - name: הערכת פרוייקטים
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: ניהול חברי צוות
               href: project-management/maintain-team-members.md
+        - name: פתרון בעיות בעבודה ברשת המשימות
+          href: project-management/projectplanningUIFAQ.md
         - name: שיתוף פעולה
           items:
             - name: שיתוף פעולה בקבוצות Office
               href: project-management/collaboration-groups.md
+        - name: הערות למפתחים
+          items:
+            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
+              href: project-management/dev-copy-project.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -684,6 +712,8 @@
               href: resource-management/book-project.md
             - name: סקירת משאבים מוצעים
               href: resource-management/review-proposed-resources.md
+            - name: עריכת הזמנות
+              href: resource-management/edit-existing-bookings.md
         - name: הזמנת משאבים מבוזרת (היברידית)
           items:
             - name: הוספת חברי צוות מרשת 'חברי הצוות'
@@ -746,7 +776,7 @@
       items:
         - name: מבט כולל על נתונים בפועל
           href: actuals/actuals-overview.md
-        - name: יומנים לתיקון
+        - name: יומני תיקונים
           items:
             - name: יצירה ואישור של יומני תיקונים
               href: actuals/create-confirm-correction-journals.md
@@ -772,6 +802,10 @@
   items:
     - name: מה חדש
       items:
+        - name: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: מה חדש בדצמבר 2020 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
         - name: מה חדש בנובמבר 2020 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: מבט כולל על פריסה של Project Operations לתרחישים מבוססי משאבים/ייצור
@@ -904,8 +938,16 @@
       href: psa/overview.md
     - name: מה חדש
       items:
-        - name: עדכון לוח הזמנים להפצה של Project Service 3.x
+        - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 28.5, תיקון חם, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 27.5, תיקון חם, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: מה חדש ומה השתנה בגל הפצה 1 ב-2021 של Project Service Automation V3.x
+          href: psa/whats-new-2021-wave1.md
         - name: מה חדש ומה השתנה בגל הפצה 1 ב-2020 של Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
         - name: מה חדש ומה השתנה ב-Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: הגדרות פרוייקט
               href: psa/project-settings.md
+            - name: תכנון העבודה ב-Microsoft Project עם התוספת של Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: ממדי תמחור ועלויות
           items:
             - name: דף הבית של ממדי תמחור ועלויות
