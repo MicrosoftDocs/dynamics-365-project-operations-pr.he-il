@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077499"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148644"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>שינויים בניהול משאבים (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 הסעיפים של נושא זה מספקים מידע על השינויים שבוצעו בתחום ניהול המשאבים של Dynamics 365 Project Service Automation גירסה ‎3.x.
 
 ## <a name="project-estimates"></a>הערכות פרויקט
 
-במקום להתבסס על הישות **msdyn\_projecttask** ( **משימת פרויקט‬** ), הערכות הפרויקט מבוססות על הישות **msdyn\_resourceassignment** ( **הקצאת משאבים‬** ). הקצאות המשאבים הפכו ל"מקור אמת" לתזמון ולתמחור של משימות.
+במקום להתבסס על הישות **msdyn\_projecttask** (**משימת פרויקט‬**), הערכות הפרויקט מבוססות על הישות **msdyn\_resourceassignment** (**הקצאת משאבים‬**). הקצאות המשאבים הפכו ל"מקור אמת" לתזמון ולתמחור של משימות.
 
 ## <a name="line-tasks"></a>משימות שורה
 
@@ -65,7 +67,7 @@ ms.locfileid: "4077499"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>תזמון שדות בישות 'משימת פרויקט'
 
-השדות בישות **msdyn\_projecttask** הוצאו משימוש או הועברו לישות **msdyn\_resourceassignment** , או שכעת מתבצעת אליהם הפניה מהישות **msdyn\_projectteam** ( **חבר צוות פרויקט** ).
+השדות בישות **msdyn\_projecttask** הוצאו משימוש או הועברו לישות **msdyn\_resourceassignment**, או שכעת מתבצעת אליהם הפניה מהישות **msdyn\_projectteam** (**חבר צוות פרויקט**).
 
 | שדה לא בשימוש ב- msdyn\_projecttask (משימת פרויקט) | שדה חדש ב- msdyn\_resourceassignment (הקצאת משאבים) | הערה |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4077499"
 
 ## <a name="schedule-contour"></a>מתאר לוח זמנים
 
-מתאר לוח הזמנים מאוחסן בשדה **עבודה מתוכננת‬** ( **msdyn\_plannedwork** ) של כל ישות **הקצאת משאבים** ( **msdyn\_resourceassignment** ).
+מתאר לוח הזמנים מאוחסן בשדה **עבודה מתוכננת‬** (**msdyn\_plannedwork**) של כל ישות **הקצאת משאבים** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>מבנה
 
@@ -139,7 +141,7 @@ ms.locfileid: "4077499"
 
 ## <a name="pricing-dimensions"></a>ממדי תמחור
 
-ב- PSA 3.x, שדות ממד תמחור ספציפיים למשאבים (כגון **תפקיד** ו **יחידה ארגונית** ) הוסרו מהישות **msdyn‎\_projecttask‎**. כעת ניתן לאחזר שדות אלה מחבר צוות הפרויקט המתאים ( **msdyn\_projectteam** ) של הקצאת המשאב ( **msdyn\_resourceassignment** ) כאשר הערכות הפרויקט נוצרות. שדה חדש, **msdyn\_organizationalunit** , נוסף לישות **msdyn\_projectteam**.
+ב- PSA 3.x, שדות ממד תמחור ספציפיים למשאבים (כגון **תפקיד** ו **יחידה ארגונית**) הוסרו מהישות **msdyn‎\_projecttask‎**. כעת ניתן לאחזר שדות אלה מחבר צוות הפרויקט המתאים (**msdyn\_projectteam**) של הקצאת המשאב (**msdyn\_resourceassignment**) כאשר הערכות הפרויקט נוצרות. שדה חדש, **msdyn\_organizationalunit**, נוסף לישות **msdyn\_projectteam**.
 
 | שדה לא בשימוש ב- msdyn\_projecttask (משימת פרויקט) | שדה מ- msdyn\_projectteam (חבר צוות פרויקט) המשמש במקום זאת |
 |---|---|
@@ -155,12 +157,12 @@ ms.locfileid: "4077499"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-השדות הבאים נוספו לישות **msdyn\_resourceassignment** :
+השדות הבאים נוספו לישות **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-השדות הבאים עבור עלות ומכירות 'מתוכננות', 'בפועל' ו'נותרו' לא השתנו בישות **msdyn\_projecttask** :
+השדות הבאים עבור עלות ומכירות 'מתוכננות', 'בפועל' ו'נותרו' לא השתנו בישות **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
