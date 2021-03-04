@@ -75,3 +75,6 @@ ms.locfileid: "4077480"
 - מימוש בקשות למשאבים.
 - בקש משאב מאויש מ- WBS.
 - הזמן משאבים לפרויקט ללא בקשה למשאב מאויש.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

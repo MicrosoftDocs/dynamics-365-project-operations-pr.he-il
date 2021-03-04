@@ -44,3 +44,6 @@ ms.locfileid: "4077368"
 13. ברשימה, סמן את השורה שנבחרה. 
 14. הזן מספר בשדה 'מחיר עלות'. 
 15. לחץ על פרסום. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

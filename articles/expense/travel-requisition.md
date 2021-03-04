@@ -56,3 +56,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 > [!NOTE]
 > כשממפים דוח הוצאות לדרישת נסיעה שאושרה, סכום העסקה לא יכול להיות גדול מהסכום שאושר. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

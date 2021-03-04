@@ -81,3 +81,6 @@ ms.locfileid: "5146709"
 - הלחצן **רענן את הנתונים בפועל** מחשב באופן שגוי משימות סיכום.
 - תוספת של Microsoft Project: תקן שגיאת התייחסות null אם לחבר צוות כלשהו יש יחידת משאבים ריקה.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

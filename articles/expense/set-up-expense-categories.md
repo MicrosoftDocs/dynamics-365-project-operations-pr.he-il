@@ -61,3 +61,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
     - האם קטגוריות משנה כלשהן לא נכללות בהשבת מס?
     - מהי קבוצת המע"מ לפריט של קטגוריות המשנה?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

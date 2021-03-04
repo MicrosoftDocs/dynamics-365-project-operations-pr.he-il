@@ -89,3 +89,6 @@ Project Operations תומך בארבעה סוגים של סיווגי עסקאו
 - להצעות מחיר של Project Operations יש רכיבי ממשק משתמש וטופס, כללים עסקיים, לוגיקה עסקית ביישומי plug-in וקבצי Script בצד הלקוח משלהן, שמייחדים אותן מהצעות מחיר של מכירות.
 
 לכן, לא מומלץ להשתמש בהצעת מחיר של מכירות ובהצעת מחיר של Project Operations לסירוגין.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

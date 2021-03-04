@@ -297,3 +297,6 @@ ms.locfileid: "5144504"
 
 > [!div class="mx-imgBorder"]
 > ![צילום מסך של משאבים פעילים הניתנים להזמנה](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

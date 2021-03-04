@@ -94,3 +94,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 Finance ייצור קשר עם Cognitive Services כדי לחלץ את נתוני השדות. Cognitive Services ישמור עותק של הקבלה למשך עד 24 שעות תוך כדי העיבוד. לאחר סיום העיבוד, Cognitive Services יסיר את הקבלה. הקבלות עדיין מאוחסנות ב- Finance.
 
 למידע נוסף ראה [אפשר הבנת קבלות באמצעות היכולת החדשה של Form Recognizer](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

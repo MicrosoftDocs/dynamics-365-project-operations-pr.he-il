@@ -52,3 +52,6 @@ Dynamics 365 Project Service Automation מציע תמיכה מקצה לקצה ע
 - [תבניות פרויקט](project-templates.md)
 - [שלבי פרויקט](project-stages.md)
 - [הגדרות פרויקט](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

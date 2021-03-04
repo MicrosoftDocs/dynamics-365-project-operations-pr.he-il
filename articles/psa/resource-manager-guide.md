@@ -73,3 +73,6 @@ ms.locfileid: "5147339"
  [מדריך למנהלי תיקי לקוחות](../psa/account-manager-guide.md)   
  [מדריך למנהל פרויקט](../psa/project-manager-guide.md)   
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

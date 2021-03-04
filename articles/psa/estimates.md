@@ -106,3 +106,6 @@ PSA אינו תומך בשינויי הזמנות בחוזים או בפרויי
 
 8. חזור על שלבים 1 עד 7 עבור יישום ה- plug-in השני.
 9. סגור את הכלי PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

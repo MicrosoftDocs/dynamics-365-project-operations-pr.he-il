@@ -73,3 +73,6 @@ ms.locfileid: "5144864"
 > ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית' ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

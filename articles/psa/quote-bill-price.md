@@ -44,3 +44,6 @@ ms.locfileid: "5147868"
 - [קבוצות יחידות ויחידות](advanced-units.md)
 - [מטבע מרובה יחידות](advanced-currency.md)
 - [תיעוד נתונים בפועל](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

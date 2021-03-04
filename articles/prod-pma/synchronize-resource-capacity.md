@@ -49,3 +49,6 @@ ms.locfileid: "4077286"
     | תאריך סיום    | הזן את תאריך הסיום של תהליך הסנכרון עבור פעולות סיכום של קיבולת משאבים. |
 
 [![תהליך הסינכרון](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

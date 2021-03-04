@@ -134,3 +134,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 13. בחר **שמור**. 
 
 ![עדכן פרמטרי פרויקט](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

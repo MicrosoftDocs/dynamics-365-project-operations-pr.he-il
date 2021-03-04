@@ -52,3 +52,6 @@ ms.locfileid: "4643219"
 7. בחר **אישור** כדי לסגור את הדף ולאחר מכן בחר **עדכן שלב**.
 8. חזור על שלבים 2 עד 7 עבור יישום ה-plug-in השני, **PreOperationQuoteLineDetail**. עבור יישום plug-in זה, עליך לעדכן את השלב **Update of msdyn_quotelinetransaction**.
 9. סגור את **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

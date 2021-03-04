@@ -32,3 +32,6 @@ ms.locfileid: "5148599"
 בעבר, היישום של תצוגות לוח השנה והרשת של 'זמן' ו'הוצאה' נעשה בתור פקדי DHTMLX. הפריטים הקשורים ליישום זה של תצוגות לוח השנה והרשת מיושנים עכשיו (הוצאו משימוש).
 
 לקבלת הרשימה המלאה של משאבים שהוצאו משימוש, ראה [משאבי אינטרנט שהוצאו משימוש ב- Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

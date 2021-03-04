@@ -81,3 +81,6 @@ ms.locfileid: "5146664"
 - כאשר Dynamics 365 Field Service ו-Project Service Automation מותקנים שניהם, האפשרויות **נעילת תמחור** ו- **שימוש בתמחור נוכחי** לא מופיעות באותו זמן בדף **חשבונית**.
 - עבור השפה היפנית, יש תרגום לא עקבי עם דפים אחרים מבוססי לוח שנה.
 - **הפעל** ו- **השבת** הוסרו מישויות **משויכות למחירון** ב- Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4077446"
 
 > [!NOTE]
 > לא ניתן לשנות הצעת מחיר לפרויקט לאחר שינוי המצב ל **נשלח**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

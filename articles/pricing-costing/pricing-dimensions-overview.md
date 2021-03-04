@@ -71,3 +71,6 @@ Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחו�
 | ----------------|-------------|----------|----------:|----------|
 | טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
 | טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

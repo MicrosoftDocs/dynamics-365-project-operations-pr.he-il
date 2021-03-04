@@ -55,3 +55,6 @@ ms.locfileid: "4077294"
 - [ביצועים של תזמון משאבי פרויקט](project-scheduling-performance.md)
 - [הגדרת תפקידים בתבניות של מבנה התפלגות עבודה](set-up-roles-wbs-template.md)
 - [מימוש משאבים למשאבים מתוכננים](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

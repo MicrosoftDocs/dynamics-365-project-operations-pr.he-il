@@ -63,3 +63,6 @@ ms.locfileid: "5147384"
 כדי להמיר משאב שהוזמן בהזמנה טנטטיבית למשאב שהוזמן בהזמנה בטוחה בכרטיסיה **צוות** של הפרויקט, בחר את המשאב ולאחר מכן בחר **אשר**.
 
 ![הפקודה 'אשר'](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

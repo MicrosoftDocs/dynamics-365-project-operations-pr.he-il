@@ -55,3 +55,6 @@ ms.locfileid: "5151119"
  [מדריך למנהל פרויקט](../psa/project-manager-guide.md)   
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)   
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

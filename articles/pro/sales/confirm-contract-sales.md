@@ -35,3 +35,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 > [!NOTE]
 > ב-Dynamics 365 Project Operations, סגירת חוזה פרויקט כהפסד לא תשפיע על המצב של ההזדמנות המשויכת. ההזדמנות תישאר פתוחה ויש לסגור אותה ידנית.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

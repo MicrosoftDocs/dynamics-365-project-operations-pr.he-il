@@ -42,3 +42,6 @@ ms.locfileid: "5151074"
 הבעיות הבאות תוקנו:
 
 - לוח זמנים לפגיעה בביצועי חיפוש סיוע
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 השתמש בפרויקט LCS זה כדי לפרוס את סביבת ה-Project Operations שלך.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

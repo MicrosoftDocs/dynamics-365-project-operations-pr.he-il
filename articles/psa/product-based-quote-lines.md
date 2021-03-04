@@ -82,3 +82,6 @@ PSA מוודא שרק מאפיינים מספריים או מאפייני מוצ
 
 > ![סימון 'מס' משתמשים' ו'מס' החודשים' כגורמי כמות.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

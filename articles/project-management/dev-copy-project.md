@@ -112,3 +112,6 @@ Dynamics 365 Project Operations תומך ביכולת להעתיק פרויקט 
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

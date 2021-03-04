@@ -113,3 +113,6 @@ USSI, הישות המשפטית המלווה, חייבת להפיק את החש�
 לקבלת מידע נוסף, ראה [הגדרת תצורה של הפקת חשבונית פרוייקט בין-חברתית](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

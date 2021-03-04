@@ -101,3 +101,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
           - **חברת הקצאת משאבים** = **Contoso Robotics UK**
           - **תעריף חיוב** = **200 USD**
       9. עבור אל **מכירות** > **חוזים בפרויקט** וצרף את המחירון **תעריפי חיוב של Adventure Works** למחירון הפרויקטים של Adventure Works של חוזה הפרויקט.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

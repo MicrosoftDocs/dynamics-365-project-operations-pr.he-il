@@ -104,3 +104,6 @@ ms.locfileid: "4077443"
 
 3. בחר **שמור** , ולאחר מכן סגור את הדף.
 4. בכרטיסיה **יכולות** , הוסף את הכישור **ProjectMgmt** ואת האישור **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

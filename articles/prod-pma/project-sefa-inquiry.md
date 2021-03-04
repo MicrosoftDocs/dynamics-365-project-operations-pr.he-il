@@ -104,3 +104,6 @@ ms.locfileid: "4077292"
 - קטלוג של אשכולות פדרליים לסיוע מקומי
 - קבלות
 - הוצאות
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ PSA מסופק עם קבוצה של ממדי תמחור בברירת מחדל. �
 | ----------------|-------------|----------|----------:|----------|
 | טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
 | טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

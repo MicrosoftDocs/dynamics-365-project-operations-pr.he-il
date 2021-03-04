@@ -74,3 +74,6 @@ _**פריסת לייט - מהעסקה ועד להוצאת חשבונית פרו�
     -   מאפיין של משאב הניתן להזמנה
 
     ![השלם את הייבוא](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ ms.locfileid: "5147428"
 - [הזמנת משאבים בעלי שם מדרישות משאב](book-named-resource.md)
 - [שלח בקשת משאב](submit-resource-request.md)
 - [קבלה או דחייה של משאב פרויקט מוצע מבקשת משאב](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

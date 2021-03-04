@@ -44,3 +44,6 @@ Dynamics 365 Project Operations תומך ביכולת לעבד הוצאות. ע�
 
 ## <a name="determine-your-expense-deployment"></a>קביעת סוג הפריסת ההוצאות
 כדי לקבוע אם אתה מפעיל את פריסת ניהול ההוצאות הבסיסית, ודא שכתובת האתר מסתיימת ב-**.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

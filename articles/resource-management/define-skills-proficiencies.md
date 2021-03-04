@@ -42,3 +42,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 
 ערכי דירוג אלה מוצגים במסננים **דרישות משאב**, **לוח זמנים** ו **מסייע לוח הזמנים**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

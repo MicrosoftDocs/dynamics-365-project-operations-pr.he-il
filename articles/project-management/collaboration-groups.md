@@ -26,3 +26,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 > [!NOTE] 
 > משתמשים מתווספים לקבוצה רק אם לוחצים על **קבוצות** ומוסיפים אותם. זהו אופן פעולה שונה מזה של Project באינטרנט. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

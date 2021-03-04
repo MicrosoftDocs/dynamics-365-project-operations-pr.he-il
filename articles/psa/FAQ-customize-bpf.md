@@ -107,3 +107,6 @@ ms.locfileid: "5149004"
 
    ![צילום מסך של שינוי תצוגות בישות פרוייקט](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

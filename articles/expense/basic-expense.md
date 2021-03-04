@@ -55,3 +55,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 ## <a name="see-also"></a>למידע נוסף
 
 - [מבט כולל על אישורים](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "4960608"
 
     1. המנהל הישיר של העובד מאשר את דוח ההוצאות.
     2. בעל התקציב מאשר את דוח ההוצאות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

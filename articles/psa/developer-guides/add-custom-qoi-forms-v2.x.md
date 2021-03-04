@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation מתבסס על השדה **סוג** (**m
     ```
 
 6. שמור ולאחר מכן פרסם את ההתאמות האישיות.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

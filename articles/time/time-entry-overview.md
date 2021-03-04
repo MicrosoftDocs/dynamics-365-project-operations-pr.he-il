@@ -27,3 +27,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 למידע על הדרך ליצירה, הגשה או אחזור של ערכים ולקבלת כלים אחרים שיסייעו בהשלמת הדיווח, ראה [התנהגות משתמשים עם ערכי זמן](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

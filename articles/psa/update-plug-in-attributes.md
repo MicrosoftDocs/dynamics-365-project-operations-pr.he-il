@@ -68,3 +68,6 @@ ms.locfileid: "5147069"
 
 9. סגור את כלי הרישום של יישומי ה- Plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

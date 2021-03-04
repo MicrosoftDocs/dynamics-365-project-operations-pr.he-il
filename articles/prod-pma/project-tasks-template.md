@@ -83,3 +83,6 @@ ms.locfileid: "4077290"
 האיור הבא מציג דוגמה למיפויי משימת התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
 [![מיפוי תבנית](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

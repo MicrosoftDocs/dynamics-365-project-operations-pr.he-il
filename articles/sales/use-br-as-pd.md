@@ -78,3 +78,6 @@ ms.locfileid: "4643084"
 5. הוסף  **msdyn_bookableresourceid** ל- **שם השדה**.
 
  ![טופס שם שדה של ממד תמחור חדש](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

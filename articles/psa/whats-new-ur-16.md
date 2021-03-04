@@ -64,3 +64,6 @@ ms.locfileid: "5143634"
 
     -   תוקן: כאשר משתמשים משדרגים מ- 2.X ל- 3.X, פרויקטים עם הערך NULL בתור שם הפרויקט יהיו מורשים.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

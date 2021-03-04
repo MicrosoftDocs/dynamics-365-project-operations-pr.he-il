@@ -236,3 +236,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 22. בחר **שלח**.
 23. הזן הערות עבור המאשר.
 24. בחר **סיום**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

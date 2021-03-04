@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מ
 - [עבודה עם מודל הנתונים של Project Service](reports-working-project-service-data-model.md)
 - [לוחות מחוונים](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

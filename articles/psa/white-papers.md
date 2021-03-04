@@ -45,3 +45,6 @@ ms.locfileid: "5146979"
 
 ### <a name="see-also"></a>למידע נוסף
  [מבט כולל על Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ ms.locfileid: "4960743"
 |בתי מלון         |725‎ אירו              |557‎ אירו                        |168‎ אירו                          |
 |ארוחות         |346‎ אירו              |284‎ אירו                        |62‎ אירו                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

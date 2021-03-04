@@ -55,3 +55,6 @@ ms.locfileid: "5150624"
 - חריג של התייחסות null נוצר כאשר יישום plug-in **GetEstimatesForProject** מופעל.
 - **סמן מוכן לחשבונית** ברשת אבני הדרך מעדכנת חלקית בלבד את התכונות, למעט המאפיין **InvoiceStatus** שמתעדכן.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

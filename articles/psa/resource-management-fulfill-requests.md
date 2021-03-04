@@ -46,3 +46,6 @@ ms.locfileid: "5147609"
 > ![המשאב שנבחר](media/Resource-Management-image61.png)
 
 חבר הצוות הכללי מוחלף במשאב בעל השם שהוזמן בהזמנה בטוחה בצוות הפרויקט ובהקצאות של משימות בלוח הזמנים של הפרויקט.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

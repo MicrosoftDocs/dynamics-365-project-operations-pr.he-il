@@ -153,3 +153,6 @@ ms.locfileid: "4764820"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>מיפוי אבן דרך לסעיף חוזה של פרויקט בתבנית פרויקטים וחוזים (PSA 3.x ל- Dynamics) ‏- v2:
 
 [![מיפוי ציוני דרך של סעיפי חוזה בפרויקט ותבנית של גרסה שנייה](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

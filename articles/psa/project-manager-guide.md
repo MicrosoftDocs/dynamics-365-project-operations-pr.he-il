@@ -95,3 +95,6 @@ ms.locfileid: "5148284"
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)   
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

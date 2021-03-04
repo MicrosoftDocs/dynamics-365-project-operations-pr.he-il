@@ -113,3 +113,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     - קרדיט: פרויקט - הכנסות מצטברות 120 USD
 
     המערכת מוכנה כעת ליצור חשבונית לקוח בין-חברות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

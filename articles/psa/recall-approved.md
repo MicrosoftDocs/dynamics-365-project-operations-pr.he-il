@@ -107,3 +107,6 @@ ms.locfileid: "5147836"
 האיור הבא מציג את השינויים המתרחשים עבור ערכי הוצאה שאושרו בזמן האחזור שלהם.
 
 ![מעברים בין מצבים של ערכי הוצאה](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

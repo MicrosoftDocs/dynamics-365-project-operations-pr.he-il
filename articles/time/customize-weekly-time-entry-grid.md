@@ -144,3 +144,6 @@ Project Operations ‏Dynamics 365 כוללת פקד ערך זמן המותאם 
 
 ### <a name="copying-time-entries"></a>העתקת ערכי זמן
 השתמש בתצוגה **העתק עמודות ערך זמן** כדי להגדיר את רשימת השדות להעתקה במהלך יצירת ערך הזמן. **תאריך** ו **משך** הם שדות חובה ואין להסיר אותם מהתצוגה.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

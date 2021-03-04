@@ -65,3 +65,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 > אם העסקה מבוססת הפרויקט התחילה עם הזדמנות, התהליך העסקי מהזדמנות למכירה מקבל עדיפות.
 
 באפשרותך לערוך את זרימת התהליך העסקי של המוצר או ליצור זרימת תהליך עסקי משלך כדי לעקוב אחר תהליך המכירה לפי הצורך. למידע נוסף על זרימת התהליך העסקי, ראה [‏‫מבט כולל על זרימות תהליכים עסקיים‬](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

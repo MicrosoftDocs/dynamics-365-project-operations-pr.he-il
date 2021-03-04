@@ -53,3 +53,6 @@ ms.locfileid: "5146754"
   
 ### <a name="see-also"></a>למידע נוסף  
  [הגדרת משאבים](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ ms.locfileid: "4960338"
 - מתי פג תוקף המדיניות?
 - מהו כלל המדיניות?
 - מה התוצאה של כלל המדיניות?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

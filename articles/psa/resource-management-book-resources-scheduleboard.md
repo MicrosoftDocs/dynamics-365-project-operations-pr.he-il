@@ -53,3 +53,6 @@ ms.locfileid: "5144414"
 הדרישה מולאה באמצעות המשאב שנבחר. בחלונית **דרישות הזמנה**, שים לב שהדרישה עודכנה והמשאב מוצג כמשאב שהוזמן בפרויקט.
 
 ![משאב שהוזמן בפרויקט](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

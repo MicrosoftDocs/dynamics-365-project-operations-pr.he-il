@@ -209,3 +209,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 
 סביבת Project Operations שלך מוקצית ומוגדרת כעת. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

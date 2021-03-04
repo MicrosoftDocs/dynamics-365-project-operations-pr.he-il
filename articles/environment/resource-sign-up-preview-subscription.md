@@ -98,3 +98,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 התקן הגדרת CDS ונתוני תצורה כמתואר בנושא [הגדר והחל נתוני תצורה ב- Common Data Service](resource-apply-pro-setup-config-data.md).
 השלם שלב זה רק לאחר פריסה של סביבת הדגמה של Finance ונתוני הדגמה ב- FO מוכנים.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

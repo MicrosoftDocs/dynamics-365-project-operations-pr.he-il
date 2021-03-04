@@ -76,3 +76,6 @@ ms.locfileid: "5144999"
 5. הוסף את **msdyn_projectteam** לשדה **שם לוגי של ישות** ואת **msdyn_bookableresourceid** לשדה **שם שדה**. שמור את הרשומה.
 
  ![טופס שם שדה של ממד תמחור חדש](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

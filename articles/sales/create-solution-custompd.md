@@ -64,3 +64,6 @@ ms.locfileid: "4513987"
 5.  כאשר תתבקש לכלול ישויות תלויות עבור הישויות שנבחרו, בחר **לא, אל תכלול רכיבים נדרשים.**
 
     ![כולל ישויות תלויות](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

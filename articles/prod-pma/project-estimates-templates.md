@@ -170,3 +170,6 @@ ms.locfileid: "4077436"
 [![מיפוי תבניות של עסקאות אומדן הוצאות](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![מיפוי תבניות של אומדן הוצאות](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

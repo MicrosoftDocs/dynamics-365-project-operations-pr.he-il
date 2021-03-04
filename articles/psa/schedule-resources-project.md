@@ -83,3 +83,6 @@ ms.locfileid: "5150444"
   
 ### <a name="additional-resources"></a>משאבים נוספים  
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

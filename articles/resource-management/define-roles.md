@@ -20,3 +20,6 @@ ms.locfileid: "4514532"
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 אתה יכול להשתמש בפונקציונליות הכלולה ב- Dynamics 365 Field Service כדי להגדיר את התפקידים שלך בסביבת Dynamics 365 Project Operations. להשלמת התקנה זו, ראה [הגדר קטגוריות משאבים שניתנות להזמנה](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

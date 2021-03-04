@@ -67,3 +67,6 @@ ms.locfileid: "5150039"
 הבעיות הבאות תוקנו:
 
 - **אחזר את כל קטגוריות העסקה** לחיצה כפולה יוצרת מספר שורות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

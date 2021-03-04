@@ -56,3 +56,6 @@ ms.locfileid: "4077475"
 21. הקלד ערך בשדה **קבלת מוצר**.
 22. בחר **אישור**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

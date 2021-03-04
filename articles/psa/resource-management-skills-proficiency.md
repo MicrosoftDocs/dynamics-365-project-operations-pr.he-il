@@ -48,3 +48,6 @@ ms.locfileid: "5147474"
 > ![דירוגים מינימליים ומרביים הוגדרו](media/Resource-Management-image85.png)
 
 ערכי דירוג אלה מוצגים במסננים **דרישות משאב**, **לוח זמנים** ו **מסייע לוח הזמנים**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

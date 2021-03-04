@@ -288,3 +288,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

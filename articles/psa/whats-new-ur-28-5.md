@@ -42,3 +42,6 @@ ms.locfileid: "5146619"
 
 - לוח זמנים לפגיעה בביצועי חיפוש סיוע
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

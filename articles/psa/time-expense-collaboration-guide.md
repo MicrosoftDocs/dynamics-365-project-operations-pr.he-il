@@ -73,3 +73,6 @@ ms.locfileid: "5150129"
  [מדריך למנהלי תיקי לקוחות](../psa/account-manager-guide.md)   
  [מדריך למנהל פרויקט](../psa/project-manager-guide.md)   
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

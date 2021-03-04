@@ -57,3 +57,6 @@ ms.locfileid: "5143716"
 - תוקן: כאשר מחלקת העסקה היא **זמן**, **UnitGroup** אינו ניתן לעריכה לכל הישויות כולל, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, ו **ContractLineDetails**. למרות זאת, **Unit** אינו ניתן לעריכה רק עבור **JournalLine** ו **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

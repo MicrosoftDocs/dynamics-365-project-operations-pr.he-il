@@ -62,3 +62,6 @@ ms.locfileid: "4077473"
 ## <a name="monitor-project-teams"></a>נטר את צוותי הפרויקט
 1. בדף **כל הפרויקטים** , בחר בקישור **מזהה פרויקט** עבור הפרויקט **שדרוג XYZ שלב 2**.
 2. ב- FastTab **צוות פרויקט ותזמון** , ודא שמשאבי הפרויקט המפורטים נכונים.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

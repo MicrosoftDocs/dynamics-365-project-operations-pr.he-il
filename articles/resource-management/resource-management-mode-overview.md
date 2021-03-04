@@ -48,3 +48,6 @@ Dynamics 365 Project Operations תומך בשני מצבים כדי שתוכל �
 הזמן משאב מדרישות משאב:
 - [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [הזמנת משאבים בעלי שם מדרישות משאב](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

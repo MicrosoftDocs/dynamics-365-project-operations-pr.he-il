@@ -34,3 +34,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 1. הארגון
 2. לקוח
 3. הצעת מחיר / חוזה
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

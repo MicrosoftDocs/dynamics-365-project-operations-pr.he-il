@@ -43,3 +43,6 @@ Dynamics 365 Project Operations משתמש בזרימה הבאה לעיבוד ע
 - [קביעת תצורה של הפקת חשבוניות בין-חברות](configure-intercompany-invoicing.md)
 - [תיעוד עסקאות בין-חברות](create-intercompany-transactions.md)
 - [יצירת חשבוניות לקוחות וספקים בין-חברות](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 חיברת בהצלחה את המנוי שלך ל- Azure. כעת תוכל לפרוס סביבות המתארחות בענן של Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ ms.locfileid: "4077367"
 32. הזן מספר בשדה **תמחור**.
 33. בחר **שמור**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

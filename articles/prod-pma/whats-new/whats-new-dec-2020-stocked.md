@@ -142,3 +142,6 @@ _חל על:‏ Project Operations לתרחישים מבוססי ייצור/עם 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
 למידע על עדכונים רגולטוריים עבור Dynamics 365 Finance, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

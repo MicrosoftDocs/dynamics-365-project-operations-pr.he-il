@@ -127,3 +127,6 @@ ms.locfileid: "4077369"
 8.  בחר את **לוח השנה** שבו יש להשתמש להקצאת משאבים.
 
 11. לחץ על **אישור**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

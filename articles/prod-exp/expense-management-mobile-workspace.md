@@ -240,3 +240,6 @@ ms.locfileid: "4960473"
 22. בחר **שלח**.
 23. הזן הערות עבור המאשר.
 24. בחר **סיום**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

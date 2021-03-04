@@ -91,3 +91,6 @@ ms.locfileid: "5146529"
 
 4. כעת כשהמשאב מוזמן, עליך להקצות משימות באופן ידני.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

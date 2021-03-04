@@ -39,3 +39,6 @@ ms.locfileid: "4077285"
 10. לחץ על אישור. 
 
 לאחר שלב זה, תעודת הזיכוי תהיה זמינה עבור 'הצעת חשבונית'.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

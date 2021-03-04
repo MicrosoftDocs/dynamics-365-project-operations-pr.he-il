@@ -41,3 +41,6 @@ ms.locfileid: "5147564"
 - [דרישות של הזמנה טנטטיבית](resource-management-softbook-requirements.md)
 - [כישורים ומודלים של מיומנות](resource-management-skills-proficiency.md)
 - [שאלות נפוצות בנושא ניהול משאבים](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

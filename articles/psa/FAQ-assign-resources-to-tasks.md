@@ -82,3 +82,6 @@ ms.locfileid: "5149994"
 
 3. בחר את המשאב שברצונך להקצות למשימה.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

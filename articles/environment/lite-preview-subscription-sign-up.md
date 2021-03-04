@@ -91,3 +91,6 @@ ms.locfileid: "4175892"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>התקן את התצורה של CSD ואת נתוני הגדרת ההדגמה
 
 התקן את תצורת ה-CDS והגדר נתוני הדגמה על ידי מעקב אחר ההוראות בנושא, [החל הגדרת ההדגמה ואת נתוני התצורה](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

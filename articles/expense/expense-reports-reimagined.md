@@ -78,3 +78,6 @@ ms.locfileid: "4122794"
 - זרימת עבודה ברמת הקו
 - תמיכת ביניים של מאשר
 - פירוט מתקדם
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

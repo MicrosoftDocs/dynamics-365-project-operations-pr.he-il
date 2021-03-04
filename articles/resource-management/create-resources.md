@@ -20,3 +20,6 @@ ms.locfileid: "4514530"
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 אתה יכול להשתמש ב- Dynamics 365 Field Service כדי ליצור משאבים שניתנים להזמנה לצורך שימוש בסביבת Dynamics 365 Project Operations שלך. ליצירת משאבים אלה, ראה [הגדר משאבים שניתנים להזמנה](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

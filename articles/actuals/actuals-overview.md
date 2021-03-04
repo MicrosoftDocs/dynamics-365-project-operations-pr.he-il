@@ -342,3 +342,6 @@ Project Operations מתעד את העסקות הפיננסיות המתרחשו�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

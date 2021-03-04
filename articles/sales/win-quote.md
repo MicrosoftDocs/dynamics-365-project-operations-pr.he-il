@@ -43,3 +43,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 > [!NOTE]
 > ב- Project Operations, סגירת הצעת מחיר כ'זכייה' או כ'הפסד' אינה משפיעה על המצב של ההזדמנות. ההזדמנות נשארת פתוחה עד לסגירה ידנית שלה.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

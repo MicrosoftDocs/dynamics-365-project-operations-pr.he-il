@@ -140,3 +140,6 @@ ms.locfileid: "4077440"
 [![מיפוי תבניות - ‏‫עדכון נתונים בפועל](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![מיפוי תבניות - ‏‫עדכון עסקאות](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

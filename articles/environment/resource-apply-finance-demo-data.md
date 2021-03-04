@@ -79,3 +79,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 18. סגור את הפעלת שולחן העבודה המרוחק והשתמש בדף **פרטי הסביבה** של LCS כדי להתחבר לסביבה ולאשר שהיא פועלת כצפוי.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

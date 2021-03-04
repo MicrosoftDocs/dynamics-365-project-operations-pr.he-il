@@ -124,3 +124,6 @@ ms.locfileid: "4077447"
 > המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
 [![Project Service Automation למיפוי תבנית Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

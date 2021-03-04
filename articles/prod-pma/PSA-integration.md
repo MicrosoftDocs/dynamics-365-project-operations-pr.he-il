@@ -75,3 +75,6 @@ ms.locfileid: "4642454"
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>התקן את פתרון השילוב Project Service Automation ל- Finance במופע Project Service Automation
 
 הןרד את פתרון השילוב Project Service Automation ל- Finance מ[מרכז ההורדות של Microsoft](https://www.microsoft.com/download/details.aspx?id=57016), ופעל לפי ההנחיות הכלולות בפתרון.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

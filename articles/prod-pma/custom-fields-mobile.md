@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. האפליקציה מנסה להציב את קטגוריית ברירת המחדל ממשאב הפרויקט. קטגוריית ברירת מחדל זו מוגדרת בשיטות **getCurrentUserResource** ו- **getDelegatedResourcesForCurrentUser** במחלקה **TSTimesheetSettingsService**.
 2. אם קטגוריית ברירת המחדל אינה מסופקת ברמת משאבי הפרויקט, האפליקציה מנסה לשלוף אותה מפעילות הפרויקט. קטגוריית ברירת מחדל זו מוגדרת בשיטה **getActivitiesForProject** שבמחלקה **TSTimesheetProjectService**.
 3. אם קטגוריית ברירת המחדל אינה מסופקת ברמת פעילות הפרויקט, קטגוריית ברירת המחדל נשלפת מפרמטרי הפרויקט. קטגוריית ברירת מחדל זו מוגדרת בשיטה **getProjectDetailsbyRule** שבמחלקה **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 -   החברה של הקצאת המשאבים
 -   סוגי משאבים‬
 -   משאבים מועדפים
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

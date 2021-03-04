@@ -106,3 +106,6 @@ Project Operations מסתמך על שירות תזמון חיצוני. השיר�
   - מערכת Project Operations
   - מערכת פרוייקט
   - מערכת כתיבה כפולה של Project Operations (תפקיד זה נדרש אם אתה פורס את התרחיש מבוסס המשאב/שאינו מלאי של Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 7. בחר **אישור** כדי לסגור את תיבת הדו-שיח ולאחר מכן בחר **עדכן שלב**.
 8. חזור על שלבים 1 עד 7 עבור יישום ה- plug-in השני.
 9. סגור את הכלי PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

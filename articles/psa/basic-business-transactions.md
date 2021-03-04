@@ -149,3 +149,6 @@ PSA מתייחס לרשומות בחמש ישויות אלה כעסקאות. ה�
 | תיקון חשבונית טיוטה       | GUID של עסקת שורה בחשבונית | החלפה          | msdyn_invoicelinetransaction | GUID של מכירות שחויבו            | מקורי           | msdyn_actual       |
 | אישור תיקון חשבונית     | GUID של ביטול עסקת מכירות שחויבה    | ביטול עסקה          | msdyn_actual                 | GUID של מכירות שחויבו            | מקורי           | msdyn_actual       |
 | GUID של מכירות בפועל חדשות שלא חויבו | החלפה                     | msdyn_actual       | GUID של מכירות שחויבו            | מקורי                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

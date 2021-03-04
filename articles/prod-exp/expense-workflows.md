@@ -50,3 +50,6 @@ ms.locfileid: "4960518"
 |      <strong>בקשה למקדמה במזומן</strong>      |         צור זרימות עבודה לאישור עבור בקשות מקדמה במזומן.          |
 |        <strong>החזר מע"מ</strong>        | צור זרימות עבודה לאישור עבור החזרי מס ערך מוסף (מע"מ).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ ms.locfileid: "4077289"
 11. בחר את מאפיין השורה.
 12. אופציונלי‬: הזן הערות חיצוניות ופנימיות.
 13. בחר **סיום**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

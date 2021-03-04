@@ -330,3 +330,6 @@ PSA מתעד את העסקות הפיננסיות המתרחשות במהלך פ
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

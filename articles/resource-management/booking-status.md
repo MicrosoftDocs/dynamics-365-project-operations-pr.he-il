@@ -20,3 +20,6 @@ ms.locfileid: "4514531"
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 אפשר להשתמש בפונקציונליות הכלולה ב- Universal Resource Scheduling כדי ש- Dynamics 365 Field Service יגדיר סטטוסים של הזמנות בארגון שלך. למידע על השלמת תהליך ההגדרה, ראה [הגדר סטטוסים של הזמנה](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

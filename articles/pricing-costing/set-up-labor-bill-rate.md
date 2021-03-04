@@ -55,3 +55,6 @@ ms.locfileid: "4180695"
     | מפתחים | Fabrikam בארה"ב | Fabrikam בארה"ב - חטיבת הרובוטיקה | $150 |
 
 3. צרף את מחירון המכירות, **שיעורי החיוב של Fabrikam בארה"ב** למחירון הפרויקט של חוזה הפרויקט או לתיק לקוח מסוים.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

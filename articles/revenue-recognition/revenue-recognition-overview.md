@@ -60,3 +60,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 [ניהול הערכות הכנסה](rev-rec-completed-contract-method.md)
 
 [עלות להשלמת שיטות](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

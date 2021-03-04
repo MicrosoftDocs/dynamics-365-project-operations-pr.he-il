@@ -76,3 +76,6 @@ ms.locfileid: "4077296"
 
 לקבלת מידע נוסף, ראה [קבלת פריטים בהזמנת רכש מפריט נדרש](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

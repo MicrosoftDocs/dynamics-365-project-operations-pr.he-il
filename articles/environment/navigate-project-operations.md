@@ -38,3 +38,6 @@ Dynamics 365 Project Operations עבור תרחישי משאבים/ללא מלא
 
 > [!NOTE]
 > אתה יכול לגשת ל-Project Operations ישירות במודול של Common Data Service ו **ניהול פרויקטים וחשבונאות** באמצעות כתובות ה-URL שלהם בהתאמה. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

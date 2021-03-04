@@ -91,3 +91,6 @@ ms.locfileid: "5144459"
   
 ### <a name="see-also"></a>למידע נוסף  
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

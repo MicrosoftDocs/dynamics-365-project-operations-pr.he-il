@@ -125,3 +125,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
  
  ![סנכרון מפת ספר חשבונאות](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

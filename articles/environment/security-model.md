@@ -81,3 +81,6 @@ Project Operations כולל את התפקידים הבאים:
 למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

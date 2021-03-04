@@ -49,3 +49,6 @@ ms.locfileid: "5144099"
   
 ### <a name="see-also"></a>למידע נוסף  
  [מדריך למנהל פרויקט](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

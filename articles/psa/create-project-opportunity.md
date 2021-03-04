@@ -55,3 +55,6 @@ ms.locfileid: "5146889"
   
 ### <a name="see-also"></a>למידע נוסף  
  [מדריך למנהלי תיקי לקוחות](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

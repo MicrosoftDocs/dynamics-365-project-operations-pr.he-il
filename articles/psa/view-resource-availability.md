@@ -48,3 +48,6 @@ ms.locfileid: "5143874"
 
 ### <a name="see-also"></a>למידע נוסף  
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Project Operations תומך בארבעה סוגים של סיווגי עסקאו
 ## <a name="changes-from-dynamics-365-sales-orders"></a>שינויים מהזמנות של Dynamics 365 Sales
 
 ב-Project Operations חוזים בנויים על הזמנות ב-Dynamics 365 Sales. עם זאת, ישנם סטיות והבדלים חשובים בפונקציונליות. לחוזים יש טופס ורכיבי ממשק משתמש משלהם, כללים עסקיים, לוגיקה עסקית ביישומי plug-in וקבצי Script בצד הלקוח משלהן, שמייחדים אותם מהזמנות. מסיבות אלה, אין להשתמש בהזמנת מכירה ובחוזה פרוייקט של Project Operations באופן חליפי.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

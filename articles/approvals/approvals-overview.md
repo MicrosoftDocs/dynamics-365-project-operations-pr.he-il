@@ -59,3 +59,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 3. בחר **שמור**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

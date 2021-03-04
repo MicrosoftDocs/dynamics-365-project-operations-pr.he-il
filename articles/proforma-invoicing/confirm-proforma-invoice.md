@@ -198,3 +198,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

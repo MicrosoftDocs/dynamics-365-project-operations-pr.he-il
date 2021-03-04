@@ -105,3 +105,6 @@ Project Resource hub מאפשר לך להזין זמן והוצאות עבור �
  [מבט כולל על Project Service](../psa/overview.md)   
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
