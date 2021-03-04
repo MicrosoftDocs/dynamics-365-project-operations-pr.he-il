@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077377"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144864"
 ---
 # <a name="create-custom-fields-and-entities"></a>יצירת שדות וישויות מותאמים אישית 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 בצע את השלבים הבאים בכל עת שברצונך ליצור קבוצת אפשרויות או ישות מותאמת אישית בפלטפורמת Power Apps.  
 יש להשלים את ההליכים בנושא זה באמצעות ממשק האינטרנט של Project Service Automation‏ (PSA).
@@ -64,7 +66,7 @@ ms.locfileid: "4077377"
 באפשרותך ליצור נתונים עבור ממדים מבוססי-ישות באופן ידני, או באמצעות ייבוא או קריאות שירות של Microsoft Excel. השתמש בשלבים שבהליך זה כדי ליצור שני תארים רגילים, **מהנדס מערכות** ו **מהנדס מערכות בכיר** מהממד מבוסס הישות, **כותרת סטנדרטית**. אם הנתונים שברצונך ליצור הם בכמות קטנה, בדומה לדוגמה הבאה, באפשרותך להשתמש בטופס רגיל.
 
 1. ב-PSA, לחץ על **חיפוש מתקדם**. בחר את הישות **כותרת סטנדרטית** ולחץ על **תוצאות**. כל השורות בישות **כותרת סטנדרטית** יוצגו.
-2. לחץ על **חדש**. בשדה **שם** , הזן "מהנדס מערכות" ולחץ על **שמור**.
+2. לחץ על **חדש**. בשדה **שם**, הזן "מהנדס מערכות" ולחץ על **שמור**.
 3. סגור את הטופס. 
 4. חזור על שלבים 1-3 כדי ליצור כותרת סטנדרטית נוספת עבור "מהנדס מערכות בכיר".
 
