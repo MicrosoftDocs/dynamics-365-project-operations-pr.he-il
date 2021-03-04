@@ -3,17 +3,18 @@ title: הקצאת סביבה חדשה
 description: נושא זה מספק מידע אודות אופן הקצאת סביבת Project Operations חדשה.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642973"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727791"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
@@ -60,17 +61,15 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![הסכמת פריסה](./media/2DeploymentConsent.png)
 
-7. מלא את שאר השדות הנדרשים באשף ואשר את הפריסה. זמן הקצאת הסביבה משתנה בהתאם לסוג הסביבה. ההקצאה עשויה להימשך עד שש שעות.
+7. אופציונלי - החל נתוני הדגמה על הסביבה. עבור אל **הגדרות מתקדמות**, בחר **התאם אישית את תצורת מסד הנתונים של SQL**, והגדר **ציין ערכת נתונים למסד נתונים של יישומים** שיהיה **הדגמה**.
+
+8. מלא את שאר השדות הנדרשים באשף ואשר את הפריסה. הזמן להקצאה של הסביבה משתנה בהתאם לסוג הסביבה. ההקצאה עשויה להימשך עד שש שעות.
 
   לאחר השלמת הפריסה בהצלחה, הסביבה תוצג בתור **פרוסה**.
 
-8. כדי לאשר שהסביבה נפרסה בהצלחה, בחר **כניסה** והיכנס לסביבה כדי לאשר.
+9. כדי לאשר שהסביבה נפרסה בהצלחה, בחר **התחברות** והיכנס לסביבה כדי לאשר.
 
 ![פרטי סביבת ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>החל את נתוני ההדגמה של Project Operations Finance (שלב אופציונלי)
-
-החל את נתוני ההדגמה של Project Operations Finance בסביבה המתארחת בענן במהדורת שירות 10.0.13 כמתואר [במאמר הזה](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>החל עדכונים על סביבת Finance
 
@@ -151,6 +150,21 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 הרענון יימשך כ- 20 דקות. תקבל התראה כשהוא יסתיים.
 
 ![רענן אישור](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>עדכן את הגדרות האבטחה של Project Operations ב- Dataverse
+
+1. עבור אל Project Operations בסביבת Dataverse שלך. 
+2. עבור אל **הגדרות** > **אבטחה** > **תפקידי אבטחה**. 
+3. בדף **תפקידי אבטחה**, ברשימת התפקידים, בחר **משתמש באפליקציה עם כתיבה כפולה** ובחר את הכרטיסיה **ישויות מותאמות אישית**.  
+4. ודא שיש לתפקיד הרשאות **קריאה** ו **צירוף** עבור:
+      
+      - **סוג שער החליפין של מטבע**
+      - **תרשים של תיקי לקוחות**
+      - **לוח שנה כספי**
+      - **ספר חשבונות**
+
+5. לאחר עדכון תפקיד האבטחה, עבור אל **הגדרות** > **אבטחה** > **Teams‎**, ובחר את צוות ברירת המחדל בתצוגה **בעל עסק מקומי**.
+6. בחר **נהל תפקידים** וודא כי הרשאת האבטחה **משתמש באפליקציה עם כתיבה כפולה** מוחלת על צוות זה.
 
 ## <a name="run-project-operations-dual-write-maps"></a>הפעל את מפות כתיבה כפולה ב- Project Operations
 

@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122837"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764910"
 ---
 # <a name="expense-home-page"></a>דף הבית של הוצאה
 
@@ -24,11 +25,11 @@ Dynamics 365 Project Operations תומך ביכולת לעבד הוצאות. ע�
 
 ב-Project Operations, ישנם שני מודלים לפריסה נתמכים עבור הוצאות: 
 
-- **מלא**: פריסה מלאה זמינה עבור **Project Operations עבור תרחישים מבוססי משאבים / ללא מלאי** אוֹ עבור **Project Operations לתרחישים מבוססי הזמנות ייצור**.
+- **מלאה**: פריסה מלאה זמינה עבור **Project Operations עבור תרחישים מבוססי משאבים / ללא מלאי** אוֹ עבור **Project Operations לתרחישים מבוססי הזמנות ייצור**.
 - **בסיסי**: פריסה בסיסית זמינה עבור **פעולות פרויקט לתרחישים מבוססי משאבים / ללא מלאי** ועובר **פריסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה**.
 
 ## <a name="full"></a>מלא 
-פריסת הוצאות מלאה מספקת אכיפת מדיניות מלאה הכוללת את היכולת ליצור קווי מדיניות, כגון:
+פריסת הוצאות מלאה מספקת אכיפת מדיניות מלאה הכוללת את היכולת ליצור מדיניות, כגון:
 
   - הגבלות קטגוריית ההוצאות
   - נסיעה

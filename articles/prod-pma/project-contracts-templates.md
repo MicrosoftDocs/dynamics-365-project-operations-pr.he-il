@@ -1,9 +1,9 @@
 ---
-title: סנכרון חוזי פרויקטים ופרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
+title: סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance
 description: נושא זה מתאר את התבנית ואת המשימות הבסיסיות המשמשות לסנכרון חוזי פרויקטים ופרויקטים ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642634"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764820"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון חוזי פרויקטים ופרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ ms.locfileid: "4642634"
 התבניות והמשימות הבסיסיות הבאות משמשות לסנכרון חוזי פרויקטים ופרויקטים מ- Project Service Automation אל Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>שילוב עם Dynamics 365 Project Service Automation v2.x
-- **שם התבנית בשילוב נתונים:** פרויקטים וחוזים (PSA ל- Fin and Ops)
+- **שם התבנית בשילוב נתונים:** פרוייקטים וחוזים (Project Service Automation ל- Finance)
 - **שם המשימות בפרויקט:**
 
-    - חוזי פרויקטים - PSA ל- Fin and Ops
-    - פרויקטים - PSA ל- Fin and Ops
-    - סעיפי חוזה בפרויקט - PSA ל- Fin and Ops
-    - אבני דרך בסעיפי חוזה בפרויקט - PSA ל- Fin and Ops
+    - חוזים לפרוייקט של Project Service Automation ל- Finance
+    - פרוייקטים של Project Service Automation ל- Finance
+    - סעיפי חוזה לפרוייקט של Project Service Automation ל- Finance
+    - אבני דרך של סעיפי חוזה לפרוייקט של Project Service Automation ל- Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>שילוב עם Dynamics 365 Project Service Automation v3.x
 יש שינוי בסכימה ב- Project Service Automation שמשפיע על תבנית אבן הדרך בסעיף החוזה בפרויקט ונדרש שימוש בגירסה v2 של התבנית כדי לשלב את Project Service Automation v3.x עם Dynamics 365.
 
-- **שם התבנית בשילוב נתונים:** פרויקטים וחוזים (PSA 3.x ל- Fin and Ops)‏ - v2
+- **שם התבנית בשילוב נתונים:** פרוייקטים וחוזים (Project Service Automation 3.x ל- Finance) ‏- v2
 - **שם המשימות בפרויקט:**
 
-    - חוזי פרויקטים - PSA ל- Fin and Ops
-    - פרויקטים - PSA ל- Fin and Ops
-    - סעיפי חוזה בפרויקט - PSA ל- Fin and Ops
-    - אבני דרך בסעיפי חוזה בפרויקט - PSA ל- Fin and Ops
+    - חוזים לפרוייקט של Project Service Automation ל- Finance
+    - פרוייקטים של Project Service Automation ל- Finance
+    - סעיפי חוזה לפרוייקט של Project Service Automation ל- Finance
+    - אבני דרך של סעיפי חוזה לפרוייקט של Project Service Automation ל- Finance
 
 עליך לסנכרן תיקי לקוחות לפני שתוכל לסנכרן חוזי פרויקטים ופרויקטים.
 
@@ -87,7 +87,8 @@ ms.locfileid: "4642634"
 
 חוזי פרויקטים מנוהלים ב- Project Service Automation והם מסונכרנים ל- Finance כחוזי פרויקט. כחלק מתבנית השילוב, תוכל להגדיר את מקור השילוב ב- Finance עבור חוזה הפרויקט.
 
-פרויקט זמן וחומר ופרויקטי מחיר קבוע מנוהלים ב- Project Service Automation והם מסונכרנים ל- Finance כפרויקטים. כחלק משילוב התבנית, תוכל להגדיר את מקור השילוב ב- Finance עבור חוזה הפרויקט.
+פרוייקטים של זמן וחומר במחיר קבוע מנוהלים ב- Project Service Automation ומסונכרנים עם Finance כפרוייקטים. כחלק משילוב התבנית, תוכל להגדיר את מקור השילוב של הפרוייקט ב- Finance. נכון לעכשיו, רק פרוייקטים של זמן וחומר במחיר קבוע נתמכים.
+
 
 סעיפי חוזה בפרויקט מנוהלים ב- Project Service Automation והם מסונכרנים ל- Finance ככללי חיוב בחוזה פרויקט. אם שיטת החיוב שונה מסוג הפרויקט המוגדר כברירת מחדל, הסנכרון מעדכן את סוג הפרויקט עבור פרויקט בסעיף חוזה וקבוצת פרויקטים.
 
@@ -122,7 +123,7 @@ ms.locfileid: "4642634"
 
 ## <a name="power-query"></a>Power Query
 
-עליך להשתמש ב- Microsoft Power Query for Excel כדי לסנן נתונים אם מתקיימים התנאים הבאים:
+השתמש ב- Microsoft Power Query עבור Excel כדי לסנן נתונים אם מתקיימים התנאים הבאים:
 
 - יש לך הזמנות מכירה ב- Dynamics 365 Sales.
 - יש לך יחידות ארגוניות מרובות ב- Project Service Automation והיחידות הארגוניות האלה ימופו לכמה ישויות משפטיות ב- Finance.
@@ -130,7 +131,7 @@ ms.locfileid: "4642634"
 אם עליך להשתמש ב- Power Query, פעל לפי ההנחיות הבאות:
 
 - התבנית פרויקטים וחוזים (PSA ל- Fin and Ops) כוללת מסנן ברירת מחדל שכולל רק הזמנות מכירות מסוג **Work item (msdyn\_ordertype = 192350001)‎**. מסנן זה עוזר להבטיח כי לא נוצרים חוזי פרויקט להזמנות מכירה ב- Finance. אם אתה יוצר תבנית משלך, עליך להוסיף מסנן זה.
-- עליך ליצור מסנן Power Query שכולל רק את ארגוני החוזה שיש לסנכרן לישות המשפטית של קבוצת חיבורי השילוב. לדוגמה, יש לסנכרן חוזי פרויקטים שיש לך עם היחידה הארגונית של החוזה של Contoso US עם הישות המשפטית USSI, אך יש לסנכרן את חוזי הפרויקט שיש לך עם היחידה הארגונית של החוזה של Contoso Global עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
+- צור מסנן Power Query הכולל רק את ארגוני החוזים שצריכים להיות מסונכרנים עם הישות המשפטית של מערך חיבורי השילוב. לדוגמה, יש לסנכרן חוזי פרויקטים שיש לך עם היחידה הארגונית של החוזה של Contoso US עם הישות המשפטית USSI, אך יש לסנכרן את חוזי הפרויקט שיש לך עם היחידה הארגונית של החוזה של Contoso Global עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
 
 ## <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים
 

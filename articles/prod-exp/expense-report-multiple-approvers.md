@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077464"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960608"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>מאשרים מרובים בדוח הוצאות
-
-[!include [banner](../includes/banner.md)]
 
 בהתאם לקווי המדיניות של הארגון שלך לאישור הוצאות, ייתכן שיותר מאדם אחד יצטרך לאשר דוח הוצאות שהוגש על ידי עובד. כאשר אתה מגדיר את תהליך זרימת העבודה לאישור דוח הוצאות, באפשרותך להוסיף אלמנטים של זרימת עבודה הכוללים משימות או צעדים עבור מאשר דוח הוצאות אחד או יותר. לדוגמה, ייתכן שתדרוש שכל דוחות ההוצאות יאושרו קודם על ידי המנהל הישיר של העובד שהגיש את הדו"ח ואחר כך על ידי רכז חשבונות זכאים.
 

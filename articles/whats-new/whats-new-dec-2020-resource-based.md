@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700681"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727881"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -24,6 +24,8 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 - Project Operations בסביבת Dataverse גרסה 4.5.0.134
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.15
+
+למידע על אופן העדכון של מהדורה זו, ראה [עדכן את Project Operations בסביבת Finance שלך](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 התכונות הבאות כלולות בהפצה זו:
