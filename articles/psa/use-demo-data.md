@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130486"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151119"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>התנסות בנתוני הדגמה‬‏‫ (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 כדי להכיר את Dynamics 365 Project Service Automation, כדאי שתהיה לך סביבה מוגדרת מראש שתרצה להכיר. למטרה זו, יצרנו חבילת התקנה נפרדת עם נתונים לדוגמה (באנגלית בלבד לעת עתה) המקלה על הכרת פתרונות אלה. 
 
