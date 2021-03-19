@@ -18,29 +18,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 35fa9440a6f58a08092bcc3cc57a9097dce01e33
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ee6ed766595773aa8af65e8e3e5aa816de4e6117
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147868"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283504"
 ---
-# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="fd944-103">דף הבית 'יצירת הצעות מחיר, תמחור וחיוב'</span><span class="sxs-lookup"><span data-stu-id="fd944-103">Quoting, pricing, and billing home page</span></span>
+# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="7abfa-103">דף הבית 'יצירת הצעות מחיר, תמחור וחיוב'</span><span class="sxs-lookup"><span data-stu-id="7abfa-103">Quoting, pricing, and billing home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="fd944-104">יצירת הצעות מחיר, תמחור וחיוב הם תכונות המשמשות גם ארגונים קטנים וגם ארגונים גדולים.</span><span class="sxs-lookup"><span data-stu-id="fd944-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="fd944-105">על-ידי הבנת האופן שבו פועלות תכונות אלה באפליקציה, ארגונים יכולים להתאים אישית תצורות בקלות רבה יותר.</span><span class="sxs-lookup"><span data-stu-id="fd944-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
+<span data-ttu-id="7abfa-104">יצירת הצעות מחיר, תמחור וחיוב הם תכונות המשמשות גם ארגונים קטנים וגם ארגונים גדולים.</span><span class="sxs-lookup"><span data-stu-id="7abfa-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="7abfa-105">על-ידי הבנת האופן שבו פועלות תכונות אלה באפליקציה, ארגונים יכולים להתאים אישית תצורות בקלות רבה יותר.</span><span class="sxs-lookup"><span data-stu-id="7abfa-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
 
-<span data-ttu-id="fd944-106">הנושאים הבאים מספקים מידע נוסף על הפונקציונליות של יצירת הצעות מחיר, תמחור וחיוב ב- PSA:</span><span class="sxs-lookup"><span data-stu-id="fd944-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
+<span data-ttu-id="7abfa-106">הנושאים הבאים מספקים מידע נוסף על הפונקציונליות של יצירת הצעות מחיר, תמחור וחיוב ב- PSA:</span><span class="sxs-lookup"><span data-stu-id="7abfa-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
 
-- [<span data-ttu-id="fd944-107">תהליך מכירות</span><span class="sxs-lookup"><span data-stu-id="fd944-107">Sales process</span></span>](basic-sales-process.md)
-- [<span data-ttu-id="fd944-108">שורות הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="fd944-108">Quote lines</span></span>](basic-quote-lines.md)
-- [<span data-ttu-id="fd944-109">תמחור</span><span class="sxs-lookup"><span data-stu-id="fd944-109">Pricing</span></span>](basic-pricing.md)
-- [<span data-ttu-id="fd944-110">עסקאות</span><span class="sxs-lookup"><span data-stu-id="fd944-110">Business transactions</span></span>](basic-business-transactions.md)
-- [<span data-ttu-id="fd944-111">ניתוח הצעות מחיר לפרויקט</span><span class="sxs-lookup"><span data-stu-id="fd944-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
-- [<span data-ttu-id="fd944-112">יחידות ארגוניות</span><span class="sxs-lookup"><span data-stu-id="fd944-112">Organizational units</span></span>](advanced-organizational.md)
-- [<span data-ttu-id="fd944-113">קבוצות יחידות ויחידות</span><span class="sxs-lookup"><span data-stu-id="fd944-113">Unit groups and units</span></span>](advanced-units.md)
-- [<span data-ttu-id="fd944-114">מטבע מרובה יחידות</span><span class="sxs-lookup"><span data-stu-id="fd944-114">Multi-unit currency</span></span>](advanced-currency.md)
-- [<span data-ttu-id="fd944-115">תיעוד נתונים בפועל</span><span class="sxs-lookup"><span data-stu-id="fd944-115">Recording actuals</span></span>](advanced-actuals.md)
+- [<span data-ttu-id="7abfa-107">תהליך מכירות</span><span class="sxs-lookup"><span data-stu-id="7abfa-107">Sales process</span></span>](basic-sales-process.md)
+- [<span data-ttu-id="7abfa-108">שורות הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="7abfa-108">Quote lines</span></span>](basic-quote-lines.md)
+- [<span data-ttu-id="7abfa-109">תמחור</span><span class="sxs-lookup"><span data-stu-id="7abfa-109">Pricing</span></span>](basic-pricing.md)
+- [<span data-ttu-id="7abfa-110">עסקאות</span><span class="sxs-lookup"><span data-stu-id="7abfa-110">Business transactions</span></span>](basic-business-transactions.md)
+- [<span data-ttu-id="7abfa-111">ניתוח הצעות מחיר לפרויקט</span><span class="sxs-lookup"><span data-stu-id="7abfa-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
+- [<span data-ttu-id="7abfa-112">יחידות ארגוניות</span><span class="sxs-lookup"><span data-stu-id="7abfa-112">Organizational units</span></span>](advanced-organizational.md)
+- [<span data-ttu-id="7abfa-113">קבוצות יחידות ויחידות</span><span class="sxs-lookup"><span data-stu-id="7abfa-113">Unit groups and units</span></span>](advanced-units.md)
+- [<span data-ttu-id="7abfa-114">מטבע מרובה יחידות</span><span class="sxs-lookup"><span data-stu-id="7abfa-114">Multi-unit currency</span></span>](advanced-currency.md)
+- [<span data-ttu-id="7abfa-115">תיעוד נתונים בפועל</span><span class="sxs-lookup"><span data-stu-id="7abfa-115">Recording actuals</span></span>](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
