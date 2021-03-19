@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 902254394ecd7c1aa9ec16af6cfce81a347d7022
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 800d04244fcdb745d7512ffb11551367364053f6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151029"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281254"
 ---
-# <a name="view-your-schedule-project-service"></a><span data-ttu-id="6956c-103">צפייה בלוח הזמנים שלך (Project Service)</span><span class="sxs-lookup"><span data-stu-id="6956c-103">View your schedule (Project Service)</span></span>
+# <a name="view-your-schedule-project-service"></a><span data-ttu-id="bafb4-103">צפייה בלוח הזמנים שלך (Project Service)</span><span class="sxs-lookup"><span data-stu-id="bafb4-103">View your schedule (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="6956c-104">כשתרצה לראות על מה אתה עובד השבוע, עיין בלוח הזמנים שלך.</span><span class="sxs-lookup"><span data-stu-id="6956c-104">When you want to see what you’re working on for the week, take a look at your schedule.</span></span>  
+<span data-ttu-id="bafb4-104">כשתרצה לראות על מה אתה עובד השבוע, עיין בלוח הזמנים שלך.</span><span class="sxs-lookup"><span data-stu-id="bafb4-104">When you want to see what you’re working on for the week, take a look at your schedule.</span></span>  
   
- <span data-ttu-id="6956c-105">אם אתה משתמש ‏‫ביישום האינטרנט:</span><span class="sxs-lookup"><span data-stu-id="6956c-105">If you’re using the web app:</span></span>  
+ <span data-ttu-id="bafb4-105">אם אתה משתמש ‏‫ביישום האינטרנט:</span><span class="sxs-lookup"><span data-stu-id="bafb4-105">If you’re using the web app:</span></span>  
   
-1.  <span data-ttu-id="6956c-106">עבור אל **Project Service > הזמנות ומשימות**.</span><span class="sxs-lookup"><span data-stu-id="6956c-106">Go to **Project Service > Bookings and Tasks**.</span></span> <span data-ttu-id="6956c-107">זה מעלה תצוגת לוח שנה של לוח הזמנים שלך.</span><span class="sxs-lookup"><span data-stu-id="6956c-107">This brings up a calendar view of your schedule.</span></span>  
+1.  <span data-ttu-id="bafb4-106">עבור אל **Project Service > הזמנות ומשימות**.</span><span class="sxs-lookup"><span data-stu-id="bafb4-106">Go to **Project Service > Bookings and Tasks**.</span></span> <span data-ttu-id="bafb4-107">זה מעלה תצוגת לוח שנה של לוח הזמנים שלך.</span><span class="sxs-lookup"><span data-stu-id="bafb4-107">This brings up a calendar view of your schedule.</span></span>  
   
-2.  <span data-ttu-id="6956c-108">לחץ על **הקודם** או **הבא** כדי לראות את לוח הזמנים שלך עבור השבוע הקודם או הבא.</span><span class="sxs-lookup"><span data-stu-id="6956c-108">Click **Previous** or **Next** to see your schedule for the previous or next week.</span></span> <span data-ttu-id="6956c-109">לחץ על **היום** כדי לחזור לשבוע הנוכחי.</span><span class="sxs-lookup"><span data-stu-id="6956c-109">Click **Today** to get back to the current week.</span></span> <span data-ttu-id="6956c-110">באפשרותך ללחוץ על משימה כדי לעדכן אותה, במידת הצורך.</span><span class="sxs-lookup"><span data-stu-id="6956c-110">You can click a task to update it, if needed.</span></span>  
+2.  <span data-ttu-id="bafb4-108">לחץ על **הקודם** או **הבא** כדי לראות את לוח הזמנים שלך עבור השבוע הקודם או הבא.</span><span class="sxs-lookup"><span data-stu-id="bafb4-108">Click **Previous** or **Next** to see your schedule for the previous or next week.</span></span> <span data-ttu-id="bafb4-109">לחץ על **היום** כדי לחזור לשבוע הנוכחי.</span><span class="sxs-lookup"><span data-stu-id="bafb4-109">Click **Today** to get back to the current week.</span></span> <span data-ttu-id="bafb4-110">באפשרותך ללחוץ על משימה כדי לעדכן אותה, במידת הצורך.</span><span class="sxs-lookup"><span data-stu-id="bafb4-110">You can click a task to update it, if needed.</span></span>  
   
-3.  <span data-ttu-id="6956c-111">אם אתה מעדיף לראות רשימה של דברים שאתה עובד עליהם, לחץ על **רשת**.</span><span class="sxs-lookup"><span data-stu-id="6956c-111">If you’d rather see a list of what you’re working on, click **Grid**.</span></span> <span data-ttu-id="6956c-112">באפשרותך לערוך משימות בתוך השורה, במידת הצורך.</span><span class="sxs-lookup"><span data-stu-id="6956c-112">You can edit tasks inline, if needed.</span></span>  
+3.  <span data-ttu-id="bafb4-111">אם אתה מעדיף לראות רשימה של דברים שאתה עובד עליהם, לחץ על **רשת**.</span><span class="sxs-lookup"><span data-stu-id="bafb4-111">If you’d rather see a list of what you’re working on, click **Grid**.</span></span> <span data-ttu-id="bafb4-112">באפשרותך לערוך משימות בתוך השורה, במידת הצורך.</span><span class="sxs-lookup"><span data-stu-id="bafb4-112">You can edit tasks inline, if needed.</span></span>  
   
-4.  <span data-ttu-id="6956c-113">כדי להציג את המשימות שכבר הושלמו, לחץ על **הצג משימות שהושלמו**.</span><span class="sxs-lookup"><span data-stu-id="6956c-113">To see tasks that you’ve already completed, click **Show Completed Tasks**.</span></span>  
+4.  <span data-ttu-id="bafb4-113">כדי להציג את המשימות שכבר הושלמו, לחץ על **הצג משימות שהושלמו**.</span><span class="sxs-lookup"><span data-stu-id="bafb4-113">To see tasks that you’ve already completed, click **Show Completed Tasks**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="6956c-114">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="6956c-114">See Also</span></span>  
- [<span data-ttu-id="6956c-115">‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה</span><span class="sxs-lookup"><span data-stu-id="6956c-115">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="bafb4-114">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="bafb4-114">See Also</span></span>  
+ [<span data-ttu-id="bafb4-115">‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה</span><span class="sxs-lookup"><span data-stu-id="bafb4-115">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
