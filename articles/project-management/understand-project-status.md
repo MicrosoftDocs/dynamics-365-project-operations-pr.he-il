@@ -1,6 +1,6 @@
 ---
 title: הבנת מצב הפרויקט
-description: נושא זה מספק מידע על המצב המוקצה לפרויקטים ב- Dynamics 365 Project Operations.
+description: נושא זה מספק מידע על הסטטוס שהוקצה לפרויקטים ב- Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bc5bc174518e46b32cf88ea7231bb2df10fde292
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286474"
 ---
-# <a name="understand-project-status"></a>הבנת מצב הפרויקט
+# <a name="understand-project-status"></a>הבנת מצב הפרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 

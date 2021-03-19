@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287509"
 ---
 # <a name="configure-project-categories"></a>קביעת התצורה של קטגוריות פרוייקט
 
@@ -37,7 +37,7 @@ Project Operations מציע יכולות חזקות לסיווג הכנסות ו
 
 ## <a name="shared-categories"></a>קטגוריות משותפות
 
-Dynamics 365 משתמש במושג קטגוריות משותפות כדי לסווג הוצאות ביישומים שונים, כגון Dynamics 365 Finance, Dynamics 365 Supply Chain ו- Dynamics 365 Project Operations. עבור כל קטגוריית עסקאות שנוצרה, Project Operations יוצרת באופן אוטומטי ארבע קטגוריות משותפות קשורות: שעות, הוצאות, ,תשלומים ופריט. תוכל לסקור ולהתאים את הקטגוריות המשותפות על ידי מעבר אל **ניהול פרויקטים וחשבונאות** \> **הגדרה** \> **קטגוריות** \> **קטגוריות משותפות**.
+Dynamics 365 משתמש במושג 'קטגוריות משותפות' כדי לסווג הוצאות ביישומים שונים, כגון Dynamics 365 Finance, ‏Dynamics 365 Supply Chain ו-Dynamics 365 Project Operations. עבור כל קטגוריית עסקאות שנוצרה, Project Operations יוצרת באופן אוטומטי ארבע קטגוריות משותפות קשורות: שעות, הוצאות, ,תשלומים ופריט. תוכל לסקור ולהתאים את הקטגוריות המשותפות על ידי מעבר אל **ניהול פרויקטים וחשבונאות** \> **הגדרה** \> **קטגוריות** \> **קטגוריות משותפות**.
 
 ## <a name="project-categories"></a>קטגוריות פרוייקט
 

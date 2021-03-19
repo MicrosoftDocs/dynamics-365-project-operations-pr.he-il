@@ -1,6 +1,6 @@
 ---
-title: מבט כולל על הערכת פרויקטים
-description: נושא זה מספק מידע על הערכות ב- Dynamics 365 Project Operations.
+title: מבט כולל על הערכת פרוייקטים
+description: נושא זה מספק מידע אודות הערכות ב- Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286879"
 ---
-# <a name="estimate-projects-overview"></a>מבט כולל על הערכת פרויקטים
+# <a name="estimate-projects-overview"></a>מבט כולל על הערכת פרוייקטים
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 בהצעת מחיר מבוססת-פרויקט, באפשרותך להשתמש בישות **פרט בשורת הצעת מחיר** כדי להעריך את העבודה הנדרשת כדי להגיש פרויקט. לאחר מכן באפשרותך לשתף הערכה זו עם הלקוח.
 
-שורות בהצעת מחיר מבוססת-פרויקט יכולות לכלול אפס פרטים של שורות בהצעת מחיר או מספר רב שלהם. פרטים של שורה בהצעת מחיר משמשים כדי להעריך זמן, הוצאות או תשלומים. Microsoft Dynamics 365 Project Operations אינו מאפשר הערכות חומרים בפרטי שורה בהצעת מחיר. הם נקראים מחלקות עסקה. ניתן גם להזין סכומי מס משוערים במחלקת עסקה.
+שורות בהצעת מחיר מבוססת-פרויקט יכולות לכלול אפס פרטים של שורות בהצעת מחיר או מספר רב שלהם. פרטים של שורה בהצעת מחיר משמשים כדי להעריך זמן, הוצאות או תשלומים. Microsoft Dynamics 365 Project Operations לא מאפשר הערכות חומרים בפרטי שורה בהצעת מחיר. הם נקראים מחלקות עסקה. ניתן גם להזין סכומי מס משוערים במחלקת עסקה.
 
 בנוסף למחלקות עסקה, לפרטי שורה בהצעת מחיר יש סוג עסקה. שני סוגי עסקאות נתמכים עבור פרטי שורה בהצעת מחיר: **עלות** ו **חוזה פרויקט**.
 

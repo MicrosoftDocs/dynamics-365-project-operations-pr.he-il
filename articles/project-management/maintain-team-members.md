@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286834"
 ---
 # <a name="maintain-team-members"></a>ניהול חברי צוות
 
@@ -21,7 +21,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 באפשרותך להוסיף משאב בעל שם לצוות הפרויקט על ידי הזמנתו ישירות אל הצוות.
 
-1. ב-Dynamics 365 Project Operations, עבור אל **פרויקטים**, ובחר את הפרויקט הפתוח שעבורו מתבצעת ההזמנה.
+1. ב- Dynamics 365 Project Operations, עבור אל **פרוייקטים**, ובחר לפתוח את הפרוייקט שאתה מזמין עבורו.
 2. בדף **פרויקט**, בכרטיסיה **צוות**, בחר **חדש**. 
 3. בתיבת הדו-שיח **יצירה מהירה של חבר צוות**, בחר את המשאב הניתן להזמנה. השדה **תפקיד** יאוכלס בתפקיד ברירת המחדל של המשאב, אם יש תפקיד שהוקצה לו. ניתן לשנות את התפקיד. 
 4. בחר את תאריכי ה'מ' ו'עד' שבהם ידרש המשאב, ובחר את שיטת ההקצאה של קיבולת המשאב. 

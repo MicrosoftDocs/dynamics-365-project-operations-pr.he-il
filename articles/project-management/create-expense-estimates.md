@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131704"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287059"
 ---
 # <a name="expense-estimates"></a>הערכות הוצאות
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-לצד הגדרת הערכות מבוססי-משאבים, Dynamics 365 Project Operations מאפשר למנהלי פרויקטים להגדיר הוצאות מבוססות-פרוייקט עבור כל פרויקט. ניתן לשייך כל פריט הוצאות למשימה ספציפית או לקטגוריית הוצאות. קטגוריות הוצאות מוגדרות בדרך כלל ברמה הארגונית. תמחור עבור כל קטגוריית הוצאות מוגדר בדרך כלל בהיררכיה הבאה:
+לצד הגדרת אומדנים מבוססי משאבים, Dynamics 365 Project Operations מאפשר למנהלי פרוייקטים להגדיר הוצאות מבוססות פרוייקט עבור כל פרוייקט. ניתן לשייך כל פריט הוצאות למשימה ספציפית או לקטגוריית הוצאות. קטגוריות הוצאות מוגדרות בדרך כלל ברמה הארגונית. תמחור עבור כל קטגוריית הוצאות מוגדר בדרך כלל בהיררכיה הבאה:
 
 - הארגון
 - לקוח
