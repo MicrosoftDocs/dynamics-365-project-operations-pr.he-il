@@ -1,6 +1,6 @@
 ---
 title: נתונים בפועל
-description: נושא זה מספק מידע על אופן העבודה עם נתונים בפועל ב-Project Operations ‏365 Microsoft Dynamics.
+description: נושא זה מספק מידע על אופן העבודה עם נתונים בפועל ב- Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291800"
 ---
 # <a name="actuals"></a>נתונים בפועל 
 
@@ -70,7 +70,7 @@ _**חל על**: Project Operations לתרחישים מבוססי משאבים/ל
 יומני ערכים מאפשרים לך לתעד עלות או הכנסה במחלקות החומר, התשלום, הזמן, ההוצאה או עסקאות מס. ניתן להשתמש ביומנים למטרות הבאות:
 
 - תיעוד עלויות בפועל של חומרים ומכירות בפרוייקט.
-- העברת נתונים בפועל של עסקאות ממערכת אחרת ל-‎‏Project Operations ‏365 Microsoft Dynamics‎.
+- נתונים בפועל נוספים על עסקאות ממערכת אחרת ל- Microsoft Dynamics 365 Project Operations.
 - רישום עלויות שהתרחשו במערכת אחרת. עלויות אלה יכולות לכלול עלויות רכש או קבלנות משנה.
 
 > [!IMPORTANT]
