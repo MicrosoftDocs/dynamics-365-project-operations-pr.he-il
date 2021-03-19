@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277519"
 ---
 # <a name="quotes---key-concepts"></a>הצעות מחיר - מושגים עיקריים
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-ב- Dynamics 365 Project Operations, קיימים שני סוגים של הצעות מחיר: של פרויקט ושל מכירות. שני הסוגים של הצעות המחיר שונים באופן הבא:
+ב- Dynamics 365 Project Operations יש שני סוגים של הצעות מחיר, הצעות מחיר של פרוייקט והצעות מחיר של מכירות. שני הסוגים של הצעות המחיר שונים באופן הבא:
 
 - **רשתות לפריטי שורה**: בהצעת מחיר של מכירות, יש רק רשת אחת עבור פריטי שורה. בהצעת מחיר של פרויקט יש שתי רשתות עבור פריטי שורה. רשת אחת מיועדת לשורות פרויקט והשנייה מיועדת לשורות מוצרים.
 - **הפעלה ותיקונים**: הצעות מחיר תומכות בהפעלה ובשינויים. תהליכים אלה אינם נתמכים בהצעת מחיר לפרויקט.

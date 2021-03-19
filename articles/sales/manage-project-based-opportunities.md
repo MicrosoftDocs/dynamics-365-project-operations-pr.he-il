@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118474"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277834"
 ---
 # <a name="manage-project-based-opportunities"></a>ניהול הזדמנויות מבוססות פרויקט
 
@@ -21,7 +21,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 חברות מבוססות פרויקטים בדרך כלל מפעילות את המשלוח שלהן ברחבי מדינות ואזורים גיאוגרפיים רבים. עלות ביצוע הפרויקט ומסירתו עשויה להשתנות בהתאם לאיזור הגיאוגרפי או למחלקה שמנהלת את המסירה. יכולה להיות לכך השפעה גם על שולי הרווח של העסקה. אספקת שירותים מבוססי פרויקטים כרוכה בדרך כלל בכמויות גדולות של זמן משאבי אנוש, בהוצאות ניכרות על נסיעות, בעלויות חומר והוצאות אחרות.
 
-הזדמנויות מבוססות-פרויקט ב-Dynamics 365 Project Operations תוכננו עם הרחבות ב- Dynamics 365 Sales. נושא זה מספק פרטים על התחומים השונים וההיגיון העסקי הכלולים בפונקציונליות הנוספת הנדרשת על ידי חברות מבוססות פרויקטים לניהול הזדמנויות מבוססות פרויקטים.
+הזדמנויות שמבוססות על פרויקטים ב- Dynamics 365 Project Operations תוכננו עם הרחבות ל- Dynamics 365 Sales. נושא זה מספק פרטים על התחומים השונים וההיגיון העסקי הכלולים בפונקציונליות הנוספת הנדרשת על ידי חברות מבוססות פרויקטים לניהול הזדמנויות מבוססות פרויקטים.
 
 ## <a name="view-all-project-based-opportunities"></a>ראה את כל ההזדמנויות המבוססות על פרויקטים
 

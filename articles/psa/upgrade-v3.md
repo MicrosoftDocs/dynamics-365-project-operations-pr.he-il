@@ -1,5 +1,5 @@
 ---
-title: שיקולים לשדרוג - Microsoft Dynamics 365 Project Service Automation גירסה 2.x או 1.x לגירסה 3
+title: שיקולי שדרוג - Microsoft Dynamics 365 Project Service Automation מגירסה ‎2.x או ‎1.x לגירסה ‎3
 description: נושא זה מספק מידע על השיקולים הדרושים בעת השדרוג מגירסה ‎2.x או ‎1.x של Project Service Automation לגירסה 3.
 manager: kfend
 ms.prod: ''
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144164"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281659"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>שיקולים לשדרוג – גירסה ‎2.x או ‎1.x של PSA לגירסה 3
 

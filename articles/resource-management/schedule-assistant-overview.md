@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 92b12bd9272805a736286bf7e0ff926cb6361c05
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279229"
 ---
 # <a name="schedule-assistant-overview"></a>מבט כולל על מסייע לוחות זמנים
 
@@ -25,7 +25,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
 
-מסייע לוחות הזמנים הוא חלק מהפתרון Universal Resource Scheduling. פתרון זה נכלל ומותקן עם Dynamic 365 Project Operations‏, Dynamics 365 Field Service ו- Dynamics 365 Customer Service.
+מסייע לוחות הזמנים הוא חלק מהפתרון Universal Resource Scheduling. פתרון זה נכלל ומותקן עם Dynamics 365 Project Operations, Dynamics 365 Field Service ו- Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>התאמת דרישות ומשאבים
 
