@@ -1,5 +1,5 @@
 ---
-title: התאמת קבלה להוצאה באמצעות OCR
+title: לכידת קבלה באמצעות OCR
 description: נושא זה מספק מידע על עיבוד זיהוי תווים אופטי (OCR) של קבלות.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124324"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499852"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>התאמת קבלה להוצאה באמצעות OCR
+# <a name="capture-a-receipt-using-ocr"></a>לכידת קבלה באמצעות OCR
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 

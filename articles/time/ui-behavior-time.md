@@ -3,17 +3,17 @@ title: ‏‫אופן הפעולה של ממשק המשתמש בפריט 'ערך
 description: נושא זה מספק מידע על אופן הפעולה של ממשק המשתמש בפריט 'ערך זמן'.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124504"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499615"
 ---
 # <a name="time-entry-ui-behavior"></a>‏‫אופן הפעולה של ממשק המשתמש בפריט 'ערך זמן'
 
@@ -21,6 +21,19 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 
 הרשת **ערך זמן שבועי** היא פקד מותאם אישית בעל שני מקטעים עיקריים, **ממדים** ו **משך זמן**.
+
+## <a name="keyboard-shortcuts"></a>קיצורי מקשים
+| פעולה        | קיצור דרך                  |
+|------------   |------------------------   |
+| משתמשים חדשים           | Alt + Shift + N           |
+| העתק שורה      | Alt + Shift + C           |
+| ערוך ערך    | Alt + Shift + E           |
+| ערוך שורה      | Alt + Shift + Ctrl + E    |
+| פתח ערך    | Alt + Shift + O           |
+| שליחה        | Alt + Shift + S           |
+| אחזר        | Alt + Shift + R           |
+| DELETE        | Alt + Shift + D           |
+| העתק שבוע     | Alt + Shift + W           |
 
 ## <a name="dimensions"></a>ממדים
 המקטע **ממדים** מציג את הממדים שלפיהם ניתן להזין זמן. הממדים הבאים נתמכים מראש:

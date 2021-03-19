@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401219"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479565"
 ---
 # <a name="determine-your-deployment-type"></a>קביעת סוג הפריסה
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 > [!IMPORTANT]
-> לאחר רכישת הרישיון, התחל כאן כדי לקבוע את מודל הפריסה הטוב ביותר של Dynamics 365 Project Operations באמצעות [זרימת ההתקנה המודרכת](https://aka.ms/provisionprojectoperations).
+> לאחר רכישת הרישיון, התחל כאן כדי לקבוע את מודל הפריסה הטוב ביותר של Dynamics 365 Project Operations באמצעות [זרימת התקנה מודרכת](https://aka.ms/provisionprojectoperations).
 > לאחר שתסיים את זרימת ההתקנה המודרכת, תועבר לפורטל הניהול הנכון להשלמת ההתקנה. עיין בפרטי הפריסה להשלמת ההתקנה.
 
 
@@ -31,6 +31,9 @@ Project Operations כולל את היכולות שנשלחו עם Project Servic
 
 לקוחות קיימים של Finance המשתמשים בפונקציונליות ניהול פרויקטים וחשבונאות יכולים להמשיך להשתמש בה כפי שהיא. ראה את [Project Operations לתרחישי מלאי/הזמנת ייצור](#pma).
 
+
+## <a name="deployment-regions"></a>אזורי פריסה
+כדי לקבוע אילו אזורים תומכים בפריסה של Project Operations, ראה [זמינות גיאוגרפית עבור Dynamics 365 ו- Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). בחר באפשרות **צפה בדוח**, והרחב את **Dynamics 365 > יישומי תפעול > Dynamics 365 Project Operations** לצפייה באזורים הנתמכים.
 
 ## <a name="deployment-types"></a>סוגי פריסה
 Project Operations תומך במספר אפשרויות פריסה כדי להתאים לדרישות שלך. בין אם אתה לקוח חדש או קיים של Dynamics 365, ‏Project Operations יכול לתמוך בצרכים שלך.

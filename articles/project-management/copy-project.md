@@ -1,27 +1,27 @@
 ---
 title: העתקת פרוייקט
-description: נושא זה מספק מידע על העתקת פרוייקטים ב-Dynamics 365 Project operations.
+description: נושא זו מספק מידע על העתקת פרויקטים ב- Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131794"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479520"
 ---
 # <a name="copy-a-project"></a>העתקת פרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-באמצעות Dynamics 365 Project Operations, ניתן לבנות במהירות פרויקטים חדשים באמצעות בחירה באפשרות **העתק פרויקט** בטופס **פרויקטים**. להעתקת פרויקט, פתח את הפרויקט שברצונך להעתיק ואז בחר **העתק פרויקט**. הפעולה תעתיק:
+עם Dynamics 365 Project Operations אפשר לבנות במהירות פרויקטים חדשים על ידי בחירה באפשרות **העתק פרויקט** בטופס **פרויקטים** . להעתקת פרויקט, פתח את הפרויקט שברצונך להעתיק ואז בחר **העתק פרויקט**. הפעולה תעתיק:
 
-- מאפייני פרויקט
+- מאפייני פרויקט (תאריך ההתחלה המשוער מועתק מפרויקט המקור)
 - מבנה התפלגות העבודה
 - חברי צוות בפרוייקט
 - הערכות פרוייקט
