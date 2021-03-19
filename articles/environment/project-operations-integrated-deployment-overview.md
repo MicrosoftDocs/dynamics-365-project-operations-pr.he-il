@@ -8,38 +8,41 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365489"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289955"
 ---
-# <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a><span data-ttu-id="39edb-103">מבט כולל על פריסת Project Operations לתרחישים מבוססי משאבים/ללא מלאי</span><span class="sxs-lookup"><span data-stu-id="39edb-103">Project Operations for resource/non-stocked based scenarios deployment overview</span></span>
+# <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a><span data-ttu-id="20373-103">מבט כולל על פריסת Project Operations לתרחישים מבוססי משאבים/ללא מלאי</span><span class="sxs-lookup"><span data-stu-id="20373-103">Project Operations for resource/non-stocked based scenarios deployment overview</span></span>
 
-<span data-ttu-id="39edb-104">_**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="39edb-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="20373-104">_**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="20373-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="39edb-105">סוג הפריסה Dynamics 365 Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי כולל את היכולות הבאות עבור חברות מבוססות פרויקטים:</span><span class="sxs-lookup"><span data-stu-id="39edb-105">The deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:</span></span>
+<span data-ttu-id="20373-105">סוג הפריסה Dynamics 365 Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי כולל את היכולות הבאות עבור חברות מבוססות פרויקטים:</span><span class="sxs-lookup"><span data-stu-id="20373-105">The deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:</span></span>
 
-- <span data-ttu-id="39edb-106">תכנון פרויקטים באמצעות Microsoft Project באינטרנט</span><span class="sxs-lookup"><span data-stu-id="39edb-106">Project planning using Microsoft Project for the Web</span></span>
-- <span data-ttu-id="39edb-107">תמחור רב-ממדי ותמחור משאבי עבודה</span><span class="sxs-lookup"><span data-stu-id="39edb-107">Multi-dimensional pricing and costing for labor resources</span></span>
-- <span data-ttu-id="39edb-108">תמחור מבוסס קטגוריה לקטגוריות הוצאות</span><span class="sxs-lookup"><span data-stu-id="39edb-108">Category-based pricing for expense categories</span></span>
-- <span data-ttu-id="39edb-109">ניהול מכירות מבוסס פרויקטים המשתמש ביכולות של Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="39edb-109">Project-based sales management using Dynamics 365 Sales capabilities</span></span>
-- <span data-ttu-id="39edb-110">Universal Resource Scheduling המשתלב עם יישומים אחרים כגון Dynamics 365 Field Service ו-Dynamics 365 Customer Service</span><span class="sxs-lookup"><span data-stu-id="39edb-110">Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service</span></span>
-- <span data-ttu-id="39edb-111">התקדמות הפרויקט ומעקב אחר זמן</span><span class="sxs-lookup"><span data-stu-id="39edb-111">Project progress and Time Tracking</span></span>
-- <span data-ttu-id="39edb-112">חוויות ניהול הוצאות בסיסי ומלא עבור הוצאות פרוייקט והוצאות שאינן קשורות לפרויקט עם לכידת קבלות באמצעות יכולות OCR</span><span class="sxs-lookup"><span data-stu-id="39edb-112">Basic and full Expense management experiences for project and non-project expenses including receipt capture using OCR capabilities</span></span>
-- <span data-ttu-id="39edb-113">הפקת חשבוניות מחשבונית הפרופורמה ועד לחשבונית המוצגת ללקוח ושמגובה מערכת שערי חליפין של מע"מ ותאריכי תוקף ברמה הארגונית.</span><span class="sxs-lookup"><span data-stu-id="39edb-113">Invoicing that extends from proforma to customer-facing and is backed by an enterprise-class sales tax and date-effective exchange rate system.</span></span>
-- <span data-ttu-id="39edb-114">עלות פרוייקט הניתנת להגדרה, פרופילי הכנסות וכללים לחשבונאות וצבירה בעבודה שמתבצעת (WIP)</span><span class="sxs-lookup"><span data-stu-id="39edb-114">Configurable project cost, revenue profiles, and rules for work in progress (WIP) accounting and accruals</span></span>
-- <span data-ttu-id="39edb-115">הכרה בהכנסות מפרויקטים</span><span class="sxs-lookup"><span data-stu-id="39edb-115">Project revenue recognition</span></span>
-- <span data-ttu-id="39edb-116">יכולת הרחבה באמצעות Power Platform</span><span class="sxs-lookup"><span data-stu-id="39edb-116">Extensibility through the Power Platform</span></span>
+- <span data-ttu-id="20373-106">תכנון פרויקטים באמצעות Microsoft Project באינטרנט</span><span class="sxs-lookup"><span data-stu-id="20373-106">Project planning using Microsoft Project for the Web</span></span>
+- <span data-ttu-id="20373-107">תמחור רב-ממדי ותמחור משאבי עבודה</span><span class="sxs-lookup"><span data-stu-id="20373-107">Multi-dimensional pricing and costing for labor resources</span></span>
+- <span data-ttu-id="20373-108">תמחור מבוסס קטגוריה לקטגוריות הוצאות</span><span class="sxs-lookup"><span data-stu-id="20373-108">Category-based pricing for expense categories</span></span>
+- <span data-ttu-id="20373-109">ניהול מכירות מבוסס פרויקטים המשתמש ביכולות של Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="20373-109">Project-based sales management using Dynamics 365 Sales capabilities</span></span>
+- <span data-ttu-id="20373-110">Universal Resource Scheduling המשתלב עם יישומים אחרים כגון Dynamics 365 Field Service ו-Dynamics 365 Customer Service</span><span class="sxs-lookup"><span data-stu-id="20373-110">Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service</span></span>
+- <span data-ttu-id="20373-111">התקדמות הפרויקט ומעקב אחר זמן</span><span class="sxs-lookup"><span data-stu-id="20373-111">Project progress and Time Tracking</span></span>
+- <span data-ttu-id="20373-112">חוויות ניהול הוצאות בסיסי ומלא עבור הוצאות פרוייקט והוצאות שאינן קשורות לפרויקט עם לכידת קבלות באמצעות יכולות OCR</span><span class="sxs-lookup"><span data-stu-id="20373-112">Basic and full Expense management experiences for project and non-project expenses including receipt capture using OCR capabilities</span></span>
+- <span data-ttu-id="20373-113">הפקת חשבוניות מחשבונית הפרופורמה ועד לחשבונית המוצגת ללקוח ושמגובה מערכת שערי חליפין של מע"מ ותאריכי תוקף ברמה הארגונית.</span><span class="sxs-lookup"><span data-stu-id="20373-113">Invoicing that extends from proforma to customer-facing and is backed by an enterprise-class sales tax and date-effective exchange rate system.</span></span>
+- <span data-ttu-id="20373-114">עלות פרוייקט הניתנת להגדרה, פרופילי הכנסות וכללים לחשבונאות וצבירה בעבודה שמתבצעת (WIP)</span><span class="sxs-lookup"><span data-stu-id="20373-114">Configurable project cost, revenue profiles, and rules for work in progress (WIP) accounting and accruals</span></span>
+- <span data-ttu-id="20373-115">הכרה בהכנסות מפרויקטים</span><span class="sxs-lookup"><span data-stu-id="20373-115">Project revenue recognition</span></span>
+- <span data-ttu-id="20373-116">יכולת הרחבה באמצעות Power Platform</span><span class="sxs-lookup"><span data-stu-id="20373-116">Extensibility through the Power Platform</span></span>
 
-<span data-ttu-id="39edb-117">סוג פריסה זה מספק גם הרחבה לפונקציונליות המסופקת על ידי האפליקציות Dynamics 365 Finance ו-Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="39edb-117">This deployment type provides an extension to the functionality provided by Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications.</span></span>
+<span data-ttu-id="20373-117">סוג פריסה זה מספק גם הרחבה לפונקציונליות המסופקת על ידי האפליקציות Dynamics 365 Finance ו-Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="20373-117">This deployment type provides an extension to the functionality provided by Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications.</span></span>
 
-<span data-ttu-id="39edb-118">יש לבחור בפריסה זו, אם הציפייה מ-Project Operations היא להשתמש במחזור החיים המלא של הפרויקט הכולל את הדרישות הבאות:</span><span class="sxs-lookup"><span data-stu-id="39edb-118">This deployment should be chosen the expectation of Project Operations is to use the full project lifecycle that includes the following requirements:</span></span>
+<span data-ttu-id="20373-118">יש לבחור בפריסה זו, אם הציפייה מ-Project Operations היא להשתמש במחזור החיים המלא של הפרויקט הכולל את הדרישות הבאות:</span><span class="sxs-lookup"><span data-stu-id="20373-118">This deployment should be chosen the expectation of Project Operations is to use the full project lifecycle that includes the following requirements:</span></span>
 
-- <span data-ttu-id="39edb-119">יכולת לנהל מכירות מבוססות פרויקט עם סוגים אחרים של מכירות תוך שימוש ביכולות ביישום Sales.</span><span class="sxs-lookup"><span data-stu-id="39edb-119">Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.</span></span>
-- <span data-ttu-id="39edb-120">מערכת ניהול פרויקטים משולבת המנהלת פרויקטים פנימיים ופרויקטים הניתנים לחיוב עבור לוחות זמנים וכספים ממכירת פרויקטים ועד לחשבונאות.</span><span class="sxs-lookup"><span data-stu-id="39edb-120">An integrated project management system that manages internal and billable projects for schedules and financials from project sales to accounting.</span></span>
-- <span data-ttu-id="39edb-121">מערכת ניהול הוצאות הכוללת אכיפת מדיניות והחזרים עבור מעקב אחר הוצאות של פרויקטים והוצאות שאינן קשורות לפרויקטים.</span><span class="sxs-lookup"><span data-stu-id="39edb-121">An expense management system that includes policy enforcements and reimbursements for tracking project and non-project expenses.</span></span>
-- <span data-ttu-id="39edb-122">דורש, מנוע מע״מ ושער חליפין ברמה ארגונית ליצירת חשבוניות המוגשות לקוחות עבור פרויקטים.</span><span class="sxs-lookup"><span data-stu-id="39edb-122">Require a rich, enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.</span></span>
-- <span data-ttu-id="39edb-123">מערכת חשבונאות פרויקטים והכרה בהכנסות התואמת לתקני דיווח פיננסי בינלאומי (IFRS).</span><span class="sxs-lookup"><span data-stu-id="39edb-123">An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.</span></span>
-- <span data-ttu-id="39edb-124">יישומי Finance או Supply Chain Management ושילוב של עסקאות מבוססות פרויקטים.</span><span class="sxs-lookup"><span data-stu-id="39edb-124">Finance or Supply Chain Management applications and integration of project-based transactions.</span></span>
+- <span data-ttu-id="20373-119">יכולת לנהל מכירות מבוססות פרויקט עם סוגים אחרים של מכירות תוך שימוש ביכולות ביישום Sales.</span><span class="sxs-lookup"><span data-stu-id="20373-119">Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.</span></span>
+- <span data-ttu-id="20373-120">מערכת ניהול פרויקטים משולבת המנהלת פרויקטים פנימיים ופרויקטים הניתנים לחיוב עבור לוחות זמנים וכספים ממכירת פרויקטים ועד לחשבונאות.</span><span class="sxs-lookup"><span data-stu-id="20373-120">An integrated project management system that manages internal and billable projects for schedules and financials from project sales to accounting.</span></span>
+- <span data-ttu-id="20373-121">מערכת ניהול הוצאות הכוללת אכיפת מדיניות והחזרים עבור מעקב אחר הוצאות של פרויקטים והוצאות שאינן קשורות לפרויקטים.</span><span class="sxs-lookup"><span data-stu-id="20373-121">An expense management system that includes policy enforcements and reimbursements for tracking project and non-project expenses.</span></span>
+- <span data-ttu-id="20373-122">דורש, מנוע מע״מ ושער חליפין ברמה ארגונית ליצירת חשבוניות המוגשות לקוחות עבור פרויקטים.</span><span class="sxs-lookup"><span data-stu-id="20373-122">Require a rich, enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.</span></span>
+- <span data-ttu-id="20373-123">מערכת חשבונאות פרויקטים והכרה בהכנסות התואמת לתקני דיווח פיננסי בינלאומי (IFRS).</span><span class="sxs-lookup"><span data-stu-id="20373-123">An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.</span></span>
+- <span data-ttu-id="20373-124">יישומי Finance או Supply Chain Management ושילוב של עסקאות מבוססות פרויקטים.</span><span class="sxs-lookup"><span data-stu-id="20373-124">Finance or Supply Chain Management applications and integration of project-based transactions.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
