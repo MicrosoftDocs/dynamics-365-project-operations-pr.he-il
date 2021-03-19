@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124774"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279679"
 ---
 # <a name="define-skills-and-proficiencies"></a>הגדרת כישורים ומיומנויות
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-כישורים הם מאפייני משאב המשותפים עם Dynamics 365 Project Operations ועם Dynamics 365 Field Service, אם הוא קיים. 
+כישורים הם מאפייני משאב המשותפים בין Dynamics 365 Project Operations ובמידה והוא קיים, Dynamics 365 Field Service. 
 
 - כדי לשמור על מאגר הכישורים ב- Project Operations, עבור אל **משאבים** \> **כישורי משאבים**. 
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180193"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275494"
 ---
 # <a name="set-up-price-lists"></a>הגדרת מחירונים
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-מחירונים ב- Dynamics 365 Project Operations מייצגים קטלוג של תעריפים. התעריפים מבטאים שיעורי עלות, מכירות וחיובים. תלוי אם המחירון מבטא שיעורי עלות או שיעורי מכירות וחיובים, ההקשר של המחירון הוא **מכירות** או **עלות**.
+מחירונים ב- Dynamics 365 Project Operations מייצגים קטלוג תעריפים. התעריפים מבטאים שיעורי עלות, מכירות וחיובים. תלוי אם המחירון מבטא שיעורי עלות או שיעורי מכירות וחיובים, ההקשר של המחירון הוא **מכירות** או **עלות**.
 
 ההרחבות הבאות ספציפיות ל- Project Operations והן חלות על מחירונים מ- Dynamics 365 Sales.
 

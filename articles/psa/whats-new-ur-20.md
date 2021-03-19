@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147114"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280669"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>מהדורה 20, V3 של Project Service Automation
 
@@ -42,7 +42,7 @@ ms.locfileid: "5147114"
 
 - ייבוא חברי צוות הפרויקט בשיטת הקצאה הדורשת שעות גורם להודעת שגיאה לא ברורה כאשר השעות שצוינו הן אפס.
 - משתמשים מקבלים שגיאה לא נכונה כאשר מספר התווים המרבי הוזן לשדה **תיאור** של משימת פרויקט.
-- הדף **הורדת תוספת Microsoft Dynamics 365 Project Service Automation** מפנה לדף ההורדה באנגלית כאשר השפה של המשתמש מוגדרת ליפנית.
+- הדף **הורדת תוספות Microsoft Dynamics 365 Project Service Automation** מפנה לדף ההורדה באנגלית כאשר הגדרות השפה של המשתמש הן יפנית.
 - כאשר מתרחשת שגיאת שרת, תווית הסנכרון בכרטיסיה **לוח זמנים** בטופס **פרויקטים** לפעמים נשארת.
 - עדכוני משימות מיותרים נשלחים לשרת עם שינוי המשימה.
 

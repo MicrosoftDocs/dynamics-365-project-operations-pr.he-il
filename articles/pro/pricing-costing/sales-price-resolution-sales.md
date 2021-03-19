@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274504"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>פתרון מחירי מכירות עבור הערכות ונתונים בפועל - לייט
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-כאשר מחירי המכירה על אומדנים ונתונים בפועל נפתרים ב- Dynamics 365 Project Operations, המערכת משתמשת תחילה בתאריך ובמטבע של הצעת המחיר או החוזה הקשורים לפתרון מחירון המכירות. לאחר פתרון של מחירון המכירות, המערכת פותרת את מחיר המכירות או את החיוב.
+כאשר מחירי המכירות באומדנים ובפועל נפתרים ב- Dynamics 365 Project Operations, המערכת משתמשת תחילה בתאריך ובמטבע של הצעת המחיר או החוזה הקשורים לפתרון של מחירון המכירות. לאחר פתרון של מחירון המכירות, המערכת פותרת את מחיר המכירות או את החיוב.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>פתרון תעריפי מכירות בנתונים בפועל והערכת זמן
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181040"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272704"
 ---
 # <a name="opportunity-header---lite"></a>כותרת הזדמנות - לייט
 
@@ -21,7 +21,7 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 
 כותרת ההזדמנות כוללת את המידע הכולל אודות עסקה מבוססת פרויקט החלה על כל השורות בהזדמנות מבוססת הפרויקט.
 
-הזדמנויות מבוססות-פרויקט ב-Dynamics 365 Project Operations הן הרחבות של הזדמנויות Dynamics 365 Sales. הרחבות אלה מספקות פונקציונליות נוספת ספציפית להזדמנויות מבוססות פרויקט הנדרשת להן. הרחבות אלה יכולות לכלול שדות חדשים ופעולות סרט הזמינות בהזדמנויות מבוססות פרויקט. יתכן שתמצא שכמה שדות, פונקציונליות ולוגיקת ברירת מחדל הזמינה Sales אינה זמינה ב-Project Operations.
+הזדמנויות שמבוססות על פרויקטים ב- Dynamics 365 Project Operations הן הרחבות של הזדמנויות ב- Dynamics 365 Sales. הרחבות אלה מספקות פונקציונליות נוספת ספציפית להזדמנויות מבוססות פרויקט הנדרשת להן. הרחבות אלה יכולות לכלול שדות חדשים ופעולות סרט הזמינות בהזדמנויות מבוססות פרויקט. יתכן שתמצא שכמה שדות, פונקציונליות ולוגיקת ברירת מחדל הזמינה Sales אינה זמינה ב-Project Operations.
 
 הטבלה הבאה כוללת את השדות בהזדמנות מבוססת פרויקט שהם ייחודיים ל-Project Operations או שהם כוללים שיוניים חשובים באופן הפעולה מ'הזדמנויות' שב-Sales.
 

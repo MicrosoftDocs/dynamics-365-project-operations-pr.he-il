@@ -1,6 +1,6 @@
 ---
 title: מבט כולל על פריסת לייט
-description: נושא זה מספק מידע על הפריסת הלייט של Dynamics 365 Project Operations.
+description: נושא זה מספק מידע על פריסה קלה‬ של Dynamics 365 Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 11/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365495"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273964"
 ---
-# <a name="lite-deployment-overview"></a>מבט כולל על פריסת לייט
+# <a name="lite-deployment-overview"></a>מבט כולל על פריסה קלה
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-לסוג הפריסת הלייט של Dynamics 365 Project Operations יש את היכולות הבאות עבור חברות מבוססות פרויקטים:
+לפריסה קלה‬ של Dynamics 365 Project Operations יש את היכולות הבאות עבור חברות מבוססות פרויקטים:
 
 - תכנון פרויקטים באמצעות Microsoft Project באינטרנט
 - תמחור רב-ממדי ותמחור משאבי עבודה

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180238"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277564"
 ---
 # <a name="project-quote-settings"></a>הגדרות הצעת מחיר של פרויקט
 
@@ -22,7 +22,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 מאמר זה מסביר את המידע החל על הצעת מחיר לפרויקט. הוא כולל את ההגדרות המשפיעות על כל שורות הצעת המחיר ומידע על הצעת המחיר שמסוכם בכל פריטי השורה כדי להניע את מחווני ה- KPI של הצעת המחיר לפרויקט.
 
-הטבלה הבאה מפרטת את השדות של מידע הסיכום בהצעת מחיר לפרויקט הייחודיים ל- Dynamics 365 Project Operations או שיש בהם שינויים חשובים בהתנהגות לעומת הצעות מחיר של Dynamics 365 Sales.
+הטבלה הבאה מפרטת את שדות המידע המסכם בהצעת מחיר לפרוייקט, שייחודיים ל- Dynamics 365 Project Operations או שיש בהם שינויים חשובים בהתנהגות מהצעות מחיר של Dynamics 365 Sales.
 
 | **שדה** | **מיקום** | **תיאור** | **השפעה במורד הזרם** |
 | --- | --- | --- | --- |

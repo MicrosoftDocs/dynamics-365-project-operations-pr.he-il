@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121534"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280084"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>הוספת חברי צוות מרשת חברי הצוות
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-Dynamics 365 Project Operations כולל ‏‫לוח מחוונים של מנהל משאבים‬ שמספק מבט כולל חזותי על הביקוש למשאבים וניצולם בכל הארגון. תוכל להשתמש בתרשימים בלוח מחוונים זה כדי להציג באופן חזותי את המידע הבא:
+Dynamics 365 Project Operations כולל ‏‫לוח מחוונים של מנהל משאבים‬ שמספק סקירה חזותית של ביקוש משאב וניצול בכל הארגון. תוכל להשתמש בתרשימים בלוח מחוונים זה כדי להציג באופן חזותי את המידע הבא:
 
 - **ביקוש למשאבים**: התרשים **‏‫בקשות למשאבים פעילים‬** מציג משאבים שנשלחו. המשאבים מצטברים לפי תפקיד או פרוייקט.
 - **ביקוש למשאבים שלא נשלח**: התרשים **ביקוש למשאב שלא הוקצה** מציג את כל הדרישות למשאבים שלא נשלחו. תרשים זה עוזר למנהלי המשאבים להציג ביקוש שאינו מוצק ושעשוי להישלח באמצעות בקשה למשאב.

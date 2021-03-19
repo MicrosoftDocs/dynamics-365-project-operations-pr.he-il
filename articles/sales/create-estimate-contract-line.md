@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278509"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>הערכה של סעיף חוזה מבוסס פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_ 
 
-ב-Dynamics 365 Project Operations, סעיף חוזה מבוסס פרויקט כולל פרטים המסייעים להעריך את העלות וההכנסות הפוטנציאליות של העבודה הכרוכה במסירת סעיף החוזה.
+ב- Dynamics 365 Project Operations, סעיף חוזה מבוסס פרויקט כולל פרטים המסייעים להעריך את העלות וההכנסות הפוטנציאליות של העבודה הכרוכה במסירת סעיף החוזה.
 
 כדי להעריך סעיף חוזה מבוסס פרויקט, עבור אל הכרטיסיה **פרט סעיף חוזה** ב **סעיף החוזה** מבוסס הפרויקט.  ישנן שתי דרכים ליצור הערכה עבור סעיף חוזה מבוסס פרויקט:
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133350"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278599"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>ניהול מחירוני פרוייקט בחוזי פרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-חוזי פרויקט ב-Dynamics 365 Project Operations נועדו לתמוך במחירוני מכירות מרובים עם תאריכי תוקף בחוזה. ב-Project Operations, יש ישות משויכת חדשה הנקראת **מחירוני פרויקט**. לישות זו יש קשר גומלין של אחד לרבים לחוזה פרויקט.
+חוזי פרויקט ב- Dynamics 365 Project Operations נועדו לתמוך במחירוני מכירות מרובים עם תאריכי תוקף בחוזה. ב-Project Operations, יש ישות משויכת חדשה הנקראת **מחירוני פרויקט**. לישות זו יש קשר גומלין של אחד לרבים לחוזה פרויקט.
 
 מחירוני הפרויקט משמשים לתמחור עסקאות זמן והוצאות בפרויקט. כאשר בחוזה יש מחירון פרוייקט אחד או יותר, מחירונים אלה משמשים לתמחור הערכות זמן והוצאות ונתונים בפועל בפרויקטים המשויכים לחוזה דרך סעיף החוזה.
 

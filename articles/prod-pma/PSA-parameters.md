@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270904"
 ---
 # <a name="project-service-automation-integration-parameters"></a>פרמטרי שילוב של Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-בדף **פרמטרי שילוב של Service Automation** , תוכל להגדיר כיצד נתוני ברירת המחדל יוזנו בעת שילוב Dynamics 365 Project Service Automation עם Dynamics 365 Finance. כדי לסנכרן בהצלחה פרויקטים מ- Project Service Automation ל- Finance, עליך להגדיר את השדות הבאים.
+בדף **פרמטרי שילוב של Service Automation**, תוכל להגדיר כיצד נתוני ברירת המחדל יוזנו בעת שילוב Dynamics 365 Project Service Automation עם Dynamics 365 Finance. כדי לסנכרן בהצלחה פרויקטים מ- Project Service Automation ל- Finance, עליך להגדיר את השדות הבאים.
 
-כדי לפתוח את הדף **פרמטרי שילוב של Project Service Automation** , עבור אל **ניהול פרויקטים וחשבונאות** \> **הגדרה** \> **פרמטרי שילוב של Dynamics 365 for Project Service Automation**. 
+כדי לפתוח את הדף **פרמטרי שילוב של Project Service Automation**, עבור אל **ניהול פרויקטים וחשבונאות** \> **הגדרה** \> **פרמטרי שילוב של Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - שילוב משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות ונעילת פונקציונליות זמינים בגירסה 8.0.

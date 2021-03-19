@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126394"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278374"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>ייבוא הערכה לסעיף חוזה מבוסס פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-ב-Dynamics 365 Project Operations, ניתן לייבא הערכות מפרויקט לסעיף חוזה מבוסס פרויקט.
+ב- Dynamics 365 Project Operations ניתן לייבא הערכות מפרוייקט לסעיף חוזה מבוסס פרוייקט.
 
 1. ודא שהשדה **פרויקט** בסעיף חוזה מבוסס פרויקט הושלם.
 2. בכרטיסיה **פרטי סעיף חוזה** ברשת המשנה, בחר **ייבא מהערכת פרוייקט**. דף שיח עם אפשרויות סיכום נפתח. אפשרויות הסיכום ה זמינות הן **סיווג עסקה**, **קטגוריה**, **תפקיד**, ו **משימת הפרויקט**. על סמך בחירות לסיכום, ההערכה מהפרויקט עבור כל הסיווגים והמשימות של העסקאות הכלולות בסעיף חוזה זה מועתקת. 
