@@ -17,43 +17,46 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9fb941a95b0610dc546b1c12a87aa7faef4d676
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 12df166e1bd1b5f0e11d79dc24122fb1ed7e6e6c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143716"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280804"
 ---
-# <a name="project-service-automation-update-release-17-v3"></a><span data-ttu-id="c1577-103">מהדורה 17, V3 של Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="c1577-103">Project Service Automation Update Release 17, V3</span></span>
+# <a name="project-service-automation-update-release-17-v3"></a><span data-ttu-id="62847-103">מהדורה 17, V3 של Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="62847-103">Project Service Automation Update Release 17, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="c1577-104">אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c1577-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="c1577-105">מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות.</span><span class="sxs-lookup"><span data-stu-id="c1577-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="c1577-106">מהדורה זו תואמת את Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="c1577-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="c1577-107">כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון.</span><span class="sxs-lookup"><span data-stu-id="c1577-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="c1577-108">למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="c1577-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="62847-104">אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="62847-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="62847-105">מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות.</span><span class="sxs-lookup"><span data-stu-id="62847-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="62847-106">מהדורה זו תואמת את Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="62847-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="62847-107">כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון.</span><span class="sxs-lookup"><span data-stu-id="62847-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="62847-108">למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="62847-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="c1577-109">נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 17, עדכון V3 של PSA.</span><span class="sxs-lookup"><span data-stu-id="c1577-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 17.</span></span> <span data-ttu-id="c1577-110">מספר גירסת build של גרסה זו הוא V3.10.6.34 ובדרך כלל היא זמינה באמצעות עדכון עצמי החל ממרץ 2020.</span><span class="sxs-lookup"><span data-stu-id="c1577-110">This version has a build number of V3.10.6.34 and is generally available through a self-update in March 2020.</span></span>
+<span data-ttu-id="62847-109">נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 17, עדכון V3 של PSA.</span><span class="sxs-lookup"><span data-stu-id="62847-109">This topic lists the features and fixes that are new or changed for PSA V3, Update Release 17.</span></span> <span data-ttu-id="62847-110">מספר גירסת build של גרסה זו הוא V3.10.6.34 ובדרך כלל היא זמינה באמצעות עדכון עצמי החל ממרץ 2020.</span><span class="sxs-lookup"><span data-stu-id="62847-110">This version has a build number of V3.10.6.34 and is generally available through a self-update in March 2020.</span></span>
 
 
-## <a name="update-release-17"></a><span data-ttu-id="c1577-111">הפצת עדכון 17</span><span class="sxs-lookup"><span data-stu-id="c1577-111">Update Release 17</span></span>
+## <a name="update-release-17"></a><span data-ttu-id="62847-111">הפצת עדכון 17</span><span class="sxs-lookup"><span data-stu-id="62847-111">Update Release 17</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="c1577-112">תיקוני באגים</span><span class="sxs-lookup"><span data-stu-id="c1577-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="62847-112">תיקוני באגים</span><span class="sxs-lookup"><span data-stu-id="62847-112">Bug fixes</span></span>
 
-<span data-ttu-id="c1577-113">**כללי**</span><span class="sxs-lookup"><span data-stu-id="c1577-113">**General**</span></span>
+<span data-ttu-id="62847-113">**כללי**</span><span class="sxs-lookup"><span data-stu-id="62847-113">**General**</span></span>
 
-- <span data-ttu-id="c1577-114">תוקן: עדכן את Project Service Automation כדי לאכוף רישיונות של חברי צוות (Project Resource Hub יכלול מטא-נתונים 3.x על תוכנית השירות של חברי הצוות).</span><span class="sxs-lookup"><span data-stu-id="c1577-114">Fixed: Update Project Service Automation to enforce Team Member licenses (Project Resource Hub will include Team Member Service plan metadata 3.x)</span></span>
+- <span data-ttu-id="62847-114">תוקן: עדכן את Project Service Automation כדי לאכוף רישיונות של חברי צוות (Project Resource Hub יכלול מטא-נתונים 3.x על תוכנית השירות של חברי הצוות).</span><span class="sxs-lookup"><span data-stu-id="62847-114">Fixed: Update Project Service Automation to enforce Team Member licenses (Project Resource Hub will include Team Member Service plan metadata 3.x)</span></span>
  
-<span data-ttu-id="c1577-115">**זמן והוצאה**</span><span class="sxs-lookup"><span data-stu-id="c1577-115">**Time and Expense**</span></span>
+<span data-ttu-id="62847-115">**זמן והוצאה**</span><span class="sxs-lookup"><span data-stu-id="62847-115">**Time and Expense**</span></span>
 
-- <span data-ttu-id="c1577-116">תוקן: לא ניתן לשנות הערכת הוצאה ממחיר שאינו אפס לאפס (0).</span><span class="sxs-lookup"><span data-stu-id="c1577-116">Fixed: It is not possible to change an expense estimate from a non-zero price to zero (0).</span></span> <span data-ttu-id="c1577-117">ניסיון לשינוי לא יבוצע.</span><span class="sxs-lookup"><span data-stu-id="c1577-117">The change is ignored.</span></span>
+- <span data-ttu-id="62847-116">תוקן: לא ניתן לשנות הערכת הוצאה ממחיר שאינו אפס לאפס (0).</span><span class="sxs-lookup"><span data-stu-id="62847-116">Fixed: It is not possible to change an expense estimate from a non-zero price to zero (0).</span></span> <span data-ttu-id="62847-117">ניסיון לשינוי לא יבוצע.</span><span class="sxs-lookup"><span data-stu-id="62847-117">The change is ignored.</span></span>
 
-<span data-ttu-id="c1577-118">**ניהול פרויקט**</span><span class="sxs-lookup"><span data-stu-id="c1577-118">**Project Management**</span></span>
+<span data-ttu-id="62847-118">**ניהול פרויקט**</span><span class="sxs-lookup"><span data-stu-id="62847-118">**Project Management**</span></span>
 
-- <span data-ttu-id="c1577-119">תוקן: נוספה בדיקת ערכי null לשם המשרה של חבר הצוות.</span><span class="sxs-lookup"><span data-stu-id="c1577-119">Fixed: A check for null values has been added on a team member's position name.</span></span>
-- <span data-ttu-id="c1577-120">תוקן: נמחק שדה **msdyn_userresid** בישות **‎msdyn_resourceassignment**.</span><span class="sxs-lookup"><span data-stu-id="c1577-120">Fixed: **msdyn_userresourceid** field on the **msdyn_resourceassignment** entity has been deprecated.</span></span>
-- <span data-ttu-id="c1577-121">תוקן: שדרוג מ- 2.x ל- 3.x כעת מטפל בפעולות מתאר ריקות בהקצאת משימות.</span><span class="sxs-lookup"><span data-stu-id="c1577-121">Fixed: Upgrade from 2.x to 3.x now handles empty effort contours on task assignments.</span></span>
+- <span data-ttu-id="62847-119">תוקן: נוספה בדיקת ערכי null לשם המשרה של חבר הצוות.</span><span class="sxs-lookup"><span data-stu-id="62847-119">Fixed: A check for null values has been added on a team member's position name.</span></span>
+- <span data-ttu-id="62847-120">תוקן: נמחק שדה **msdyn_userresid** בישות **‎msdyn_resourceassignment**.</span><span class="sxs-lookup"><span data-stu-id="62847-120">Fixed: **msdyn_userresourceid** field on the **msdyn_resourceassignment** entity has been deprecated.</span></span>
+- <span data-ttu-id="62847-121">תוקן: שדרוג מ- 2.x ל- 3.x כעת מטפל בפעולות מתאר ריקות בהקצאת משימות.</span><span class="sxs-lookup"><span data-stu-id="62847-121">Fixed: Upgrade from 2.x to 3.x now handles empty effort contours on task assignments.</span></span>
 
-<span data-ttu-id="c1577-122">**Sales**</span><span class="sxs-lookup"><span data-stu-id="c1577-122">**Sales**</span></span>
+<span data-ttu-id="62847-122">**Sales**</span><span class="sxs-lookup"><span data-stu-id="62847-122">**Sales**</span></span>
 
-- <span data-ttu-id="c1577-123">תוקן: **Invoice.PreValidateInvoiceUpdate** כעת מטפל כראוי בתרחיש של הקצאת בעלי תיעוד מחדש.</span><span class="sxs-lookup"><span data-stu-id="c1577-123">Fixed: **Invoice.PreValidateInvoiceUpdate** now handles the scenario of reassigning record owners properly.</span></span>
-- <span data-ttu-id="c1577-124">תוקן: כאשר מחלקת העסקה היא **זמן**, **UnitGroup** אינו ניתן לעריכה לכל הישויות כולל, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, ו **ContractLineDetails**.</span><span class="sxs-lookup"><span data-stu-id="c1577-124">Fixed: When the transaction class is **Time**, **UnitGroup** is non-editable for all entities including, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, and **ContractLineDetails**.</span></span> <span data-ttu-id="c1577-125">למרות זאת, **Unit** אינו ניתן לעריכה רק עבור **JournalLine** ו **InvoiceLineDetails**.</span><span class="sxs-lookup"><span data-stu-id="c1577-125">However, **Unit** is non-editable only for **JournalLine** and **InvoiceLineDetails**.</span></span>
+- <span data-ttu-id="62847-123">תוקן: **Invoice.PreValidateInvoiceUpdate** כעת מטפל כראוי בתרחיש של הקצאת בעלי תיעוד מחדש.</span><span class="sxs-lookup"><span data-stu-id="62847-123">Fixed: **Invoice.PreValidateInvoiceUpdate** now handles the scenario of reassigning record owners properly.</span></span>
+- <span data-ttu-id="62847-124">תוקן: כאשר מחלקת העסקה היא **זמן**, **UnitGroup** אינו ניתן לעריכה לכל הישויות כולל, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, ו **ContractLineDetails**.</span><span class="sxs-lookup"><span data-stu-id="62847-124">Fixed: When the transaction class is **Time**, **UnitGroup** is non-editable for all entities including, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, and **ContractLineDetails**.</span></span> <span data-ttu-id="62847-125">למרות זאת, **Unit** אינו ניתן לעריכה רק עבור **JournalLine** ו **InvoiceLineDetails**.</span><span class="sxs-lookup"><span data-stu-id="62847-125">However, **Unit** is non-editable only for **JournalLine** and **InvoiceLineDetails**.</span></span>
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
