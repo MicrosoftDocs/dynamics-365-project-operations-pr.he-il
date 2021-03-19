@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f3aab57f159dbb522ebe5d24dc3693034f6f81f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 29e301062f8f3ba955a95953bc2e891f3acaf765
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181453"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287689"
 ---
 # <a name="manage-a-proforma-invoice"></a>ניהול חשבונית פרופורמה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-ב-Dynamics 365 Project Operations, חשבוניות פרופורמה נבנות כהרחבה לחשבוניות ב-Dynamics 365 Sales. עם זאת, ישנם הבדלים רבים בתהליך הפקת החשבונית בין Sales ל-Project Operations בכל הנוגע להפקת חשבוניות. לדוגמה, לא ניתן ליצור חשבונית חדשה מהדף **רשימת חשבוניות** ב-Project Operations, אך ניתן לעשות זאת ב-Sales. הבדלים והרחבות אלה קיימים כדי לתמוך בתהליכי הפקת חשבוניות לפרויקטים ששונים מחשבונית אופיינית של הזמנת מכירה.
+ב- Dynamics 365 Project Operations, חשבוניות פרופורמה נבנות כהרחבה לחשבוניות ב-Dynamics 365 Sales. עם זאת, ישנם הבדלים רבים בתהליך הפקת החשבונית בין Sales ל-Project Operations בכל הנוגע להפקת חשבוניות. לדוגמה, לא ניתן ליצור חשבונית חדשה מהדף **רשימת חשבוניות** ב-Project Operations, אך ניתן לעשות זאת ב-Sales. הבדלים והרחבות אלה קיימים כדי לתמוך בתהליכי הפקת חשבוניות לפרויקטים ששונים מחשבונית אופיינית של הזמנת מכירה.
 
 > [!IMPORTANT]
 > בגלל ההבדלים, אין להשתמש בחשבוניות ב-Sales וב-Project Opertitions בצורה חליפית.

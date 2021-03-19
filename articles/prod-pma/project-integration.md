@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289325"
 ---
 # <a name="microsoft-project-client-integration"></a>שילוב Microsoft Project Client
 
@@ -39,10 +39,10 @@ ms.locfileid: "4077369"
 
 •   לחץ על **הגדר תצורת תוספת בלקוח פרויקט** מהמקטע **קישורים** > **הגדרה** בסביבת העבודה.
 
-•   לחץ **פתח** , וכשתתבקש, לחץ על **הפעל**.
+•   לחץ **פתח**, וכשתתבקש, לחץ על **הפעל**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>פתיחת טיוטה קיימת של מבנה התפלגות עבודה ב- Microsoft Project Client ועריכתה
-אם לפרויקט ב- Dynamics 365 Finance כבר נוצר מבנה התפלגות עבודה, ניתן לפתוח את מבנה התפלגות העבודה ביישום Microsoft Project Client אם מבנה התפלגות העבודה נמצא במצב טיוטה. כדי לפתוח את הדף **פרויקט** , לחץ על הקישור **פתח ב- Microsoft Project** מהכרטיסיה **תכנון**. בנוסף, ניתן לפתוח דך זה מתוך יישום Microsoft Project Client על-ידי לחיצה על **פתח** בכרטיסיה **Microsoft Dynamics 365**. בחר **ישות משפטית** ו **פרויקט** מהרשימה.
+אם לפרויקט ב- Dynamics 365 Finance כבר נוצר מבנה התפלגות עבודה, ניתן לפתוח את מבנה התפלגות העבודה ביישום Microsoft Project Client אם מבנה התפלגות העבודה נמצא במצב טיוטה. כדי לפתוח את הדף **פרויקט**, לחץ על הקישור **פתח ב- Microsoft Project** מהכרטיסיה **תכנון**. בנוסף, ניתן לפתוח דך זה מתוך יישום Microsoft Project Client על-ידי לחיצה על **פתח** בכרטיסיה **Microsoft Dynamics 365**. בחר **ישות משפטית** ו **פרויקט** מהרשימה.
 
 > [!NOTE]
 > אם אתה משתמש ב- Internet Explorer כדפדפן שלך, עליך ללחוץ על **שמור** כדי לפתוח ידנית מהמיקום שאליו הקובץ הורד. לחלופין, לחץ על **שמור ופתח** כדי לפתוח את הקובץ ב- Microsoft Project Client. אל תשנה את השם של הקובץ בעת השמירה.
@@ -82,7 +82,7 @@ ms.locfileid: "4077369"
 
 1.  פתח את Microsoft Project Client.
 
-2.  בכרטיסיה **Microsoft Dynamics 365** , לחץ על **פתח**.
+2.  בכרטיסיה **Microsoft Dynamics 365**, לחץ על **פתח**.
 
 3.  בחר את **הישות המשפטית** עבור הפרויקט.
 
@@ -99,7 +99,7 @@ ms.locfileid: "4077369"
 
 2.  צור את לוח הזמנים ב- Microsoft Project Client.
 
-3.  בכרטיסיה **Microsoft Dynamics 365** , לחץ על **שמור שינויים** > **החלף פרויקט קיים**.
+3.  בכרטיסיה **Microsoft Dynamics 365**, לחץ על **שמור שינויים** > **החלף פרויקט קיים**.
 
 4.  בחר את **הישות המשפטית** עבור הפרויקט.
 
@@ -114,7 +114,7 @@ ms.locfileid: "4077369"
 
 2.  צור את לוח הזמנים ב- Microsoft Project Client.
 
-3.  בכרטיסיה **Microsoft Dynamics 365** , לחץ על **שמור שינויים** > **שמור לפרויקט חדש**.
+3.  בכרטיסיה **Microsoft Dynamics 365**, לחץ על **שמור שינויים** > **שמור לפרויקט חדש**.
 
 4.  בחר את **הישות המשפטית** עבור הפרויקט.
 
@@ -122,7 +122,7 @@ ms.locfileid: "4077369"
 
 6.  הזן את **שם הפרויקט**.
 
-7.  בחר את **סוג הפרויקט** , **קבוצת הפרויקטים** ואת **מזהה חוזה הפרויקט**. לחלופין, תוכל ליצור חוזה פרויקט חדש על ידי לחיצה על **חדש**.
+7.  בחר את **סוג הפרויקט**, **קבוצת הפרויקטים** ואת **מזהה חוזה הפרויקט**. לחלופין, תוכל ליצור חוזה פרויקט חדש על ידי לחיצה על **חדש**.
 
 8.  בחר את **לוח השנה** שבו יש להשתמש להקצאת משאבים.
 

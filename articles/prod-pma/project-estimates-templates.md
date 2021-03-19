@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077436"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289460"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון הערכות פרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
 
@@ -82,7 +82,7 @@ ms.locfileid: "4077436"
 
 כדי לעדכן את מזהה מודל התחזית בברירת מחדל בתבנית, לחץ על החץ **מפה** כדי לפתוח את המיפוי. לאחר מכן, בחר בקישור **שאילתות וסינון מתקדמים**.
 
-- אם אתה משתמש בתבנית ברירת מחדל להערכת השעות בפרויקט (PSA ל- Fin and Ops), בחר באפשרות **תנאי שהוכנס** ברשימה **שלבים שהוחלו**. בערך **פונקציה** , החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
+- אם אתה משתמש בתבנית ברירת מחדל להערכת השעות בפרויקט (PSA ל- Fin and Ops), בחר באפשרות **תנאי שהוכנס** ברשימה **שלבים שהוחלו**. בערך **פונקציה**, החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
 - אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית** והזן שם לעמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם משימה בפרויקט אינה Null, \<enter the forecast model ID\>; אחרת Null.
 
 #### <a name="filter-out-resource-specific-records"></a>סנן רשומות שספציפיות למשאבים
@@ -143,24 +143,24 @@ ms.locfileid: "4077436"
 
 כדי לעדכן את מזהה מודל התחזית בברירת מחדל בתבנית, בחר במשימה **הערכת הוצאות** ולאחר מכן לחץ על החץ **מפה** כדי לפתוח את המיפוי. בחר בקישור **שאילתות וסינון מתקדמים**.
 
-- אם אתה משתמש בתבנית ברירת מחדל להערכת הוצאות בפרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות הראשונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה** , החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
+- אם אתה משתמש בתבנית ברירת מחדל להערכת הוצאות בפרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות הראשונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
 - אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית** והזן שם לעמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם מזהה שורת הערכה אינו Null, \<enter the forecast model ID\>; אחרת Null.
 
 #### <a name="transform-the-billing-types"></a>שנה את סוגי החיובים
 
 תבנית הערכת הוצאות בפרויקט (PSA ל- Fin and Ops) כוללת עמודה מותנית המשמשת לשינוי סוגי החיובים המתקבלים מ- Project Service Automation במהלך השילוב. אם אתה יוצר תבנית משלך, עליך להוסיף עמודה מותנית זו. בחר בקישור **שאילתות וסינון מתקדמים** ולאחר מכן בחר **הוסף עמודה מותנית**. הזן שם לעמודה החדשה, כגון **BillingType**. לאחר מכן הזן את התנאי הבא:
 
-אם ‎ **msdyn\_billingtype** = 192350000, אז **NonChargeable**  
-אחרת, אם ‎ **msdyn\_billingtype** = 192350001, אז **Chargeable**  
-אחרת, אם ‎ **msdyn\_billingtype** = 192350002, אז **Complimentary**  
+אם ‎**msdyn\_billingtype** = 192350000, אז **NonChargeable**  
+אחרת, אם ‎**msdyn\_billingtype** = 192350001, אז **Chargeable**  
+אחרת, אם ‎**msdyn\_billingtype** = 192350002, אז **Complimentary**  
 אחרת **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>שנה את סוגי העסקאות
 
 תבנית הערכת הוצאות בפרויקט (PSA ל- Fin and Ops) כוללת עמודה מותנית המשמשת לשינוי סוגי העסקאות המתקבלים מ- Project Service Automation במהלך השילוב. אם אתה יוצר תבנית משלך, עליך להוסיף עמודה מותנית זו. בחר בקישור **שאילתות וסינון מתקדמים** ולאחר מכן בחר **הוסף עמודה מותנית**. הזן שם לעמודה החדשה, כגון **TransactionType**. לאחר מכן הזן את התנאי הבא:
 
-אם ‎ **msdyn\_transactiontypecode** = 192350000, אחרת **Cost**  
-אחרת, אם ‎ **msdyn\_transactiontypecode** = 192350005, אחרת **Sales**  
+אם ‎**msdyn\_transactiontypecode** = 192350000, אחרת **Cost**  
+אחרת, אם ‎**msdyn\_transactiontypecode** = 192350005, אחרת **Sales**  
 אחרת **null**
 
 ### <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים

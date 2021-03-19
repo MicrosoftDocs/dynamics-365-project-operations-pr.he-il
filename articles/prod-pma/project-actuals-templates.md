@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077440"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289685"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
 
@@ -88,7 +88,7 @@ ms.locfileid: "4077440"
 #### <a name="contract-organizational-unit"></a>יחידה ארגונית של חוזה
 כדי לעדכן את העמודה המותנית שהוכנסה בתבנית, לחץ על החץ **מפה** כדי לפתוח את המיפוי. בחר בקישור **שאילתות וסינון מתקדמים** כדי לפתוח את Power Query.
 
-- אם אתה משתמש בתבנית ברירת מחדל לנתונים בפועל של פרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות האחרונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה** , החלף את **USSI** בשם של הישות המשפטית שתהיה בשימוש בשילוב. הוסף תנאים נוספים לערך **פונקציה** כנדרש ועדכן את התנאי **else** מ- **USMF** לישות המשפטית הנכונה.
+- אם אתה משתמש בתבנית ברירת מחדל לנתונים בפועל של פרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות האחרונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **USSI** בשם של הישות המשפטית שתהיה בשימוש בשילוב. הוסף תנאים נוספים לערך **פונקציה** כנדרש ועדכן את התנאי **else** מ- **USMF** לישות המשפטית הנכונה.
 - אם אתה יוצר תבנית חדשה, עליך להוסיף את העמודה כדי לתמוך בשעות והוצאות בין-חברתיות. בחר **הוסף עמודה מותנית** והזן שם לעמודה, כגון **LegalEntity**. הזן תנאי עבור העמודה, שבו, אם **msdyn\_contractorganizationalunitid.msdyn\_name** הוא \<organizational unit\>, אז \<enter the legal entity\>; אחרת Null.
 
 ### <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים

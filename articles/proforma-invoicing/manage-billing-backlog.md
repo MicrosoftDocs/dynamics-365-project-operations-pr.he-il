@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122344"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287734"
 ---
 # <a name="manage-the-billing-backlog"></a>ניהול מצבור פריטי העבודה של החיוב
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-ל- Dynamics 365 Project Operations יש שתי תצוגות ייעודיות שיעזרו לך לעבוד עם מצבור פריטים לחיוב. הם **אבני דרך במחיר קבוע** ו **מצבור פריטים לחיוב זמן וחומר** לבחירת תצוגה, באזור **מכירות** ב- Project Operations, בדף הניווט הימני, בחר **חיוב**. הקישורים של מצבור הפריטים לחיוב מאוחסנים שם.
+ב- Dynamics 365 Project Operations יש תצוגות ייעודיות שיעזרו לעבוד עם מצבור פרטי עבודה לחיוב ולנהל אותם. הם **אבני דרך במחיר קבוע** ו **מצבור פריטים לחיוב זמן וחומר** לבחירת תצוגה, באזור **מכירות** ב- Project Operations, בדף הניווט הימני, בחר **חיוב**. הקישורים של מצבור הפריטים לחיוב מאוחסנים שם.
 
 ## <a name="fixed-price-milestones"></a>אבני דרך של מחיר קבוע
 

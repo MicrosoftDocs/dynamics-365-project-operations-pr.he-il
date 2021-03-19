@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365492"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289235"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>מבט כולל על פריסת Project Operations לתרחישים מבוססי ייצור/מלאי
 
@@ -35,7 +35,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 סוג פריסה זה מספק גם הרחבה לפונקציונליות המסופקת על ידי האפליקציות Dynamics 365 Finance ו-Dynamics 365 Supply Chain Management יישומים.
 
-בחר סוג פריסה זה לשימוש ב-Dynamics 365 Project Project Operations עבור מחזור החיים המלא של הפרויקט, כולל דרישות המפתח הבאות:
+בחר סוג פריסה זה לשימוש ב- Dynamics 365 Project Operations עבור מחזור החיים המלא של הפרויקט, כולל דרישות המפתח הבאות:
 
 - מערכת ניהול פרויקטים נרחבת המנהלת פריטי מלאי ועלויות הזמנת עבודה/ייצור עבור פרויקטים פנימיים ופרויקטים הניתנים לחיוב עבור לוחות זמנים וכספים.
 - לארגון כבר יש אפליקציות של Dynamics 365 Finance או יישומי Dynamics 365 Supply Chain and Manufacturing ושילוב עסקאות מבוססות פרוייקט יפשטו את צורכי הגישה לנתונים והדיווח.
