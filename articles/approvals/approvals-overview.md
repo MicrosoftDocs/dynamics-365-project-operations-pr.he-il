@@ -3,60 +3,63 @@ title: מבט כולל על אישורים
 description: נושא זה מספק מידע על עבודה עם אישורים ב-Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290360"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852500"
 ---
-# <a name="approvals-overview"></a><span data-ttu-id="46d86-103">מבט כולל על אישורים</span><span class="sxs-lookup"><span data-stu-id="46d86-103">Approvals overview</span></span>
+# <a name="approvals-overview"></a><span data-ttu-id="06073-103">מבט כולל על אישורים</span><span class="sxs-lookup"><span data-stu-id="06073-103">Approvals overview</span></span>
 
-<span data-ttu-id="46d86-104">_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="46d86-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="06073-104">_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="06073-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="46d86-105">שליחות של זמן והוצאות עוברות דרך זרימת עבודה לאישור.</span><span class="sxs-lookup"><span data-stu-id="46d86-105">Time and Expense submissions move through an approval workflow.</span></span> <span data-ttu-id="46d86-106">לאחר אישור הערכים, העסקאות נרשמות בנתונים בפועל או שזמן מוזמן בלוח הזמנים.</span><span class="sxs-lookup"><span data-stu-id="46d86-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
+<span data-ttu-id="06073-105">הגשות זמן, הוצאות ושימוש בחומרים עוברות בזרימת עבודה של אישור.</span><span class="sxs-lookup"><span data-stu-id="06073-105">Time, expense, and material usage submissions move through an approval workflow.</span></span> <span data-ttu-id="06073-106">לאחר אישור הערכים, העסקאות נרשמות בנתונים בפועל או שזמן מוזמן בלוח הזמנים.</span><span class="sxs-lookup"><span data-stu-id="06073-106">After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.</span></span>
 
-## <a name="approvals-workflow"></a><span data-ttu-id="46d86-107">זרימת עבודה של אישורים</span><span class="sxs-lookup"><span data-stu-id="46d86-107">Approvals workflow</span></span>
-<span data-ttu-id="46d86-108">כשאתה יוצר ושולח ערך זמן או הוצאה, נוצר ערך לאישור.</span><span class="sxs-lookup"><span data-stu-id="46d86-108">When you create and submit a time or expense entry, an approval entry is created.</span></span> <span data-ttu-id="46d86-109">מאשר הפרויקט או המנהל שלך בודק ומאשרים את הערך.</span><span class="sxs-lookup"><span data-stu-id="46d86-109">The Project approver or your manager reviews and approves your entry.</span></span> <span data-ttu-id="46d86-110">אם הערך קשור לפרויקט, הנתונים בפועל יווצרו לאחר אישורו.</span><span class="sxs-lookup"><span data-stu-id="46d86-110">If the entry is related to a project, when it's approved, the actuals will be created.</span></span> <span data-ttu-id="46d86-111">דבר זה מאפשר מעקב אחר העלות והחיוב.</span><span class="sxs-lookup"><span data-stu-id="46d86-111">This allows the cost and billing to be tracked.</span></span> 
+## <a name="approvals-workflow"></a><span data-ttu-id="06073-107">זרימת עבודה של אישורים</span><span class="sxs-lookup"><span data-stu-id="06073-107">Approvals workflow</span></span>
+<span data-ttu-id="06073-108">בעת יצירה ושליחה של ערך זמן, הוצאה או שימוש בחומרים, נוצרת רשומת אישור.</span><span class="sxs-lookup"><span data-stu-id="06073-108">When you create and submit a time, expense, or material usage entry, an approval record is created.</span></span> <span data-ttu-id="06073-109">מאשר או מנהל הפרויקט בודק ומאשר את הערך.</span><span class="sxs-lookup"><span data-stu-id="06073-109">The project approver or manager reviews and approves the entry.</span></span> <span data-ttu-id="06073-110">אם הערך קשור לפרויקט, הנתונים בפועל ייווצרו לאחר אישורו.</span><span class="sxs-lookup"><span data-stu-id="06073-110">If the entry is related to a project, the actuals will be created when it's approved.</span></span> <span data-ttu-id="06073-111">דבר זה מאפשר מעקב אחר העלות והחיוב.</span><span class="sxs-lookup"><span data-stu-id="06073-111">This allows the cost and billing to be tracked.</span></span>
 
-## <a name="approve-an-entry"></a><span data-ttu-id="46d86-112">אישר ערך</span><span class="sxs-lookup"><span data-stu-id="46d86-112">Approve an entry</span></span>
-<span data-ttu-id="46d86-113">הטופס **אישורים** מאפשר לך לעבור בין תצוגות שונות כדי שתוכל לרואת את סוגי האישורים השונים.</span><span class="sxs-lookup"><span data-stu-id="46d86-113">The **Approvals** form allows you to switch between different views so that you can view the different types of approvals.</span></span>
+## <a name="approve-an-entry"></a><span data-ttu-id="06073-112">אישר ערך</span><span class="sxs-lookup"><span data-stu-id="06073-112">Approve an entry</span></span>
+<span data-ttu-id="06073-113">הדף **אישורים** מאפשר לך לעבור בין תצוגות שונות ולצפות בסוגי האישורים השונים.</span><span class="sxs-lookup"><span data-stu-id="06073-113">The **Approvals** page allows you to switch between different views so that you can view the different types of approvals.</span></span>
   
-1. <span data-ttu-id="46d86-114">עבור אל הטופס **אישורים** ובחר **הוצאות**, **זמן**, או **אחזורים**.</span><span class="sxs-lookup"><span data-stu-id="46d86-114">Go to the **Approvals** form and select **Expenses**, **Time**, or **Recalls**.</span></span>
-2. <span data-ttu-id="46d86-115">סקור כל אישור ובחר את האישורים שברצונך לאשר.</span><span class="sxs-lookup"><span data-stu-id="46d86-115">Review each approval, and select the ones you want to approve.</span></span>
-3. <span data-ttu-id="46d86-116">בחר **אשר** כדי לאשר את הערכים שנבחרו.</span><span class="sxs-lookup"><span data-stu-id="46d86-116">Select **Approve** to approve the selected entries.</span></span>
-<span data-ttu-id="46d86-117">המערכת תעבד ערכים אלה ותיצור נתונים בפועל או הזמנה.</span><span class="sxs-lookup"><span data-stu-id="46d86-117">The system will process these entries and create actuals or a booking.</span></span>
+1. <span data-ttu-id="06073-114">עבור אל הדף **אישורים** ובחר **הוצאות**, **זמן**, **שימוש בחומרים** או **החזרות**.</span><span class="sxs-lookup"><span data-stu-id="06073-114">Go to the **Approvals** page and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.</span></span>
+2. <span data-ttu-id="06073-115">סקור כל אישור ובחר את האישורים שברצונך לאשר.</span><span class="sxs-lookup"><span data-stu-id="06073-115">Review each approval, and select the ones you want to approve.</span></span>
+3. <span data-ttu-id="06073-116">בחר **אשר** כדי לאשר את הערכים שנבחרו.</span><span class="sxs-lookup"><span data-stu-id="06073-116">Select **Approve** to approve the selected entries.</span></span>
+<span data-ttu-id="06073-117">המערכת מעבדת ערכים אלה ויוצרת נתונים בפועל.</span><span class="sxs-lookup"><span data-stu-id="06073-117">The system processes these entries and create actuals.</span></span>
 
-## <a name="reject-an-entry"></a><span data-ttu-id="46d86-118">דחיית ערך</span><span class="sxs-lookup"><span data-stu-id="46d86-118">Reject an entry</span></span>
-<span data-ttu-id="46d86-119">כמאשר הפרויקט, ייתכן שיהיה עליך לשלוח ערך בחזרה למשתמש לצורך תיקון.</span><span class="sxs-lookup"><span data-stu-id="46d86-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
+## <a name="reject-an-entry"></a><span data-ttu-id="06073-118">דחיית ערך</span><span class="sxs-lookup"><span data-stu-id="06073-118">Reject an entry</span></span>
+<span data-ttu-id="06073-119">כמאשר הפרויקט, ייתכן שיהיה עליך לשלוח ערך בחזרה למשתמש לצורך תיקון.</span><span class="sxs-lookup"><span data-stu-id="06073-119">As the Project approver, you may have to send an entry back to a user for correction.</span></span>
   
-1. <span data-ttu-id="46d86-120">עבור אל הטופס **אישורים** ובחר את הערך לדחייה.</span><span class="sxs-lookup"><span data-stu-id="46d86-120">Go to the **Approvals** form and select the entry to reject.</span></span> 
-2. <span data-ttu-id="46d86-121">בחר **דחה**.</span><span class="sxs-lookup"><span data-stu-id="46d86-121">Select **Reject**.</span></span>
-3. <span data-ttu-id="46d86-122">אופציונלי - הוסף תגובה בשיח **הערות דחייה** כדי ליידע את המשתמש בסיבה לדחיית הערך.</span><span class="sxs-lookup"><span data-stu-id="46d86-122">Optional - Add a comment in the **Rejection Comments** dialog to inform the user why the entry is being rejected.</span></span>
-4. <span data-ttu-id="46d86-123">בחר **אישור**.</span><span class="sxs-lookup"><span data-stu-id="46d86-123">Select **OK**.</span></span> <span data-ttu-id="46d86-124">הערך יוחזר למשתמש.</span><span class="sxs-lookup"><span data-stu-id="46d86-124">The entry will be returned to the user.</span></span>
+1. <span data-ttu-id="06073-120">עבור אל הדף **אישורים** ובחר את הערך לדחייה.</span><span class="sxs-lookup"><span data-stu-id="06073-120">Go to the **Approvals** page and select the entry to reject.</span></span> 
+2. <span data-ttu-id="06073-121">בחר **דחה**.</span><span class="sxs-lookup"><span data-stu-id="06073-121">Select **Reject**.</span></span>
+3. <span data-ttu-id="06073-122">כאופציה, הוסף הערה בתיבת הדו-שיח **הערות דחייה** כדי ליידע את המשתמש מדוע הערך נדחה.</span><span class="sxs-lookup"><span data-stu-id="06073-122">Optional, add a comment in the **Rejection Comments** dialog box to inform the user why the entry is being rejected.</span></span>
+4. <span data-ttu-id="06073-123">בחר **OK**.</span><span class="sxs-lookup"><span data-stu-id="06073-123">Select **OK**.</span></span> <span data-ttu-id="06073-124">הערך יוחזר למשתמש.</span><span class="sxs-lookup"><span data-stu-id="06073-124">The entry will be returned to the user.</span></span>
   
-## <a name="recall-entries"></a><span data-ttu-id="46d86-125">אחזור ערכים</span><span class="sxs-lookup"><span data-stu-id="46d86-125">Recall entries</span></span>
-<span data-ttu-id="46d86-126">בשלב מסוים, ייתכן שתצטרך לאחזר ערך שנשלח.</span><span class="sxs-lookup"><span data-stu-id="46d86-126">At some point, you might need to recall a submitted entry.</span></span> <span data-ttu-id="46d86-127">אם ערך לא אושר, הוא יוחזר מיד.</span><span class="sxs-lookup"><span data-stu-id="46d86-127">If the entry has not been approved, it will be returned immediately.</span></span> <span data-ttu-id="46d86-128">יחד עם זאת, לערך שאושר עשוי להיות השפעה מהותית.</span><span class="sxs-lookup"><span data-stu-id="46d86-128">An approved entry however, may have a material impact.</span></span> <span data-ttu-id="46d86-129">מאשר הפרויקט נדרש לאשר את האחזור על מנת להמיר את העסקה ב'נתונים בפועל'.</span><span class="sxs-lookup"><span data-stu-id="46d86-129">The Project approver is required to approve the recall in order to reverse the transaction in Actuals.</span></span>
+## <a name="cancel-approval"></a><span data-ttu-id="06073-125">ביטול האישור</span><span class="sxs-lookup"><span data-stu-id="06073-125">Cancel approval</span></span>
+<span data-ttu-id="06073-126">במקרים מסוימים יתכן שתצטרך לבטל ערך שאושר בעבר.</span><span class="sxs-lookup"><span data-stu-id="06073-126">In some cases, you might need to cancel a previously approved entry.</span></span> <span data-ttu-id="06073-127">לביטול ערך שאושר בעבר תהיה השפעה כספית.</span><span class="sxs-lookup"><span data-stu-id="06073-127">Canceling a previously approved entry will have a financial impact.</span></span> 
 
-## <a name="specify-project-approvers"></a><span data-ttu-id="46d86-130">קביעת מאשרי פרוייקט</span><span class="sxs-lookup"><span data-stu-id="46d86-130">Specify Project approvers</span></span>
-<span data-ttu-id="46d86-131">בכל פרויקט יש מספר חברי צוות של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="46d86-131">Each project has a number of project team members.</span></span> <span data-ttu-id="46d86-132">ניתן לקבוע אילו חברי צוות הם גם המאשרים של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="46d86-132">You can specify which team members are also Project approvers.</span></span>
+## <a name="approving-recall-requests"></a><span data-ttu-id="06073-128">אישור ‏‫בקשות אחזור</span><span class="sxs-lookup"><span data-stu-id="06073-128">Approving recall requests</span></span>
+<span data-ttu-id="06073-129">במקרים מסוימים יתכן שיועץ יצטרך לאחזר ערך שאושר בעבר.</span><span class="sxs-lookup"><span data-stu-id="06073-129">In some cases, a consultant may need to recall a previously approved entry.</span></span> <span data-ttu-id="06073-130">לביטול ערך שאושר בעבר תהיה השפעה כספית.</span><span class="sxs-lookup"><span data-stu-id="06073-130">Canceling a previously approved entry will have a financial impact.</span></span> <span data-ttu-id="06073-131">מאשר הפרויקט נדרש לאשר את האחזור כדי לבטל את העסקה ב'נתונים בפועל'.</span><span class="sxs-lookup"><span data-stu-id="06073-131">The project approver is required to approve the recall to reverse the transaction in Actuals.</span></span>
 
-1. <span data-ttu-id="46d86-133">עבור אל הטופס **פרויקטים** ופתח את הפרויקט מתוך הרשימה.</span><span class="sxs-lookup"><span data-stu-id="46d86-133">Go to the **Projects** form and open the project from the list.</span></span>
-2. <span data-ttu-id="46d86-134">בכרטיסיה **צוות** בחר את חבר הצוות שיהיה מאשר הפרויקט ואז בחר **עריכה**.</span><span class="sxs-lookup"><span data-stu-id="46d86-134">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
-3. <span data-ttu-id="46d86-135">הגדר את שדה **מאשר הפרויקט** ל **כן**.</span><span class="sxs-lookup"><span data-stu-id="46d86-135">Set the **Project Approver** field to **Yes**.</span></span>
-4. <span data-ttu-id="46d86-136">בחר **שמור**.</span><span class="sxs-lookup"><span data-stu-id="46d86-136">Select **Save**.</span></span>
-5. <span data-ttu-id="46d86-137">חזור על שלבים 2-4‏ כדי להוסיף מאשרי פרויקט נוספים.</span><span class="sxs-lookup"><span data-stu-id="46d86-137">Repeat steps 2-4 to add additional Project approvers.</span></span>
+## <a name="specify-project-approvers"></a><span data-ttu-id="06073-132">קביעת מאשרי פרוייקט</span><span class="sxs-lookup"><span data-stu-id="06073-132">Specify Project approvers</span></span>
+<span data-ttu-id="06073-133">בכל פרויקט יש מספר חברי צוות של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="06073-133">Each project has a number of project team members.</span></span> <span data-ttu-id="06073-134">ניתן לקבוע אילו חברי צוות הם גם המאשרים של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="06073-134">You can specify which team members are also Project approvers.</span></span>
 
-## <a name="configure-the-users-manager"></a><span data-ttu-id="46d86-138">קבע את התצורה של מנהל המשתמש</span><span class="sxs-lookup"><span data-stu-id="46d86-138">Configure the user's manager</span></span>
+1. <span data-ttu-id="06073-135">עבור אל הדף **פרויקטים** ופתח את הפרויקט מהרשימה.</span><span class="sxs-lookup"><span data-stu-id="06073-135">Go to the **Projects** page and open the project from the list.</span></span>
+2. <span data-ttu-id="06073-136">בכרטיסיה **צוות** בחר את חבר הצוות שיהיה מאשר הפרויקט ואז בחר **עריכה**.</span><span class="sxs-lookup"><span data-stu-id="06073-136">On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.</span></span>
+3. <span data-ttu-id="06073-137">הגדר את שדה **מאשר הפרויקט** ל **כן**.</span><span class="sxs-lookup"><span data-stu-id="06073-137">Set the **Project Approver** field to **Yes**.</span></span>
+4. <span data-ttu-id="06073-138">בחר **שמור**.</span><span class="sxs-lookup"><span data-stu-id="06073-138">Select **Save**.</span></span>
+5. <span data-ttu-id="06073-139">חזור על שלבים 2-4‏ כדי להוסיף מאשרי פרויקט נוספים.</span><span class="sxs-lookup"><span data-stu-id="06073-139">Repeat steps 2-4 to add additional Project approvers.</span></span>
 
-1. <span data-ttu-id="46d86-139">עבור אל **הגדרות** > **אבטחה** > **משתמשים**.</span><span class="sxs-lookup"><span data-stu-id="46d86-139">Go to **Settings** > **Security** > **Users**.</span></span>
-2. <span data-ttu-id="46d86-140">בחר את המשתמש אליו אתה מקצה מנהל ובתוך האזור **מידע על הארגון**, בחר את המנהל מתוך הרשימה.</span><span class="sxs-lookup"><span data-stu-id="46d86-140">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
-3. <span data-ttu-id="46d86-141">בחר **שמור**.</span><span class="sxs-lookup"><span data-stu-id="46d86-141">Select **Save**.</span></span>
+## <a name="configure-the-users-manager"></a><span data-ttu-id="06073-140">קבע את התצורה של מנהל המשתמש</span><span class="sxs-lookup"><span data-stu-id="06073-140">Configure the user's manager</span></span>
+
+1. <span data-ttu-id="06073-141">עבור אל **הגדרות** > **אבטחה** > **משתמשים**.</span><span class="sxs-lookup"><span data-stu-id="06073-141">Go to **Settings** > **Security** > **Users**.</span></span>
+2. <span data-ttu-id="06073-142">בחר את המשתמש אליו אתה מקצה מנהל ובתוך האזור **מידע על הארגון**, בחר את המנהל מתוך הרשימה.</span><span class="sxs-lookup"><span data-stu-id="06073-142">Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list.</span></span> 
+3. <span data-ttu-id="06073-143">בחר **שמור**.</span><span class="sxs-lookup"><span data-stu-id="06073-143">Select **Save**.</span></span>
 
 
 

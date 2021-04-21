@@ -1,838 +1,904 @@
 ---
-title: מבט כולל על שורות הצעות מחיר מבוססות פרוייקט - לייט
-description: נושא זה מספק מידע על עבודה עם שורות הצעות מחיר המבוססות פרויקט לעבודת פרויקט. (Pro)
+title: מבט כולל על שורות הצעות מחיר מבוססות פרוייקט
+description: נושא זה מספק מידע על עבודה עם שורות הצעות מחיר המבוססות פרויקט לעבודת פרויקט.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4865c06691fba09eacf5fe6449adfaf542444520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cfe98fc89130c93dd0a36af8583881fdcb4550c0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272974"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858699"
 ---
-# <a name="project-based-quote-lines-overview---lite"></a><span data-ttu-id="4332d-104">מבט כולל על שורות הצעות מחיר מבוססות פרוייקט - לייט</span><span class="sxs-lookup"><span data-stu-id="4332d-104">Project-based quote lines overview - lite</span></span>
+# <a name="project-based-quote-lines-overview"></a><span data-ttu-id="dae21-103">מבט כולל על שורות הצעות מחיר מבוססות פרוייקט</span><span class="sxs-lookup"><span data-stu-id="dae21-103">Project-based quote lines overview</span></span> 
 
-<span data-ttu-id="4332d-105">_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_</span><span class="sxs-lookup"><span data-stu-id="4332d-105">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="dae21-104">_**חל על:** פריסה קלה - עסקה עם חשבונית פרופורמה, Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="dae21-104">_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="4332d-106">שורות הצעת מחיר מבוססות פרויקט נועדו לעזור להעריך את עבודת הפרויקט עבור התקשרות.</span><span class="sxs-lookup"><span data-stu-id="4332d-106">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="4332d-107">המבנה של שורת הצעות מחיר מבוסס פרויקט מורחב להערכות פרויקט באמצעות המושגים הבאים:</span><span class="sxs-lookup"><span data-stu-id="4332d-107">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
+<span data-ttu-id="dae21-105">שורות הצעת מחיר מבוססות פרויקט נועדו לעזור להעריך את עבודת הפרויקט עבור התקשרות.</span><span class="sxs-lookup"><span data-stu-id="dae21-105">Project-based quote lines are designed to help estimate the project work on an engagement.</span></span> <span data-ttu-id="dae21-106">המבנה של שורת הצעות מחיר מבוסס פרויקט מורחב להערכות פרויקט באמצעות המושגים הבאים:</span><span class="sxs-lookup"><span data-stu-id="dae21-106">The structure of a project-based quote line is extended for project estimates with the following concepts:</span></span>
 
-- <span data-ttu-id="4332d-108">שיטת חיוב</span><span class="sxs-lookup"><span data-stu-id="4332d-108">Billing Method</span></span>
-- <span data-ttu-id="4332d-109">מיפוי פרויקטים ומשימות</span><span class="sxs-lookup"><span data-stu-id="4332d-109">Project and Task Mapping</span></span>
-- <span data-ttu-id="4332d-110">סווגי עסקה כלולים</span><span class="sxs-lookup"><span data-stu-id="4332d-110">Included Transaction classes</span></span>
-- <span data-ttu-id="4332d-111">מגבלת 'אין לחרוג'</span><span class="sxs-lookup"><span data-stu-id="4332d-111">Not-to-Exceed Limit</span></span>
-- <span data-ttu-id="4332d-112">הגדרת יכולת חיוב</span><span class="sxs-lookup"><span data-stu-id="4332d-112">Chargeability setup</span></span>
-- <span data-ttu-id="4332d-113">הערכה באמצעות פרטי קו הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="4332d-113">Estimation using Quote Line Details</span></span>
-- <span data-ttu-id="4332d-114">לקוחות של שורת הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="4332d-114">Quote line Customers</span></span>
+- <span data-ttu-id="dae21-107">שיטת חיוב</span><span class="sxs-lookup"><span data-stu-id="dae21-107">Billing Method</span></span>
+- <span data-ttu-id="dae21-108">מיפוי פרויקטים ומשימות</span><span class="sxs-lookup"><span data-stu-id="dae21-108">Project and Task Mapping</span></span>
+- <span data-ttu-id="dae21-109">סווגי עסקה כלולים</span><span class="sxs-lookup"><span data-stu-id="dae21-109">Included Transaction classes</span></span>
+- <span data-ttu-id="dae21-110">מגבלת 'אין לחרוג'</span><span class="sxs-lookup"><span data-stu-id="dae21-110">Not-to-Exceed Limit</span></span>
+- <span data-ttu-id="dae21-111">הגדרת יכולת חיוב</span><span class="sxs-lookup"><span data-stu-id="dae21-111">Chargeability setup</span></span>
+- <span data-ttu-id="dae21-112">הערכה באמצעות פרטי קו הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="dae21-112">Estimation using Quote Line Details</span></span>
+- <span data-ttu-id="dae21-113">לקוחות של שורת הצעת מחיר</span><span class="sxs-lookup"><span data-stu-id="dae21-113">Quote line Customers</span></span>
 
-<span data-ttu-id="4332d-115">הטבלה הבאה מספקת מידע אודות השדות המופיעים בכרטיסיה **כללי** של שורת הצעת מחיר מבוססת פרויקט.</span><span class="sxs-lookup"><span data-stu-id="4332d-115">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="4332d-116">שדות אלה מסייעים בהכנת הבסיס לביצוע הערכה מפורטת ויסודיות לעבודת הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="4332d-116">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
+<span data-ttu-id="dae21-114">הטבלה הבאה מספקת מידע אודות השדות המופיעים בכרטיסיה **כללי** של שורת הצעת מחיר מבוססת פרויקט.</span><span class="sxs-lookup"><span data-stu-id="dae21-114">The following table provides information about the fields on the **General** tab of project-based quote line.</span></span> <span data-ttu-id="dae21-115">שדות אלה מסייעים בהכנת הבסיס לביצוע הערכה מפורטת ויסודיות לעבודת הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="dae21-115">These fields help set up the basis for a detailed, ground-up estimation for project work.</span></span>
 
-| <span data-ttu-id="4332d-117">**שדה**</span><span class="sxs-lookup"><span data-stu-id="4332d-117">**Field**</span></span> | <span data-ttu-id="4332d-118">**תיאור**</span><span class="sxs-lookup"><span data-stu-id="4332d-118">**Description**</span></span> | <span data-ttu-id="4332d-119">**השפעה במורד הזרם**</span><span class="sxs-lookup"><span data-stu-id="4332d-119">**Downstream impact**</span></span> |
+| <span data-ttu-id="dae21-116">**שדה**</span><span class="sxs-lookup"><span data-stu-id="dae21-116">**Field**</span></span> | <span data-ttu-id="dae21-117">**תיאור**</span><span class="sxs-lookup"><span data-stu-id="dae21-117">**Description**</span></span> | <span data-ttu-id="dae21-118">**השפעה במורד הזרם**</span><span class="sxs-lookup"><span data-stu-id="dae21-118">**Downstream impact**</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="4332d-120">שם</span><span class="sxs-lookup"><span data-stu-id="4332d-120">Name</span></span> | <span data-ttu-id="4332d-121">שם שורת הצעת המחיר אשר אמורה לעזור לך לזהות את המרכיב המובדל של הצעת המחיר שעבורה מתבצעת הערכה.</span><span class="sxs-lookup"><span data-stu-id="4332d-121">The name of quote line which should help you identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="4332d-122">מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-122">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-123">שיטת חיוב</span><span class="sxs-lookup"><span data-stu-id="4332d-123">Billing Method</span></span> | <span data-ttu-id="4332d-124">כשנוצרת הצעת מחיר מהזדמנות, ערך זה מועתק מהשדה התואם שבשורת הזדמנות.</span><span class="sxs-lookup"><span data-stu-id="4332d-124">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="4332d-125">תחום זה כולל את שני המודלים העיקריים לחוזים, שנתמכים על ידי Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="4332d-125">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="4332d-126">- מחיר קבוע</span><span class="sxs-lookup"><span data-stu-id="4332d-126">- Fixed price</span></span></br><span data-ttu-id="4332d-127">- זמן וחומרים.</span><span class="sxs-lookup"><span data-stu-id="4332d-127">- Time and material.</span></span>| <span data-ttu-id="4332d-128">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-128">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-129">פרויקט</span><span class="sxs-lookup"><span data-stu-id="4332d-129">Project</span></span> | <span data-ttu-id="4332d-130">השתמש בשדה אופציונלי זה כדי לזהות את הפרויקט שישמש להגשת העבודה בהתקשרות זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-130">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="4332d-131">כאשר פרויקט ממופה לשורת הצעת מחיר, זה עוזר בהגדרת משימות הניתנות לחיוב וגם בכנסת הערכה מבוססת פרויקט לשורת הצעת המחיר, כפרטים בשורת הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-131">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="4332d-132">כאשר פרויקט אינו ממופה לשורת הצעת מחיר מבוססת פרויקט, יש ליצור את ההערכה באופן ידני על ידי יצירת כל פרט שבשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-132">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="4332d-133">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-133">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
-| <span data-ttu-id="4332d-134">משימות כלולות</span><span class="sxs-lookup"><span data-stu-id="4332d-134">Included Tasks</span></span> | <span data-ttu-id="4332d-135">הוא מציין אם שורת הצעת מחיר זו משמשת עבור כל משימות הפרויקט של הפרויקט שנבחר או עבור חלקן.</span><span class="sxs-lookup"><span data-stu-id="4332d-135">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="4332d-136">שדהזה כולל את הערכים אפשריים הבאים:</span><span class="sxs-lookup"><span data-stu-id="4332d-136">This field has the following possible values:</span></span></br><span data-ttu-id="4332d-137">- כל משימות הפרויקט</span><span class="sxs-lookup"><span data-stu-id="4332d-137">- All project tasks</span></span></br><span data-ttu-id="4332d-138">- משימות פרויקט נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="4332d-138">- Selected project tasks only</span></span></br><span data-ttu-id="4332d-139">ערך ריק בשדה זה שווה ערך לאפשרות **כל משימות הפרויקט**.</span><span class="sxs-lookup"><span data-stu-id="4332d-139">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="4332d-140">כשנבחרת האפשרות **משימות הפרויקט נבחרות בלבד**, אז בדף הפרויקט, הכרטיסיה **הגדרת חיוב משימות** מאפשרת לך לבחור משימות ספציפיות כדי לשייך אותן לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-140">When **Selected project tasks only** is selected then on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="4332d-141">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-141">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-142">כלול זמן</span><span class="sxs-lookup"><span data-stu-id="4332d-142">Include Time</span></span> | <span data-ttu-id="4332d-143">דגל **כן**/**לא** מציין אם עסקאות זמן או עלויות עבודה בפרויקט שנבחר ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-143">A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-144">הערך **לא** מציין שעסקאות זמן או עלויות עבודה לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-144">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-145">הערך **כן** מציין שעסקאות זמן או עלויות עבודה ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-145">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4332d-146">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-146">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-147">כלול הוצאה</span><span class="sxs-lookup"><span data-stu-id="4332d-147">Include Expense</span></span> | <span data-ttu-id="4332d-148">דגל **כן**/**לא** מציין אם עלויות ההוצאות בפרויקט שנבחר ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-148">A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-149">הערך **לא** מציין שעלויות ההוצאות לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-149">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-150">הערך **כן** מציין שעלויות ההוצאות ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-150">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4332d-151">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-151">This field value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-152">כלול תשלום</span><span class="sxs-lookup"><span data-stu-id="4332d-152">Include Fee</span></span> | <span data-ttu-id="4332d-153">דגל **כן**/**לא** מציין אם עמלות על הפרויקט שנבחר ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-153">A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-154">הערך **לא** מציין שהעמלות לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-154">A **No** value indicates that the Fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="4332d-155">הערך **כן** מציין שהעמלות ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-155">A **Yes** value indicates that the Fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="4332d-156">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-156">This field value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-157">הסכום של הצעת המחיר</span><span class="sxs-lookup"><span data-stu-id="4332d-157">Quoted Amount</span></span> | <span data-ttu-id="4332d-158">זהו סכום הצעת המחיר שינתן ללקוח עבור כל העבודה החזויה בשורת הצעת מחיר מבוססת פרויקט זו.</span><span class="sxs-lookup"><span data-stu-id="4332d-158">This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="4332d-159">בהצעת מחיר שנוצרת מהזדמנות, ערך זה מועתק מהשדה **תקציב הלקוח** שבשורת הזדמנות.</span><span class="sxs-lookup"><span data-stu-id="4332d-159">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="4332d-160">כשבשורת צעת מחיר מבוססת הפרויקט יש פרטי שורה, שדה זה נעול לעריכה ומסוכם מהסכום שנמצא בפרטים בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-160">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="4332d-161">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-161">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-162">מס משוער</span><span class="sxs-lookup"><span data-stu-id="4332d-162">Estimated Tax</span></span> | <span data-ttu-id="4332d-163">זהו שדה הניתן לעריכה שהמשתמש יכול להוסיף בו את סכום המס המשוער בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-163">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="4332d-164">כשבשורת צעת מחיר מבוססת הפרויקט יש פרטי שורה, שדה זה נעול לעריכה ומסוכם מסכום המס שנמצא בפרטים בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-164">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="4332d-165">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-165">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-166">סכום הצעת המחיר, אחרי מס</span><span class="sxs-lookup"><span data-stu-id="4332d-166">Quoted Amount after Tax</span></span> | <span data-ttu-id="4332d-167">שדה זה הוא סכום שורת הצעת המחיר לאחר מס והוא לקריאה בלבד.</span><span class="sxs-lookup"><span data-stu-id="4332d-167">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="4332d-168">הסכום בשדה זה מחושב כ *סכום הצעת המחיר + מס*.</span><span class="sxs-lookup"><span data-stu-id="4332d-168">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="4332d-169">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-169">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-170">מגבלת 'אין לחרוג'</span><span class="sxs-lookup"><span data-stu-id="4332d-170">Not-to-exceed Limit</span></span> | <span data-ttu-id="4332d-171">שדה זה ניתן לעריכה והוא זמין רק בשורות הצעות מחיר מבוססות פרויקט עם שיטת חיוב של **זמן וחומרים**.</span><span class="sxs-lookup"><span data-stu-id="4332d-171">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="4332d-172">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-172">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
-| <span data-ttu-id="4332d-173">תקציב הלקוח</span><span class="sxs-lookup"><span data-stu-id="4332d-173">Customer Budget</span></span> | <span data-ttu-id="4332d-174">שדה זה ניתן לעריכה ומועתק מהשדה התואם בשורת ההזדמנות אם הצעת המחיר נוצרה מהזדמנות.</span><span class="sxs-lookup"><span data-stu-id="4332d-174">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="4332d-175">ערך שדה זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-175">This field value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-119">שם</span><span class="sxs-lookup"><span data-stu-id="dae21-119">Name</span></span> | <span data-ttu-id="dae21-120">שם שורת הצעת המחיר המסייע לך לזהות את המרכיב הנפרד של הצעת המחיר המוערכת.</span><span class="sxs-lookup"><span data-stu-id="dae21-120">The name of quote line that helps you to identify the discrete component of the quote that is being estimated.</span></span> | <span data-ttu-id="dae21-121">מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו בעת הזכייה הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-121">Copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-122">שיטת חיוב</span><span class="sxs-lookup"><span data-stu-id="dae21-122">Billing Method</span></span> | <span data-ttu-id="dae21-123">כשנוצרת הצעת מחיר מהזדמנות, ערך זה מועתק מהשדה התואם שבשורת הזדמנות.</span><span class="sxs-lookup"><span data-stu-id="dae21-123">On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line.</span></span> <span data-ttu-id="dae21-124">תחום זה כולל את שני המודלים העיקריים לחוזים, שנתמכים על ידי Dynamics 365 Project Operations:</span><span class="sxs-lookup"><span data-stu-id="dae21-124">This field includes the two main contracting models supported by Dynamics 365 Project Operations:</span></span></br><span data-ttu-id="dae21-125">- מחיר קבוע</span><span class="sxs-lookup"><span data-stu-id="dae21-125">- Fixed price</span></span></br><span data-ttu-id="dae21-126">- זמן וחומרים.</span><span class="sxs-lookup"><span data-stu-id="dae21-126">- Time and material.</span></span>| <span data-ttu-id="dae21-127">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-127">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-128">פרויקט</span><span class="sxs-lookup"><span data-stu-id="dae21-128">Project</span></span> | <span data-ttu-id="dae21-129">השתמש בשדה אופציונלי זה כדי לזהות את הפרויקט שישמש להגשת העבודה בהתקשרות זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-129">Use this optional field to identify the project that will be used to deliver the work on this engagement.</span></span> <span data-ttu-id="dae21-130">כאשר פרויקט ממופה לשורת הצעת מחיר, זה עוזר בהגדרת משימות הניתנות לחיוב וגם בכנסת הערכה מבוססת פרויקט לשורת הצעת המחיר, כפרטים בשורת הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-130">When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details.</span></span> <span data-ttu-id="dae21-131">כאשר פרויקט אינו ממופה לשורת הצעת מחיר מבוססת פרויקט, יש ליצור את ההערכה באופן ידני על ידי יצירת כל פרט שבשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-131">When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail.</span></span> | <span data-ttu-id="dae21-132">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-132">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span>|
+| <span data-ttu-id="dae21-133">משימות כלולות</span><span class="sxs-lookup"><span data-stu-id="dae21-133">Included Tasks</span></span> | <span data-ttu-id="dae21-134">הוא מציין אם שורת הצעת מחיר זו משמשת עבור כל משימות הפרויקט של הפרויקט שנבחר או עבור חלקן.</span><span class="sxs-lookup"><span data-stu-id="dae21-134">Indicates if this quote line is used for all or some of the project tasks for the selected project.</span></span> <span data-ttu-id="dae21-135">שדהזה כולל את הערכים אפשריים הבאים:</span><span class="sxs-lookup"><span data-stu-id="dae21-135">This field has the following possible values:</span></span></br><span data-ttu-id="dae21-136">- כל משימות הפרויקט</span><span class="sxs-lookup"><span data-stu-id="dae21-136">- All project tasks</span></span></br><span data-ttu-id="dae21-137">- משימות פרויקט נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="dae21-137">- Selected project tasks only</span></span></br><span data-ttu-id="dae21-138">ערך ריק בשדה זה שווה ערך לאפשרות **כל משימות הפרויקט**.</span><span class="sxs-lookup"><span data-stu-id="dae21-138">A blank value in this field is equivalent to the **All project tasks** option.</span></span> | <span data-ttu-id="dae21-139">בעת בחירה באפשרות **משימות פרויקט נבחרות בלבד** בדף הפרויקט, הכרטיסיה **הגדרת חיוב משימה** מאפשרת לך לבחור משימות ספציפיות כדי לשייך אותן לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-139">When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line.</span></span> <span data-ttu-id="dae21-140">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-140">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-141">כלול זמן</span><span class="sxs-lookup"><span data-stu-id="dae21-141">Include Time</span></span> | <span data-ttu-id="dae21-142">הערך **כן**/**לא** מציין אם עסקאות זמן או עלויות עבודה בפרויקט שנבחר ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-142">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-143">הערך **לא** מציין שעסקאות זמן או עלויות עבודה לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-143">A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-144">הערך **כן** מציין שעסקאות זמן או עלויות עבודה ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-144">A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="dae21-145">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-145">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-146">כלול הוצאה</span><span class="sxs-lookup"><span data-stu-id="dae21-146">Include Expense</span></span> | <span data-ttu-id="dae21-147">הערך **כן**/**לא** מציין אם עלויות הוצאה בפרויקט שנבחר ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-147">A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-148">הערך **לא** מציין שעלויות ההוצאות לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-148">A **No** value indicates that the expense cost will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-149">הערך **כן** מציין שעלויות ההוצאות ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-149">A **Yes** value indicates that the expense cost will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="dae21-150">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-150">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-151">כלול חומר</span><span class="sxs-lookup"><span data-stu-id="dae21-151">Include Material</span></span> | <span data-ttu-id="dae21-152">הערך **כן**/**לא** מציין אם עלויות חומר בפרויקט שנבחר ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-152">A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-153">הערך **לא** מציין שעלויות חומר לא ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-153">A **No** value indicates that the material costs will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-154">הערך **כן** מציין שעלויות חומר ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-154">A **Yes** value indicates that the material costs will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="dae21-155">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-155">This value is copied over to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-156">כלול תשלום</span><span class="sxs-lookup"><span data-stu-id="dae21-156">Include Fee</span></span> | <span data-ttu-id="dae21-157">הערך **כן**/**לא** מציין אם עמלות בפרויקט שנבחר ייכללו בהערכה לשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-157">A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-158">הערך **לא** מציין שהעמלות לא ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-158">A **No** value indicates that the fees will not be included in the estimate on this quote line.</span></span> <span data-ttu-id="dae21-159">הערך **כן** מציין שהעמלות ייכללו בהערכה בשורת הצעת מחיר זו.</span><span class="sxs-lookup"><span data-stu-id="dae21-159">A **Yes** value indicates that the fees will be included in the estimate on this quote line.</span></span> | <span data-ttu-id="dae21-160">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-160">This value is copied to the Project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-161">הסכום של הצעת המחיר</span><span class="sxs-lookup"><span data-stu-id="dae21-161">Quoted Amount</span></span> | <span data-ttu-id="dae21-162">זהו הסכום שיוצע כהצעת מחיר ללקוח עבור כל העבודה החזויה בשורת הצעת מחיר זו המבוססת על פרויקט.</span><span class="sxs-lookup"><span data-stu-id="dae21-162">This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line.</span></span> <span data-ttu-id="dae21-163">בהצעת מחיר שנוצרת מהזדמנות, ערך זה מועתק מהשדה **תקציב הלקוח** שבשורת הזדמנות.</span><span class="sxs-lookup"><span data-stu-id="dae21-163">On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line.</span></span> <span data-ttu-id="dae21-164">כשבשורת צעת מחיר מבוססת הפרויקט יש פרטי שורה, שדה זה נעול לעריכה ומסוכם מהסכום שנמצא בפרטים בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-164">When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details.</span></span> | <span data-ttu-id="dae21-165">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-165">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-166">מס משוער</span><span class="sxs-lookup"><span data-stu-id="dae21-166">Estimated Tax</span></span> | <span data-ttu-id="dae21-167">זהו שדה הניתן לעריכה שהמשתמש יכול להוסיף בו את סכום המס המשוער בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-167">This is an editable field for the user to add the estimated tax amount on the quote line.</span></span> <span data-ttu-id="dae21-168">כשבשורת צעת מחיר מבוססת הפרויקט יש פרטי שורה, שדה זה נעול לעריכה ומסוכם מסכום המס שנמצא בפרטים בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-168">When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details.</span></span> | <span data-ttu-id="dae21-169">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-169">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-170">סכום הצעת המחיר, אחרי מס</span><span class="sxs-lookup"><span data-stu-id="dae21-170">Quoted Amount after Tax</span></span> | <span data-ttu-id="dae21-171">שדה זה הוא סכום שורת הצעת המחיר לאחר מס והוא לקריאה בלבד.</span><span class="sxs-lookup"><span data-stu-id="dae21-171">This field is the quote line amount after tax and is read-only.</span></span> <span data-ttu-id="dae21-172">הסכום בשדה זה מחושב כ *סכום הצעת המחיר + מס*.</span><span class="sxs-lookup"><span data-stu-id="dae21-172">The amount in this field is calculated as *Quoted Amount + Tax*.</span></span> | <span data-ttu-id="dae21-173">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-173">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-174">מגבלת 'אין לחרוג'</span><span class="sxs-lookup"><span data-stu-id="dae21-174">Not-to-exceed Limit</span></span> | <span data-ttu-id="dae21-175">שדה זה ניתן לעריכה והוא זמין רק בשורות הצעות מחיר מבוססות פרויקט עם שיטת חיוב של **זמן וחומרים**.</span><span class="sxs-lookup"><span data-stu-id="dae21-175">This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method.</span></span> | <span data-ttu-id="dae21-176">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-176">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
+| <span data-ttu-id="dae21-177">תקציב הלקוח</span><span class="sxs-lookup"><span data-stu-id="dae21-177">Customer Budget</span></span> | <span data-ttu-id="dae21-178">שדה זה ניתן לעריכה ומועתק מהשדה התואם בשורת ההזדמנות אם הצעת המחיר נוצרה מהזדמנות.</span><span class="sxs-lookup"><span data-stu-id="dae21-178">This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity.</span></span> | <span data-ttu-id="dae21-179">ערך זה מועתק לסעיף חוזה הפרויקט שנוצר משורת הצעת מחיר זו כאשר הצעת המחיר זוכה.</span><span class="sxs-lookup"><span data-stu-id="dae21-179">This value is copied to the project contract line that is created from this quote line when the quote is won.</span></span> |
 
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="4332d-176">כללי אימות עבור שדות בכרטיסיה 'כללי' של שורות הצעות מחיר מבוססות פרויקט</span><span class="sxs-lookup"><span data-stu-id="4332d-176">Validation rules for fields on the General tab of project-based quote lines</span></span>
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a><span data-ttu-id="dae21-180">כללי אימות עבור שדות בכרטיסיה 'כללי' של שורות הצעות מחיר מבוססות פרויקט</span><span class="sxs-lookup"><span data-stu-id="dae21-180">Validation rules for fields on the General tab of project-based quote lines</span></span>
 
-<span data-ttu-id="4332d-177">**כלל 1**: אם השדה **משימות כלולות** ריק, או אם הוא מוגדר ל **כל משימות הפרויקט**, פרויקט כלול בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-177">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
+<span data-ttu-id="dae21-181">**כלל 1**: אם השדה **משימות כלולות** ריק, או אם הוא מוגדר ל **כל משימות הפרויקט**, פרויקט כלול בשורת הצעת המחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-181">**Rule 1**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project is included in the quote line.</span></span>
 
-<span data-ttu-id="4332d-178">**כלל 2**: אם השדה **משימות כלולות** ריק, או אם הוא מוגדר ל **כל משימות הפרויקט**, פרויקט וסיווג עסקאות מסוים יכולים להיכלל רק בשורת הצעת מחיר מבוססת פרויקט אחת של הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-178">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
+<span data-ttu-id="dae21-182">**כלל 2**: אם השדה **משימות כלולות** ריק, או אם הוא מוגדר ל **כל משימות הפרויקט**, פרויקט וסיווג עסקאות מסוים יכולים להיכלל רק בשורת הצעת מחיר מבוססת פרויקט אחת של הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-182">**Rule 2**: If the **Included Tasks** field is blank, or if it is set to **All project tasks**, a project and a certain transaction class can only be included on one project-based quote line of a quote.</span></span>
 
-<span data-ttu-id="4332d-179">**כלל 3**: אם השדה **משימות כלולות** מוגדר ל **משימות הפרויקט נבחרות בלבד**, פרויקט וסיווג עסקאות מסוים יכולים להיכלל בשורת הצעת מחיר מבוססת פרויקט מרובות של הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="4332d-179">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
+<span data-ttu-id="dae21-183">**כלל 3**: אם השדה **משימות כלולות** מוגדר ל **משימות הפרויקט נבחרות בלבד**, פרויקט וסיווג עסקאות מסוים יכולים להיכלל בשורת הצעת מחיר מבוססת פרויקט מרובות של הצעת מחיר.</span><span class="sxs-lookup"><span data-stu-id="dae21-183">**Rule 3**: If the **Included Tasks** field is set to **Selected project tasks only**, a project and a certain transaction class can be included on multiple project-based quote lines of a quote.</span></span>
 
-<span data-ttu-id="4332d-180">**כלל 4**: אם להזדמנות יש הצעות מחיר מרובות, יכולות להיות שורות הצעות מחיר מהצעות מחיר שונות, שכולן מתייחסות לאותו פרויקט וכוללות את אותו סיווג עסקאות.</span><span class="sxs-lookup"><span data-stu-id="4332d-180">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
+<span data-ttu-id="dae21-184">**כלל 4**: אם להזדמנות יש הצעות מחיר מרובות, יכולות להיות שורות הצעות מחיר מהצעות מחיר שונות, שכולן מתייחסות לאותו פרויקט וכוללות את אותו סיווג עסקאות.</span><span class="sxs-lookup"><span data-stu-id="dae21-184">**Rule 4**: If an opportunity has multiple quotes, there can be quote lines from different quotes that all reference the same project and include the same transaction class.</span></span>
 
-<span data-ttu-id="4332d-181">**כלל 5**: אם הצעות המחיר אינן שייכות לאותה הזדמנות, הן אינן יכולות לכלול את אותו פרויקט וסיווג עסקאות.</span><span class="sxs-lookup"><span data-stu-id="4332d-181">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
+<span data-ttu-id="dae21-185">**כלל 5**: אם הצעות המחיר אינן שייכות לאותה הזדמנות, הן אינן יכולות לכלול את אותו פרויקט וסיווג עסקאות.</span><span class="sxs-lookup"><span data-stu-id="dae21-185">**Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.</span></span>
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
-                <p><span data-ttu-id="4332d-182">
+            <td width="59" valign="top">
+                <p><span data-ttu-id="dae21-186">
                     <strong>הזדמנות</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-182">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-186">
                     <strong>Opportunity</strong>
                 </span></span></p>
             </td>
-            <td width="41" valign="top">
-                <p><span data-ttu-id="4332d-183">
+            <td width="39" valign="top">
+                <p><span data-ttu-id="dae21-187">
                     <strong>הצעת מחיר</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-183">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-187">
                     <strong>Quote</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="4332d-184">
+            <td width="40" valign="top">
+                <p><span data-ttu-id="dae21-188">
                     <strong>שורת הצעת מחיר</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-184">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-188">
                     <strong>Quote line</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="4332d-185">
+            <td width="41" valign="top">
+                <p><span data-ttu-id="dae21-189">
                     <strong>פרויקט</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-185">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-189">
                     <strong>Project</strong>
                 </span></span></p>
             </td>
-            <td width="90" valign="top">
-                <p><span data-ttu-id="4332d-186">
+            <td width="77" valign="top">
+                <p><span data-ttu-id="dae21-190">
                     <strong>משימות כלולות</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-186">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-190">
                     <strong>Included tasks</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="4332d-187">
+            <td width="45" valign="top">
+                <p><span data-ttu-id="dae21-191">
                     <strong>כלול זמן</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-187">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-191">
                     <strong>Include Time</strong>
                 </span></span></p>
             </td>
-            <td width="48" valign="top">
-                <p><span data-ttu-id="4332d-188">
+            <td width="46" valign="top">
+                <p><span data-ttu-id="dae21-192">
                     <strong>כלול הוצאה</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-188">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-192">
                     <strong>Include Expense</strong>
                 </span></span></p>
             </td>
-            <td width="42" valign="top">
-                <p><span data-ttu-id="4332d-189">
-                    <strong>הכללה</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-189">
+            <td width="43" valign="top">
+                <p><span data-ttu-id="dae21-193">
+                    <strong>כלול חומר</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-193">
+                    <strong>Include Material</strong>
+                </span></span></p>
+            </td>
+            <td width="41" valign="top">
+                <p><span data-ttu-id="dae21-194">
+                    <strong>כולל</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-194">
                     <strong>Include</strong>
                 </span></span></p>
-                <p><span data-ttu-id="4332d-190">
+                <p><span data-ttu-id="dae21-195">
                     <strong>תשלום</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-190">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-195">
                     <strong>Fee</strong>
                 </span></span></p>
             </td>
-            <td width="54" valign="top">
-                <p><span data-ttu-id="4332d-191">
+            <td width="49" valign="top">
+                <p><span data-ttu-id="dae21-196">
                     <strong>חוקי/לא חוקי</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-191">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-196">
                     <strong>Valid/ Not valid</strong>
                 </span></span></p>
             </td>
-            <td width="308" valign="top">
-                <p><span data-ttu-id="4332d-192">
+            <td width="200" valign="top">
+                <p><span data-ttu-id="dae21-197">
                     <strong>סיבה</strong>
-                </span><span class="sxs-lookup"><span data-stu-id="4332d-192">
+                </span><span class="sxs-lookup"><span data-stu-id="dae21-197">
                     <strong>Reason</strong>
                 </span></span></p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-193">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-193">O1</span></span> </p>
+<span data-ttu-id="dae21-198">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-198">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-199">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-199">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-200">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-200">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-194">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-194">Q1</span></span> </p>
+<span data-ttu-id="dae21-201">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-201">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-195">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-195">QL1</span></span> </p>
+<span data-ttu-id="dae21-202">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-202">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-196">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-196">P1</span></span> </p>
+<span data-ttu-id="dae21-203">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-203">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-197">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-197">Blank</span></span> </p>
+<span data-ttu-id="dae21-204">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-204">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-198">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-198">Yes</span></span> </p>
+<span data-ttu-id="dae21-205">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-205">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-199">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-199">Yes</span></span> </p>
+<span data-ttu-id="dae21-206">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-206">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-200">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-200">Yes</span></span> </p>
+<span data-ttu-id="dae21-207">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-207">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-201">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-201">Not valid</span></span> </p>
+<span data-ttu-id="dae21-208">הפרת כלל מס' 2.</span><span class="sxs-lookup"><span data-stu-id="dae21-208">Violation of Rule #2.</span></span> <span data-ttu-id="dae21-209">זמן, הוצאות ועמלות בפרויקט P1 כלולים בשורות הצעות מחיר QL1 ו-QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-209">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+        </tr>
+        <tr>
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-202">הפרת כלל מס' 2.</span><span class="sxs-lookup"><span data-stu-id="4332d-202">Violation of Rule #2.</span></span> <span data-ttu-id="4332d-203">זמן, הוצאות ועמלות בפרויקט P1 כלולים בשורות הצעות מחיר QL1 ו-QL2.</span><span class="sxs-lookup"><span data-stu-id="4332d-203">Time, Expense, and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="dae21-210">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-210">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-211">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-211">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-212">QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-212">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-213">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-213">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="dae21-214">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-214">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="dae21-215">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-215">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="dae21-216">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-216">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="dae21-217">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-217">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-218">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-218">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="dae21-219">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-219">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-220">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-220">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-221">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-221">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-222">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-222">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="dae21-223">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-223">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="dae21-224">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-224">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="dae21-225">Yes</span><span class="sxs-lookup"><span data-stu-id="dae21-225">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="dae21-226">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-226">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-227">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-227">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="dae21-228">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-228">Not valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="dae21-229">הפרת כלל מס' 2.</span><span class="sxs-lookup"><span data-stu-id="dae21-229">Violation of Rule #2.</span></span> <span data-ttu-id="dae21-230">זמן, חומר ועמלות בפרויקט P1 כלולים בשורות הצעות מחיר QL1 ו-QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-230">Time, Material, and Fees on P1 project are included on quote lines QL1 and QL2</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="dae21-231">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-231">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-232">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-232">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-233">QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-233">QL2</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-234">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-234">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="dae21-235">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-235">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="dae21-236">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-236">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="dae21-237">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-237">Yes</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="dae21-238">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-238">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-239">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-239">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="77" valign="top">
+            </td>
+            <td width="45" valign="top">
+            </td>
+            <td width="46" valign="top">
+            </td>
+            <td width="43" valign="top">
+            </td>
+            <td width="41" valign="top">
+            </td>
+            <td width="49" valign="top">
+            </td>
+            <td width="200" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="59" valign="top">
+                <p>
+<span data-ttu-id="dae21-240">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-240">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-241">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-241">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-242">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-242">QL1</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-243">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-243">P1</span></span> </p>
+            </td>
+            <td width="77" valign="top">
+                <p>
+<span data-ttu-id="dae21-244">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-244">Blank</span></span> </p>
+            </td>
+            <td width="45" valign="top">
+                <p>
+<span data-ttu-id="dae21-245">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-245">Yes</span></span> </p>
+            </td>
+            <td width="46" valign="top">
+                <p>
+<span data-ttu-id="dae21-246">Yes</span><span class="sxs-lookup"><span data-stu-id="dae21-246">No</span></span> </p>
+            </td>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="dae21-247">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-247">Yes</span></span> </p>
+            </td>
+            <td width="41" valign="top">
+                <p>
+<span data-ttu-id="dae21-248">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-248">Yes</span></span> </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="dae21-249">חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-249">Valid</span></span> </p>
+            </td>
+            <td width="200" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="dae21-250">זמן, חומר ועמלות בפרויקט P1 כלולים ב- QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-250">Time, Material, and Fees on P1 project are included on QL1</span></span> <br>
+<span data-ttu-id="dae21-251">הוצאות בפרויקט P1 כלולות ב-QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-251">Expense on P1 project is included on QL2</span></span> <br>
+<span data-ttu-id="dae21-252">אין חפיפה במה שנכלל בכל שורת הצעת מחיר, ולכן תקף.</span><span class="sxs-lookup"><span data-stu-id="dae21-252">No overlap in what is being included on each quote line and therefore valid.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-204">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-204">O1</span></span> </p>
+<span data-ttu-id="dae21-253">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-253">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-254">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-254">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-255">QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-255">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-205">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-205">Q1</span></span> </p>
+<span data-ttu-id="dae21-256">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-256">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-206">QL2</span><span class="sxs-lookup"><span data-stu-id="4332d-206">QL2</span></span> </p>
+<span data-ttu-id="dae21-257">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-257">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-207">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-207">P1</span></span> </p>
+<span data-ttu-id="dae21-258">Yes</span><span class="sxs-lookup"><span data-stu-id="dae21-258">No</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-208">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-208">Blank</span></span> </p>
+<span data-ttu-id="dae21-259">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-259">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-209">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-209">Yes</span></span> </p>
+<span data-ttu-id="dae21-260">Yes</span><span class="sxs-lookup"><span data-stu-id="dae21-260">No</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-210">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-210">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-211">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-211">Yes</span></span> </p>
+<span data-ttu-id="dae21-261">Yes</span><span class="sxs-lookup"><span data-stu-id="dae21-261">No</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-212">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-212">O1</span></span> </p>
+<span data-ttu-id="dae21-262">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-262">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-263">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-263">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-264">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-264">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-213">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-213">Q1</span></span> </p>
+<span data-ttu-id="dae21-265">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-265">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-214">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-214">QL1</span></span> </p>
+<span data-ttu-id="dae21-266">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="dae21-266">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-215">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-215">P1</span></span> </p>
+<span data-ttu-id="dae21-267">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-267">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-216">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-216">Blank</span></span> </p>
+<span data-ttu-id="dae21-268">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-268">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-217">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-217">Yes</span></span> </p>
+<span data-ttu-id="dae21-269">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-269">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-218">Yes</span><span class="sxs-lookup"><span data-stu-id="4332d-218">No</span></span> </p>
+<span data-ttu-id="dae21-270">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-270">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-219">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-219">Yes</span></span> </p>
+<span data-ttu-id="dae21-271">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-271">Not valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-220">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-220">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
+<span data-ttu-id="dae21-272">הפרת כלל מס' 2</span><span class="sxs-lookup"><span data-stu-id="dae21-272">Violation of Rule #2</span></span> </p>
                 <p>
-<span data-ttu-id="4332d-221">הפרת כלל מס' 2.</span><span class="sxs-lookup"><span data-stu-id="4332d-221">Violation of Rule #2.</span></span> <span data-ttu-id="4332d-222">זמן ועמלות בפרויקט P1 כלולים בשורות הצעות מחיר QL1 ו-QL2.</span><span class="sxs-lookup"><span data-stu-id="4332d-222">Time and Fees on P1 project are included on quote lines QL1 and QL2.</span></span>
+<span data-ttu-id="dae21-273">Q1 כולל זמן, חומר, הוצאות ועמלות לקבוצת משנה של משימות בפרויקט P1</span><span class="sxs-lookup"><span data-stu-id="dae21-273">Q1 includes Time, Material, Expenses and Fees on a subset of tasks on project P1</span></span> </p>
+                <p>
+<span data-ttu-id="dae21-274">QL2 כולל זמן, הוצאות ועמלות עבור כל הפרויקט P1 ולכן חופף את מה שנכלל ב-Q1.</span><span class="sxs-lookup"><span data-stu-id="dae21-274">QL2 includes Time, Expenses, and Fees for the whole project P1 and therefore overlaps with what is included on Q1.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-223">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-223">O1</span></span> </p>
+<span data-ttu-id="dae21-275">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-275">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-276">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-276">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-277">QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-277">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-224">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-224">Q1</span></span> </p>
+<span data-ttu-id="dae21-278">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-278">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-225">QL2</span><span class="sxs-lookup"><span data-stu-id="4332d-225">QL2</span></span> </p>
+<span data-ttu-id="dae21-279">ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-279">Blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-226">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-226">P1</span></span> </p>
+<span data-ttu-id="dae21-280">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-280">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-227">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-227">Blank</span></span> </p>
+<span data-ttu-id="dae21-281">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-281">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-228">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-228">Yes</span></span> </p>
+<span data-ttu-id="dae21-282">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-282">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-229">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-229">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-230">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-230">Yes</span></span> </p>
+<span data-ttu-id="dae21-283">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-283">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-231">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-231">O1</span></span> </p>
+<span data-ttu-id="dae21-284">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-284">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-285">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-285">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-286">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-286">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-232">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-232">Q1</span></span> </p>
+<span data-ttu-id="dae21-287">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-287">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-233">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-233">QL1</span></span> </p>
+<span data-ttu-id="dae21-288">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="dae21-288">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-234">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-234">P1</span></span> </p>
+<span data-ttu-id="dae21-289">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-289">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-235">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-235">Blank</span></span> </p>
+<span data-ttu-id="dae21-290">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-290">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-236">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-236">Yes</span></span> </p>
+<span data-ttu-id="dae21-291">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-291">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-237">Yes</span><span class="sxs-lookup"><span data-stu-id="4332d-237">No</span></span> </p>
+<span data-ttu-id="dae21-292">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-292">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-238">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-238">Yes</span></span> </p>
+<span data-ttu-id="dae21-293">חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-293">Valid</span></span> </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-239">חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-239">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-<span data-ttu-id="4332d-240">זמן ועמלות בפרויקט P1 כלולים ב-QL1.</span><span class="sxs-lookup"><span data-stu-id="4332d-240">Time and Fees on P1 project are included on QL1.</span></span>
-<span data-ttu-id="4332d-241">הוצאות בפרויקט P1 כלולות ב-QL2.</span><span class="sxs-lookup"><span data-stu-id="4332d-241">Expense on P1 project is included on QL2.</span></span>
-<span data-ttu-id="4332d-242">אין חפיפה במה שנכלל בכל שורת הצעת מחיר והוא תקף.</span><span class="sxs-lookup"><span data-stu-id="4332d-242">There is no overlap in what is being included on each quote line and is valid.</span></span>
+<span data-ttu-id="dae21-294">לפי כלל מס '3,</span><span class="sxs-lookup"><span data-stu-id="dae21-294">Per Rule #3,</span></span> </p>
+                <p>
+<span data-ttu-id="dae21-295">Q1 כולל זמן, חומר, הוצאות ועמלות לקבוצת משנה של משימות בפרויקט P1.</span><span class="sxs-lookup"><span data-stu-id="dae21-295">Q1 includes Time, Material, Expenses, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="dae21-296">QL2 כולל זמן, חומרים, הוצאות ועמלות לקבוצת משנה של משימות בפרויקט P1.</span><span class="sxs-lookup"><span data-stu-id="dae21-296">QL2 includes Time, Material, Expenses, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="dae21-297">האימות הנוסף היחיד הוא שקבוצת המשנה של המשימות ב- QL1 שונה מקבוצת משנה של המשימות ב- QL2 כדי להבטיח שאין חפיפה.</span><span class="sxs-lookup"><span data-stu-id="dae21-297">The only additional validation is around the subset of tasks on QL1 which is different from the subset of tasks on QL2 to ensure that there is no overlap.</span></span> <span data-ttu-id="dae21-298">פעולה זו מתבצעת על ידי המערכת כאשר משימות משויכות.</span><span class="sxs-lookup"><span data-stu-id="dae21-298">This is done by the system when tasks are associated.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-243">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-243">O1</span></span> </p>
+<span data-ttu-id="dae21-299">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-299">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-300">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-300">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-301">QL2</span><span class="sxs-lookup"><span data-stu-id="dae21-301">QL2</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-244">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-244">Q1</span></span> </p>
+<span data-ttu-id="dae21-302">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-302">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-245">QL2</span><span class="sxs-lookup"><span data-stu-id="4332d-245">QL2</span></span> </p>
+<span data-ttu-id="dae21-303">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="dae21-303">Selected tasks only</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-246">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-246">P1</span></span> </p>
+<span data-ttu-id="dae21-304">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-304">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-247">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-247">Blank</span></span> </p>
+<span data-ttu-id="dae21-305">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-305">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-248">Yes</span><span class="sxs-lookup"><span data-stu-id="4332d-248">No</span></span> </p>
+<span data-ttu-id="dae21-306">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-306">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-249">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-249">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-250">Yes</span><span class="sxs-lookup"><span data-stu-id="4332d-250">No</span></span> </p>
+<span data-ttu-id="dae21-307">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-307">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-251">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-251">O1</span></span> </p>
+<span data-ttu-id="dae21-308">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-308">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-309">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-309">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-310">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-310">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-252">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-252">Q1</span></span> </p>
+<span data-ttu-id="dae21-311">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-311">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-253">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-253">QL1</span></span> </p>
+<span data-ttu-id="dae21-312">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-312">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-254">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-254">P1</span></span> </p>
+<span data-ttu-id="dae21-313">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-313">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-255">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="4332d-255">Selected tasks only</span></span> </p>
+<span data-ttu-id="dae21-314">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-314">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-256">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-256">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-257">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-257">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-258">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-258">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-259">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-259">Not valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-260">הפרת כלל מס' 2 שלעיל</span><span class="sxs-lookup"><span data-stu-id="4332d-260">Violation of Rule #2 above</span></span> </p>
-                <p>
-<span data-ttu-id="4332d-261">ר1 כולל זמן, הוצאות ועמלות על קבוצת משנה של משימות בפרויקט P1.</span><span class="sxs-lookup"><span data-stu-id="4332d-261">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="4332d-262">QL2 כולל זמן, הוצאות ועמלות עבור כל הפרויקט P1 וחופף למה שנכלל ר1.</span><span class="sxs-lookup"><span data-stu-id="4332d-262">QL2 includes Time, Expenses, and Fees for the whole project P1 and overlaps with what is included on Q1.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="4332d-263">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-263">O1</span></span> </p>
+<span data-ttu-id="dae21-315">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-315">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-264">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-264">Q1</span></span> </p>
+<span data-ttu-id="dae21-316">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-316">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-265">QL2</span><span class="sxs-lookup"><span data-stu-id="4332d-265">QL2</span></span> </p>
+<span data-ttu-id="dae21-317">חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-317">Valid</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-266">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-266">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="4332d-267">ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-267">Blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-268">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-268">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-269">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-269">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-270">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-270">Yes</span></span> </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="4332d-271">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-271">O1</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="4332d-272">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-272">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-273">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-273">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-274">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-274">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="4332d-275">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="4332d-275">Selected tasks only</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-276">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-276">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-277">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-277">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-278">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-278">Yes</span></span> </p>
-            </td>
-            <td width="54" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-279">חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-279">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-280">לפי כלל מס' 3 לעיל,</span><span class="sxs-lookup"><span data-stu-id="4332d-280">Per Rule #3 above,</span></span> </p>
-                <p>
-<span data-ttu-id="4332d-281">ר1 כולל זמן, הוצאות ועמלות על קבוצת משנה של משימות בפרויקט P1.</span><span class="sxs-lookup"><span data-stu-id="4332d-281">Q1 includes Time, Expenses, and Fees on a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="4332d-282">QL2 כולל זמן, הוצאות ועמלות עבור קבוצת משנה של משימות בפרויקט P1.</span><span class="sxs-lookup"><span data-stu-id="4332d-282">QL2 includes Time, Expenses, and Fees for a subset of tasks on project P1.</span></span>
-                </p>
-                <p>
-<span data-ttu-id="4332d-283">האימות הנוסף היחיד הוא סביב קבוצת המשנה של המשימות ב-QL1 אשר שונה מקבוצת המשנה של המשימות ב-QL2.</span><span class="sxs-lookup"><span data-stu-id="4332d-283">The only additional validation is around the subset of tasks on QL1 which are different from the subset of tasks on QL2.</span></span> <span data-ttu-id="4332d-284">דבר זה מבטיח שלא יהיו חפיפות.</span><span class="sxs-lookup"><span data-stu-id="4332d-284">This ensures that there are no overlaps.</span></span> <span data-ttu-id="4332d-285">פעולה זו מתבצעת על ידי המערכת כאשר משימות משויכות.</span><span class="sxs-lookup"><span data-stu-id="4332d-285">This is done by the system when tasks are associated.</span></span>
+<span data-ttu-id="dae21-318">לפי כלל מס '5, Q1 ו- Q2 הן שתי הצעות מחיר לאותה הזדמנות, כך שניתן להשתמש בשתיהן להערכת אותם מרכיבי הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="dae21-318">Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-286">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-286">O1</span></span> </p>
+<span data-ttu-id="dae21-319">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-319">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-320">ר2</span><span class="sxs-lookup"><span data-stu-id="dae21-320">Q2</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-321">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-321">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-287">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-287">Q1</span></span> </p>
+<span data-ttu-id="dae21-322">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-322">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-288">QL2</span><span class="sxs-lookup"><span data-stu-id="4332d-288">QL2</span></span> </p>
+<span data-ttu-id="dae21-323">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-323">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-289">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-289">P1</span></span> </p>
+<span data-ttu-id="dae21-324">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-324">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-290">משימות נבחרות בלבד</span><span class="sxs-lookup"><span data-stu-id="4332d-290">Selected tasks only</span></span> </p>
+<span data-ttu-id="dae21-325">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-325">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-291">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-291">Yes</span></span> </p>
+<span data-ttu-id="dae21-326">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-326">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-292">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-292">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-293">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-293">Yes</span></span> </p>
+<span data-ttu-id="dae21-327">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-327">Yes</span></span> </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-294">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-294">O1</span></span> </p>
+<span data-ttu-id="dae21-328">O1</span><span class="sxs-lookup"><span data-stu-id="dae21-328">O1</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-329">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-329">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-330">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-330">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-295">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-295">Q1</span></span> </p>
+<span data-ttu-id="dae21-331">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-331">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-296">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-296">QL1</span></span> </p>
+<span data-ttu-id="dae21-332">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-332">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-297">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-297">P1</span></span> </p>
+<span data-ttu-id="dae21-333">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-333">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-298">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-298">All project tasks or blank</span></span> </p>
+<span data-ttu-id="dae21-334">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-334">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-299">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-299">Yes</span></span> </p>
+<span data-ttu-id="dae21-335">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-335">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-300">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-300">Yes</span></span> </p>
+<span data-ttu-id="dae21-336">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-336">Yes</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-301">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-301">Yes</span></span> </p>
+<span data-ttu-id="dae21-337">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="dae21-337">Not Valid</span></span> </p>
             </td>
-            <td width="54" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-<span data-ttu-id="4332d-302">חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-302">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-303">בהתבסס על כלל מס' 5, Q1 ו-Q2 הן שתי הצעות מחיר באותה הזדמנות, כך ששתיהן יכולות לשמש להערכת אותם רכיבי פרויקט.</span><span class="sxs-lookup"><span data-stu-id="4332d-303">Based on Rule #5, Q1 and Q2 are two quotes on the same opportunity, so they can both estimate for the same components of a project.</span></span>
+<span data-ttu-id="dae21-338">לפי כלל מס '4, Q1 ו- Q2 הן שתי הצעות מחיר להזדמנויות שונות, כך שלא ניתן להשתמש בשתיהן להערכת אותם מרכיבים של אותו הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="dae21-338">Per Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of same project.</span></span>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
-<span data-ttu-id="4332d-304">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-304">O1</span></span> </p>
+<span data-ttu-id="dae21-339">O2</span><span class="sxs-lookup"><span data-stu-id="dae21-339">O2</span></span> </p>
+            </td>
+            <td width="39" valign="top">
+                <p>
+<span data-ttu-id="dae21-340">ר1</span><span class="sxs-lookup"><span data-stu-id="dae21-340">Q1</span></span> </p>
+            </td>
+            <td width="40" valign="top">
+                <p>
+<span data-ttu-id="dae21-341">QL1</span><span class="sxs-lookup"><span data-stu-id="dae21-341">QL1</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-305">ר2</span><span class="sxs-lookup"><span data-stu-id="4332d-305">Q2</span></span> </p>
+<span data-ttu-id="dae21-342">P1</span><span class="sxs-lookup"><span data-stu-id="dae21-342">P1</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
                 <p>
-<span data-ttu-id="4332d-306">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-306">QL1</span></span> </p>
+<span data-ttu-id="dae21-343">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="dae21-343">All project tasks or blank</span></span> </p>
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
                 <p>
-<span data-ttu-id="4332d-307">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-307">P1</span></span> </p>
+<span data-ttu-id="dae21-344">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-344">Yes</span></span> </p>
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
                 <p>
-<span data-ttu-id="4332d-308">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-308">All project tasks or blank</span></span> </p>
+<span data-ttu-id="dae21-345">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-345">Yes</span></span> </p>
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
                 <p>
-<span data-ttu-id="4332d-309">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-309">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-310">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-310">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-311">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-311">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-            </td>
-            <td width="41" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="90" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="48" valign="top">
-            </td>
-            <td width="42" valign="top">
-            </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="4332d-312">O1</span><span class="sxs-lookup"><span data-stu-id="4332d-312">O1</span></span> </p>
+<span data-ttu-id="dae21-346">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-346">Yes</span></span> </p>
             </td>
             <td width="41" valign="top">
                 <p>
-<span data-ttu-id="4332d-313">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-313">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-314">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-314">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-315">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-315">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="4332d-316">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-316">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-317">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-317">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-318">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-318">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-319">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-319">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="4332d-320">חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-320">Valid</span></span> </p>
-            </td>
-            <td width="308" rowspan="2" valign="top">
-                <p>
-<span data-ttu-id="4332d-321">בהתבסס על כלל מס' 4, Q1 ו-Q2 הן שתי הצעות מחיר עבור הזדמנויות שונות, כך שהן אינן יכולות לשמש להערכת אותם הרכיבים של אותו הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="4332d-321">Based on Rule #4, Q1 and Q2 are two quotes on different opportunities, so they can't estimate for the same components of the same project.</span></span>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="61" valign="top">
-                <p>
-<span data-ttu-id="4332d-322">O2</span><span class="sxs-lookup"><span data-stu-id="4332d-322">O2</span></span> </p>
-            </td>
-            <td width="41" valign="top">
-                <p>
-<span data-ttu-id="4332d-323">ר1</span><span class="sxs-lookup"><span data-stu-id="4332d-323">Q1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-324">QL1</span><span class="sxs-lookup"><span data-stu-id="4332d-324">QL1</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-325">P1</span><span class="sxs-lookup"><span data-stu-id="4332d-325">P1</span></span> </p>
-            </td>
-            <td width="90" valign="top">
-                <p>
-<span data-ttu-id="4332d-326">כל משימות הפרויקט או ריק</span><span class="sxs-lookup"><span data-stu-id="4332d-326">All project tasks or blank</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-327">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-327">Yes</span></span> </p>
-            </td>
-            <td width="48" valign="top">
-                <p>
-<span data-ttu-id="4332d-328">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-328">Yes</span></span> </p>
-            </td>
-            <td width="42" valign="top">
-                <p>
-<span data-ttu-id="4332d-329">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="4332d-329">Yes</span></span> </p>
-            </td>
-            <td width="54" valign="top">
-                <p>
-<span data-ttu-id="4332d-330">לא חוקי</span><span class="sxs-lookup"><span data-stu-id="4332d-330">Not Valid</span></span> </p>
+<span data-ttu-id="dae21-347">‏‏כן</span><span class="sxs-lookup"><span data-stu-id="dae21-347">Yes</span></span> </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

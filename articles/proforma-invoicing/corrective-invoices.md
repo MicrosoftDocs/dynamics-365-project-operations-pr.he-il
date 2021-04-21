@@ -1,41 +1,264 @@
 ---
-title: חשבוניות שתוקנו
-description: נושא זה מספק מידע על הפקת חשבוניות שתוקנו.
+title: חשבוניות מתקנות מבוססות פרויקט
+description: נושא זה מסביר כיצד ליצור ולאשר חשבוניות מתקנות מבוססות פרויקט ב-Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287824"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867042"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="415db-103">חשבוניות שתוקנו</span><span class="sxs-lookup"><span data-stu-id="415db-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="bcbe2-103">חשבוניות מתקנות מבוססות פרויקט</span><span class="sxs-lookup"><span data-stu-id="bcbe2-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="415db-104">_**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="415db-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="bcbe2-104">_**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_</span><span class="sxs-lookup"><span data-stu-id="bcbe2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="415db-105">ניתן לערוך חשבוניות שתוקנו.</span><span class="sxs-lookup"><span data-stu-id="415db-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="415db-106">בעת עריכה של חשבונית מאושרת, נוצרת טיוטה חדשה לחשבונית תיקון.</span><span class="sxs-lookup"><span data-stu-id="415db-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="415db-107">מכיוון שההנחה היא שברצונך לבטל את כל העסקאות והכמויות מהחשבונית המקורית, חשבונית תיקון זו כוללת את כל העסקאות מהחשבונית המקורית וכל הכמויות שבה הן אפס (0).</span><span class="sxs-lookup"><span data-stu-id="415db-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="bcbe2-105">ניתן לתקן חשבונית פרויקט שאושרה כדי לעבד שינויים או זיכויים בהתאם למשא ומתן עם הלקוח ועם מנהל הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="415db-108">כאשר עסקאות לא דורשות תיקון, תוכל להסיר אותן מהטיוטה של חשבונית התיקון.</span><span class="sxs-lookup"><span data-stu-id="415db-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="415db-109">כדי לבטל או להחזיר כמות חלקית בלבד, תוכל לערוך את השדה כמות בפירוט השורה.</span><span class="sxs-lookup"><span data-stu-id="415db-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="415db-110">אם תפתח את הפירוט בשורת החשבונית, תוכל לראות את הכמות בחשבונית המקורית.</span><span class="sxs-lookup"><span data-stu-id="415db-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="415db-111">לאחר מכן תוכל לערוך את הכמות בחשבונית הנוכחית כך שתהיה קטנה או גדולה מהכמות בחשבונית המקורית.</span><span class="sxs-lookup"><span data-stu-id="415db-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="bcbe2-106">כדי לערוך חשבונית שאושרה, פתח את החשבונית שאושרה ובחר באפשרות **תקן חשבונית זו**.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="415db-112">בעת אישור חשבונית תיקון, הנתונים בפועל המקוריים של המכירות שחויבו מבוטלים, ונוצרים נתונים בפועל חדשים למכירות שחויבו.</span><span class="sxs-lookup"><span data-stu-id="415db-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="415db-113">אם הכמות הופחתה, ההפרש יגרום גם ליצירה של נתונים בפועל חדשים של מכירות שלא חויבו.</span><span class="sxs-lookup"><span data-stu-id="415db-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="415db-114">לדוגמה, אם המכירה המקורית שחויבה היתה עבור שמונה שעות, ובפרטי שורת חשבונית התיקון יש כמות מופחתת של שש שעות, השורה המקורית של המכירות תבוטל וייווצרו שני נתונים בפועל חדשים:</span><span class="sxs-lookup"><span data-stu-id="415db-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="bcbe2-107">אפשרות זו זמינה רק אם חשבונית הפרויקט אושרה או שבחשבונית מבוססת פרויקט יש מקדמות או ריטיינרים‬ או התאמות בין מקדמות או ריטיינרים‬.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="415db-115">נתונים בפועל למכירות שחויבו עבור שש שעות.</span><span class="sxs-lookup"><span data-stu-id="415db-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="415db-116">נתונים בפועל למכירות שלא חויבו עבור השעתיים שנותרו.</span><span class="sxs-lookup"><span data-stu-id="415db-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="415db-117">ניתן לחייב עסקה זו במועד מאוחר יותר או לסמנה כלא ניתנת לחיוב, בהתאם למשא ומתן עם הלקוח.</span><span class="sxs-lookup"><span data-stu-id="415db-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="bcbe2-108">תיווצר חשבונית טיוטה חדשה מהחשבונית שאושרה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="bcbe2-109">כל פרטי שורת החשבונית מהחשבונית שאושרה בעבר יועתקו לטיוטה החדשה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="bcbe2-110">להלן כמה מנקודות המפתח שיש להבין לגבי פרטי השורה בחשבונית המתוקנת החדשה:</span><span class="sxs-lookup"><span data-stu-id="bcbe2-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="bcbe2-111">כל הכמויות מתעדכנות לאפס.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-111">All quantities are updated to zero.</span></span> <span data-ttu-id="bcbe2-112">Dynamics 365 Project Operations מניח שכל הפריטים המחויבים מזוכים במלואם.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="bcbe2-113">במידת הצורך, תוכל לעדכן כמויות אלה באופן ידני כדי לשקף את הכמות שמחויבת, ולא את הכמות שמזוכה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="bcbe2-114">בהתבסס על הכמות שתזין, היישום יחשב את הכמות שיש לזכות.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="bcbe2-115">סכומים אלה באים לידי ביטוי בנתונים בפועל שנוצרים לאחר אישור החשבונית שתוקנה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="bcbe2-116">אם אתה מבצע שינויים בסכום המס, עליך להזין את סכום המס הנכון ולא את סכום המס לזיכוי.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="bcbe2-117">תיקוני אבן דרך תמיד מעובדים כזיכויים מלאים.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="bcbe2-118">עבור פרטי שורת החשבונית שהם תיקונים לחיובים אחרים שכבר בוצעו בחשבונית, השדה **תיקון** מוגדר בתור **כן**.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="bcbe2-119">עבור חשבוניות עם פרטים מתוקנים בשורת החשבונית, השדה **‏‫כולל תיקונים‬** מוגדר בתור **כן**.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="bcbe2-120">נתונים בפועל שנוצרו בעת אישור החשבונית המתוקנת</span><span class="sxs-lookup"><span data-stu-id="bcbe2-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="bcbe2-121">הטבלה הבאה מפרטת את הנתונים בפועל שנוצרים לאחר אישור החשבונית המתקנת.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="bcbe2-122">
+                    <strong>תרחיש</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="bcbe2-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="bcbe2-123">
+                    <strong>ניתונים בפועל שנוצרו באישור</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="bcbe2-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-124">הפקת חשבונית לזיכוי המלא של עסקה בזמן שהוגשה עבורה חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-125">ביטול מכירות שחויבו עבור השעות והסכום בפרט של שורת החשבונית המקורית לזמן.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-126">נתון בפועל חדש של מכירות שלא חויבו עבור השעות והסכום בפרט של שורת החשבונית המקורית לזמן.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-127">הפקת חשבונית לזיכוי החלקי של עסקה בזמן.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-128">ביטול מכירות שחויבו עבור השעות והסכום שהוגשה עבורם חשבונית בפרט של שורת החשבונית המקורית לזמן.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-129">‏‫נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור השעות והסכום בפרט שורת החשבונית הערוכה, ביטול שלו ונתון שווה ערך בפועל של מכירות שחויבו.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-130">נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור השעות והסכום הנותרים לאחר ניכוי של הנתונים המתוקנים בפרט שורת החשבונית.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-131">הפקת חשבונית לזיכוי המלא של עסקת הוצאה שהוגשה עבורה חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-132">ביטול מכירות שחויבו עבור הכמות והסכום בפרט של שורת החשבונית המקורית עבור ההוצאה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-133">‏‫נתון בפועל חדש של מכירות שלא חויבו עבור הכמות והסכום בפרט של שורת החשבונית המקורית עבור ההוצאה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-134">הפקת חשבונית לזיכוי החלקי של עסקת הוצאה שהוגשה עבורה חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-135">ביטול מכירות שחויבו עבור הכמות והסכום שהוגשה עבורם חשבונית בפרט של שורת החשבונית המקורית עבור ההוצאה.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-136">‏‫נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור הכמות והסכום בפרט שורת החשבונית המתוקנת, ביטול שלו ונתון שווה ערך בפועל של מכירות שחויבו.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-137">נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור הכמות והסכום הנותרים לאחר ניכוי של הנתונים המתוקנים בפרט שורת החשבונית.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-138">חשבונית זיכוי מלא על עסקת חומר שחויבה בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-139">‏‫ביטול עסקת מכירות שחויבה‬ על הכמות והסכום בפרטי שורת החשבונית המקורית עבור חומר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-140">‏‫נתונים בפועל חדשים למכירות שלא חויבו‬ על הכמות והסכום בפרטי שורת החשבונית המקורית עבור חומר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-141">הפקת חשבונית זיכוי חלקי על עסקת חומר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-142">‏‫ביטול עסקת מכירות שחויבה‬ על הכמות והסכום שחויבו בפרטי שורת החשבונית המקורית עבור חומר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-143">נתונים בפועל חדשים למכירות שלא חויבו הניתנות לחיוב‬ על הכמות והסכום בפירוט שורת החשבונית הערוכה, ביטול של פעולה זו ונתונים בפועל למכירות שחויבו שווי ערך.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-144">נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור הכמות והסכום הנותרים לאחר ניכוי של הנתונים המתוקנים בפרט שורת החשבונית.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-145">הפקת חשבונית לזיכוי המלא של עסקת תשלום שהוגשה עבורה חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-146">ביטול מכירות שחויבו עבור הכמות והסכום בפרט של שורת החשבונית המקורית עבור התשלום.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-147">‏‫נתון בפועל חדש של מכירות שלא חויבו עבור הכמות והסכום בפרט של שורת החשבונית המקורית עבור התשלום.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-148">הפקת חשבונית לזיכוי החלקי של עסקת תשלום שהוגשה עבורה חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-149">ביטול מכירות שחויבו עבור הכמות והסכום שהוגשה עבורם חשבונית בפרט של שורת החשבונית המקורית עבור התשלום.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-150">‏‫נתון בפועל חדש של מכירות שלא חויבו שניתן לחייב אותו עבור הכמות והסכום בפרט שורת חשבונית התיקון הערוכה, ביטול שלו ונתון שווה ערך בפועל של מכירות שחויבו.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-151">הפקת חשבונית לזיכוי המלא של אבן דרך שהוגשה עבורו חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-152">ביטול מכירות שחויבו עבור הסכום בפרט של שורת החשבונית המקורית לאבן הדרך.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="bcbe2-153">מצב החשבונית של אבן דרך מתעדכן מ: <b>חשבונית הלקוח פורסמה</b> ל: <b>מוכן להגיש חשבונית</b>.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-154">הפקת חשבונית לזיכוי החלקי של אבן דרך שהוגשה עבורו חשבונית בעבר.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="bcbe2-155">תרחיש זה אינו נתמך.</span><span class="sxs-lookup"><span data-stu-id="bcbe2-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
