@@ -3,7 +3,7 @@ title: דוחות הוצאות חדשניים
 description: נושא מסביר את החוויה המחודשת שניתן לדמיין אותה מחדש להזנת דוחות הוצאות.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499717"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717696"
 ---
 # <a name="expense-reports-reimagined"></a>דוחות הוצאות חדשניים
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499717"
 - לא מוסרים פריטי תפריט קיימים עבור דוחות הוצאות (העמוד הקיים) או שדות של דוחות הוצאות.
 - זרימות עבודה וכל האישורים עדיין מעבירים אותך לדף דוחות ההוצאות הקיים.
 
-## <a name="getting-started-video-for-new-users"></a>סרטון בנושא תחילת העבודה עבור משתמשים עסקיים
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-הסרטון [חווית ההוצאות ב-Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (שמוצג למעלה) נכלל ב[רשימת ההשמעה של Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) וזמין ב-YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>תכונות חדשות
 

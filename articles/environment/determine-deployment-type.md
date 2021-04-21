@@ -3,17 +3,17 @@ title: קביעת סוג הפריסה
 description: נושא זה מספק מידע שיעזור לך לקבוע איזה סוג פריסה של Project Operations מתאים לחברה שלך.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479565"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663595"
 ---
 # <a name="determine-your-deployment-type"></a>קביעת סוג הפריסה
 
@@ -44,7 +44,7 @@ Project Operations תומך במספר אפשרויות פריסה כדי להת
 - [Project Operations לתרחישים של משאבים/ללא מלאי](#integrated)
 - [Project Operations לתרחישי מלאי/הזמנת ייצור](#pma)
 
-Project Operations תומכות בתרחישים של מלאי/הזמנת ייצור ותרחישים ללא מלאי / מבוססי משאבים באותה סביבה באמצעות תצורות ברמת הישות המשפטית. לדוגמה, חברת Contoso יכולה להשתמש ביכולות הזמנת מלאי/הייצורבמתקן הייצור בארה"ב (היישות המשפטית = Contoso Manufacturing United States). Contoso יכולה להשתמש ביכולות שאינן במלאי/מבוססות משאבים במתקן השירות שלהם Contoso Robotics Arms בבריטניה (ישות משפטית = Contoso Robotics בריטניה).
+Project Operations תומכות בתרחישים של מלאי/הזמנת ייצור ותרחישים ללא מלאי / מבוססי משאבים באותה סביבה באמצעות תצורות ברמת הישות המשפטית. לדוגמה, Contoso יכולה להשתמש ביכולות המלאי / הזמנת הייצור במתקן הייצור שלה בארה"ב (היישות המשפטית = Contoso Manufacturing United States). Contoso יכולה להשתמש ביכולות מבוססות משאבים / שאינן במלאי במתקן השירות שלה Contoso Robotics Arms בבריטניה (היישות המשפטית = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>פריסה קלה – עסקה לחשבונית פרופורמה
 
@@ -56,7 +56,7 @@ Project Operations תומכות בתרחישים של מלאי/הזמנת ייצ
 - ניהול משאבים מאוחד
 - מעקב אחר זמנים
 - הוצאה בסיסית
-- הפקת חשבוניות פרופורמה וחשבונית המוצגות ללקוח 
+- חשבוניות פרופורמה לבדיקה ולעריכה על-ידי מנהל הפרויקט 
 
 #### <a name="deployment-steps"></a>שלבי הפריסה
 קבע את מודל הפריסה הטוב ביותר של Project Operations באמצעות [שאלון הפריסה](https://aka.ms/provisionprojectoperations).
@@ -88,13 +88,13 @@ Project Operations עבור תרחישי משאבים/ללא מלאי כולל �
 
 - תכנון פרוייקטים באמצעות WBS
 - ניהול משאבים
-- מעקב אחרי הזמן
+- מעקב אחר זמנים
 - הוצאה מלאה
 - קבלת OCR
 - הפקת חשבונית מלאה
-- הכרה בהכנסה
+- זיהוי הכנסה
 - הזמנות ייצור
-- תמיכה בחומרים
+- ‏‫תמיכה בחומרים במלאי‬ בעזרת מלאי
 
 #### <a name="deployment-steps"></a>שלבי הפריסה
 קבע את מודל הפריסה הטוב ביותר של Project Operations באמצעות [שאלון הפריסה](https://aka.ms/provisionprojectoperations).

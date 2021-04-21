@@ -1,5 +1,5 @@
 ---
-title: קביעת תצורה של רכיבים ניתנים לחיוב בסעיף חוזה מבוסס פרוייקט - לייט
+title: ‏‫קביעת תצורה של רכיבים ניתנים לחיוב בסעיף חוזה מבוסס פרוייקט‬
 description: נושא זה מספק מידע על אופן הוספת רכיבים הניתנים לחיוב לסעיפי חוזה ב-Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273919"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858474"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>קביעת תצורה של רכיבים ניתנים לחיוב בסעיף חוזה מבוסס פרוייקט - לייט
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>‏‫קביעת תצורה של רכיבים ניתנים לחיוב בסעיף חוזה מבוסס פרוייקט‬
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** פריסה קלה - עסקה עם חשבונית פרופורמה, Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 בסעיף חוזה מבוסס פרויקט יש רכיבים *כלולים* ורכיבים *הניתנים לחיוב*.
 
@@ -62,23 +62,582 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 
 ### <a name="resolve-chargeability"></a>פתרון של יכולת חיוב
 
-אומדן או נתונים בפועל שנוצרו עבור זמן ייחשבו כניתנים לחיוב רק אם **זמן** כלול בסעיף החוזה, ואם **משימה** ו **תפקיד** מוגדרים כניתנים לחיוב סעיף החוזה.
+הערכה או נתונים בפועל שנוצרו עבור זמן נחשבים כניתנים לחיוב רק אם:
 
-אומדן או נתונים בפועל שנוצרו עבור הוצאה ייחשבו כניתנים לחיוב רק אם **הוצאה** כלול בסעיף החוזה, ואם הקטגוריות **משימה** ו **עסקה** מוגדרות כניתנות לחיוב סעיף החוזה.
+   - **זמן** כלול בסעיף חוזה.
+   - **תפקיד** מוגדר כניתן לחיוב בסעיף חוזה.
+   - **משימות כלולות** מוגדרות בתור **משימות נבחרות** בסעיף חוזה.
+ 
+ אם שלושת הדברים הללו נכונים, המשימה מוגדרת כניתנת לחיוב. 
+
+הערכה או נתונים בפועל שנוצרו עבור הוצאה נחשבים כניתנים לחיוב רק אם:
+
+   - **הוצאה** כלולה בסעיף חוזה
+   - **קטגוריית עסקה** מוגדרת כניתנת לחיוב בסעיף חוזה
+   - **משימות כלולות** מוגדרות בתור **משימות נבחרות** בסעיף חוזה
+  
+ אם שלושת הדברים הללו נכונים **המשימה** מוגדרת כניתנת לחיוב. 
+
+הערכה או נתונים בפועל שנוצרו עבור חומר נחשבים כניתנים לחיוב רק אם:
+
+   - **חומרים** כלולים בסעיף חוזה
+   - **משימות כלולות** מוגדרות בתור **משימות נבחרות** בסעיף חוזה
+
+אם שני הדברים הללו נכונים **המשימה** מוגדרת כניתנת לחיוב. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>כולל זמן</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>כולל הוצאה</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>כולל חומרים</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>משימות כלולות</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>תפקיד</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>קטגוריה</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>משימה</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>השפעת יכולת החיוב</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+משימות נבחרות בלבד </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>ניתן לחיוב</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+משימות נבחרות בלבד </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: ניתן לחיוב </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+משימות נבחרות בלבד </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+משימות נבחרות בלבד </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+משימות נבחרות בלבד </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא זמין</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: ניתן לחיוב </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא זמין</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: ניתן לחיוב </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא זמין</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא זמין</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: ניתן לחיוב </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+ניתן לחיוב </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: ניתן לחיוב </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: ניתן לחיוב </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>לא זמין</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+‏‏כן </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Yes</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+הפרוייקט כולו </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>לא ניתן לחיוב</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+לא ניתן להגדיר </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+חיוב לפי נתוני זמן בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני הוצאה בפועל: <strong>לא ניתן לחיוב</strong>
+                </p>
+                <p>
+סוג חיוב עבור נתוני חומר בפועל: <strong>לא זמין</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| כולל זמן | כולל הוצאה | כולל משימות | תפקיד           | קטגוריה       | משימה                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| ‏‏כן           | ‏‏כן              | הפרוייקט כולו | ניתן לחיוב     | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **ניתן לתשלום**           |
-| ‏‏כן           | ‏‏כן              | משימות נבחרות | ניתן לחיוב     | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **ניתן לתשלום**           |
-| ‏‏כן           | ‏‏כן              | משימות נבחרות | לא ניתן לחיוב | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **לא ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **ניתן לתשלום**       |
-| ‏‏כן           | ‏‏כן              | משימות נבחרות | ניתן לחיוב     | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **לא ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **לא ניתן לתשלום** |
-| ‏‏כן           | ‏‏כן              | משימות נבחרות | לא ניתן לחיוב | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **לא ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **לא ניתן לתשלום** |
-| ‏‏כן           | ‏‏כן              | משימות נבחרות | לא ניתן לחיוב | לא ניתן לחיוב | חיוב לפי נתוני זמן בפועל: **לא ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **לא ניתן לתשלום** |
-| Yes            | ‏‏כן              | הפרוייקט כולו | לא ניתן להגדיר   | ניתן לחיוב     | חיוב לפי נתוני זמן בפועל: **לא זמין**</br>סוג חיוב עבור נתוני הוצאה בפועל: **ניתן לתשלום**          |
-| Yes            | ‏‏כן              | הפרוייקט כולו | לא ניתן להגדיר   | לא ניתן לחיוב | חיוב לפי נתוני זמן בפועל: **לא זמין**</br> סוג חיוב עבור נתוני הוצאה בפועל: **לא ניתן לחיוב**     |
-| ‏‏כן           | Yes               | הפרוייקט כולו | ניתן לחיוב     | לא ניתן להגדיר   | חיוב לפי נתוני זמן בפועל: **ניתן לחיוב** </br> סוג חיוב עבור נתוני הוצאה בפועל: **לא זמין**        |
-| ‏‏כן           | Yes               | הפרוייקט כולו | לא ניתן לחיוב | לא ניתן להגדיר   | חיוב לפי נתוני זמן בפועל: **לא ניתן לחיוב** </br>סוג חיוב עבור נתוני הוצאה בפועל: **לא זמין**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

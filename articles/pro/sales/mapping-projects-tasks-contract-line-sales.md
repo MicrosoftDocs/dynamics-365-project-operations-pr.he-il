@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272794"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858089"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט - לייט
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט 
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** פריסה קלה - עסקה עם חשבונית פרופורמה, Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 בסעיפי חוזה מבוססי פרויקט, ניתן למפות משימות ספציפיות בפרויקט לסעיף החוזה.
 

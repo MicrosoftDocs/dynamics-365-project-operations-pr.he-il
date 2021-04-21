@@ -1,6 +1,6 @@
 ---
-title: ייבוא הערכות עובר פרוייקט לשורת הצעת מחיר מבוססת פרויקט
-description: נושא זה מספק מידע על ייבוא הערכות מפרויקט לשורת הצעת מחיר.
+title: ייבוא הערכות פרוייקט לשורת הצעת מחיר של פרוייקט
+description: נושא זה מסביר כיצד לייבא הערכות מפרוייקט לשורת הצעת מחיר של פרוייקט.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278329"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858744"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>ייבוא הערכות עובר פרוייקט לשורת הצעת מחיר מבוססת פרויקט
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>ייבוא הערכות פרוייקט לשורת הצעת מחיר של פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
