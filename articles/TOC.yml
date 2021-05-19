@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: קביעת תצורה של שילוב כתיבה כפולה
+          items:
+            - name: מבט כולל על שילוב כתיבה כפולה
+              href: environment/resource-dual-write-overview.md
+            - name: גרסאות מפה של כתיבה כפולה ב-Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: שילוב נתוני התקנה ותצורה של Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: שילוב הערכות פרויקט ונתונים בפועל
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: שילוב חשבונית פרויקט
+              href: environment/resource-dual-write-project-invoice.md
+            - name: שילוב של ניהול הוצאות
+              href: environment/resource-dual-write-expense.md
+            - name: שילוב חשבונית ספק
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
         - name: אפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -216,9 +232,11 @@
           href: project-management/understand-project-status.md
         - name: הגדרת לוחות שנה של פרוייקטים
           href: project-management/define-project-calendars.md
-        - name: עדכון פרוייקט
+        - name: מצבי תזמון
+          href: project-management/scheduling-modes.md
+        - name: עדכון פרויקט
           href: project-management/update-project.md
-        - name: העתקת פרוייקט
+        - name: העתקת פרויקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
@@ -404,6 +422,12 @@
           items:
             - name: יצירה ואישור של יומני תיקונים
               href: actuals/create-confirm-correction-journals.md
+    - name: רכש
+      items:
+        - name: הגדרת תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
+          href: procurement/configure-materials-nonstocked.md
+        - name: רכישת חומרים שאינם במלאי לפרוייקטים באמצעות חשבוניות ספק בהמתנה
+          href: procurement/pending-vendor-invoices.md
     - name: הפקת חשבונית
       items:
         - name: מבט כולל על תהליך הפקת חשבונית
@@ -426,8 +450,10 @@
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: יצירת חשבוניות מתקנות מבוססות פרוייקט
               href: proforma-invoicing/corrective-invoices.md
-            - name: קביעת תצורה של אוטומציית חשבונית מבוססת פרוייקט
+            - name: קביעת תצורה של אוטומציית חשבוניות מבוססות פרוייקט
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: ניהול הצעות לחשבוניות פרוייקט
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: חשבונאות פרוייקט
       items:
         - name: ברירות מחדל של ממד פיננסי
@@ -682,9 +708,11 @@
           href: project-management/understand-project-status.md
         - name: הגדרת לוחות שנה של פרוייקטים
           href: project-management/define-project-calendars.md
-        - name: עדכון פרוייקט
+        - name: מצבי תזמון
+          hreF: project-management/scheduling-modes.md
+        - name: עדכון פרויקט
           href: project-management/update-project.md
-        - name: העתקת פרוייקט
+        - name: העתקת פרויקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
@@ -848,7 +876,9 @@
   items:
     - name: מה חדש
       items:
-        - name: מה חדש במרץ 2021 - Project Operations לתרחישים של מלאי/ מבוססי ייצור
+        - name: מה חדש באפריל 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+        - name: מה חדש במרץ 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
@@ -871,9 +901,9 @@
     - name: הגדרה ושימוש בתשלומי ספק מסוג גב-אל-גב
       href: prod-pma/setup-manage-vendor-payments.md
     - name: צבירת עלויות פרוייקט על קבלות רכישה
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: הפקת חשבוניות פרוייקט
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: ביצועי הצעה לחשבוניות פרוייקט
       href: prod-pma/project-invoice-proposal-performance.md
     - name: חוזי פרוייקט
@@ -998,9 +1028,11 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 30, V3'
           href: psa/whats-new-ur-30.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 29.5, תיקון חם, V3'
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 29.5 תיקון חם, V3'
           href: psa/whats-new-ur-29-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 29, V3'
           href: psa/whats-new-ur-29.md
@@ -1327,7 +1359,7 @@
             - name: הצגת ניצול משאב
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling ‏(URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: מדריך למנהל פרוייקט
           items:
             - name: מדריך למנהל פרוייקט (Project Service)
