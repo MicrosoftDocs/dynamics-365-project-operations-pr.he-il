@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290090"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950265"
 ---
 # <a name="deploy-project-operations---lite"></a>פריסת Project Operations - לייט
 
@@ -34,14 +34,14 @@ Project Operations תומך במספר מודלים של פריסה. כדי לק
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>התקן את Project Operations בסביבת CDS חדשה
 
-1. בתור [מנהל מערכת כללי או מנהל מערכת של Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) עם רישיון Project Operations, צור סביבת CDS חדשה ב[מרכז ניהול של Power Platform](https://admin.powerplatform.com). ודא ש **מסד הנתונים של CDS** ו-**‏האפליקציות של Dynamics 365** זמינים. למידע נוסף, ראה [צור ונהל סביבות במרכז הניהול של Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. בתור [מנהל מערכת כללי או מנהל מערכת של Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) עם רישיון Project Operations, צור סביבת CDS חדשה ב[מרכז ניהול של Power Platform](https://admin.powerplatform.com). ודא ש **מסד הנתונים של CDS** ו-**‏האפליקציות של Dynamics 365** זמינים. למידע נוסף, ראה [צור ונהל סביבות במרכז הניהול של Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. בחר **Microsoft Dynamics 365 Project Operations** מרשימת הפריסה של יישומי Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>התקן את Project Operations בסביבת CDS חדשה
 
-1. בתור [מנהל המערכת הכללי או מנהל המערכת של Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) עם רישיון של Project Operations, אתר את הסביבה ב[מרכז ניהול של Power Platform](https://admin.powerplatform.com) שבה ברצונך להתקין את Project Operations.
-2. התקן את **Microsoft Dynamics 365 Project Operations** מרשימת הפריסה של יישומי Dynamics 365. לקבלת מידע נוסף, עיין ב[ניהול האפליקצות של Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. בתור [מנהל המערכת הכללי או מנהל המערכת של Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) עם רישיון של Project Operations, אתר את הסביבה ב[מרכז ניהול של Power Platform](https://admin.powerplatform.com) שבה ברצונך להתקין את Project Operations.
+2. התקן את **Microsoft Dynamics 365 Project Operations** מרשימת הפריסה של יישומי Dynamics 365. לקבלת מידע נוסף, עיין ב[ניהול האפליקצות של Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3f65d13809fef342be8bec682c11d95c4d9e9b19
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8acaa86dec8ebca8f9850877d345e30be3e3a919
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276799"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951210"
 ---
 # <a name="security-model"></a>מודל האבטחה
 
@@ -58,7 +58,7 @@ Project באינטרנט מוסיף משתמשים לקבוצה באופן או�
 
 Project Operations לא יוצר קבוצה באמצעות פעולה משתמעת ועושה זאת רק באמצעות פעולה מפורשת של קבוצות הדורשות זאת.
 
-חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה. למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](https://docs.microsoft.com/power-platform/admin/control-user-access).
+חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה. למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](/power-platform/admin/control-user-access).
 
 ![מצב הקבוצה](./media/groupsmode.png)
 
@@ -70,7 +70,7 @@ Project Operations לא יוצר קבוצה באמצעות פעולה משתמע
 ## <a name="deployment-recommendation"></a>המלצת פריסה
 ככל שמודל שיתוף הפעולה של קבוצת Office יתפתח, תתווסף פונקציונליות כדי לספק בקרה מפורטת יותר לאורך זמן. לקוחות הפורשים Project Operations היום מוזמנים להתמקד במודל האבטחה המסורתי של Microsoft Dynamics 365.
 
-למידע נוסף, ראה [אבטחה ב- Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security)
+למידע נוסף, ראה [אבטחה ב- Common Data Service](/power-platform/admin/wp-security)
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations ואבטחה של Microsoft Dynamics 365 Finance
 Project Operations כולל את התפקידים הבאים:
@@ -78,7 +78,7 @@ Project Operations כולל את התפקידים הבאים:
 - מנהל פרויקט
 - רואה חשבון של פרויקט
 
-למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279454"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949950"
 ---
 # <a name="resource-management-modes-overview"></a>מבט כולל על מצבי ניהול משאבים
 
@@ -29,11 +29,11 @@ Dynamics 365 Project Operations תומך בשני מצבים על מנת שתו�
 
 כדי לנהל משאבים במצב המרכזי, ראה:
 
-- [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [הזמנת משאבים בעלי שם מדרישות משאב](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [שליחת בקשת משאב](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [מימוש בקשה למשאב](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [קבלה או דחייה של משאב פרויקט מוצע מבקשת משאב](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](/dynamics365/project-service/assign-generic-bookable-resource)
+- [הזמנת משאבים בעלי שם מדרישות משאב](/dynamics365/project-service/book-named-resource)
+- [שליחת בקשת משאב](/dynamics365/project-service/submit-resource-request)
+- [מימוש בקשה למשאב](/dynamics365/project-service/resource-management-fulfill-requests)
+- [קבלה או דחייה של משאב פרויקט מוצע מבקשת משאב](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>מצב היברידי
 לארגונים שנדרשת להם גמישות בהקצאת משאבים, המצב ההיברידי מאפשר גם למנהלי פרויקטים וגם למנהלי משאבים להזמין משאבים.
@@ -43,11 +43,11 @@ Dynamics 365 Project Operations תומך בשני מצבים על מנת שתו�
 בנוסף לתהליך המצב המרכזי הנתמך, עיין בנושאים הבאים לניהול כל זרימות ההזמנות הנתמכות הנוספות במצב היברידי:
 
 הזמן משאב ישירות לפרויקט:
-- [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרויקט והקצאת משימות](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרויקט והקצאת משימות](/dynamics365/project-service/assign-named-bookable-resource)
 
 הזמן משאב מדרישות משאב:
-- [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [הזמנת משאבים בעלי שם מדרישות משאב](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](/dynamics365/project-service/assign-generic-bookable-resource)
+- [הזמנת משאבים בעלי שם מדרישות משאב](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

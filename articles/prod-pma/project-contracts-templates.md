@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289595"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950400"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance 
 
@@ -109,8 +109,8 @@ ms.locfileid: "5289595"
 ## <a name="prerequisites-and-mapping-setup"></a>דרישות מוקדמות והגדרת מיפוי
 
 - עליך לסנכרן תיקי לקוחות לפני שתוכל לסנכרן חוזי פרויקטים ופרויקטים.
-- בקבוצת החיבורים, הוסף את מיפוי שדה מפתח השילוב עבור **msdyn\_organizationalunits** אל **msdyn\_name \[Name\]**. ייתכן שיהיה עליך תחילה להוסיף פרויקט לקבוצת החיבורים. לקבלת מידע נוסף, ראה [שילוב נתונים אל Common Data Service עבור יישומים](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- בקבוצת החיבורים, הוסף את מיפוי שדה מפתח השילוב עבור **msdyn\_projects** אל **msdynce\_projectnumber \[Project Number\]**. ייתכן שיהיה עליך תחילה להוסיף פרויקט לקבוצת החיבורים. לקבלת מידע נוסף, ראה [שילוב נתונים אל Common Data Service עבור יישומים](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- בקבוצת החיבורים, הוסף את מיפוי שדה מפתח השילוב עבור **msdyn\_organizationalunits** אל **msdyn\_name \[Name\]**. ייתכן שיהיה עליך תחילה להוסיף פרויקט לקבוצת החיבורים. לקבלת מידע נוסף, ראה [שילוב נתונים אל Common Data Service עבור יישומים](/powerapps/administrator/data-integrator).
+- בקבוצת החיבורים, הוסף את מיפוי שדה מפתח השילוב עבור **msdyn\_projects** אל **msdynce\_projectnumber \[Project Number\]**. ייתכן שיהיה עליך תחילה להוסיף פרויקט לקבוצת החיבורים. לקבלת מידע נוסף, ראה [שילוב נתונים אל Common Data Service עבור יישומים](/powerapps/administrator/data-integrator).
 - **SourceDataID** עבור חוזי פרויקטים וניתן לעדכן פרויקטים לערך שונה או להסיר מהמיפוי. ערך התבנית המוגדרת כברירת מחדל הוא **Project Service Automation**.
 - יש לעדכן את המיפוי **PaymentTerms** כך שהוא ישקף תנאי תשלום חוקיים ב- Finance. בנוסף, תוכל להסיר את המיפוי ממשימת הפרויקט. במפת ערך ברירת המחדל יש ערכי ברירת מחדל לנתוני הדגמה. הטבלה הבאה מציגה את הערכים ב- Project Service Automation.
 
@@ -131,7 +131,7 @@ ms.locfileid: "5289595"
 אם עליך להשתמש ב- Power Query, פעל לפי ההנחיות הבאות:
 
 - התבנית פרויקטים וחוזים (PSA ל- Fin and Ops) כוללת מסנן ברירת מחדל שכולל רק הזמנות מכירות מסוג **Work item (msdyn\_ordertype = 192350001)‎**. מסנן זה עוזר להבטיח כי לא נוצרים חוזי פרויקט להזמנות מכירה ב- Finance. אם אתה יוצר תבנית משלך, עליך להוסיף מסנן זה.
-- צור מסנן Power Query הכולל רק את ארגוני החוזים שצריכים להיות מסונכרנים עם הישות המשפטית של מערך חיבורי השילוב. לדוגמה, יש לסנכרן חוזי פרויקטים שיש לך עם היחידה הארגונית של החוזה של Contoso US עם הישות המשפטית USSI, אך יש לסנכרן את חוזי הפרויקט שיש לך עם היחידה הארגונית של החוזה של Contoso Global עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
+- צור מסנן Power Query הכולל רק את ארגוני החוזים שצריכים להיות מסונכרנים עם הישות המשפטית של מערך חיבורי השילוב. לדוגמה, יש לסנכרן חוזי פרויקט שיש לך עם היחידה הארגונית של חוזה Contoso ארה"ב עם הישות המשפטית USSI, אך יש חוזי פרויקטים עם היחידה הארגונית של החוזה Contoso העולמית יש לסנכרן עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
 
 ## <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים
 

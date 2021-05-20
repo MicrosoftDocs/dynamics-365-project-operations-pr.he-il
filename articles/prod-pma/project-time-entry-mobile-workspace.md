@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288875"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950175"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>סביבת עבודה ניידת של הזנת זמן בפרויקט
 
@@ -48,7 +48,7 @@ ms.locfileid: "5288875"
 הדרישות המוקדמות משתנות, בהתאם לגירסה של Microsoft Dynamics 365 שנפרסה עבור הארגון שלך.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>דרישות מקדימות אם אתה משתמש ב- Dynamics 365 Finance
-אם Finance נפרס עבור הארגון שלך, מנהל המערכת חייב לפרסם את סביבת העבודה הניידת של **הזנת זמן בפרויקט**. ‏‫לקבלת הנחיות, ראה [פרסום סביבת עבודה ניידת](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+אם Finance נפרס עבור הארגון שלך, מנהל המערכת חייב לפרסם את סביבת העבודה הניידת של **הזנת זמן בפרויקט**. ‏‫לקבלת הנחיות, ראה [פרסום סביבת עבודה ניידת](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>דרישות מקדימות אם אתה משתמש בגירסה 1611 עם עדכון 3 ואילך לפלטפורמה
 אם גירסה 1611 עם עדכון 3 ואילך לפלטפורמה נפרסה עבור הארגון שלך, מנהל המערכת חייב להשלים את הדרישות המוקדמות הבאות. 
@@ -68,17 +68,17 @@ ms.locfileid: "5288875"
 <td>מנהל מערכת</td>
 <td>KB 4018050 הוא עדכון X++‎ או תיקון חם למטה-נתונים שמכיל את סביבת העבודה הניידת של <strong>הזנת זמן בפרויקט</strong>. כדי להטמיע את KB 4018050, מנהל המערכת חייב לבצע את השלבים הבאים.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">הורדת התיקון החם למטה-נתונים מ- Microsoft Dynamics Lifecycle Services (LCS)‎</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">התקנת התיקון החם של המטה-נתונים</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">יצירת חבילה ניתנת לפריסה</a> המכילה את המודל <strong>ApplicationSuite</strong> ואת המודל <strong>ProjectMobile</strong> ולאחר מכן להעלות את החבילה הניתנת לפריסה ל- LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">החלת החבילה הניתנת לפריסה</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">הורדת התיקון החם למטה-נתונים מ- Microsoft Dynamics Lifecycle Services (LCS)‎</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">התקנת התיקון החם של המטה-נתונים</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">יצירת חבילה ניתנת לפריסה</a> המכילה את המודל <strong>ApplicationSuite</strong> ואת המודל <strong>ProjectMobile</strong> ולאחר מכן להעלות את החבילה הניתנת לפריסה ל- LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">החלת החבילה הניתנת לפריסה</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>פרסום סביבת העבודה הניידת של <strong>הזנת זמן בפרויקט</strong>.</td>
 <td>מנהל מערכת</td>
-<td>ראה <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">פרסום סביבת עבודה ניידת</a>.</td>
+<td>ראה <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">פרסום סביבת עבודה ניידת</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ ms.locfileid: "5288875"
 2.  בחר **הזנת זמן**. מוצגים תאריכי לוח השנה לשבוע הנוכחי.
 3.  לתאריך שנבחר, בחר **פעולות** &gt; **ערך חדש**.
 4.  הזן את מספר השעות שיש לתעד.
-5.  בחר את הפרויקט עבור הזנת ערכי הזמן. רשימה המציגה את הפרויקטים שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  בחר את הפרויקט עבור הזנת ערכי הזמן. רשימה המציגה את הפרויקטים שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  אם הפרויקט שלך לא ברשימה, בחר **חפש**. חפש לפי שם או עבור לחיפוש לפי שם פרויקט או לקוח.
-7.  בחר קטגוריה. רשימה המציגה את הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  בחר קטגוריה. רשימה המציגה את הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  אם הקטגוריה לא ברשימה, בחר **חפש**. חפש לפי קטגוריה או עבור לחיפוש לפי שם קטגוריה.
-9.  בחר פעילות. רשימה המציגה את הפעילויות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  בחר פעילות. רשימה המציגה את הפעילויות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, ראה [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. אם הפעילות לא ברשימה, בחר **חפש**. חפש לפי מספר פעילות או עבור לחיפוש לפי מטרה.
 
 11. בחר את מאפיין השורה.

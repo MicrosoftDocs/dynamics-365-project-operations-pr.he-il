@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281749"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951345"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>שיקולים לשדרוג עבור מבנה התפלגות העבודה
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281749"
 ## <a name="key-entities"></a>ישויות עיקריות
 עבור מבנה התפלגות עבודה מדויק שכבר נטענו בו משאבים, הישויות הבאות נדרשות:
 
-- [פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [צוות פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [משימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [הקצאות משאבים](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [‏‫יחס תלות במשימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [משאבים הניתנים להזמנה](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [צוות פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [משימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [הקצאות משאבים](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [‏‫יחס תלות במשימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [משאבים הניתנים להזמנה](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 כדי להגדיר מבנה התפלגות עבודה שנטען במשאבים, עליך להשלים את השלבים הבאים:
 
-1. צור פרויקט חדש. לקבלת מידע נוסף על יצירת פרויקט חדש, ראה [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. צור משימה אחת או יותר. לקבלת מידע נוסף על יצירת משימות, ראה [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. הגדר את יחסי התלות בין המשימות. למידע נוסף ראה [תלות במשימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. הקצה חברי צוות פרויקט לפרויקט. לקבלת מידע נוסף, ראה [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. הקצה חברי צוות פרויקט למשימות. לקבלת מידע נוסף, ראה [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. צור פרויקט חדש. לקבלת מידע נוסף על יצירת פרוייקט חדש, ראה [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. צור משימה אחת או יותר. לקבלת מידע נוסף על יצירת משימות, ראה [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. הגדר את יחסי התלות בין המשימות. למידע נוסף ראה [תלות במשימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. הקצה חברי צוות פרויקט לפרויקט. לקבלת מידע נוסף, ראה [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. הקצה חברי צוות פרויקט למשימות. לקבלת מידע נוסף, ראה [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>קשרי גומלין בצוות הפרויקט
 

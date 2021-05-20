@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275089"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950580"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>התקנת הנתונים לדוגמה עבור Project Service
 
@@ -136,7 +136,7 @@ ms.locfileid: "5275089"
     - שם מלא של משתמש="Molly Clark" כמנהל תיקי לקוחות   
     - שם מלא של משתמש="Spencer Low" כמנהל פרויקט ושיטת עבודה  
     - שם מלא של משתמש="Veronica Quek" כחבר צוות   
-    - שם מלא של משתמש="William Contoso"
+    - שם מלא של משתמש="יהונתן Contoso"
   
 2. למטרות ייבוא נתוני הדגמה, הקצה לששת המשתמשים שלעיל את תפקיד מנהל המערכת כדי לייבא רשומות לדוגמה כהלכה. 
 
@@ -149,7 +149,7 @@ ms.locfileid: "5275089"
 
 5. לוח השנה של המשתמש הראשון (בתג **userstocreateandconfigure**) משמש לאכלוס שעות העבודה עבור כל המשאבים הניתנים להזמנה בעת ייבוא נתוני הדגמה. נווט אל **הגדרות** > **אבטחה** > **משתמשים**, חפש את המשתמש "Spencer Low" ופתח את האפשרות "שעות עבודה". ערוך את שעות העבודה הקיימות, תוך בחירת האפשרות **‏‫לוח הזמנים השבועי המחזורי בשלמותו, מן ההתחלה ועד הסיום‬**. ודא כי **שעות העבודה מוגדרות ל- 8 בבוקר עד 5 בערב (9 שעות), בימים שני עד שישי, ואזור הזמן מוגדר לשעון החוף המערבי (ארה"ב וקנדה)**. הדבר נדרש כדי לוודא כי לוח הפרוייקט ולוח הזמנים מוצגים כצפוי.
 
-**המלצה:** שקול ליצור גיבוי של הארגון שלך כעת, למקרה שיהיה עליך לחזור לנקודת ההתחלה אם משהו משתבש במהלך התקנת הנתונים לדוגמה. לקבלת מידע נוסף, ראה [מופעי גיבוי ושחזור](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**המלצה:** שקול ליצור גיבוי של הארגון שלך כעת, למקרה שיהיה עליך לחזור לנקודת ההתחלה אם משהו משתבש במהלך התקנת הנתונים לדוגמה. לקבלת מידע נוסף, ראה [מופעי גיבוי ושחזור](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>הפעל את Package Deployer
 

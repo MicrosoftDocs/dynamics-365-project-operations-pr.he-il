@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272029"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950480"
 ---
 # <a name="expense-management-mobile-workspace"></a>סביבת עבודה ניידת לניהול הוצאות
 
@@ -58,7 +58,7 @@ ms.locfileid: "5272029"
 הדרישות המוקדמות משתנות בהתאם לגירסה שנפרסה בארגון שלך.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>דרישות מקדימות אם אתה משתמש ב- Dynamics 365 Finance 
-אם Finance נפרס בארגון שלך, מנהל המערכת חייב לפרסם את סביבת העבודה של **ניהול הוצאות** במכשיר נייד. ‏‫לקבלת הנחיות, ראה [פרסום סביבות עבודה ניידות](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+אם Finance נפרס בארגון שלך, מנהל המערכת חייב לפרסם את סביבת העבודה של **ניהול הוצאות** במכשיר נייד. ‏‫לקבלת הנחיות, ראה [פרסום סביבות עבודה ניידות](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>דרישות מקדימות אם אתה משתמש בגירסה 1611 עם עדכון 3 ואילך לפלטפורמה
 אם גירסה 1611 עם עדכון 3 ואילך לפלטפורמה נפרסה עבור הארגון שלך, מנהל המערכת חייב להשלים את הדרישות המוקדמות הבאות. 
@@ -77,16 +77,16 @@ ms.locfileid: "5272029"
 <td>מנהל מערכת</td>
 <td>KB 4019015 הוא עדכון X++‎ או תיקון חם למטה-נתונים שמכיל את סביבת העבודה הניידת של <strong>ניהול הוצאות</strong>. כדי להטמיע את KB 4019015, מנהל המערכת חייב לבצע את השלבים הבאים.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">הורדת התיקון החם למטה-נתונים מ- Microsoft Dynamics Lifecycle Services (LCS)‎</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">התקנת התיקון החם של המטה-נתונים</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">יצירת חבילה שניתנת לפריסה</a> המכילה את המודל <strong>ApplicationSuite</strong> ואת המודל <strong>ExpenseMobile</strong> ולאחר מכן העלאת החבילה הניתנת לפריסה ל- LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">החלת החבילה הניתנת לפריסה</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">הורדת התיקון החם למטה-נתונים מ- Microsoft Dynamics Lifecycle Services (LCS)‎</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">התקנת התיקון החם של המטה-נתונים</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">יצירת חבילה שניתנת לפריסה</a> המכילה את המודל <strong>ApplicationSuite</strong> ואת המודל <strong>ExpenseMobile</strong> ולאחר מכן העלאת החבילה הניתנת לפריסה ל- LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">החלת החבילה הניתנת לפריסה</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>פרסם את סביבת העבודה <strong>ניהול הוצאות</strong> למכשירים ניידים.</td>
 <td>מנהל מערכת</td>
-<td>ראה <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">פרסום סביבת עבודה ניידת</a>.</td>
+<td>ראה <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">פרסום סביבת עבודה ניידת</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ ms.locfileid: "5272029"
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>הזנה מהירה של הוצאות באמצעות סביבת העבודה לניהול הוצאות במכשירים ניידים
 1. במכשיר הנייד שלך, פתח את סביבת העבודה **ניהול הוצאות**.
 2. בחר **הזנת הוצאות מהירה**.
-3. בחר בקטגוריית ההוצאות. תראה רשימה של הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם הקטגוריה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי קטגוריית הוצאות או עבור לחיפוש לפי סוג הוצאה.
+3. בחר בקטגוריית ההוצאות. תראה רשימה של הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם הקטגוריה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי קטגוריית הוצאות או עבור לחיפוש לפי סוג הוצאה.
 4. הזן את תאריך העסקה של ההוצאה.
 5. אופציונלי: הזן את הסוחר עבור ההוצאה.
 6. הזן את הסכום הכספי של ההוצאה.
-7. בחר את המטבע של ההוצאה. תראה רשימה של קודי המטבעות, שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 400 מטבעות נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם המטבע לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי מטבע או עבור לחיפוש לפי שם.
+7. בחר את המטבע של ההוצאה. תראה רשימה של קודי המטבעות, שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 400 מטבעות נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם המטבע לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי מטבע או עבור לחיפוש לפי שם.
 8. בחר **צלם** או **בחר תמונה**.
 9. פעל בהתאם לאחד מהשלבים:
 
@@ -163,11 +163,11 @@ ms.locfileid: "5272029"
 7. בחר הוצאה אחת או יותר מהרשימה.
 8. בחר **סיום**.
 9. כדי להוסיף הוצאה חדשה לדוח ההוצאות, בחר **הוצאה חדשה**.
-10. בחר בקטגוריית ההוצאות. תראה רשימה של הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם הקטגוריה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי קטגוריית הוצאות או עבור לחיפוש לפי סוג הוצאה.
+10. בחר בקטגוריית ההוצאות. תראה רשימה של הקטגוריות שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם הקטגוריה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי קטגוריית הוצאות או עבור לחיפוש לפי סוג הוצאה.
 11. אופציונלי: הזן את הסוחר עבור ההוצאה.
 12. הזן את תאריך העסקה של ההוצאה.
 13. הזן את הסכום הכספי של ההוצאה.
-14. בחר את המטבע של ההוצאה. תראה רשימה של קודי המטבעות, שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 400 מטבעות נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם המטבע לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי מטבע או עבור לחיפוש לפי שם.
+14. בחר את המטבע של ההוצאה. תראה רשימה של קודי המטבעות, שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 400 מטבעות נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם המטבע לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי מטבע או עבור לחיפוש לפי שם.
 15. בחר **סיום**.
 16. כדי להוסיף פרטים נוספים להוצאה, בחר **הוסף פרטים נוספים**. השדות הזמינים תלויים בתצורת ניהול ההוצאות עבור החברה שלך.
 17. אם מדיניות החברה דורשת קבלה עבור ההוצאה, בחר **קבלות** ובצע את השלבים הבאים:
@@ -213,12 +213,12 @@ ms.locfileid: "5272029"
 
         - אם בחרת **אורחים קודמים**, בצע את השלבים הבאים:
 
-            1. בחר אורחים קודמים, אחד או יותר, מהרשימה. אתה רואה רשימה של אורחים קודמים שהוספת לדוחות הוצאות קודמים שנטענו באפליקציה שלך לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם האורח לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם או עבור לחיפוש לפי ארגון, מדינה או תפקיד.
+            1. בחר אורחים קודמים, אחד או יותר, מהרשימה. אתה רואה רשימה של אורחים קודמים שהוספת לדוחות הוצאות קודמים שנטענו באפליקציה שלך לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם האורח לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם או עבור לחיפוש לפי ארגון, מדינה או תפקיד.
             2. בחר **סיום**.
 
         - אם בחרת **עמיתים לעבודה**, בצע את השלבים הבאים:
 
-            1. בחר מהרשימה עמיתים לעבודה, אחד או יותר. תראה רשימה של עמיתים לעבודה שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם העמיתים לעבודה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם או עבור לחיפוש לפי חברה או תפקיד.
+            1. בחר מהרשימה עמיתים לעבודה, אחד או יותר. תראה רשימה של עמיתים לעבודה שנטענים אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם העמיתים לעבודה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם או עבור לחיפוש לפי חברה או תפקיד.
             2. בחר **סיום**.
 
     3. בחר בלחצן **חזרה** כדי לחזור אל פרטי ההוצאות.
@@ -227,7 +227,7 @@ ms.locfileid: "5272029"
 
     1. בחר את התאריך הראשון לפירוט.
     2. בחר **הוסף פירוט**.
-    3. בחר קטגוריית משנה עבור פירוט ההוצאות. תראה רשימה של קטגוריות המשנה שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם קטגוריית המשנה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם תת קטגוריית משנה של הוצאות.
+    3. בחר קטגוריית משנה עבור פירוט ההוצאות. תראה רשימה של קטגוריות המשנה שנטענות אל היישום לשימוש לא מקוון. כברירת מחדל, 50 פריטים נטענים, אך מפתח יכול לשנות את המספר הזה. למידע נוסף, מפתחים אמורים לראות [פלטפורמה למכשירים ניידים](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). אם קטגוריית המשנה לא ברשימה, בחר **חפש** כדי לבצע חיפוש מקוון. חפש לפי שם תת קטגוריית משנה של הוצאות.
     4. הזן את סכום העסקה לפירוט.
     5. ערוך את תאריך העסקה לפי הצורך.
     6. בחר **סיום**.

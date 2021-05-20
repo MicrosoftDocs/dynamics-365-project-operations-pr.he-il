@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283279"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951480"
 ---
 # <a name="reporting-home-page"></a>דף הבית של דיווח
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283279"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מבוססי פרויקטים לנהל ביעילות את הפעולות של העסק שלהם. בכל פרויקט, חברי הצוות צריכים לנהל את ההזדמנות, את הצעת המחיר ולתכנן את העבודה, לאייש את הפרויקטים במשאבים, לנהל את העבודה לפי התוכנית, לחייב עבור העבודה ולאחר מכן לבצע את העבודה להשלמת הפרויקט. היכולת לדווח על פעולות חשובה לקביעת תקינות הארגון ולצורך נקיטת פעולה מתקנת, במידה וזו נדרשת. PSA משתמש בשיטות ובטכנולוגיות דיווח של Microsoft Dynamics 365 עבור כל הדיווח שלו. למידע נוסף על אפשרויות הדיווח, ראה [מדריך לכתיבת דוחות עבור Dynamics 365 Customer Engagement (on-premises), גרסה 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מבוססי פרויקטים לנהל ביעילות את הפעולות של העסק שלהם. בכל פרויקט, חברי הצוות צריכים לנהל את ההזדמנות, את הצעת המחיר ולתכנן את העבודה, לאייש את הפרויקטים במשאבים, לנהל את העבודה לפי התוכנית, לחייב עבור העבודה ולאחר מכן לבצע את העבודה להשלמת הפרויקט. היכולת לדווח על פעולות חשובה לקביעת תקינות הארגון ולצורך נקיטת פעולה מתקנת, במידה וזו נדרשת. PSA משתמש בשיטות ובטכנולוגיות דיווח של Microsoft Dynamics 365 עבור כל הדיווח שלו. למידע נוסף על אפשרויות הדיווח, ראה [מדריך לכתיבת דוחות עבור Dynamics 365 Customer Engagement (on-premises), גרסה 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>אשף הדוחות
 
-אשף הדוחות מאפשר למשתמשים שאינם מפתחים ליצור דוחות פשוטים. מכיוון שהאפליקציה בנויה על פלטפורמה קיימת, החוויה זהה לחוויה המתועדת בנושא [‬‏‫יצירה או עריכה של דוח באמצעות אשף הדוחות‬‏‫](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). עם זאת, עליך להשתמש בישויות שהנן ספציפיות ל- Project Service Automation.
+אשף הדוחות מאפשר למשתמשים שאינם מפתחים ליצור דוחות פשוטים. מכיוון שהאפליקציה בנויה על פלטפורמה קיימת, החוויה זהה לחוויה המתועדת בנושא [‬‏‫יצירה או עריכה של דוח באמצעות אשף הדוחות‬‏‫](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). עם זאת, עליך להשתמש בישויות שהנן ספציפיות ל- Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>דוחות מותאמים אישית של SQL Server Reporting Services
 
-אם העסק שלך דורש דוח מסוים שלא ניתן ליצור באמצעות אשף הדוחות, תוכל ליצור דוח מותאם אישית. עליך להתקין את Microsoft Visual Studio, יחד עם Microsoft SQL Server Data Tools ו- Report Authoring Extensions המתאימים. לקבלת מידע נוסף על כלים וגירסאות, ראה [סביבת כתיבת דוחות באמצעות SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). לקבלת מידע אודות אופן יצירת דוח מותאם אישית, ראה [יצירת דוח חדש באמצעות SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+אם העסק שלך דורש דוח מסוים שלא ניתן ליצור באמצעות אשף הדוחות, תוכל ליצור דוח מותאם אישית. עליך להתקין את Microsoft Visual Studio, יחד עם Microsoft SQL Server Data Tools ו- Report Authoring Extensions המתאימים. לקבלת מידע נוסף על כלים וגירסאות, ראה [סביבת כתיבת דוחות באמצעות SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). לקבלת מידע אודות אופן יצירת דוח מותאם אישית, ראה [יצירת דוח חדש באמצעות SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>אפליקציות Power BI להשגת תובנות
 
