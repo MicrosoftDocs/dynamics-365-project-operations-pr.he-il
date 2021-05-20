@@ -1,6 +1,6 @@
 ---
 title: יצירת תבנית שעות עבודה
-description: כיצד ליצור תבנית שעות עבודה ב- Project Service
+description: נושא זה מתאר כיצד ליצור תבנית שעות עבודה ב- Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285034"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981256"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="fc414-103">יצירת תבנית שעות עבודה (Project Service)</span><span class="sxs-lookup"><span data-stu-id="fc414-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="6ef86-103">יצירת תבנית שעות עבודה (Project Service)</span><span class="sxs-lookup"><span data-stu-id="6ef86-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="fc414-104">לפני שתוכל ליצור לוחות זמנים של הפרוייקט, עליך להגדיר את לוח הזמנים של הפרוייקט המגדיר את מספר שעות העבודה כדי להתאים לכל יום בלוח הזמנים ולכל מועדי סגירת העסק.</span><span class="sxs-lookup"><span data-stu-id="fc414-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="fc414-105">ניתן לעשות זאת עם תבנית שעות עבודה, אשר מכילה פרטים על שעות העבודה בכל יום, ימי חופש וכל מועדי הסגירה האחרים של העסק.</span><span class="sxs-lookup"><span data-stu-id="fc414-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="fc414-106">כשאתה יוצר פרוייקט, אתה משייך תבנית עבודה ללוח השנה של הפרוייקט כדי להחיל את לוח הזמנים של הפרוייקט.</span><span class="sxs-lookup"><span data-stu-id="fc414-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="fc414-107">קיימות שתי דרכים שבהן באפשרותך ליצור תבנית שעות עבודה:</span><span class="sxs-lookup"><span data-stu-id="fc414-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="fc414-108">צור תבנית שעות עבודה בהתבסס על לוח השנה של המשאב.</span><span class="sxs-lookup"><span data-stu-id="fc414-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="fc414-109">צור תבנית שעות עבודה חדשה.</span><span class="sxs-lookup"><span data-stu-id="fc414-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="fc414-110">כדי ליצור תבנית שעות עבודה בהתבסס על לוח השנה של המשאב</span><span class="sxs-lookup"><span data-stu-id="fc414-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="fc414-111">עבור אל **Project Service > משאבים**.</span><span class="sxs-lookup"><span data-stu-id="fc414-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="fc414-112">בחר את המשאב שעליו ברצונך לבסס את שעות העבודה שלך.</span><span class="sxs-lookup"><span data-stu-id="fc414-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="fc414-113">לחץ על **שמירת לוח שנה בשם**, הזן שם עבור תבנית שעות העבודה ולאחר מכן לחץ על **שמור**.</span><span class="sxs-lookup"><span data-stu-id="fc414-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="fc414-114">לאחר שתסיים לערוך את האפשרויות, לחץ על **שמור וסגור**.</span><span class="sxs-lookup"><span data-stu-id="fc414-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="fc414-115">לחץ על הלחצן **שמור** בפינה הימנית התחתונה של המסך.</span><span class="sxs-lookup"><span data-stu-id="fc414-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="fc414-116">כדי ליצור תבנית שעות עבודה חדשה</span><span class="sxs-lookup"><span data-stu-id="fc414-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="fc414-117">עבור אל **Project Service > תבניות שעות עבודה**.</span><span class="sxs-lookup"><span data-stu-id="fc414-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="fc414-118">לחץ על **חדש**.</span><span class="sxs-lookup"><span data-stu-id="fc414-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="fc414-119">הזן שם עבור תבנית שעות העבודה.</span><span class="sxs-lookup"><span data-stu-id="fc414-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="fc414-120">בחר משאב שעליו יתבססו שעות העבודה ולאחר מכן לחץ על **שמור**.</span><span class="sxs-lookup"><span data-stu-id="fc414-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="fc414-121">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="fc414-121">See Also</span></span>  
- [<span data-ttu-id="fc414-122">הגדרת משאבים</span><span class="sxs-lookup"><span data-stu-id="fc414-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="6ef86-104">כדי ליצור ולנהל פרויקט, עליך להחיל תבנית לוח שנה על הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="6ef86-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="6ef86-105">תבנית לוח השנה מגדירה את התכונות הבאות של הפרויקט:</span><span class="sxs-lookup"><span data-stu-id="6ef86-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="6ef86-106">שעות עבודה, כולל שעת התחלה וסיום</span><span class="sxs-lookup"><span data-stu-id="6ef86-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="6ef86-107">ימי עבודה</span><span class="sxs-lookup"><span data-stu-id="6ef86-107">Working days</span></span>
+- <span data-ttu-id="6ef86-108">חריגים ביומן כגון ימים שאינם ימי עבודה</span><span class="sxs-lookup"><span data-stu-id="6ef86-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="6ef86-109">תבנית לוח השנה המוחלת על פרויקט היא העתק של תבנית לוח השנה המוגדרת בהגדרות הארגון שלך.</span><span class="sxs-lookup"><span data-stu-id="6ef86-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="6ef86-110">אם תשנה את תבנית לוח השנה, שינויים אלה אינם מופצים לשעות העבודה של הפרויקט.</span><span class="sxs-lookup"><span data-stu-id="6ef86-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="6ef86-111">כדי לשנות את שעות העבודה של הפרויקט, יש להחיל תבנית חדשה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="6ef86-112">כדי ליצור תבנית לוח שנה לארגון שלך, ישנן שתי דרישות עיקריות:</span><span class="sxs-lookup"><span data-stu-id="6ef86-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="6ef86-113">הגדר את שעות העבודה הרצויות של התבנית באמצעות משאב חדש או קיים שניתן להזמנה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="6ef86-114">צור תבנית לוח שנה חדשה ושייך את התבנית למשאב שניתן להזמינה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="6ef86-115">**הגדרת שעות העבודרה של התבנית**</span><span class="sxs-lookup"><span data-stu-id="6ef86-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="6ef86-116">עבור אל **משאבים** \> **משאבים**.</span><span class="sxs-lookup"><span data-stu-id="6ef86-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="6ef86-117">צור משאב חדש להפניה בתבנית לוח השנה, או בחר משאב קיים.</span><span class="sxs-lookup"><span data-stu-id="6ef86-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="6ef86-118">בחר את הכרטיסיה **שעות עבודה** של המשאב והשלם את ההוראות בהסבר: [הגדרת שעות עבודה עבור משאב](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) כדי להגדיר את כללי לוח השנה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="6ef86-119">**צור תבנית לוח שנה חדשה**</span><span class="sxs-lookup"><span data-stu-id="6ef86-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="6ef86-120">עבור אל **הגדרות** \> **תבנית לוח שנה**.</span><span class="sxs-lookup"><span data-stu-id="6ef86-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="6ef86-121">בחר **חדש** והזן שם, תיאור תבנית משאב.</span><span class="sxs-lookup"><span data-stu-id="6ef86-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="6ef86-122">כאשר משאב כולל בהפניה בתבנית לוח שנה, עותק של לוח השנה של המשאב משויך לתבנית לוח השנה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="6ef86-123">אם ישונו שעות העבודה של תבנית לוח השנה שהועתקה, שינויים אלה אינם מופצים לשעות העבודה של תבנית לוח השנה.</span><span class="sxs-lookup"><span data-stu-id="6ef86-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="6ef86-124">למידע נוסף</span><span class="sxs-lookup"><span data-stu-id="6ef86-124">See Also</span></span>  
+ [<span data-ttu-id="6ef86-125">הגדרת משאבים</span><span class="sxs-lookup"><span data-stu-id="6ef86-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
