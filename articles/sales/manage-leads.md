@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278059"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947880"
 ---
 # <a name="manage-leads"></a>ניהול הפניות
 
@@ -55,7 +55,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 - רשומת איש קשר המשויכת לחשבון על סמך הערכים בשדות **שם פרטי** ו **שם משפחה** בהפניה.
 - הזדמנות מבוססת פרויקט עם השדה **סוג** שמוגדר **מבוססת עבודה**.
 
-למידע מפורט יותר על הפניות אישור הפניות, ראה [אישור או המרה של הפניות](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+למידע מפורט יותר על הפניות אישור הפניות, ראה [אישור או המרה של הפניות](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>אישור הפניה ומידע על ישות משפטית 
 

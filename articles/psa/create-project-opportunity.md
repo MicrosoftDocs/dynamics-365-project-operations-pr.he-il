@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285214"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948195"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>יצירת הזדמנות בפרוייקט (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "5285214"
   
 3.  באזור **סיכום**, הזן את חברת ההזדמנות שלך ומידע אחר.  
   
-4.  הוסף את כל ההערות והפעילויות (לדוגמה, שיחות טלפון או דוא"ל) הקשורות להפניה. לקבלת מידע נוסף על הוספת הערות ופעילויות, ראה [שמירת מעקב אחר הערות, משימות, שיחות או דואר אלקטרוני עם פעילויות‬‏‫](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  הוסף את כל ההערות והפעילויות (לדוגמה, שיחות טלפון או דוא"ל) הקשורות להפניה. לקבלת מידע נוסף על הוספת הערות ופעילויות, ראה [שמירת מעקב אחר הערות, משימות, שיחות או דואר אלקטרוני עם פעילויות‬‏‫](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  כדי להוסיף בעלי עניין, באזור **‎בעלי עניין**, לחץ על **+**.  
   

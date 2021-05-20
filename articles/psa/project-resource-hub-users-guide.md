@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283774"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948144"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>מדריך למשתמש עבור מרכז משאבי פרויקט‬
 
@@ -48,7 +48,7 @@ Project Resource hub מאפשר לך להזין זמן והוצאות עבור �
 ## <a name="install-the-mobile-app"></a>התקנת הפתרון הנייד
 לפני שתוכל להתחיל להשתמש באפליקציית Project Resource Hub, עליך להתקין את האפליקציה למכשירים ניידים בהתקן שלך. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [התקנת Dynamics 365 לטלפונים ומחשבי Tablet](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [התקנת Dynamics 365 לטלפונים ומחשבי Tablet](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>ניווט בסיסי
 1.  כשתיכנס לאפליקציה למכשירים ניידים, תראה את הדף MyApps ובו רשימת האפליקציות שאליהן יש לך גישה. 
@@ -99,7 +99,7 @@ Project Resource hub מאפשר לך להזין זמן והוצאות עבור �
 5. המשך להזין את ההוצאות לשבוע. בסיום, אחרי שהכל נראה נכון, לחץ על **שלח**. מנהל יבדוק ויאשר את ההוצאות שלך.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>מידע כללי על אופן השימוש ביישום לנייד 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [מדריך יסודות העבודה במכשירים ניידים](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [מדריך יסודות העבודה במכשירים ניידים](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>למידע נוסף  
  [מבט כולל על Project Service](../psa/overview.md)   

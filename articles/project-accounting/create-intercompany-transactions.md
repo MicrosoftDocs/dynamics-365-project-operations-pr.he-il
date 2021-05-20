@@ -3,17 +3,17 @@ title: יצירת עסקאות בין-חברתיות
 description: נושא זה מספק מידע על אופן יצירת עסקאות בין חברות.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287419"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880449"
 ---
 # <a name="create-intercompany-transactions"></a>יצירת עסקאות בין-חברתיות
 
@@ -62,7 +62,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     4. הגדר את המטבע **USD**.
     5. שמור את הרשומה.
 3. עבור אל **מכירות** > **חוזי פרויקט** וצור חוזה פרויקט חדש עבור Adventure Works.
-    1. הגדר את החברה המחזיקה **USPM** והיחידה הקבלנית **Contoso Robotics US**.
+    1. הגדירו את החברת הבעלות ל **USPM** והיחידה הקבלנית ל **Contoso רובוטיקה ארה"ב**.
     2. בחר את Adventure Works כלקוח.
     3. בחר מחירון מוצרים ושמור את הרשומה.
     4. בכרטיסיה **סעיפי חוזה** צור סעיף חוזה חדש. הגדר שם כלשהו ובחר **זמן וחומרים** כשיטת החיוב.
@@ -94,7 +94,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     המכירה שטרם בוצעה מוכנה כעת לחיוב. ניתן לפרסם כספית עבור הלקוח Adventure Works במידת הצורך.
 
 10. התחבר כחשב **GBPM**. פתח את המופע של Project Operations ופתח את החברה **GBPM**. 
-11. עבור אל **ניהול פרויקטים וחשבונאות** > **תקופתי** > **Project Operations ב-Customer Engagement** > **ייבוא מאחסון זמני** והפעל את התהליך התקופתי כך שהוא ימלא את יומן השילוב של Project Operations.
+11. עבור אל **ניהול פרויקטים וחשבונאות** > **תקופתי** > **שילוב Project Operations** > **ייבוא טבלת אחסון זמני** והפעל את התהליך התקופתי למילוי יומן שילוב של Project Operations.
 12. עבור אל **ניהול פרויקטים וחשבונאות** > **יומנים** > **יומן שילוב Project Operations** וסקור את השורות. המערכת יוצרת את השורות הבאות.
 
     | **סוג עסקה** | **מחיר** | **מטבע עסקה** | **סכום** |

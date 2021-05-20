@@ -3,17 +3,17 @@ title: הוסף מנוי Azure לפרויקט LCS
 description: נושא זה מספק מידע על אופן חיבור המנוי שלך ל- Azure אל פרויקט LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289910"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880539"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>הוסף מנוי Azure לפרויקט LCS
 
@@ -62,7 +62,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 3. בשדה **קבע את התצורה של Azure Resource Manager**, בחר באפשרות **כן**.
 4. ודא שתחום דייר AAD של מנוי Azure תואם למנוי Azure המוגדר כבעלים של התחום שבו אתה משתמש, ובחר באפשרות **הבא**.
 5. במסך **הגדרת Microsoft Azure**, בחר באפשרות **הבא** כדי לאשר. אם נתקלת בשגיאה במסך זה, חזור למקטע [ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure](#provide) בנושא זה כדי לוודא שהשלמת את כל השלבים.
-6. הורד את Azure Management Certificate לתיקיה מקומית במחשב שלך ולאחר מכן העלה אותו אל Azure Management Portal על-ידי מעבר אל **הגדרות** > **אישורי ניהול**. אישור זה יאפשר ל- LCS לתקשר עם Azure בשמך. אתה יכול לדלג על שלב זה אם למשתמש שלך יש גישה למנוי.
+6. הורד את אישור הניהול של Azure לתיקיה מקומית במחשב שלך. בקש ממנהל המינוי שלך ב- Azure להעלות את האישור לפורטל הניהול של Azure על ידי בחירת המנוי ומעבר אל **הגדרות** > **אישורי ניהול**. אישור זה מאפשר ל- LCS לתקשר עם Azure בשמך. אתה יכול לדלג על שלב זה אם למשתמש שלך יש גישה למנוי.
 7. בחר באפשרות  **הבא**.
 8. בחר את אזור Azure לפריסה ובחר מרכז נתונים הקרוב למקום בו אתה מתכנן להשתמש במערכת זו.
 9.  בחר באפשרות  **התחבר**.

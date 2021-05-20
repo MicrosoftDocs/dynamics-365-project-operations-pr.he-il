@@ -3,18 +3,18 @@ title: מה חדש באפריל 2021 - Project Operations לתרחישים מב�
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת אפריל 2021 בפריסה קלה של Project Operations לתרחישים מבוססי משאבים/ללא מלאי.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867994"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935475"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש באפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -33,8 +33,26 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   - הערכה ותמחור של חומרים שאינם במלאי במהלך מחזור המכירות של פרויקט. למידע נוסף, ראה [הגדרת תעריפי עלות ומכירות עבור קטלוג מוצרים - Lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - מעקב אחר השימוש בחומרים שאינם במלאי במהלך מסירת הפרויקט. למידע נוסף, ראה [רישום השימוש בחומרים בפרוייקטים ובמשימות הפרוייקט](../material/material-usage-log.md).
   - הפקת חשבוניות לעלויות חומרים שאינם במלאי. למידע נוסף, ראה [‏‫ניהול מצבור פריטי העבודה של החיוב‬](../proforma-invoicing/manage-billing-backlog.md).
+  - למידע על אופן הגדרת התצורה של תכונה זו, ראה [הגדר תצורה של חומרים שאינם במלאי וחשבוניות ספק בהמתנה](../procurement/configure-materials-nonstocked.md)
 - חיוב מבוסס משימה: נוספה היכולת לשייך משימות פרויקט לסעיפי חוזה הפרוייקט, ובכך להכפיף אותן לאותה שיטת חיוב, תדירות חשבונית ולקוחות כמו אלה המופיעים בסעיף החוזה. שיוך זה מבטיח חשבוניות מדויקות, חשבונאות, הערכת הכנסות וזיהוי לעבודה בהתאם להגדרה זו במשימות הפרויקט.
 - ממשקי API חדשים ב- Dynamics 365 Dataverse מאפשרים ליצור, לעדכן ולמחוק פעולות בעזרת **ישויות תזמון**. למידע נוסף, ראה [‏‫שימוש בממשקי API של לוח זמנים לביצוע פעולות דרך ישויות תזמון](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>עדכוני מפות כתיבה כפולה של Project Operations
+
+הרשימה הבאה מציגה את מפות הכתיבה הכפולה ששונו או נוספו במהדורת אפריל 2021 של Project Operations.
+
+| **מפת ישויות** | **גרסה מעודכנת** | **הערות** |
+| --- | --- | --- |
+| נתונים בפעול של שילוב Project Operations ‏ (msdyn\_actuals) | 1.0.0.14 | המפה שונתה כדי לסנכרן את החומרים בפועל של הפרויקט. |
+| ישות שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.2 | סנכרון סעיף חוזה הפרויקט נוסף עם ישומי Finance and Operations לתמיכה בחיוב מבוסס משימות. |
+| ישות שילוב Project Operations להערכת שעות (msdyn\_resourceassignments) | 1.0.0.5 | סנכרון סעיף חוזה הפרויקט נוסף עם ישומי Finance and Operations לתמיכה בחיוב מבוסס משימות. |
+| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | מפת טבלה חדשה לסינכרון הערכות חומרים מ- Dataverse לישומי Finance and Operations. |
+| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations ‏(msdyn\_projectvendorinvoices‎‏)‎‏‎ | 1.0.0.0 | מפת טבלה חדשה לסינכרון כותרות של חשבוניות ספק מישומי Finance and Operations אל Dataverse. |
+| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations‏ ‏‎(‏‎msdyn\_projectvendorinvoicelines‎‏‎)‏‎‎‏‏ | 1.0.0.0 | מפת טבלה חדשה לסינכרון שורות של חשבוניות ספק מישומי Finance and Operations אל Dataverse. |
+
+תמיד צריך להפעיל את הגרסה האחרונה של המפה בסביבתך ולהפוך את כל מפות הטבלה הקשורות לזמינות בעת עדכון פתרון Dataverse Project Operations וגרסת פתרון של Finance and Operations. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגרסה האחרונה של המפה אינה מופעלת. אפשר לראות את הגרסה הפעילה של המפה בעמודה **גרסה** בדף **כתיבה כפולה**. אפשר להפעיל גרסה חדשה של המפה על ידי בחירה באפשרות **גרסאות של מפת טבלאות**, בחירה בגדסה העדכנית ביותר ואז שמירה של הגרסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+אם נתקלת בבעיה בהפעלת המפה, פעל לפי ההוראות במקע [בעיית עמודות טבלה חסרות במפות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) במדריך לפתרון בעיות של כתיבה כפולה.
 
 ## <a name="quality-updates"></a>עדכוני איכות
 
@@ -67,7 +85,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 | **אזור תכונות** | **מספר אסמכתא** | **עדכון איכות** |
 | --- | --- | --- |
-| ניהול פרוייקטים וחשבונאות | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | ביטול קיזוז הערכה לא עובד באפשרות **תקופתי**.  |
+| ניהול פרוייקטים וחשבונאות | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | הסרה של אומדן הפוך לא פועלת במקטע **תקופתי**.  |
 | ניהול פרוייקטים וחשבונאות | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | התכונה **התאמת חשבונאות** יוצרת בעיה עם חשבונות ספר ראשי שנבחרה עבורם האפשרות **אל תאפשר הזנה ידנית**. |
 | ניהול פרוייקטים וחשבונאות | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | נוספה לוגיקה עסקית לעיבוד חשבוניות תיקון, כולל סכום הריטיינר או סכום הריטיינר המוחל. |
 | ניהול פרוייקטים וחשבונאות | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | פרסום ערך מכירות WIP בחשבונית פרוייקט בין-חברות בוחר תיק לקוח לא צפוי. |
