@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
+        - name: מאי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: אפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: מרץ 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: הגדרת קטגוריות הוצאות
               href: expense/set-up-expense-categories.md
+            - name: הגדרת מרחק באמצעות רמות תעריפי מרחק
+              href: expense/set-up-mileage.md
         - name: הוצאות אישיות
           href: expense/personal-expenses-expense-report.md
         - name: הוצאות בין-חברתיות
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
+        - name: מה חדש במאי 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: מה חדש באפריל 2021 - פריסה קלה
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: מה חדש במרץ 2021 - פריסה קלה
@@ -1028,6 +1034,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: התאמה אישית של ערכי זמן שבועיים
               href: psa/time-entry-extensibility-v3.md
+            - name: קבוצות אישורים
+              href: psa/approval-set.md
     - name: שאלות נפוצות ופתרון בעיות (‎3.x)
       items:
         - name: מדוע ברירת המחדל למחיר היא אפס עבור הנתונים בפועל של עלות הוצאות?
