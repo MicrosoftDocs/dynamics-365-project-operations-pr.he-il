@@ -2,18 +2,16 @@
 title: מבט כולל על הפקת חשבוניות בין-חברות
 description: נושא זה מספק מידע ודוגמאות של חשבונית בין-חברות לפרויקטים.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287329"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002642"
 ---
 # <a name="intercompany-invoicing-overview"></a>מבט כולל על הפקת חשבוניות בין-חברות
 
@@ -21,7 +19,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ייתכן שלארגון שלך יש כמה חטיבות, חברות בנות וישויות משפטיות אחרות שמעבירות מוצרים ושירותים אחת לשנייה עבור פרוייקטים. הישות המשפטית שמספקת את השירות או המוצר נקראת *ישות משפטית מלווה*. הישות המשפטית שמקבלת את השירות או המוצר נקראת *ישות משפטית לווה*.
 
-האיור הבא מציג תרחיש אופייני שבו שתי ישויות משפטיות, Contoso Robotics USA (הישות המשפטית הלווה) ו- Contoso Robotics UK (הישות המשפטית המלווה) חולקות משאבים להעברת פרויקט עבור הלקוח, Adventure Works. עבור תרחיש זה, Contoso Robotics USA אמורה לספק את העבודה ל- Adventure Works.
+האיור הבא מציג תרחיש טיפוסי שבו שתי ישויות משפטיות, Contoso Robotics ארה"ב (הישות המשפטית השואלת) ו- Contoso Robotics בריטניה (הישות המשפטית המלווה) חולקות משאבים להעברת פרוייקט ללקוח, Adventure. בתרחיש זה, Contoso Robotics ארה"ב מחויבת לספק את העבודה ל- Adventure.
 
 ![הפקת חשבוניות בין-חברתית](./media/IntercompanyScenario.png) 
 

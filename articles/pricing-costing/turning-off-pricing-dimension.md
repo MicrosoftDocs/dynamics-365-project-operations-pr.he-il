@@ -2,11 +2,9 @@
 title: השבתת ממד תמחור
 description: נושא זה מספק מידע על אופן ההשבתה של ממדי תמחור.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274729"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004532"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>השבתת ממד תמחור
 
@@ -40,8 +38,8 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 | כותרת סטנדרטית         | יחידה ארגונית    |יחידה   |מחיר  |מטבע  |
 | -----------------------|-------------|-------|-------|----------|
-| מהנדס מערכות|Contoso US|שעה| 100|USD|
-| מהנדס מערכות בכיר|Contoso US|שעה| 150| USD|
+| מהנדס מערכות|Contoso בארה"ב|שעה| 100|USD|
+| מהנדס מערכות בכיר|Contoso בארה"ב|שעה| 150| USD|
 
 
 כאשר אתה מבטל את הכותרת הסטנדרטית בתור **ממד התמחור**, ומנגנון התמחור מחפש מחיר, הוא ישתמש רק בערך של **היחידה הארגונית** מתוך הקשר הקלט. אם **היחידה הארגונית** של הקשר הקלט היא "Contoso US", התוצאה תהיה לא דטרמיניסטית כיוון ששתי השורות יתאימו. כדי להימנע מתרחיש זה, בעת יצירת רשומות **מחיר תפקיד**, המערכת מאמתת ששילוב הממדים הוא ייחודי. אם הממד מבוטל לאחר שנוצרו רשומות **מחיר התפקיד**, ניתן להפר אילוץ זה. לפיכך, לפני ביטול הממד, עליך למחוק את כל השורות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** שערך ממד זה מאוכלס אצלן.

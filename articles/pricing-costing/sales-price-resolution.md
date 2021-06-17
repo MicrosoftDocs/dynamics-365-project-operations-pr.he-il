@@ -2,18 +2,16 @@
 title: פתור מחירי מכירות עבור הערכות ונתונים בפועל
 description: נושא זה מספק מידע על אופן הדרך לפתור מחירי מכירות עבור הערכות ונתונים בפועל.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: bf0d92c08cb32d7bddb72246623b608831ff883e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877446"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004847"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>פתור מחירי מכירות עבור הערכות ונתונים בפועל
 

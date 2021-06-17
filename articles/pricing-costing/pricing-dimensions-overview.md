@@ -2,19 +2,17 @@
 title: מבט כולל על ממדי תמחור
 description: נושא זה מספק מידע על ממדי תמחור ב- Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275404"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004982"
 ---
 # <a name="pricing-dimensions-overview"></a>מבט כולל על ממדי תמחור
 
@@ -61,16 +59,16 @@ Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחו�
 
 | תפקיד        | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ------------|-------------|----------|----------:|----------|
-| מפתח   | Contoso US  |Hour | 200|USD     |
-| מפתח   | Contoso India |Hour|   112|USD     |
+| מפתחים   | Contoso בארה"ב  |שעה | 200|USD     |
+| מפתחים   | Contoso הודו |שעה|   112|USD     |
 
 
 **תעריפי עלויות לדוגמה**
 
 | טווח שכר     | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ----------------|-------------|----------|----------:|----------|
-| טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
-| טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |
+| טווח1_של החברה שלי | Contoso בארה"ב  |שעה | 145|USD     |
+| טווח2_של החברה שלי | Contoso הודו |שעה|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

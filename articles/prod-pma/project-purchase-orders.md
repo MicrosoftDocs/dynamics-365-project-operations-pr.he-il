@@ -2,11 +2,9 @@
 title: הזמנות רכש לפרויקט
 description: מאמר זה מתאר את השיטות השונות שבהן תוכל להשתמש כדי ליצור הזמנות רכש לפרויקט. השיטה שבה תשתמש תלויה במטרה של הזמנת הרכש ומתי יבוצעו הצריכה והחיוב של הפריטים שנרכשו לפרויקט.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289190"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999357"
 ---
 # <a name="purchase-orders-for-a-project"></a>הזמנות רכש לפרויקט
 
