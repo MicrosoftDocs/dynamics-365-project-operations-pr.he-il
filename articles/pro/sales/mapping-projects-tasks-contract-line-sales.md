@@ -2,18 +2,16 @@
 title: מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט - לייט
 description: נושא זה מספק מידע על הוספה והסרה של פרויקטים ומשימות מסעיף חוזה.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 4b86e03192625b0dabb89080f2ade1ed9e3567cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858089"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994633"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט 
 
