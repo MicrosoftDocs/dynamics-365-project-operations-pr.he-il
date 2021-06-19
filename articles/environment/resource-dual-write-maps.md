@@ -2,18 +2,16 @@
 title: גרסאות מפה של כתיבה כפולה ב-Project Operations
 description: נושא זה מספק את רשימת המפות הכתיבה הכפולה הנדרשת עבור Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938989"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025775"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -36,32 +34,32 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![סנכרון מפת ספר חשבונאות](media/DW6.png)
 
-1. בצע את אותם השלבים עבור כל מפות הטבלה שנותרו, המפורטות בטבלה לעיל. אל תבחר את תיבת הסימון **סנכרון ראשוני** בעת הפעלת מפות אלה.
+2. בצע את אותם השלבים עבור כל מפות הטבלה שנותרו, המפורטות בטבלה לעיל. אל תבחר את תיבת הסימון **סנכרון ראשוני** בעת הפעלת מפות אלה.
 
 ## <a name="project-operations-dual-write-maps"></a>מפות כתיבה כפולה של Project Operations
 
-המפות הבאות נדרשות מראש לפתרון Project Operations.
+המפות הבאות נדרשות מראש לפתרון Project Operations. גרסאות של מפה עם כתיבה כפולה מפורטות בעדכון מאי 2021 של Project Operations, גירסה 4.10.0.186.
 
-| **מפת ישות** | **הגירסה האחרונה** | **סינכרון ראשוני** |
+| **מפת ישויות** | **הגירסה האחרונה** | **סינכרון ראשוני** |
 | --- | --- | --- |
 | ‏‫ישות שילוב לקשרי עסקת פרויקט‬ (msdyn\_transactionconnections) | 1.0.0.0 | לא נדרש להקצאה. |
 | כותרות על חוזי פרויקט (הזמנות מכירה) | 1.0.0.1 | לא נדרש להקצאה. |
 | סעיפי חוזה של פרויקט (salesorderdetails) | 1.0.0.0 | לא נדרש להקצאה. |
-| מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | לא נדרש להקצאה. |
+| מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | לא נדרש להקצאה. |
 | טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. |
-| הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.2 | לא נדרש להקצאה. |
+| הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. |
 | נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. |
 | אבני דרך של סעיף חוזה לשילוב Project Operations‏ (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. |
 | ישות שילוב של Project Operations להערכת הוצאות (msdyn_estimateslines) | 1.0.0.2 | לא נדרש להקצאה. |
 | ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. |
-| ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.2 | לא נדרש להקצאה. |
+| ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. |
 | ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.2 | לא נדרש להקצאה. |
 | ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.0 | לא נדרש להקצאה. |
-| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.0 | לא נדרש להקצאה. |
+| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.1 | לא נדרש להקצאה. |
 | תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories) | 1.0.0.1 | מחייב סנכרון ראשוני של מפת הטבלה כדי לסנכרן את תפקידי המשאבים של מנהל הפרויקט וחבר הצוות, שמאוכלסים בסביבת Dataverse Dynamics 365 במהלך ההקצאה. Dataverse הוא המקור הראשי לסנכרון הראשוני. |
 | משימות פרויקט (msdyn_projecttasks) | 1.0.0.4 | לא נדרש להקצאה. |
 | קטגוריות עסקאות פרויקט (msdyn_transactioncategories) | 1.0.0.0 | לא נדרש להקצאה. |
-| פרויקטים גרסה 2 (msdyn_projects) | 1.0.0.1 | לא נדרש להקצאה. |
+| פרויקטים גרסה 2 (msdyn_projects) | 1.0.0.2 | לא נדרש להקצאה. |
 
 השלם את השלבים הבאים להפעלת המפות המפורטות.
 

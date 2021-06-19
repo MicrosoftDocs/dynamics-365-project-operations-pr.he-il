@@ -2,18 +2,16 @@
 title: שימוש בממשקי API של לוח זמנים לביצוע פעולות דרך ישויות תזמון
 description: נושא זה מספק מידע ודוגמאות לשימוש בממשקי API של לוח זמנים.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950805"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116798"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>שימוש בממשקי API של לוח זמנים לביצוע פעולות דרך ישויות תזמון
 
@@ -268,7 +266,6 @@ OperationSet הוא דפוס יחידת עבודה שניתן להשתמש בו 
 - לכל משתמש יכולות להיות עד 10 **OperationSets** פתוחות.
 - Project Operations תומך כיום במקסימום 500 משימות בסה"כ לפרויקט.
 - מצב כשל של **OperationSet** ויומני כשל אינם זמינים כרגע.
-- ממשקי API של לוח זמנים הם כרגע במהדורת Public Preview. השימוש בממשקי API אלה בסביבת ייצור אינו נתמך על ידי Microsoft.
 - [מגבלות וגבולות בפרויקטים ובמשימות](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>טיפול בשגיאות
