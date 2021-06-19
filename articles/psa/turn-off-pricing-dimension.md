@@ -2,12 +2,10 @@
 title: ביטול ממד תמחור
 description: נושא זה מראה כיצד להגדיר ממדי תמחור בפתרון של Project Service.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281839"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014297"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>ביטול ממד תמחור
 
@@ -41,8 +39,8 @@ ms.locfileid: "5281839"
 
 | כותרת סטנדרטית         | יחידה ארגונית    |יחידה   |מחיר  |מטבע  |
 | -----------------------|-------------|-------|-------|----------|
-| מהנדס מערכות|Contoso US|שעה| 100|USD|
-| מהנדס מערכות בכיר|Contoso US|שעה| 150| USD|
+| מהנדס מערכות|Contoso בארה"ב|שעה| 100|USD|
+| מהנדס מערכות בכיר|Contoso בארה"ב|שעה| 150| USD|
 
 
 כאשר אתה מבטל את הכותרת הסטנדרטית בתור **ממד התמחור**, ומנגנון התמחור של Project Service מחפש מחיר, הוא ישתמש רק בערך של **היחידה הארגונית** מתוך הקשר הקלט. אם **היחידה הארגונית** של הקשר הקלט היא "Contoso US", התוצאה תהיה לא דטרמיניסטית כיוון ששתי השורות יתאימו. כדי להימנע מתרחיש זה, בעת יצירת רשומות **מחיר תפקיד**, Project Service מאמת ששילוב הממדים הוא ייחודי. אם הממד מבוטל לאחר שנוצרו רשומות **מחיר התפקיד**, ניתן להפר אילוץ זה. לפיכך, לפני ביטול הממד, עליך למחוק את כל השורות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** שערך ממד זה מאוכלס אצלן.
