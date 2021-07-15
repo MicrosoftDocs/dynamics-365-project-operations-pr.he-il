@@ -24,10 +24,12 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: החלת נתוני הדגמה
           items:
-            - name: החלת נתוני תצורה ב-Common Data Service
+            - name: החלת נתוני תצורה ב- Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: פריסת סביבות
           items:
+            - name: פריסה ידנית של אפליקציית Dataverse ‏Project Operations עם תמיכה בכתיבה כפולה
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: הקצאת סביבה חדשה
               href: environment/resource-provision-new-environment.md
             - name: מודל האבטחה
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
+        - name: יולי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: יוני 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: מאי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: אפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -280,9 +286,9 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
+            - name: פיתוח תבניות פרויקט בעזרת 'העתק פרויקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים (Public Preview)
+            - name: שימוש בממשקי API של לוח זמנים של פרויקט (Public Preview)
               href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
@@ -430,17 +436,15 @@
       items:
         - name: הגדרת תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
           href: procurement/configure-materials-nonstocked.md
-        - name: רכישת חומרים שאינם במלאי לפרוייקטים באמצעות חשבוניות ספק בהמתנה
+        - name: רכישת חומרים שאינם במלאי לפרויקטים באמצעות חשבוניות ספק בהמתנה
           href: procurement/pending-vendor-invoices.md
     - name: הפקת חשבונית
       items:
         - name: מבט כולל על תהליך הפקת חשבונית
           href: invoicing/post-project-invoices.md
-        - name: ניהול הצעות לחשבוניות פרוייקט
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: חשבונית פרופורמה
           items:
-            - name: ניהול של מצבור פריטי עבודה של חיוב מבוסס פרוייקט
+            - name: ניהול מצבור פריטי עבודה של חיוב מבוסס פרויקט
               href: proforma-invoicing/manage-billing-backlog.md
             - name: ניהול מצב ואימות של 'אין לחרוג'
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
@@ -452,24 +456,16 @@
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
             - name: אישור חשבונית פרופורמה מבוססת פרוייקט
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: יצירת חשבוניות מתקנות מבוססות פרוייקט
+            - name: יצירת חשבוניות מתקנות מבוססות פרויקט
               href: proforma-invoicing/corrective-invoices.md
-            - name: קביעת תצורה של אוטומציית חשבוניות מבוססות פרוייקט
+            - name: קביעת תצורה של אוטומציית חשבוניות מבוססות פרויקט
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: ניהול הצעות לחשבוניות פרוייקט
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: חשבונאות פרוייקט
-      items:
-        - name: ברירות מחדל של ממד פיננסי
-          href: project-accounting/financial-dimension-defaults.md
-        - name: קביעת תצורה של קטגוריות פרוייקט
-          href: project-accounting/configure-project-categories.md
-        - name: קביעת תצורה של חשבונאות לפרוייקטים פנימיים
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: קביעת תצורה של חשבונאות לפרוייקטים הניתנים לחיוב
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: יומן שילוב ב-Project Operations
-          href: project-accounting/project-operations-integration-journal.md
+        - name: הפקת חשבוניות לקוח
+          items:
+            - name: ניהול הצעות לחשבונית פרויקט
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: חשבונאות נכונה בטיוטת הצעות לחשבונית פרויקט
+              href: invoicing/correct-project-invoice-proposals.md
         - name: הפקת חשבוניות בין-חברתית
           items:
             - name: מבט כולל על הפקת חשבוניות בין-חברתית
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: יצירת חשבוניות לקוחות וספקים בין-חברתיות
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: חשבונאות פרויקט
+      items:
+        - name: ברירות מחדל של ממד פיננסי
+          href: project-accounting/financial-dimension-defaults.md
+        - name: קביעת התצורה של קטגוריות פרוייקט
+          href: project-accounting/configure-project-categories.md
+        - name: קביעת תצורה של חשבונאות לפרוייקטים פנימיים
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: קביעת תצורה של חשבונאות לפרויקטים הניתנים לחיוב
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: יומן שילוב ב- Project Operations
+          href: project-accounting/project-operations-integration-journal.md
     - name: זיהוי הכנסה
       items:
         - name: מבט כולל על זיהוי הכנסה
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
+        - name: מה חדש ביולי 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: מה חדש ביוני 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: מה חדש במאי 2021 - פריסה קלה
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: מה חדש באפריל 2021 - פריסה קלה
@@ -760,9 +772,9 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
+            - name: פיתוח תבניות פרויקט בעזרת 'העתק פרויקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים (Public Preview)
+            - name: שימוש בממשקי API של לוח זמנים של פרויקט (Public Preview)
               href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
@@ -882,6 +894,10 @@
   items:
     - name: מה חדש
       items:
+        - name: מה חדש ביולי 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: מה חדש במאי 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: מה חדש באפריל 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: מה חדש במרץ 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
@@ -1034,6 +1050,10 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 31, V3'
