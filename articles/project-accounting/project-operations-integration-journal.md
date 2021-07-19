@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007142"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304257"
 ---
 # <a name="integration-journal-in-project-operations"></a>יומן שילוב ב-Project Operations
 
@@ -26,7 +26,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 רשומות ביומן השילוב של Project Operations נוצרות תוך שימוש בתהליך תקופתי, **ייבא מטבלת איחסון זמני**. ניתן להריץ את התהליך על ידי מעבר אל **Dynamics 365 Finance** > **ניהול פרויקטים וחשבונאות** > **תקופתי** > **שילוב Project Operations** > **ייבא מטבלת אחסון זמני**. באפשרותך להפעיל את התהליך באופן אינטראקטיבי או להגדיר את התהליך כך שיפעל ברקע לפי הצורך.
 
 כאשר התהליך התקופתי פועל, מאותרים נתונים בפועל שעדיין לא נוספו ליומן שילוב של Project Operations. נוצרת שורת יומן לכל עסקה בפועל.
-המערכת מקבצת שורות יומן ליומנים נפרדים על סמך הערך שנבחר בשדה **יחידת תקופה ביומן השילו של Project Operations** (בכרטיסיה **כספים** > **ניהול פרויקטים וחשבונאות** > **הגדרה** > **פרמטרים של ניהול פרויקטים וחשבונאות**, **Project Operations ב- Dynamics 365 Customer Engagement**). הערכים האפשריים עבור שדה זה כוללים:
+המערכת מקבצת שורות יומן ליומנים נפרדים על סמך הערך שנבחר בשדה **יחידת תקופה ביומן השילו של Project Operations** (בכרטיסיה **Finance** > **ניהול פרויקטים וחשבונאות** > **הגדרה** > **פרמטרים של ניהול פרויקטים וחשבונאות**, **Project Operations ב- Dynamics 365 Customer Engagement**). הערכים האפשריים עבור שדה זה כוללים:
 
   - **ימים**: הנתונים בפועל מקובצים לפי תאריך העסקה. נוצר יומן נפרד לכל יום.
   - **חודשים**: נתונים בפועל מקובצים לפי חודש קלנדרי. נוצר יומן נפרד לכל חודש.
