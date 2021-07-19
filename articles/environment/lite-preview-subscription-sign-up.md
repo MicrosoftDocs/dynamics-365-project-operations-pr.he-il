@@ -2,93 +2,70 @@
 title: הרשמה למנוי Preview‏ - לייט
 description: נושא זה מספק מידע על אופן ההרשמה ל-Project Operations ועל אופן פריסתו בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997422"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334783"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="8abfc-103">הרשמה למנוי Preview‏ - לייט</span><span class="sxs-lookup"><span data-stu-id="8abfc-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="448b3-103">רישום למנוי Preview‏ - Lite</span><span class="sxs-lookup"><span data-stu-id="448b3-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="8abfc-104">נושא זה מסביר כיצד להירשם כמנוי להצעת השותף המקדימה ולפרוס את Dynamics 365 Project Operations בפריסה קלה - משלב העסקה ועד לחשבונית פרופורמה.</span><span class="sxs-lookup"><span data-stu-id="8abfc-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="448b3-104">נושא זה מסביר כיצד להירשם כמנוי להצעה של גירסת הניסיון ולפרוס את הפריסה הקלה של Dynamics 365 Project Operations - עסקה לחשבונית פרופורמה.</span><span class="sxs-lookup"><span data-stu-id="448b3-104">This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8abfc-105">תהליך זה ישתנה במהדורות הקרובות של Project Operations.</span><span class="sxs-lookup"><span data-stu-id="8abfc-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="448b3-105">תהליך זה ישתנה במהדורות הקרובות של Project Operations.</span><span class="sxs-lookup"><span data-stu-id="448b3-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="8abfc-106">דרישות מוקדמות</span><span class="sxs-lookup"><span data-stu-id="8abfc-106">Prerequisites</span></span>
-
-- <span data-ttu-id="8abfc-107">תקבל הודעת דואר המזמינה אותך להשתתף ב-Preview.</span><span class="sxs-lookup"><span data-stu-id="8abfc-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="8abfc-108">ניתן לבקש Preview ב[אתר Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="8abfc-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="8abfc-109">המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure.</span><span class="sxs-lookup"><span data-stu-id="8abfc-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="8abfc-110">עיין בכל התנאים וההגבלות.</span><span class="sxs-lookup"><span data-stu-id="8abfc-110">Review all terms and conditions.</span></span>
-
-## <a name="subscribe"></a><span data-ttu-id="8abfc-111">הירשם כמנוי</span><span class="sxs-lookup"><span data-stu-id="8abfc-111">Subscribe</span></span>
-
-<span data-ttu-id="8abfc-112">כשתקבל [אישור לבקשת ‎,Preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), תקבל שתי הצעות מ-Microsoft בדואר.</span><span class="sxs-lookup"><span data-stu-id="8abfc-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="8abfc-113">הצעות אלה מאפשרות לך לפרוס את Project Operations Preview:</span><span class="sxs-lookup"><span data-stu-id="8abfc-113">These offers allow you to deploy the Project Operations Preview:</span></span>
-
-- <span data-ttu-id="8abfc-114">Dynamics 365 Project Operations (CRM)‎ - גירסת ניסיון</span><span class="sxs-lookup"><span data-stu-id="8abfc-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="8abfc-115">Office 365 Project Operations - גירסת ניסיון של Preview</span><span class="sxs-lookup"><span data-stu-id="8abfc-115">Office 365 Project Operations - Preview Trial</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="448b3-106">דרישות מוקדמות</span><span class="sxs-lookup"><span data-stu-id="448b3-106">Prerequisites</span></span>
+- <span data-ttu-id="448b3-107">המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure.</span><span class="sxs-lookup"><span data-stu-id="448b3-107">The user who deploys the preview must have Azure tenant global administrator rights.</span></span> <span data-ttu-id="448b3-108">ניתן ליצור דייר במהלך מימוש ההצעה הראשונה.</span><span class="sxs-lookup"><span data-stu-id="448b3-108">You can create a tenant during the first offer redemption.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8abfc-116">רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו.</span><span class="sxs-lookup"><span data-stu-id="8abfc-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="8abfc-117">אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.</span><span class="sxs-lookup"><span data-stu-id="8abfc-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="448b3-109">רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו.</span><span class="sxs-lookup"><span data-stu-id="448b3-109">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="448b3-110">אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.</span><span class="sxs-lookup"><span data-stu-id="448b3-110">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> 
+> <span data-ttu-id="448b3-111">גירסאות ניסיון הן לשימוש חד פעמי בדייר.</span><span class="sxs-lookup"><span data-stu-id="448b3-111">Trials are single use in the tenant.</span></span> <span data-ttu-id="448b3-112">אפשר להריץ גירסת ניסיון רק פעם אחת.</span><span class="sxs-lookup"><span data-stu-id="448b3-112">You can only run a trial one time.</span></span> <span data-ttu-id="448b3-113">אנו ממליצים ליצור דייר חדש לצורך גירסת הניסיון.</span><span class="sxs-lookup"><span data-stu-id="448b3-113">We recommend that you create a new tenant for the purpose of the trial.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="8abfc-118">Dynamics 365 Project Operations (CRM)‎ - גירסת ניסיון</span><span class="sxs-lookup"><span data-stu-id="8abfc-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-trial"></a><span data-ttu-id="448b3-114">גירסת ניסיון של Dynamics 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="448b3-114">Dynamics 365 Project Operations trial</span></span> 
 
-<span data-ttu-id="8abfc-119">לפני שתתחיל, ודא שאתה מחובר לדפדפן עם חשבון העבודה שלך בדייר שבו אתה רוצה את התצוגה המקדימה של Project Operations.</span><span class="sxs-lookup"><span data-stu-id="8abfc-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="448b3-115">לפני שתתחיל, ודא שאתה מחובר לדפדפן עם חשבון העבודה שלך בדייר שבו אתה רוצה את התצוגה המקדימה של Project Operations.</span><span class="sxs-lookup"><span data-stu-id="448b3-115">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="8abfc-120">ניתן לממש את קוד המבצע הראשון, **Dynamics 365 Project Operations (CRM)‎ - גרסת ניסיון של Preview** על ידי הדבקה בכתובת האתר בדפדפן.</span><span class="sxs-lookup"><span data-stu-id="8abfc-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="448b3-116">עבור אל [גירסת הניסיון של Project Operations](https://aka.ms/try-po) כדי לממש את קוד ההצעה הראשון, **Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="448b3-116">Go to [Project Operations Trial](https://aka.ms/try-po) to redeem the first offer code, **Dynamics 365 Project Operations**.</span></span>
+2. <span data-ttu-id="448b3-117">אשר את ההזמנה.</span><span class="sxs-lookup"><span data-stu-id="448b3-117">Confirm your order.</span></span>
 
-![ממש הצעה](./media/16RedeemFirstOfferNew.png)
+  <span data-ttu-id="448b3-118">תראה שהצעת האישור מומשה בהצלחה.</span><span class="sxs-lookup"><span data-stu-id="448b3-118">You'll see the confirmation offer was successfully redeemed.</span></span>
 
-2. <span data-ttu-id="8abfc-122">אשר את ההזמנה.</span><span class="sxs-lookup"><span data-stu-id="8abfc-122">Confirm your order.</span></span>
-<span data-ttu-id="8abfc-123">![אשר את ההזמנה](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="8abfc-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
-
-<span data-ttu-id="8abfc-124">תראה שהצעת האישור מומשה בהצלחה.</span><span class="sxs-lookup"><span data-stu-id="8abfc-124">You'll see confirmation offer was successfully redeemed.</span></span>
-
-![אישור](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="8abfc-126">Office 365 Project Operations - גירסת ניסיון של Preview</span><span class="sxs-lookup"><span data-stu-id="8abfc-126">Office 365 Project Operations - Preview Trial</span></span>
-
-<span data-ttu-id="8abfc-127">חזור על אותם שלבים כמו בקוד המבצע הראשון.</span><span class="sxs-lookup"><span data-stu-id="8abfc-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="8abfc-128">הקפד להוסיף את קוד המבצע השני באמצעות אותו חשבון משתמש שבו השתמשת עם קוד המבצע הראשון.</span><span class="sxs-lookup"><span data-stu-id="8abfc-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
-
-## <a name="assign-licenses"></a><span data-ttu-id="8abfc-129">הקצאת רשיונות</span><span class="sxs-lookup"><span data-stu-id="8abfc-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="448b3-119">הקצאת רשיונות</span><span class="sxs-lookup"><span data-stu-id="448b3-119">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="8abfc-130">תזדקק לגישה מנהלתית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="8abfc-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="448b3-120">תזדקק לגישה מנהלתית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.</span><span class="sxs-lookup"><span data-stu-id="448b3-120">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="8abfc-131">עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.</span><span class="sxs-lookup"><span data-stu-id="8abfc-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="448b3-121">עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.</span><span class="sxs-lookup"><span data-stu-id="448b3-121">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+2. <span data-ttu-id="448b3-122">בדף **משתמשים פעילים** בחר את המשתמשים שאליהם ברצונך להקצות רישיון.</span><span class="sxs-lookup"><span data-stu-id="448b3-122">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+3. <span data-ttu-id="448b3-123">ודא שהרישיון **Dynamics 365 Project Operations** נבחר.</span><span class="sxs-lookup"><span data-stu-id="448b3-123">Verify that the **Dynamics 365 Project Operations** license is selected.</span></span> 
+4. <span data-ttu-id="448b3-124">בחר **שמור שינויים**.</span><span class="sxs-lookup"><span data-stu-id="448b3-124">Select **Save changes**.</span></span>
 
-![דף הבית של מרכז הניהול](./media/14AdminPortal.png)
+## <a name="create-a-new-dataverse-environment"></a><span data-ttu-id="448b3-125">יצירת סביבת Dataverse חדשה</span><span class="sxs-lookup"><span data-stu-id="448b3-125">Create a new Dataverse environment</span></span>
 
-2. <span data-ttu-id="8abfc-133">בדף **משתמשים פעילים** בחר את המשתמשים שאליהם ברצונך להקצות רישיון.</span><span class="sxs-lookup"><span data-stu-id="8abfc-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+1. <span data-ttu-id="448b3-126">הקצה סביבת פריסת חדשה של Project Operations Dataverse על ידי ביצוע ההוראות בנושא זה, [מודל פריסת Dataverse](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="448b3-126">Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md).</span></span> <span data-ttu-id="448b3-127">כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.</span><span class="sxs-lookup"><span data-stu-id="448b3-127">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
 
-![הקצאת רשיונות](./media/15AssignLicenses.png)
+  ![סביבה חדשה](./media/19CreateEnvironment.png)
 
-3. <span data-ttu-id="8abfc-135">ודא שהרישיונות **Dynamics 365 Project Operations (CRM) Preview** ו- **Office 365 Project Operations - Preview** נבחרו.</span><span class="sxs-lookup"><span data-stu-id="8abfc-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="8abfc-136">בחר **שמור שינויים**.</span><span class="sxs-lookup"><span data-stu-id="8abfc-136">Select **Save changes**.</span></span>
+2. <span data-ttu-id="448b3-129">בחר את ההגדרה **הפעל יישומי Dynamics 365** והשאר את **פרוס יישומים אלה באופן אוטומטי** ריק.</span><span class="sxs-lookup"><span data-stu-id="448b3-129">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="448b3-130">בחר **שמור** כדי ליצור סביבה חדשה.</span><span class="sxs-lookup"><span data-stu-id="448b3-130">Select **Save** to create the environment.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="8abfc-137">צור סביבת CDS חדשה</span><span class="sxs-lookup"><span data-stu-id="8abfc-137">Create a new CDS environment</span></span>
+  ![הוסף מסד נתונים](./media/20CreateEnvironment1.png)
 
-1. <span data-ttu-id="8abfc-138">הקצה סביבת פריסת CDS חדשה של Project Operations על ידי מעקב אחר ההוראות בנושא זה, [מודל פריסת CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="8abfc-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="8abfc-139">כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.</span><span class="sxs-lookup"><span data-stu-id="8abfc-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="8abfc-140">![סביבה חדשה](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="8abfc-140">![New environment](./media/19CreateEnvironment.png)</span></span>
-
-2. <span data-ttu-id="8abfc-141">בחר את ההגדרה **הפעל יישומי Dynamics 365** והשאר את **פרוס יישומים אלה באופן אוטומטי** ריק.</span><span class="sxs-lookup"><span data-stu-id="8abfc-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="8abfc-142">בחר **שמור** כדי ליצור סביבה חדשה.</span><span class="sxs-lookup"><span data-stu-id="8abfc-142">Select **Save** to create the environment.</span></span>
-
-![הוסף מסד נתונים](./media/20CreateEnvironment1.png)
-
-4. <span data-ttu-id="8abfc-144">לאחר יצירת הסביבה, התקן את הפתרון **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="8abfc-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="448b3-132">לאחר יצירת הסביבה, התקן את הפתרון **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="448b3-132">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![התקנת פתרון](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="8abfc-146">התקן את התצורה של CSD ואת נתוני הגדרת ההדגמה</span><span class="sxs-lookup"><span data-stu-id="8abfc-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="448b3-134">התקן את התצורה של CSD ואת נתוני הגדרת ההדגמה</span><span class="sxs-lookup"><span data-stu-id="448b3-134">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="8abfc-147">התקן את תצורת ה-CDS והגדר נתוני הדגמה על ידי מעקב אחר ההוראות בנושא, [החל הגדרת ההדגמה ואת נתוני התצורה](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="8abfc-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="448b3-135">התקן את תצורת ה-CDS והגדר נתוני הדגמה על ידי מעקב אחר ההוראות בנושא, [החל הגדרת ההדגמה ואת נתוני התצורה](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="448b3-135">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
