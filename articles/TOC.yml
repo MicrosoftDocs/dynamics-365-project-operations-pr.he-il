@@ -832,6 +832,16 @@
           items:
             - name: מבט כולל על ניצול משאבים
               href: resource-management/resource-utilization-overview.md
+    - name: ניהול חוזה משנה ב-Project Operations
+      items:
+        - name: מבט כולל על ניהול חוזי משנה
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: מושגי מפתח בקבלנות משנה
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: ניהול ספקים ומחירוני פרויקטים
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: קבלני משנה כמשאבים ניתנים להזמנה
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: זמן
       items:
         - name: מבט כולל על זמן
@@ -1050,6 +1060,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 32.5, V3'
