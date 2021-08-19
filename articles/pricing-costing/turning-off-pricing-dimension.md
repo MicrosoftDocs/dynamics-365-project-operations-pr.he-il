@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004532"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994502"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>השבתת ממד תמחור
 
@@ -32,7 +32,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 עם זאת, כאשר תעשה זאת, ייתכן שתקבל את הודעת השגיאה, **לא ניתן לעדכן או למחוק את ממד התמחור אם יש רשומות מחירים משויכות.**
 
-![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור](media/Business-Process-Error.png)
+![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור.](media/Business-Process-Error.png)
 
 הודעת שגיאה זו מציינת שקיימות רשומות מחיר שהוגדרו קודם לכן עבור הממד שמבוטל. כל הרשומות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** המפנות לממד חייבות להימחק לפני שניתן יהיה להגדיר את ישימות הממד לערך **לא**. כלל זה חל על ממדי תמחור מוגדרים מראש ועל ממדי תמחור מותאמים אישית שיצרת. הסיבה לאימות זה היא שלרשומה **מחיר תפקיד** חייב להיות שילוב ייחודי של ממדים. לדוגמה, במחירון הנקרא **תעריפי עלויות בארה"ב 2018**, מופיעות השורות הבאות של **מחיר תפקיד**. 
 

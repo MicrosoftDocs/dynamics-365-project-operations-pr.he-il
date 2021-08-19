@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998412"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995177"
 ---
 # <a name="sales-estimates-and-projects"></a>הערכות של מכירות ופרויקטים
 
@@ -35,11 +35,11 @@ ms.locfileid: "5998412"
 
 בעת יצירת שורת הצעת מחיר מבוססת פרויקט, תוכל ליצור פרויקט חדש או לשייך פרויקט קיים בדף **שורת הצעת מחיר**. 
 
-> ![טופס שורת הצעת מחיר](media/project-8.png)
+> ![טופס שורת הצעת מחיר.](media/project-8.png)
  
 בעת יצירת פרויקט חדש מפרטי שורת הצעת המחיר,תוכל להשתמש בתבניות הפרויקט. תבניות פרויקט הן פרויקטים לדוגמה המייצגים תוכניות פרויקט סטנדרטיות והערכות פיננסיות האופייניות לארגון. הן יכולות לייצג גם העתקים של תוכניות פרויקט והערכות מפרויקטי עבר.
 
-> ![פרטים בשורת הצעת מחיר](media/project-9.png)
+> ![פרטים בשורת הצעת מחיר.](media/project-9.png)
   
 בעת יצירת הפרויקט מהצעת המחיר, הפרויקט משויך באופן אוטומטי לשורת הצעת מחיר.
 

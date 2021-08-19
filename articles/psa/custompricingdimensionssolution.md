@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995267"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>יצירת פתרונות מותאמים אישית עבור ממדי תמחור
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012317"
 1. בחר **הגדרות** > **פתרונות**, ולאחר מכן בחר **חדש**. 
 2. תן שם לפתרון, **\<your organization name> ממדי תמחור**, הזן את המידע הדרוש שנותר ובחר **שמור**.
 
-> ![יצירת פתרון מותאם אישית עבור ממדי תמחור](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![יצירת פתרון מותאם אישית עבור ממדי תמחור.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>הוסף את כל הישויות הנדרשות ואת הרכיבים הקשורים לפתרון ממד התמחור
 יהיה עליך להוסיף את הישויות הבאות של Project Service לפתרון התמחור שלך. השלם את השלבים שבהליך זה כדי לבצע שינויים חשובים בסכימה בפתרון התמחור כך שהישויות יהיו מודעות לממדי התמחור החדשים.
@@ -54,16 +54,16 @@ ms.locfileid: "6012317"
 - מחיר תפקיד 
 - ערך זמן 
 
-> ![הוספת ישויות קיימות לפתרון ממדי התמחור](media/Existing-entities-to-PD-solution.png)
+> ![הוספת ישויות קיימות לפתרון ממדי התמחור.](media/Existing-entities-to-PD-solution.png)
 
-> ![בחירת רכיבי פתרון](media/Dimension-Components.png)
+> ![בחירת רכיבי פתרון.](media/Dimension-Components.png)
 
 > [!NOTE]
 > הקפד לכלול את כל הטפסים והתצוגות עבור כל אחת מהישויות שנבחרו.
 
 4. כאשר תתבקש לכלול ישויות תלויות עבור הישויות שנבחרו, בחר **לא**.
 
-> ![אל תכלול את כל הרכיבים הקשורים](media/Do-not-include-required.png)
+> ![אל תכלול את כל הרכיבים הקשורים.](media/Do-not-include-required.png)
 
 
 

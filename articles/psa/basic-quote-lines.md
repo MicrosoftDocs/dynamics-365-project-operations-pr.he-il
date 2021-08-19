@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014924"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995447"
 ---
 # <a name="quotes-and-quote-lines"></a>הצעות מחיר ושורות של הצעת מחיר
 
@@ -84,7 +84,7 @@ PSA תומך בכל שלושת הסוגים של לוחות זמנים לחשב�
 
 ניתן לשייך סיווג עסקה אחד או יותר מאלה לכל שורת הצעת מחיר. לאחר זכייה בהצעת מחיר, המיפוי בין סיווג העסקה לשורת הצעת המחיר מועבר לסעיף החוזה.
  
-> ![צילום מסך של מיפוי סוגי עסקאות להצעת מחיר ולסעיפי חוזה](media/basic-guide-5.png)
+> ![צילום מסך של מיפוי סוגי עסקאות להצעת מחיר ולסעיפי חוזה.](media/basic-guide-5.png)
   
 לדוגמה, הצעת מחיר עשויה לכלול את שתי שורות הצעת המחיר הבאות: 
 - עבודת ייעוץ המשתמשת בשיטת חיוב לפי זמן וחומר, כאשר סיווגי עסקה של זמן ותשלום הם ישימים. לדוגמה, כל עסקאות הזמן והתשלום עבור הפרויקט לדוגמה של **יישום Dynamics AX** מחויבות ללקוח בהתבסס על הזמן והחומרים הנמצאים בשימוש. 
