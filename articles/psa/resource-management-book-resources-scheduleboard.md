@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998237"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>שימוש בלוח הזמנים כדי להזמין משאבים לפרויקט
 
@@ -34,23 +34,23 @@ ms.locfileid: "5998052"
 1. אם החלונית **דרישות הזמנה** בתחתית הדף מכווצת, בחר בפקד ההרחבה כדי להרחיב אותה.
 2. בחלונית **דרישות הזמנה**, בכרטיסיה **פרויקט**, בחר את הדרישה להזמנה.
 
-    ![דרישה שנבחרה בכרטיסיה 'פרויקט'](media/Resource-Management-image73.png)
+    ![דרישה שנבחרה בכרטיסיה 'פרוייקט'.](media/Resource-Management-image73.png)
 
 3. בחר **חפש זמינות** כדי לסנן את המשאבים הניתנים להזמנה ולהציג את המשאבים הזמינים. 
 4. בחר משאב אחד או יותר מלוח הזמנים. 
 5. בחלונית **צור הזמנת משאבים** בצד הימני של הדף, הזן את פרטי ההזמנה ולאחר מכן בחר **הזמנה ויציאה**.
 
-    ![החלונית 'צור הזמנת משאבים' עבור המשאב הניתן להזמנה שנבחר](media/Resource-Management-image74.png)
+    ![החלונית 'צור הזמנת משאבים' עבור המשאב הניתן להזמנה שנבחר.](media/Resource-Management-image74.png)
 
 6. על אף שהדרישה נבחרה בחלונית **צור הזמנת משאבים**, בחר תא אחד או יותר של משאב כדי ליצור את ההזמנה.
 
-    ![תאים מרובים שנבחרו עבור משאב](media/Resource-Management-image75.png)
+    ![תאים מרובים שנבחרו עבור משאב.](media/Resource-Management-image75.png)
 
 7. בחר **הזמן**.
 
 הדרישה מולאה באמצעות המשאב שנבחר. בחלונית **דרישות הזמנה**, שים לב שהדרישה עודכנה והמשאב מוצג כמשאב שהוזמן בפרויקט.
 
-![משאב שהוזמן בפרויקט](media/Resource-Management-image76.png)
+![משאב שהוזמן בפרוייקט.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

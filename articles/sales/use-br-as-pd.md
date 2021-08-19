@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996257"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>שימוש במשאב הניתן להזמנה כממד תמחור
 
@@ -64,18 +64,18 @@ ms.locfileid: "6011192"
 1. לחץ לחיצה כפולה על השורה ברשת **ממדי תמחור** כדי לפתוח את דף הממד של **msdyn_bookableresource**.
 2. בדף הממד, בכרטיסיה **קשור**, בחר **שמות של שדות ממדי התמחור**.
 
-  ![כרטיסיית שמות של שדה ממד תמחור](media/PD-fieldname.png)
+  ![כרטיסיית שמות של שדה ממד תמחור.](media/PD-fieldname.png)
 
 3. בתצוגה המשויכת שנפתחת, בחר **הוסף שם שדה של ממד תמחור חדש**.
 
-  ![הוספת שמות שדות של ממד תמחור חדש](media/Add-NewPD-fieldname.png)
+  ![הוספת שמות שדות של ממד תמחור חדש.](media/Add-NewPD-fieldname.png)
 
   פעולה זו פותחת את הדף **שם שדה של ממד תמחור חדש** עבור **msdyn_bookableresource**. 
 
 4. בדף **שם שדה ממד תמחור חדש**, הוסף **msdyn_projectteam** לשדה **שם לוגי של הישות**.
 5. הוסף  **msdyn_bookableresourceid** ל- **שם השדה**.
 
- ![טופס שם שדה של ממד תמחור חדש](media/PD-fieldname-Added.png)
+ ![טופס שם שדה של ממד תמחור חדש.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

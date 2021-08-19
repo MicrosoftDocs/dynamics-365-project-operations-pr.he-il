@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998007"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996842"
 ---
 # <a name="fulfilling-resource-requests"></a>מילוי בקשות למשאבים
 
@@ -33,15 +33,15 @@ ms.locfileid: "5998007"
 
 בקשות למשאבים מוצגות כרשימה בתצוגה **בקשות למשאבים פעילים**.
 
-> ![רשימת בקשות למשאבים](media/Resource-Management-image59.png)
+> ![רשימת בקשות למשאבים.](media/Resource-Management-image59.png)
 
 כדי למלא בקשה, בחר אותה ברשימה ולאחר מכן בחר **חפש משאבים**. לחלופין, לחץ פעמיים על שורה כדי לפתוח את הבקשה. כעת תוכל לבחור את הכרטיסיה **דרישת משאב** כדי להציג את הדרישות עבור בקשה זו. כדי להתחיל למלא את הבקשה, בחר **חפש משאבים**.
 
-> ![פרטי בקשה למשאב](media/Resource-Management-image60.png)
+> ![פרטי בקשה למשאב.](media/Resource-Management-image60.png)
 
 מסייע התזמון מופיע ומסונן לפי הדרישות. בחר את המשאב, ולאחר מכן בחר **הזמן**.
 
-> ![המשאב שנבחר](media/Resource-Management-image61.png)
+> ![המשאב שנבחר.](media/Resource-Management-image61.png)
 
 חבר הצוות הכללי מוחלף במשאב בעל השם שהוזמן בהזמנה בטוחה בצוות הפרויקט ובהקצאות של משימות בלוח הזמנים של הפרויקט.
 

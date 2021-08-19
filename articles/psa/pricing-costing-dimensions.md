@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368882"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998462"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>דף הבית לממדי תמחור ותמחיר
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368882"
 
 PSA מסופק עם קבוצה של ממדי תמחור בברירת מחדל. תוכל להציג אותם על-ידי מעבר אל **Project Service** > **פרמטרים**. ברשומת הפרמטר, בכרטיסיה **‬‏‫ממדי תמחור מבוססי-כמות**, ודא שבתפקיד, **msdyn_resourcecategory** וביחידה הארגונית להקצאת משאבים, **msdyn_organizationalunit** השדה **‏‫חל על מכירות‬** והשדה **‏‫חל על עלות‬** מוגדרים בתור **כן**. כך תוכל להגדיר את המחיר ואת העלות עבור כל שילוב של תפקיד ויחידה ארגונית.
 
-![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש](media/PS-OOB-parameters.png)
+![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > אם השתמשת בשדות המוכנים לשימוש של תפקיד ויחידה ארגונית כממדי תמחור לפי גירסה 3 של PSA, לא יהיו שינויים נראים לעין. באפשרותך להמשיך להשתמש ב- Project Service כרגיל. 
