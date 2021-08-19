@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996747"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991757"
 ---
 # <a name="link-actuals-to-original-records"></a>קישור נתונים בפועל לרשומות המקוריות
 
@@ -77,7 +77,7 @@ Project Operations מתייחס לרשומות בחמש ישויות אלה כע
 
 הדוגמה הבאה מציגה את העיבוד האופייני של ערכי זמן במחזור חיים של פרוייקט Project Operations.
 
-> ![ערכי זמן העיבוד במחזור חיים של Project Service](media/basic-guide-17.png)
+> ![ערכי זמן העיבוד במחזור חיים של Project Service.](media/basic-guide-17.png)
  
 1. הגשת ערך זמן יוצרת שתי שורות יומן: שורה אחת עבור עלות ושורה אחת עבור מכירות שלא חויבו.
 2. אישור סופי של ערך הזמן יוצר שני ערכים של נתונים בפועל: אחד עבור נתונים בפועל של עלות ואחד עבור נתונים בפועל של מכירות שלא חויבו.

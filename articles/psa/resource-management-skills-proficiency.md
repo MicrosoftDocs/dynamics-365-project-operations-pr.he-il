@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008672"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990497"
 ---
 # <a name="skills-and-proficiency-models"></a>כישורים ומודלים של מיומנות
 
@@ -33,7 +33,7 @@ ms.locfileid: "6008672"
 
 כדי לשמור על מאגר הכישורים ב- Project Service Automation, עבור אל **משאבים** \> **כישורי משאבים**. 
 
-> ![כישורי משאבים](media/Resource-Management-image84.png)
+> ![כישורי משאבים.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>שימוש במודלים של מיומנות כדי לדרג משאבים
 
@@ -43,7 +43,7 @@ ms.locfileid: "6008672"
 2. במודל הדירוג החדש, ציין את ערך הדירוג המינימלי, את ערך הדירוג המרבי ואת הישות המדורגת.
 3. ברשת המשנה **ערכי דירוג**, ניתן להגדיר את ערכי הדירוג השונים, מהערך המינימלי לערך המרבי.
 
-> ![דירוגים מינימליים ומרביים הוגדרו](media/Resource-Management-image85.png)
+> ![דירוגים מינימליים ומרביים הוגדרו.](media/Resource-Management-image85.png)
 
 ערכי דירוג אלה מוצגים במסננים **דרישות משאב**, **לוח זמנים** ו **מסייע לוח הזמנים**.
 

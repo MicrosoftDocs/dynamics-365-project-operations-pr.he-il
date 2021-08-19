@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991036"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>קביעת התצורה של חשבונאות לפרוייקטים הניתנים לחיוב
 
@@ -101,23 +101,23 @@ Dynamics 365 Project Operations תומך באפשרויות חשבונאיות �
 
 זמן וחומרים – אין WIP
 
-![פרופיל עלות והכנסות: זמן וחומרים - אין WIP](media/time-material-no-wip.png)
+![פרופיל עלות והכנסות: זמן וחומרים - אין WIP.](media/time-material-no-wip.png)
 
 זמן וחומרים – WIP (הכנסות)
 
-![פרופיל עלות והכנסות: זמן וחומרים - WIP](media/time-material-with-wip.png)
+![פרופיל עלות והכנסות: זמן וחומרים - WIP.](media/time-material-with-wip.png)
 
 מחיר קבוע – אין WIP
 
-![פרופיל עלות והכנסות: מחיר קבוע - אין WIP](media/fixed-price-no-wip.png)
+![פרופיל עלות והכנסות: מחיר קבוע - אין WIP.](media/fixed-price-no-wip.png)
 
 מחיר קבוע – חוזה שהושלם
 
-![פרופיל עלות והכנסות: מחיר קבוע - חוזה שהושלם](media/fixed-price-completed-contract.png)
+![פרופיל עלות והכנסות: מחיר קבוע - חוזה שהושלם.](media/fixed-price-completed-contract.png)
 
 מחיר קבוע - אחוזי השלמה
 
-![פרופיל עלות והכנסות: מחיר קבוע - אחוזי השלמה](media/fixed-price-completed-percentage.png)
+![פרופיל עלות והכנסות: מחיר קבוע - אחוזי השלמה.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>דוגמאות לאירועי חשבונאות עבור דוגמאות לפרופילי עלות והכנסות פרויקט.

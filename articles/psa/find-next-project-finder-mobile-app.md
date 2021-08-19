@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990776"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>‏למצוא את הפרוייקט הבא שלך באמצעות היישום Project Finder Mobile‏ (Project Service)
 
@@ -38,12 +38,12 @@ ms.locfileid: "6007502"
   
  הקש על החץ מימין לפרוייקט שמעניין אותך כדי לראות פרטים נוספים ולהירשם אליו.  
   
- ![רשימת פרוייקטים שתואמים לכישורים ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)‬](../psa/media/project-service-project-finder-list.png "רשימת פרוייקטים שתואמים לכישורים ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)‬")  
+ ![רשימת פרוייקטים שתואמים לכישורים ביישום Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "רשימת פרוייקטים שתואמים לכישורים ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)‬")  
   
 ## <a name="update-your-skills"></a>עדכון הכישורים שלך  
  הקש על לחצן הפרופיל בצד הימני התחתון של המסך כדי לעדכן את הכישורים ואת רמות המיומנות.  
   
- ![לחצן פרופיל ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)](../psa/media/project-service-project-finder-profile.png "לחצן פרופיל ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)")  
+ ![לחצן פרופיל ביישום Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "לחצן פרופיל ביישום 'מאתר פרוייקטים לנייד' (Project Finder Mobile)")  
   
 ### <a name="see-also"></a>למידע נוסף  
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)

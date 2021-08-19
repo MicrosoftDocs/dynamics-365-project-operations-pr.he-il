@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998952"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992432"
 ---
 # <a name="create-custom-fields-and-entities"></a>יצירת שדות וישויות מותאמים אישית 
 
@@ -43,7 +43,7 @@ ms.locfileid: "5998952"
 2. בסייר הפתרונות, בחלונית הניווט הימנית, בחר **ישויות**.
 3. לחץ על **חדש** כדי ליצור ישות חדשה בשם **כותרת סטנדרטית**. הזן את המידע הדרוש שנותר ולאחר מכן לחץ על **שמור**.
 
-> ![הגדרת ישות של כותרת סטנדרטית](media/Standard-Title-entity-definition.png)
+> ![הגדרת ישות של כותרת סטנדרטית.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>ממדים מבוססי-קבוצת אפשרויות 
@@ -54,9 +54,9 @@ ms.locfileid: "5998952"
 2. בסייר הפתרונות, בחלונית הניווט הימנית, בחר **קבוצות אפשרויות**. 
 3. לחץ על **חדש** כדי ליצור קבוצת אפשרויות חדשה, הזן את המידע הדרוש שנותר ולחץ על **שמור**.
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב' ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב' .](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב' ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב' .](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>יצירת נתונים עבור ממדים מבוססי-ישות
@@ -68,7 +68,7 @@ ms.locfileid: "5998952"
 3. סגור את הטופס. 
 4. חזור על שלבים 1-3 כדי ליצור כותרת סטנדרטית נוספת עבור "מהנדס מערכות בכיר".
 
-> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית' ](media/ST-data.png)
+> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית' .](media/ST-data.png)
 
 
 
