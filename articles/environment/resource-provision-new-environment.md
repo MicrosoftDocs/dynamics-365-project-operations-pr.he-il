@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988562"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
@@ -52,12 +52,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 6. בחר את סוג הסביבה לפריסה. גירסת ניסיון מבוססת-מנוי תאפשר לך לפרוס סביבת CDS למשך 30 יום. 
 
-![הגדרות פריסה](./media/1DeploymentSettings.png)
+![הגדרות פריסה.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > בחר **מסכים** כדי להסכם לתנאי השירות ואז בחר **סיום** כדי לחזור להגדרות הפריסה.
 
-![הסכמת פריסה](./media/2DeploymentConsent.png)
+![הסכמת פריסה.](./media/2DeploymentConsent.png)
 
 7. אופציונלי - החל נתוני הדגמה על הסביבה. עבור אל **הגדרות מתקדמות**, בחר **התאם אישית את תצורת מסד הנתונים של SQL**, והגדר **ציין ערכת נתונים למסד נתונים של יישומים** שיהיה **הדגמה**.
 
@@ -67,7 +67,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 9. כדי לאשר שהסביבה נפרסה בהצלחה, בחר **התחברות** והיכנס לסביבה כדי לאשר.
 
-![פרטי סביבת ](./media/3EnvironmentDetails.png)
+![פרטי סביבה.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>החל עדכונים על סביבת Finance
 
@@ -77,19 +77,19 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. ב- LCS, בדף **פרטי הסביבה**, במקטע **עדכונים זמינים**, בחר **הצג עדכון**.
 
-![הצג עדכונים](./media/5ViewUpdates.png)
+![הצג עדכונים.](./media/5ViewUpdates.png)
 
 2. בדף **עדכונים בינאריים**, בחר **שמור חבילה.**
 
-![שמור חבילה](./media/6SavePackage.png)
+![שמור חבילה.](./media/6SavePackage.png)
 
 3. לחץ על **בחר הכל** ולאחר מכן בחר **שמור חבילה**.
 
-![סקור ושמור עדכונים](./media/7ReviewAndSaveUpdates.png)
+![סקור ושמור עדכונים.](./media/7ReviewAndSaveUpdates.png)
 
 4. הזן שם ותיאור לחבילה ולאחר מכן בחר **שמור**. בהתאם לחיבור האינטרנט, תהליך זה עשוי להימשך זמן מה.
 
-![העלה חבילה לספריית הנכסים](./media/8UploadPackageToAssetsLibrary.png)
+![העלה חבילה לספריית הנכסים.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. לאחר שמירת החבילה, בחר **סיום** ושמור חבילה זו בספריית הנכסים בפרויקט LCS שלך.
 
@@ -97,15 +97,15 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 6. כדי להחיל את העדכון, נווט אל הדף **פרטי הסביבה** ב- LCS ובחר **תחזק** > **החל עדכונים**.
 
-![תחזק סביבות](./media/9MaintainEnvironment.png)
+![תחזק סביבות.](./media/9MaintainEnvironment.png)
 
 7. ברשימת העדכונים, בחר את החבילה שיצרת ובחר **החל**.
 
-![החל עדכונים](./media/10ApplyUpdates.png)
+![החל עדכונים.](./media/10ApplyUpdates.png)
 
 מתן השירות לסביבה ייקח זמן מה. לאחר ההשלמה, הסביבה תחזור למצב פרוס.
 
-![סביבה פרוסה](./media/11EnvironmentDeployed.png)
+![סביבה פרוסה.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>יצירת חיבור כתיבה כפולה 
 
@@ -113,41 +113,41 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 2. בקטע **פרטי סביבה של Common Data Service**, בחר **קישור ל- CDS עבור יישומים**.
 3. לאחר השלמת הקישור, בחר **קישור ל- CDS עבור יישומים** שוב. תועבר לכתיבה כפולה ב- Finance.
 
-![קישור ל- CDS](./media/12LinktoCDS.png)
+![קישור ל- CDS.](./media/12LinktoCDS.png)
 
 4. בחר **החל פתרון** כדי לגשת לישויות אשר ימופו בשילוב.
 
-![החל פתרונות](./media/13ApplySolutions.png)
+![החל פתרונות.](./media/13ApplySolutions.png)
 
 5. בחר את שני הפתרונות, **מפת ישויות כתיבה כפולה של Dynamics 365 Finance and Operations** ו- **מפות ישויות כתיבה כפולה של Dynamics 365 Project Operations** ואז בחר **החל**.
 
-![אשר פתרונות](./media/14ConfirmSolutions.png)
+![אשר פתרונות.](./media/14ConfirmSolutions.png)
 
 לאחר החלת הפתרונות, ישויות הכתיבה הכפולה מוחלות על הסביבה.
 
-![מחיל פתרונות](./media/15ApplyingSolutions.png)
+![מחיל פתרונות.](./media/15ApplyingSolutions.png)
 
 לאחר החלת הישויות, כל המיפויים הזמינים רשומים בסביבה.
 
-![מפות של כתיבה כפולה](./media/15DWMappings.png)
+![מפות של כתיבה כפולה.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>רענן את ישויות הנתונים לאחר העדכון
 
 1. ב- Finance, עבור אל סביבת העבודה **ניהול נתונים**.
 
-![סביבת עבודה של ניהול נתונים](./media/16DataManagement.png)
+![סביבת עבודה של ניהול נתונים.](./media/16DataManagement.png)
 
 2. בחר את האריח **פרמטרים של מסגרת**.
 
-![פרמטרים של מסגרת](./media/17FrameworkParameters.png)
+![פרמטרים של מסגרת.](./media/17FrameworkParameters.png)
 
 3. בדף **הגדרות ישות**, בחר **רענן את רשימת הישויות**.
 
-![רענן את רשימת הישויות](./media/18RefreshEntityList.png)
+![רענן את רשימת הישויות.](./media/18RefreshEntityList.png)
 
 הרענון יימשך כ- 20 דקות. תקבל התראה כשהוא יסתיים.
 
-![רענן אישור](./media/19RefreshConfirmation.png)
+![רענן אישור.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>עדכן את הגדרות האבטחה של Project Operations ב- Dataverse
 
@@ -188,17 +188,17 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. כדי לרענן את הישות, בחר את שם המפה ואז בחר **רענן ישויות**. 
 
 
-![רענן מפה](./media/20RefreshMapping.png)
+![רענן מפה.](./media/20RefreshMapping.png)
 
 5. לאחר השלמת הרענון, הפעל את המפה. לפני הפיכת המפה הבאה לזמינה, ודא שהמפה בטבלה במצב **פועלת**. הפעלת מפות עם מספר גדול יותר של תנאים מוקדמים עשויה להימשך זמן מה.
 
 להפעלת מפה עם תנאים מוקדמים, החלף את המצב של הלחצן **הצג מפות ישויות קשורות** לפועל. אם הטבלה מציינת כי **סינכרון ראשוני של דרישות מוקדמות** הוא במצב **לא**, ודא שהדגל **סינכרון ראשוני** הוא **כבוי** בכל מפות הדרישה המוקדמת לפני שתפעיל אותה.
 
-![הפעל מפה](./media/21RunMap.png)
+![הפעל מפה.](./media/21RunMap.png)
 
 6. ודא שכל המפות הקשורות לפרויקט במצב פועל.
 
-![כל המפות פועלות](./media/22AllMapsRunning.png)
+![כל המפות פועלות.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>החלת נתוני תצורה ב-CDS עבור Project Operations (אופציונלי)

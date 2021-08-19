@@ -2,17 +2,17 @@
 title: פתרון בעיות בעבודה ברשת המשימות
 description: נושא זה מספק מידע לגבי פתרון בעיות הדרוש בעבודה ברשת המשימות.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989102"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>פתרון בעיות בעבודה ברשת המשימות 
 
@@ -24,7 +24,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 Project Operations מחייב הפעלת קובצי Cookie של צד שלישי על מנת לעבד את מבנה התפלגות עבודה. כאשר קובצי Cookie של צד שלישי אינם מופעלים, במקום לראות משימות, תראה דף ריק כשתבחר את הכרטיסיה **משימות** בדף **פרוייקט**.
 
-![כרטיסייה ריקה כאשר קובצי Cookie של צד שלישי אינם מופעלים](media/blankschedule.png)
+![כרטיסייה ריקה כאשר קובצי Cookie של צד שלישי אינם מופעלים.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>פתרון
@@ -52,11 +52,22 @@ Project Operations מחייב הפעלת קובצי Cookie של צד שלישי 
 Project Operations דורש שפרמטר של הפרוייקט יתייחס לנקודת קצה PEX. נקודת קצה זו צריכה לתקשר עם השירות המשמש לעיבוד של מבנה התפלגות עבודה. אם הפרמטר אינו מופעל, תקבל את השגיאה "הפרמטר של הפרוייקט אינו חוקי". 
 
 ### <a name="workaround"></a>פתרון
- ![שדה נקודת קצה PEX בפרמטר הפרוייקט](media/projectparameter.png)
 
 1. הוסף את השדה **נקודת קצה PEX** לדף **פרמטרים של פרוייקט**.
-2. עדכן את השדה בערך הבא: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. הסר את השדה מדף **פרמטרים של פרוייקט**.
+2. זהה את סוג המוצר שבו אתה משתמש. ערך זה משמש כאשר נקודת הקצה PEX מוגדרת. לאחר השחזור, סוג המוצר כבר מוגדר בנקודת קצה PEX. שמור על הערך הזה. 
+   
+    ![שדה נקודת קצה PEX בפרמטר הפרוייקט.](media/pex-endpoint.png)
+
+3. עדכן את השדה בערך הבא: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | סוג מוצר                         | פרמטר סוג |
+   |--------------------------------------|----------------|
+   | Project for the Web על ארגון ברירת המחדל   | סוג=0         |
+   | Project for the Web על ארגון של CDS | סוג=1         |
+   | Project Operations                   | סוג=2         |
+   
+4. הסר את השדה מדף **פרמטרים של פרוייקט**.
 
 ## <a name="privileges-for-project-for-the-web"></a>הרשאות לפרוייקט באינטרנט
 
@@ -67,7 +78,7 @@ Project Operations מסתמך על שירות תזמון חיצוני. השיר�
 
 1. עבור אל **הגדרות > אבטחה > משתמשים > משתמשי יישומים**.  
 
-   ![קורא יישום](media/applicationuser.jpg)
+   ![קורא יישום.](media/applicationuser.jpg)
    
 2. לחץ פעמיים על רשומת המשתמש כדי לאמת:
 
@@ -76,7 +87,7 @@ Project Operations מסתמך על שירות תזמון חיצוני. השיר�
  
 3. אם המשתמש לא קיים אפשר ליצור רשומת משתמש חדשה. בחר **משתמשים חדשים**. שנה את טופס הערך שיהיה **משתמש באפליקציה** ולאחר מכן הוסף את **מזהה היישום**.
 
-   ![פרטי משתמש ביישום](media/applicationuserdetails.jpg)
+   ![פרטי משתמש ביישום.](media/applicationuserdetails.jpg)
 
 4. ודא כי למשתמש הוקצה הרישיון הנכון וכי השירות מופעל בפרטי תוכניות השירות של הרישיון.
 5. ודא שהמשתמש יכול לפתוח את project.microsoft.com.

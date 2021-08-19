@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006242"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985952"
 ---
 # <a name="create-a-new-project"></a>יצירת פרויקט חדש
 
@@ -51,7 +51,7 @@ ms.locfileid: "6006242"
 
 מנהל פרויקט יכול להשתמש בפונקציונליות משאבי הפרויקט כדי ליצור את התפקידים הנדרשים לפרויקט. ניתן להשתמש בתפקידים אם משאבים מאושרים עדיין אינם ידועים בעת שמירת משאבים. ניתן לשמור זמנית תפקידים כמשאבים מתוכננים, כך שתוכלו להמשיך בשלבי תכנון הפרויקט.
 
-[![דוגמה לתפקיד](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![דוגמה לתפקיד.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **תרחישׁ:** Contoso נשכרה להשלמת פרוייקט זמן וחומר שיש בו אמנת פרוייקט שאושרה. מנהל הפרויקט הזוטר עדיין משלים את היקף הפרויקט. מנהל המשאבים מזהה כרגע משאבים ספציפיים שיישמרו לעבודה על הפרויקט החדש. בגלל האופי הקריטי של הפרויקט, ביקש נותן החסות את מנהל הפרויקט הבכיר כאחד התפקידים. על מנהל המשאבים לרכוש את המשאב החדש ולהגדיר את התפקיד במערכת במקרה שמנהל הפרויקט הזוטר זקוק למידע על המשאבים במהלך תכנון הפרויקט.
 

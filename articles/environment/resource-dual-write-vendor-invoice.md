@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d4f1b0ad94b71dc4adc5b2b3423340c5fdb171eb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002267"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986492"
 ---
 # <a name="vendor-invoice-integration"></a>שילוב חשבונית ספק
 
@@ -36,7 +36,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ספר משנה של מיסים, ספר משנה של ספקים, ורישומים פיננסיים נוספים נרשמים באופן המתאים ב- Dynamics 365 Finance בעת רישום חשבונית הספק.
 
-![שילוב חשבונית ספק](media/DW7VendorInvoice.png)
+![שילוב חשבונית ספק.](media/DW7VendorInvoice.png)
 
 כאשר רשומות נכתבות לישות **חשבונית ספק** ב- Dataverse, מתחיל תהליך אישור אוטומטי של הרשומות. במידת הצורך, ניתן לבחון את מצב תהליך האישור האוטומטי ב- Dataverse על ידי מעבר אל **הגדרות מתקדמות** > **מערכת** > **משימות מערכת**. לאחר השלמת האישור, רשומות מחלקת העסקאות 'חומרים' נוצרות בישות **נתונים בפועל**.
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985502"
 ---
 # <a name="invoicing-in-project-service-automation"></a>הפקת חשבונית ב- Project Service Automation
 
@@ -50,7 +50,7 @@ PSA אינו מיועד ליצור חשבוניות המוצגות ללקוח, �
 
 - בדף הרשימה של **חוזי הפרויקט**, פתח חוזה פרויקט ולאחר מכן בחר **צור חשבונית**.
 
-    ![יצירת חשבוניות פרויקט עבור חוזה פרויקט ספציפי](media/CreateProjectInvoicesOneByOne.png)
+    ![יצירת חשבוניות פרוייקט עבור חוזה פרוייקט ספציפי.](media/CreateProjectInvoicesOneByOne.png)
 
     חשבונית נוצרת עבור כל העסקאות בחוזה הפרויקט שנבחר במצב **מוכן להגיש חשבונית‬**. עסקאות אלה כוללות מועד, הוצאות, אבני דרך וסעיפי חוזה מבוססי מוצר.
 
@@ -58,7 +58,7 @@ PSA אינו מיועד ליצור חשבוניות המוצגות ללקוח, �
 
 1. בדף הרשימה של **חוזי הפרויקט**, בחר חוזה פרויקט אחד או יותר שעבורו תרצה ליצור חשבונות ולאחר מכן בחר **‏‫צור חשבוניות פרויקט**.
 
-    ![יצירת חשבוניות פרויקט בצובר](media/CreateProjectInvoicesBulk.png)
+    ![יצירת חשבוניות פרוייקט בצובר.](media/CreateProjectInvoicesBulk.png)
 
     הודעת אזהרה מיידעת אותך שייתכן שיהיה עיכוב לפני יצירת חשבוניות. התהליך גם מוצג.
 

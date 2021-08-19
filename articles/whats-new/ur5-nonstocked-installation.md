@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986762"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>עדכן את Project Operations בסביבת Finance שלך
 
@@ -33,7 +33,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. ודא שהסביבה פועלת. אם זה לא התחיל, התחל את הסביבה.
 5. במקטע **הוצאה חדשה** תחת **עדכונים זמינים**, בחר **הצג עדכון** עבור 10.0.15.
 
-![הצג את לחצן עדכון](media/view-update.png)
+![הצג את לחצן עדכון.](media/view-update.png)
 
 6. בדף **עדכונים בינאריים**, בחר **שמור חבילה**.
 7. בדף **בדוק ושמור עדכונים**, בחר **שמור חבילה**.
@@ -47,11 +47,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 2. ברשימה בחר את החבילה ששמרת קודם לכן ובחר **החל**.
 3. בחר **כן** כדי לאשר שברצונך לפרוס את החבילה.
 
-![אשר את תיבת הדו-שיח של פריסת החבילה](media/confirm-package-deployment.png)
+![אשר את תיבת הדו-שיח של פריסת החבילה.](media/confirm-package-deployment.png)
 
 4. בחר **כן** כדי לאשר שברצונך לעדכן את היישום.
 
-![אשר את תיבת הדו-שיח של עדכון היישום](media/confirm-application-update.png)
+![אשר את תיבת הדו-שיח של עדכון היישום.](media/confirm-application-update.png)
 
 הפריסה ועדכון היישום יתחילו. 
 
@@ -84,7 +84,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. בסביבת Dataverse שלך עבור אל **הגדרות**, ובקבוצה **מערכת** בחר **אבטחה**.
 
-![Dataverse הגדרות סביבה](media/Picture21.png)
+![Dataverse הגדרות סביבה.](media/Picture21.png)
 
 2. בחר **תפקידי אבטחה**.
 3. ברשימת התפקידים, בחר **משתמש באפליקציה עם כתיבה כפולה** ובחר את הכרטיסיה **ישויות מותאמות אישית**. 
@@ -121,7 +121,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 6. מרשימת המפות בחר את המפה **ספר חשבונות (msdyn_ledgers)** עם כל התנאים המוקדמים ובחר את תיבת הסימון **סנכרון ראשוני**. 
 7. בשדה **פריט ראשוני לסנכרון ראשוני**, בחר **יישומי Finance and Operations** ובחר **הפעל**.
  
- ![סנכרון מפת ספר חשבונאות](media/DW6.png)
+ ![סנכרון מפת ספר ראשי.](media/DW6.png)
  
 
 

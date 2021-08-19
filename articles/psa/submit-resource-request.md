@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985007"
 ---
 # <a name="submitting-a-resource-request"></a>שליחה של בקשת משאב
 
@@ -34,7 +34,7 @@ ms.locfileid: "6013172"
 1. ב- Project Service Automation‏ (PSA), בדף **פרויקטים**, לחץ על הכרטיסיה **צוות** כדי להציג רשימה של משאבים הניתנים להזמנה. 
 2. בחר את המשאב הכללי בעל דרישת משאב מהרשימה ולאחר מכן לחץ על **שלח בקשה**.
 
-![שליחה של בקשת משאב](media/RM-how-to-18.png)
+![שליחה של בקשת משאב.](media/RM-how-to-18.png)
 
 מצב הבקשה של חבר הצוות הכללי ישתנה ל **נשלח**.
 

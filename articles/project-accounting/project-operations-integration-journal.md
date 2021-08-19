@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304257"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987932"
 ---
 # <a name="integration-journal-in-project-operations"></a>יומן שילוב ב-Project Operations
 
@@ -19,7 +19,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 רישומי זמן והוצאות יוצרים עסקאות של **נתונים בפועל** המייצגות את התפיסה התפעולית של עבודות שהושלמו כנגד פרויקט. Dynamics 365 Project Operations מספק לרואי חשבון כלי לבדיקת עסקאות ולהתאמת תכונות החשבונאות לפי הצורך. לאחר סיום הבדיקה וההתאמות, העסקאות רשומות בספר המשנה ובספר הראשי של הפרויקט. רואה חשבון יכול לבצע פעילויות אלה באמצעות יומן **השילוב של Project Operations** (**Dynamics 365 Finance** > **ניהול פרויקטים וחשבונאות** > **יומנים** > יומן **השילוב של Project Operations**).
 
-![זרימת יומן השילוב](./media/IntegrationJournal.png)
+![זרימת יומן השילוב.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>יצירת רשומות ביומן השילוב של Project Operations
 

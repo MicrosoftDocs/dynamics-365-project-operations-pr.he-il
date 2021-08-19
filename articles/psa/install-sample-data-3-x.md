@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007277"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985547"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>התקנת הנתונים לדוגמה עבור Project Service
 
@@ -86,7 +86,7 @@ ms.locfileid: "6007277"
 הפונקציה של שומר מסך במחשב צריכה להיות כבויה. אחרת, אישורי ההפעלה של ההתקנה יאבדו כאשר שומר המסך פעיל (אלא אם תשמור את ההפעלה פעילה).
 
 > [!div class="mx-imgBorder"]
-> ![צילום מסך של הגדרות שומר מסך, עם שומר מסך כבוי](media/sample-data-1.png)
+> ![צילום מסך של הגדרות שומר מסך, עם שומר מסך כבוי.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>הורד וחלץ
 
@@ -142,7 +142,7 @@ ms.locfileid: "6007277"
 3. פתח את **PkgFolder** ולאחר מכן חפש ופתח את **ImportUserMapFile.xml**. עדכן את השדות **חדש =** בכתובות דואר אלקטרוני של המשתמשים המתאימים במערכת שלך.
 
    > [!div class="mx-imgBorder"]
-   > ![צילום מסך של UserMapFile](media/sample-data-7.png)
+   > ![צילום מסך של UserMapFile.](media/sample-data-7.png)
 
 4. אם לשם מלא של משתמש "Spencer Low" יש מזהה משתמש השונה מ- **"spencerl"**, עליך לעדכן קובץ נוסף. פתח את **DemoDataPreImportConfig.xml** וחפש את התג **userstocreateandconfigure**. עדכן את התג **\<login\>** ב- loginId (תלוי רישיות). 
 
@@ -172,7 +172,7 @@ ms.locfileid: "6007277"
 5. בחר **הבא** עד שתראה את הדו-שיח **הגדרת נתוני הדגמה**.
 
    > [!div class="mx-imgBorder"]
-   > ![צילום מסך של חלון מצב המתקין של נתוני הדגמה](media/sample-data-3.png)
+   > ![צילום מסך של חלון מצב המתקין של נתוני הדגמה.](media/sample-data-3.png)
 
 6. לפני שתמשיך, שים לב שהתקנת הנתונים לדוגמה עלולה להימשך עד שעה (בדרך כלל ~ 10 דקות). יהיה עליך לוודא כי המחשב נשאר מחובר לרשת במהלך ההתקנה וההפעלה שלך נשארת פעילה.   
 
@@ -191,10 +191,10 @@ ms.locfileid: "6007277"
 - אם Field Service מותקן, עבור אל **Project Service** > **הגדרות** > **מחירונים**. אשר שתעריפי החיוב והעלויות קיימים. עבור אל **Field Service** > **הגדרות** > **מחירונים** ובדוק כי שיעורי החיוב והעלויות קיימים, עם המטבע המתאים, לכל מדינה/אזור בערכת הנתונים.
 
   > [!div class="mx-imgBorder"]
-  > ![צילום מסך של מחירונים פעילים](media/sample-data-4.png)
+  > ![צילום מסך של מחירונים פעילים.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![צילום מסך של יחידות ארגוניות פעילות](media/sample-data-5.png)
+  > ![צילום מסך של יחידות ארגוניות פעילות.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>הערות טכניות
 
@@ -295,7 +295,7 @@ ms.locfileid: "6007277"
 בחר משתמש (לדוגמה, Spencer Low) ושנה את שעות עבודה שלו לשעות שברצונך להחיל על משתמשים מרובים. עבור אל **Universal Resource Scheduling** > **הגדרות** > **תבניות שעות עבודה** וערוך את הרשומה **תבנית עבודה המהווה ברירת מחדל**. בשדה **משאב תבנית**, בחר משתמש עם שעות עבודה שברצונך להחיל על משאבים אחרים. עבור אל **Universal Resource Scheduling** > **תזמון** > **משאבים** > **משאבים פעילים הניתנים להזמנה**. בחר את המשאבים שברצונך לשנות ולאחר מכן בחר **הגדר לוח שנה**. ברשימה הנפתחת **תבנית עבודה**, בחר את התבנית **שעות העבודה המהוות ברירת מחדל** או תבנית אחרת עם המשאב הנכון ליצירת תבנית. כאשר אתה עובר ללוח הזמנים, אתה אמור לראות שהמשאבים כעת עדכנו את שעות העבודה.
 
 > [!div class="mx-imgBorder"]
-> ![צילום מסך של משאבים פעילים הניתנים להזמנה](media/sample-data-6.png)
+> ![צילום מסך של משאבים פעילים הניתנים להזמנה.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

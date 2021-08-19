@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015017"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985142"
 ---
 # <a name="manage-resource-requests-project-service"></a>ניהול בקשות משאב (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015017"
   
    -   לחץ על **מסנן** כדי להציג את החלונית **מסנן** , שמאפשרת לך לסנן את התוצאות לפי יחידה ארגונית, תפקיד, כישור או תכונות אחרות.  
   
-       ![מסך בקשות משאב של Project Service](../psa/media/project-service-resource-request-screen.png "מסך בקשות משאב של Project Service")  
+       ![מסך בקשות משאב של Project Service.](../psa/media/project-service-resource-request-screen.png "מסך בקשות משאב של Project Service")  
   
 3. בלוח השנה של המשאב שברצונך להזמין, בחר את פרק הזמן שברצונך להזמין את המשאב ולאחר מכן לחץ על **הזמן** כדי להזמין את המשאב, או על **הצעה להזמנה** כדי להציע את ההזמנה כך שהמבקש יאשר אותה. בעת הזמנת משאב, באפשרותך לבצע ‏‫הזמנה טנטטיבית‬‬ או הזמנה בטוחה.  
   

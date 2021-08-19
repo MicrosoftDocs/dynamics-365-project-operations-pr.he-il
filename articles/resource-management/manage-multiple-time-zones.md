@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997737"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988697"
 ---
 # <a name="manage-time-zones"></a>ניהול אזורי זמן
 
@@ -32,13 +32,13 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 - על המשתמש להגדיר את אזור הזמן של המכשיר כך שיתאים לאזור הזמן שהוגדר ב **הגדרות התאמה אישית** של המערכת.
  
-  ![הגדרות אזור זמן ב- Windows 10](media/reconcile-assignments-03.png)
+  ![הגדרות אזור זמן ב- Windows 10.](media/reconcile-assignments-03.png)
 
-  ![הגדרות אזור זמן בהגדרות ההתאמה האישית](media/reconcile-assignments-04.png)
+  ![הגדרות אזור זמן בהגדרות ההתאמה האישית.](media/reconcile-assignments-04.png)
  
 - צריך שיהיה להמשאב הניתן להזמנה לפחות דקה של זמן עבודה שחופף לקווי המיתאר המשמשים להגדרת ההארכה המבוקשת. לדוגמה, למשאבים הבאים שעות עבודה שחלות בין 9:00 ל-19:00. 
 
-  ![השוואה בין קווי המתאר של המשאבים](media/reconcile-assignments-05.png)
+  ![השוואה בין קווי המתאר של המשאבים.](media/reconcile-assignments-05.png)
 
 בטבלה הבאה ניתן לראות:
 
@@ -47,25 +47,25 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 - משאב ב': משאב זה ממוקם באזור זמן שונה מהפרויקט ומתחיל בשעה 7:00 בבוקר באזור הזמן שלו. עם זאת, ההזמנות יחלו בשעה 9:00 בבוקר מכיוון שזהו זמן ההתחלה המוקדם ביותר של מתאר ההקצאה.
 - משאבים ג' וד': המשאבים ממוקמים באזורי זמן שונים, ששניהם שונים זה מזה ומהפרויקט, וההזמנות שלהם אינן מתחילות לפני זמני ההתחלה הזמינים שלהם בהתאמה.
 
-|ישות  |לוח שנה  |
+|Entity  |לוח שנה  |
 |-|-|
-|תבנית לוח שנה של פרויקט   | ![לוח השנה של הפרויקט](media/reconcile-assignments-06.png) |
-|משאב א'  | ![לוח שנה של משאב א'](media/reconcile-assignments-06.png) |
-|משאב ב'  |  ![לוח שנה של משאב ב'](media/reconcile-assignments-07.png) |
-|משאב ג'  |  ![לוח שנה של משאב ג'](media/reconcile-assignments-08.png) |
-|משאב ד'  | ![לוח שנה של משאב ד'](media/reconcile-assignments-09.png)  |
+|תבנית לוח שנה של פרויקט   | ![לוח השנה של הפרוייקט.](media/reconcile-assignments-06.png) |
+|משאב א'  | ![לוח שנה של משאב א'.](media/reconcile-assignments-06.png) |
+|משאב ב'  |  ![לוח שנה של משאב ב.](media/reconcile-assignments-07.png) |
+|משאב ג'  |  ![לוח שנה של משאב ג'.](media/reconcile-assignments-08.png) |
+|משאב ד'  | ![לוח שנה של משאב ד'.](media/reconcile-assignments-09.png)  |
  
 כשמנווטים אל התצוגה **התאמה**, מוצגים הקצאות המשאבים ומחסור ההזמנות המשוייכים מוצגים.
 
-![תצוגת התאמה לפני הרחבה](media/reconcile-assignments-10.png)
+![תצוגת התאמה לפני הרחבה.](media/reconcile-assignments-10.png)
 
 לאחר שנעשה שימוש בפונקציונליות 'הארך הזמנה' עבור כל משאב, הזמנות מאורכות בהצלחה עבור כל משאב מכיוון ששעות העבודה של כל משאב חופפות לקווי המתאר של המחסור.
 
-![תצוגת ההתאמה לאחר הארכת ההזמנה](media/reconcile-assignments-11.png) 
+![תצוגת ההתאמה לאחר הארכת ההזמנה.](media/reconcile-assignments-11.png) 
 
 שימו לב שמבט מקרוב על פרטי ההזמנות מראה הבדלים מועדי התחלת של ההזמנות. ההזמנות אינן מתחילות לפני מועד ההתחלה של קו המיתאר של ההקצאה ולא לפני מועד ההתחלה הזמין של המשאב.
 
-![הזמנות חדשות של משאבים בלוח הזמנים](media/reconcile-assignments-12.png)
+![הזמנות חדשות של משאבים בלוח הזמנים.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

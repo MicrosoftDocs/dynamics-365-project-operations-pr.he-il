@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988112"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999897"
 
 האיור הבא מראה כיצד הנתונים מסונכרנים בין Project Service Automation ו- Finance.
 
-[![זרימת נתונים לשילוב Project Service Automation עם Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![זרימת נתונים לשילוב Project Service Automation עם Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>נתונים בפועל של פרויקט מ- Project Service Automation
 
@@ -93,9 +93,9 @@ ms.locfileid: "5999897"
 
 האיורים הבאים מציגים דוגמה למיפוי משימת התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
-[![מיפוי תבניות - ‏‫נתונים בפועל](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![מיפוי תבניות - ‏‫נתונים בפועל.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![מיפוי תבניות - חיבורי עסקאות](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![מיפוי תבניות - חיבורי עסקאות.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>ייבוא מטבלת אחסון זמני לאחר שילוב מ- Project Service Automation
 
@@ -135,9 +135,9 @@ ms.locfileid: "5999897"
 
 האיורים הבאים מציגים דוגמאות למיפויי משימות התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Finance ל- Project Service Automation.
 
-[![מיפוי תבניות - ‏‫עדכון נתונים בפועל](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![מיפוי תבניות - ‏‫עדכון נתונים בפועל.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![מיפוי תבניות - ‏‫עדכון עסקאות](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![מיפוי תבניות - ‏‫עדכון עסקאות.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
