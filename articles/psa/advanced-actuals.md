@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28dc05d50850fed5241c5360ccbeaeb1f4d9d7fc3916bd2a3cd1bb6f43457dd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014837"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000757"
 ---
 # <a name="recording-actuals"></a>תיעוד נתונים בפועל 
 
@@ -31,7 +31,7 @@ ms.locfileid: "6014837"
 
 כל העסקות הפיננסיות המתרחשות במהלך פרוייקט מתועדות. עסקאות אלה מתועדות כ **נתונים בפועל**. הטבלה הבאה מציגה את הסוגים השונים של נתונים בפועל שנוצרים, בהתאם לשאלה אם הפרוייקט הוא פרוייקט של זמן וחומרים, פרוייקט במחיר קבוע או פרוייקט פנימי, או אם זהו פרוייקט בשלב קדם המכירות.
 
-> ![טבלה המציגה את אופן התיעוד של נתונים בפועל](media/advanced-table2.png)
+> ![טבלה המציגה את אופן התיעוד של נתונים בפועל.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
