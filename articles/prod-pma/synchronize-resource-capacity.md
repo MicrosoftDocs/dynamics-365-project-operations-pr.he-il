@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997512"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005617"
 ---
 # <a name="synchronize-resource-capacity"></a>סנכרון הקיבולת של משאב
 
@@ -29,7 +29,7 @@ ms.locfileid: "5997512"
 
 התהליכים לסנכרון משאבים מסייעים להבטיח שמידע עבור לוח השנה ובסיס היומן זולג לתזמון משאבי הפרויקט. אם לוח השנה משתנה, התהליכים מבצעים את העדכונים הנדרשים לתזמון משאבי הפרויקט. התהליכים גם עוזרים בשיפור הביצועים מכיוון שמידע המשאבים של לוח השנה מסונכרן מראש. לכן, עדכונים למידע על תזמון משאבים מתרחשים במהירות רבה יותר. אנו ממליצים לתזמן את התהליכים כאצווה אחת במקום אחד בכל פעם. אחרת, קיים סיכון שמישהו ישכח את התאריכים הכלולים שבהם המידע סונכרן לאחרונה. אם לא משתמשים בתאריכים כוללניים, עלולים להיווצר פערים במהלך סנכרון התאריכים.
 
-![סנכרון לוח שנה](./media/projectresourcing04-1024x471.jpg)
+![סנכרון לוח שנה.](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>סנכרן את פעולות הסיכום של קיבולת המשאב
 
@@ -46,7 +46,7 @@ ms.locfileid: "5997512"
     | תאריך התחלה  | הזן את תאריך ההתחלה של תהליך הסנכרון עבור פעולות סיכום של קיבולת משאבים. |
     | תאריך סיום    | הזן את תאריך הסיום של תהליך הסנכרון עבור פעולות סיכום של קיבולת משאבים. |
 
-[![תהליך הסינכרון](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![תהליך הסנכרון.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003637"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>יצירת שדות וישויות מותאמים אישית כממדי תמחור
 
@@ -44,7 +44,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 3. בחר **חדש** כדי ליצור ישות חדשה בשם **כותרת סטנדרטית**. 
 4. הזן את המידע הדרוש שנותר ולאחר מכן בחר **שמור**.
 
-> ![הגדרת ישות של כותרת סטנדרטית](media/Standard-Title-entity-definition.png)
+> ![הגדרת ישות של כותרת סטנדרטית.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>ממדים מבוססי-קבוצת אפשרויות 
 באפשרותך ליצור שני ממדים מבוססי-קבוצת אפשרויות. 
@@ -54,11 +54,11 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 האיור הבא מציג את הממד **מיקום עבודת משאבים**. 
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב'](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב'.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 האיור הבא מציג את הממד **שעות עבודה של משאבים**. 
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב'](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב'.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. עבור אל **הגדרות** > **פתרונות** ולחץ פעמיים על **\<your organization name> ממדי תמחור**. 
 2. בסייר הפתרונות, בחלונית הניווט הימנית, בחר **קבוצות אפשרויות**. 
@@ -74,7 +74,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 4. סגור את הדף. 
 5. חזור על שלבים 1-3 כדי ליצור כותרת סטנדרטית נוספת עבור "מהנדס מערכות בכיר".
 
-> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית'](media/ST-data.png)
+> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית'.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

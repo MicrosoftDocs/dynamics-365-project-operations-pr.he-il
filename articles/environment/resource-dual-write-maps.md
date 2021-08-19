@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025775"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003817"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -32,7 +32,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. מרשימת המפות, בחר את המפה 'ספר חשבונות' **(‏‎‏‏msdyn‏‏\_ledgers)** עם כל הדרישות המוקדמות ובחר את תיבת הסימון **סנכרון ראשוני**. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **ביישומי Finance and Operations** הן עבור מפת ספר החשבונות הראשי והן עבור כל המפות שנדרשות מראש. בחר **הפעל**.
 
-![סנכרון מפת ספר חשבונאות](media/DW6.png)
+![סנכרון מפת ספר ראשי.](media/DW6.png)
 
 2. בצע את אותם השלבים עבור כל מפות הטבלה שנותרו, המפורטות בטבלה לעיל. אל תבחר את תיבת הסימון **סנכרון ראשוני** בעת הפעלת מפות אלה.
 
@@ -65,7 +65,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. הפעל את תפקידי משאבי הפרויקט עבור מפת הטבלה **כל החברות (bookableresourcecategories)** מכיוון שמפה זו דורשת סנכרון ראשוני. בתוך השזה **פריט ראשי לסנכרון ראשוני**, בחר **Common Data Service**. 
 
- ![סנכרון מפת טבלת תפקידי משאבים](media/6ResourceInitialSync.jpg)
+ ![סנכרון מפת טבלת תפקידי משאבים.](media/6ResourceInitialSync.jpg)
 
  המתן עד שהמפה במצב **מופעל** לפני שתעבור לשלב הבא.
 

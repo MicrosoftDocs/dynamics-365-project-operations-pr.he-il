@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001972"
 ---
 # <a name="pricing-dimensions-overview"></a>מבט כולל על ממדי תמחור
 
@@ -33,7 +33,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחור בברירת מחדל. תוכל להציג את מדדי התמחור האלה על-ידי מעבר אל **Project Operations** > **פרמטרים**. ברשומת הפרמטר, בכרטיסיה **‬‏‫ממדי תמחור מבוססי-כמות**, ודא שבתפקיד, **msdyn_resourcecategory** וביחידה הארגונית להקצאת משאבים, **msdyn_organizationalunit** השדה **‏‫חל על מכירות‬** והשדה **‏‫חל על עלות‬** מוגדרים בתור **כן**. כאשר השדות האלה זמינים תוכל להגדיר את המחיר ואת העלות עבור כל שילוב של תפקיד ויחידה ארגונית.
 
-![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש](media/PS-OOB-parameters.png)
+![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש.](media/PS-OOB-parameters.png)
 
 אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית. לקבלת מידע נוסף, ראה את הנושאים הבאים. 
   

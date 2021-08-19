@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999852"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001117"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>סנכרון קטגוריות של הוצאות בפרויקט בין Finance and Operations ו- Project Service Automation
 
@@ -56,7 +56,7 @@ ms.locfileid: "5999852"
 
 האיור הבא מראה כיצד הנתונים מסונכרנים בין Project Service Automation ו- Finance.
 
-[![זרימת נתונים לשילוב Project Service Automation עם Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![זרימת נתונים לשילוב Project Service Automation עם Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>סנכרון קטגוריית הוצאה בפרויקט מ- Finance אל Project Service Automation
 
@@ -93,7 +93,7 @@ ms.locfileid: "5999852"
 
 האיור הבא מציג דוגמה למיפוי משימת התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Finance ל- Project Service Automation.
 
-[![קטגוריית הוצאה בפרויקט למיפוי תבנית של Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![קטגוריית הוצאה בפרוייקט למיפוי תבנית של Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>סנכרון קטגוריית הוצאה בפרויקט מ- Project Service Automation אל Finance
 
@@ -121,7 +121,7 @@ ms.locfileid: "5999852"
 > [!NOTE]
 > המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
-[![Project Service Automation למיפוי תבנית Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation למיפוי תבנית Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

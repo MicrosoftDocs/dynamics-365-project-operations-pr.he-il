@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369017"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003772"
 ---
 # <a name="invoicing-process-overview"></a>מבט כולל על תהליך הוצאת חשבוניות
 
@@ -20,7 +20,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 Project Operations לתרחישים מבוססי משאבים/ללא מלאי מציע יכולות מקיפות המותאמות לצרכים של מנהל הפרוייקט ושל פקיד החשבונות/רואה החשבון של הפרוייקט. בתהליך הפקת החשבונית מנהל הפרוייקט מנהל את צבר החיובים בפרוייקט ומנהל החשבונות/החשב של הפרוייקט יוצר מסמך חשבוניות תואם ומדויק שמיועד ללקוח.
 
-![תרשים זרימה של הפקת חשבונית](./media/invoicing-flow.png)
+![תרשים זרימה של הפקת חשבונית.](./media/invoicing-flow.png)
 
 סעיף חוזה הפרוייקט מגדיר את שיטת החיוב עבור עסקאות פרוייקט משויכות. כאשר מנהל הפרוייקט מאשר עסקאות זמן והוצאות, המערכת רושמת את העסקאות בישות **פרוייקטים אמיתיים** ושולחת את המידע אל המודול **ניהול פרוייקטים וחשבונאות** ב- Dynamics 365 Finance. חשב הפרוייקט סוקר ומפרסם את הרשומות באמצעות [יומן השילוב של Project Operations](../project-accounting/project-operations-integration-journal.md). יומן זה כולל פרטים חשבונאיים חשובים עבור הנתונים בפועל של הפרוייקט, כגון חיוב, קבוצת מס מכירה, קבוצת מס מכירות של פריטי חיוב וממדים פיננסיים.
 

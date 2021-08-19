@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008312"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002332"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>הגדרת שדות מותאמים אישית כממדי תמחור 
 
@@ -41,11 +41,11 @@ ms.locfileid: "6008312"
 - עליו להיווצר כשדה בישויות **מחיר תפקיד** ו **ייקור מחיר תפקיד**. למידע נוסף שבעזרתו תגלה כיצד לעשות זאת, ראה [הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](field-references.md).
 - עליו להיווצר כשורה בטבלה **ממד תמחור**. לדוגמה, הוסף שורות ממד תמחור כמוצג בגרפיקה הבאה. 
 
-![שורות ממדי תמחור מבוססי-כמות](media/Amt-based-PD.png)
+![שורות ממדי תמחור מבוססי-כמות.](media/Amt-based-PD.png)
 
 שים לב כי שעות העבודה של המשאב (**msdyn_resourceworkhours**) נוספו כממד מבוסס-ייקור ונוספו לרשת בכרטיסיה **ממד תמחור מבוסס-ייקור**.
 
-![שורות ממדי תמחור מבוססי-ייקור](media/Markup-based-PD.png)
+![שורות ממדי תמחור מבוססי-ייקור.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > כל שינוי בנתונים של ממד התמחור בטבלה זו, קיים או חדש, מועבר בירושה ללוגיקה העסקית של תמחור Project Service רק לאחר רענון המטמון. זמן הרענון של המטמון עשוי להימשך עד 10 דקות. אפשר פרק זמן זה כדי לראות את השינויים בלוגיקת ברירת המחדל למחיר שעשויה לנבוע משינויים בנתוני ממד התמחור.

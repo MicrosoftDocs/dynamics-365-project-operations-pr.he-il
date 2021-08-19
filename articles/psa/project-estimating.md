@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009167"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002557"
 ---
 # <a name="project-costs-and-revenue"></a>עלויות והכנסות של פרויקט
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009167"
 
 הערכות הפרויקט מספקות תצוגה פיננסית עבור הערכת העבודה והתזמון שלה בלוח הזמנים של הפרויקט. הכרטיסיה **הערכות** בדף **פרויקטים** מציגה את ההשפעה של עלויות והכנסות של העבודה שאותה אתה מתכנן. היא גם מספקת מידע על ממדים רבים שהוגדרו מראש. 
 
-> ![הכרטיסיה 'הערכות'](media/project-5.png)
+> ![הכרטיסיה 'הערכות'.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>ערכי עלות ומכירות של הפרויקט
 
@@ -66,13 +66,13 @@ ms.locfileid: "6009167"
 
 לכרטיסיה **הערכות** יש תצוגת רשת שמציגה שורות הערכה. הרשת כוללת עמודות עבור היחידה, מחיר העלות הכולל ומחיר המכירה הכולל, כפי שמוצג באיור הבא. 
 
-> ![תצוגת רשת בכרטיסיה 'הערכות'](media/project-6.png)
+> ![תצוגת רשת בכרטיסיה 'הערכות'.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>תצוגה לפי יחידות זמן של הערכות הפרויקט
 
 התצוגה המחולקת ליחידות זמן של הערכות פרויקט מציגה את נתוני ההערכה מתצוגת הרשת לאורך ציר הזמן שבחרת. כברירת מחדל, נתוני ההערכה מוצגים בממד **תפקיד**.
 
-> ![תצוגה מחולקת ליחידות זמן עבור הערכות הפרויקט](media/project-7.png)
+> ![תצוגה מחולקת ליחידות זמן עבור הערכות הפרויקט.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>הקצאת מאמץ משוער בהתאם למצב המשימה
 

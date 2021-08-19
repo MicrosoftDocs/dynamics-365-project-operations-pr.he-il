@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999807"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001072"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance 
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999807"
 
 האיור הבא מראה כיצד הנתונים מסונכרנים בין Project Service Automation ו- Finance.
 
-[![זרימת נתונים לשילוב Project Service Automation עם Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![זרימת נתונים לשילוב Project Service Automation עם Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>תבניות ומשימות
 
@@ -140,17 +140,17 @@ ms.locfileid: "5999807"
 
 האיורים הבאים מציגים דוגמאות למיפויי משימות התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
-[![מיפוי תבניות חוזה בפרויקט](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![מיפוי תבניות חוזה בפרוייקט.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![מיפוי תבניות בפרויקט](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![מיפוי תבניות בפרוייקט.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![מיפוי תבניות סעיפי חוזה בפרויקט](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![מיפוי תבניות סעיפי חוזה בפרוייקט.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![מיפוי תבניות ציוני דרך של סעיפי חוזה בפרויקט](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![מיפוי תבניות ציוני דרך של סעיפי חוזה בפרוייקט.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>מיפוי אבן דרך לסעיף חוזה של פרויקט בתבנית פרויקטים וחוזים (PSA 3.x ל- Dynamics) ‏- v2:
 
-[![מיפוי ציוני דרך של סעיפי חוזה בפרויקט ותבנית של גרסה שנייה](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![מיפוי ציוני דרך של סעיפי חוזה בפרוייקט ותבנית של גרסה שנייה.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
