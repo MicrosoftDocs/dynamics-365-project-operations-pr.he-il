@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998502"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008587"
 ---
 # <a name="product-based-quote-lines"></a>שורות הצעת מחיר מבוססות-מוצר
 
@@ -58,7 +58,7 @@ ms.locfileid: "5998502"
 
 לאחר התקנה של PSA, מחירי המכירות שבברירת מחדל מוזנים בשורות שמבוססות על המוצר בהצעת מחיר. השדה **תמחור** מוגדר לאחר מכן בתור **עקוף את התמחור** כדי שתוכל לערוך את המחיר שבברירת המחדל בשורות של הצעת המחיר.
 
-> ![הגדרת עקיפת תמחור](media/basic-guide-10.png)
+> ![הגדרת עקיפת תמחור.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>גורמי כמות למוצרים
 
@@ -78,7 +78,7 @@ PSA מוודא שרק מאפיינים מספריים או מאפייני מוצ
 
 ניתן לסמן את המאפיין **מס' המשתמשים** ואת המאפיין **מס' החודשים** כגורמי כמות על-ידי עריכת המאפיינים של שורת המוצר. 
 
-> ![סימון 'מס' משתמשים' ו'מס' החודשים' כגורמי כמות.](media/basic-guide-11.png)
+> ![סימון 'מס' משתמשים' ו- 'מס' החודשים' כגורמי כמות.](media/basic-guide-11.png)
  
 
 

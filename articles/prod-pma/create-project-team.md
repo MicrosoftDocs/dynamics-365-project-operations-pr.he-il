@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005797"
 ---
 # <a name="create-a-project-team"></a>יצירת צוות פרויקט
 
@@ -33,7 +33,7 @@ ms.locfileid: "6006197"
 
 מנהל הפרויקט יכול לבחור תפקיד בדף ואז, אם יש משאב זמין המתאים לדרישה, לבחור לשריין משאב למילוי התפקיד. שים לב כי בשלב זה אין צורך לשמור את המשאבים בשלב התכנון. כשאתה יוצר WBS, אתה יכול להחליף תפקידים במשאבים מאוישים עבור הפרויקט. אם תפקידים מוחלפים במשאבים מאוישים ב- WBS, הגדרת המשאבים מעדכנת אוטומטית את רישום ותזמון צוות הפרויקט.
 
-[![רישום צוות הפרויקט הכולל גם תפקידים וגם משאבים בפועל](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![רישום צוות הפרויקט הכולל גם תפקידים וגם משאבים בפועל.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 למנהל הפרויקט אפשרויות שונות להזמנת משאב לפרויקט, כגון **יכולת שנותרה**, **תפוסה מלאה**, **אחוז קיבולת**, ו **ציון שעות**. ניתן לבטל אפשרויות הזמנה אלה בכל עת אם הקצאות המשאבים משתנות. שני סוגי הזמנות נתמכים:
 

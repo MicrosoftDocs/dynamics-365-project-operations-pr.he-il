@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005752"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>יישם שדות מותאמים אישית עבור האפליקציה למכשירים ניידים Microsoft Dynamics 365 Project Timesheet ב- iOS וב- Android
 
@@ -153,13 +153,13 @@ ms.locfileid: "6003034"
 
 להלן צילום מסך מהאפליקציה למכשירים ניידים של יצירת ערכים בגיליונות זמנים. הוא מציג את השדות המוכנים לשימוש ושדה מותאם אישית במקטע "ערך זמן" הנקרא "מחרוזת בדיקה" עם ערך ספירה של "אפשרות שנייה" שכבר הוגדר.
 
-![שדה מותאם אישית של מחרוזת בדיקה באפליקציה](media/timesheet-entry.jpg)
+![שדה מותאם אישית של מחרוזת בדיקה באפליקציה.](media/timesheet-entry.jpg)
 
 
 
 להלן צילום מסך מהאפליקציה למכשירים ניידים של המשתמש בבחירת אחת מאפשרויות הספירה הזמינות עבור השדה המותאם אישית "מחרוזת בדיקה".  שתי האפשרויות הן "אפשרות ראשונה" ו"אפשרות שנייה" המוצגות ככפתורי בחירה. האפשרות השנייה נבחרת כרגע.
 
-![לחצני אפשרות (לחצני רדיו) עבור השדה המותאם אישית של מחרוזת בדיקה](media/enum-option.jpg)
+![לחצני אפשרות (לחצני רדיו) עבור השדה המותאם אישית של מחרוזת בדיקה.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "6003034"
 
 להלן צילום מסך מתוך Visual Studio של עץ אובייקט האפליקציה. הוא מציג הרחבה של טבלת TSTimesheetLine כשהשדה TestLineString נוסף כשדה מותאם אישית.
 
-![מחרוזת קו](media/b6756b4a3fc5298093327a088a7710fd.png)
+![מחרוזת שורה.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>השתמש בשרשרת הפקודה בשיטת buildCustomFieldList של המחלקה TSTimesheetSettings כדי להציג שדה במקטע ערך גיליונות.
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 להלן צילום מסך מהאפליקציה למכשירים ניידים של משתמש המציג גיליון זמנים. הלחצן "מידע נוסף" נבחר בפינה השמאלית העליונה כדי להציג את האפשרות "הצג פרטים נוספים".  
 
-![הצג פקודה של פרטים נוספים](media/show-more.png)
+![הצג פקודה של פרטים נוספים.](media/show-more.png)
 
 להלן צילום מסך מהאפליקציה למכשירים ניידים המציג את המקטע "עוד" של גיליון זמנים. שדה מותאם אישית בשם "קצב ניצול של גיליון זמנים זה (שדה מותאם אישית מחושב)" נוסף למקטע כותרת גיליון הזמנים. ערך לקריאה בלבד של "0.667" מוגדר בשדה המותאם אישית.
 
-![מקטע נוסף](media/more-section.jpg)
+![מקטע נוסף.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>הרחב את הטבלה TSTimesheetTable כך שיהיה לה שדה מותאם אישית
 
@@ -414,7 +414,7 @@ final class TSTimesheetDetails_Extension
 
 מהפרמטרים של הפרויקט, באפשרותך להפוך שדות מוכנים לשימוש לקריאה בלבד או מוסתרים באפליקציה למכשירים ניידים. הגדר את האפשרויות במקטע **גיליונות זמנים לנייד** בכרטיסייה **גיליון זמנים** של הדף **ניהול פרויקטים ופרמטרים חשבונאיים**.
 
-![פרמטרים של פרויקט](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![פרמטרים של פרוייקט.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>שינוי הפעילויות הזמינות לבחירה באמצעות הרחבות
 

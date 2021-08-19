@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008537"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006967"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>סקירת המצבור להפקת חשבוניות בפרויקטים ובחוזים של פרויקטים
 
@@ -40,7 +40,7 @@ ms.locfileid: "6008537"
 
 כדי לסקור את מצבור החיובים עבור זמן וחומרים, עבור אל **מכירות** \> **חיוב** \> **מצבור פריטי עבודה של חיוב זמן וחומרים‬**. בחר את כל הנתונים בפועל של המכירות שלא חויבו, המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של הנתונים בפועל משתנה ל **מוכן להגיש חשבונית**.
 
-![מצבור פריטי עבודה של חיוב זמן וחומרים](media/TMBacklog.png)
+![מצבור פריטי עבודה של חיוב זמן וחומרים.](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>סקירה של מצבור פריטי עבודה של חיוב מוצר
 
@@ -48,7 +48,7 @@ ms.locfileid: "6008537"
 
 כדי לסקור את מצבור פריטי העבודה של חיובי המוצרים, עבור אל **מכירות** \> **חיוב** \> **מצבור פריטי עבודה של חיוב מוצר‬**. בחר את כל סעיפי החוזה מבוססי-המוצר המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של סעיפים אלה משתנה ל **מוכן להגיש חשבונית**.
 
-![מצבור פריטי עבודה של חיוב מוצר](media/ProductBacklog.png)
+![מצבור פריטי עבודה של חיוב מוצר.](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>סקירה של אבני דרך לחיוב בחוזי מחירים קבועים
 
@@ -56,7 +56,7 @@ ms.locfileid: "6008537"
 
 כדי לסקור אבני דרך של חיוב, עבור אל **מכירות** \> **חיוב** \> **אבני דרך של מחיר קבוע‬**. בחר את אבני הדרך המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של אבני דרך אלה משתנה ל **מוכן להגיש חשבונית**.
 
-![אבני דרך של מחיר קבוע](media/FPBacklog.png)
+![אבני דרך של מחיר קבוע.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

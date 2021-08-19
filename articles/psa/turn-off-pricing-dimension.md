@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014297"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006787"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>ביטול ממד תמחור
 
@@ -32,7 +32,7 @@ ms.locfileid: "6014297"
 
 עם זאת, כשתעשה זאת, ייתכן שתקבל את הודעת השגיאה הבאה.
 
-![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור](media/Business-Process-Error.png)
+![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור.](media/Business-Process-Error.png)
 
 
 הודעת שגיאה זו מציינת שקיימות רשומות מחיר שהוגדרו קודם לכן עבור הממד שמבוטל. כל הרשומות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** המפנות לממד חייבות להימחק לפני שניתן יהיה להגדיר את ישימות הממד לערך **לא**. כלל זה חל על ממדי תמחור מוגדרים מראש ועל ממדי תמחור מותאמים אישית שיצרת. הסיבה לאימות זה היא ש- Project Service כולל אילוץ שלפיו לכל רשומת **מחיר תפקיד** חייב להיות שילוב ייחודי של ממדים. לדוגמה, במחירון הנקרא **תעריפי עלויות בארה"ב 2018**, מופיעות השורות הבאות של **מחיר תפקיד**. 

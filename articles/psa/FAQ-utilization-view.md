@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992835"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007147"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>הצגת ניצול שניתן לחיוב עבור משאבים
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992835"
  
 **תצוגת הניצול** בדף **ניצול משאבים של Project Service** מציגה את הניצול שניתן לחיוב עבור כל משאב שניתן להזמין. מכיוון שהתצוגה מבוססת על לוח הזמנים, תוכל למצוא בה פוקנציות רבות זהות.
 
-> ![צילום מסך של תצוגת ניצול](media/FAQ-utilization-1.png)
+> ![צילום מסך של תצוגת ניצול.](media/FAQ-utilization-1.png)
  
 
 חישוב ניצול שניתן לחיוב פועל באופן הבא:
@@ -48,7 +48,7 @@ ms.locfileid: "5992835"
 2. בחר משאב כדי לפתוח את הרשומה. 
 3. בכרטיסיה **Project Service**, תוכל להגדיר את ניצול היעד של המשאב.
 
-> ![צילום מסך של שימוש בכרטיסיה Project Service להגדרת יעד ניצול](media/FAQ-utilization-2.png)
+> ![צילום מסך של שימוש בכרטיסיית Project Service להגדרת יעד ניצול.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>הגדרת ניצול יעד בתפקיד
 
@@ -56,7 +56,7 @@ ms.locfileid: "5992835"
 2. בחר תפקיד ופתח את הרשומה. 
 3. הגדר את ניצול היעד עבור התפקיד.
 
-> ![צילום מסך של שימוש ב'תפקידי משאבים' להגדרת יעד הניצול](media/FAQ-utilization-3.png)
+> ![צילום מסך של שימוש ב'תפקידי משאבים' להגדרת יעד הניצול.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>חישוב ניצול שניתן לחיוב עבור משאב
 
