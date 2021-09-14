@@ -4,6 +4,8 @@
   items:
     - name: קביעת סוג הפריסה
       href: environment/determine-deployment-type.md
+    - name: הרשמה לגירסאות ניסיון של Project Operations
+      href: environment/admin-trials.md
     - name: עדכונים של Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
+        - name: אוגוסט 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: יולי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: יוני 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -418,6 +422,8 @@
       items:
         - name: מבט כולל על אישורים
           href: approvals/approvals-overview.md
+        - name: קבוצות אישורים
+          href: approvals/approval-sets.md
         - name: הערות למפתחים
           items:
             - name: הערות למפתחים עבור אישורים
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
+        - name: מה חדש בגישה המוקדמת לגל השני בשנת 2021 - פריסת Lite
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: מה חדש באוגוסט 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: מה חדש ביולי 2021 - פריסה קלה
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: מה חדש ביוני 2021 - פריסה קלה
@@ -832,16 +842,30 @@
           items:
             - name: מבט כולל על ניצול משאבים
               href: resource-management/resource-utilization-overview.md
-    - name: ניהול חוזה משנה ב-Project Operations
+    - name: ניהול חוזי משנה ב- Project Operations
       items:
-        - name: מבט כולל על ניהול חוזי משנה
+        - name: ניהול חוזי משנה ב- Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: קבלנות משנה בגישה המוקדמת באוקטובר 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: מושגי מפתח בקבלנות משנה
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: ניהול ספקים ומחירוני פרויקטים
+        - name: ניהול ספקים ומחירוני פרוייקטים
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: קבלני משנה כמשאבים ניתנים להזמנה
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: פרטי כותרת לחוזי משנה
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: סעיפי חוזה משנה לזמן
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: סעיפי חוזה משנה להוצאה
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: סעיפי חוזה משנה למוצרים
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: משאבים של סעיף חוזה משנה
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: אבני דרך של סעיף חוזה משנה
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: זמן
       items:
         - name: מבט כולל על זמן
@@ -868,6 +892,8 @@
       items:
         - name: מבט כולל על אישורים
           href: approvals/approvals-overview.md
+        - name: קבוצות אישורים
+          href: approvals/approval-sets.md
         - name: הערות למפתחים
           items:
             - name: הערות למפתחים עבור אישורים
@@ -1060,6 +1086,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: התאמה אישית של ערכי זמן שבועיים
               href: psa/time-entry-extensibility-v3.md
-            - name: קבוצות אישורים
+            - name: קבוצות אישורים ב- Project Service Automation
               href: psa/approval-set.md
     - name: שאלות נפוצות ופתרון בעיות (‎3.x)
       items:

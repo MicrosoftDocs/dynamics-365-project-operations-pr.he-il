@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007867"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323417"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
@@ -23,7 +23,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
 - המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure. ניתן ליצור דייר במהלך מימוש ההצעה הראשונה. 
-- פריסת סביבת Finance מחייבת מנוי תקף ל- Azure שיחויב לכל סביבה. באפשרותך להשתמש במנוי הקיים של הארגונים שלך או להשתמש [בגירסת ניסיון של Azure](https://azure.microsoft.com/en-us/free/) כדי להתחיל בעבודה. סביבת ה- CDS תינתן בחינם לתקופה מוגבלת של 30 יום.
+- פריסת סביבת Finance מחייבת מנוי תקף ל- Azure שיחויב לכל סביבה. באפשרותך להשתמש במנוי הקיים של הארגונים שלך או להשתמש [בגירסת ניסיון של Azure](https://azure.microsoft.com/free/) כדי להתחיל בעבודה. סביבת ה- CDS תינתן בחינם לתקופה מוגבלת של 30 יום.
 
 > [!IMPORTANT]
 > רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו. אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.
