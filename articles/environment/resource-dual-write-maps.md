@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003817"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547110"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -49,8 +49,8 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. |
 | הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. |
 | נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. |
-| אבני דרך של סעיף חוזה לשילוב Project Operations‏ (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. |
-| ישות שילוב של Project Operations להערכת הוצאות (msdyn_estimateslines) | 1.0.0.2 | לא נדרש להקצאה. |
+| אבני דרך של סעיף חוזה של שילוב Project Operations‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. |
+| ישות שילוב Project Operations עבור אומדני הוצאות (msdyn_estimatelines) | 1.0.0.2 | לא נדרש להקצאה. |
 | ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. |
 | ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. |
 | ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.2 | לא נדרש להקצאה. |

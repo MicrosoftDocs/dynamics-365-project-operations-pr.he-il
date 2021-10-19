@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
+        - name: אוקטובר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: ספטמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: אוגוסט 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: יולי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -290,9 +294,9 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרויקט בעזרת 'העתק פרויקט'
+            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים של פרויקט (Public Preview)
+            - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
@@ -442,8 +446,16 @@
       items:
         - name: הגדרת תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
           href: procurement/configure-materials-nonstocked.md
-        - name: רכישת חומרים שאינם במלאי לפרויקטים באמצעות חשבוניות ספק בהמתנה
+        - name: רכישת חומרים שאינם במלאי לפרוייקטים באמצעות חשבוניות ספק בהמתנה
           href: procurement/pending-vendor-invoices.md
+        - name: הזמנת חומרים שאינם במלאי לפרוייקטים באמצעות הזמנות רכש לפרוייקט‬
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: שימור ספקים
+          items:
+            - name: מבט כולל על שימור ספקים
+              href: procurement/vendor-retention-overview.md
+            - name: הגדרת שימור ספקים
+              href: procurement/set-up-vendor-retention.md
     - name: הפקת חשבונית
       items:
         - name: מבט כולל על תהליך הפקת חשבונית
@@ -526,8 +538,12 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
-        - name: מה חדש בגישה המוקדמת לגל השני בשנת 2021 - פריסת Lite
+        - name: מה חדש בגישה המוקדמת לגל השני בשנת 2021 - פריסה קלה
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: מה חדש באוקטובר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: מה חדש בספטמבר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: מה חדש באוגוסט 2021 - פריסה קלה
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: מה חדש ביולי 2021 - פריסה קלה
@@ -782,9 +798,9 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרויקט בעזרת 'העתק פרויקט'
+            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים של פרויקט (Public Preview)
+            - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: סעיפי חוזה משנה לזמן
           href: pro/subcontracting/subcontract-line-time.md
-        - name: סעיפי חוזה משנה להוצאה
+        - name: סעיפי חוזה משנה לקטגוריות הוצאה
           href: pro/subcontracting/subcontract-line-expense.md
         - name: סעיפי חוזה משנה למוצרים
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 34, V3'

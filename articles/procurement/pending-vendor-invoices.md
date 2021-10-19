@@ -2,17 +2,17 @@
 title: רכישת חומרים שאינם במלאי באמצעות חשבוניות ספק בהמתנה
 description: נושא זה מסביר כיצד לתעד חשבוניות ספק בהמתנה.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009037"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547290"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>רכישת חומרים שאינם במלאי באמצעות חשבוניות ספק בהמתנה
 
@@ -20,7 +20,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 כשחברה רוכשת חומרים שאינם במלאי לפרויקט, ניתן לרשום את העלויות כנגד הפרויקט באופן מיידי. 
 
-לדוגמה, Contoso Robotics USמבצעת פרויקט חידוש ציוד וזקוקה לרישיונות תוכנה. רישיונות אלה נרכשים מספק צד שלישי.  באמצעות Dynamics 365 Finance, פקיד החשבונות זכאים מתעד מסמך חשבונית ספק בהמתנה ומייחס את עלויות הרישיון ישירות כנגד פרויקט חידוש הציוד. 
+לדוגמה, Contoso Robotics US מבצעת פרוייקט חידוש ציוד וזקוקה לרשיונות תוכנה. רישיונות אלה נרכשים מספק צד שלישי.  באמצעות Dynamics 365 Finance, פקיד החשבונות זכאים מתעד מסמך חשבונית ספק בהמתנה ומייחס את עלויות הרישיון ישירות כנגד פרויקט חידוש הציוד. 
 
 > [!IMPORTANT]
 > לפני שתשתמש בפונקציונליות המתוארת בנושא זה, יש לסקור ולהחיל את התצורות הנדרשות. למידע נוסף ראה [הפוך חומרים שאינם במלאי וחשבונית ספק בהמתנה לזמינים](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     - סכום יתרת הספק.
     - סכום המע"מ.
     - העלות כנגד הפרויקט נרשמת בחשבון שילוב הרכש.
-    - העסקה בפועל של הפרויקט ב- Dataverse. עיבוד נוסף של עסקה זו מתבצע באמצעות [יומן השילוב של Project Operations](../project-accounting/project-operations-integration-journal.md). רישום ביומן זה מעביר את הסכום מחשבון שילוב הרכש לחשבון עלות הפרויקט.
+    - עסקת העלות בפועל של הפרוייקט ב- Dataverse.  עיבוד נוסף של עסקה זו מתבצע באמצעות [יומן השילוב של Project Operations](../project-accounting/project-operations-integration-journal.md). רישום ביומן זה מעביר את הסכום מחשבון שילוב הרכש לחשבון עלות הפרויקט. 
+    - רכישות המחויבות ללקוח הפרוייקט באמצעות שיטת החיוב עבור זמן וחומרים. בנוסף, נוצרות עסקאות מכירה ללא חיוב עבור הרכישות ב- Dataverse. מחירון המוצר ב- Dataverse משמש עבור מחירי המכירות והסכומים עבור עסקת מכירות שלא חויבה.
