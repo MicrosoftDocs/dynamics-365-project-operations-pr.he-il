@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: שילוב חשבונית ספק
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: הסר התקנה של Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: מה חדש
       items:
         - name: אוקטובר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -294,10 +296,12 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
+            - name: פיתוח תבניות פרויקט באמצעות 'העתק פרויקט'
               href: project-management/dev-copy-project.md
             - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
+            - name: ביצועים של ממשקי API של לוחות זמנים
+              href: project-management/project-schedule-api-performance.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -798,10 +802,12 @@
               href: project-management/collaboration-groups.md
         - name: הערות למפתחים
           items:
-            - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
+            - name: פיתוח תבניות פרויקט באמצעות 'העתק פרויקט'
               href: project-management/dev-copy-project.md
             - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
+            - name: ביצועים של ממשקי API של לוחות זמנים
+              href: project-management/project-schedule-api-performance.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -1102,6 +1108,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 35, V3'
