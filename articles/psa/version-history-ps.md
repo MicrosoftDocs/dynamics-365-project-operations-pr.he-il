@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773587"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892181"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>לוח הזמנים לעדכון הפצה עבור Project Service 3.x
 
@@ -35,9 +35,9 @@ ms.locfileid: "7773587"
 
 ## <a name="latest-version-availability"></a>זמינות הגירסה האחרונה
 
-| הפתרון  | הגירסה האחרונה |
+| פתרון  | הגירסה האחרונה |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | תוספת למחשב שולחני ל- Project Service Automation                | 3.15          |
 
 לקבלת מידע על עדכונים אחרים ב- Project Service, ראה [תוכניות ההפצה של Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ ms.locfileid: "7773587"
 | | <i>גרמניה</i> | [3.10.58.120](whats-new-ur-37.md) | טרם נקבע | 10 בדצמבר, 2021
 | | <i>שווייץ</i> | [3.10.58.120](whats-new-ur-37.md) | טרם נקבע | 10 בדצמבר, 2021
 |<strong>תחנה 3</strong> | |  |  | |
-| | <i>יפן</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 בנובמבר 2021
-| | <i>אסיה/האוקיינוס השקט</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 בנובמבר 2021
-| | <i>בריטניה</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 בנובמבר 2021
-| | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 בנובמבר 2021
-| | <i>איחוד האמירויות הערביות</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 בנובמבר 2021
+| | <i>יפן</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 17 בדצמבר, 2021
+| | <i>אסיה/האוקיינוס השקט</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 17 בדצמבר, 2021
+| | <i>בריטניה</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 17 בדצמבר, 2021
+| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 17 בדצמבר, 2021
+| | <i>איחוד האמירויות הערביות</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 17 בדצמבר, 2021
 |<strong>תחנה 4</strong> | |  |  | |
-| | <i>אירופה</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 בנובמבר 2021
+| | <i>אירופה</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 07 בינואר, 2022
 |<strong>תחנה 5</strong> | |  |  | |
-| | <i>צפון אמריקה</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 בדצמבר, 2021
+| | <i>צפון אמריקה</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 14 בינואר, 2022
 |<strong>תחנה 6</strong> | |  |  | |
-| | <i>ענן קהילה ממשלתי‬</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 בדצמבר, 2021
-| | <i>קבוצות ייעודיות לשינוי קנה מידה</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 בדצמבר, 2021
+| | <i>ענן קהילה ממשלתי‬</i> | [3.10.58.130](whats-new-ur-37-5.md) | טרם נקבע | 14 בינואר, 2022
+| | <i>קבוצות ייעודיות לשינוי קנה מידה</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 בדצמבר, 2021
 
 
 

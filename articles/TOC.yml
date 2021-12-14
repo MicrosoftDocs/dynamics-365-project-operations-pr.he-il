@@ -52,12 +52,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: שילוב של ניהול הוצאות
               href: environment/resource-dual-write-expense.md
-            - name: שילוב חשבונית ספק
+            - name: שילוב של חשבונית ספק
               href: environment/resource-dual-write-vendor-invoice.md
         - name: הסר התקנה של Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: מה חדש
       items:
+        - name: נובמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: אוקטובר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: ספטמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -300,8 +302,10 @@
               href: project-management/dev-copy-project.md
             - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
-            - name: ביצועים של ממשקי API של לוחות זמנים
+            - name: ביצועים של ממשקי API של לוחות זמנים של פרוייקטים
               href: project-management/project-schedule-api-performance.md
+            - name: יומני תזמון של פרוייקטים
+              href: project-management/schedule-api-logs.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -542,8 +546,10 @@
           href: environment/security-model.md
     - name: מה חדש
       items:
-        - name: מה חדש בגישה המוקדמת לגל השני בשנת 2021 - פריסה קלה
+        - name: מה חדש בגישה המוקדמת לגל 2 ב-2021 - פריסה קלה
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: מה חדש בנובמבר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: מה חדש באוקטובר 2021 - פריסה קלה
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: מה חדש בספטמבר 2021 - פריסה קלה
@@ -806,7 +812,7 @@
               href: project-management/dev-copy-project.md
             - name: שימוש בממשקי API של לוחות זמנים של פרוייקטים‬
               href: project-management/schedule-api-preview.md
-            - name: ביצועים של ממשקי API של לוחות זמנים
+            - name: ביצועים של ממשקי API של לוחות זמנים של פרוייקטים
               href: project-management/project-schedule-api-performance.md
     - name: ניהול משאבים
       items:
@@ -952,6 +958,10 @@
   items:
     - name: מה חדש
       items:
+        - name: מה חדש באוקטובר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: מה חדש בספטמבר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: מה חדש ביולי 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: מה חדש במאי 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
@@ -1108,6 +1118,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 36, V3'
@@ -1322,7 +1334,7 @@
           items:
             - name: דף הבית של ניהול משאבים
               href: psa/resource-management-home-page.md
-            - name: ניהול משאבים
+            - name: נהל משאבים
               href: psa/manage-resources.md
             - name: מושגים עיקריים
               href: psa/reports-key-concepts.md

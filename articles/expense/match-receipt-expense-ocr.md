@@ -2,7 +2,7 @@
 title: לכידת קבלה באמצעות OCR
 description: נושא זה מספק מידע על עיבוד זיהוי תווים אופטי (OCR) של קבלות.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007732"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798041"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>לכידת קבלה באמצעות OCR
 
@@ -85,7 +85,18 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 **היכן תכונה זו זמינה ומעובדת?**
 
-נכון לעכשיו, היא פועלת בארצות הברית.
+הזמינות של תכונה זו באזורים שונים מופיעה בטבלה הבאה. אם האזור שלך אינו נתמך כרגע, שלח בקשה לתעדף את הזמינות של שירות ה-OCR באזור שלך. 
+
+| אזור | נתמך                         |
+|--------|-----------------------------------|
+| ארה"ב    | כן                               |
+| CAN    | כן                               |
+| בריטניה     | כן                               |
+| אוסטרליה    | כן                               |
+| EU     | חלקית. קבלות באנגלית בלבד. |
+| אסיה   | Yes                                |
+| יפן  | Yes                                |
+| אפריקה | Yes                                |
 
 **לאן עוברות הקבלות שלי?**
 

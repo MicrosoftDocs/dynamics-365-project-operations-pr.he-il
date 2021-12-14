@@ -2,17 +2,17 @@
 title: עדכוני Project Operations
 description: נושא זה מספק מידע על גרסאות שהופצו של Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783424"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892188"
 ---
 # <a name="project-operations-updates"></a>בחר את Project Operations
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations מורכב משני מרכיבים:
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance מכסה יכולות ניהול הוצאות, חשבונאות פרויקטים והכרה בהכנסות. סביבת האפליקציה‏ Finance and Operations ‏משמשת ב-Project Operations‏‏ לתרחישים מבוססי משאבים/ללא מלאי וב-Project Operations לתרחישי מלאי/מבוססי ייצור.
 
 ## <a name="project-operations-release-notes"></a>הערות מוצר של Project Operations
-- הערות המוצר האחרונות של Project Operations עבור תרחיש [משאב/ללא מלאי](whats-new-oct-2021-resource-based.md).
-- הערות המוצר האחרונות של Project Operations עבור תרחיש [פריסה קלה](../pro/whats-new/whats-new-oct-2021-lite.md).
-- הערות המוצר האחרונות של Project Operations עבור תרחיש [במלאי/ייצור](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
+- הערות המוצר האחרונות של Project Operations עבור תרחיש [משאב/ללא מלאי](whats-new-nov-2021-resource-based.md).
+- הערות המוצר האחרונות של Project Operations עבור תרחיש [פריסה קלה](../pro/whats-new/whats-new-nov-2021-lite.md).
+- הערות המוצר האחרונות של Project Operations עבור תרחיש [במלאי/ייצור](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>הגרסה האחרונה של Project Operations
 
 | Project Operations בסביבת Dataverse | ניהול פרויקטים וחשבונאות בסביבת האפליקציות של Finance and Operations | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-לתרחיש של משאבים/ללא מלאי‬ של Project Operations, אנו ממליצים להשתמש ב-Dual Write Orchestration גרסה 2.2.2.83 ומעלה.
+לתרחיש של משאבים/ללא מלאי‬ של Project Operations, אנו ממליצים להשתמש ב-Dual-Write Orchestration גרסה 2.3.1.15 ומעלה.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>לוח זמנים להפצה של Project Operations בסביבת Dataverse
 
@@ -47,23 +47,23 @@ Dynamics 365 Project Operations מורכב משני מרכיבים:
 | תחנה | אזור | מספר גירסה נוכחית | עדכונים אוטומטיים לפריסת Lite | עדכונים אוטומטיים לפריסת משאבים/לא במלאי | מספר הגירסה הבאה | הגירסה הבאה זמינה באופן כללי |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | תחנה 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | מהדורה ראשונה         |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
+|   &nbsp;  | מהדורה ראשונה         |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
 | תחנה 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | דרום אמריקה         |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
-|   &nbsp;  | קנדה                |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
-|   &nbsp;  | הודו                 |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
-|   &nbsp;  | צרפת                |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
-|   &nbsp;  | דרום אפריקה          |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 03 בדצמבר, 2021   |
+|   &nbsp;  | דרום אמריקה         |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
+|   &nbsp;  | קנדה                |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
+|   &nbsp;  | הודו                 |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
+|   &nbsp;  | צרפת                |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
+|   &nbsp;  | דרום אפריקה          |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 06 בדצמבר, 2021   |
 | תחנה 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | יפן                 |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 10 בדצמבר, 2021   |
-|   &nbsp;  | אסיה האוקיינוס השקט          |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 10 בדצמבר, 2021   |
-|   &nbsp;  | בריטניה         |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 10 בדצמבר, 2021   |
-|   &nbsp;  | אוקיאניה               |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 10 בדצמבר, 2021   |
-|   &nbsp;  | איחוד האמירויות הערביות  |  4.26.0.145     | 12 בנובמבר 2021  | 19 בנובמבר 2021   | טרם נקבע                 | 10 בדצמבר, 2021   |
+|   &nbsp;  | יפן                 |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 10 בדצמבר, 2021   |
+|   &nbsp;  | אסיה האוקיינוס השקט          |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 10 בדצמבר, 2021   |
+|   &nbsp;  | בריטניה         |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 10 בדצמבר, 2021   |
+|   &nbsp;  | אוקיאניה               |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 10 בדצמבר, 2021   |
+|   &nbsp;  | איחוד האמירויות הערביות  |  4.26.0.150     | מלא           | מלא            | טרם נקבע                 | 10 בדצמבר, 2021   |
 | תחנה 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | אירופה                |  4.25.0.91      | מלא           | מלא            | 4.26.0.145          | 12 בנובמבר 2021   |
+|   &nbsp;  | אירופה                |  4.26.0.150     | מלא           | 10 בדצמבר, 2021   | טרם נקבע                 | 17 בדצמבר, 2021   |
 | תחנה 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | צפון אמריקה         |  4.25.0.91      | מלא           | מלא            | 4.26.0.145          | 19 בנובמבר 2021   |
+|   &nbsp;  | צפון אמריקה         |  4.26.0.150     | 10 בדצמבר, 2021  | 17 בדצמבר, 2021   | טרם נקבע                 | 07 בינואר, 2022    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>לוח הזמנים להפצת ניהול פרויקטים וחשבונאות בסביבת האפליקציות של Finance and Operations
