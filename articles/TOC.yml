@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: עדכונים של Project Operations
       href: whats-new/project-operations-updates.md
+    - name: תכונות שהוסרו או הוצאו משימוש
+      items:
+        - name: תכונות שהוסרו או הוצאו משימוש ב- Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations לתרחישים מבוססי משאבים/ללא מלאי
   items:
     - name: תחילת העבודה
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: מה חדש
       items:
+        - name: דצמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: נובמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: אוקטובר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: הגדרת מרחק באמצעות רמות תעריפי מרחק
               href: expense/set-up-mileage.md
+        - name: פירוט הוצאות
+          href: prod-exp/expense-itemization.md
         - name: הוצאות אישיות
           href: expense/personal-expenses-expense-report.md
         - name: הוצאות בין-חברתיות
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: ניהול הערכות הכנסה
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: פתרון בעיות
+      items:
+        - name: תהליך מכירות הפרוייקט
+          items:
+            - name: 'שגיאת אי התאמה במטבע בעת יצירת פרוייקט, חוזה, הצעת מחיר או משאב שניתן להזמין'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: פריסה קלה – עסקה לחשבונית פרופורמה
   items:
     - name: תחילת העבודה
@@ -548,6 +562,8 @@
       items:
         - name: מה חדש בגישה המוקדמת לגל 2 ב-2021 - פריסה קלה
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: מה חדש בדצמבר 2021 - פריסה קלה
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: מה חדש בנובמבר 2021 - פריסה קלה
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: מה חדש באוקטובר 2021 - פריסה קלה
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: אבני דרך של סעיף חוזה משנה
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: חוזי משנה של חברי צוות פרוייקט
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: אפשרויות חוזי משנה של חברי צוות פרוייקט
+          href: pro/subcontracting/subcon-options.md
+        - name: הערכת עלויות של הקצאות משאבים בקבלנות משנה
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: קביעת התצורה של לוח הזמנים כדי להציג עובדי חוזה וקיבולת חוזה משנה
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: איוש פרויקט עם עובדי חוזה וקיבולת חוזה משנה
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'רישום זמן, הוצאות ושימוש בחומרים עבור רכיבים בחוזה משנה'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: מעברי מצב בחוזה משנה
+          href: pro/subcontracting/subcon-states.md
     - name: זמן
       items:
         - name: מבט כולל על זמן
@@ -1118,6 +1148,8 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'מה חדש ומה השתנה במהדורת עדכון 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: מדריך דיווח
           href: psa/implementation-guides/reporting-guide.md
+    - name: שדרוג מ- Project Service Automation ל- Project Operations - גירסה קלה
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: שדרוג Project Service Automation (גירסת יישום ‎3.x)
       items:
         - name: שדרוג של Project Service Automation
