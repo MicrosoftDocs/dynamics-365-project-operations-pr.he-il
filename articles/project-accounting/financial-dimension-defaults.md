@@ -2,16 +2,16 @@
 title: ברירות מחדל של ממד פיננסי
 description: נושא זה מספק מידע על אופן הגדרת ברירות מחדל של ממד פיננסי.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005437"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922939"
 ---
 # <a name="financial-dimension-defaults"></a>ברירות מחדל של ממד פיננסי
 
@@ -60,6 +60,15 @@ Dynamics 365 Project Operations משתמש במסגרת [ממדים פיננסי
 4. הגדרת ברירות המחדל של הממד פיננסי. שים לב שהממדים הפיננסים מוגדרים כברירת המחדל מתיק הלקוח. אם הפרויקט משויך לסעיף חוזה עם מספר לקוחות חוזה פרויקט, הלקוח הראשי משמש להגדרת ברירת המחדל של הממדים הפיננסיים.
 
 ממדים פיננסיים המוגדרים כברירת מחדל של הפרויקט משמשים להגדרת ברירות מחדל של יומן עבור עסקאות זמן, הוצאות ועמלות ב **יומן שילוב של Project Pperations** ובשורות חשבוניות פרויקטים קשורות.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>החלת ממדים פיננסיים עבור ערכי זמן של פרויקט
+כדי להחיל ממדים פיננסיים עבור ערכי זמן של פרויקט, יש לשים לב שערך המאפיין המוגדר כברירת מחדל מבוסס על הסדר הבא:
+
+1. משאב
+2. פרויקט
+3. מקור מימון
+
+לדוגמה, אם ממד ברירת המחדל צוין במשאב, הוא יוחל במקום ברירת המחדל שצוינה בפרויקט. באופן דומה, מימד פרויקט שהוגדר כברירת מחדל יוחל במקום ברירת המחדל שצוינה במקור המימון.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
