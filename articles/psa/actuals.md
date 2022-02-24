@@ -2,9 +2,10 @@
 title: מבט כולל על נתונים בפועל
 description: נושא זו מספק מידע אודות נתונים בפועל של פרוייקט.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 63ad6544f0ec0a893aebd8d81f3ee895e51c294e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992477"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146124"
 ---
 # <a name="actuals-overview"></a>מבט כולל על נתונים בפועל
 
@@ -32,7 +33,7 @@ ms.locfileid: "6992477"
 
 נתונים בפועל הם כמות העבודה שהושלמה בפרוייקט. ניתן לעקוב אחר נתונים בפועל בחזרה למסמכי המקור שלהם. מסמכי מקור אלה כוללים ערכי זמן, הוצאות ויומן וכן חשבוניות.
 
-![כיצד ניתן לשייך נתונים בפועל של פרוייקט למסמכי מקור.](media/basic-guide-18.png)
+![כיצד ניתן לשייך נתונים בפועל של פרוייקט למסמכי מקור](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>שליחת ערך זמן
 
@@ -329,6 +330,3 @@ PSA מתעד את העסקות הפיננסיות המתרחשות במהלך פ
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

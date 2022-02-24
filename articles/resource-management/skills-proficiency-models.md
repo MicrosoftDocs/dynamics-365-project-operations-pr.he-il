@@ -2,16 +2,18 @@
 title: כישורים והסמכות
 description: נושא זה מספק מידע על הוספת מאפייני כישורים והסמכות למשאבים.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990182"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128869"
 ---
 # <a name="skills-and-certifications"></a>כישורים והסמכות
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
@@ -41,5 +43,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 3. ברשת המשנה **כישורים**, בחר **+הוסף מאפיין דרישה חדש.**
 4. בחלונית היצירה המהירה, מצא ובחר את המאפיינים הנדרשים והוסף **ערך דירוג**.
 5. בחר **Save & Close**.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

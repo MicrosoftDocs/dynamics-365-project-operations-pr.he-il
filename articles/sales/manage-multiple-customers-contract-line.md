@@ -2,16 +2,18 @@
 title: ניהול לקוחות מרובים בסעיפי חוזה מבוססי פרוייקט
 description: נושא זה מספק מידע על עבודה עם סעיפי חוזה וחוזים המכילים לקוחות מרובים.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992117"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181903"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>ניהול לקוחות מרובים בסעיפי חוזה מבוססי פרוייקט
 
@@ -42,6 +44,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ניתן לערוך אחוזי פיצול חיובים ברשת. כאשר אחוזי פיצול החיוב אינם מסתכמים כ-100 אחוז, תתרחש שגיאה. לאחר עריכת אחוזי הפיצול לחיוב, רענן את הדף כדי להסיר את השגיאה.
 
 ניתן גם לבחור **חלק באופן שווה** ברשת המשנה של לקוח סעיף החוזה. פעולה זו מקצה באופן שווה פיצולי חיוב לכל לקוחות סעיף החוזה. אם יש גורם עיגול כלשהו, הוא יתווסף ללקוח העיגול. לקוח סעיף חוזה אחד תמיד מתויג כלקוח **העיגול** עם דגל ה **עיגול** מוגדר כ **כן**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

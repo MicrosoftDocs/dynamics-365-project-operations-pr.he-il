@@ -2,6 +2,8 @@
 title: יצירת ערכי זמן
 description: נושא זה מספק מידע לגבי האופן שבו יוצרים ערכי זמן.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990407"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149679"
 ---
 # <a name="create-time-entries"></a>יצירת ערכי זמן
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990407"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>יכולות 'קבץ לפי', 'מיון', 'חיפוש' ו'סינון'
 
 ניתן לקבץ ולסנן ערכי זמן לפי הממדים שצוינו בעמודות. בשדה **קבץ לפי**, בחר את הממד שיש להשתמש בו כדי לסנן ערכי זמן. ניתן גם למיין את רשומות ערכי הזמן לפי סדר עולה או יורד באמצעות חץ המיון שבכותרות העמודות. כמו כן, ניתן להציג או להסתיר ערכים על-ידי בחירה בלחצן **סינון** בכותרות העמודות ולאחר מכן, בתיבה **חיפוש**, יש להזין את הטקסט אשר ישמש לחיפוש ערכי זמן לפי שם פרויקט, משימת פרויקט, ערך זמן או משאב.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

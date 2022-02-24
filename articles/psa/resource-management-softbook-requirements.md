@@ -2,6 +2,8 @@
 title: דרישות של הזמנה טנטטיבית
 description: נושא זה מספק מידע אודות דרישות של הזמנה טנטטיבית.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007012"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147384"
 ---
 # <a name="soft-book-requirements"></a>דרישות של הזמנה טנטטיבית
 
@@ -29,30 +31,30 @@ ms.locfileid: "7007012"
 
 ניתן להזמין בהזמנה בטוחה דרישה למשאב. הזמנה בטוחה יוצרת הצעה שצורכת קיבולת של משאב. לאחר מכן נשלחת ההצעה בחזרה למבקש לצורך אישור. הזמנה טנטטיבית מוסיפה באופן זמני משאב לצוות פרויקט והיא כוללת מצב שונה בלוח הזמנים, אך היא אינה צורכת את קיבולת המשאב. כדי להזמין משאב בהזמנה טנטטיבית מלוח הזמנים, הגדר את השדה **מצב הזמנה** ל **זמני**.
 
-![מצב ההזמנה מוגדר כ'זמני'.](media/Resource-Management-image77.png)
+![מצב ההזמנה מוגדר כ'זמני'](media/Resource-Management-image77.png)
 
 כאשר הכרטיסיה **צוות** נמצאת בתצוגה **חברי צוות בעלי שם**, המשאב מופיע שם. שעות ההזמנה הטנטטיבית מדווחות בעמודה **שעות שהוזמנו בהזמנה טנטטיבית**.
 
-![שעות שהוזמנו בהזמנה טנטטיבית בתצוגה 'חברי צוות בעלי שם'.](media/Resource-Management-image78.png)
+![שעות שהוזמנו בהזמנה טנטטיבית בתצוגה 'חברי צוות בעלי שם'](media/Resource-Management-image78.png)
 
 ניתן להקצות חברי צוות שהוזמנו בהזמנה טנטטיבית למשימות.
 
-![חבר צוות שהוזמן בהזמנה טנטטיבית הוקצה למשימה.](media/Resource-Management-image79.png)
+![חבר צוות שהוזמן בהזמנה טנטטיבית הוקצה למשימה](media/Resource-Management-image79.png)
 
 בכרטיסיה **התאמה**, לא מוצגות הזמנות עבור משאב שהוזמן בהזמנה טנטטיבית, משום שהכרטיסיה **התאמה** לוקחת בחשבון הזמנות בטוחות בלבד.
 
-![משאב שהוזמן בהזמנה טנטטיבית ללא הזמנות בכרטיסיה 'התאמה'.](media/Resource-Management-image80.png)
+![משאב שהוזמן בהזמנה טנטטיבית ללא הזמנות בכרטיסיה 'התאמה'](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > לא ניתן להזמין משאב בהזמנה טנטטיבית מדרישה שנוצרה מחבר צוות כללי.
 
 בלוח הזמנים, צבע שונה משמש להזמנות טנטטיביות של משאב.
 
-![הזמנות טנטטיביות בלוח הזמנים.](media/Resource-Management-image81.png)
+![הזמנות טנטטיביות בלוח הזמנים](media/Resource-Management-image81.png)
 
 כדי להמיר הזמנה טנטטיבית להזמנה בטוחה, בלוח הזמנים, לחץ באמצעות לחצן העכבר הימני על ההזמנה הטנטטיבית ולאחר מכן בחר **שנה מצב** \> **הזמן כהזמנה בטוחה** \> **הזמנה בטוחה**.
 
-![שינוי מצב ההזמנה ל'הזמנה בטוחה'.](media/Resource-Management-image82.png)
+![שינוי מצב ההזמנה להזמנה בטוחה](media/Resource-Management-image82.png)
 
 ההזמנה משתנה והמצב משתנה בלוח הזמנים. מכיוון שמצב ההזמנה הוא כעת **הזמנה בטוחה**, המשאב מוצג כמשאב שהוזמן, והקיבולת והזמינות שלו מותאמות.
 
@@ -60,7 +62,4 @@ ms.locfileid: "7007012"
 
 כדי להמיר משאב שהוזמן בהזמנה טנטטיבית למשאב שהוזמן בהזמנה בטוחה בכרטיסיה **צוות** של הפרויקט, בחר את המשאב ולאחר מכן בחר **אשר**.
 
-![הפקודה 'אשר'.](media/Resource-Management-image83.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![הפקודה 'אשר'](media/Resource-Management-image83.png)

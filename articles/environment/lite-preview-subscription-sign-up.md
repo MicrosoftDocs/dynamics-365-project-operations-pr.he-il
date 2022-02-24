@@ -2,40 +2,60 @@
 title: הרשמה למנוי Preview‏ - לייט
 description: נושא זה מספק מידע על אופן ההרשמה ל-Project Operations ועל אופן פריסתו בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991532"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175892"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>רישום למנוי Preview‏ - Lite 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>הרשמה למנוי Preview‏ - לייט 
 
-נושא זה מסביר כיצד להירשם כמנוי להצעה של גירסת הניסיון ולפרוס את הפריסה הקלה של Dynamics 365 Project Operations - עסקה לחשבונית פרופורמה.
+נושא זה מסביר כיצד להירשם כמנוי להצעת Preview לשותפים ועל אופן פריסתו של Dynamics 365 Project Operations בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
 
 > [!NOTE]
 > תהליך זה ישתנה במהדורות הקרובות של Project Operations.
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
-- המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure. ניתן ליצור דייר במהלך מימוש ההצעה הראשונה.
+
+- תקבל הודעת דואר המזמינה אותך להשתתף ב-Preview. ניתן לבקש Preview ב[אתר Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure.
+- עיין בכל התנאים וההגבלות.
+
+## <a name="subscribe"></a>הירשם כמנוי
+
+כשתקבל [אישור לבקשת ‎,Preview](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), תקבל שתי הצעות מ-Microsoft בדואר. הצעות אלה מאפשרות לך לפרוס את Project Operations Preview:
+
+- Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview
+- Office 365 Project Operations - גירסת ניסיון של Preview
 
 > [!IMPORTANT]
 > רק אדם אחד בארגון, מנהל הדיירים, צריך לבצע את המשימה הזו. אם אינך המנוי למהדורה זו, המתן עד שהארגון שלך יירשם ותקבל את אישורי המשתמש שלך.
-> 
-> גירסאות ניסיון הן לשימוש חד פעמי בדייר. אפשר להריץ גירסת ניסיון רק פעם אחת. אנו ממליצים ליצור דייר חדש לצורך גירסת הניסיון.
 
-### <a name="dynamics-365-project-operations-trial"></a>גירסת ניסיון של Dynamics 365 Project Operations 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) ‎ - גירסת ניסיון של Preview 
 
 לפני שתתחיל, ודא שאתה מחובר לדפדפן עם חשבון העבודה שלך בדייר שבו אתה רוצה את התצוגה המקדימה של Project Operations.
 
-1. עבור אל [גירסת הניסיון של Project Operations](https://aka.ms/try-po) כדי לממש את קוד ההצעה הראשון, **Dynamics 365 Project Operations**.
-2. אשר את ההזמנה.
+1. ניתן לממש את קוד המבצע הראשון, **Dynamics 365 Project Operations (CRM) - Preview Trial** על ידי הדבקתו בשדה ה-URL בדפדפן.
 
-  תראה שהצעת האישור מומשה בהצלחה.
+![ממש הצעה](./media/16RedeemFirstOfferNew.png)
+
+2. אשר את ההזמנה.
+![אשר את ההזמנה](./media/17ConfirmOrderNew.png)
+
+תראה שהצעת האישור מומשה בהצלחה.
+
+![אישור](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - גירסת ניסיון של Preview
+
+חזור על אותם שלבים כמו בקוד המבצע הראשון. הקפד להוסיף את קוד המבצע השני באמצעות אותו חשבון משתמש שבו השתמשת עם קוד המבצע הראשון.
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
 
@@ -44,28 +64,30 @@ ms.locfileid: "6991532"
 
 
 1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.
+
+![דף הבית של מרכז הניהול](./media/14AdminPortal.png)
+
 2. בדף **משתמשים פעילים** בחר את המשתמשים שאליהם ברצונך להקצות רישיון.
-3. ודא שהרישיון **Dynamics 365 Project Operations** נבחר. 
+
+![הקצאת רשיונות](./media/15AssignLicenses.png)
+
+3. יש לוודא שרישיון **Dynamics 365 Project Operations (CRM) Preview** ורישיון **Office 365 Project Operations - Preview** נבחרו. 
 4. בחר **שמור שינויים**.
 
-## <a name="create-a-new-dataverse-environment"></a>יצירת סביבת Dataverse חדשה
+## <a name="create-a-new-cds-environment"></a>צור סביבת CDS חדשה
 
-1. הקצה סביבת פריסת חדשה של Project Operations Dataverse על ידי ביצוע ההוראות בנושא זה, [מודל פריסת Dataverse](lite-deployment.md). כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.
-
-  ![סביבה חדשה.](./media/19CreateEnvironment.png)
+1. הקצה סביבת פריסת CDS חדשה של Project Operations על ידי מעקב אחר ההוראות בנושא זה, [מודל פריסת CDS](lite-deployment.md). כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.
+![סביבה חדשה](./media/19CreateEnvironment.png)
 
 2. בחר את ההגדרה **הפעל יישומי Dynamics 365** והשאר את **פרוס יישומים אלה באופן אוטומטי** ריק.  
 3. בחר **שמור** כדי ליצור סביבה חדשה.
 
-  ![הוסף מסד נתונים.](./media/20CreateEnvironment1.png)
+![הוסף מסד נתונים](./media/20CreateEnvironment1.png)
 
 4. לאחר יצירת הסביבה, התקן את הפתרון **Microsoft Dynamics 365 Project Operations**. 
 
-![התקן פתרון.](./media/21InstallSolution.png)
+![התקנת פתרון](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>התקן את התצורה של CSD ואת נתוני הגדרת ההדגמה
 
 התקן את תצורת ה-CDS והגדר נתוני הדגמה על ידי מעקב אחר ההוראות בנושא, [החל הגדרת ההדגמה ואת נתוני התצורה](lite-apply-demo-setup-config-data.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

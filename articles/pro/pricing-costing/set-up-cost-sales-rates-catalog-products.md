@@ -2,17 +2,19 @@
 title: הגדרת תעריפי עלות ומכירה עבור קטלוג מוצרים - לייט
 description: נושא זה מספק מידע על הדרך להגדרת תעריפי עלות ומכירות עבור פריטים בקטלוג המוצרים.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bfb28e710c7b6da17d94679a72659f81df7a58e376e4bad94b58c36de781b197
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996032"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764552"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>הגדרת תעריפי עלות ומכירה עבור קטלוג מוצרים - לייט
 
@@ -24,6 +26,3 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 ב- Project Operations, לא ניתן לאמוד מוצרים או להשתמש בהם בפרוייקטים, ולכן אין צורך לקבוע את מחירי קטלוג המוצרים במחירונים של פרוייקטים לקבלת הצעות מחיר וחוזים.
 
 השתמש בשדה **מחיר מוצר** של הצעת מחיר, חוזה או תיק לקוח להגדרת מחירים של קטלוג מוצרים. אל תגדיר מחירים של קטלוג מוצרים במחירונים של הפרוייקט. מחירוני הפרויקט בלעדיים ל- Project Operations. לוגיקה עסקית ספציפית ליישום מעתיקה את המחירונים מהצעת מחיר לחוזה. התוצאה היא מחירון לפרויקט שספציפי לחוזה. פעולת ההעתקה עשויה לעכב את תהליך הזכייה בהצעת המחיר אם מחירון הפרויקט בהצעת המחיר נהיה גדול מדי. מחירוני מוצרים אינם מועתקים כדי ליצור מחירונים מותאמים אישית בחוזים. מכיוון שלא מדובר בהעתקה, הביצועים של תהליך הצעת המחיר אינם מושפעים.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

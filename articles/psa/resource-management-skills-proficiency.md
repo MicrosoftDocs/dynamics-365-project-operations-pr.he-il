@@ -2,6 +2,8 @@
 title: כישורים ומודלים של מיומנות
 description: נושא זה מספק מידע על אופן השימוש בכישורים ובמודלים של מיומנות.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990497"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147474"
 ---
 # <a name="skills-and-proficiency-models"></a>כישורים ומודלים של מיומנות
 
@@ -33,7 +35,7 @@ ms.locfileid: "6990497"
 
 כדי לשמור על מאגר הכישורים ב- Project Service Automation, עבור אל **משאבים** \> **כישורי משאבים**. 
 
-> ![כישורי משאבים.](media/Resource-Management-image84.png)
+> ![כישורי משאבים](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>שימוש במודלים של מיומנות כדי לדרג משאבים
 
@@ -43,9 +45,6 @@ ms.locfileid: "6990497"
 2. במודל הדירוג החדש, ציין את ערך הדירוג המינימלי, את ערך הדירוג המרבי ואת הישות המדורגת.
 3. ברשת המשנה **ערכי דירוג**, ניתן להגדיר את ערכי הדירוג השונים, מהערך המינימלי לערך המרבי.
 
-> ![דירוגים מינימליים ומרביים הוגדרו.](media/Resource-Management-image85.png)
+> ![דירוגים מינימליים ומרביים הוגדרו](media/Resource-Management-image85.png)
 
 ערכי דירוג אלה מוצגים במסננים **דרישות משאב**, **לוח זמנים** ו **מסייע לוח הזמנים**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

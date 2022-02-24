@@ -1,24 +1,25 @@
 ---
 title: מבט כולל על פריסת לייט
-description: נושא זה מספק מידע על פריסה קלה‬ של Dynamics 365 Project Operations.
+description: נושא זה מספק מידע על הפריסת הלייט של Dynamics 365 Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997382"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365495"
 ---
-# <a name="lite-deployment-overview"></a>מבט כולל על פריסה קלה
+# <a name="lite-deployment-overview"></a>מבט כולל על פריסת לייט
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-לפריסה קלה‬ של Dynamics 365 Project Operations יש את היכולות הבאות עבור חברות מבוססות פרויקטים:
+לסוג הפריסת הלייט של Dynamics 365 Project Operations יש את היכולות הבאות עבור חברות מבוססות פרויקטים:
 
 - תכנון פרויקטים באמצעות Microsoft Project באינטרנט
 - תמחור רב-ממדי ותמחור משאבי עבודה
@@ -36,6 +37,3 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 - מערכת משולבת המנהלת פרויקטים פנימיים ופרויקטים הניתנים לחיוב עבור לוחות זמנים וכספים ממכירת פרויקטים ועד הפקת חשבוניות.
 - תכנון משאבי ארגונון של ספק חיצוני (ERP/מערכת חשבונאות פיננסית לשילוב עם Project Operations‏)‎.
 - מערכת של ספק חיצוני לעבודה עם מע"מ, שערי חליפין, החזר הוצאות והוצאות שאינן הוצאות פרויקט.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

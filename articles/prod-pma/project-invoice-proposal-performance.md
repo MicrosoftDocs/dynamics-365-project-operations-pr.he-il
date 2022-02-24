@@ -2,9 +2,11 @@
 title: ביצועי הצעה לחשבוניות פרוייקט
 description: נושא זה מספק מידע על שיפורי ביצועים להצעות חשבונית לפרויקט.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005707"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920303"
 ---
 # <a name="project-invoice-proposal-performance"></a>ביצועי הצעה לחשבוניות פרוייקט
 
@@ -44,6 +46,4 @@ ms.locfileid: "7005707"
 3.  רענן את הדפדפן.
 
 > [!NOTE]
-> לא ניתן להחיל ביצועים של הצעת חשבונית כאשר כללי חיוב מופעלים.
-> 
-> בתהליך האצווה ליצירת הצעות חשבונית, מספר משימות המשנה יחלק את המשימות למספר המקסימלי לפי מספר החוזים עם עסקאות שניתנות לחיוב, ללא קשר למה שהזנת. לדוגמה, אם תזין **3** עבור מספר משימות משנה ליצירת הצעת חשבונית באצווה, ויש רק שני חוזים עם עסקאות שניתנות לחיוב, ייווצרו רק שתי משימות משנה.
+> לא ניתן להחיל ביצועי הצעת חשבונית כאשר כללי חיוב מופעלים או שתהליכי אצווה פועלים.

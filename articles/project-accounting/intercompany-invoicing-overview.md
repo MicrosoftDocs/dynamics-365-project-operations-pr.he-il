@@ -2,17 +2,18 @@
 title: מבט כולל על הפקת חשבוניות בין-חברות
 description: נושא זה מספק מידע ודוגמאות של חשבונית בין-חברות לפרויקטים.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005392"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595479"
 ---
 # <a name="intercompany-invoicing-overview"></a>מבט כולל על הפקת חשבוניות בין-חברות
 
@@ -20,9 +21,9 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ייתכן שלארגון שלך יש כמה חטיבות, חברות בנות וישויות משפטיות אחרות שמעבירות מוצרים ושירותים אחת לשנייה עבור פרוייקטים. הישות המשפטית שמספקת את השירות או המוצר נקראת *ישות משפטית מלווה*. הישות המשפטית שמקבלת את השירות או המוצר נקראת *ישות משפטית לווה*.
 
-האיור הבא מציג תרחיש טיפוסי שבו שתי ישויות משפטיות, Contoso Robotics ארה"ב (הישות המשפטית השואלת) ו- Contoso Robotics בריטניה (הישות המשפטית המלווה) חולקות משאבים להעברת פרוייקט ללקוח, Adventure. בתרחיש זה, Contoso Robotics ארה"ב מחויבת לספק את העבודה ל- Adventure.
+האיור הבא מציג תרחיש אופייני שבו שתי ישויות משפטיות, Contoso Robotics USA (הישות המשפטית הלווה) ו- Contoso Robotics UK (הישות המשפטית המלווה) חולקות משאבים להעברת פרויקט עבור הלקוח, Adventure Works. עבור תרחיש זה, Contoso Robotics USA אמורה לספק את העבודה ל- Adventure Works.
 
-![הפקת חשבוניות בין-חברתית.](./media/IntercompanyScenario.png) 
+![הפקת חשבוניות בין-חברתית](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations משתמש בזרימה הבאה לעיבוד עסקאות בין-חברות:
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations משתמש בזרימה הבאה לעיבוד ע
 
 התרשים הבא מציג חשבוניות בין חברות כשהן קשורות לאירועים חשבונאיים ורישומים צפויים בספר הכללי.
 
-![זרימה בין-חברות.](./media/IntercompanyFlow.png)
+![זרימה בין-חברות](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>משאבים נוספים
 
-- [קביעת תצורה של הפקת חשבוניות בין-חברתית](configure-intercompany-invoicing.md)
+- [קביעת תצורה של הפקת חשבוניות בין-חברות](configure-intercompany-invoicing.md)
 - [תיעוד עסקאות בין-חברות](create-intercompany-transactions.md)
 - [יצירת חשבוניות לקוחות וספקים בין-חברות](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: ניהול מספר רב של לקוחות בשורות הצעות מחיר מבוססות פרויקט
 description: נושא זה מספק מידע על הדרך שבה יש לנהל לקוחות מרובים בשורות הצעות מחיר מבוססות פרויקט.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992027"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118564"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>ניהול מספר רב של לקוחות בשורות הצעות מחיר מבוססות פרויקט
 
@@ -42,6 +44,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ניתן לערוך את אחוזי פיצול החיוב בשורה. כאשר אחוזי פיצול החיוב אינם מסתכמים ב-100%, מתרחשת שגיאה. לאחר עריכת אחוזי הפיצול לחיוב, רענן את דף שורת הצעת המחיר כדי להסיר את השגיאה.
 
 השתמש בפעולת ההפצה השווה ברשת המשנה של לקוחות שורת הצעת מחיר כדי להקצות פיצולי חיוב לכל לקוחות שורת הצעת המחיר. אם קיים גורם עיגול, הוא יתווסף ללקוחות שעבורם מתבצע עיגול. אחד מלקוחות שורת הצעת המחיר מתויג תמיד כלקוח שעבורו מתבצע עיגול, ומשמעות הדבר היא שברשומת הלקוח של שורת הצעת המחיר,  דגל העיגול מוגדר ל **כן**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

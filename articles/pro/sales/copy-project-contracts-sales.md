@@ -2,16 +2,18 @@
 title: העתקת חוזי פרוייקט - לייט
 description: נושא זה מספק מידע על העתקת וחוזי פרוייקטים ב-Project operations.
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006022"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181408"
 ---
 # <a name="copy-project-contracts---lite"></a>העתקת חוזי פרוייקט - לייט
 
@@ -43,6 +45,3 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
   - פרטי תקציב לקוח
 
 מכיוון שמידע זה ספציפי לכל חוזה, שדות ורשומות אלה אינם מועתקים. מועתקים סעיפי חוזה לפרויקטים ולמוצרים, הערכות לגבי פרטי סעיפי חוזה וערכי 'אין לחרוג' ברמת החוזה. קביעת ברירות המחדל של המחיר ותעריף העלות תלויות בערך שנבחר בשדה **העתקת תמחור** בדף הדו-שיח **העתקת פרמטרים**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: אישור חוזה פרויקט
 description: נושא זה מספק מידע על אופן אישור פרויקט ב-Project Operations .
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989822"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128284"
 ---
 # <a name="confirm-a-project-contract"></a>אישור חוזה פרויקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-חוזה פרויקט ב- Dynamics 365 Project Operations יכול להיות פעיל עם סיבה של **אושר**, או סגור עם סיבה **הפסד‬**. כאשר מאשרים חוזה פרויקט, המצב מתעדכן מ **טיוטה** ל **פעיל** וסיבת המצב היא **מאושר**. לא ניתן לערוך או לפתוח חוזה פעיל או סגור. 
+חוזה פרויקט ב-Dynamics 365 Project Operations יכול להיות פעיל עם סיבת מצב **מאושר**, או סגור עם סיבת מצב **הפסד**. כאשר מאשרים חוזה פרויקט, המצב מתעדכן מ **טיוטה** ל **פעיל** וסיבת המצב היא **מאושר**. לא ניתן לערוך או לפתוח חוזה פעיל או סגור. 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>השפעה פיננסית של אישור חוזה פרויקט
 
@@ -32,7 +34,4 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 אם חוזה הפרויקט שנסגר כהפסד מתייחס לפרויקט בסעיפים שלו, גם פרויקט מסומן גם כסגור. כל הזמנות המשאבים מאותו יום ואילך מבוטלות. כל נתוני המכירות בפועל שטרם חויבו בחוזה הפרויקט, אשר עדיין לא רשומים בחשבונית, יבוטלו.
 
 > [!NOTE]
-> ב- Dynamics 365 Project Operations, סגירת חוזה פרויקט כ'הפסד‬' לא תשפיע על מצב ההזדמנות המשויכת. ההזדמנות תישאר פתוחה ויש לסגור אותה ידנית.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+> ב-Dynamics 365 Project Operations, סגירת חוזה פרויקט כהפסד לא תשפיע על המצב של ההזדמנות המשויכת. ההזדמנות תישאר פתוחה ויש לסגור אותה ידנית.

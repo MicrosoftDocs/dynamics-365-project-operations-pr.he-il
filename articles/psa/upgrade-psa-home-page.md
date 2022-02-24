@@ -1,10 +1,11 @@
 ---
 title: שדרוג דף הבית
 description: נושא זה מראה היכן למצוא מידע חשוב על התכונות החדשות והתכונות שהשתנו ב- Dynamics 365 Project Service Automation, והתהליך לשדרוג לגירסה החדשה ביותר.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006742"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150084"
 ---
 # <a name="upgrade-home-page"></a>שדרוג דף הבית
 
@@ -64,6 +65,3 @@ ms.locfileid: "7006742"
 
 > [!NOTE]
 > לקבלת החוויה הטובה ביותר בעת השימוש בגירסאות ישנות יותר של האפליקציות Field Service ו- PSA, עבור אל **הגדרות המערכת** ובשדה **‏‫השתמש בממשק המאוחד החדש בלבד (מומלץ)**, בחר **לא** הואיל וגירסאות אלה אינן מיועדות להיטען כראוי ב- UCI. לאחר הביטול של UCI, תוכל לפתוח ולהפעיל גירסאות אלה של Field Service ו- PSA באמצעות לקוח האינטרנט הישן. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: הגדרות פרויקט
 description: נושא זו מספק מידע על הגדרות ניהול פרויקט.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996932"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148149"
 ---
 # <a name="project-settings"></a>הגדרות פרויקט
 
@@ -47,7 +49,7 @@ ms.locfileid: "6996932"
   - לוח זמני עבודה עבור יום אחד
   - שעות מנוחה
 
-> ![הגדרת אפשרויות.](media/project-13.png)
+> ![הגדרת אפשרויות](media/project-13.png)
 
 4. בחר **לוח זמנים שבועי חדש** ולאחר מכן קבע את האפשרויות עבור לוח הזמנים של המשאב הזה. באפשרותך לקבוע לוח זמנים שבועי חוזר, פרמטרים של שעה יומית, סגירת עסק ועוד.
 5. הגדר את טווח התאריכים, בחר **שמור** ולאחר מכן לחץ על **סגור**. 
@@ -66,6 +68,3 @@ ms.locfileid: "6996932"
 ## <a name="price-lists"></a>מחירונים
 
 מחירונים מאפשרים לך לקבוע את מחירי המכירות והעלות עבור תפקידי משאב, קטגוריות הוצאה, מוצרים ומרכיבים אחרים בארגון. לפני שתקבע הערכות פיננסיות עבור עבודה שיש לספק עבור פרויקט, עליך ליצור מחירון מכירה ועלות לגיבוי. במקטע הפרמטרים, עליך להגדיר גם ברירת מחדל למחירון של מכירות ועלות החלים על כל הפרויקטים שנוצרו בארגון. בדף **‏‫פרמטרי פרויקט פעיל‬**, ודא שהגדרת ברירת מחדל עבור מחירון המכירות והעלות.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית
 description: נושא זה מספק מידע על הגדרת שילוב לפי ישות משפטית ב- Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122884"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית 
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מדריך אותך בשלבים הנדרשים להגדרה של Dynamics 365 Project Operations לכל ישות משפטית.
+נושא זה מתאר את השלבים הנדרשים להגדרת תצורת Dynamics 365 Project Operations לכל ישות משפטית.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>הפעלת מפתחות של ישויות ב- Dynamics 365 Finance
 
@@ -49,6 +51,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   - **ברירות מחדל של סוג חיוב**:‏ Project Operations משתמש בקבוצה קבועה של ברירות מחדל מסוג חיוב שיש למפות למאפייני השורות של Finance. צור רשומה עבור כל סוג חיוב: **לא מוגדר**, **בתשלום**, **ללא חיוב**, **משלים** ו **לא זמין**.
   - **ברירות מחדל של קטגוריית הפרויקט**: בחר בקטגוריות הפרויקט המוגדרות כברירת מחדל לשימוש עבור כל סוג עסקה. ברירות מחדל אלה ישמשו ב- **כתב העת לשילוב Project Operations** ובהערכות שבהן לא מוגדרת קטגוריית עסקאות עבור הפרויקט בפועל.
   - **תחזיות**: בחר במודל התחזית שישמש לאומדני זמן והוצאות.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

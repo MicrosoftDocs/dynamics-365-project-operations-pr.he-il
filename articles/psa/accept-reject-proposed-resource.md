@@ -1,6 +1,8 @@
 ---
 title: קבלה או דחייה של משאב פרוייקט מוצע
 description: נושא זה מספק מידע לגבי אופן האישור או הדחייה של משאב פרוייקט מוצע.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e5c0e53c7fbde92c0f0b445847d2499532626637cf66fa1bb556eccc1e6079ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992522"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146169"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>קבלה או דחייה של משאב פרוייקט מוצע
 
@@ -33,16 +35,13 @@ ms.locfileid: "6992522"
 
 כאשר מנהל משאבים מציע משאב בעל שם למימוש בקשת המשאב הכללי עבור פרוייקט, השדה **מצב בקשה** עבור חבר הצוות הכללי יתעדכן ל **נחוצה סקירה**. הבקשה תישלח למנהל הפרוייקט לקבלת אישור או דחייה.
 
-![חבר צוות כללי עם הצעה.](media/RM-how-to-19.png)
+![חבר צוות כללי עם הצעה](media/RM-how-to-19.png)
 
 הרשת בכרטיסיה **משאבים מוצעים** בדף **חבר צוות פרוייקט** מציגה את ההזמנות הנוכחיות של המשאב המוצע. לאחר קבלת ההצעה, הרשת תעודכן ותשקף את ההזמנה. 
 
 כדי לקבל את המשאב המוצע ולהזמין את המשאב בצוות שלך, לחץ על **קבל הצעות**.  
 כדי לדחות את ההצעה, לחץ על **דחה משאב**.
 
-![קבלת הצעת משאב.](media/RM-how-to-20.png) 
+![קבלת הצעת משאב](media/RM-how-to-20.png) 
 
 בדומה למימוש ישיר של בקשת משאב כללי עם משאב בעל שם, המשאב הכללי יוחלף והמשימות המוקצות יעודכנו עם חבר הצוות בעל השם.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

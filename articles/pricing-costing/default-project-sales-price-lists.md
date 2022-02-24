@@ -2,16 +2,18 @@
 title: מחירוני ברירת מחדל
 description: נושא זה מספק מידע על מחירוני ברירת מחדל של מכירות ועלות ב-Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989867"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130939"
 ---
 # <a name="default-price-lists"></a>מחירוני ברירת מחדל
 
@@ -19,7 +21,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="sales-price-lists"></a>מחירוני מכירות
 
-כל הצעת מחיר לפרויקט וחוזה ב- Dynamics 365 Project Operations מכילים ברירת מחדל של מחירון מכירות. 
+כל הצעת מחיר וחוזה בפרויקט Dynamics 365 Project Operations מכיל מחירון ברירת מחדל למכירות. 
 
 ### <a name="price-list-default-on-project-quotes"></a>מחירון ברירת מחדל להצעות מחיר לפרויקט
 המערכת משלימה את התהליך הבא כדי לקבוע איזה מחירון יהיה מחירון ברירת המחדל של הצעת מחיר לפרויקט:
@@ -55,6 +57,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 5. לאחר מכן המערכת בוחנת את תוקף התאריכים של המחירונים שתואמים לתאריך של שורת ההערכה או הנתון בפועל הנכנסים. 
 6. אם ישנם מחירונים מרובים בתוקף בתאריך של ההערכה או הנתון בפועל הנכנס, נבחר המחירון שנוצר לאחרונה.
 7. אם אין מחירוני עלות המצורפים לפרמטרים של הפרויקט התואמים למטבע ולתאריך התוקף, המערכת מגדירה את תעריף העלות כאפס (0) בשורת ההערכה או הנתון בפועל הנכנסים.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

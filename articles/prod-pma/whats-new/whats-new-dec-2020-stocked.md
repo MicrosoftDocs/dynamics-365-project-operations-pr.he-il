@@ -2,17 +2,19 @@
 title: מה חדש בדצמבר 2020 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת דצמבר 2020 של Project Operations לתרחישים מבוססי ייצור-עם-מלאי.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008812"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727966"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>מה חדש בדצמבר 2020 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 
@@ -139,7 +141,4 @@ _חל על:‏ Project Operations לתרחישים מבוססי ייצור/עם 
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור Dynamics 365 Finance, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+למידע על עדכונים רגולטוריים עבור Dynamics 365 Finance, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.

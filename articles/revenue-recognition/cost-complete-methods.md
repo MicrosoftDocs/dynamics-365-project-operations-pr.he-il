@@ -2,16 +2,18 @@
 title: שיטות עלות להשלמה
 description: נושא זה מספק מידע על השיטות המשמשות לחישוב העלות להשלמת פרויקט.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997967"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531442"
 ---
 # <a name="cost-to-complete-methods"></a>שיטות עלות להשלמה
 
@@ -28,6 +30,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | כאומדן קודם         | כאן נעשה שימוש באותן שיטות הערכה שהיו נהוגות בתקופה הקודמת. שיטה זו מחייבת מודל תחזית אם התקופה הקודמת דרשה מודל תחזית.                                                                                                                                                                                                                                                                                                                           |
 | הגדר את העלות להשלמה לאפס | בדרך כלל נעשה בה שימוש לפני ביטול של אומדן הפרויקט, אך שיטה זו תואמת את האומדנים הכוללים לעסקאות בפועל שפורסמו ומנקה את העמודה **עלות להשלמה**. בסיום התוצאה היא תמיד 100 אחוז. עבור כל שורת עלות שתיצור, תיבת הסימון **חיזוי** לא מסומנת וההערכה הכוללת מועתקת מאומדן העלות הקודם. הצריכה בפועל לתקופת האומדן מנוכה מהעלות לסיום הפרויקט.              |
 | מתבנית עלות           | שיטת העלות להשלמה שהוגדרה בתבנית העלות שמשויכת לאומדן הפרויקט שנבחר.                                                                                                                                                                                                                                                                                                                                                                          |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

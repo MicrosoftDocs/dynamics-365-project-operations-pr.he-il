@@ -2,16 +2,18 @@
 title: ניהול הפניות - לייט
 description: נושא זו מספק מידע על ניהול הפניות מבוססות פרויקט (Pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991397"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272839"
 ---
 # <a name="manage-leads---lite"></a>ניהול הפניות - לייט
 
@@ -53,7 +55,7 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 - רשומת איש קשר המשויכת לחשבון על סמך הערכים בשדות **שם פרטי** ו **שם משפחה** בהפניה.
 - הזדמנות מבוססת פרויקט עם השדה **סוג** שמוגדר **מבוססת עבודה**.
 
-למידע מפורט יותר על הפניות אישור הפניות, ראה [אישור או המרה של הפניות](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+למידע מפורט יותר על הפניות אישור הפניות, ראה [אישור או המרה של הפניות](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>זרימת תהליך עסקי לעסקאות מבוססות פרויקטים
 

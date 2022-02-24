@@ -2,17 +2,19 @@
 title: עדכן את Project Operations בסביבת Finance שלך
 description: נושא זה מספק מידע על עדכון של Project Operations בסביבת Dynamics 365 Finance שלך.
 author: ruhercul
+manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
+ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986762"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816626"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>עדכן את Project Operations בסביבת Finance שלך
 
@@ -33,7 +35,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. ודא שהסביבה פועלת. אם זה לא התחיל, התחל את הסביבה.
 5. במקטע **הוצאה חדשה** תחת **עדכונים זמינים**, בחר **הצג עדכון** עבור 10.0.15.
 
-![הצג את לחצן עדכון.](media/view-update.png)
+![הצג את לחצן עדכון](media/view-update.png)
 
 6. בדף **עדכונים בינאריים**, בחר **שמור חבילה**.
 7. בדף **בדוק ושמור עדכונים**, בחר **שמור חבילה**.
@@ -47,18 +49,18 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 2. ברשימה בחר את החבילה ששמרת קודם לכן ובחר **החל**.
 3. בחר **כן** כדי לאשר שברצונך לפרוס את החבילה.
 
-![אשר את תיבת הדו-שיח של פריסת החבילה.](media/confirm-package-deployment.png)
+![אשר את תיבת הדו-שיח של פריסת החבילה](media/confirm-package-deployment.png)
 
 4. בחר **כן** כדי לאשר שברצונך לעדכן את היישום.
 
-![אשר את תיבת הדו-שיח של עדכון היישום.](media/confirm-application-update.png)
+![אשר את תיבת הדו-שיח של עדכון היישום](media/confirm-application-update.png)
 
 הפריסה ועדכון היישום יתחילו. 
 
 בדף **פרטי סביבה**, בפינה השמאלית העליונה, מצב הסביבה יתעדכן ויהיה **מתן שירות**. בעוד כשעתיים העדכון יושלם. המידע על שחרור היישום יתעדכן ויהיה **Microsoft Dynamics 365 for Finance and Operations 10.0.15)** ומצב הסביבה יתעדכן ויהיה **נפרס**.
 
 
-## <a name="update-your-dataverse-environment"></a><a name="update"></a>עדכן את סביבת Dataverse שלך
+## <a name="update-your-dataverse-environment"></a><a name="update">עדכן את</a> סביבת Dataverse שלך
 
 1. היכנס אל [מרכז הניהול של Power Platform](https://admin.powerplatform.com/).
 2. ברשימה, מצא ופתח את הסביבה שבה השתמשת להתקנת Project Operations.
@@ -84,7 +86,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. בסביבת Dataverse שלך עבור אל **הגדרות**, ובקבוצה **מערכת** בחר **אבטחה**.
 
-![Dataverse הגדרות סביבה.](media/Picture21.png)
+![Dataverse הגדרות סביבה](media/Picture21.png)
 
 2. בחר **תפקידי אבטחה**.
 3. ברשימת התפקידים, בחר **משתמש באפליקציה עם כתיבה כפולה** ובחר את הכרטיסיה **ישויות מותאמות אישית**. 
@@ -121,8 +123,5 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 6. מרשימת המפות בחר את המפה **ספר חשבונות (msdyn_ledgers)** עם כל התנאים המוקדמים ובחר את תיבת הסימון **סנכרון ראשוני**. 
 7. בשדה **פריט ראשוני לסנכרון ראשוני**, בחר **יישומי Finance and Operations** ובחר **הפעל**.
  
- ![סנכרון מפת ספר ראשי.](media/DW6.png)
+ ![סנכרון מפת ספר חשבונאות](media/DW6.png)
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: הגדרות הזדמנות - לייט
 description: נושא זה מספק מידע על עסקאות מבוססות פרויקט ושורות הזדמנוות מבוססות פרויקט.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994457"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663820"
 ---
 # <a name="header-details-for-project-opportunities"></a>פרטי כותרת להזדמנויות פרוייקט
 
@@ -31,7 +33,7 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 | מנהל תיק לקוח | הכרטיסיה 'כללי' | השם של מנהל תיק הלקוח עבור הזדמנות מבוססת פרויקט זו. | מנהל תיק הלקוח אחראי על ניהול הקשר עם הלקוח במהלך השלמת פרויקט זה. יחידת החוזה נוצרת כברירת מחדל, בהתבסס על רשומת להצעת המחיר הקשורה למנהל תיק הלקוח. |
 | יחידת החוזה | הכרטיסיה 'כללי' | יחידת הארגון האחראית להגשת הפרויקט או הפרויקטים הקשורים לעסקה זו. | יחידת החוזה היא החטיבה בחברה שתשלים את הפרויקטים לאחר סגירת העסקה. לכל יחידת חוזה יש מטבע, מטבע זה משמש לדיווח על עלויות משוערות ועלויות בפועל שנגרמו במהלך הפרויקט. |
 
-לכל שאר השדות והמקטעים בכרטיסיה **סיכום** של ההזדמנות, ראה [צור או ערוך הזדמנויות (מרכז המכירות ומכירות)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+לכל שאר השדות והמקטעים בכרטיסיה **סיכום** של ההזדמנות, ראה [צור או ערוך הזדמנויות (מרכז המכירות ומכירות)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

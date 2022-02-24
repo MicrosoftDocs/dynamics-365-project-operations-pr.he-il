@@ -2,16 +2,18 @@
 title: קביעת התצורה של פרמטרי ניהול הוצאות
 description: נושא זה מתאר את הפרמטרים השולטים באופן הפעולה הכללי בניהול הוצאות.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007777"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121039"
 ---
 # <a name="configure-expense-management-parameters"></a>קביעת התצורה של פרמטרי ניהול הוצאות
 
@@ -81,6 +83,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | הצגת ההצהרה נגד שחיתות   | בחר באפשרות זו כדי להציג את הטקסט נגד שחיתות בעת יצירת דוח הוצאות. לאחר מכן ניתן להפוך לזמינות קטגוריות ספציפיות של הוצאות, שידרשו לבחור את ההצהרה נגד שחיתות בדוח ההוצאות. לדוגמא, קטגוריית מתנות שקשורה להוצאות של פקיד ממשלתי עשויה לדרוש שהעובד יאשר כי ההוצאה עומדת במדיניות החברה שקשורה לפקידי ממשלתיים. |
 | הודעה נגד שחיתות למגיש | הזן את הטקסט שיש להציג לעובד שיוצר דוח הוצאות. להזנת טקסט ספציפי לשפה שיוצג בהתבסס על שפת המשתמש, בחר **תרגומים**. |
 | הודעה נגד שחיתות למאשר  | הזן את הטקסט שיש להציג למאשר כאשר נוצרת דוח הוצאות. להזנת טקסט ספציפי לשפה שיוצג בהתבסס על שפת המשתמש, בחר **תרגומים**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

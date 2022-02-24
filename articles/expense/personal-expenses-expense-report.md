@@ -2,17 +2,19 @@
 title: עבודה עם הוצאות אישיות בדוח הוצאות
 description: נושא זה מספק מידע על אופן העבודה עם הוצאות אישיות שהוצאו לעובדים בזמן נסיעה למטרות עסקיות.
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993152"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727964"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>עבודה עם הוצאות אישיות בדוח הוצאות
 
@@ -26,15 +28,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
   - **משולם על ידי החברה**: הארגון שלך משלם את החשבון המלא עבור כרטיס האשראי הארגוני, ואז מחייב את חשבון העובד בגין ההוצאות האישיות.
 
 אתה יכול לבחור את השיטה שבה משתמש הארגון שלך בדף **פרמטרים לניהול הוצאות**.
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>הפעל פונקציית הוצאות מפוצלות כאשר מוגדר ערך בשדה הסכום האישי
-
-התכונה **הפעל פונקציית הוצאות מפוצלות כאשר מוגדר ערך בשדה הסכום האישי** חלה רק על דוחות הוצאות שאושרו באמצעות זרימת עבודה ברמת השורה. הדוחות מאושרים על ידי מעבר אל **עיבוד דוחות הוצאות** > **דוחות הוצאות שהוקצו לי** > **דוח הוצאות פתוח**. 
-
-כדי להפעיל תכונה זו, עבור אל **סביבות עבודה** > **ניהול תכונות**, בחר **הפעל פונקציית הוצאות מפוצלות כאשר מוגדר ערך בשדה הסכום האישי** ולאחר מכן בחר **הפעל עכשיו**. 
-
-כאשר התכונה מופעלת, שורות הוצאות שמשתמשות בפונקציונליות זו מייצרות שתי שורות בעת הגשת הדוח. נוצרות שתי שורות כך שהמאשר יכול לאשר כל שורה בנפרד.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

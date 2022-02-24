@@ -2,16 +2,18 @@
 title: שיתוף פעולה באמצעות קבוצות Office
 description: קבוצות Office מאפשרות לך לשתף פרויקט עם חברי צוות אחרים במסגרת Common Data Service.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003142"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642499"
 ---
 # <a name="collaboration-with-office-groups"></a>שיתוף פעולה ב- Office Groups
 
@@ -24,6 +26,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 > [!NOTE] 
 > משתמשים מתווספים לקבוצה רק אם לוחצים על **קבוצות** ומוסיפים אותם. זהו אופן פעולה שונה מזה של Project באינטרנט. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

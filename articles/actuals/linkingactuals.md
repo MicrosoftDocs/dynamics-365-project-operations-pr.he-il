@@ -2,17 +2,19 @@
 title: קישור נתונים בפועל לרשומות המקוריות
 description: נושא זה מסביר כיצד לקשר נתונים בפועל לרשומות מקוריות, כגון ערך זמן, ערך הוצאה או יומני שימוש בחומר.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991757"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852590"
 ---
 # <a name="link-actuals-to-original-records"></a>קישור נתונים בפועל לרשומות המקוריות
 
@@ -77,7 +79,7 @@ Project Operations מתייחס לרשומות בחמש ישויות אלה כע
 
 הדוגמה הבאה מציגה את העיבוד האופייני של ערכי זמן במחזור חיים של פרוייקט Project Operations.
 
-> ![ערכי זמן העיבוד במחזור חיים של Project Service.](media/basic-guide-17.png)
+> ![ערכי זמן העיבוד במחזור חיים של Project Service](media/basic-guide-17.png)
  
 1. הגשת ערך זמן יוצרת שתי שורות יומן: שורה אחת עבור עלות ושורה אחת עבור מכירות שלא חויבו.
 2. אישור סופי של ערך הזמן יוצר שני ערכים של נתונים בפועל: אחד עבור נתונים בפועל של עלות ואחד עבור נתונים בפועל של מכירות שלא חויבו.

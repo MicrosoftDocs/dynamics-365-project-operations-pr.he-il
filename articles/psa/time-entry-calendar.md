@@ -2,6 +2,8 @@
 title: לוח שנה של ערכי זמן
 description: נושא זה מספק מידע על אופן השימוש בלוח השנה של ערכי הזמן.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 699cfd1d89d90ace092ffe44abb242ab91464d5d8a813ee7964e923abe245d21
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996752"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150174"
 ---
 # <a name="time-entry-calendar"></a>לוח שנה של ערכי זמן
 
@@ -40,6 +42,3 @@ Dynamics 365 Project Service Automation מציע חוויה חדשה וניתנ�
 ## <a name="extensibility"></a>יכולת הרחבה
 
 בדף **ערכי זמן** הכולל את רשת ערכי הזמן, ניתן להוסיף שדות מותאמים אישית, להגדיר שדות בדיקת מידע וליצור תצוגות מותאמות אישית. ניתן גם להגדיר לוגיקה עסקית מותאמת אישית המבוססת על הערכים שנבחרו או שהוזנו בשדות מותאמים אישית.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

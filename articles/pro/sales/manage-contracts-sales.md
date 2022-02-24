@@ -2,22 +2,24 @@
 title: ניהול חוזי פרויקט
 description: נושא זה מספק מידע על הצגת חוזים מבוססי פרויקט.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001837"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177332"
 ---
 # <a name="manage-project-contracts"></a>ניהול חוזי פרויקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-חוזי פרויקט ב- Dynamics 365 Project Operations לוכדים ומנהלים את המחוייבויות עליהם סוכם בחוזים ואת פרטי החיוב של פרויקט. מבנה חוזה הפרויקט ב-Project Operations מותאם לעבודה מבוססת פרויקט עם המרכיבים הבאים:
+חוזי פרויקט ב-Dynamics 365 Project Operations לוכדים ומנהלים את המחוייבויות עליהם סוכם בחוזים ואת פרטי החיוב של פרויקט. מבנה חוזה הפרויקט ב-Project Operations מותאם לעבודה מבוססת פרויקט עם המרכיבים הבאים:
 
 - סעיפי חוזה המזהים את רכיבי העבודה הנפרדים שיוצגו כרכיבים ברמה גבוהה בחשבונית פרויקט.
 - פרטי סעיף חוזה המזהים ומעריכים את העבודה עבור כל רכיב או סעיף חוזה ברמה גבוהה. ההערכה כוללת את לוח הזמנים ואת ההיבטים הכספיים של עבודות הקשורות לסעיף החוזה.
@@ -31,6 +33,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 2. בחר את **מחליף התצוגות** (החץ הנפתח לצד שם התצוגה) לבחירת תצוגות מסוננות אחרות. ניתן ליצור תצוגות משלך עם קריטריוני סינון מותאמים אישית.
 
 ניתן ליצור או למחוק חוזים מדף רשימה זה או מדפי הפרטים.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

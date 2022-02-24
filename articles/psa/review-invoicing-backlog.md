@@ -2,6 +2,8 @@
 title: סקירת המצבור להפקת חשבוניות בפרויקטים ובחוזים של פרויקטים
 description: נושא זה מספק מידע המתאר כיצד לסקור מצבורי פריטי עבודה של זמן, הוצאה ומוצר, וכיצד לסמן אותם כמוכנים להפקת חשבונית.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006967"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150489"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>סקירת המצבור להפקת חשבוניות בפרויקטים ובחוזים של פרויקטים
 
@@ -40,7 +42,7 @@ ms.locfileid: "7006967"
 
 כדי לסקור את מצבור החיובים עבור זמן וחומרים, עבור אל **מכירות** \> **חיוב** \> **מצבור פריטי עבודה של חיוב זמן וחומרים‬**. בחר את כל הנתונים בפועל של המכירות שלא חויבו, המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של הנתונים בפועל משתנה ל **מוכן להגיש חשבונית**.
 
-![מצבור פריטי עבודה של חיוב זמן וחומרים.](media/TMBacklog.png)
+![מצבור פריטי עבודה של חיוב זמן וחומרים](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>סקירה של מצבור פריטי עבודה של חיוב מוצר
 
@@ -48,7 +50,7 @@ ms.locfileid: "7006967"
 
 כדי לסקור את מצבור פריטי העבודה של חיובי המוצרים, עבור אל **מכירות** \> **חיוב** \> **מצבור פריטי עבודה של חיוב מוצר‬**. בחר את כל סעיפי החוזה מבוססי-המוצר המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של סעיפים אלה משתנה ל **מוכן להגיש חשבונית**.
 
-![מצבור פריטי עבודה של חיוב מוצר.](media/ProductBacklog.png)
+![מצבור פריטי עבודה של חיוב מוצר](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>סקירה של אבני דרך לחיוב בחוזי מחירים קבועים
 
@@ -56,7 +58,4 @@ ms.locfileid: "7006967"
 
 כדי לסקור אבני דרך של חיוב, עבור אל **מכירות** \> **חיוב** \> **אבני דרך של מחיר קבוע‬**. בחר את אבני הדרך המוכנים להגשת חשבונית, ולאחר מכן בחר **מוכן להגיש חשבונית**. מצב החיוב של אבני דרך אלה משתנה ל **מוכן להגיש חשבונית**.
 
-![אבני דרך של מחיר קבוע.](media/FPBacklog.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![אבני דרך של מחיר קבוע](media/FPBacklog.png)

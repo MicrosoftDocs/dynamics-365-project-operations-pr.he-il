@@ -2,16 +2,18 @@
 title: יצירת הקצאות משאבים
 description: נושא זה מספק מידע על יצירת הקצאות למשאבים בעלי שם ולמשאבים כלליים.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987887"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131749"
 ---
 # <a name="create-resource-assignments"></a>יצירת הקצאות משאבים
 
@@ -40,6 +42,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 1. מרשת המשימות, הלוח או ציר הזמן, נווט אל התא **הוקצה ל:**.
 2. בתיבת החיפוש התחל להקליד שם. תוצאות החיפוש עבור השם מוצגות ב **בורר המשאבים** תחת **משאבים אחרים**.
 3. בחר את המשאב שברצונך להקצות למשימה או בחר את שם המשאב תחת **משאבי צוות אחרים**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

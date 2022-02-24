@@ -2,10 +2,12 @@
 title: שימוש בקטגוריית עסקה כממד תמחור
 description: נושא זה מספק מידע על שימוש בקטגוריית עסקה כממד תמחור.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988860"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150759"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>שימוש בקטגוריית עסקה כממד תמחור
 
@@ -51,6 +53,3 @@ ms.locfileid: "6988860"
 2. בדף **פרמטרים**, בכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות**, שים לב שהרשת בכרטיסיה מציגה את הרשומות בישות **ממדי תמחור**.
 3. הוסף **קטגוריית עסקה** לרשימה זו והגדר את השדות **חל על עלות** ו **חל על מכירות** לערך **כן**.
 4. בשדה **סוג ממד**, בחר **מבוסס-כמות** ולאחר מכן בחר את העדיפות עבור **קטגוריית העסקה** הקשורה לעלות ולמכירות.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

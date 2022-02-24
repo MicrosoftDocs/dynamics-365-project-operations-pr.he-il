@@ -2,16 +2,18 @@
 title: הוסף מנוי Azure לפרויקט LCS
 description: נושא זה מספק מידע על אופן חיבור המנוי שלך ל- Azure אל פרויקט LCS.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986672"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880539"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>הוסף מנוי Azure לפרויקט LCS
 
@@ -23,35 +25,35 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. בפרויקט LCS שלך, במקטע **סביבות**, בחר **הגדרות Microsoft Azure**.
 
-![הגדרות Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
+![הגדרות Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. בדף **הגדרות פרויקט**, בכרטיסיה **מחברי Azure**, בחר באפשרות **אשר**. כך מתאפשר לפרוס את הסביבות בפרויקט זה.
 
-![מחברי Azure.](./media/2AzureConnectors.png)
+![מחברי Azure](./media/2AzureConnectors.png)
 
 3. בחר שוב באפשרות **אשר** כדי לספק הסכמה של מנהל מערכת.
 
-![הענק הסכמה של מנהל מערכת.](./media/3GrantAdminConsent.png)
+![הענק הסכמה של מנהל מערכת](./media/3GrantAdminConsent.png)
 
 4. קבל את בקשת ההרשאות.
 
-![קבל בקשת הרשאות.](./media/4AcceptPermissionRequest.png)
+![קבל בקשת הרשאות](./media/4AcceptPermissionRequest.png)
 
 ההרשאה הושלמה כעת. 
 
-![ההרשאה נקבעה בהצלחה.](./media/5AuthorizationComplete.png)
+![ההרשאה נקבעה בהצלחה](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure
 
 1. עבור אל [חיוב ב- Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) ובחר את המנוי שלך. כדי שתהיה אפשרות לפרוס סביבות, ל- Dynamics Deployment Services צריכה להיות גישה למנוי זה.
 
-![פרטי מנוי Azure.](./media/6AzureSubscription.png)
+![פרטי מנוי Azure](./media/6AzureSubscription.png)
 
 2. בחר באפשרות **בקרת גישה (IAM)** בחלונית הניווט ולאחר מכן בחר באפשרות **הוסף הקצאת תפקיד**.
 3. במחוון שבצד ימין, בחר באפשרות **תפקיד תורם** וברשימה הנפתחת, אתר ובחר את האפשרות **Dynamics Deployment Services**. 
 4. בחר **שמור**.
 
-![גישה למנוי.](./media/7SubscriptionAccess.png)
+![גישה למנוי](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>הוסף מחבר מנוי לפרויקט LCS
 

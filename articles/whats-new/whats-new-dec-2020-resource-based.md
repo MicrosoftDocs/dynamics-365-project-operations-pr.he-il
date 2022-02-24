@@ -2,17 +2,19 @@
 title: מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת דצמבר 2020 של Project Operations לתרחישים מבוססי משאבים/לא מלאי.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984872"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727881"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -106,7 +108,4 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | נסיעות והוצאה                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | זרימת העבודה של רישום אוטומטי של דוח הוצאות הושלמה אך החשבונית לא פורסמה                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.

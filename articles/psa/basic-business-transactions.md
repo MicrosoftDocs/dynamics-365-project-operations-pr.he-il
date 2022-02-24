@@ -2,6 +2,8 @@
 title: עסקאות
 description: נושא זו מספק מידע אודות עסקאות.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987527"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149904"
 ---
 # <a name="business-transactions"></a>עסקאות
 
@@ -88,7 +90,7 @@ PSA מתייחס לרשומות בחמש ישויות אלה כעסקאות. ה�
 
 הדוגמה הבאה מציגה את העיבוד האופייני של ערכי זמן במחזור חיים של פרוייקט PSA.
 
-> ![ערכי זמן העיבוד במחזור חיים של Project Service.](media/basic-guide-17.png)
+> ![ערכי זמן העיבוד במחזור חיים של Project Service](media/basic-guide-17.png)
  
 1. הגשת ערך זמן גורמת ליצירת שתי שורות יומן: אחת עבור עלות ואחת עבור מכירות שלא חויבו.
 2. אישור סופי של ערך הזמן גורם ליצירת שני ערכים של נתונים בפועל: אחד עבור עלות ואחד עבור מכירות שלא חויבו.
@@ -147,6 +149,3 @@ PSA מתייחס לרשומות בחמש ישויות אלה כעסקאות. ה�
 | תיקון חשבונית טיוטה       | GUID של עסקת שורה בחשבונית | החלפה          | msdyn_invoicelinetransaction | GUID של מכירות שחויבו            | מקורי           | msdyn_actual       |
 | אישור תיקון חשבונית     | GUID של ביטול עסקת מכירות שחויבה    | ביטול עסקה          | msdyn_actual                 | GUID של מכירות שחויבו            | מקורי           | msdyn_actual       |
 | GUID של מכירות בפועל חדשות שלא חויבו | החלפה                     | msdyn_actual       | GUID של מכירות שחויבו            | מקורי                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: יצירת פתרונות מותאמים אישית עבור ממדי תמחור
 description: נושא זה מסביר כיצד ליצור פתרון מותאם אישית בעת יצירת ממדי תמחור מותאמים אישית.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995267"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144640"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>יצירת פתרונות מותאמים אישית עבור ממדי תמחור
 
@@ -32,7 +34,7 @@ ms.locfileid: "6995267"
 1. בחר **הגדרות** > **פתרונות**, ולאחר מכן בחר **חדש**. 
 2. תן שם לפתרון, **\<your organization name> ממדי תמחור**, הזן את המידע הדרוש שנותר ובחר **שמור**.
 
-> ![יצירת פתרון מותאם אישית עבור ממדי תמחור.](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![יצירת פתרון מותאם אישית עבור ממדי תמחור](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>הוסף את כל הישויות הנדרשות ואת הרכיבים הקשורים לפתרון ממד התמחור
 יהיה עליך להוסיף את הישויות הבאות של Project Service לפתרון התמחור שלך. השלם את השלבים שבהליך זה כדי לבצע שינויים חשובים בסכימה בפתרון התמחור כך שהישויות יהיו מודעות לממדי התמחור החדשים.
@@ -54,18 +56,15 @@ ms.locfileid: "6995267"
 - מחיר תפקיד 
 - ערך זמן 
 
-> ![הוספת ישויות קיימות לפתרון ממדי התמחור.](media/Existing-entities-to-PD-solution.png)
+> ![הוספת ישויות קיימות לפתרון ממדי התמחור](media/Existing-entities-to-PD-solution.png)
 
-> ![בחירת רכיבי פתרון.](media/Dimension-Components.png)
+> ![בחירת רכיבי פתרון](media/Dimension-Components.png)
 
 > [!NOTE]
 > הקפד לכלול את כל הטפסים והתצוגות עבור כל אחת מהישויות שנבחרו.
 
 4. כאשר תתבקש לכלול ישויות תלויות עבור הישויות שנבחרו, בחר **לא**.
 
-> ![אל תכלול את כל הרכיבים הקשורים.](media/Do-not-include-required.png)
+> ![אל תכלול את כל הרכיבים הקשורים](media/Do-not-include-required.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

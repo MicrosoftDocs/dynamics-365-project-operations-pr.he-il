@@ -2,9 +2,11 @@
 title: ניהול הקצאה
 description: נושא זה מספק מידע על האופן שבו נציג הוצאות יכול ליצור ולנהל דוחות הוצאות עבור עובד אחר.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997787"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122704"
 ---
 # <a name="manage-delegation"></a>ניהול הקצאה
 נציג הוצאות יכול ליצור ולנהל דוחות הוצאות לעובד אחר.
@@ -37,6 +39,3 @@ ms.locfileid: "6997787"
 נציג יכול לבצע סינון וחיפוש מהיר בדוחות הוצאות קיימים שהוקצו לו. הנציג יכול גם ליצור במהירות דוח הוצאות חדש למשתמשים אחרים על ידי בחירה באפשרות **דוח הוצאות חדש**.
 
 נציגים יכולים ליצור ולנהל דוחות הוצאות עבור עובדים אחרים על ידי מעבר אל **ניהול הוצאות** > **ההוצאות שלי** > **דוחות הוצאות** ובחירה באפשרות **פתח הוצאות של משתמש האחר**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

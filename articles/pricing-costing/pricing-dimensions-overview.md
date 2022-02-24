@@ -2,18 +2,19 @@
 title: מבט כולל על ממדי תמחור
 description: נושא זה מספק מידע על ממדי תמחור ב- Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001972"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650193"
 ---
 # <a name="pricing-dimensions-overview"></a>מבט כולל על ממדי תמחור
 
@@ -33,7 +34,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחור בברירת מחדל. תוכל להציג את מדדי התמחור האלה על-ידי מעבר אל **Project Operations** > **פרמטרים**. ברשומת הפרמטר, בכרטיסיה **‬‏‫ממדי תמחור מבוססי-כמות**, ודא שבתפקיד, **msdyn_resourcecategory** וביחידה הארגונית להקצאת משאבים, **msdyn_organizationalunit** השדה **‏‫חל על מכירות‬** והשדה **‏‫חל על עלות‬** מוגדרים בתור **כן**. כאשר השדות האלה זמינים תוכל להגדיר את המחיר ואת העלות עבור כל שילוב של תפקיד ויחידה ארגונית.
 
-![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש.](media/PS-OOB-parameters.png)
+![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש](media/PS-OOB-parameters.png)
 
 אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית. לקבלת מידע נוסף, ראה את הנושאים הבאים. 
   
@@ -60,16 +61,13 @@ Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחו�
 
 | תפקיד        | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ------------|-------------|----------|----------:|----------|
-| מפתחים   | Contoso בארה"ב  |שעה | 200|USD     |
-| מפתחים   | Contoso הודו |שעה|   112|USD     |
+| מפתח   | Contoso US  |Hour | 200|USD     |
+| מפתח   | Contoso India |Hour|   112|USD     |
 
 
 **תעריפי עלויות לדוגמה**
 
 | טווח שכר     | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ----------------|-------------|----------|----------:|----------|
-| טווח1_של החברה שלי | Contoso בארה"ב  |שעה | 145|USD     |
-| טווח2_של החברה שלי | Contoso הודו |שעה|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
+| טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |

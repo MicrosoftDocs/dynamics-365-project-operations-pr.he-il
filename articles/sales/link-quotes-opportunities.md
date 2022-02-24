@@ -2,16 +2,18 @@
 title: יצירת הצעות מחיר לפרויקט מהזדמנויות
 description: נושא זה מספק מידע על יצירת הצעת מחיר לפוריקט מהזדמנות.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999632"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118114"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>יצירת הצעות מחיר לפרויקט מהזדמנויות
 
@@ -54,6 +56,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
    כאשר מעבירים הזדמנות לשלב זה, ניתן לבחור בהצעת מחיר זו מתוך רשימת הצעות מחיר המשויכות להזדמנות זו. בחירה בהצעת מחיר זו מצביעה על כך שאתה מתקדם איתה.
 
    כל שאר הצעות המחיר הקשורות להזדמנות עדיין יהיו זמינות ופעילות עד שאחת מהן זוכה. ניתן להחזיר את תהליך המכירה לשלב הקודם **אישור**, ולבחור הצעת מחיר אחרת להתקדם איתה.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

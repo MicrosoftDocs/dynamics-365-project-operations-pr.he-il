@@ -2,16 +2,18 @@
 title: יצירת פתרון עבור ממדי תמחור מותאם אישית
 description: נושא זה מספק מידע על הדרך ליצור פתרונות של ממדי תמחור מותאמים אישית.
 author: Rumant
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992207"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513987"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>יצירת פתרון עבור ממדי תמחור מותאם אישית
 
@@ -26,7 +28,7 @@ ms.locfileid: "6992207"
 2.  תן שם לפתרון, *ממדי תמחור של <your organization name>*.
 3. הזן את המידע הדרוש שנותר ולאחר מכן בחר **שמור**.
 
-  ![יצירת פתרון של ממד תמחור מותאם אישית.](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![יצירת פתרון של ממד תמחור מותאם אישית](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>הוסף את כל הישויות הנדרשות ואת הרכיבים הקשורים לפתרון ממד התמחור
 
@@ -49,19 +51,16 @@ ms.locfileid: "6992207"
    - **מחיר תפקיד**
    - **ערך זמן**
  
-   ![הוסף ישויות קיימות לפתרון ממד התמחור המותאם אישית.](./media/Existing-entities-to-PD-solution.png)
+   ![הוסף ישויות קיימות לפתרון ממדי התמחור המותאם](./media/Existing-entities-to-PD-solution.png)
  
  4. עבור כל ישות, בדוק את הרכיבים שנוספו ואת הרשימה הסופית של נכסי הישות עבור כל ישות. 
 
    >[!NOTE]
    > כלול את כל הטפסים והתצוגות עבור כל אחת מהישויות שנבחרו.
 
-  ![ישויות שנוספו.](./media/solution-component-selection.png)
+  ![ישויות שנוספו](./media/solution-component-selection.png)
 
 
 5.  כאשר תתבקש לכלול ישויות תלויות עבור הישויות שנבחרו, בחר **לא, אל תכלול רכיבים נדרשים.**
 
-    ![כולל ישויות תלויות.](./media/Do-not-include-required.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![כולל ישויות תלויות](./media/Do-not-include-required.png)

@@ -2,17 +2,19 @@
 title: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת ינואר 2021 של Project Operations לתרחישים מבוססי ייצור-עם-מלאי.
 author: andchoi
+manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992747"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958649"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 
@@ -142,7 +144,4 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | ב- Project Operations, לא ניתן ליצור או לאשר זמן עם משימות בין-חברות ב- Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.

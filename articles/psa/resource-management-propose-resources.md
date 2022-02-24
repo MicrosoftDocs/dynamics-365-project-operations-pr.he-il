@@ -2,6 +2,8 @@
 title: הצע משאבי פרויקט
 description: נושא זה מספק מידע לגבי הצעה של משאבי פרויקטים.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995042"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147519"
 ---
 # <a name="propose-project-resources"></a>הצע משאבי פרויקט
 
@@ -32,21 +34,21 @@ ms.locfileid: "6995042"
 1. מרשת הבקשה או מהבקשה עצמה, בחר **חפש משאבים**.
 2. בדף **מסייע לוח הזמנים‬**, בחר את המשאב ולאחר מכן בחלונית **צור הזמנת משאבים**, בשדה **מצב הזמנה**, בחר **הזמן**.
 
-    ![המשאב שהוצע נבחר.](media/Resource-Management-image62.png)
+    ![המשאב שהוצע נבחר](media/Resource-Management-image62.png)
 
 עדכוני המצב הבאים מתרחשים:
 
 - בדף **מסייע לוח הזמנים**, מחווני המצב מתעדכנים כדי לציין שההזמנה היא הזמנה מוצעת, לא הזמנה בטוחה.
 
-    ![מחווני מצב עבור הזמנה מוצעת בדף 'מסייע לוח זמנים'.](media/Resource-Management-image63.png)
+    ![מחווני מצב עבור הזמנה מוצעת בדף 'מסייע לוח זמנים'](media/Resource-Management-image63.png)
 
 - בבקשת המשאב, המצב משתנה ל **‏‫נחוצה סקירה‬**.
 
-    ![מצב בקשת המשאב השתנה ל'‏‫נחוצה סקירה‬'.](media/Resource-Management-image64.png)
+    ![מצב בקשת המשאב משתנה ל'‏‫נחוצה סקירה‬'](media/Resource-Management-image64.png)
 
 - בכרטיסיה **צוות** של הפרויקט, הערך **מצב בקשה** של חבר הצוות הכללי משתנה ל **‏‫נחוצה סקירה‬**.
 
-    ![מצב הבקשה של חבר צוות כללי השתנה ל'‏‫נחוצה סקירה‬' בכרטיסיה 'צוות'.](media/Resource-Management-image48.png)
+    ![מצב הבקשה של חבר צוות כללי משתנה ל'‏‫נחוצה סקירה‬' בכרטיסיה 'צוות'.](media/Resource-Management-image48.png)
 
 מנהל הפרויקט יכול לקבל או לדחות את ההצעה.
 
@@ -70,7 +72,7 @@ ms.locfileid: "6995042"
 
 ניתן למצוא את התצוגה **ניצול משאב** בחלונית **משאבים**.
 
-![תצוגת ניצול משאב.](media/Resource-Management-image65.png)
+![תצוגת ניצול משאבים](media/Resource-Management-image65.png)
 
 כל תא ברשת מייצג את אחוז הניצול לחיוב של המשאב בתקופה, כגון יום, שבוע או חודש. הנוסחאות הבאות משמשות לצביעת התאים:
 
@@ -84,7 +86,7 @@ ms.locfileid: "6995042"
 
 בנוסף, יש להקצות תפקיד ברירת מחדל לכל משאב הניתן להזמנה. עבור אל **משאבים** \> **משאבים**. בכרטיסיה **Project Service**, הקפד להגדיר תפקיד משאב וודא שהשדה **מהווה ברירת מחדל** עבורו מוגדר ל **כן**. ניתן להוסיף תפקידים נוספים כאשר **מהווה ברירת מחדל = לא**. התפקיד שבו **מהווה ברירת מחדל = כן** משמש להערכה של ניצול המשאב כנגד היעד עבור אותו תפקיד.
 
-![תפקיד ברירת המחדל שהוגדר.](media/Resource-Management-image67.png)
+![תפקיד ברירת המחדל שהוגדר](media/Resource-Management-image67.png)
 
 בכרטיסיה **Project Service**, ניתן גם להגדיר ניצול יעד בודד עבור המשאב. כעת, חישוב הניצול משתמש בניצול היעד כדי להעריך את היעד של המשאב במקום את היעד של תפקיד ברירת המחדל של המשאב.
 
@@ -96,21 +98,18 @@ ms.locfileid: "6995042"
 
 שעות עבודה של משאב משמשות כבסיס לחישוב הזמינות של משאב. הזמנות של משאבים צורכות את הקיבולת של המשאבים.
 
-![לוח זמנים.](media/Resource-Management-image68.png)
+![לוח זמנים](media/Resource-Management-image68.png)
 
 לוח הזמנים משתמש בצבעים ובהצללה כדי להציג הזמנות, זמינות והזמנות יתר וכן את מצב ההזמנות. הגדרה בהגדרות לוח הזמנים מאפשרת לך להציג מקרא.
 
 אם מופיע חץ המצביע ימינה ליד משאב בודד הניתן להזמנה בלוח הזמנים, ניתן להרחיב את המשאב כך שיציג פרטים של העבודה שהמשאב הוזמן עבורה.
 
-![משאב הניתן להזמנה שהורחב בלוח הזמנים.](media/Resource-Management-image69.png)
+![משאב הניתן להזמנה שהורחב בלוח הזמנים](media/Resource-Management-image69.png)
 
 מכיוון ש- Dynamics 365 Project Service Automation משתמש במנגנון Universal Resource Scheduling, אם במחשב שלך מותקן גם Dynamics 365 Field Service, תוכל להציג את פרטי הזמנות המשאבים עבור פרויקטים, הזמנות עבודה וכל ישות אחרת שהארכת את התזמון שלה.
 
-![פרטים של הזמנות משאבים עבור פרוייקטים והזמנות עבודה.](media/Resource-Management-image70.png)
+![פרטים של הזמנות משאבים עבור פרויקטים והזמנות עבודה](media/Resource-Management-image70.png)
 
 כדי להציג פרטים נוספים אודות משאב בודד, לחץ עליו באמצעות לחצן העכבר הימני כדי לפתוח את כרטיס המשאב.
 
-![כרטיס משאב.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![כרטיס משאב](media/Resource-Management-image71.png)

@@ -2,10 +2,12 @@
 title: ביטול ממד תמחור
 description: נושא זה מראה כיצד להגדיר ממדי תמחור בפתרון של Project Service.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006787"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147294"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>ביטול ממד תמחור
 
@@ -32,19 +34,16 @@ ms.locfileid: "7006787"
 
 עם זאת, כשתעשה זאת, ייתכן שתקבל את הודעת השגיאה הבאה.
 
-![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור.](media/Business-Process-Error.png)
+![שגיאת תהליך עסקי עלולה לקרות בעת ביטול ממד תמחור](media/Business-Process-Error.png)
 
 
 הודעת שגיאה זו מציינת שקיימות רשומות מחיר שהוגדרו קודם לכן עבור הממד שמבוטל. כל הרשומות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** המפנות לממד חייבות להימחק לפני שניתן יהיה להגדיר את ישימות הממד לערך **לא**. כלל זה חל על ממדי תמחור מוגדרים מראש ועל ממדי תמחור מותאמים אישית שיצרת. הסיבה לאימות זה היא ש- Project Service כולל אילוץ שלפיו לכל רשומת **מחיר תפקיד** חייב להיות שילוב ייחודי של ממדים. לדוגמה, במחירון הנקרא **תעריפי עלויות בארה"ב 2018**, מופיעות השורות הבאות של **מחיר תפקיד**. 
 
 | כותרת סטנדרטית         | יחידה ארגונית    |יחידה   |מחיר  |מטבע  |
 | -----------------------|-------------|-------|-------|----------|
-| מהנדס מערכות|Contoso בארה"ב|שעה| 100|USD|
-| מהנדס מערכות בכיר|Contoso בארה"ב|שעה| 150| USD|
+| מהנדס מערכות|Contoso US|שעה| 100|USD|
+| מהנדס מערכות בכיר|Contoso US|שעה| 150| USD|
 
 
 כאשר אתה מבטל את הכותרת הסטנדרטית בתור **ממד התמחור**, ומנגנון התמחור של Project Service מחפש מחיר, הוא ישתמש רק בערך של **היחידה הארגונית** מתוך הקשר הקלט. אם **היחידה הארגונית** של הקשר הקלט היא "Contoso US", התוצאה תהיה לא דטרמיניסטית כיוון ששתי השורות יתאימו. כדי להימנע מתרחיש זה, בעת יצירת רשומות **מחיר תפקיד**, Project Service מאמת ששילוב הממדים הוא ייחודי. אם הממד מבוטל לאחר שנוצרו רשומות **מחיר התפקיד**, ניתן להפר אילוץ זה. לפיכך, לפני ביטול הממד, עליך למחוק את כל השורות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** שערך ממד זה מאוכלס אצלן.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: הגדרת תבניות עלות
 description: נושא זה מספק מידע על הדרך ליצור ולהשתמש בתבניות עלות ב-Project Operations.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993557"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642724"
 ---
 # <a name="set-up-cost-templates"></a>הגדרת תבניות עלות
 
@@ -77,6 +79,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 7. בכרטיסיה **קטגוריות** בחר את קטגוריות הפרויקט שייכללו בשורת תבנית העלות.
 8. בכרטיסיה **כללי** בחר אם שורה זו תיכלל באחוז חישוב ההשלמה.
 9. בחר את שיטת העלות להשלמה שבה יש להשתמש בעת חישוב אחוז ההשלמה.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

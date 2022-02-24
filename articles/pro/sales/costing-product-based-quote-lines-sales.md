@@ -2,23 +2,25 @@
 title: שורות הצעת מחיר המבוססות על מוצר תמחיר
 description: נושא זה מספק מידע על החלת מחיר עלות לשורות הצעת מחיר מבוססות מוצר.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001882"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118924"
 ---
 # <a name="costing-product-based-quote-lines"></a>שורות הצעת מחיר המבוססות על מוצר תמחיר
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 
-לשורות הצעת מחיר מבוססות מוצר ב- Dynamics 365 Project Operations יש גם שדה של **מחיר עלות**. שדה זה משמש למעקב אחר מחיר העלות של המוצר בשורת הצעת המחיר ולחישובי רווחיות במורד הזרם.
+לשורות הצעות מחיר מבוססות מוצר ב-Dynamics 365 Project Operations יש גם שדה של **מחיר עלות**. שדה זה משמש למעקב אחר מחיר העלות של המוצר בשורת הצעת המחיר ולחישובי רווחיות במורד הזרם.
 
 כאשר נוצרת שורת הצעת מחיר מבוססת מוצר עבור מוצר קטלוג, עלות שורת הצעת המחיר מבוססת כברירת מחדל על השדה **עלות תקנית** בקטלוג המוצרים. השדה 'עלות תקנית' בקטלוג המוצרים מוגדר במטבע הבסיס של הארגון. עלות ברירת המחדל ליחידת בשורת הצעת מחיר מבוססת מוצר מומרת למטבע המכירה בהצעת המחיר.
 
@@ -31,6 +33,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 Fabrikam Robotics מתקין זרועות רובוטיות בקווי הייצור של חברת A Datum. Fabrikam מספקת שירותי התקנה אך הזרועות הרובוטיות נרכשות מחברת Trey Robotics. אם התקנת הזרועות הרובוטיות בחברת A Datum תפתח קהילה אנכית חדשה עבור הזרועות הרובוטיות של Trey, חברת Trey עשויה להעניק ל-Fabrikam הנחה מיוחדת על עסקה זו.
 
 במקרה זה, Fabrikam תיצור שורת הצעת מחיר מבוססת מוצר עבור זרועות רובוטיות ותזין עלות מיוחדת ליחידה עבור הצעת מחיר זו. עלות זו שונה מהעלות התקנית של הזרועות הרובוטיות של Trey.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

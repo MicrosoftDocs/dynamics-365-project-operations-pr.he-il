@@ -2,22 +2,24 @@
 title: הארכת ערכי זמן
 description: נושא זה מספק מידע על האופן שבו מפתחים יכולים להאריך את פקד ערך הזמן.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993332"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124639"
 ---
 # <a name="extending-time-entries"></a>הארכת ערכי זמן
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-Dynamics 365 Project Operations כולל שליטה מותאמת אישית בערכי זמן שניתנת להארכה. פקד זה כולל את התכונות הבאות:
+Project Operations ‏Dynamics 365 כוללת פקד ערך זמן המותאם אישית והניתן להארכה. פקד זה כולל את התכונות הבאות:
 
 - הזנת זמן בצורה אופקית במשך שבוע
 - סכומים לפי יום, שורה או שבוע
@@ -142,6 +144,3 @@ Dynamics 365 Project Operations כולל שליטה מותאמת אישית בע
 
 ### <a name="copying-time-entries"></a>העתקת ערכי זמן
 השתמש בתצוגה **העתק עמודות ערך זמן** כדי להגדיר את רשימת השדות להעתקה במהלך יצירת ערך הזמן. **תאריך** ו **משך** הם שדות חובה ואין להסיר אותם מהתצוגה.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

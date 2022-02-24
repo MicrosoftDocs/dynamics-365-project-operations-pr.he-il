@@ -2,9 +2,10 @@
 title: מה זה Dynamics 365 Project Service Automation?
 description: הקדמה ומבט כולל על Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000262"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150534"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>מה זה Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ ms.locfileid: "7000262"
 ## <a name="whats-new-in-psa"></a>מה חדש ב- PSA
 הצוות גאה להכריז על העדכונים החדשים ביותר שלנו! מגוון שיפורים בממשק המשתמש, תיקון באגים והוספת תכונות ויכולות חדשות חשובות. ביקשת; הקשבנו.
 
-ראה את [הערות המוצר מאוקטובר 2019](/dynamics365-release-plan/2019wave2/index) כדי לגלות את התוספות והשיפורים האחרונים שלנו.
+ראה את [הערות המוצר מאוקטובר 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) כדי לגלות את התוספות והשיפורים האחרונים שלנו.
 
 ### <a name="in-development"></a>בפיתוח
-כדי לבדוק מה אנו מתכננים לעתיד הקרוב, עבור אל [Dynamics 365: תוכנית ‏‫גל הפצה 1 עבור 2020](/dynamics365-release-plan/2020wave1/index).
+כדי לבדוק מה אנו מתכננים לעתיד הקרוב, עבור אל [Dynamics 365: תוכנית ‏‫גל הפצה 1 עבור 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>קבלת עזרה לגבי PSA גירסה ‎3.x
 מחפש משאבים שיסייעו לך בתכנון ההטמעה שלך? עיין במדריכים הבאים הניתנים להורדה.
@@ -79,12 +80,9 @@ ms.locfileid: "7000262"
 
  [‏‫סקירות טכניות‬ (גירסאות יישום 2.x או 1.x)](../psa/white-papers.md)
 
- [הערות למפתחים (גירסת יישום ‎2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [הערות למפתחים (גירסת אפליקציה ‎2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>צפה בווידאו של מבט כולל באורך 2 דקות
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: יצירת לוח זמנים של חשבונית בסעיף חוזה מבוסס פרויקט
 description: נושא זה מספק מידע על הדרך ליצירת לוחות זמנים ואבני דרך של חשבוניות בסעיפי חוזה.
 author: rumant
+manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 51a34e5a62fdadf7a6601f0a635efd484238f3565abcac8a1f7de3d49cebf23e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999677"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513925"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>יצירת לוח זמנים של חשבונית בסעיף חוזה מבוסס פרויקט 
 
@@ -72,6 +74,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | מס | יצירה מהירה | סכום המס שהוחל על אבן הדרך. | נתון זה עובר לאבן הדרך של סעיף החוזה של פרויקט וחשבונית. |
 
 3. בחר **שמור וסגור**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

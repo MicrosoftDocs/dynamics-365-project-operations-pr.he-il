@@ -2,17 +2,18 @@
 title: מבט כולל על פריסת Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 description: נושא זה מספק מידע על סוג הפריסה, Project Operations לתרחישים מבוססי משאבים/ללא מלאי.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009712"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365489"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>מבט כולל על פריסת Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -42,6 +43,3 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 - דורש, מנוע מע״מ ושער חליפין ברמה ארגונית ליצירת חשבוניות המוגשות לקוחות עבור פרויקטים.
 - מערכת חשבונאות פרויקטים והכרה בהכנסות התואמת לתקני דיווח פיננסי בינלאומי (IFRS).
 - יישומי Finance או Supply Chain Management ושילוב של עסקאות מבוססות פרויקטים.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

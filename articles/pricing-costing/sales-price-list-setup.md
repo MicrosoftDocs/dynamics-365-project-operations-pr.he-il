@@ -2,9 +2,11 @@
 title: הגדרת מחירון מכירות
 description: נושא זה מספק מידע על מחירוני מוצרים לצורך תמחור פרויקט.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997607"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176252"
 ---
 # <a name="set-up-a-sales-price-list"></a>הגדרת מחירון מכירות
 
@@ -57,6 +59,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 כאשר מחירון של פרויקט מוזן כברירת מחדל, המערכת מאמתת שהמטבע תואם למטבע הלקוח ושהמחירונים המהווים ברירת מחדל שהוזנו הם בעלי הקשר של **מכירות**.
 
 באפשרותך לשייך מחירוני פרויקט מרובים לישויות 'לקוח', 'הזדמנות', 'הצעת מחיר' ו'חוזה פרויקט'. יכולת זו תומכת במחירי ברירת מחדל ספציפיים לתאריך עבור חוזה פרויקט לטווח הארוך, שבו אתה עשוי לדרוש יותר ממחירון אחד עבור עדכוני מחירים המתרחשים כתוצאה מאינפלציה. עם זאת, אם המחירונים שאתה משייך לישות 'לקוח', 'הזדמנות', 'הצעת מחיר' או 'חוזה פרויקט' הם בעלי תוקף של תאריך חופף, מחירי ברירת המחדל עשויים להיות שגויים. לכן, עליך לוודא שמחירוני הפרויקט בעלי תוקף של תאריך חופף אינם משויכים לישויות אלה.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

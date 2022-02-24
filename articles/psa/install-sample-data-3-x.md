@@ -3,6 +3,7 @@ title: התקנת נתונים לדוגמה
 description: נושא זה מספק מידע על התקנת נתוני דוגמה ב-Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985547"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144504"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>התקנת הנתונים לדוגמה עבור Project Service
 
@@ -86,7 +87,7 @@ ms.locfileid: "6985547"
 הפונקציה של שומר מסך במחשב צריכה להיות כבויה. אחרת, אישורי ההפעלה של ההתקנה יאבדו כאשר שומר המסך פעיל (אלא אם תשמור את ההפעלה פעילה).
 
 > [!div class="mx-imgBorder"]
-> ![צילום מסך של הגדרות שומר מסך, עם שומר מסך כבוי.](media/sample-data-1.png)
+> ![צילום מסך של הגדרות שומר מסך, עם שומר מסך כבוי](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>הורד וחלץ
 
@@ -135,20 +136,20 @@ ms.locfileid: "6985547"
     - שם מלא של משתמש="Molly Clark" כמנהל תיקי לקוחות   
     - שם מלא של משתמש="Spencer Low" כמנהל פרויקט ושיטת עבודה  
     - שם מלא של משתמש="Veronica Quek" כחבר צוות   
-    - שם מלא של משתמש="יהונתן Contoso"
+    - שם מלא של משתמש="William Contoso"
   
 2. למטרות ייבוא נתוני הדגמה, הקצה לששת המשתמשים שלעיל את תפקיד מנהל המערכת כדי לייבא רשומות לדוגמה כהלכה. 
 
 3. פתח את **PkgFolder** ולאחר מכן חפש ופתח את **ImportUserMapFile.xml**. עדכן את השדות **חדש =** בכתובות דואר אלקטרוני של המשתמשים המתאימים במערכת שלך.
 
    > [!div class="mx-imgBorder"]
-   > ![צילום מסך של UserMapFile.](media/sample-data-7.png)
+   > ![צילום מסך של UserMapFile](media/sample-data-7.png)
 
 4. אם לשם מלא של משתמש "Spencer Low" יש מזהה משתמש השונה מ- **"spencerl"**, עליך לעדכן קובץ נוסף. פתח את **DemoDataPreImportConfig.xml** וחפש את התג **userstocreateandconfigure**. עדכן את התג **\<login\>** ב- loginId (תלוי רישיות). 
 
 5. לוח השנה של המשתמש הראשון (בתג **userstocreateandconfigure**) משמש לאכלוס שעות העבודה עבור כל המשאבים הניתנים להזמנה בעת ייבוא נתוני הדגמה. נווט אל **הגדרות** > **אבטחה** > **משתמשים**, חפש את המשתמש "Spencer Low" ופתח את האפשרות "שעות עבודה". ערוך את שעות העבודה הקיימות, תוך בחירת האפשרות **‏‫לוח הזמנים השבועי המחזורי בשלמותו, מן ההתחלה ועד הסיום‬**. ודא כי **שעות העבודה מוגדרות ל- 8 בבוקר עד 5 בערב (9 שעות), בימים שני עד שישי, ואזור הזמן מוגדר לשעון החוף המערבי (ארה"ב וקנדה)**. הדבר נדרש כדי לוודא כי לוח הפרוייקט ולוח הזמנים מוצגים כצפוי.
 
-**המלצה:** שקול ליצור גיבוי של הארגון שלך כעת, למקרה שיהיה עליך לחזור לנקודת ההתחלה אם משהו משתבש במהלך התקנת הנתונים לדוגמה. לקבלת מידע נוסף, ראה [מופעי גיבוי ושחזור](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**המלצה:** שקול ליצור גיבוי של הארגון שלך כעת, למקרה שיהיה עליך לחזור לנקודת ההתחלה אם משהו משתבש במהלך התקנת הנתונים לדוגמה. לקבלת מידע נוסף, ראה [מופעי גיבוי ושחזור](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>הפעל את Package Deployer
 
@@ -172,7 +173,7 @@ ms.locfileid: "6985547"
 5. בחר **הבא** עד שתראה את הדו-שיח **הגדרת נתוני הדגמה**.
 
    > [!div class="mx-imgBorder"]
-   > ![צילום מסך של חלון מצב המתקין של נתוני הדגמה.](media/sample-data-3.png)
+   > ![צילום מסך של חלון מצב המתקין של נתוני הדגמה](media/sample-data-3.png)
 
 6. לפני שתמשיך, שים לב שהתקנת הנתונים לדוגמה עלולה להימשך עד שעה (בדרך כלל ~ 10 דקות). יהיה עליך לוודא כי המחשב נשאר מחובר לרשת במהלך ההתקנה וההפעלה שלך נשארת פעילה.   
 
@@ -191,10 +192,10 @@ ms.locfileid: "6985547"
 - אם Field Service מותקן, עבור אל **Project Service** > **הגדרות** > **מחירונים**. אשר שתעריפי החיוב והעלויות קיימים. עבור אל **Field Service** > **הגדרות** > **מחירונים** ובדוק כי שיעורי החיוב והעלויות קיימים, עם המטבע המתאים, לכל מדינה/אזור בערכת הנתונים.
 
   > [!div class="mx-imgBorder"]
-  > ![צילום מסך של מחירונים פעילים.](media/sample-data-4.png)
+  > ![צילום מסך של מחירונים פעילים](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![צילום מסך של יחידות ארגוניות פעילות.](media/sample-data-5.png)
+  > ![צילום מסך של יחידות ארגוניות פעילות](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>הערות טכניות
 
@@ -295,7 +296,4 @@ ms.locfileid: "6985547"
 בחר משתמש (לדוגמה, Spencer Low) ושנה את שעות עבודה שלו לשעות שברצונך להחיל על משתמשים מרובים. עבור אל **Universal Resource Scheduling** > **הגדרות** > **תבניות שעות עבודה** וערוך את הרשומה **תבנית עבודה המהווה ברירת מחדל**. בשדה **משאב תבנית**, בחר משתמש עם שעות עבודה שברצונך להחיל על משאבים אחרים. עבור אל **Universal Resource Scheduling** > **תזמון** > **משאבים** > **משאבים פעילים הניתנים להזמנה**. בחר את המשאבים שברצונך לשנות ולאחר מכן בחר **הגדר לוח שנה**. ברשימה הנפתחת **תבנית עבודה**, בחר את התבנית **שעות העבודה המהוות ברירת מחדל** או תבנית אחרת עם המשאב הנכון ליצירת תבנית. כאשר אתה עובר ללוח הזמנים, אתה אמור לראות שהמשאבים כעת עדכנו את שעות העבודה.
 
 > [!div class="mx-imgBorder"]
-> ![צילום מסך של משאבים פעילים הניתנים להזמנה.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![צילום מסך של משאבים פעילים הניתנים להזמנה](media/sample-data-6.png)

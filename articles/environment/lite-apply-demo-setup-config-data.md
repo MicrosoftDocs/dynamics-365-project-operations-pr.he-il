@@ -2,16 +2,18 @@
 title: החלת נתוני ההדגמה והתצורה - לייט
 description: נושא זה מספק מידע על אופן החלת הגדרת ההדגמה ונתוני התצורה עבור Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993287"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089120"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>החל את נתוני ההדגמה והתצורה עבור Project Operations - לייט 
 
@@ -26,31 +28,31 @@ _**פריסת לייט - מהעסקה ועד להוצאת חשבונית פרו�
 
 ## <a name="instructions"></a>הוראות
 
-1. הורד את [חבילת נתוני האב](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
-2. עבור לתיקיה *ProjOpsSampleSetupData - CE only CMT* והפעל את קובץ ההפעלה, *DataMigrationUtility*.
+1. הורד את [חבילת נתוני האב](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
+2. נווט לתיקיה *ProjOpsDemoDataSetupAndMaster - Integrated CMT* והפעל את קובץ ההפעלה, *DataMigrationUtility*.
 3. בעמוד 1 של אשף הגדרת התצורה (CMT‏) של Common Data Service, בחר **ייבא נתונים** ואז בחר **המשך**.
 
-    ![‏‫העברת תצורה.](./media/1ConfigurationMigration.png)
+    ![‏‫העברת תצורה](./media/1ConfigurationMigration.png)
 
 4. בעמוד 2 של אשף ב-CMT בחר ב **Microsoft 365** כ **סוג הפריסה**.
 5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו **הצג מתקדם**.
 6. בחר את האזור של הדייר שלך, הזן את האישורים שלך ואז בחר **כניסה**.
 
-   ![כניסת תצורה.](./media/2ConfigurationSignin.png)
+   ![כניסת תצורה](./media/2ConfigurationSignin.png)
 
 7. בעמוד 3, מרשימת הארגונים בדייר, בחר לאיזה ארגון ברצונך לייבא את נתוני ההדגמה ואז בחר **כניסה**.
-8. בעמוד 4, בחר את קובץ ה-zip, *SampleSetupAndConfigData* מהתיקייה שפתחת, *ProjOpsSampleSetupData - CE only CMT*.
+8. בעמוד 4 בחר את קובץ ה-zip, *MasterAndSetupData* מהתיקייה שפורקה, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-   ![קובץ Zip.](./media/3ZipFile.png)
+   ![קובץ Zip](./media/3ZipFile.png)
 
-   ![בחר קובץ.](./media/4SelectAFile.png)
+   ![בחר קובץ](./media/4SelectAFile.png)
 
 9. לאחר בחירת קובץ ה-zip בחר **ייבא נתונים**.
 
-   ![ייבוא נתונים.](./media/5ImportData.png)
+   ![יבא נתונים](./media/5ImportData.png)
 
 10. הייבוא יפעל בין שתיים לעשר דקות, תלוי במהירות הרשת שלך. לאחר השלמת הייבוא, צא מאשף ה-CMT. 
-11. בדוק אם ישנם נתונים בארגון שלך ב-18 הישויות הבאות:
+11. בדוק אם ישנם נתונים בארגון שלך ב-20 הישויות הבאות:
 
     -   מטבע
     -   חשבון
@@ -71,7 +73,4 @@ _**פריסת לייט - מהעסקה ועד להוצאת חשבונית פרו�
     -   קטגוריות משאבים הניתנים להזמנה
     -   מאפיין של משאב הניתן להזמנה
 
-    ![השלם את הייבוא.](./media/6CompleteImport.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![השלם את הייבוא](./media/6CompleteImport.png)
