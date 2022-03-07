@@ -2,18 +2,16 @@
 title: ניהול לקוחות מרובים בהצעות מחיר של פרוייקט - לייט
 description: נושא זה מספק מידע על עבודה על הצעות מחיר עם לקוחות מרובים שיממנו את הפרויקט. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bdda1a940e733270399d092e543c3982c47174d0
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 02a05de28a92d98b58245a70f456a9b144c8d5a1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181602"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994947"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>ניהול לקוחות מרובים בהצעות מחיר של פרוייקט - לייט
 
@@ -52,3 +50,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 באפשרותך לערוך את אחוזי הפיצול לחיוב באמצעות חוויית העריכה ברשת. כאשר אחוזי פיצול לחיוב אינם מסתכמים ב-100%, תתרחש שגיאה. לאחר עדכון אחוזי הפיצול לחיוב, רענן את הדף כדי להסיר את השגיאה.
 
 ניתן גם לבחור **חלק באופן שווה** ברשת המשנה של לקוח הצעת המחיר. פעולה זו מקצה פיצולי חיוב לכל לקוחות הצעת המחיר. אם קיים גורם עיגול, הוא יתווסף ללקוחות שעבורם מתבצע עיגול. אחד מלקוחות הצעת המחיר מתויג תמיד כלקוח שעבורו מתבצע עיגול. המשמעות היא ברשומת לקוח הצעת המחיר הדגל **עיגול** מוגדר ל **כן**. בדרך כלל זהו הלקוח העיקרי של הצעת המחיר, אך ניתן לשנות זאת.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

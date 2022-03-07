@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144640"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077317"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>יצירת פתרונות מותאמים אישית עבור ממדי תמחור
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > כל השינויים בממדי התמחור המותאמים אישית צריכים להיות בפתרון נפרד. שיטת עבודה מומלצת וחשובה זו מספקת גמישות בעתיד כדי לעדכן או להסיר שינויים בהתאם לצורך, היא תסייע לך להשתמש מחדש בעבודתך ומאפשרת להפנות את השינויים הללו אל מופע אחר בקלות רבה יותר. לאחר ביצוע כל השינויים הדרושים, ייצא פתרון זה כ **פתרון מנוהל** ויבא אותו אל מופעים אחרים כדי להשתמש שוב בהגדרת התמחור.

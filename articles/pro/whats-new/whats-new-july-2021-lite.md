@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009217"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433654"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>מה חדש ביולי 2021 - פריסה קלה של Project Operations
 
@@ -20,7 +20,7 @@ _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת 
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
-  - Project Operations בגירסה של סביבת Dataverse 4.12.0.148 או 4.12.0.152.
+  - Project Operations בסביבת Dataverse גרסה 4.12.0.148.
 
 ## <a name="quality-updates"></a>עדכוני איכות
 | **אזור תכונות**              | **מספר אסמכתא** | **עדכון איכות**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת 
 | כללי                       | 2296857              | מעקב אחר התקדמות למשרות ארוכות טווח.                                                                                                                                                                        |
 | כללי                       | 2253682              | אין להתקין את פתרון הכתיבה הכפולה של Project Operations כאשר ליבת כתיבה כפולה מותקנת בסביבה ללא פתרון התיאום של הכתיבה הכפולה.                                                |
 | כללי                       | 2316420              | הקצאת משאבים בסיסי של Project Service נכשלת אם משתנה היחידה העסקית של משתמש היישום.                                                                                                                     |
-| כללי                       | 2376405              | תוקנה בעיית עדכונים מונעי אתרים (עדכון איכות זמין בגרסה 4.12.0.152)                                                                                                                     |

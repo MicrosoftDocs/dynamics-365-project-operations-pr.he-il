@@ -2,8 +2,6 @@
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 22 V3
 description: נושא זה מפרט את התכונות החדשות והתיקונים במהדורה 22, עדכון V3 של Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db4cbb9f9daadcb1911325f8bee987d5e480e1cf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004312"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>מהדורה 22, V3 של Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
 נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 22, עדכון V3 של Project Service Automation. גירסה זו כוללת מספר build של V 3.10.33.48 ובדרך כלל היא זמינה דרך עדכון עצמי ביוני 2020.
 
@@ -72,3 +70,6 @@ ms.locfileid: "5150984"
 - סגירת הצעת המחיר כזוכה לא מנווטת לחוזה שנוצר אם BPF המצורף להצעת המחיר נמצא בשלב הסופי.
 - הפיכה של **מכירות שלא הושלמו** מקושרת לעלות המקורית כאשר מחזירים ערך זמן.
 - לאחר בחירה בלחצן **אישור**, סטטוס החשבונית לא משתנה ל- **אושר** אלא אם כן נעשה רענון של החשבונית.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

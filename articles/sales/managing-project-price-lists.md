@@ -2,11 +2,9 @@
 title: ניהול מחירוני פרוייקט בהצעת מחיר
 description: נושא זה מספק מידע על ישות המחירון של פרויקט.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003907"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>ניהול מחירוני פרוייקט בהצעת מחיר
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-Dynamics 365 Project Operations מרחיב את ישות המחירון ב- Dynamics 365 Sales. 
+Dynamics 365 Project Operations מרחיב את הישות 'מחירון' ב- Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>ישויות עיקריות
 
@@ -120,3 +118,6 @@ Project Operations עוקב אחר עלויות עבור השימוש בזמן �
     1. מחירון העלות המצורף ליחידה הארגונית.
     2. מחירון העלות המצורף לפרמטרים של Project Operations. מכיוון שניתן לצרף מחירוני עלות במטבעות רבים ושונים לפרמטרים, מבוצעת התאמת מטבעות בין המטבע של היחידה הארגונית של החוזה של הפרויקט, החוזה או הצעת המחיר, לבין מטבע מחירון העלות.
     3. עבור הוצאות, שיטות התמחור לפי עלות וייקור מעל לעלות אינן חלות על מחירוני עלות. גם אם שיטות תמחור אלה משמשות בשורות מחירוני עלות כדי להגדיר עלויות קטגוריית עסקה, המערכת מתעלמת מהן ולא מוזן מחיר עלות של ברירת מחדל.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

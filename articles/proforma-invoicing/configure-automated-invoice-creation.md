@@ -2,18 +2,16 @@
 title: קביעת התצורה של יצירת חשבוניות אוטומטית
 description: נושא זה מספק מידע על אופן קביעת התצורה של המערכת ליצירת חשבוניות באופן אוטומטי.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122434"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992657"
 ---
 # <a name="configure-automatic-invoice-creation"></a>קביעת התצורה של יצירת חשבוניות אוטומטית
 
@@ -45,3 +43,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 > [!NOTE]
 > חשבונית אצווה פועלת רק עבור שורות חוזה בפרויקט המוגדרות על פי לוחות זמנים של חשבוניות. אבני דרך חייבים להיות מוגדרים בסעיף חוזה בשיטת חיוב במחיר קבוע. סעיף חוזה בפרויקט בשיטת חיוב לפי זמן וחומר יצטרך הגדרה של לוח זמנים לחשבוניות המבוסס על תאריכים. כך גם בסעיף חוזה שמבוסס על פרויקטים.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

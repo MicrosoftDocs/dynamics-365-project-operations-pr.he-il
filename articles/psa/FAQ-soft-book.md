@@ -2,6 +2,8 @@
 title: הזמנה טנטטיבית של משאב
 description: נושא זה מספק מידע על אופן התזמון הטנטטיבי או ההזמנה הטנטטיבית של חברי צוות בפרוייקט.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -10,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 36246dadb1c4ba0234ae1042ba9e78c96f9d2bd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2675096085fc4c673d15741042ffc1b82ed3de8b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992889"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146439"
 ---
 # <a name="soft-book-a-resource"></a>הזמנה טנטטיבית של משאב
 
@@ -65,6 +67,3 @@ ms.locfileid: "5992889"
 2. לחץ באמצעות לחצן העכבר הימני על ההזמנה ותחת **שינוי מצב**, בחר **הזמנה בטוחה** \> **בטוחה**. מצב ההזמנה הוא כעת **בטוחה**.
 3. לאחר סגירת לוח הזמנים, חזרה לפרוייקט ופתיחת הכרטיסיה **צוות**, תראה כי השעות עבור המשאב הועברו מתוך העמודה **שעות שהוזמנו בהזמנה טנטטיבית**‬‬‬‬ לעמודה **שעות שהוזמנו בהזמנה בטוחה** בכרטיסיה **צוות**, בתצוגה **חברי צוות בעלי שם**. אם המשאב הוקצה למשימות, הוא לא יציג יותר גירעון הזמנה בכרטיסיה **פיוס** מפני שההזמנות שלו בטוחות כעת.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

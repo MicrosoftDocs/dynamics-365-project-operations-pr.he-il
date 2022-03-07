@@ -2,19 +2,17 @@
 title: סעיפי חוזה מבוססי מוצר של עלות - לייט
 description: נושא זה מספק מידע אודות יצירת
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764460"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997337"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>סעיפי חוזה מבוססי מוצר של עלות - לייט
 
@@ -30,3 +28,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 כאשר סעיף חוזה מבוסס מוצר כולל עלות יחידה, מתאפשרות עלויות מוצר שונות עבור כל מכירה של יחידה. אמנם לא תמיד הכרחי, אך ישנם תרחישים מסוימים שבהם הספק עשוי להוזיל את עלות המוצר עבור הלקוח. לפניך התרחיש הבא:
 
 Fabrikam Robotics מתקין זרועות רובוטיות בקווי הייצור של חברת Adatum. Fabrikam מספקת שירותי התקנה אך הזרועות הרובוטיות הן של Trey Research. אם התקנת הזרועות הרובוטיות בחברת Adatum תפתח קהילה אנכית חדשה עבור הזרועות הרובוטיות של Trey, היא עשויה להעניק ל-Fabrikam הנחה מיוחדת על עסקה זו. במקרה זה, Fabrikam יוצר סעיף חוזה מבוסס מוצרים עבור Robotic Arms. עלות ליחידה מוזנת עבור חוזה זה. העלות שונה מעלות הזרועות הרובוטיות מ- Robotic Arms.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

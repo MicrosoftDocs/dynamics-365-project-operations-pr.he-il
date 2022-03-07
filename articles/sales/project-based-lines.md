@@ -2,18 +2,16 @@
 title: שורות הזדמנות המבוססות על פרויקט
 description: נושא זה מספק מידע על עבודה עם שורות הזדמנות המבוססות על פרויקט.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cb44f10e2ce02ce57a44252fd99ce769f20d5cb7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181948"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011372"
 ---
 # <a name="project-based-opportunity-lines"></a>שורות הזדמנות המבוססות על פרויקט
 
@@ -33,3 +31,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | שם | הכרטיסיה 'כללי' | זהו שדה טקסט הניתן לעריכה ובאמצעותו ניתן לתת מזהה קצר לפריט השורה | ערך זה מועבר לשורת הצעת המחיר כשאתה יוצר הצעת מחיר מהזדמנות זו |
 | תקציב הלקוח | הכרטיסיה 'כללי' | ניתן להשתמש בשדה מטבע ניתן לעריכה זה כדי לעקוב אחר הסכום שהלקוח מוכן להוציא עבור פריט שורה זה. | ערך זה מועבר לשדה המתאים בשורת הצעת המחיר כשאתה יוצר הצעת מחיר מהזדמנות זו |
 | שיטת חיוב | הכרטיסיה 'כללי' | שדה ניתן לעריכה זה כולל את הערכים הבאים:</br>- זמן וחומר</br>- מחיר קבוע | ערך זה מועבר לשדה המתאים בשורת הצעת המחיר כשאתה יוצר הצעת מחיר מהזדמנות זו. לאחר יצירת שורת הצעת המחיר, השדה ננעל ולא ניתן לשנותו. הקצה ערך שדה זה בצורה מדויקת ככל האפשר. אם עליך לשנות את הערך של שדה זה בשורת הצעת המחיר, מחק את שורת הצעת המחיר וצור אותה מחדש. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

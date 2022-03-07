@@ -1,8 +1,6 @@
 ---
 title: שיקולים לשדרוג עבור מבנה התפלגות העבודה
 description: נושא זה מספק מידע לגבי שדרוג מבנה התפלגות העבודה מ- Project Service Automation 2.x ל- ‎3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149544"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992342"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>שיקולים לשדרוג עבור מבנה התפלגות העבודה
 
@@ -34,20 +32,20 @@ ms.locfileid: "5149544"
 ## <a name="key-entities"></a>ישויות עיקריות
 עבור מבנה התפלגות עבודה מדויק שכבר נטענו בו משאבים, הישויות הבאות נדרשות:
 
-- [פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [צוות פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [משימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [הקצאות משאבים](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [‏‫יחס תלות במשימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [משאבים הניתנים להזמנה](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [צוות פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [משימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [הקצאות משאבים](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [‏‫יחס תלות במשימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [משאבים הניתנים להזמנה](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 כדי להגדיר מבנה התפלגות עבודה שנטען במשאבים, עליך להשלים את השלבים הבאים:
 
-1. צור פרויקט חדש. לקבלת מידע נוסף על יצירת פרויקט חדש, ראה [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. צור משימה אחת או יותר. לקבלת מידע נוסף על יצירת משימות, ראה [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. הגדר את יחסי התלות בין המשימות. למידע נוסף ראה [תלות במשימת פרויקט](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. הקצה חברי צוות פרויקט לפרויקט. לקבלת מידע נוסף, ראה [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. הקצה חברי צוות פרויקט למשימות. לקבלת מידע נוסף, ראה [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. צור פרויקט חדש. לקבלת מידע נוסף על יצירת פרוייקט חדש, ראה [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. צור משימה אחת או יותר. לקבלת מידע נוסף על יצירת משימות, ראה [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. הגדר את יחסי התלות בין המשימות. למידע נוסף ראה [תלות במשימת פרוייקט](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. הקצה חברי צוות פרויקט לפרויקט. לקבלת מידע נוסף, ראה [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. הקצה חברי צוות פרויקט למשימות. לקבלת מידע נוסף, ראה [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>קשרי גומלין בצוות הפרויקט
 
@@ -96,3 +94,6 @@ ms.locfileid: "5149544"
 
 - כל יחסי התלות של משימות הפרויקט חייבים להיות קשורים לאותו הפרויקט.
 - לא ניתן להפנות לאותם יחסי תלות של משימות יותר מפעם אחת.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

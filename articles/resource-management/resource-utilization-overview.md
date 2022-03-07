@@ -2,18 +2,16 @@
 title: מבט כולל על ניצול משאבים
 description: נושא זו מספק מידע על ניצול המשאבים ב-Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401377"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000797"
 ---
 # <a name="resource-utilization-overview"></a>מבט כולל על ניצול משאבים
 
@@ -45,3 +43,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 בכרטיסיה **Project Service**, ניתן גם להגדיר ניצול יעד בודד עבור המשאב. כעת, חישוב הניצול משתמש בניצול היעד כדי להעריך את היעד של המשאב במקום את היעד של תפקיד ברירת המחדל של המשאב.
 
 הניצול מוצג עבור משאב רק אם למשאב יש זמן מאושר הניתן לחיוב במהלך התקופה המופיעה ברשת.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

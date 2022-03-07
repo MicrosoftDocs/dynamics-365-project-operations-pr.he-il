@@ -2,8 +2,6 @@
 title: התקדמות בפרויקט וצריכת עלויות
 description: נושא זו מספק מידע כיצד ניתן לעקוב אחר התקדמות הפרויקט וצריכת העלות.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148014"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987167"
 ---
 # <a name="project-progress-and-cost-consumption"></a>התקדמות בפרויקט וצריכת עלויות
 
@@ -98,3 +96,6 @@ Project Service Automation משתמש בנוסחאות הבאות כדי לחש�
 השדה **מצב פרויקט כולל‬** הוא שדה שניתן לערוך אותו ושמציג את המצב הכולל של הפרויקט. הוא משתמש בקידוד צבעים, כגון ירוק, צהוב ואדום, כדי לציין סיכון שמתגבר. השדה **הערות** מאפשר למנהל הפרויקט להזין הערות ספציפיות לגבי המצב. לא ניתן לערוך את השדה **‏‫המצב עודכן בתאריך** והערך הוא חותמת זמן שמציינת מתי המצב עודכן לאחרונה.
 
 השדה **‏‫ביצועי לוח זמנים‬** והשדה **‏‫ביצועי עלות‬** נקבעים מתאריך המעקב. כאשר לוח הזמנים וסטיית העלות עבור צומת הבסיס בתצוגה **מעקב מאמץ** חיוביים, תוכל להגדיר שדות אלו בתור **הקדמה‬**. כאשר לוח הזמנים וסטיית העלות עבור צומת הבסיס שליליים, תוכל להגדיר אותם בתור **עיכוב**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

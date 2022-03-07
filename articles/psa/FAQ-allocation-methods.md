@@ -2,6 +2,8 @@
 title: שיטות הקצאת הזמנות ב-Project Service Automation
 description: נושא זה מספק מידע אודות הדרכים השונות שבהן באפשרותך להזמין הקצאות.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993304"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286339"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>שיטות הקצאת הזמנות ב-Project Service Automation
 
@@ -46,14 +48,14 @@ ms.locfileid: "5993304"
 
 |         הזמנות          |    יום 1    |    יום 2    |    יום 3    |    יום 4    |    יום 5    |    סה''כ    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    הזמנות קיימות    |    0        |    0        |    0        |    0        |    0        |    0        |
+|    הזמנות קיימות    |    1        |    1        |    1        |    1        |    1        |    1        |
 |    הזמנה חדשה          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 שיטת העומס הקדמי מתחשבת בהזמנות קיימות ובקיבולת זמינה. לדוגמה, אם לאותו משאב יש כבר 20 שעות של הזמנות בשבוע העבודה, ההזמנות החדשות צורכות את הקיבולת הנותרת כדלקמן:
 
 |   הזמנות          | יום 1 | יום 2 | יום 3 | יום 4 | יום 5 | סה''כ |
 |---------------------|-------|-------|-------|-------|-------|-------|
-| הזמנות קיימות | 8     | 8     | 4     | 0     | 0     | 20    |
+| הזמנות קיימות | 8     | 8     | 4     | 1     | 1     | 20    |
 | הזמנה חדשה       | 0     | 0     | 4     | 8     | 8     | 20    |
 
 מאחר שהשיטה מתחשבת בקיבולת זמינה, ייתכן שתקבל הודעת שגיאה אם למשאב אין קיבולת נותרת שניתן לספוג בהזמנה. בשיטה זו לא ניתן ליצור הזמנת יתר.

@@ -2,9 +2,7 @@
 title: הפעלת תכונות היישום Project Finder Mobile‏
 description: כיצד להפעיל את תכונות היישום Project Finder Mobile עבור Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144549"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004897"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>הפעלת תכונות היישום Project Finder Mobile‏ (Project Service)
 
@@ -49,11 +47,11 @@ ms.locfileid: "5144549"
   
 4. הגדר **אפשר למשאב לעדכן כישורים** ל: **כן**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![.ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    זוהי הגדרה כללית. מנהלי פרוייקטים יכולים לקבוע אם פרוייקט בודד יהיה גלוי בדף **צוות הפרוייקט** של אותו פרוייקט.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![.ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>הודעות בדואר אלקטרוני  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] שולח הודעות דואר אלקטרוני לגבי בקשות משאב לנמענים הבאים במועדים הבאים:  
@@ -68,3 +66,6 @@ ms.locfileid: "5144549"
   
 ### <a name="see-also"></a>למידע נוסף  
  [הגדרת משאבים](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

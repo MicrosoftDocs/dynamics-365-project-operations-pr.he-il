@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272344"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596103"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>חוזים מבוססי מקדמות וריטיינרים
 
@@ -37,6 +37,3 @@ Dynamics 365 Project Operations תומך בחוזים המבוססים על רי
 | --- | --- | --- |
 | סכום זמין | הסכום שניתן להשתמש בו ברשומת הריטיינר או המקדמה. | עד להפקת חשבונית עבור המקדמה או הריטיינר, לא ניתן להשתמש בה, כלומר הסכום הזמין יהיה אפס. |
 | סכום בשימוש | הסכום שכבר נעשה בו שימוש בריטיינר או במקדמה. | מקדמה או ריטיינר ניתן ליישב חלקית בחשבונית עם עלויות בפועל, וחלק מסוים יסומן כחלק שכבר נעשה בו שימוש או שנצרך. יתרת סכום המקדמה או הריטיינר זמינה להתאמה בחשבונית עתידית עם עלויות בפועל. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

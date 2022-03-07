@@ -3,26 +3,23 @@ title: הקצאת סביבה חדשה
 description: נושא זה מספק מידע אודות אופן הקצאת סביבת Project Operations חדשה.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727791"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121174"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-נושא זה מספק מידע על הדרך להקצות סביבת Dynamics 365 Project Operations חדשה לתרחישים מבוססי משאבים/ללא מלאי.
+נושא זה מספק מידע אודות אופן הקצאת סביבת Dynamics 365 Project Operations חדשה לתרחישים מבוססי משאבים/ללא מלאי.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>הפוך הקצאת משאבים אוטומטית של Project Operations לזמינה בפרויקט LCS
 
@@ -61,15 +58,17 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![הסכמת פריסה](./media/2DeploymentConsent.png)
 
-7. אופציונלי - החל נתוני הדגמה על הסביבה. עבור אל **הגדרות מתקדמות**, בחר **התאם אישית את תצורת מסד הנתונים של SQL**, והגדר **ציין ערכת נתונים למסד נתונים של יישומים** שיהיה **הדגמה**.
-
-8. מלא את שאר השדות הנדרשים באשף ואשר את הפריסה. הזמן להקצאה של הסביבה משתנה בהתאם לסוג הסביבה. ההקצאה עשויה להימשך עד שש שעות.
+7. מלא את שאר השדות הנדרשים באשף ואשר את הפריסה. זמן הקצאת הסביבה משתנה בהתאם לסוג הסביבה. ההקצאה עשויה להימשך עד שש שעות.
 
   לאחר השלמת הפריסה בהצלחה, הסביבה תוצג בתור **פרוסה**.
 
-9. כדי לאשר שהסביבה נפרסה בהצלחה, בחר **התחברות** והיכנס לסביבה כדי לאשר.
+8. כדי לאשר שהסביבה נפרסה בהצלחה, בחר **כניסה** והיכנס לסביבה כדי לאשר.
 
 ![פרטי סביבת ](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>החל את נתוני ההדגמה של Project Operations Finance (שלב אופציונלי)
+
+החל את נתוני ההדגמה של Project Operations Finance בסביבה המתארחת בענן במהדורת שירות 10.0.13 כמתואר [במאמר הזה](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>החל עדכונים על סביבת Finance
 
@@ -121,7 +120,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![החל פתרונות](./media/13ApplySolutions.png)
 
-5. בחר את שני הפתרונות, **מפת ישויות כתיבה כפולה של Dynamics 365 Finance and Operations** ו- **מפות ישויות כתיבה כפולה של Dynamics 365 Project Operations** ואז בחר **החל**.
+5. בחר בשני הפתרונות **מפת ישות כתיבה כפולה ב- Dynamics 365 Finance and Operations** ו **מפות ישות כתיבה כפולה ב- Dynamics 365 Project Operations** ולאחר מכן בחר **החל**.
 
 ![אשר פתרונות](./media/14ConfirmSolutions.png)
 
@@ -151,21 +150,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![רענן אישור](./media/19RefreshConfirmation.png)
 
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>עדכן את הגדרות האבטחה של Project Operations ב- Dataverse
-
-1. עבור אל Project Operations בסביבת Dataverse שלך. 
-2. עבור אל **הגדרות** > **אבטחה** > **תפקידי אבטחה**. 
-3. בדף **תפקידי אבטחה**, ברשימת התפקידים, בחר **משתמש באפליקציה עם כתיבה כפולה** ובחר את הכרטיסיה **ישויות מותאמות אישית**.  
-4. ודא שיש לתפקיד הרשאות **קריאה** ו **צירוף** עבור:
-      
-      - **סוג שער החליפין של מטבע**
-      - **תרשים של תיקי לקוחות**
-      - **לוח שנה כספי**
-      - **ספר חשבונות**
-
-5. לאחר עדכון תפקיד האבטחה, עבור אל **הגדרות** > **אבטחה** > **Teams‎**, ובחר את צוות ברירת המחדל בתצוגה **בעל עסק מקומי**.
-6. בחר **נהל תפקידים** וודא כי הרשאת האבטחה **משתמש באפליקציה עם כתיבה כפולה** מוחלת על צוות זה.
-
 ## <a name="run-project-operations-dual-write-maps"></a>הפעל את מפות כתיבה כפולה ב- Project Operations
 
 1. בפרויקט LCS שלך, עבור אל הדף **פרטי סביבה**.
@@ -176,7 +160,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | --- | --- | --- | --- | --- | --- |
 | **תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories)** | Yes | ‏‏כן | Common Data Service | Yes | לא זמין |
 | **ישויות משפטיות (cdm\_companies)** | Yes | ‏‏כן | יישומי Finance and Operations | Yes | לא זמין |
-| **ספר (msdyn_ledgers)** | Yes | ‏‏כן | יישומי Finance and Operations | ‏‏כן | כן, יישומי Finance and Operations |
 | **שילוב Project Operations בפועל (msdyn\_actuals)** | Yes | Yes | לא זמין | ‏‏כן | Yes |
 | **סעיפי חוזה של פרויקט (salesorderdetails)** | Yes | Yes | לא זמין | Yes | Yes |
 | **‏‫ישות שילוב ליחסי גומלין של עסקה בפרויקט‬ (msdyn\_transactionconnections)** | Yes | Yes | לא זמין | Yes | לא זמין |

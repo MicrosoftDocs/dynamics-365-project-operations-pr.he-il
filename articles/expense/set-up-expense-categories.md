@@ -2,18 +2,16 @@
 title: הגדרת קטגוריות הוצאות
 description: נושא זה מספק מידע על הדרך להגדרת קטגוריות הוצאות וקטגוריות משותפות עבור דוחות הוצאות.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d66df1ffd2be2ff884561010c46cda255a2d2189
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123784"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001791"
 ---
 # <a name="set-up-expense-categories"></a>הגדרת קטגוריות הוצאות
 
@@ -61,3 +59,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
     - האם קטגוריות משנה כלשהן לא נכללות בהשבת מס?
     - מהי קבוצת המע"מ לפריט של קטגוריות המשנה?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

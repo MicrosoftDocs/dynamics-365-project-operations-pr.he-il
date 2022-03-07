@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150534"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949635"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>מה זה Dynamics 365 Project Service Automation?
 
@@ -47,10 +47,10 @@ ms.locfileid: "5150534"
 ## <a name="whats-new-in-psa"></a>מה חדש ב- PSA
 הצוות גאה להכריז על העדכונים החדשים ביותר שלנו! מגוון שיפורים בממשק המשתמש, תיקון באגים והוספת תכונות ויכולות חדשות חשובות. ביקשת; הקשבנו.
 
-ראה את [הערות המוצר מאוקטובר 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) כדי לגלות את התוספות והשיפורים האחרונים שלנו.
+ראה את [הערות המוצר מאוקטובר 2019](/dynamics365-release-plan/2019wave2/index) כדי לגלות את התוספות והשיפורים האחרונים שלנו.
 
 ### <a name="in-development"></a>בפיתוח
-כדי לבדוק מה אנו מתכננים לעתיד הקרוב, עבור אל [Dynamics 365: תוכנית ‏‫גל הפצה 1 עבור 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+כדי לבדוק מה אנו מתכננים לעתיד הקרוב, עבור אל [Dynamics 365: תוכנית ‏‫גל הפצה 1 עבור 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>קבלת עזרה לגבי PSA גירסה ‎3.x
 מחפש משאבים שיסייעו לך בתכנון ההטמעה שלך? עיין במדריכים הבאים הניתנים להורדה.
@@ -86,3 +86,6 @@ ms.locfileid: "5150534"
  <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

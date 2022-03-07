@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: f0941c549cc38f0938a5819e8cb6ca9912f14790
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274459"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>הגדרת תעריפי עלות ומכירה עבור קטלוג מוצרים - לייט
 
@@ -26,3 +26,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 ב- Project Operations, לא ניתן לאמוד מוצרים או להשתמש בהם בפרוייקטים, ולכן אין צורך לקבוע את מחירי קטלוג המוצרים במחירונים של פרוייקטים לקבלת הצעות מחיר וחוזים.
 
 השתמש בשדה **מחיר מוצר** של הצעת מחיר, חוזה או תיק לקוח להגדרת מחירים של קטלוג מוצרים. אל תגדיר מחירים של קטלוג מוצרים במחירונים של הפרוייקט. מחירוני הפרויקט בלעדיים ל- Project Operations. לוגיקה עסקית ספציפית ליישום מעתיקה את המחירונים מהצעת מחיר לחוזה. התוצאה היא מחירון לפרויקט שספציפי לחוזה. פעולת ההעתקה עשויה לעכב את תהליך הזכייה בהצעת המחיר אם מחירון הפרויקט בהצעת המחיר נהיה גדול מדי. מחירוני מוצרים אינם מועתקים כדי ליצור מחירונים מותאמים אישית בחוזים. מכיוון שלא מדובר בהעתקה, הביצועים של תהליך הצעת המחיר אינם מושפעים.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,12 +2,10 @@
 title: הערך את מכירות הפרוייקט ואת העלויות כאשר משאב שניתן להזמין ממלא מספר תפקידים בפרוייקט
 description: נושא זה כולל מידע על אופן השימוש בממדי תמחור כדי לתמוך בתמחור משאב שממלא מספר תפקידים בפרוייקט.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5b2b57f5268a92168952b6da5123886df70cd4e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145044"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013262"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>הערך את מכירות הפרוייקט ואת העלויות כאשר משאב שניתן להזמין ממלא מספר תפקידים בפרוייקט 
 
@@ -74,3 +72,6 @@ ms.locfileid: "5145044"
 כשאתה עובר אל רשת **אומדנים**, תוכל להבחין ששתי המשימות עבור אותו משאב מתומחרות אחרת.
 הקצאת המשאב למשימה א' מתומחרת לפי הערך בשדה **תפקיד** של **הפנייה לייעוץ**. ההקצאה של אותו משאב למשימה ב' מתומחרת לפי הערך בשדה **תפקיד** של **טכנאי רשת**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

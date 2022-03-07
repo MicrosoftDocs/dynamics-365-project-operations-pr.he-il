@@ -2,18 +2,16 @@
 title: אש"ל
 description: נושא זה מספק מידע אודות כללי האש"ל המשמשים בניהול הוצאות.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986402"
 ---
 # <a name="per-diems"></a>אש"ל
 
@@ -31,3 +29,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     
 ## <a name="submit-expenses-using-per-diem"></a>הגשת הוצאות באמצעות אש"ל
 כדי להגיש הוצאות באמצעות אש"ל , השתמש בקטגוריית ההוצאות **אש"ל** בעת יצירת דוח הוצאות. הזן את הערכים **אש"ל מהתאריך**, **אש"ל עד לתאריך**, ואת **מיקום האש"ל**. הסכום יחושב בהתבסס על תעריפי האש"ל עבור המיקום הנבחר והפחתת הארוחות תחושב על סמך רמות תעריפי האש"ל.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2337a1cef55ecc3b7625a0c9a643b9ed8a1d70e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148914"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291170"
 ---
 # <a name="project-pricing"></a>תמחור פרוייקט 
 
@@ -131,3 +131,6 @@ PSA עוקב אחר עלויות עבור השימוש בזמן משאבי אנ�
     1. מחירון העלות המצורף ליחידה הארגונית.
     2. מחירון העלות המצורף לפרמטרים של Project Service. מכיוון שניתן לצרף מחירוני עלות במטבעות רבים ושונים לפרמטרים של Project Service‏, PSA יוצר התאמת מטבעות בין המטבע של היחידה הארגונית של החוזה של הפרוייקט, החוזה או הצעת המחיר, לבין מטבע מחירון העלות.
     3. עבור הוצאות, שיטות התמחור לפי עלות וייקור מעל לעלות אינן חלות על מחירוני עלות. גם אם שיטות תמחור אלה משמשות בשורות מחירוני עלות כדי להגדיר עלויות קטגוריית עסקה, המערכת מתעלמת מהן ולא מוזן מחיר עלות של ברירת מחדל.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

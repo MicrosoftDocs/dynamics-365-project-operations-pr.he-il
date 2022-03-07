@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144864"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077377"
 ---
 # <a name="create-custom-fields-and-entities"></a>יצירת שדות וישויות מותאמים אישית 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 בצע את השלבים הבאים בכל עת שברצונך ליצור קבוצת אפשרויות או ישות מותאמת אישית בפלטפורמת Power Apps.  
 יש להשלים את ההליכים בנושא זה באמצעות ממשק האינטרנט של Project Service Automation‏ (PSA).

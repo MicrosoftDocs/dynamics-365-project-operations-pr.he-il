@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 20562b98ccc8451ab57dd42fb8c2f9f303811dbe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144369"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283144"
 ---
 # <a name="resource-management-faq"></a>שאלות נפוצות בנושא ניהול משאבים
 
@@ -54,3 +54,6 @@ ms.locfileid: "5144369"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>מה ההבדל בין הקצאה להזמנה?
 
 הקצאות הן הקצאה של משאבים למשימות פרויקט בלוח הזמנים של הפרויקט. המשאבים יכולים להיות משאבים אמיתיים או משאבים כלליים. הזמנות הן הקצאה בטוחה או טנטטיבית של משאבים לפרויקט. הזמנות בטוחות צורכות קיבולת של משאב. באופן אידיאלי, עבור משאבים אמיתיים, ההזמנות וההקצאות צריכות להתאים, משום שהן לא שונות. עם זאת, PSA אינו אוכף הסכם זה. התצוגה 'התאמה' מציגה בפני מנהל פרויקט מקומות שבהם הזמנות וההקצאות של משאב אינן תואמות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

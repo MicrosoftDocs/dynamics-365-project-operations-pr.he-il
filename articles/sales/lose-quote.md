@@ -2,18 +2,16 @@
 title: העתקת הצעות מחיר המבוססות פרויקט
 description: נושא זה מספק מידע על איך להעתיק הצעות מחיר מבוססות פרויקט ב-Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181813"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992162"
 ---
 # <a name="copy-project-based-quotes"></a>העתקת הצעות מחיר המבוססות פרויקט
 
@@ -45,3 +43,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 > - הפנייה לפרויקט בשורות הצעת מחיר מבוססות פרויקט - מידע על תקציב הלקוח
 >
 >מכיוון שמידע זה ספציפי מאוד לכל הצעת מחיר, שדות ורשומות אלה אינם מועתקים. מועתקים שורות הצעות מחיר לפרויקטים ומוצרים, הערכות על פרטים בשורת הצעת מחיר וערכי 'לא לחרוג' שברמת הצעת המחיר. ברירות המחדל של המחיר ושיעור העלות תלויות באפשרות **העתקת תמחור** שנבחרה בדף הדו-שיח **העתקת פרמטרים**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

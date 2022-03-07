@@ -2,16 +2,16 @@
 title: הרשמה לגירסאות ניסיון של Project Operations
 description: נושא זה מספק מידע לגבי אופן הפריסה של גירסת ניסיון של Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
+ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901618"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7418458"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>הרשמה לגירסאות ניסיון של Project Operations 
 
@@ -85,13 +85,18 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 
    לאחר תחילת הקצאת המשאבים, אתה מנותב מחדש אל רשימת הסביבות במרכז הניהול של Power Platform. בזמן שהקצאת המשאבים מתבצעת, מצב הסביבה שלך הוא **PreparingInstance**.
  
-  כאשר ההקצאה הושלמה, מצב הסביבה שלך הוא **מוכן**. הקצאת הסביבה כוללת פריסת נתוני הדגמה.
+  לאחר השלמת הקצאת המשאבים, מצב הסביבה שלך הוא **מוכן**.
  
-4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי Finance and Operations המתאימות כדי לאמת את הפריסה.
+4.  לאחר השלמת הקצאת המשאבים, בחר את כתובת ה- URL של Microsoft Dataverse המתאימה, וכתובות ה- URL של יישומי Finance and Operations כדי לאמת את הפריסה.
+
+## <a name="demo-data-installation"></a>התקנת נתוני הדגמה
+
+השתמש בקישורים הבאים כדי לגשת לחבילות נתוני ההדגמה הן עבור חומרים שאינם במלאי והן עבור תרחישי פריסה קלה. 
+- [נתוני הדגמה של חומרים שאינם במלאי](resource-apply-pro-setup-config-data.md)
+- [נתוני הדגמה מסוג 'קלה'](lite-apply-demo-setup-config-data.md)
 
 ## <a name="configuring-dual-write"></a>קביעת תצורה של כתיבה כפולה
-- כדי להגדיר תפקידי אבטחה עבור כתיבה כפולה, ראה [עדכון הגדרות האבטחה ב-Project Operations ב- Dataverse](resource-provision-new-environment.md).
-- כדי להגדיר מפות כתיבה כפולה, ראה [הפעלה מפות כתיבה כפולה של Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+עבור פריסות של חומרים שאינם במלאי בלבד, קבע את התצורה של מיפויי הכתיבה הכפולה שלך. לקבלת מידע נוסף, ראה [גירסאות מפה של כתיבה כפולה של Project Operations](resource-dual-write-maps.md).
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
 

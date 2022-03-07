@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272839"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513790"
 ---
 # <a name="manage-leads---lite"></a>ניהול הפניות - לייט
 
@@ -72,6 +72,3 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 | פיתוח | הזדמנות | פתח את ההזדמנות להוספת מידע נוסף על העבודה המעורבת, בעלי עניין מרכזיים ותחרות. |
 | הצעה | הזדמנות | פתח את ההצעה וקבל אישור מצוות הסיקרה הפנימית. |
 | סגורה | הזדמנות | זכה בהזדמנות כדי לסגור את העסקה. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

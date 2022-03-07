@@ -2,8 +2,6 @@
 title: ביטול ערכי זמן והוצאה שאושרו בעבר
 description: נושא זה מספק מידע אודות אופן הביטול של עסקת זמן והוצאה של פרוייקט שאושרה.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150579"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987437"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>ביטול ערכי זמן או הוצאה שאושרו בעבר
 
@@ -62,3 +60,6 @@ ms.locfileid: "5150579"
 בשלב הבא, ערכי ביטול נוצרים בטבלה 'נתונים בפועל'. כדי ליצור ערכי ביטול, המערכת מעתיקה את ערכי השדה מהנתונים בפועל המקוריים. הערכים היחידים שאינם מועתקים הם ערכי הכמות. ערכים אלה חוזרים לקדמותם במקום זאת. נתונים בפועל שבוטלו נוצרים הן עבור נתונים בפועל של **עלות** והן עבור נתונים בפועל של **מכירות שלא חויבו**. השדה **מצב התאמה** של הנתונים בפועל שהתבטלו מוגדר ל **לא ניתן להתאמה** ומצב החיוב מוגדר ל **בוטל**.
 
 לאחר ששינויים אלה מתבצעים, הסכום שמתועד כסכום שהושקע בפרוייקט ומצבור ההכנסות בפרוייקט לא ייחשבו עוד לסכומים שנתונים בפועל אלה מייצגים.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

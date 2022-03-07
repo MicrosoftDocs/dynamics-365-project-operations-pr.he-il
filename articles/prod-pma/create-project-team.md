@@ -2,11 +2,9 @@
 title: יצירת צוות פרוייקט
 description: נושא זה מספק מידע לגבי האופן יצירת צוות פרויקט חדש וניהולו.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270859"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005797"
 ---
 # <a name="create-a-project-team"></a>יצירת צוות פרויקט
 
@@ -35,7 +33,7 @@ ms.locfileid: "5270859"
 
 מנהל הפרויקט יכול לבחור תפקיד בדף ואז, אם יש משאב זמין המתאים לדרישה, לבחור לשריין משאב למילוי התפקיד. שים לב כי בשלב זה אין צורך לשמור את המשאבים בשלב התכנון. כשאתה יוצר WBS, אתה יכול להחליף תפקידים במשאבים מאוישים עבור הפרויקט. אם תפקידים מוחלפים במשאבים מאוישים ב- WBS, הגדרת המשאבים מעדכנת אוטומטית את רישום ותזמון צוות הפרויקט.
 
-[![רישום צוות הפרויקט הכולל גם תפקידים וגם משאבים בפועל](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![רישום צוות הפרויקט הכולל גם תפקידים וגם משאבים בפועל.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 למנהל הפרויקט אפשרויות שונות להזמנת משאב לפרויקט, כגון **יכולת שנותרה**, **תפוסה מלאה**, **אחוז קיבולת**, ו **ציון שעות**. ניתן לבטל אפשרויות הזמנה אלה בכל עת אם הקצאות המשאבים משתנות. שני סוגי הזמנות נתמכים:
 

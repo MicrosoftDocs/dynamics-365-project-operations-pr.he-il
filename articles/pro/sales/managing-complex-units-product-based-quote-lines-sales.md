@@ -1,21 +1,21 @@
 ---
-title: ניהול יחידות מורכבות, כגון 'לפי משתמש', לחודש עבור שורות הצעות מחיר מבוססות מוצר - לייט
+title: ניהול יחידות מורכבות, למשל לפי משתמש, או לפי חודש עבור שורות הצעות מחיר מבוססות מוצר
 description: נושא זה מספק מידע על ניהול יחידות מורכבות עבור שורות הצעות מחיר מבוססות מוצר.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4a075ae5a7329f241cc31afceab0e085c771f72
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272884"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077240"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>ניהול יחידות מורכבות, כגון 'לפי משתמש', לחודש עבור שורות הצעות מחיר מבוססות מוצר - לייט
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>ניהול יחידות מורכבות, למשל לפי משתמש, או לפי חודש עבור שורות הצעות מחיר מבוססות מוצר
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
@@ -45,6 +45,3 @@ Project Operations מאמתת שרק מאפיינים מספריים או מאפ
 6. שמור וסגור את הטופס. חזור על שלבים אלה עבור כל המאפיינים שישמשו לחישוב הכמות עבור שורת הצעת המחיר מבוססת המוצר.
 
 כאשר יוצרים שורת הצעת מחיר מבוססת מוצר עבור מוצר, כמות שורת הצעת המחיר תינעל. הכמות תחושב כמוצר של ערכי המאפיינים שהזנת עבור אותה שורת הצעת מחיר.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

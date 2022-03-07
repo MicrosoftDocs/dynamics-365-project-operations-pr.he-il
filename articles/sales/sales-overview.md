@@ -2,24 +2,23 @@
 title: מבט כולל על תהליך מכירות
 description: נושא זה מספק מידע אודות תהליכי מכירות בסיסיים.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177602"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991847"
 ---
 # <a name="sales-process-overview"></a>מבט כולל על תהליך מכירות
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-תהליכי המכירות המשמשים בארגון מבוסס פרויקט שונים מתהליכי המכירות המשמשים בארגון המבוסס על מוצר. זה מתרחש מאחר שמחזורי המכירות עבור ארגונים מבוססי-פרויקט הם ארוכים יותר ומחייבים שיטות הערכה מותאמות אישית כדי לנתח וליצור הצעות מחיר עבור כל עסקה. Dynamics 365 Project Operations משתמש באותה פונקציונליות המשמשת בתהליך המכירות:
+תהליכי המכירות המשמשים בארגון מבוסס פרויקט שונים מתהליכי המכירות המשמשים בארגון המבוסס על מוצר. זה מתרחש מאחר שמחזורי המכירות עבור ארגונים מבוססי-פרויקט הם ארוכים יותר ומחייבים שיטות הערכה מותאמות אישית כדי לנתח וליצור הצעות מחיר עבור כל עסקה. Dynamics 365 Project Operations משתמש בחלק מהפונקציות הבאות המשמשות בתהליך מכירות:
 
 - רשומת 'הפניה' משמשת למעקב אחר תהליך המכירות.
 - מעקב אחר הפניות שעומדות בדרישות מתבצע כמעקב אחר הזדמנויות.
@@ -63,3 +62,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>מעקב אחר הערות ואישורים של הצעות מחיר וחוזי פרויקטים
 באפשרותך לנהל את הסקירה והאישור של הצעות מחיר וחוזי פרויקטים באמצעות קיר הרשומות והפרסומים. הארגון שלך יכול ליצור זרימות עבודה ויישומי plug-in מותאמים אישית כדי להקצות, לנתב מחדש, להסלים ולנהל הודעות של פריטי עבודה של סקירה ואישור.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

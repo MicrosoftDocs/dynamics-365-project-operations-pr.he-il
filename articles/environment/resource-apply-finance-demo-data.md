@@ -2,18 +2,16 @@
 title: החלת נתוני ההדגמה בסביבת Finance המתארחת בענן
 description: נושא זה מסביר כיצד להחיל נתוני הדגמה מ- Project Operations בסביבת Dynamics 365 Finance המתארחת בענן.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365239"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009667"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>החלת נתוני ההדגמה בסביבת Finance המתארחת בענן
 
@@ -24,40 +22,40 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 1. בפרויקט LCS שלך, פתח את הדף **פרטי סביבה**. שים לב שהוא כולל את הפרטים הדרושים להתחברות לסביבה באמצעות פרוטוקול שולחן עבודה מרוחק (RDP).
 
-![פרטי סביבת ](./media/1EnvironmentDetails.png)
+![פרטי סביבה.](./media/1EnvironmentDetails.png)
 
 הקבוצה הראשונה של האישורים המודגשים הם אישורי החשבון המקומי והם מכילים היפר-קישור לחיבור אל שולחן העבודה המרוחק. האישורים כוללים את שם המשתמש והסיסמה של מנהל הסביבה. הקבוצה השנייה של האישורים משמשת להתחברות אל SQL Server בסביבה זו.
 
 2. התחבר מרחוק לסביבה באמצעות ההיפר-קישור **בחשבונות מקומיים** והשתמש **באישורי חשבון מקומי** כדי לבצע אימות.
 3. עבור אל **Internet Information Services** > **מאגרי יישומים** > **AOSService** והפסק את השירות. אתה מפסיק את השירות בשלב זה כדי שתוכל להמשיך להחליף את מסד הנתונים של SQL.
 
-![הפסק את AOS](./media/2StopAOS.png)
+![הפסק את AOS.](./media/2StopAOS.png)
 
 4. עבור אל **שירותים** והפסק את שני הפריטים הבאים:
 
 - Microsoft Dynamics 365 Unified Operations: שירות ניהול אצווה
 - Microsoft Dynamics 365 Unified Operations: מסגרת לייצוא וייבוא נתונים
 
-![הפסק שירותים](./media/3StopServices.png)
+![הפסק שירותים.](./media/3StopServices.png)
 
 5. פתח את Microsoft SQL Server Management Studio. היכנס באמצעות אישורי שרת SQL והשתמש במשתמש ובסיסמה axdbadmin מהדף **פרטי הסביבות** ב- LCS.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. בסייר האובייקטים, **מסדי נתונים** ואתר את **AXDB**. אתה תחליף את מסד הנתונים במסד נתונים חדש שנמצא [במרכז ההורדות](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. העתק את קובץ ה- zip ל- VM שאתה מחובר אליו מרחוק וחלץ את תוכן ה- zip.
 8. ב- SQL Server Management Studio, לחץ באמצעות לחצן העכבר הימני על **AxDB** ואז בחר **משימות** > **שחזר** > **מסד נתונים**.
 
-![שחזר את מסד הנתונים](./media/5RestoreDatabase.png)
+![שחזר את מסד הנתונים.](./media/5RestoreDatabase.png)
 
 9. בחר **מכשיר מקור** ונווט אל הקובץ שחולץ מה- zip שהעתקת.
 
-![מכשירי מקור](./media/6SourceDevice.png)
+![מכשירי מקור.](./media/6SourceDevice.png)
 
 10. בחר **אפשרויות** ואז בחר **החלף את מסד הנתונים הקיים** ו **סגור חיבורים קיימים למסד הנתונים המהווה יעד**. 
-11. בחר **אישור**.
+11. בחר **OK**.
 
-![שחזר הגדרות](./media/7RestoreSetting.png)
+![שחזר הגדרות.](./media/7RestoreSetting.png)
 
 תקבל אישור כי שחזור AXDB הצליח. לאחר שתקבל אישור זה, תוכל לסגור את SQL Services Management Studio.
 
@@ -68,14 +66,17 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 15. הפעל את קובץ ה- ‎.ext באמצעות כתובת המשתמש שלך בשדה **כתובת דוא"ל**. 
 16. בחר **שלח**.
 
-![הקצאת משאבים של משתמש מנהל מערכת](./media/8AdminUserProvisioning.png)
+![הקצאת משאבים של משתמש מנהל מערכת.](./media/8AdminUserProvisioning.png)
 
 לוקח מספר דקות להשלים את התהליך. אתה אמור לקבל הודעת אישור שמשתמש מנהל המערכת עודכן בהצלחה.
 
 17. לבסוף, הפעל את שורת הפקודה כמנהל מערכת ובצע iisreset
 
-![איפוס IIS](./media/9IISReset.png)
+![איפוס IIS.](./media/9IISReset.png)
 
 18. סגור את הפעלת שולחן העבודה המרוחק והשתמש בדף **פרטי הסביבה** של LCS כדי להתחבר לסביבה ולאשר שהיא פועלת כצפוי.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

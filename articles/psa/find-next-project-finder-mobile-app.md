@@ -2,8 +2,6 @@
 title: למצוא את הפרוייקט הבא שלך באמצעות היישום Project Finder Mobile
 description: כיצד למצוא את הפרוייקט הבא שלך באמצעות היישום Project Finder Mobile עבור Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149274"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007502"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>‏למצוא את הפרוייקט הבא שלך באמצעות היישום Project Finder Mobile‏ (Project Service)
 
@@ -49,3 +47,6 @@ ms.locfileid: "5149274"
   
 ### <a name="see-also"></a>למידע נוסף  
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

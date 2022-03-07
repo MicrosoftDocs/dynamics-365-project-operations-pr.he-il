@@ -2,19 +2,17 @@
 title: מה חדש ומה השתנה ב- Project Operations, מרץ 2021 לתרחישים של מלאי/ מבוססי ייצור
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת מרץ 2021 של Project Operations לתרחישים מבוססי ייצור/מלאי.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 804b5d1cc3392349fb6bcc81a91d69d0d9dc51da
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: d1a4658c8eec23f6816b58de42d785d769050b07
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701937"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997017"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, מרץ 2021 לתרחישים של מלאי/ מבוססי ייצור
 
@@ -123,7 +121,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | ניהול פרוייקטים וחשבונאות | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | שיטת הסיווג של מבנה התפלגות עבודה (WBS) של הדור הקודם, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** הוצאה משימוש.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates.md). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

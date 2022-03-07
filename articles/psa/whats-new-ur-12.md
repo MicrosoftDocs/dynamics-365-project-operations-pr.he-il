@@ -2,8 +2,6 @@
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 12 V3
 description: נושא זה מספק מידע על מה חדש בעדכון המהדורה 12, V3 של Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: daf0e6c7a4b1b953cb808cfefab74475c47d3996
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f05488a652f7a699aaa5d8e644eae38d7083f404d3c461cdaabd1915b1a710a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143829"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004492"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>מהדורה 12, V3 של Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-אנו שמחים להכריז על העדכון האחרון עבור יישום Dynamics 365 Project Service Automation‏ (PSA). מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+אנו שמחים להכריז על העדכון האחרון עבור יישום Dynamics 365 Project Service Automation‏ (PSA). מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
 נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 12, עדכון V3 של Project Service Automation. מספר ה-build של גירסה זו הוא V3.10.2.34 והיא זמינה דרך עדכון עצמי החל מאוקטובר 2019.
 
@@ -61,3 +59,6 @@ ms.locfileid: "5143829"
     - תוקן: מזהי אובייקטים כפולים שנמצאו בטופס **עיקרי חוזה**.
     - תוקן: הלוגיקה עודכנה כדי להפוך את הכרטיסיה **ניתוח הצעת מחיר** לגלויה כך שהיא תציג את הגדרת המטא נתונים של הכרטיסיה.
     - תוקן: תאריך החשבונאות ברשומה בפועל מגיע כעת ממועד תאריך הזנת השעה/ההוצאה ולא ממועד האישור.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

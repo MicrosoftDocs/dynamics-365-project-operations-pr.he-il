@@ -3,7 +3,7 @@ title: התקנת נתונים לדוגמה
 description: נושא זה מספק מידע על התקנת נתוני דוגמה ב-Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,16 +11,14 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144504"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077373"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>התקנת הנתונים לדוגמה עבור Project Service
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 כדי לעזור לך לבנות סביבות הדגמה משלך, Microsoft מספקת חבילות נתונים לדוגמה שניתן להוריד, שמציגות את היכולות של היישומים שלך. קיימים שני סוגים של חבילות נתונים לדוגמה:
 - נתוני הפניה/הגדרה
@@ -51,7 +49,7 @@ ms.locfileid: "5144504"
 
 - יצירה או הגדרה של ברירת מחדל לפרמטרים לצורך שימוש ב-Project Service, ב-Field Service או בשני היישומים (אם ישים).
 
-- ייבוא נתונים לדוגמה עבור היישומים, כגון משאבים שניתנים להזמנה, תפקידים ספציפיים ליישום, רשימות של מכירות ומחירונים, יחידות ארגוניות, רשומות של תהליכי מכירה וישויות אחרות כדי להדגים יכולות מרכזיות.  
+- ייבוא נתונים לדוגמה עבור היישומים, כגון משאבים שניתנים להזמנה, תפקידים ספציפיים ליישום, רשימות של מכירות ומחירונים, יחידות ארגוניות, רשומות של תהליכי מכירה וישויות אחרות כדי להדגים יכולות מרכזיות.  
 
 עם חבילת **נתונים לדוגמה**, תקבל את הנתונים לעיל ונתוני טרנזקציות נוספים, כגון הזמנות עבודה ופרוייקטים.
 

@@ -34,28 +34,8 @@
               href: environment/security-model.md
             - name: קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית
               href: environment/resource-configure-integration-per-legal-entity.md
-        - name: קביעת תצורה של שילוב כתיבה כפולה
-          items:
-            - name: מבט כולל על שילוב כתיבה כפולה
-              href: environment/resource-dual-write-overview.md
-            - name: גרסאות מפה של כתיבה כפולה ב-Project Operations
-              href: environment/resource-dual-write-maps.md
-            - name: שילוב נתוני התקנה ותצורה של Project Operations
-              href: environment/resource-dual-write-setup-integration.md
-            - name: שילוב הערכות פרויקט ונתונים בפועל
-              href: environment/resource-dual-write-estimates-actuals.md
-            - name: שילוב חשבונית פרויקט
-              href: environment/resource-dual-write-project-invoice.md
-            - name: שילוב של ניהול הוצאות
-              href: environment/resource-dual-write-expense.md
-            - name: שילוב חשבונית ספק
-              href: environment/resource-dual-write-vendor-invoice.md
     - name: מה חדש
       items:
-        - name: אפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: מרץ 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-          href: whats-new/whats-new-mar-2021-resource-based.md
         - name: פברואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
           href: whats-new/whats-new-feb-2021-resource-based.md
         - name: ינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
@@ -82,7 +62,7 @@
           items:
             - name: מבט כולל על ניהול הזדמנויות פרוייקט
               href: sales/manage-project-based-opportunities.md
-            - name: פרטי כותרת להזדמנויות מבוססות פרוייקט
+            - name: הגדרת הזדמנות מבוססת פרוייקט
               href: sales/opportunity-header.md
             - name: שורות הזדמנות מבוססות פרוייקט
               href: sales/project-based-lines.md
@@ -96,27 +76,23 @@
           items:
             - name: מבט כולל על ניהול הצעות מחיר של פרוייקט
               href: pro/sales/manage-quotes-sales.md
-            - name: מושגים ייחודיים להצעות מחיר מבוססות פרוייקט
+            - name: מושגי הצעת מחיר
               href: sales/quotes-key-concepts.md
-            - name: פרטי כותרת להצעות מחיר מבוססות פרוייקט
+            - name: הגדרות הצעות מחיר של פרוייקט
               href: sales/quote-values-budget-limits-contract.md
             - name: ניהול לקוחות מרובים בצעת מחיר לפרוייקט
               href: sales/manage-multiple-customers-quote.md
             - name: ניהול מחירוני פרוייקטים בהצעת מחיר
-              href: pro/sales/manage-project-price-lists-sales.md
+              href: sales/managing-project-price-lists.md
             - name: שורות הצעות מחיר מבוססות פרוייקט
               items:
                 - name: מבט כולל על שורות הצעות מחיר מבוססות פרוייקט
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: ניהול לקוחות מרובים בשורות הצעות מחיר מבוססות פרוייקט
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: מיפוי פרוייקטים ומשימות לשורות הצעת מחיר מבוססת פרוייקט
-                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: קביעת תצורה של הרכיבים הניתנים לחיוב של שורות הצעת מחיר מבוססות פרוייקט
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: קביעת תצורה של הרכיבים הניתנים לחיוב של שורת הצעת מחיר של פרוייקט
                   href: sales/configure-chargeable-quoteline.md
-                - name: הערכה של שורת הצעת מחיר של פרוייקט
+                - name: יצירת הערכות בשורת הצעת מחיר
                   href: sales/create-estimate-quote-line.md
                 - name: ייבוא הערכות מפרוייקט לשורת הצעת מחיר מבוססת פרוייקט
                   href: sales/import-estimate-quote-line.md
@@ -130,9 +106,9 @@
           items:
             - name: מבט כולל על ניהול חוזים של פרוייקט
               href: pro/sales/manage-contracts-sales.md
-            - name: מושגים ייחודיים לחוזים מבוססי פרוייקט
+            - name: מושגי חוזים של פרוייקט
               href: sales/contracts-key-concepts.md
-            - name: פרטי כותרת לחוזים מבוססי פרוייקט
+            - name: הגדרות של חוזה פרוייקט
               href: sales/project-contract-settings.md
             - name: ניהול מחירוני פרוייקטים בחוזים של פרוייקט
               href: sales/contracts-manage-project-price-lists.md
@@ -141,14 +117,12 @@
             - name: סעיפי חוזה מבוססי פרוייקט
               items:
                 - name: מבט כולל על סעיפי חוזה מבוססי פרוייקט
-                  href: pro/sales/manage-contract-values-project-based-sales.md
+                  href: sales/manage-contract-values-project-based.md
                 - name: ניהול לקוחות מרובים בסעיפי חוזה מבוססי פרוייקט
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: מיפוי פרוייקטים ומשימות בסעיף חוזה של פרוייקט
-                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: קביעת תצורה של רכיבים ניתנים לחיוב לסעיף חוזה של פרוייקט
-                  href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: הערכה סעיף חוזה של פרוייקט
+                - name: ‏‫קביעת תצורה של רכיבים ניתנים לחיוב בסעיף חוזה מבוסס פרוייקט‬
+                  href: sales/configure-chargeable-contract-line.md
+                - name: הערכה של סעיף חוזה מבוסס פרוייקט
                   href: sales/create-estimate-contract-line.md
                 - name: ייבוא הערכות מפרוייקט לסעיף חוזה מבוסס פרוייקט
                   href: sales/import-estimate-project-contract-line.md
@@ -156,6 +130,8 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: אישור חוזה פרוייקט
               href: pro/sales/confirm-contract-sales.md
+            - name: העתקת חוזה פרוייקט
+              href: pro/sales/copy-project-contracts-sales.md
             - name: מקדמות וריטיינרים
               items:
                 - name: חוזים מבוססי מקדמות וריטיינרים
@@ -168,16 +144,16 @@
       items:
         - name: הגדרת מחירון
           items:
-            - name: הגדרת מחירון
+            - name: הגדרת מחירונים
               href: pricing-costing/price-list-setup.md
+            - name: מחירוני מוצרים
+              href: pricing-costing/product-price-list.md
             - name: הגדרת תעריפי חשבון עבודה
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: הגדרת תעריפי עלות עבודה
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: הגדרת תעריפי עלות ומכירות עבור הוצאות
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
-            - name: הגדרת תעריפי עלות ומכירות עבור חומרים
-              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ברירות מחדל ועקיפות
           items:
             - name: מחירוני ברירת מחדל
@@ -186,12 +162,10 @@
               href: pricing-costing/override-project-sales-price-list-default.md
             - name: פתרון מחירי עלות עבור הערכות ונתונים בפועל
               href: pricing-costing/cost-price-resolution.md
-            - name: פתרון מחירי מכירות עבור הערכות ונתונים בפועל
+            - name: פתור מחירי מכירות עבור הערכות ונתונים בפועל
               href: pricing-costing/sales-price-resolution.md
             - name: העתקת מחירונים
               href: pricing-costing/copy-price-lists.md
-            - name: השבתת מחירונים
-              href: pricing-costing/deactivatepricelists.md
         - name: ממדי תמחור
           items:
             - name: מבט כולל על ממדי תמחור
@@ -232,36 +206,28 @@
           href: project-management/understand-project-status.md
         - name: הגדרת לוחות שנה של פרוייקטים
           href: project-management/define-project-calendars.md
-        - name: מצבי תזמון
-          href: project-management/scheduling-modes.md
-        - name: עדכון פרויקט
+        - name: עדכון פרוייקט
           href: project-management/update-project.md
-        - name: העתקת פרויקט
+        - name: העתקת פרוייקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
-            - name: יצירת מבנה התפלגות העבודה
+            - name: יצירת מבנה התפלגות עבודה
               href: project-management/create-wbs.md
             - name: יצירת הקצאות
               href: project-management/create-assignments.md
-        - name: הערכות כספיות לפרויקטים
+        - name: הערכת פרוייקטים
           items:
-            - name: מושגי הערכה פיננסית
+            - name: מבט כולל על הערכת פרוייקטים
               href: project-management/estimating-projects-overview.md
-            - name: הערכות כספיות עבור זמן של משאב בפרוייקטים
+            - name: הערכות משאבים
               href: project-management/resource-estimates.md
-            - name: הערכות כספיות עבור הוצאות בפרוייקטים
+            - name: יצירת הערכות הוצאה
               href: project-management/create-expense-estimates.md
-            - name: הערכות כספיות עבור חומרים בפרוייקטים
-              href: project-management/create-material-estimate.md
         - name: מעקב אחר פרוייקט
           items:
-            - name: מעקב אחר מאמץ בפרוייקט
+            - name: מבט כולל על מעקב אחר פרוייקט
               href: project-management/project-tracking-overview.md
-            - name: מעקב אחר עלות העבודה בפרוייקטים
-              href: project-management/project-cost-tracking.md
-            - name: מעקב אחר הכנסות העבודה בפרוייקטים
-              href: project-management/project-sales-tracking.md
             - name: עדכון הערכה בעת סיום
               href: project-management/update-completed-estimate.md
         - name: חברי צוות בפרוייקט
@@ -280,8 +246,6 @@
           items:
             - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים (Public Preview)
-              href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -354,56 +318,52 @@
       items:
         - name: מבט כולל על הוצאה
           href: expense/expense-overview.md
-        - name: חוויית הוצאות חדשה
+        - name: חוויית ניהול הוצאות בפרוייקטים
           items:
-            - name: דוחות הוצאות חדשניים
-              href: expense/expense-reports-reimagined.md
-            - name: לכידת קבלה באמצעות OCR
-              href: expense/match-receipt-expense-ocr.md
-        - name: קביעת תצורה והגדרה
-          items:
-            - name: הגדרת מדיניות
-              href: expense/set-up-policies.md
-            - name: הגדרת זרימות עבודה
-              href: expense/set-up-workflows.md
-            - name: ניהול הקצאה
-              href: expense/manage-delegation.md
-            - name: קביעת התצורה של פרמטרי ניהול הוצאות
-              href: expense/configure-expense-management-parameters.md
-            - name: הגדרת שילוב כרטיסי אשראי
-              href: expense/set-up-credit-card-integration.md
-            - name: הגדרת קטגוריות הוצאות
-              href: expense/set-up-expense-categories.md
-        - name: הוצאות אישיות
-          href: expense/personal-expenses-expense-report.md
-        - name: הוצאות בין-חברתיות
-          href: prod-exp/intercompany-expense.md
-        - name: יצירת דוחות הוצאות
-          items:
-            - name: התפלגויות בדוח הוצאות
-              href: expense/distributions-expense-report.md
-        - name: אישור דוחות הוצאות
-          items:
-            - name: דוחות הוצאות ומאשרים מרובים
-              href: expense/expense-reports-multiple-approvers.md
-        - name: פרסום דוחות הוצאות
-          href: expense/posting-expense-reports.md
-        - name: דרישת נסיעה
-          href: expense/travel-requisition.md
-        - name: מקדמה במזומן
-          href: expense/cash-advance.md
-        - name: אש"ל
-          href: expense/per-diems.md
-        - name: אפליקציית הוצאות למכשירים ניידים
-          href: expense/expense-using-mobile.md
-        - name: ניהול פיננסי
-          items:
-            - name: החזר מע"מ
-              href: expense/vat-recovery.md
-    - name: שימוש בחומרים
-      items:
-        - name: רישום השימוש בחומרים בפרוייקטים ובמשימות הפרוייקט
-          href: material/material-usage-log.md
+            - name: קביעת תצורה והגדרה
+              items:
+                - name: הגדרת מדיניות
+                  href: expense/set-up-policies.md
+                - name: הגדרת זרימות עבודה
+                  href: expense/set-up-workflows.md
+                - name: ניהול הקצאה
+                  href: expense/manage-delegation.md
+                - name: קביעת התצורה של פרמטרי ניהול הוצאות
+                  href: expense/configure-expense-management-parameters.md
+                - name: הגדרת שילוב כרטיסי אשראי
+                  href: expense/set-up-credit-card-integration.md
+                - name: הגדרת קטגוריות הוצאות
+                  href: expense/set-up-expense-categories.md
+            - name: עבודה עם הוצאות אישיות בדוח הוצאות
+              href: expense/personal-expenses-expense-report.md
+            - name: יצירת דוחות הוצאות
+              items:
+                - name: התפלגויות בדוח הוצאות
+                  href: expense/distributions-expense-report.md
+            - name: אישור דוחות הוצאות
+              items:
+                - name: דוחות הוצאות ומאשרים מרובים
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: פרסום דוחות הוצאות
+              href: expense/posting-expense-reports.md
+            - name: דרישת נסיעה
+              href: expense/travel-requisition.md
+            - name: מקדמה במזומן
+              href: expense/cash-advance.md
+            - name: אש"ל
+              href: expense/per-diems.md
+            - name: ניהול פיננסי
+              items:
+                - name: החזר מע"מ
+                  href: expense/vat-recovery.md
+            - name: חוויית הוצאות חדשה
+              items:
+                - name: דוחות הוצאות חדשניים
+                  href: expense/expense-reports-reimagined.md
+                - name: התאמת קבלה להוצאה באמצעות OCR
+                  href: expense/match-receipt-expense-ocr.md
+            - name: ניהול הוצאות במכשירים ניידים
+              href: expense/expense-using-mobile.md
     - name: אישורים
       items:
         - name: מבט כולל על אישורים
@@ -416,18 +376,10 @@
       items:
         - name: מבט כולל על נתונים בפועל
           href: actuals/actuals-overview.md
-        - name: קישור נתונים בפועל לרשומות המקוריות
-          href: actuals/linkingactuals.md
         - name: יומני תיקונים
           items:
             - name: יצירה ואישור של יומני תיקונים
               href: actuals/create-confirm-correction-journals.md
-    - name: רכש
-      items:
-        - name: הגדרת תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
-          href: procurement/configure-materials-nonstocked.md
-        - name: רכישת חומרים שאינם במלאי לפרוייקטים באמצעות חשבוניות ספק בהמתנה
-          href: procurement/pending-vendor-invoices.md
     - name: הפקת חשבונית
       items:
         - name: מבט כולל על תהליך הפקת חשבונית
@@ -436,24 +388,20 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: חשבונית פרופורמה
           items:
-            - name: ניהול של מצבור פריטי עבודה של חיוב מבוסס פרוייקט
+            - name: ניהול של מצבור פריטי עבודה של חיובי פרוייקט
               href: proforma-invoicing/manage-billing-backlog.md
             - name: ניהול מצב ואימות של 'אין לחרוג'
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: חשבוניות פרופורמה מבוססות פרוייקט
+            - name: יצירה ידנית של חשבונית פרופורמה של פרוייקט
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: ניהול חשבונית פרופורמה מבוססת פרוייקט
+            - name: ניהול חשבונית פרופורמה של פרוייקט
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: הפקת חשבונית עבור ריטיינר או מקדמה
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: אישור חשבונית פרופורמה מבוססת פרוייקט
+            - name: אישור חשבונית פרופורמה של פרוייקט
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: יצירת חשבוניות מתקנות מבוססות פרוייקט
-              href: proforma-invoicing/corrective-invoices.md
-            - name: קביעת תצורה של אוטומציית חשבוניות מבוססות פרוייקט
+            - name: קביעת תצורה של אוטומציית חשבונית של פרוייקט
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: ניהול הצעות לחשבוניות פרוייקט
-          href: invoicing/format-update-project-invoice-proposals.md
     - name: חשבונאות פרוייקט
       items:
         - name: ברירות מחדל של ממד פיננסי
@@ -502,16 +450,12 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: פריסת Project Operations -‏ ‏Lite
           href: environment/lite-deployment.md
-        - name: החלה של נתוני הגדרת ההדגמה וקביעת התצורה - Lite
+        - name: החלה של הגדרת ההדגמה ונתוני קביעת התצורה - Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: מודל האבטחה
           href: environment/security-model.md
     - name: מה חדש
       items:
-        - name: מה חדש באפריל 2021 - פריסה קלה
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: מה חדש במרץ 2021 - פריסה קלה
-          href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: מה חדש בפברואר 2021 - פריסה קלה
           href: pro/whats-new/whats-new-feb-2021-lite.md
         - name: מה חדש בינואר 2021 - פריסה קלה
@@ -538,7 +482,7 @@
           items:
             - name: מבט כולל על הזדמנויות פרוייקט
               href: sales/manage-project-based-opportunities.md
-            - name: פרטי כותרת להזדמנויות פרוייקט
+            - name: הגדרת הזדמנות פרוייקט
               href: pro/sales/opportunity-header-sales.md
             - name: ניהול שורות הזדמנות מבוססות מוצר
               href: pro/sales/product-based-lines-sales.md
@@ -554,9 +498,9 @@
           items:
             - name: מבט כולל על הצעות מחיר מבוססות פרוייקט
               href: pro/sales/manage-quotes-sales.md
-            - name: מושגים ייחודיים להצעות מחיר לפרוייקט
+            - name: מושגי הצעת מחיר של פרוייקט
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: פרטי כותרת להצעות מחיר לפרוייקט
+            - name: הגדרות הצעת מחיר של פרוייקט
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: לקוחות מרובים בהצעות מחיר של פרוייקט
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -594,9 +538,9 @@
           items:
             - name: מבט כולל על סעיפי חוזים מבוססי פרוייקט
               href: pro/sales/manage-contracts-sales.md
-            - name: מושגים ייחודיים לחוזים של פרוייקט
+            - name: מושגי חוזה של פרוייקט
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: פרטי כותרת לחוזים של פרוייקט
+            - name: הגדרות של חוזה פרוייקט
               href: pro/sales/project-contract-settings-sales.md
             - name: לקוחות מרובים בחוזים של פרוייקט
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -636,38 +580,36 @@
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: הגדרת לוח זמנים של ריטיינרים - Lite
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: יצירת מקדמה אד-הוק על חוזה - Lite
+                - name: יצירת מקדמה אד הוק על חוזה - Lite
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: תמחור ועלויות
       items:
         - name: הגדרת מחירון
           items:
-            - name: הגדרת מחירון
+            - name: הגדרת מחירונים
               href: pricing-costing/price-list-setup.md
-            - name: הגדרת מחירוני מוצר
-              href: pricing-costing/product-price-list.md
-            - name: הגדרת תעריפי חשבון עבור עבודה
+            - name: הגדרת מחירון מכירות
+              href: pricing-costing/sales-price-list-setup.md
+            - name: הגדרת תעריפי חשבון עבודה - Lite
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: הגדרת תעריפי עלות עבור עבודה
+            - name: הגדרת תעריפי עלות עבודה - Lite
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: הגדרת תעריפי עלות ומכירות עבור קטלוג מוצרים - Lite
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: הגדרת תעריפי עלות ומכירות עבור הוצאות
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
-            - name: הגדרת תעריפי עלות ומכירות עבור חומרים
-              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ברירות מחדל ועקיפות
           items:
             - name: מחירוני ברירת מחדל
               href: pricing-costing/default-project-sales-price-lists.md
             - name: עקיפת מחירוני מכירות של פרוייקט
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: פתרון מחירי עלות להערכות ולנתונים בפועל של פרוייקט
+            - name: פתרון מחירי עלות להערכות ונתונים בפועל - Lite
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: פתרון מחירי מכירות עבור הערכות ונתונים בפועל של פרוייקט
+            - name: פתרון מחירי מכירות עבור הערכות ונתונים בפועל - Lite
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: העתקת מחירונים
               href: pricing-costing/copy-price-lists.md
-            - name: ביטול מחירוני פרוייקט
-              href: pricing-costing/deactivatepricelists.md
         - name: ממדי תמחור
           items:
             - name: מבט כולל על ממדי תמחור
@@ -708,36 +650,28 @@
           href: project-management/understand-project-status.md
         - name: הגדרת לוחות שנה של פרוייקטים
           href: project-management/define-project-calendars.md
-        - name: מצבי תזמון
-          hreF: project-management/scheduling-modes.md
-        - name: עדכון פרויקט
+        - name: עדכון פרוייקט
           href: project-management/update-project.md
-        - name: העתקת פרויקט
+        - name: העתקת פרוייקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
-            - name: יצירת מבנה התפלגות העבודה
+            - name: יצירת מבנה התפלגות עבודה
               href: project-management/create-wbs.md
             - name: יצירת הקצאות
               href: project-management/create-assignments.md
-        - name: הערכות כספיות לפרויקטים
+        - name: הערכת פרוייקטים
           items:
-            - name: מושגי הערכה פיננסית
+            - name: מבט כולל על הערכת פרוייקטים
               href: project-management/estimating-projects-overview.md
-            - name: הערכות כספיות עבור זמן של משאב בפרוייקטים
+            - name: הערכות משאבים
               href: project-management/resource-estimates.md
-            - name: הערכות כספיות עבור הוצאות בפרוייקטים
+            - name: יצירת הערכות הוצאה
               href: project-management/create-expense-estimates.md
-            - name: הערכות כספיות עבור חומרים בפרוייקטים
-              href: project-management/create-material-estimate.md
         - name: מעקב אחר פרוייקט
           items:
-            - name: מעקב אחר מאמץ בפרוייקט
+            - name: מבט כולל על מעקב אחר פרוייקט
               href: project-management/project-tracking-overview.md
-            - name: מעקב אחר עלות העבודה בפרוייקטים
-              href: project-management/project-cost-tracking.md
-            - name: מעקב אחר הכנסות העבודה בפרוייקטים
-              href: project-management/project-sales-tracking.md
             - name: עדכון הערכה בעת סיום
               href: project-management/update-completed-estimate.md
         - name: חברי צוות בפרוייקט
@@ -756,8 +690,6 @@
           items:
             - name: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
               href: project-management/dev-copy-project.md
-            - name: שימוש בממשקי API של לוח זמנים (Public Preview)
-              href: project-management/schedule-api-preview.md
     - name: ניהול משאבים
       items:
         - name: מושגים עיקריים
@@ -830,12 +762,8 @@
       items:
         - name: מבט כולל על הוצאה
           href: expense/expense-overview.md
-        - name: הזנת הוצאות (lite)
+        - name: הזנת הוצאות קלות (lite)
           href: expense/basic-expense.md
-    - name: שימוש בחומרים
-      items:
-        - name: רישום השימוש בחומרים בפרוייקטים ובמשימות הפרוייקט
-          href: material/material-usage-log.md
     - name: אישורים
       items:
         - name: מבט כולל על אישורים
@@ -848,8 +776,6 @@
       items:
         - name: מבט כולל על נתונים בפועל
           href: actuals/actuals-overview.md
-        - name: קישור נתונים בפועל לרשומות המקוריות
-          href: actuals/linkingactuals.md
         - name: יומני תיקונים
           items:
             - name: יצירה ואישור של יומני תיקונים
@@ -860,7 +786,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: ניהול מצב ואימות של 'אין לחרוג'
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: חשבוניות פרופורמה של פרוייקט
+        - name: יצירה ידנית של חשבונית פרופורמה של פרוייקט
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: ניהול חשבונית פרופורמה של פרוייקט
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -876,10 +802,6 @@
   items:
     - name: מה חדש
       items:
-        - name: מה חדש באפריל 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: מה חדש במרץ 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: מה חדש בדצמבר 2020 - Project Operations לתרחישים של מלאי/מבוססי ייצור
@@ -901,11 +823,9 @@
     - name: הגדרה ושימוש בתשלומי ספק מסוג גב-אל-גב
       href: prod-pma/setup-manage-vendor-payments.md
     - name: צבירת עלויות פרוייקט על קבלות רכישה
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: הפקת חשבוניות פרוייקט
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: ביצועי הצעה לחשבוניות פרוייקט
-      href: prod-pma/project-invoice-proposal-performance.md
+      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
     - name: חוזי פרוייקט
       href: prod-pma/project-contracts.md
     - name: יצירת חוזים מתקדמים לחיוב על סמך התקדמות
@@ -974,52 +894,44 @@
   items:
     - name: מבט כולל על ניהול הוצאות
       href: prod-exp/expense-management.md
-    - name: חוויית הוצאות חדשה
-      items:
-        - name: דוחות הוצאות חדשניים
-          href: expense/expense-reports-reimagined.md
-        - name: לכידת קבלה באמצעות OCR
-          href: expense/match-receipt-expense-ocr.md
-    - name: קביעת תצורה והגדרה
-      items:
-        - name: הגדרת מדיניות
-          href: expense/set-up-policies.md
-        - name: הגדרת זרימות עבודה
-          href: expense/set-up-workflows.md
-        - name: ניהול הקצאה
-          href: expense/manage-delegation.md
-        - name: קביעת התצורה של פרמטרי ניהול הוצאות
-          href: expense/configure-expense-management-parameters.md
-        - name: הגדרת שילוב כרטיסי אשראי
-          href: expense/set-up-credit-card-integration.md
-        - name: הגדרת קטגוריות הוצאות
-          href: expense/set-up-expense-categories.md
-    - name: הוצאות אישיות
-      href: expense/personal-expenses-expense-report.md
+    - name: דוחות הוצאות חדשניים
+      href: prod-exp/ExpenseWorkspaceNew.md
+    - name: ניהול הוצאות תוכנית
+      href: prod-exp/plan-expense-management.md
+    - name: פרמטרים של ניהול הוצאות
+      href: prod-exp/Expense-Management-Parameters.md
+    - name: סביבת עבודה ניידת לניהול הוצאות
+      href: prod-exp/expense-management-mobile-workspace.md
+    - name: הגדרת זרימות עבודה לניהול הוצאות
+      href: prod-exp/expense-workflows.md
+    - name: זרימת עבודה של ניהול הוצאות
+      href: prod-exp/expense-workflow.md
+    - name: ניהול הקצאת הוצאה
+      href: prod-exp/manage-expense-delegation.md
+    - name: עיבוד קבלת הוצאה
+      href: prod-exp/expense-receipt-processing.md
+    - name: ייבוא וניהול של עסקאות בכרטיסי אשראי
+      href: prod-exp/import-credit-card.md
+    - name: התפלגויות בדוח הוצאות
+      href: prod-exp/expense-report-distributions.md
     - name: הוצאות בין-חברתיות
       href: prod-exp/intercompany-expense.md
-    - name: יצירת דוחות הוצאות
-      items:
-        - name: התפלגויות בדוח הוצאות
-          href: expense/distributions-expense-report.md
-    - name: אישור דוחות הוצאות
-      items:
-        - name: דוחות הוצאות ומאשרים מרובים
-          href: expense/expense-reports-multiple-approvers.md
-    - name: פרסום דוחות הוצאות
-      href: expense/posting-expense-reports.md
-    - name: דרישת נסיעה
-      href: expense/travel-requisition.md
-    - name: מקדמה במזומן
-      href: expense/cash-advance.md
-    - name: אש"ל
-      href: expense/per-diems.md
-    - name: אפליקציית הוצאות למכשירים ניידים
-      href: expense/expense-using-mobile.md
-    - name: ניהול פיננסי
-      items:
-        - name: החזר מע"מ
-          href: expense/vat-recovery.md
+    - name: הגדרת מדיניות הוצאות
+      href: prod-exp/travel-expense-policies.md
+    - name: הצגת דוח הוצאות
+      href: prod-exp/view-expense-report.md
+    - name: פרסום דוח הוצאות
+      href: prod-exp/post-expense.md
+    - name: דוחות הוצאות ומאשרים מרובים
+      href: prod-exp/expense-report-multiple-approvers.md
+    - name: החזר מע"מ בניהול הוצאות
+      href: prod-exp/VAT-expense-report.md
+    - name: כללי אש"ל
+      href: prod-exp/per-diem.md
+    - name: דרישות נסיעה
+      href: prod-exp/travel-req.md
+    - name: הוצאות אישיות בדוח הוצאות
+      href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1028,22 +940,10 @@
       items:
         - name: עדכון לוח הזמנים להפצת Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 31, V3'
-          href: psa/whats-new-ur-31.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 30, V3'
-          href: psa/whats-new-ur-30.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 29.5 תיקון חם, V3'
-          href: psa/whats-new-ur-29-5.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 29, V3'
-          href: psa/whats-new-ur-29.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 28.6, תיקון חם, V3'
-          href: psa/whats-new-ur-28-6.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 28.5, תיקון חם, V3'
           href: psa/whats-new-ur-28-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 28, V3'
           href: psa/whats-new-ur-28.md
-        - name: 'מה חדש ומה השתנה במהדורת עדכון 27.6, תיקון חם, V3'
-          href: psa/whats-new-ur-27-6.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 27.5, תיקון חם, V3'
           href: psa/whats-new-ur-27-5.md
         - name: 'מה חדש ומה השתנה במהדורת עדכון 27, V3'
@@ -1359,7 +1259,7 @@
             - name: הצגת ניצול משאב
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling ‏(URS)
-              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
         - name: מדריך למנהל פרוייקט
           items:
             - name: מדריך למנהל פרוייקט (Project Service)

@@ -2,18 +2,16 @@
 title: העתקת הזדמנויות מבוססות פרוייקט
 description: נושא זה מספק מידע על העתקת הזדמנויות מבוססות פרויקט ב-Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181649"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999722"
 ---
 # <a name="copy-project-based-opportunities"></a>העתקת הזדמנויות מבוססות פרוייקט
 
@@ -34,3 +32,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
     | העתקת תמחור | ערך של כן/לא מציין אם יש להעתיק את התמחור בהזדמנות מההזדמנות המקורית. | אם הערך **כן** נבחר, מחירונים מועתקים מהמקור להזדמנות היעד. אם הערך **לא** נבחר, המחירונים מוגדרים מחדש כברירת מחדל בהתבסס על המחירונים האחרונים שהוגדרו. |
 
 3. בחר **אישור**. המערכת יוצרת עותק של הזדמנות הפרויקט על בסיס הפרמטרים שנבחרו, והזדמנות פרויקט החדשה נפתחת.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

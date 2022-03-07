@@ -2,18 +2,16 @@
 title: הזנת הוצאות (לייט)
 description: נושא זה מספק מידע על אופן העבודה עם הזנת הוצאות בפריסה בגרסת לייט.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: e75a61c25be06a9db121e8165e8ccd25d4719d08
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590947"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002192"
 ---
 # <a name="expense-entry-lite"></a>הזנת הוצאות (לייט)
 
@@ -55,3 +53,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 ## <a name="see-also"></a>למידע נוסף
 
 - [מבט כולל על אישורים](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

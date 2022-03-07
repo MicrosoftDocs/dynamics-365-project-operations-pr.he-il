@@ -2,10 +2,9 @@
 title: דף הבית 'דיווח'
 description: נושא זה מספק מידע אודות דיווח ב- Dynamics 365 Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,28 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147699"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998282"
 ---
-# <a name="reporting-home-page"></a>דף הבית 'דיווח'
+# <a name="reporting-home-page"></a>דף הבית של דיווח
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מבוססי פרויקטים לנהל ביעילות את הפעולות של העסק שלהם. בכל פרויקט, חברי הצוות צריכים לנהל את ההזדמנות, את הצעת המחיר ולתכנן את העבודה, לאייש את הפרויקטים במשאבים, לנהל את העבודה לפי התוכנית, לחייב עבור העבודה ולאחר מכן לבצע את העבודה להשלמת הפרויקט. היכולת לדווח על פעולות חשובה לקביעת תקינות הארגון ולצורך נקיטת פעולה מתקנת, במידה וזו נדרשת. PSA משתמש בשיטות ובטכנולוגיות דיווח של Microsoft Dynamics 365 עבור כל הדיווח שלו. למידע נוסף על אפשרויות הדיווח, ראה [מדריך לכתיבת דוחות עבור Dynamics 365 Customer Engagement (on-premises), גרסה 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מבוססי פרויקטים לנהל ביעילות את הפעולות של העסק שלהם. בכל פרויקט, חברי הצוות צריכים לנהל את ההזדמנות, את הצעת המחיר ולתכנן את העבודה, לאייש את הפרויקטים במשאבים, לנהל את העבודה לפי התוכנית, לחייב עבור העבודה ולאחר מכן לבצע את העבודה להשלמת הפרויקט. היכולת לדווח על פעולות חשובה לקביעת תקינות הארגון ולצורך נקיטת פעולה מתקנת, במידה וזו נדרשת. PSA משתמש בשיטות ובטכנולוגיות דיווח של Microsoft Dynamics 365 עבור כל הדיווח שלו. למידע נוסף על אפשרויות הדיווח, ראה [מדריך לכתיבת דוחות עבור Dynamics 365 Customer Engagement (on-premises), גרסה 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>אשף הדוחות
 
-אשף הדוחות מאפשר למשתמשים שאינם מפתחים ליצור דוחות פשוטים. מכיוון שהאפליקציה בנויה על פלטפורמה קיימת, החוויה זהה לחוויה המתועדת בנושא [‬‏‫יצירה או עריכה של דוח באמצעות אשף הדוחות‬‏‫](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). עם זאת, עליך להשתמש בישויות שהנן ספציפיות ל- Project Service Automation.
+אשף הדוחות מאפשר למשתמשים שאינם מפתחים ליצור דוחות פשוטים. מכיוון שהאפליקציה בנויה על פלטפורמה קיימת, החוויה זהה לחוויה המתועדת בנושא [‬‏‫יצירה או עריכה של דוח באמצעות אשף הדוחות‬‏‫](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). עם זאת, עליך להשתמש בישויות שהנן ספציפיות ל- Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>דוחות מותאמים אישית של SQL Server Reporting Services
 
-אם העסק שלך דורש דוח מסוים שלא ניתן ליצור באמצעות אשף הדוחות, תוכל ליצור דוח מותאם אישית. עליך להתקין את Microsoft Visual Studio, יחד עם Microsoft SQL Server Data Tools ו- Report Authoring Extensions המתאימים. לקבלת מידע נוסף על כלים וגירסאות, ראה [סביבת כתיבת דוחות באמצעות SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). לקבלת מידע אודות אופן יצירת דוח מותאם אישית, ראה [יצירת דוח חדש באמצעות SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+אם העסק שלך דורש דוח מסוים שלא ניתן ליצור באמצעות אשף הדוחות, תוכל ליצור דוח מותאם אישית. עליך להתקין את Microsoft Visual Studio, יחד עם Microsoft SQL Server Data Tools ו- Report Authoring Extensions המתאימים. לקבלת מידע נוסף על כלים וגירסאות, ראה [סביבת כתיבת דוחות באמצעות SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). לקבלת מידע אודות אופן יצירת דוח מותאם אישית, ראה [יצירת דוח חדש באמצעות SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>אפליקציות Power BI להשגת תובנות
 
@@ -52,3 +51,6 @@ Microsoft Dynamics 365 Project Service Automation מאפשר לארגונים מ
 - [עבודה עם מודל הנתונים של Project Service](reports-working-project-service-data-model.md)
 - [לוחות מחוונים](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

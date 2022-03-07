@@ -2,18 +2,16 @@
 title: ניהול לקוחות מרובים בשורות הצעות מחיר מבוססות פרוייקט - לייט
 description: נושא זה מתאר כיצד לנהל לקוחות מרובים בשורות הצעת מחיר מבוססות פרויקט.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001702"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>ניהול לקוחות מרובים בשורות הצעות מחיר מבוססות פרוייקט - לייט
 
@@ -43,3 +41,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 ניתן לערוך את אחוזי פיצול החיוב בשורה. כאשר אחוזי פיצול החיוב אינם מסתכמים ב-100%, מתרחשת שגיאה. לאחר עריכת אחוזי הפיצול לחיוב, רענן את דף שורת הצעת המחיר כדי להסיר את השגיאה.
 
 השתמש בפעולת ההפצה השווה ברשת המשנה של לקוחות שורת הצעת מחיר כדי להקצות פיצולי חיוב לכל לקוחות שורת הצעת המחיר. אם קיים גורם עיגול, הוא יתווסף ללקוחות שעבורם מתבצע עיגול. אחד מלקוחות שורת הצעת המחיר מתויג תמיד כלקוח שעבורו מתבצע עיגול, ומשמעות הדבר היא שברשומת הלקוח של שורת הצעת המחיר,  דגל העיגול מוגדר ל **כן**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

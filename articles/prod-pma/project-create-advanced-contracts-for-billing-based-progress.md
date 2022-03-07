@@ -2,9 +2,11 @@
 title: יצירת חוזים מתקדמים לחיוב על סמך התקדמות
 description: נושא זה מסביר כיצד ליצור חוזי פרויקט כדי שתוכל ליצור חשבוניות ללקוחות על סמך אחוז העבודה שהושלמה.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000982"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077437"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>יצירת חוזים מתקדמים לחיוב על סמך התקדמות
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ ms.locfileid: "7000982"
 8. אופציונלי: הקצאת כלל החיוב לפרויקטים נוספים. ב- FastTab **פרויקט**, בקטע **פרויקטים זמינים**, בחר פרויקט ולאחר מכן לחץ על לחצן החץ ימינה כדי להוסיף את הפרויקט למקטע **פרויקטים שנבחרו**.
 9. אופציונלי: חישוב הסכום באחוזים שהלקוח מעכב את התשלום שלו בחשבונית. ב- FastTab **תנאי שמירת תשלום**, בחר את מקור המימון ואז, בשדה **אחוז שמירה**, הזן את אחוז השמירה.
 10. חזור על שלבים אלה כדי ליצור כללי חיוב נוספים עבור חוזה הפרויקט.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

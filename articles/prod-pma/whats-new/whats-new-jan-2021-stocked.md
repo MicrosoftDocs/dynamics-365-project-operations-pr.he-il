@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958649"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950850"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 
@@ -144,4 +144,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | ב- Project Operations, לא ניתן ליצור או לאשר זמן עם משימות בין-חברות ב- Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

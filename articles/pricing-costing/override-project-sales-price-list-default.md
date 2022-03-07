@@ -2,19 +2,17 @@
 title: עקיפת מחירוני מכירות של פרויקט
 description: נושא זה מספק מידע על יצירת מחירוני מכירה מותאמים אישית.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672232"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009577"
 ---
 # <a name="override-project-sales-price-lists"></a>עקיפת מחירוני מכירות של פרויקט
 
@@ -52,3 +50,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 בחוזה פרוייקט, ברירת המחדל של תמחור הפרויקט הוא תמיד מחירון מותאם אישית עם שם החוזה וחותמת התאריך שנוצר מצורף לשם. זה נכון בין אם החוזה נוצר כאשר הצעת המחיר זכתה ובין אם החוזה נוצר מאפס. במידת הצורך, ניתן להסיר שיוך זה למחירון המותאם אישית ולשיך במקום זאת מחירון סטנדרטי לחוזה הפרויקט.
 
 כאשר משייכים מחירון סטנדרטי למחירוני הפרויקט בהצעת מחיר או חוזה, כל שינוי שנעשה במחירים במחירון ישפיע על כל הצעות המחיר והחוזים שמשתמשים במחירון.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

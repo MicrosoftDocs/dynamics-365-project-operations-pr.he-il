@@ -2,18 +2,17 @@
 title: מבט כולל על תהליך הוצאת חשבוניות
 description: נושא זה מספק סקירה כללית על הפקת חשבוניות ב- Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fbc1519b6cbcf231cfa89df8b7843d11a8904e49
-ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5089247"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369017"
 ---
 # <a name="invoicing-process-overview"></a>מבט כולל על תהליך הוצאת חשבוניות
 
@@ -30,3 +29,6 @@ Project Operations לתרחישים מבוססי משאבים/ללא מלאי מ
 אתה יכול [ליצור ידנית חשבונית פרופורמה](../proforma-invoicing/create-manual-proforma-invoice.md) או להשתמש ב- [תהליך תקופתי](../proforma-invoicing/configure-automated-invoice-creation.md). מנהל הפרוייקט יכול [להתאים טיוטת חשבונית פרופורמה](../proforma-invoicing/manage-proforma-invoice.md) לפי הצורך ואז לאשר זאת.
 
 חשבונית הפרופורמה שאושרה נשלחת למודול **ניהול פרוייקטים וחשבונאות** ב- Finance. רואה החשבון של הפרוייקט מעצב ומעדכן את הצעת חשבונית הפרוייקט, ואז מפרסם ומדפיס את המסמך. חשבוניות פרוייקט שפורסמו נרשמות בספר החשבונות הכללי, וכן בספרי המשנה של הלקוח ושל הפרוייקט.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

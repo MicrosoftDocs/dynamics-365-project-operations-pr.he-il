@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077445"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>יצירה והחלה של תנאי שמירת התשלום של ספק
 
@@ -65,6 +65,3 @@ ms.locfileid: "5270949"
 6. אם בפרויקט מוגדרים תנאי תשלום גב-אל-גב (PWP) עבור הספק, הזן את אחוז הסף עבור הפרויקט בשדה **אחוז הסף של גב-אל-גב**.
 
 תנאי השמירת של הספק מוצגים גם בהזמנות רכש שאתה יוצר עבור הספק.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

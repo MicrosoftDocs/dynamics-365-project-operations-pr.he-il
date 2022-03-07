@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4c2cd4c5d4dfbb95398932d432864cf0d4d5d54d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276844"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
@@ -92,7 +92,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>פרוס את סביבת ההדגמה של Finance עם Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
 
-פעל לפי ההנחיות בנושא [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview. 
+פעל לפי ההנחיות בנושא [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>התקן הגדרת CDS ונתוני תצורה
 

@@ -2,18 +2,16 @@
 title: מושגים מרכזיים לניהול משאבים
 description: נושא זה מספק מידע על יכולות ניהול משאבים ב- Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123874"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000977"
 ---
 # <a name="resource-management-key-concepts"></a>מושגים מרכזיים לניהול משאבים
 
@@ -35,3 +33,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 
 ניתן לאייש את הפרויקט בצוות של משאבים כלליים או בעלי שם ב- Project Operations. ניתן להשתמש בשיטות שונות כדי להוסיף ולהקצות חברי צוות ולנהל את ההזמנות וההקצאות שלהם. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

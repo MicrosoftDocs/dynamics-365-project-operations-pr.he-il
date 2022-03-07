@@ -2,18 +2,16 @@
 title: הזמנות לעומת הקצאות
 description: נושא זה מספק מידע על ההבדלים שבין הזמנת משאבים והקצאות משאבים.
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008452"
 ---
 # <a name="bookings-vs-assignments"></a>הזמנות לעומת הקצאות
 
@@ -26,3 +24,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 בדרך כלל סך ההזמנות עבור משאב ישווה לסך המשימות של המשאב על פני משימה אחת או רבות. עם זאת, Project Operations אינו אוכף הסכם זה. התצוגה **התאמה** מציגה בפני מנהל פרויקט מקומות שבהם הזמנות וההקצאות של משאב אינן תואמות.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

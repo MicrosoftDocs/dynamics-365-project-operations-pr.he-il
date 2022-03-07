@@ -2,11 +2,9 @@
 title: הגדרת לוחות שנה של פרוייקטים
 description: נושא זה מספק מידע על אופן החלת תבנית לוח שנה על פרויקט כדי לעקוב אחר לוח הזמנים של הפרויקט.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981301"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487641"
 ---
 # <a name="define-project-calendars"></a>הגדרת לוחות שנה של פרוייקטים
 
@@ -48,7 +46,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 1. עבור אל **משאבים** \> **משאבים**.
 2. צור משאב חדש להפניה בתבנית לוח השנה, או בחר משאב קיים.
-3. בחר את הכרטיסיה **שעות עבודה** של המשאב והשלם את ההוראות בהסבר: [הגדרת שעות עבודה עבור משאב](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) כדי להגדיר את כללי לוח השנה.
+3. בחר את הכרטיסיה **שעות עבודה** של המשאב והשלם את ההוראות בהסבר: [הגדרת שעות עבודה עבור משאב](/dynamics365/field-service/set-work-hours-resource) כדי להגדיר את כללי לוח השנה.
 
 **צור תבנית לוח שנה חדשה**
 

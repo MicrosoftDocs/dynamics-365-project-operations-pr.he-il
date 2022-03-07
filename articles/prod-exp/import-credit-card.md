@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077461"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>ייבוא וניהול של עסקאות בכרטיסי אשראי
+
+[!include [banner](../includes/banner.md)]
 
 ניתן להגדיר עסקאות בכרטיסי אשראי הקשורות להוצאות כך שהן יובאו אוטומטית בתזמון חוזר. לחלופין, ניתן לייבא את העסקאות באופן ידני לפי הצורך. עסקאות כרטיסי האשראי מיובאות באמצעות הישות של נתוני עסקאות בכרטיסי אשראי.
 
@@ -50,6 +52,3 @@ ms.locfileid: "5271579"
 לאחר ביטול רשומת עובדים, חשבון Active Directory Domain Services‏ (AD DS) של העובד מושבת. עם זאת, יתכנו עסקאות פעילות בכרטיסי אשראי שעדיין יש לרשום כהוצאות ולזכות עבורן. מהדף **עסקאות בכרטיסי אשראי**, באפשרותך להקצות את העובד מחדש לכל עסקה בכרטיס אשראי שבה העובד המשויך כבר עזב.
 
 בחר עסקאות בכרטיסי אשראי, אחת או יותר, ובחר **הקצה מחדש עסקאות**. לאחר מכן תוכל לבחור עובד אחר שאליו יש להקצות את העסקאות בכרטיס אשראי. לאחר ההקצאה מחדש של עסקאות כרטיסי האשראי, ניתן לבחור אותן לדוח הוצאות ולשלם עם התהליך הרגיל להחזר דוח הוצאות.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

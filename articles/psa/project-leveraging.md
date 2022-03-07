@@ -2,8 +2,6 @@
 title: הערכות של מכירות ופרויקטים
 description: נושא זו מספק מידע על הפקת המרב מלוח הזמנים ומהערכות בתהליך המכירות.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148374"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995177"
 ---
 # <a name="sales-estimates-and-projects"></a>הערכות של מכירות ופרויקטים
 
@@ -37,11 +35,11 @@ ms.locfileid: "5148374"
 
 בעת יצירת שורת הצעת מחיר מבוססת פרויקט, תוכל ליצור פרויקט חדש או לשייך פרויקט קיים בדף **שורת הצעת מחיר**. 
 
-> ![טופס שורת הצעת מחיר](media/project-8.png)
+> ![טופס שורת הצעת מחיר.](media/project-8.png)
  
 בעת יצירת פרויקט חדש מפרטי שורת הצעת המחיר,תוכל להשתמש בתבניות הפרויקט. תבניות פרויקט הן פרויקטים לדוגמה המייצגים תוכניות פרויקט סטנדרטיות והערכות פיננסיות האופייניות לארגון. הן יכולות לייצג גם העתקים של תוכניות פרויקט והערכות מפרויקטי עבר.
 
-> ![פרטים בשורת הצעת מחיר](media/project-9.png)
+> ![פרטים בשורת הצעת מחיר.](media/project-9.png)
   
 בעת יצירת הפרויקט מהצעת המחיר, הפרויקט משויך באופן אוטומטי לשורת הצעת מחיר.
 
@@ -54,3 +52,6 @@ ms.locfileid: "5148374"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>ייבוא הערכות מפרויקט לתוך הצעת מחיר
 
 לאחר שתגדיר הערכות פרויקט, תוכל לייבא אותן לשורת הצעת המחיר. בדף **פרטי שורת הצעת מחיר**, בחר **יבא מהערכות** ברצועת הכלים כדי לסכם את הערכות בפרויקט לפי סוג עסקה, תפקיד ורמת משימה.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

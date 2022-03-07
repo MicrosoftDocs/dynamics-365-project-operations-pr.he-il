@@ -2,18 +2,16 @@
 title: מה חדש נובמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת נובמבר 2020 של Project Operations לתרחישים מבוססי משאבים/לא מלאי.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367266"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007957"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש נובמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -67,4 +65,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | חשבונאות פרויקט  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | הפעלת התכונה סעיפי חוזה מרובים אינם אפשרית ללא שילוב CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

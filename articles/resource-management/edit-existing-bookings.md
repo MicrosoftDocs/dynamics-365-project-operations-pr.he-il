@@ -2,18 +2,16 @@
 title: עריכת הזמנות
 description: נושא זה מספק מידע על אופן העדכון והשינויים בהזמנות.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841345"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008317"
 ---
 # <a name="edit-bookings"></a>עריכת הזמנות
 
@@ -33,3 +31,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ## <a name="schedule-board"></a>לוח זמנים
 
 דרך **לוח הזמנים**, ל- Resource Manager יש תצוגת תיק של כל ההזמנות בארגון. בתצוגה זו, Resource Manager יכול להאריך, לקצר או להזיז הזמנות קיימות בדומה ליכולות המוצעות באפשרות **השאר הזמנות**. ל- Resource Manager יש גם אפשרות להחליף את המשאבים הקיימים שהוקצו להזמנה ספציפית על ידי לחיצה ימנית על ההזמנה ובחירה באפשרות **החלפת משאב**. מנהלי משאבים יכולים גם לערוך את קווי המתאר של ההזמנות הקיימות על ידי לחיצה ימנית על ההזמנה ובחירה באפשרות **ערוך**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

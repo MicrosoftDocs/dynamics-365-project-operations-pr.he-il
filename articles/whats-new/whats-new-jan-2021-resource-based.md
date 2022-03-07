@@ -2,19 +2,17 @@
 title: מה חדש, ינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת ינואר 2021 של Project Operations לתרחישים מבוססי משאבים/לא מלאי.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: c600c30acd5e07e6370459928e33033a6ba418d6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958915"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995757"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, ינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -88,4 +86,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: מה חדש או שונה במהדורה המעודכנת של Project Se
 description: נושא זה מפרט את התכונות החדשות והתיקונים במהדורה 24, עדכון V3 של Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,16 +17,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146709"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077260"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>מהדורה 24, V3 של Project Service Automation
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 

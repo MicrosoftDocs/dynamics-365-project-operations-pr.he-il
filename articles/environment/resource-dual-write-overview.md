@@ -5,15 +5,15 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9d6a7c367872219b4aca32aecb15d6837ebe296
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007912"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955659"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>מבט על של שילוב כתיבה כפולה ב- Project Operations
 
@@ -23,7 +23,7 @@ Project Operations משתמש ב[יכולות כתיבה כפולה](/dynamics36
 
 האיור הבא מראה כיצד נתונים מסונכרנים כחלק משילוב זה בין Dataverse ו- Finance.
 
-![מבט כולל על זרימות נתונים ב- Project Operations.](./media/ProjectOperationsFlows.jpg)
+![מבט כולל על זרימות נתונים ב- Project Operations](./media/ProjectOperationsFlows.jpg)
 
 Project Operations ב- Dataverse מספק ממשק משתמש (UI) מודרני שניתן להרחבה בקלות ללא קוד או עם מעט קוד באמצעות יכולות Power Platform. מנהלי פרויקטים, מנהלי משאבים, אנשי צוות פרוייקטים משתמשי משרד חזיתי אחרים, מבצעים את פעולותיהם ב- Project Operations ב- Dataverse.
 

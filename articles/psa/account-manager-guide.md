@@ -2,8 +2,6 @@
 title: מדריך למנהלי תיקי לקוחות
 description: מדריך למנהל תיקי לקוחות עבור Project Service שמסביר את תהליך המכירה והחוזים עבור תיקי לקוחות המבוססים על פרויקט
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 57b9d6d391d4babda6e4f67f3f49798b70876aa8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146080"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014702"
 ---
 # <a name="account-manager-guide-project-service"></a>מדריך למנהל תיקי לקוחות (Project Service)
 
@@ -48,3 +46,6 @@ ms.locfileid: "5146080"
  [מדריך למנהל פרוייקט](../psa/project-manager-guide.md)   
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)   
  [‏‫מדריך בנושאי זמן, הוצאות ושיתוף פעולה](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

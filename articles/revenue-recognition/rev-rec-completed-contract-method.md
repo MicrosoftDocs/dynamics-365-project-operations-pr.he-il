@@ -2,18 +2,16 @@
 title: ניהול הערכות הכנסה
 description: נושא זה מספק מידע על אופן העבודה עם הערכת הכנסות בפרויקטים.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996527"
 ---
 # <a name="manage-revenue-estimates"></a>ניהול הערכות הכנסה
 
@@ -90,3 +88,6 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 השתמש בדף זה כדי להפוך את כל הביטולים עם תאריך אומדן מוגדר ועם סטטוס אומדן **בוטל**. סטטוס העסקה משתנה לאחר בחירת השדות המתאימים.
 
 זה גם משנה באופן אוטומטי את סטטוס הפרויקט ל- **בתהליך** אם שלב הפרויקט מוגדר לסיום. מצב האומדן של תקופת הפרויקט משתנה חזרה ל- **פורסם**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 15 V3
 description: נושא זה מספק מידע על מה חדש בעדכון המהדורה 15, V3 של Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004447"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>מהדורה 15, V3 של Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-אנו שמחים להכריז על העדכון האחרון עבור יישום Dynamics 365 Project Service Automation‏ (PSA). מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+אנו שמחים להכריז על העדכון האחרון עבור יישום Dynamics 365 Project Service Automation‏ (PSA). מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
 נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 15, עדכון V3 של PSA. מספר ה-build של גירסה זו הוא V3.10.5.28 והיא זמינה דרך עדכון עצמי החל מינואר 2020.
 
@@ -63,3 +61,6 @@ ms.locfileid: "5143964"
   - תוקן: כבר לא מקבלים הודעת שגיאה בזמן **חיפוש פרויקט** בטופס **שורת הצעת מחיר** כשיש יותר מ- 1000 פרויקטים.
   - תוקן: רשת **הערכות** לאומדני עבודה ואומדני הוצאות מציגה כעת את סמל המטבע הנכון.
   - תוקן: לאחר שארגון מעדכן את PSA מעדכון מהדורה 14 לעדכון מהדורה 15, הכרטיסיה **לוח זמנים** כבר לא מופיעה ריקה בטופס **פרויקט**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

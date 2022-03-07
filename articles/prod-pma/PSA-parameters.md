@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077448"
 ---
 # <a name="project-service-automation-integration-parameters"></a>פרמטרי שילוב של Project Service Automation
 
@@ -47,6 +47,3 @@ ms.locfileid: "5270904"
 | ברירות מחדל לסוג חיוב  | סוג חיוב         | לחץ על **חדש** כדי להוסיף שורה שבה תוכל לבחור את סוג החיוב שאליו יש להגדיר את מאפיין השורה בברירת מחדל. ניתן לבחור סוג חיוב ספציפי פעם אחת בלבד בתצורה. |
 |                        | מאפיין שורה        | בחר את מאפיין השורה המוגדר כברירת מחדל עבור סוג החיוב שנבחר. כשהערכות השעות החדשות, הערכות ההוצאות החדשות או הנתונים בפועל החדשים מסונכרנים מ- Project Service Automation, השדה **מאפיין שורה** מוגדר לערך ברירת המחדל עבור סוג החיוב. |
 | נעילת פונקציונליות  | לא ישים       | בחר את הפונקציונליות כדי להשבית את Finance עבור פרויקטים וחוזים שמקורם ב- Project Service Automation. לדוגמה באפשרותך לכבות את היכולת לערוך חוזים ופרויקטים, ליצור מבנים של התפלגות עבודה ולהזין גליונות זמנים ב- Finance. שדות הקשורים לחשבונאות ימשיכו להיות זמינים, גם אם הם הפכו ללא זמינים באמצעות הגדרת הפרמטר. כברירת מחדל, כל פריטי הפונקציונליות זמינים. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: שימוש בקטגוריית עסקה כממד תמחור
 description: נושא זה מספק מידע על השימוש בקטגוריית עסקה כממד תמחור.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513988"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996122"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>שימוש בקטגוריית עסקה כממד תמחור
 
@@ -50,3 +48,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 2. בדף **פרמטרים**, בכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות**, יש לוודא שהרשת מציגה את הרשומות בישות **ממדי תמחור**.
 3. הוסף **קטגוריית עסקה** לרשימה זו והגדר את השדות **חל על עלות** ו **חל על מכירות** לערך **כן**.
 4. בשדה **סוג ממד**, בחר **מבוסס-כמות** ולאחר מכן בחר את העדיפות עבור **קטגוריית העסקה** שקשורה לעלות ולמכירות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

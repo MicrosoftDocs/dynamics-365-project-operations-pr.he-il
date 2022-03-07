@@ -2,22 +2,20 @@
 title: עבודה עם סעיפי חוזה מבוססי פרוייקט
 description: נושא זה מספק מידע על עבודה עם סעיפי חוזה מבוססי פרויקט.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181721"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990047"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>עבודה עם סעיפי חוזה מבוססי פרוייקט
 
-סעיפי חוזה מבוססי פרויקטים ב-Dynamics 365 Project Operations נועדו להחזיק את הסכמי ההערכה והחיוב עבור רכיבים ספציפיים בעבודת הפרויקט של ההתקשרות. המבנה של סעיף חוזה מבוסס פרויקט מורחב להערכות פרויקט ותרחישי החיוב עם המושגים הבאים:
+סעיפי חוזה מבוססי פרויקטים ב- Dynamics 365 Project Operations נועדו להחזיק את הסכמי ההערכה והחיוב עבור רכיבים ספציפיים בעבודת הפרויקט של ההתקשרות. המבנה של סעיף חוזה מבוסס פרויקט מורחב להערכות פרויקט ותרחישי החיוב עם המושגים הבאים:
 
 - שיטת חיוב
 - מיפוי פרוייקט ומשימות
@@ -57,3 +55,6 @@ ms.locfileid: "4181721"
 | C1       | CL2           | P1      | Yes           | ‏‏כן             | Yes          | חוקי           | הזמן והעמלות בפרויקט P1 כלולים ב-CL1. הוצאות בפרויקט P1 כלולות ב-CL2. </br>   אין חפיפה במה שנכלל בכל קו חוזה ולכן זה תקף.  |
 | C1       | CL1           | P1      | ‏‏כן          | ‏‏כן             | ‏‏כן         | לא חוקי       | מפר את הכלל. זמן, הוצאות ועמלות בפרויקט P1 כלולים בסעיפים של שני חוזים.                                                                                               |
 | CL2      | CL2           | P1      | ‏‏כן          | ‏‏כן             | ‏‏כן         | לא חוקי       | מפר את הכלל. זמן, הוצאות ועמלות בפרויקט P1 כלולים בסעיפים של שני חוזים.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

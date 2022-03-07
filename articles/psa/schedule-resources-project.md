@@ -2,8 +2,6 @@
 title: ‏‫קביעת לוח זמנים למשאבי פרויקט
 description: כיצד לקבוע לוח זמנים למשאבי פרויקט ב- Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150444"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998147"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>קביעת לוח זמנים למשאבי פרויקט (Project Service)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5150444"
   
 לוח הזמנים מציג רשימה של משאבים עם הזמינות שלהם. בחר מצב תצוגה כדי להציג את הזמינות שלך לפי **שעות**, **יום**, **שבוע**, או **חודש**.  
   
- קביעת תצורה של לוח הזמנים (Field Service or Project Service Automation) למידע נוסף, ראה [קביעת תצורה ללוח הזמנים (Field Service או Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+ קביעת תצורה של לוח הזמנים (Field Service or Project Service Automation) למידע נוסף, ראה [קביעת תצורה ללוח הזמנים (Field Service או Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 אם אתה משתמש בגרסה ישנה יותר, כדי לצפות בזמינות המשאבים היכנס ל[הצגת זמינות משאבים](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ ms.locfileid: "5150444"
   
 ### <a name="additional-resources"></a>משאבים נוספים  
  [מדריך למנהל משאבים](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

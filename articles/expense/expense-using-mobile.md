@@ -1,12 +1,12 @@
 ---
-title: אפליקציית הוצאות למכשירים ניידים
+title: הוצאות באמצעות מכשיר נייד
 description: נושא זה מספק מידע על סביבת עבודה של ניהול הוצאות דרך מכשירים ניידים.
 author: suvaidya
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499897"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077310"
 ---
-# <a name="mobile-expense-app"></a>אפליקציית הוצאות למכשירים ניידים
+# <a name="expense-using-mobile"></a>הוצאות באמצעות מכשיר נייד
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
@@ -236,6 +236,3 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 22. בחר **שלח**.
 23. הזן הערות עבור המאשר.
 24. בחר **סיום**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
