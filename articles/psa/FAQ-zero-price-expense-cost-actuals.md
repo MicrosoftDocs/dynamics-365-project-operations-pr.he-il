@@ -2,8 +2,6 @@
 title: מדוע ברירת המחדל למחיר היא אפס עבור עלות ההוצאות בפועל?
 description: פתרון בעיות בנושא מדוע ברירת המחדל למחיר היא אפס עבור עלות ההוצאות בפועל.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/22/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 742b0b9c495b4b3ecb4705be3ece5656f0322ca9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a6e971ff0477d5a9cb8652541095538b9f9039c0870362077218df609871ed4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285844"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990947"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>מדוע ברירת המחדל למחיר היא אפס עבור הנתונים בפועל של עלות הוצאות
 

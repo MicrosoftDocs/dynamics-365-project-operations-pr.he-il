@@ -1,8 +1,6 @@
 ---
 title: שליחה של בקשת משאב
 description: נושא זה מספק מידע על שליחת בקשה עבור משאב פרויקט.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131269"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985007"
 ---
 # <a name="submitting-a-resource-request"></a>שליחה של בקשת משאב
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -34,8 +34,11 @@ ms.locfileid: "4131269"
 1. ב- Project Service Automation‏ (PSA), בדף **פרויקטים**, לחץ על הכרטיסיה **צוות** כדי להציג רשימה של משאבים הניתנים להזמנה. 
 2. בחר את המשאב הכללי בעל דרישת משאב מהרשימה ולאחר מכן לחץ על **שלח בקשה**.
 
-![שליחה של בקשת משאב](media/RM-how-to-18.png)
+![שליחה של בקשת משאב.](media/RM-how-to-18.png)
 
 מצב הבקשה של חבר הצוות הכללי ישתנה ל **נשלח**.
 
 לאחר שהבקשה מומשה על-ידי מנהל המשאבים, המשאב הכללי יוחלף במשאב בעל שם אם מנהל המשאבים מממש את הבקשה בהזמנה של משאב בעל שם. אחרת, המשאב הכללי יישאר בצוות ומצב הבקשה ישתנה ל **נחוצה סקירה**, אם מנהל המשאבים הציע משאב בעל שם.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

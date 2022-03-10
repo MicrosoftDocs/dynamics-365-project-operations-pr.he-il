@@ -2,11 +2,9 @@
 title: פרמטרי שילוב של Project Service Automation
 description: נושא זה מסביר כיצד להגדיר את אופן הזנת הנתונים בברירת מחדל בעת שילוב Microsoft Dynamics 365 for Project Service Automation עם Microsoft Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077448"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005842"
 ---
 # <a name="project-service-automation-integration-parameters"></a>פרמטרי שילוב של Project Service Automation
 
@@ -47,3 +45,6 @@ ms.locfileid: "4077448"
 | ברירות מחדל לסוג חיוב  | סוג חיוב         | לחץ על **חדש** כדי להוסיף שורה שבה תוכל לבחור את סוג החיוב שאליו יש להגדיר את מאפיין השורה בברירת מחדל. ניתן לבחור סוג חיוב ספציפי פעם אחת בלבד בתצורה. |
 |                        | מאפיין שורה        | בחר את מאפיין השורה המוגדר כברירת מחדל עבור סוג החיוב שנבחר. כשהערכות השעות החדשות, הערכות ההוצאות החדשות או הנתונים בפועל החדשים מסונכרנים מ- Project Service Automation, השדה **מאפיין שורה** מוגדר לערך ברירת המחדל עבור סוג החיוב. |
 | נעילת פונקציונליות  | לא ישים       | בחר את הפונקציונליות כדי להשבית את Finance עבור פרויקטים וחוזים שמקורם ב- Project Service Automation. לדוגמה באפשרותך לכבות את היכולת לערוך חוזים ופרויקטים, ליצור מבנים של התפלגות עבודה ולהזין גליונות זמנים ב- Finance. שדות הקשורים לחשבונאות ימשיכו להיות זמינים, גם אם הם הפכו ללא זמינים באמצעות הגדרת הפרמטר. כברירת מחדל, כל פריטי הפונקציונליות זמינים. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

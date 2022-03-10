@@ -2,12 +2,10 @@
 title: יצירת שדות וישויות מותאמים אישית
 description: נושא זה מסביר כיצד ליצור קבוצות אפשרויות וישויות בפתרון שלך בפלטפורמת Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +15,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992432"
 ---
 # <a name="create-custom-fields-and-entities"></a>יצירת שדות וישויות מותאמים אישית 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 בצע את השלבים הבאים בכל עת שברצונך ליצור קבוצת אפשרויות או ישות מותאמת אישית בפלטפורמת Power Apps.  
 יש להשלים את ההליכים בנושא זה באמצעות ממשק האינטרנט של Project Service Automation‏ (PSA).
@@ -43,7 +43,7 @@ ms.locfileid: "4077377"
 2. בסייר הפתרונות, בחלונית הניווט הימנית, בחר **ישויות**.
 3. לחץ על **חדש** כדי ליצור ישות חדשה בשם **כותרת סטנדרטית**. הזן את המידע הדרוש שנותר ולאחר מכן לחץ על **שמור**.
 
-> ![הגדרת ישות של כותרת סטנדרטית](media/Standard-Title-entity-definition.png)
+> ![הגדרת ישות של כותרת סטנדרטית.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>ממדים מבוססי-קבוצת אפשרויות 
@@ -54,9 +54,9 @@ ms.locfileid: "4077377"
 2. בסייר הפתרונות, בחלונית הניווט הימנית, בחר **קבוצות אפשרויות**. 
 3. לחץ על **חדש** כדי ליצור קבוצת אפשרויות חדשה, הזן את המידע הדרוש שנותר ולחץ על **שמור**.
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב' ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'מיקום עבודה של משאב' .](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב' ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![ממד תמחור מבוסס-קבוצת אפשרויות הנקרא 'שעות עבודה של משאב' .](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>יצירת נתונים עבור ממדים מבוססי-ישות
@@ -68,6 +68,9 @@ ms.locfileid: "4077377"
 3. סגור את הטופס. 
 4. חזור על שלבים 1-3 כדי ליצור כותרת סטנדרטית נוספת עבור "מהנדס מערכות בכיר".
 
-> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית' ](media/ST-data.png)
+> ![נתונים לדוגמה עבור ישות 'כותרת סטנדרטית' .](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: מושגים עיקריים
 description: נושא זה מספק מידע על המושגים העיקריים בתחום ניהול המשאבים ב- Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 862e277d8109e810401bdecd4c45c2696275f8a8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120364"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995087"
 ---
 # <a name="key-concepts"></a>מושגים עיקריים
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -46,3 +46,6 @@ ms.locfileid: "4120364"
 | מתאר                    | שעות משימה, דרישה, או הקצאה כפי שהן מחולקות לחלוקה יומית. לדוגמה, ניתן ליצור קווי מתאר של משימה בת חמישה ימים ו- 40 שעות כמשימה של שמונה שעות ביום, הנפרסת על-פני חמישה ימים. |
 | תצוגת התאמה        | תצוגה שמציגה את ההזמנות וההקצאות עבור כל חבר צוות בפרויקט. תצוגה זו מאפשרת למנהל הפרויקט לחפש אי-התאמה בין הזמנות להקצאות, ולנקוט פעולה מתקנת אם מתרחשת אי-התאמה כלשהי. |
 | שעות עבודה                 | ישות המשמשת לזיהוי קיבולת משאבים, וכן שעות עבודה ושעות שאינן שעות עבודה. ישות זו מכונה גם 'לוח השנה של המשאב'. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,24 +2,24 @@
 title: מודל האבטחה
 description: נושא זה מספק מידע על מודל האבטחה ב- Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124369"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991487"
 ---
 # <a name="security-model"></a>מודל האבטחה
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-Microsoft Dynamics 365 Project Operations מכיל מודל אבטחה ייחודי המאפשר מודל אבטחה עסקי מבוסס תפקיד המשתף פעולה עם קבוצות Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations מכיל מודל אבטחה ייחודי המאפשר מודל אבטחה עסקי שמבוסס על תפקידים ומשתף פעולה עם קבוצות Microsoft Office. 
 
 
 ## <a name="security-roles"></a>תפקידי אבטחה
@@ -56,9 +56,9 @@ Project באינטרנט מוסיף משתמשים לקבוצה באופן או�
 
 Project Operations לא יוצר קבוצה באמצעות פעולה משתמעת ועושה זאת רק באמצעות פעולה מפורשת של קבוצות הדורשות זאת.
 
-חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה. למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](https://docs.microsoft.com/power-platform/admin/control-user-access).
+חיפוש חבר קבוצה בדו-שיח **ניהול קבוצה** מוגבל לאלה המוגדרים כחלק מקבוצת האבטחה של הסביבה. למידע נוסף, ראה [בקרה על גישת משתמשים לסביבות: קבוצות אבטחה ורשיונות](/power-platform/admin/control-user-access).
 
-![מצב הקבוצה](./media/groupsmode.png)
+![מצב הקבוצה.](./media/groupsmode.png)
 
 1. הפרויקט נוצר על-ידי המשתמש היוצר והוא בבעלותו.
 2. הבעלים של הפרויקט מעודכן בצוות.
@@ -68,7 +68,7 @@ Project Operations לא יוצר קבוצה באמצעות פעולה משתמע
 ## <a name="deployment-recommendation"></a>המלצת פריסה
 ככל שמודל שיתוף הפעולה של קבוצת Office יתפתח, תתווסף פונקציונליות כדי לספק בקרה מפורטת יותר לאורך זמן. לקוחות הפורשים Project Operations היום מוזמנים להתמקד במודל האבטחה המסורתי של Microsoft Dynamics 365.
 
-למידע נוסף, ראה [אבטחה ב- Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security)
+למידע נוסף, ראה [אבטחה ב- Common Data Service](/power-platform/admin/wp-security)
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations ואבטחה של Microsoft Dynamics 365 Finance
 Project Operations כולל את התפקידים הבאים:
@@ -76,6 +76,9 @@ Project Operations כולל את התפקידים הבאים:
 - מנהל פרויקט
 - רואה חשבון של פרויקט
 
-למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+למידע נוסף על אבטחה ב- Finance, ראה [אבטחה מבוססת תפקידים](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

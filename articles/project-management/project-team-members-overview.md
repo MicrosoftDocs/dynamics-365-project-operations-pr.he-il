@@ -2,18 +2,17 @@
 title: חברי צוות בפרויקט
 description: נושא זה מספק מידע על אופן העבודה עם מידע, תכונות ותזמון של חברי צוות בפרויקט.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077199"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994007"
 ---
 # <a name="project-team-members"></a>חברי צוות בפרויקט
 
@@ -60,3 +59,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 - **חדש**: בנוסף להוספת משאבים ישירות מלוח הזמנים, מנהלי הפרויקט יכולים להוסיף חברי צוות חדשים, בעלי שם או כלליים, מרשת חברי הצוות.
 - **מחק**: באמצעות בחירת חבר צוות אחד או יותר, מנהל הפרויקט יכול למחוק משאבים שכבר לא ישתתפו בפרויקט. מחיקת חבר צוות תמחק גם את כל הקצאות המשאבים הקשורות ותבטל את כל ההזמנות הקיימות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

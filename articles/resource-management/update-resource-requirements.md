@@ -2,18 +2,16 @@
 title: עריכת דרישת משאב
 description: נושא זה מספק מידע אודות עדכון המידע של דרישת משאב.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077161"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999767"
 ---
 # <a name="edit-a-resource-requirement"></a>עריכת דרישת משאב
 
@@ -37,3 +35,5 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ## <a name="edit-resource-assignment-contours"></a>עריכת קווי מתאר של הקצאת משאב
 
 בנוסף לעריכת הפרטים של דרישות משאבים, מנהל פרויקט יכול לעדכן את קווי המתאר הספציפיים של דרישת המשאב באמצעות הפונקציונליות **ציין תבנית**. כאשר האפשרות **ציין תבנית** נבחרת, נפתח דף המציג קווי מתאר בציר זמן של יום, שבוע או חודש. כל קו מתאר ניתן להתאמה לפי זמן התחלה, זמן סיום ומאמץ כולל בפרק זמן נתון.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

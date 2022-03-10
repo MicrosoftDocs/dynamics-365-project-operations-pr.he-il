@@ -2,11 +2,9 @@
 title: ייבוא וניהול של עסקאות בכרטיסי אשראי
 description: נושא זה מסביר כיצד לייבא ולתחזק עסקאות הקשורות להוצאות בכרטיסי אשראי. ניתן להגדיר עסקאות אלה כך שיובאו אוטומטית לפי לוח זמנים חוזר, או שניתן לייבא אותן באופן ידני כנדרש.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,20 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077461"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995852"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>ייבוא וניהול של עסקאות בכרטיסי אשראי
 
-[!include [banner](../includes/banner.md)]
-
 ניתן להגדיר עסקאות בכרטיסי אשראי הקשורות להוצאות כך שהן יובאו אוטומטית בתזמון חוזר. לחלופין, ניתן לייבא את העסקאות באופן ידני לפי הצורך. עסקאות כרטיסי האשראי מיובאות באמצעות הישות של נתוני עסקאות בכרטיסי אשראי.
 
-למידע נוסף אודות ישויות נתונים, ראה [ישויות נתונים](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+למידע נוסף אודות ישויות נתונים, ראה [ישויות נתונים](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>ייבוא עסקאות בכרטיסי אשראי
 
@@ -52,3 +48,6 @@ ms.locfileid: "4077461"
 לאחר ביטול רשומת עובדים, חשבון Active Directory Domain Services‏ (AD DS) של העובד מושבת. עם זאת, יתכנו עסקאות פעילות בכרטיסי אשראי שעדיין יש לרשום כהוצאות ולזכות עבורן. מהדף **עסקאות בכרטיסי אשראי**, באפשרותך להקצות את העובד מחדש לכל עסקה בכרטיס אשראי שבה העובד המשויך כבר עזב.
 
 בחר עסקאות בכרטיסי אשראי, אחת או יותר, ובחר **הקצה מחדש עסקאות**. לאחר מכן תוכל לבחור עובד אחר שאליו יש להקצות את העסקאות בכרטיס אשראי. לאחר ההקצאה מחדש של עסקאות כרטיסי האשראי, ניתן לבחור אותן לדוח הוצאות ולשלם עם התהליך הרגיל להחזר דוח הוצאות.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

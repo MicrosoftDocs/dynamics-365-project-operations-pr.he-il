@@ -2,11 +2,9 @@
 title: יישום Project Timesheet למכשירים ניידים
 description: נושא זה מספק מידע על יישום Microsoft Dynamics 365 Project Timesheet למכשירים ניידים. היישום Project Timesheet למכשירים ניידים מאפשר למשתמשים להגיש גליונות זמנים ולאשר אותם עבור פרויקטים במכשירים הניידים שלהם.
 author: abruer
-manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288830"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997202"
 ---
 # <a name="project-timesheet-mobile-application"></a>יישום Project Timesheet למכשירים ניידים
 

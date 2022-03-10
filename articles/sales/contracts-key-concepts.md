@@ -2,20 +2,18 @@
 title: חוזי פרוייקט - מושגים עיקריים
 description: נושא זה מספק מידע על המושגים המרכזיים של חוזי פרויקט ב-Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986942"
 ---
-# <a name="project-contracts---key-concepts"></a>חוזי פרוייקט - מושגים עיקריים
+# <a name="concepts-unique-to-project-based-contracts"></a>מושגים הייחודיים לחוזים מבוססי פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 

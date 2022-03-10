@@ -2,12 +2,10 @@
 title: הוספת טפסי ישות מותאמים אישית חדשים (Project Service Automation 2.x)
 description: נושא זה מספק מידע אודות אופן הוספת טפסי ישות מותאמים אישית עבור הזדמנויות, הצעות מחיר, הזמנות או חשבוניות ב- Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144594"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995222"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>הוספת טפסי ישות מותאמים אישית חדשים (Project Service Automation 2.x)
 
@@ -59,7 +57,7 @@ Dynamics 365 Project Service Automation מתבסס על השדה **סוג** (**m
     - יצא את הטופס **פרטי הפרוייקט שלי** כחלק מפתרון לא מנוהל ולאחר מכן חפש את הערך **formId** בקובץ customization.xml של הפתרון המיוצא.
     - פתח את הטופס **פרטי הפרוייקט שלי** בעורך הטפסים וחפש את המזהה הייחודי הכללי (GUID) לצד הפרמטר **fromId** בכתובת ה- URL, כפי שמוצג באיור הבא.
 
-    ![הערך formId של הטופס החדש בכתובת ה- URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![הערך formId של הטופס החדש בכתובת ה- URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. צור מיפוי **msdyn\_ordertype** עבור הערך **formId** על-ידי עריכת משאב האינטרנט msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. הסר את הקוד מהמשאב והחלף אותו בקוד הבא.
 
@@ -96,3 +94,6 @@ Dynamics 365 Project Service Automation מתבסס על השדה **סוג** (**m
     ```
 
 6. שמור ולאחר מכן פרסם את ההתאמות האישיות.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

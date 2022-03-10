@@ -2,8 +2,6 @@
 title: יצירת הזמנת משאבים בפרוייקט מלוח הזמנים
 description: נושא זה מספק מידע אודות אופן היצירה של הזמנת פרוייקט מלוח הזמנים.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d815210ee78f3c728c0722e03bab2f790c953ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987617"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>יצירת הזמנת משאבים בפרוייקט מלוח הזמנים
 
@@ -45,7 +43,7 @@ ms.locfileid: "5286114"
 
 1.  בלוח הזמנים, משאב זה יופיע בכרטיסיה **דרישות פתוחות**. ייתכן שיהיה עליך להשתמש במסנני עמודה ברשת אם יש לך דרישות פתוחות רבות. 
 
-    ![פתח את כרטיסיית הדרישות בלוח הזמנים](media/FAQ-Project-Booking-Schedule-Board-1.png "צילום מסך של טבלת הזמנות והקצאות")
+    ![פתח את כרטיסיית הדרישות בלוח הזמנים.](media/FAQ-Project-Booking-Schedule-Board-1.png "צילום מסך של טבלת הזמנות והקצאות")
 
 2. בחר את הדרישה. הכרטיסיה **חפש זמינות** תופיע בחלק העליון של השורה הנבחרת.
  
@@ -55,7 +53,7 @@ ms.locfileid: "5286114"
 
     בחירה באפשרות **הזמנה** מזמינה את המשאב אל צוות הפרוייקט.
 
-![לוח 'צור הזמנת משאבים'](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![לוח 'צור הזמנת משאבים'.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>הזמנה מתוך הדרישה הראשית
@@ -64,7 +62,7 @@ ms.locfileid: "5286114"
 
 1. להזמנת משאב דרך הדרישה הראשית, בלוח הזמנים בחר בכרטיסיה **פרוייקט**. אם יש לך פרוייקטים רבים, ייתכן שתצטרך להשתמש במסנני עמודה בעמודה **פרוייקט**.
 
-   ![מסננים לעמודות בלוח הזמנים](media/FAQ-Project-Booking-Schedule-Board-2.png "צילום מסך של טבלת הזמנות והקצאות")
+   ![מסננים לעמודות בלוח הזמנים.](media/FAQ-Project-Booking-Schedule-Board-2.png "צילום מסך של טבלת הזמנות והקצאות")
 
 2. בחר את הדרישה שיש לה רק את שם הפרוייקט בשמה ומשך זמן של אפס (0).
 

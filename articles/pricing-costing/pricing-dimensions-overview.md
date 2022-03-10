@@ -2,27 +2,18 @@
 title: מבט כולל על ממדי תמחור
 description: נושא זה מספק מידע על ממדי תמחור ב- Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128464"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001972"
 ---
 # <a name="pricing-dimensions-overview"></a>מבט כולל על ממדי תמחור
 
@@ -40,9 +31,21 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="pricing-dimensions"></a>ממדי תמחור
 
-Dynamics 365 Project Operations מגיע עם סט ברירת מחדל של ממדי תמחור. תוכל להציג את מדדי התמחור האלה על-ידי מעבר אל **Project Operations** > **פרמטרים**. ברשומת הפרמטר, בכרטיסיה **‬‏‫ממדי תמחור מבוססי-כמות**, ודא שבתפקיד, **msdyn_resourcecategory** וביחידה הארגונית להקצאת משאבים, **msdyn_organizationalunit** השדה **‏‫חל על מכירות‬** והשדה **‏‫חל על עלות‬** מוגדרים בתור **כן**. כאשר השדות האלה זמינים תוכל להגדיר את המחיר ואת העלות עבור כל שילוב של תפקיד ויחידה ארגונית.
+Dynamics 365 Project Operations מגיע עם קבוצה של ממדי תמחור בברירת מחדל. תוכל להציג את מדדי התמחור האלה על-ידי מעבר אל **Project Operations** > **פרמטרים**. ברשומת הפרמטר, בכרטיסיה **‬‏‫ממדי תמחור מבוססי-כמות**, ודא שבתפקיד, **msdyn_resourcecategory** וביחידה הארגונית להקצאת משאבים, **msdyn_organizationalunit** השדה **‏‫חל על מכירות‬** והשדה **‏‫חל על עלות‬** מוגדרים בתור **כן**. כאשר השדות האלה זמינים תוכל להגדיר את המחיר ואת העלות עבור כל שילוב של תפקיד ויחידה ארגונית.
 
-אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית.
+![צילום מסך של פרמטרי Project Service כאשר "חל על מכירות" מודגש.](media/PS-OOB-parameters.png)
+
+אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית. לקבלת מידע נוסף, ראה את הנושאים הבאים. 
+  
+  > [!NOTE]
+  > יש להשלים את ההליכים לפי סדר הופעתם.
+
+1. [יצירת פתרון עבור ממדי תמחור מותאם אישית](../sales/create-solution-custompd.md)
+2. [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities-pricing-dimensions.md)
+3. [הוספת שדות מותאמים אישית לישויות הגדרת מחיר וישויות של עסקאות ](add-custom-fields-price-setup-transactional-entities.md)
+4. [הגדרת שדות מותאמים אישית כממדי תמחור ](set-up-custom-fields-pricing-dimensions.md)
+5. [עדכון תכונות של יישום Plug-in כדי לכלול ממדי תמחור חדשים](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>תמחור זמן של משאב אנושי
 כיצד ארגון מתמחר זמן של משאב אנושי הוא לרוב שיקול אסטרטגי חשוב שמשפיע ישירות על רווחיות הארגון. עבוד עם הצוותים הפיננסיים וראשי אגפים כאשר הארגון שלך מוכן לזהות כיצד הוא מעוניין להגדיר את תעריפי עלויות וחיוב עבור הזמן של המשאב האנושי.
@@ -57,13 +60,16 @@ Dynamics 365 Project Operations מגיע עם סט ברירת מחדל של ממ
 
 | תפקיד        | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ------------|-------------|----------|----------:|----------|
-| מפתח   | Contoso US  |Hour | 200|USD     |
-| מפתח   | Contoso India |Hour|   112|USD     |
+| מפתחים   | Contoso בארה"ב  |שעה | 200|USD     |
+| מפתחים   | Contoso הודו |שעה|   112|USD     |
 
 
 **תעריפי עלויות לדוגמה**
 
 | טווח שכר     | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ----------------|-------------|----------|----------:|----------|
-| טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
-| טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |
+| טווח1_של החברה שלי | Contoso בארה"ב  |שעה | 145|USD     |
+| טווח2_של החברה שלי | Contoso הודו |שעה|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

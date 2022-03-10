@@ -2,11 +2,9 @@
 title: סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
 description: נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון נתונים בפועל של פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Finance and Operations.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077440"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988112"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
 
@@ -44,7 +42,7 @@ ms.locfileid: "4077440"
 
 האיור הבא מראה כיצד הנתונים מסונכרנים בין Project Service Automation ו- Finance.
 
-[![זרימת נתונים לשילוב Project Service Automation עם Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![זרימת נתונים לשילוב Project Service Automation עם Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>נתונים בפועל של פרויקט מ- Project Service Automation
 
@@ -95,9 +93,9 @@ ms.locfileid: "4077440"
 
 האיורים הבאים מציגים דוגמה למיפוי משימת התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Project Service Automation ל- Finance.
 
-[![מיפוי תבניות - ‏‫נתונים בפועל](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![מיפוי תבניות - ‏‫נתונים בפועל.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![מיפוי תבניות - חיבורי עסקאות](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![מיפוי תבניות - חיבורי עסקאות.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>ייבוא מטבלת אחסון זמני לאחר שילוב מ- Project Service Automation
 
@@ -137,6 +135,9 @@ ms.locfileid: "4077440"
 
 האיורים הבאים מציגים דוגמאות למיפויי משימות התבנית בשילוב נתונים. המיפוי מציג את פרטי השדה שיסונכרנו מ- Finance ל- Project Service Automation.
 
-[![מיפוי תבניות - ‏‫עדכון נתונים בפועל](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![מיפוי תבניות - ‏‫עדכון נתונים בפועל.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![מיפוי תבניות - ‏‫עדכון עסקאות](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![מיפוי תבניות - ‏‫עדכון עסקאות.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,24 @@
 ---
 title: מבט כולל על זמן
-description: נושא זה מספק מידע על הפונקציונליות של זמן ב- Dynamics 365 Project Operations.
+description: נושא זה מספק מידע על פונקציונליות זמן ב- Dynamics 365 Project Operations.
 author: stsporen
-manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 291ca3cc6d995a9722fe3cd29ded95fb606888c6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 23697d7fedbf3edfef5099f615056162d2f8d6ce094884e20229123c17006311
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124549"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999497"
 ---
 # <a name="time-overview"></a>מבט כולל על זמן
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-ערך זמן הוא התהליך של רישום הזמן בפועל שמשאב צורך. ערכי זמן ב- Dynamics 365 Project Operations מאפשרים חישוב של עלויות ומחירי מכירה ככל שהמשימות מתבצעות. ערכים אלה עוזרים למנהל הפרויקט להיות בשליטה על הפרויקטים והמשימות שעל הפרק. ערכי זמן גם מיידעים מנהלי משאבים לגבי חופשות או היעדרויות פוטנציאליות המוצגות בלוח הזמנים כ **לא נמצא/ת**. הודעות אלה מאפשרות למנהלי המשאבים לתכנן לפי אותם אירועים.
+ערך זמן הוא התהליך של רישום הזמן בפועל שמשאב צורך. ערכי זמן ב- Dynamics 365 Project Operations מאפשרים לחשב מחירי עלות ומכירות עם התקדמות המשימות. ערכים אלה עוזרים למנהל הפרויקט להיות בשליטה על הפרויקטים והמשימות שעל הפרק. ערכי זמן גם מיידעים מנהלי משאבים לגבי חופשות או היעדרויות פוטנציאליות המוצגות בלוח הזמנים כ **לא נמצא/ת**. הודעות אלה מאפשרות למנהלי המשאבים לתכנן לפי אותם אירועים.
 
 בעת רישום זמן ב- Project Operations, משתמשים יכולים לערוך את המעקב לפי כל רמה בפרויקט. הרמות כוללות את רמת המשימה, רמת הסיכום או רמת הפרויקט.
 
@@ -27,3 +26,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 למידע על הדרך ליצירה, הגשה או אחזור של ערכים ולקבלת כלים אחרים שיסייעו בהשלמת הדיווח, ראה [התנהגות משתמשים עם ערכי זמן](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

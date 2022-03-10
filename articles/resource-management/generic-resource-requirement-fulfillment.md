@@ -2,18 +2,16 @@
 title: מימוש דרישות משאב כלליות
 description: נושא זה מספק מידע אודות אופן הזמנת משאבים בעלי שם עבור דרישת משאב כללי.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008272"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>מימוש דרישות משאב כלליות
 
@@ -39,3 +37,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ההבדל העיקרי בתרחיש זה הוא שהמשאב הכללי נשאר בצוות המוקצה למשימה, וחברי הצוות של המשאב בעל השם המוזמן אינם מוקצים כחלק מהמשרה. מנהל הפרויקט יכול להקצות את העבודה בהתאם למשאבים בעלי השם. התצוגה **פיוס** יכולה לסייע למנהל פרויקט בפירוט של ההזמנות במשאבים המרובים להקצאות משימות. פעולה זו אינה מתבצעת באופן אוטומטי משום שבכל תרחיש המורכב יותר מהדוגמה הפשוטה לעיל, כגון מקרים שבהם יש חבילת משימות המרכיבה את הדרישה, או שהמערכת צריכה להניח מהי הכוונה שעומדת מאחורי צורת ההקצאה הרצויה של מנהל הפרויקט. כיוון שהמערכת אינה יכולה להבין כוונות, סביר להניח שההנחות יהיו שונות מהכוונה ועלולה להתקבל תוצאה שגויה או בלתי צפויה. התוצאה הצפויה היא שהמשאב הכללי יישאר מוקצה עד שמנהל הפרויקט ייצור במכוון הקצאות, בסיוע התצוגה **פיוס**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

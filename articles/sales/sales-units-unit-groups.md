@@ -2,11 +2,9 @@
 title: יחידות וקבוצות של יחידות
 description: נושא זה מספק מידע על אופן יצירת יחידות וקבוצות יחידות ב- Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131029"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999542"
 ---
 # <a name="units-and-unit-groups"></a>יחידות וקבוצות של יחידות
 
@@ -46,3 +44,6 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 3. בשדה **כמות**, הזן את הכמות שהיחידה תכיל. לדוגמה, אם תיבה מכילה שתי יחידות, הקלד "2". 
 4. בשדה **יחידת בסיס**, בחר יחידת בסיס לקביעת יחידת המדידה הנמוכה ביותר ליחידה. לדוגמה, ייתכן שתבחר באפשרות "חתיכה".
 5. בחר **שמור**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

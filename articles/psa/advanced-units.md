@@ -2,8 +2,6 @@
 title: קבוצות יחידות ויחידות
 description: נושא זה מספק מידע אודות קבוצות יחידות ויחידות.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077324"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987572"
 ---
 # <a name="unit-groups-and-units"></a>קבוצות יחידות ויחידות
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,7 +44,7 @@ ms.locfileid: "4077324"
 
 התמונה הבאה מציגה הגדרה לדוגמה עבור היחידה **יום** כאשר השדה **כמות** מציג את מספר השעות ביום, והיחידה **שבוע**, כאשר השדה **כמות** מציג את מספר הימים בשבוע.
 
-> ![קבוצת יחידות: דף מידע](media/advanced-2.png)
+> ![קבוצת יחידות: דף מידע.](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>שימוש ביחידות ובקבוצות יחידות
 
@@ -86,7 +86,7 @@ Dynamics 365 Project Service Automation משתמש ביחידות ובקבוצו
 
 | תפקיד      | קבוצת יחידות | יחידה | יחידה ארגונית | מחיר   |
 |-----------|------------|------|---------------------|---------|
-| מפתח | Time       | Day  | Contoso UK          | 80‎0 GBP |
+| מפתחים | זמן       | יום  | Contoso בריטניה          | 80‎0 GBP |
 
 ### <a name="time-entry"></a>ערך זמן
 
@@ -110,3 +110,6 @@ Dynamics 365 Project Service Automation משתמש ביחידות ובקבוצו
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>האם ניתן לערוך, למחוק ולהוסיף יחידות וקבוצות יחידות?
 כן. למעט קבוצת היחידות **זמן** והיחידה **שעה**, ניתן למחוק או לערוך את כל היחידות, ולהוסיף יחידות חדשות. ב- PSA, לא ניתן למחוק את קבוצת היחידות **זמן** ואת היחידה **שעה**. עם זאת, ניתן לעדכן אותן בטקסט מתורגם עבור השדה **שם**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

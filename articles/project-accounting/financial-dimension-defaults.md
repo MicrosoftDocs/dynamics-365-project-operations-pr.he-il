@@ -2,18 +2,16 @@
 title: ברירות מחדל של ממד פיננסי
 description: נושא זה מספק מידע על אופן הגדרת ברירות מחדל של ממד פיננסי.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642364"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922939"
 ---
 # <a name="financial-dimension-defaults"></a>ברירות מחדל של ממד פיננסי
 
@@ -21,7 +19,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations משתמש במסגרת [ממדים פיננסיים](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) ב- Dynamics 365 Finance כדי לספק תובנות נוספות על עסקאות ספר משנה וספר ראשי של הפרויקט.
+Dynamics 365 Project Operations משתמש במסגרת [ממדים פיננסיים](/dynamics365/finance/general-ledger/financial-dimensions) ב- Dynamics 365 Finance כדי לספק תובנות נוספות על עסקאות ספר משנה וספר ראשי של הפרויקט.
 
 ניתן להגדיר את ברירת המחדל של ממדים פיננסיים לפי לקוח, מקור מימון פרויקט, אבן דרך, סעיף חוזה פרויקט או פרויקט.
 
@@ -62,3 +60,15 @@ Dynamics 365 Project Operations משתמש במסגרת [ממדים פיננסי
 4. הגדרת ברירות המחדל של הממד פיננסי. שים לב שהממדים הפיננסים מוגדרים כברירת המחדל מתיק הלקוח. אם הפרויקט משויך לסעיף חוזה עם מספר לקוחות חוזה פרויקט, הלקוח הראשי משמש להגדרת ברירת המחדל של הממדים הפיננסיים.
 
 ממדים פיננסיים המוגדרים כברירת מחדל של הפרויקט משמשים להגדרת ברירות מחדל של יומן עבור עסקאות זמן, הוצאות ועמלות ב **יומן שילוב של Project Pperations** ובשורות חשבוניות פרויקטים קשורות.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>החלת ממדים פיננסיים עבור ערכי זמן של פרויקט
+כדי להחיל ממדים פיננסיים עבור ערכי זמן של פרויקט, יש לשים לב שערך המאפיין המוגדר כברירת מחדל מבוסס על הסדר הבא:
+
+1. משאב
+2. פרויקט
+3. מקור מימון
+
+לדוגמה, אם ממד ברירת המחדל צוין במשאב, הוא יוחל במקום ברירת המחדל שצוינה בפרויקט. באופן דומה, מימד פרויקט שהוגדר כברירת מחדל יוחל במקום ברירת המחדל שצוינה במקור המימון.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

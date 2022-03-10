@@ -2,11 +2,9 @@
 title: הזמנות מכירה בפרויקטים עבור פרויקטים של זמן וחומר
 description: נושא זה מסביר כיצד ליצור הזמנות מכירה מבוססות פרויקטים עבור פרויקטים של זמן וחומר.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992837"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>הזמנות מכירה בפרויקטים עבור פרויקטים של זמן וחומר
 
@@ -41,3 +39,6 @@ ms.locfileid: "4077293"
 - מעבר אל הפרויקט עצמו. בחלונית הפעולות, בחר **ניהול > משימות פריט > הזמנת מכירות**. פרטי הפרויקט יוגדרו כברירת מחדל להזמנת המכירות מהפרויקט. אם בחוזה הפרויקט יש יותר ממקור מימון אחד, יהיה עליך לבחור במקור המימון כדי להגדיר את הלקוח להזמנת המכירות. אם יש רק מקור מימון אחד לפרויקט, הלקוח יוגדר אוטומטית.
 - עבור אל דף הרשימה **כל הזמנות המכירה** וצור הזמנת מכירות חדשה. עליך לבחור את הפרויקט להזמנת המכירות. לאחר בחירת הפרויקט, הלקוח יוגדר ממקור המימון או שתצטרך לבחור את מקור המימון אם לחוזה הפרויקט יש כמה מקורות מימון.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

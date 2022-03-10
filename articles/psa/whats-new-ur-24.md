@@ -2,8 +2,6 @@
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 24 V3
 description: נושא זה מפרט את התכונות החדשות והתיקונים במהדורה 24, עדכון V3 של Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,16 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 51d08dd147b7804cb5c9255159aeab2ecd94f4597d6e99c5fa92efe1246c44d0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077260"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998057"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>מהדורה 24, V3 של Project Service Automation
 
-אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
 נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 24, עדכון V3 של Project Service Automation. מספר ה- Build של גירסה זו הוא V 3.10.42.43 והיא זמינה דרך עדכון עצמי החל מאוקטובר 2020.
 
@@ -79,3 +79,6 @@ ms.locfileid: "4077260"
 - הלחצן **רענן את הנתונים בפועל** מחשב באופן שגוי משימות סיכום.
 - תוספת של Microsoft Project: תקן שגיאת התייחסות null אם לחבר צוות כלשהו יש יחידת משאבים ריקה.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

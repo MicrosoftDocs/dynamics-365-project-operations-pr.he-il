@@ -2,11 +2,9 @@
 title: ביצועי הצעה לחשבוניות פרוייקט
 description: נושא זה מספק מידע על שיפורי ביצועים להצעות חשבונית לפרויקט.
 author: Yowelle
-manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,18 +16,16 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
-ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005707"
 ---
 # <a name="project-invoice-proposal-performance"></a>ביצועי הצעה לחשבוניות פרוייקט
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 בעת יצירת הצעת חשבונית חדשה, אתה עלול להיתקל בבעיות ביצועים ככל שמספר הפרויקטים ופרויקטי המשנה גדל. כדי לשפר את הביצועים, קיימת תכונה המפחיתה את הזמן הדרוש ליצירת הצעת חשבונית חדשה לעסקאות פרויקט שפורסמו.
 
@@ -48,4 +44,6 @@ ms.locfileid: "5573560"
 3.  רענן את הדפדפן.
 
 > [!NOTE]
-> לא ניתן להחיל ביצועי הצעת חשבונית כאשר כללי חיוב מופעלים או שתהליכי אצווה פועלים.
+> לא ניתן להחיל ביצועים של הצעת חשבונית כאשר כללי חיוב מופעלים.
+> 
+> בתהליך האצווה ליצירת הצעות חשבונית, מספר משימות המשנה יחלק את המשימות למספר המקסימלי לפי מספר החוזים עם עסקאות שניתנות לחיוב, ללא קשר למה שהזנת. לדוגמה, אם תזין **3** עבור מספר משימות משנה ליצירת הצעת חשבונית באצווה, ויש רק שני חוזים עם עסקאות שניתנות לחיוב, ייווצרו רק שתי משימות משנה.

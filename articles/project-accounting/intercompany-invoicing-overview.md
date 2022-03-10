@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005392"
 ---
 # <a name="intercompany-invoicing-overview"></a>מבט כולל על הפקת חשבוניות בין-חברות
 
@@ -22,7 +22,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 האיור הבא מציג תרחיש טיפוסי שבו שתי ישויות משפטיות, Contoso Robotics ארה"ב (הישות המשפטית השואלת) ו- Contoso Robotics בריטניה (הישות המשפטית המלווה) חולקות משאבים להעברת פרוייקט ללקוח, Adventure. בתרחיש זה, Contoso Robotics ארה"ב מחויבת לספק את העבודה ל- Adventure.
 
-![הפקת חשבוניות בין-חברתית](./media/IntercompanyScenario.png) 
+![הפקת חשבוניות בין-חברתית.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations משתמש בזרימה הבאה לעיבוד עסקאות בין-חברות:
 
@@ -35,11 +35,11 @@ Dynamics 365 Project Operations משתמש בזרימה הבאה לעיבוד ע
 
 התרשים הבא מציג חשבוניות בין חברות כשהן קשורות לאירועים חשבונאיים ורישומים צפויים בספר הכללי.
 
-![זרימה בין-חברות](./media/IntercompanyFlow.png)
+![זרימה בין-חברות.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>משאבים נוספים
 
-- [קביעת תצורה של הפקת חשבוניות בין-חברות](configure-intercompany-invoicing.md)
+- [קביעת תצורה של הפקת חשבוניות בין-חברתית](configure-intercompany-invoicing.md)
 - [תיעוד עסקאות בין-חברות](create-intercompany-transactions.md)
 - [יצירת חשבוניות לקוחות וספקים בין-חברות](create-intercompany-customer-vendor-invoices.md)
 

@@ -2,19 +2,17 @@
 title: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת ינואר 2021 של Project Operations לתרחישים מבוססי ייצור-עם-מלאי.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950850"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992747"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 

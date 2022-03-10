@@ -2,24 +2,23 @@
 title: מבט כולל על סעיפי חוזה מבוססי מוצר - לייט
 description: נושא זה מספק מידע על סעיפי חוזה מבוססי מוצר.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177872"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007552"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>מבט כולל על סעיפי חוזה מבוססי מוצר - לייט
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-באפשרותך ליצור סעיפי חוזה מבוססי מוצר ב- Dynamics 365 Project Operations. סעיפי חוזה מבוססי-מוצר יכולים להיות סעיפים שנוצרו ידנית, או פריטים מקטלוג המוצרים.
+באפשרותך ליצור שורות חוזה מבוססות מוצר ב- Dynamics 365 Project Operations. סעיפי חוזה מבוססי-מוצר יכולים להיות סעיפים שנוצרו ידנית, או פריטים מקטלוג המוצרים.
 
 ## <a name="product-catalog"></a>קטלוג מוצרים
 
@@ -46,3 +45,6 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 אם תגדיר את השדה **תמחור** שיהיה **תמחור ידני**, מחיר ברירת המחדל לא מוגדר. הזן מחיר עבור המוצר בסעיף החוזה. אם אתה מגדיר את השדה **השתמש בברית המחדל**, נעשה שימוש במחיר המכירה המוגדר כברירת מחדל ולא ניתן לערוך את השדה.
 
 לאחר התקנה של Project Operations, מחירי המכירות שבברירת מחדל מוזנים בשורות שמבוססות על המוצר בחוזה. השדה **תמחור** מוגדר **עקוף את התמחור** כדי שתוכל לערוך את המחיר שבברירת המחדל בסעיפי החוזה. זוהי עקיפה ספציפית ל- Project Operations להתנהגות של סעיפים מבוססי מוצר ב- Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

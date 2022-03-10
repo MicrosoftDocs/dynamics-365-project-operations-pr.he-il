@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008227"
 ---
 # <a name="resource-management-modes-overview"></a>מבט כולל על מצבי ניהול משאבים
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations תומך בשני מצבים על מנת שתו�
 ## <a name="central-mode"></a>מצב מרכזי
 לארגונים שמרכזים את הקצאת המשאבים לפרויקטים, המצב המרכזי מספק דרך להבטיח שמנהלי הפרויקטים יוכלו להגדיר דרישות משאבים ברמת הפרויקט. מילוי דרישות המשאבים מוקצה למנהל משאבים. מנהלי פרויקטים יכולים לקבל או לדחות משאבים המוצעים על-ידי מנהל המשאבים.
 
-![מצב מרכזי](./media/resource-management-central.png)
+![מצב מרכזי.](./media/resource-management-central.png)
 
 כדי לנהל משאבים במצב המרכזי, ראה:
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations תומך בשני מצבים על מנת שתו�
 ## <a name="hybrid-mode"></a>מצב היברידי
 לארגונים שנדרשת להם גמישות בהקצאת משאבים, המצב ההיברידי מאפשר גם למנהלי פרויקטים וגם למנהלי משאבים להזמין משאבים.
 
-![מצב היברידי](./media/resource-management-hybrid.png)
+![מצב היברידי.](./media/resource-management-hybrid.png)
 
 בנוסף לתהליך המצב המרכזי הנתמך, עיין בנושאים הבאים לניהול כל זרימות ההזמנות הנתמכות הנוספות במצב היברידי:
 
