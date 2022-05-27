@@ -2,18 +2,16 @@
 title: קבוצות אישורים
 description: נושא זה מסביר כיצד לעבוד עם קבוצות אישורים, בקשות וערכות המשנה של פעולות אלה.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323237"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576225"
 ---
 # <a name="approval-sets"></a>קבוצות אישורים
 
@@ -27,6 +25,18 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 אישורים שממתינים בתור לעיבוד מופיעים בתצוגה **עיבוד אישורים**. המערכת מעבדת את כל הערכים פעמים רבות באופן אסינכרוני, כולל ניסיון חוזר לאישור אם הניסיונות הקודמים נכשלו.
 
 השדה **אורך החיים מוגדר** מתעד את מספר הניסיונות שנותרו לעבד את הקבוצה לפני הסימון 'נכשל'.
+
+ערכות האישור מעובדות באמצעות ההפעלה התקופתית המבוססת על **זרימת ענן** בשם **Project Service - קביעה חזרתית של ערכות אישור של לוח זמנים של פרויקט**. אפשרות זו נמצאת ב **פתרון** בשם **Project Operations**. 
+
+ודא שהזרימה מופעלת על ידי השלמת השלבים הבאים.
+
+1. בתור מנהל מערכת, היכנס אל [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. בפינה השמאלית העליונה, עבור לסביבה שבה אתה משתמש עובר Dynamics 365 Project Operations.
+3. בחר **פתרונות** כדי לפרט את הפתרונות המותקנים בסביבה.
+4. ברשימת הפתרונות בחר, **Project Operations**.
+5. שנה את המסנן מ **הכול** ל **זרימות ענן**.
+6. ודא כי הזרימה **‏Project Service ‏- קביעה חזרתית של ערכות אישור של לוח זמנים של פרויקט** מוגדרת ל **מופעלת**. אם לא, בחר את הזרימה ולאחר מכן בחר **הפעל**.
+7. ודא שהעיבוד מתרחש כל חמש דקות על ידי סקירת הרשימה **משימות מערכת** באזור **הגדרות** בסביבת Dataverse של Project Operations.
 
 ## <a name="failed-approvals-and-approval-sets"></a>אישורים וקבוצות אישורים שנכשלו
 התצוגה **אישורים שנכשלו** מפרטת את כל האישורים שדורשים התערבות משתמש. פתח את יומני קבוצות האישורים המשויכים כדי לזהות את הגורם לכשל.

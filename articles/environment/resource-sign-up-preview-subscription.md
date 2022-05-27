@@ -4,20 +4,20 @@ description: נושא זה מספק מידע אודות אופן ההרשמה ל
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323417"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575811"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 נושא זה מסביר כיצד להירשם כמנוי להצעת הניסיון ולפרוס את סביבת Project Operations לתרחישים מבוססי משאבים/ללא מלאי.
 
@@ -40,14 +40,14 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
   תראה שהצעת האישור מומשה בהצלחה.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance - גירסת ניסיון של Preview
+### <a name="dynamics-365-finance-preview-trial"></a>גירסת הניסיון של Preview עבור Dynamics 365 Finance
 
 עבור אל [גירסת ניסיון Preview של Dynamics 365 for Finance](https://aka.ms/trypoche) וחזור על השלבים מהמקטע הקודם עם ההצעה, הירשם לסביבה שמתארחת בענן.  
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
 
 > [!IMPORTANT]
-> תזדקק לגישה מנהלתית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.
+> תזדקק תגישה ניהולית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.
 
 1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.
 

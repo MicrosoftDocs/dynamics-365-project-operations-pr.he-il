@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984872"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579859"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבת Dataverse גרסה 4.5.0.134
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.15
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.15
 
 למידע על אופן העדכון של מהדורה זו, ראה [עדכן את Project Operations בסביבת Finance שלך](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ‏‫תכנון פרויקטים ומעקב אחריהם | 2057197          | אין תמיכה בהערכת העתק שורה עם הפניה למשימה                                                                                                     |
 | ‏‫תכנון פרויקטים ומעקב אחריהם | 2060687          | אזהרה על אזור הזמן נעלמת כעת לאחר פרק זמן מסוים                                                                                                      |
 | ניהול משאבים           | 1832887          | מזהה קטגוריית ברירת המחדל של משאבים צריך להיות סטטי כדי להבטיח עומסי נתונים שניתנים לחזרה עבור Dataverse וסביבות Finance                                                 |
-| זמן והוצאה              | 2081793          | השדה **שם קטגוריית הוצאות** חייב להיות ממופים לשדה **תיאור קטגוריית הוצאות** ביישומי Finance and Operations                                                  |
+| זמן והוצאה              | 2081793          | יש למפות את **שם קטגוריית הוצאות** לשדה **תיאור קטגוריית הוצאות** ביישומי Finance and Operations                                                  |
 | זמן והוצאה              | 2034882          | לחצן **חדש** מוצג פעמיים בסרגל הפקודות עבור ערכי זמן כאשר Dynamics 365 Field Service מותקן                                          |
 | זמן והוצאה              | 2056028          | עדכון דף **עריכת זמן** שיכלול ציר זמן                                                                                                              |
 | זמן והוצאה              | 1983747          | תרשים ערכי הזמן מציג נתונים נוספים                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות                        | מספר אסמכתא | עדכון איכות                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | נסיעות והוצאה                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | זרימת העבודה של רישום אוטומטי של דוח הוצאות הושלמה אך החשבונית לא פורסמה                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

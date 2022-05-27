@@ -2,16 +2,16 @@
 title: העתקת פרוייקט
 description: נושא זו מספק מידע על העתקת פרויקטים ב- Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007192"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574431"
 ---
 # <a name="copy-a-project"></a>העתקת פרוייקט
 
@@ -25,39 +25,47 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 - הערכות פרוייקט
 - הערכות הוצאה בפרויקט
 - הערכות חומרים בפרוייקט
+- רשימות פעולות לביצוע של פרויקט
+- המיכלים של של פרוייקט
 
 ## <a name="project-properties"></a>מאפייני פרויקט
 
-כאשר הפרויקט מועתק, הערכים בשדות הבאים מועתקים:
+כאשר הפרויקט מועתק, הערכים בשדות הבאים מועתקים.
 
-- שם
-- תיאור
-- לקוח
-- תבנית לוח שנה
-- מטבע
-- יחידת החוזה
-- מנהל פרויקט
-- סטאטוס
-- מצב פרוייקט כולל
-- הערות 
-- הערכות
-- תאריך התחלה משוער: זהו התאריך שבו הפרוייקט נוצר מהעותק.
-- תאריך סיום משוער: תאריך זה מותאם לפי תאריך ההתחלה של הפרוייקט החדש שנוצר מהעותק.
-- מאמץ (בשעות)
-- עלות עבודה משוערת
-- עלות הוצאות משוערת
-- עלות חומרים משוערת
+| שדה | Project Operations לחומרים שאינם במלאי | ו- Project Operations Lite | Project for the Web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Description | :heavy_check_mark: | :heavy_check_mark: | |
+| לקוח | :heavy_check_mark: | :heavy_check_mark: | |
+| תבנית לוח שנה | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| מטבע | :heavy_check_mark: | :heavy_check_mark: | |
+| יחידת החוזה | :heavy_check_mark: | :heavy_check_mark: | |
+| החברה המהווה בעלים | :heavy_check_mark: | | |
+| מנהל פרויקט | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| סטטוס | :heavy_check_mark: | :heavy_check_mark: | |
+| מצב פרוייקט כולל | :heavy_check_mark: | :heavy_check_mark: | |
+| הערות  | :heavy_check_mark: | :heavy_check_mark: | |
+| הערכות | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>תאריך התחלה משוער</p><p><strong>הערה:</strong> שדה זה מציין את התאריך שבו הפרוייקט נוצר מהעותק. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>תאריך סיום משוער</p><p><strong>הערה:</strong> התאריך בשדה זה מותאם לפי לתאריך ההתחלה של הפרויקט החדש שנוצר מהעותק.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| מאמץ (בשעות) | :heavy_check_mark: | :heavy_check_mark: | |
+| עלות עבודה משוערת | :heavy_check_mark: | :heavy_check_mark: | |
+| עלות הוצאות משוערת | :heavy_check_mark: | :heavy_check_mark: | |
+| עלות חומרים משוערת | | :heavy_check_mark: | |
 
 > [!NOTE]
 > העתקת פרוייקט יכולה להיות פעולה ארוכת טווח. מועתקים גם רשומות הפרוייקט, המאפיינים הרלוונטיים שלו וישויות קשורות רבות. בגלל אופי הפעולה הארוכה, לאחר תחילת ההעתקה, דף פרוייקט היעד נעול לעריכה עד להשלמת פעולת ההעתקה.
 
 ## <a name="work-breakdown-structure"></a>מבנה התפלגות העבודה
 
-כאשר הפרויקט מועתק, כל מבנה התפלגות העבודה של המשאב שנטען מועתק. משאבים בעלי שם מוחלפים במשאבים כלליים. אם למשאבים בעלי השם אין את אותן שעות עבודה כמו למשאב הכללי, לוח הזמנים יחושב מחדש ומשך המשימות עשוי להשתנות.
+כאשר הפרויקט מועתק, כל מבנה התפלגות העבודה של המשאב שנטען מועתק. משאבים בעלי שם מוחלפים במשאבים כלליים. אם למשאבים בעלי שם אין את אותן שעות עבודה כמו להמשאב הגנרי, לוח הזמנים יחושב מחדש ומשך המשימות עשוי להשתנות.
 
-## <a name="project-team-members"></a>חברי צוות בפרוייקט
+## <a name="project-team-members"></a>חברי צוות בפרויקט
 
 כאשר צוות פרויקט מועתק מפרויקט המקור, המשאבים הכלליים מועתקים. הקצאות של המשאבים הכלליים נשארות כפי השהיו בפרוייקט המקור. משאבים בעלי שם יומרו לחברי צוות כלליים.
+
+> [!NOTE]
+> חברי צוות ומשימות אינן מועתקות ב- Project for the Web.
 
 ## <a name="estimates"></a>הערכות
 
@@ -65,5 +73,8 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 למידע על אופן הגישה הפרוגרמטית אל 'העתק פוריקט', ראה [פיתוח תבניות פרוייקט באמצעות 'העתקת פוריקט'](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>הצעות מחיר וחוזים
+
+הצעות מחיר וחוזים אינם מקושרים לפרויקט היעד.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

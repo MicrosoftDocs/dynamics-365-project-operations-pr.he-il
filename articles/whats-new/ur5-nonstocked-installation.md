@@ -1,25 +1,25 @@
 ---
 title: עדכן את Project Operations בסביבת Finance שלך
-description: נושא זה מספק מידע על עדכון של Project Operations בסביבת Dynamics 365 Finance שלך.
+description: נושא זה מספק מידע על אופן העדכון של Project Operations בסביבת Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986762"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579935"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>עדכן את Project Operations בסביבת Finance שלך
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 
-נושא זה מספק מידע על עדכון של Dynamics 365 Project Operations בסביבת Dynamics 365 Finance שלך. יש שלושה נהלים הנדרשים לעדכון Project Operations לעדכון 5 (UR5):
+נושא זה מספק מידע על אופן העדכון של Dynamics 365 Project Operations בסביבת Dynamics 365 Finance. יש שלושה נהלים הנדרשים לעדכון Project Operations לעדכון 5 (UR5):
 
 - [ייבא את החבילה לפרוייקט Preview שלך](#import)
 - [החל את העדכון](#apply)
@@ -119,7 +119,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. בדף **גרסת מפת טבלה**, החל גרסה חדשה של המפה על כל אחת משלוש הישויות.
 5. בדף **כתיבה כפולה**, בחר 'הפעל' כדי להפעיל מחדש את המפות.
 6. מרשימת המפות בחר את המפה **ספר חשבונות (msdyn_ledgers)** עם כל התנאים המוקדמים ובחר את תיבת הסימון **סנכרון ראשוני**. 
-7. בשדה **פריט ראשוני לסנכרון ראשוני**, בחר **יישומי Finance and Operations** ובחר **הפעל**.
+7. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **יישומי Finance and Operations** ולאחר מכן בחר **הפעל**.
  
  ![סנכרון מפת ספר ראשי.](media/DW6.png)
  

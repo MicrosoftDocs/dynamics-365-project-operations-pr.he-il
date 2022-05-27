@@ -4,14 +4,14 @@ description: נושא זו מספק מידע על הסרת התקנה של Dynam
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783644"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575857"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>הסרת ההתקנה של Dynamics 365 Project Operations 
 
@@ -35,8 +35,8 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
     | 6 | ProjectServiceCore_Patch                           | אין הערות נוספות.                                                                         |
     | 7 | ProjectServiceCore                                 | אין הערות נוספות.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | אם לא נמצא, דלג על פתרון זה.                                                            |
-    | 9 | FieldServiceCommon                                 | נדרש עבור כתיבה כפולה עם Dynamics 365 Finance או Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | נדרש עבור כתיבה כפולה עם Dynamics 365 Finance או Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | נדרש עבור Dual-Write (עם Dynamics 365 Finance או עם Dynamics 365 Supply Chain Management).   |
+    | 10 | msdyn_AssetCommon                                  | נדרש עבור Dual-Write (עם Dynamics 365 Finance או עם Dynamics 365 Supply Chain Management).   |
     | 11 | msdyn_TESA_Anchor                                  | שדה נדרש עבור Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | שדה נדרש עבור Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | שדה נדרש עבור Dynamics 365 Field Service.                                                     |

@@ -4,14 +4,14 @@ description: נושא זו מספק מידע לגבי הכנסה של מחיר �
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006427"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578709"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>פרוייקטים של הערכת הכנסה במחיר קבוע 
 
@@ -26,7 +26,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>בדיקת פרויקטים של אומדן הכנסה במחיר קבוע
 לבדיקת פרויקטים של אומדני הכנסות במחירים קבועים, בצע את השלבים הבאים:
 
-1. בסביבת Dynamics 365 Finance, עבור אל **ניהול פרויקטים וחשבונאות** > **פרויקטים** > **פרויקטים של אומדן הכנסות במחירים קבועים**.
+1. בסביבת Dynamics 365 Finance, עבור אל **ניהול וחשבונאות של פרוייקטים** > **פרוייקטים** > **פרוייקטים של הערכת הכנסות במחיר קבוע**.
 2. בחר את הפרויקט שברצונך להציג ולחץ פעמיים על **הערכת מזהה פרויקט** כדי לפתוח את הרשומה ולסקור את פרטי הפרויקט.
 3. הרחב את הכרטיסיה **פרויקט**. תראה פרויקט אחד ברשת **פרויקטים נבחרים**. המערכת משתמשת בזה כפרויקט ברירת המחדל מכיוון שזה הפרויקט המשויך לסעיף חוזה של הפרויקט. 
 4. כדי לשנות את השיוך, בחר פרויקטים נוספים והוסף אותם לרשת **פרויקטים נבחרים**. אם נבחרים מספר פרויקטים ברשת זו, אחוזי השלמת הפרויקט ואומדני ההכנסות מחושבים יחד עבור כל הפרויקטים שנבחרו.

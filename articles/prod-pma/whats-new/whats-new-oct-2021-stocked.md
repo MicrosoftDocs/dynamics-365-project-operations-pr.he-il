@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818472"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576041"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה באוקטובר 2021 ב- Project Operations בתרחישים של מלאי/מבוססי ייצור
 
@@ -80,6 +80,6 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). אתה יכול גם להיכנס אל Microsoft Dynamics Lifecycle Services (LCS)‎ ולהשתמש בכלי לחיפוש בעיות כדי להציג את העדכונים הרגולטוריים המתוכננים. חיפוש בעיות מאפשר לך לחפש לפי מדינה או אזור, סוג תכונה וגרסה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). אתה יכול גם להיכנס אל Microsoft Dynamics Lifecycle Services (LCS)‎ ולהשתמש בכלי לחיפוש בעיות כדי להציג את העדכונים הרגולטוריים המתוכננים. חיפוש בעיות מאפשר לך לחפש לפי מדינה או אזור, סוג תכונה וגרסה.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

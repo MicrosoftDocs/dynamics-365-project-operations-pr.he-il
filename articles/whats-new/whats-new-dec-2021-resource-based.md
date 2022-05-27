@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943024"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579813"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943024"
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
-- Project Operations בגירסת סביבת Dataverse,4.27.0.195 ‎‏‏‎‎ ‏‏‎4.27.0.242
+- Project Operations בגירסת סביבת Dataverse 4.27.0.195, 4.27.0.242, 4.27.0.244
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.23
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
@@ -48,7 +48,7 @@ ms.locfileid: "7943024"
 | זמן והוצאה | 2468188 | תוקנה הבעיה שבה טקסט יומן הרישום חרג מהאורך המרבי בתכונה **notetext** של היישות **ביאור**. |
 | חיוב ותמחור | 2488698 | הודעת שגיאה מעודכנת המתרחשת כאשר בהגדרת הסביבה חסרות רשומות של הישות 'ספר ראשי' המאוכלסות מ-Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב- Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | **אזור תכונות** | **מספר אסמכתא** | **עדכון איכות** |
 | --- | --- | --- |
