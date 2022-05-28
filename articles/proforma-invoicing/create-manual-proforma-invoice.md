@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995627"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600053"
 ---
 # <a name="proforma-invoices"></a>חשבוניות פרופורמה
 
@@ -82,6 +82,9 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 - עריכה והתאמה של הכמות וסוג החיוב.
 
 בחר **אשר** כדי לאשר חשבונית. פעולת האישור היא פעולה חד-סטרית. בעת בחירה באפשרות **אשר**, המערכת הופכת את החשבונית לקריאה בלבד ויוצרת נתונים בפועל של מכירות שחויבו מכל פירוט של שורת חשבונית עבור כל שורת חשבונית. אם הפירוט בשורת החשבונית מפנה לנתונים בפועל של מכירות שלא חויבו, המערכת גם מבטלת את הנתונים בפועל של מכירות שלא חויבו. (כל פירוט בשורת חשבונית שנוצר מערך זמן או הוצאה יפנה לנתונים בפועל של מכירות שלא חויבו.) מערכות שילוב של ספר ראשי יכולות להשתמש בביטול זה כדי לבטל עבודת פרויקט בתהליך (WIP) למטרה חשבונאית.
+
+> [!NOTE]
+> לא ניתן לערוך או למחוק חשבוניות פרופורמה מאושרות ורשומות קשורות כמו שורות חשבונית ופרטי שורת חשבונית. 
 
 ### <a name="correct-a-confirmed-invoice"></a>תיקון חשבונית מאושרת
 

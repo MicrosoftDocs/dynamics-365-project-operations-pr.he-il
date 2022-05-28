@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928662"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594855"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 נושא זה מספק מידע על הדרך להקצות סביבת Dynamics 365 Project Operations חדשה לתרחישים מבוססי משאבים/ללא מלאי.
 
@@ -34,7 +34,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="provision-a-project-operations-environment"></a>הקצאת סביבת Project Operations
 
-1. פתח פריסה חדשה של Dynamics 365 Finance [סביבת הדגמה](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) או [סביבת ארגז חול/ ייצור](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. פתח פריסת [סביבת הדגמה](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) או [ארגז חול (Sandbox)‬/ סביבת ייצור](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) חדשה של Dynamics 365 Finance. 
 2. הסבר על אשף **הקצאת הסביבה**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
     ![החל פתרונות.](./media/13ApplySolutions.png)
 
-5. בחר את שני הפתרונות, **מפת ישויות כתיבה כפולה של Dynamics 365 Finance and Operations** ו- **מפות ישויות כתיבה כפולה של Dynamics 365 Project Operations** ואז בחר **החל**.
+5. בחר את שנה הפתרונות, **מפת ישות בכתיבה כפולה של Finance and Operations ב-Dynamics 365** ו-**מפות ישות בכתיבה כפולה של Dynamics 365 Project Operations**, ולאחר מכן בחר **החל**.
 
     ![אשר פתרונות.](./media/14ConfirmSolutions.png)
 

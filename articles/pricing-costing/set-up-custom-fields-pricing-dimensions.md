@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599409"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>הגדרת שדות מותאמים אישית כממדי תמחור
 
@@ -73,12 +73,12 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
   
 | תפקיד        | יחידה ארגונית    |מיקום עבודה      |כותרת סטנדרטית      |שעות עבודה של משאב      |  ייקור|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso הודו|באתר            |                    |שעות נוספות                 |15     |
-|             | Contoso הודו|מקומי             |                    |שעות נוספות                 |10     |
-|             | Contoso בארה"ב   |מקומי             |                    |שעות נוספות                 |20     |
+|             | Contoso India|באתר            |                    |שעות נוספות                 |15     |
+|             | Contoso India|מקומי             |                    |שעות נוספות                 |10     |
+|             | Contoso US   |מקומי             |                    |שעות נוספות                 |20     |
 
 
-אם משאב מ- Contoso הודו, שתעריף הבסיס שלו הוא ‎,100 USD עובד באתר ומבצע רישום של 8 שעות עבודה רגילות ו- 2 שעות נוספות בערך הזמן, מנגנון התמחור ישתמש בתעריף הבסיס של 100 עבור 8 השעות כדי לרשום ‎800 USD. לגבי 2 השעות הנוספות יחול ייקור של 15% על תעריף הבסיס של 100 כדי לקבל מחיר יחידה של ‎115 USD ותירשם עלות כוללת של ‎230 USD.
+אם משאב מ- Contoso India, שתעריף הבסיס שלו הוא ‎,100 USD עובד באתר ומבצע רישום של 8 שעות עבודה רגילות ו- 2 שעות נוספות בערך הזמן, מנגנון התמחור ישתמש בתעריף הבסיס של 100 עבור 8 השעות כדי לרשום ‎800 USD. לגבי 2 השעות הנוספות יחול ייקור של 15% על תעריף הבסיס של 100 כדי לקבל מחיר יחידה של ‎115 USD ותירשם עלות כוללת של ‎230 USD.
 
 ### <a name="applicable-to-cost"></a>חל על עלות 
 אם ערך זה מוגדר ל **כן**, פירוש הדבר שיש להשתמש בערך הממד מהקשר הקלט כדי להתאים ל **מחיר תפקיד** ול **ייקור מחיר תפקיד** בעת אחזור תעריפי העלות והייקור.

@@ -2,17 +2,16 @@
 title: מעקב אחר מאמץ בפרוייקט
 description: נושא זו מסביר כיצד לעקוב אחר התקדמות העבודה והמאמץ בפרויקט.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993962"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593797"
 ---
 # <a name="project-effort-tracking"></a>מעקב אחר מאמץ בפרוייקט
 
@@ -46,7 +45,8 @@ Project Operations מציג תחזית לסטיית המאמץ במשימה. א�
 - ה- EAC החדש מחושב בכל אחת מהפעילויות הבודדות עד לפעילויות של צומת העלה. 
 - החישוב מחדש של המאמץ שנותר ואחוז התקדמות למשימות הצאצא המושפעות עד לצמתי העלה מתבסס על ערך ה- EAC. התוצאה היא חיזוי חדש עבור סטיית המאמץ של הפעילות. 
 - מתבצע חישוב מחדש להערכות ה- EAC של פעילויות הערסל ועד לצומת הבסיס.
-
+- המאמץ המאושר במשימת סיכום הוא סכום המאמץ המאושר על כל משימות הצאצא בתוספת המאמץ המאושר במשימת הסיכום.
+- המאמץ שנותר במשימת סיכום הוא סכום המאמץ שנותר בכל משימות הצאצא פחות המאמץ המאושר במשימת הסיכום.
 
 ## <a name="project-status-summary"></a>סיכום מצב פרויקט
 

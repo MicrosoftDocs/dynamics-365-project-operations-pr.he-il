@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998462"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593613"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>דף הבית לממדי תמחור ותמחיר
 
@@ -66,16 +67,16 @@ PSA מסופק עם קבוצה של ממדי תמחור בברירת מחדל. �
 
 | תפקיד        | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ------------|-------------|----------|----------:|----------|
-| מפתחים   | Contoso בארה"ב  |שעה | 200|USD     |
-| מפתחים   | Contoso הודו |שעה|   112|USD     |
+| מפתח   | Contoso US  |Hour | 200|USD     |
+| מפתח   | Contoso India |Hour|   112|USD     |
 
 
 **תעריפי עלויות לדוגמה**
 
 | טווח שכר     | יחידה ארגונית    |יחידה      |מחיר      |מטבע  |
 | ----------------|-------------|----------|----------:|----------|
-| טווח1_של החברה שלי | Contoso בארה"ב  |שעה | 145|USD     |
-| טווח2_של החברה שלי | Contoso הודו |שעה|   67|USD     |
+| טווח1_של החברה שלי | Contoso US  |Hour | 145|USD     |
+| טווח2_של החברה שלי | Contoso India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

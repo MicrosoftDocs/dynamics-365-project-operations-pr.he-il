@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על הדרך ליצור ולהשת
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993557"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594211"
 ---
 # <a name="set-up-cost-templates"></a>הגדרת תבניות עלות
 
@@ -56,7 +56,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ## <a name="create-cost-templates"></a>צור תבניות עלות
 בצע את השלבים הבאים כדי ליצור תבנית עלות:
 
-1. כדי לגשת לתבניות עלות, בסביבת Dynamics 365 Finance, עבור אל **ניהול פרויקטים וחשבונאות** > **הגדרה** > **אומדנים** > **תבנית עלות**.
+1. כדי לגשת לתבניות עלויות, בסביבת Dynamics 365 Finance, עבור אל **ניהול וחשבונאות של פרוייקטים** > **הגדרה** > **הערכות** > **תבנית עלות**.
 2. כדי ליצור תבנית עלות חדשה, בחר **חדש**. הזן שם ותיאור.
 3. ספק את מזהה שורת העלות לכל סוג עסקה.
 4. בחר שיטת השלמה המוגדרת כברירת מחדל:

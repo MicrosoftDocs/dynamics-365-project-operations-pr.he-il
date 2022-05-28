@@ -4,14 +4,14 @@ description: נושא זה מסביר כיצד ליצור מבנה התפלגו�
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928616"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597799"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>יצירת מבנה התפלגות עבודה (WBS)
 
@@ -124,7 +124,7 @@ ms.locfileid: "7928616"
 |----------------------------------------------------|----------------------|
 | מקסימום משימות עבור פרויקט                  | 500                  |
 | מקסימום משך עבור פרויקט               | 3650 ימים (10 שנים) |
-| מקסימום משאבים עבור פרויקט              | 150                  |
+| מקסימום משאבים עבור פרויקט              | 300                  |
 | מקסימום קישורים (יורשים בלבד) עבור פרויקט | 600                  |
 | מקסימום שדות בהתאמה אישית עבור פרויקט          | 10                   |
 | מקסימום פריטי רשימת תיוג למשימה                   | 20                   |

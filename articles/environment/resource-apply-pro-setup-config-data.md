@@ -4,27 +4,27 @@ description: נושא זה מספק מידע על הגדרה והחלה של נ�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986627"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594717"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>הגדרה והחלה של נתוני  תצורה ב-Common Data Service 
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
 
 לפני שתתחיל להגדיר נתונים ב- Common Data Service (CDS), יש לעמוד בתנאים המוקדמים הבאים:
 
-1.  הקצאת סביבת CDS וסביבת Dynamics 365 Finance ל-Project Operations.
-2.  מידע על הישות המשפטית מ-Dynamics 365 Finance משותף בסביבת CDS. פירוש הדבר שישות **חברה** ב- CDS כוללת את רשומות החברה הבאות:
+1.  אספקת סביבת CDS וסביבת Dynamics 365 Finance עבור Project Operations.
+2.  פרטי ישות משפטית מ- Dynamics 365 Finance משותפעים בסביבת CDS. פירוש הדבר שישות **חברה** ב- CDS כוללת את רשומות החברה הבאות:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ![‏‫העברת תצורה.](./media/1ConfigurationMigration.png)
 
-4. בעמוד 2 של אשף ב-CMT בחר ב **Microsoft 365** כ **סוג הפריסה**.
+4. בעמוד 2 של אשף CMT, בחר **Microsoft 365** כ **סוג הפריסה**.
 5. בחר את תיבות הסימון **הצג רשימה של ארגונים זמינים** ו **הצג מתקדם**.
 6. בחר את האזור של הדייר שלך, הזן את האישורים שלך ובחר **כניסה**.
 
@@ -132,7 +132,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 12. עדכן את השדות הבאים:
 
  - **חברת ברירת מחדל**: USPM
- - **יחידה ארגונית המוגדרת כברירת מחדל**: Contoso רובוטיקה גלובלית
+ - **יחידה ארגונית המוגדרת כברירת מחדל**: Contoso Robotics Global
  - **תדירות חשבונית**: היום השביעי והאחרון
  - **תבנית שעות עבודה**: שנה לתבנית שיצרת.
 

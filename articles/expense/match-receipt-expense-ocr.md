@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798041"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596281"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>לכידת קבלה באמצעות OCR
 
@@ -52,7 +52,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 ## <a name="installation"></a>התקנה
 
-כדי להשתמש ביכולות המתקדמות של הוצאות, התקן את תוספת השירות של ניהול הוצאות עבור Microsoft Dynamics 365 Finance והפעל את התכונות במופע שלך. אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).
+כדי להשתמש ביכולות ההוצאות המתקדמות הללו, התקן את התוסף Expense Management Service עבור Microsoft Dynamics 365 Finance, והפעל את התכונות במופע שלך. אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).
 
 1. היכנס ל- LCS ופתח את הסביבה הרצויה.
 2. עבור אל **פרטים מלאים**.

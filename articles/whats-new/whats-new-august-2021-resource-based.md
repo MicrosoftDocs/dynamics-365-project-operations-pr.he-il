@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501372"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594165"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש באוגוסט 2021 - Project Operations לתרחישים של משאבים/ללא-מלאי
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501372"
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
    - Project Operations בגירסה של סביבת Microsoft Dataverse 4.13.0.152.
-   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.20.
+   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
@@ -54,7 +54,7 @@ ms.locfileid: "7501372"
 | זמן והוצאה | 2336884 | לחצן ערך הזמן **העתק שבוע** מוכרח לפעול עבור יותר מהמשתמש הנוכחי. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב- Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות | מספר אסמכתא | עדכון איכות |
 | --- | --- | --- |

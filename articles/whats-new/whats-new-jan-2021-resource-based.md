@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008092"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599547"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, ינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -22,7 +22,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
   - Project Operations בסביבת Dataverse גרסה 4.6.0.154
-  - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.16
+  - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.16
 
 ## <a name="quality-updates"></a>עדכוני איכות
 
@@ -43,7 +43,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | **‏‫תכנון פרוייקטים ומעקב אחריהם** | 2090202 | סומנו כללים עסקיים שכבר אינם משמשים בתור **הוצא משימוש**. |
 | **זמן והוצאה** | 2091249 | פקדים למשתמשים כך שהם לא יכולים לשנות את המשימה ברישום זמן שאושר או נשלח. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | **אזור תכונות** | **מספר אסמכתא** | **עדכון איכות** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

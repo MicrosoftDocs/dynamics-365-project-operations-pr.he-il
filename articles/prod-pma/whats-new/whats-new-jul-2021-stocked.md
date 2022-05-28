@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992702"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597063"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, יולי 2021 עבור תרחישים של מלאי/מבוססי ייצור
 
@@ -20,7 +20,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.20
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.20
  
 ### <a name="quality-updates"></a>עדכוני איכות
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | הכלי **אפס את מצב מסמך ההוצאות** צריך לאפס את דוח ההוצאות למצב **טיוטה** אם זרימת העבודה לא נמצאה. 
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

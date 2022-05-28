@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753293"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598489"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש באוקטובר 2021 - Project Operations לתרחישים מבוססי משאב/לא במלאי
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753293"
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
    - Project Operations בגירסה של סביבת Microsoft Dataverse 4.25.0.91
-   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.21
+   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.21
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753293"
 | חיוב ותמחור | 2338357 | המטבע ביומן השימוש בחומרים מוכרח להיות ברירת המחדל של מטבע הפרוייקט בעת בחירת הפרוייקט. |
 | זמן והוצאה | 2414777 | ביטול אישור כאשר לערך ההוצאה או הזמן יש יותר מאישור פרוייקט אחד משויך מוכרח להיות אפשרי. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב- Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות | מספר אסמכתא | עדכון איכות |
 | --- | --- | --- |
