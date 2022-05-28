@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005302"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727959"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>השתמש בתוספת של ‏‫Project Service Automation‬ כדי לתכנן את העבודה שלך ב- Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005302"
 ## <a name="download-and-install-the-add-in"></a>הורדה והתקנה של התוספת  
  הכן את פרטי הכניסה שלך ל- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. תזדקק למידע זה כדי להתחבר מתוך [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] אל [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  דרך 'מרכז ההורדות', באפשרותך להוריד את התוספת עבור הגירסה הנתמכת של Project Service, גירסה [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) או גירסה [V3.4+‎](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  דרך 'מרכז ההורדות', באפשרותך להוריד את התוספת עבור הגירסה הנתמכת של Project Service, גירסה [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) או גירסה [V3.4+‎](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  לחץ על קישור ההורדה.  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005302"
 
 הפרוייקט יובא לתוך [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. תהליכי תמחור והפקת צוות מוחלים. פתח את הפרוייקט ב- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] כדי לראות שהצוות, הערכות הפרוייקט ומבנה התפלגות העבודה נוצרו. הטבלה הבאה מראה היכן למצוא את התוצאות:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| פרויקט | פרטים |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **תרשים גנט**   | מייבא לתוך המסך [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **מבנה התפלגות עבודה**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **גליון משאבים** |   מייבא לתוך המסך [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **חברי צוות הפרוייקט**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **שימוש בנתוני שימוש**    |    מייבא לתוך המסך [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **‏‫הערכות פרוייקט‬**.     |

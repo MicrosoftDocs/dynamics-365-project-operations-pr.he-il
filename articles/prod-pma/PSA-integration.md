@@ -1,33 +1,31 @@
 ---
 title: מבט כולל על Project Service Automation
-description: נושא זה מספק מידע על פתרון השילוב של Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+description: נושא זה מספק מידע על Dynamics 365 Project Service Automation לפתרון השילוב של Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005887"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685517"
 ---
 # <a name="project-service-automation-overview"></a>מבט כולל על Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-פתרון השילוב Project Service Automation ל- Finance משתמש בתכונת שילוב הנתונים לסנכרון נתונים במופעים של Dynamics 365 Finance ו- Dynamics 365 Project Service Automation באמצעות Common Data Service. תבניות השילוב שזמינות עם תכונת שילוב הנתונים מאפשרות זרימה של פרויקטים, חוזי פרויקט, סעיפי חוזה של פרויקט, אבני דרך בסעיפי חוזה של פרויקט, משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות מ- Project Service Automation ל- Finance.
+
+פתרון השילוב של Project Service Automation to Finance משתמש בתכונת שילוב הנתונים כדי לסנכרן נתונים בין מופעים של Dynamics 365 Finance ו- Dynamics 365 Project Service Automation באמצעות Common Data Service. תבניות השילוב שזמינות עם תכונת שילוב הנתונים מאפשרות זרימה של פרויקטים, חוזי פרויקט, סעיפי חוזה של פרויקט, אבני דרך בסעיפי חוזה של פרויקט, משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות מ- Project Service Automation ל- Finance.
 
 > [!NOTE]
 > - אם אתה משתמש בגירסה 7.3.0, עליך להתקין את KB 4074835. לאחר מכן תוכל לשלב פרויקטים במחיר קבוע.

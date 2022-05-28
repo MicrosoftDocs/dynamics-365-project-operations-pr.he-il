@@ -1,34 +1,33 @@
 ---
 title: סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance
-description: נושא זה מתאר את התבנית ואת המשימות הבסיסיות המשמשות לסנכרון חוזי פרויקטים ופרויקטים ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+description: נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון חוזים ופרויקטים ישירות מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001072"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684643"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>סנכרן חוזי פרוייקטים ופרוייקטים ישירות מ- Project Service Automation ל- Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-נושא זה מתאר את התבנית ואת המשימות הבסיסיות המשמשות לסנכרון חוזי פרויקטים ופרויקטים ישירות מ- Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+
+נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון חוזים ופרויקטים ישירות מ- Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 
 > [!NOTE] 
 > אם אתה משתמש ב- Enterprise edition 7.3.0, עליך להתקין את KB 4074835.
@@ -112,7 +111,7 @@ ms.locfileid: "7001072"
 - **SourceDataID** עבור חוזי פרויקטים וניתן לעדכן פרויקטים לערך שונה או להסיר מהמיפוי. ערך התבנית המוגדרת כברירת מחדל הוא **Project Service Automation**.
 - יש לעדכן את המיפוי **PaymentTerms** כך שהוא ישקף תנאי תשלום חוקיים ב- Finance. בנוסף, תוכל להסיר את המיפוי ממשימת הפרויקט. במפת ערך ברירת המחדל יש ערכי ברירת מחדל לנתוני הדגמה. הטבלה הבאה מציגה את הערכים ב- Project Service Automation.
 
-    | ערך | תיאור   |
+    | ערך | Description   |
     |-------|---------------|
     | 1     | שוטף+30        |
     | 2     | ‏‫שוטף+30, 10 2%‬ |
@@ -121,15 +120,15 @@ ms.locfileid: "7001072"
 
 ## <a name="power-query"></a>Power Query
 
-השתמש ב- Microsoft Power Query עבור Excel כדי לסנן נתונים אם מתקיימים התנאים הבאים:
+השתמש ב- Power Query ‏Microsoft עבור Excel לסינון נתונים אם מתקיימים התנאים הבאים:
 
 - יש לך הזמנות מכירה ב- Dynamics 365 Sales.
 - יש לך יחידות ארגוניות מרובות ב- Project Service Automation והיחידות הארגוניות האלה ימופו לכמה ישויות משפטיות ב- Finance.
 
-אם עליך להשתמש ב- Power Query, פעל לפי ההנחיות הבאות:
+אם אתה חייב להשתמש ב- Power Query, פעל לפי ההנחיות הבאות:
 
 - התבנית פרויקטים וחוזים (PSA ל- Fin and Ops) כוללת מסנן ברירת מחדל שכולל רק הזמנות מכירות מסוג **Work item (msdyn\_ordertype = 192350001)‎**. מסנן זה עוזר להבטיח כי לא נוצרים חוזי פרויקט להזמנות מכירה ב- Finance. אם אתה יוצר תבנית משלך, עליך להוסיף מסנן זה.
-- צור מסנן Power Query הכולל רק את ארגוני החוזים שצריכים להיות מסונכרנים עם הישות המשפטית של מערך חיבורי השילוב. לדוגמה, יש לסנכרן חוזי פרויקט שיש לך עם היחידה הארגונית של חוזה Contoso ארה"ב עם הישות המשפטית USSI, אך יש חוזי פרויקטים עם היחידה הארגונית של החוזה Contoso העולמית יש לסנכרן עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
+- צור מסנן Power Query הכולל רק את ארגוני החוזה שיש לסנכרן עם הישות המשפטית של ערכת חיבורי האינטגרציה. לדוגמה, יש לסנכרן חוזי פרויקטים שיש לך עם היחידה הארגונית של החוזה של Contoso US עם הישות המשפטית USSI, אך יש לסנכרן את חוזי הפרויקט שיש לך עם היחידה הארגונית של החוזה של Contoso Global עם הישות המשפטית USMF. אם לא תוסיף מסנן זה למיפוי המשימות, כל חוזי הפרויקט יסונכרנו עם הישות המשפטית שהוגדרה עבור קבוצת החיבורים, ללא קשר ליחידה הארגונית של החוזה.
 
 ## <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים
 

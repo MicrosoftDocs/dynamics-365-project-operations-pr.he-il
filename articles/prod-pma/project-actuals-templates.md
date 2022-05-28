@@ -1,32 +1,31 @@
 ---
-title: סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
-description: נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון נתונים בפועל של פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Finance and Operations.
+title: סנכרן נתונים בפועל של פרויקטים ישירות מ- Project Service Automation ליומן שילוב הפרויקט לפרסום בפיננסים ותפעול
+description: נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון נתונים בפועל של פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988112"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683539"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>סנכרון נתונים בפועל של פרויקט ישירות מ- Project Service Automation ליומן שילוב הפרויקט עבור רישום ב- Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>סנכרן נתונים בפועל של פרויקטים ישירות מ- Project Service Automation ליומן שילוב הפרויקט לפרסום בפיננסים ותפעול
 
 [!include[banner](../includes/banner.md)]
 
-נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון נתונים בפועל של פרויקט ישירות מ- Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון נתונים בפועל של פרויקט ישירות מ- Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 
 התבנית מסנכרנת עסקאות מ- Project Service Automation לטבלת אחסון זמני ב- Finance. לאחר השלמת הסנכרון, **עליך** לייבא נתונים מטבלת האחסון הזמני אל יומן השילוב.
 
@@ -42,7 +41,7 @@ ms.locfileid: "6988112"
 
 האיור הבא מראה כיצד הנתונים מסונכרנים בין Project Service Automation ו- Finance.
 
-[![זרימת נתונים לשילוב Project Service Automation עם Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![זרימת נתונים לאינטגרציה של Project Service Automation באמצעות פיננסים ותפעול.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>נתונים בפועל של פרויקט מ- Project Service Automation
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988112"
 
 ### <a name="power-query"></a>Power Query
 
-בתבנית נתונים בפועל של פרויקט, עליך להשתמש ב- Microsoft Power Query for Excel כדי להשלים את המשימות הבאות:
+בתבנית הנתונים בפועל של הפרויקט, עליך להשתמש ב- Power Query ‏Microsoft עבור Excel כדי להשלים את המשימות הבאות:
 
 - שנה את סוג העסקה ב- Project Service Automation לסוג העסקה הנכון ב- Finance. שינוי זה כבר הוגדר בתבנית נתונים בפועל של פרויקט (PSA ל- Fin and Ops).
 - שנה את סוג החיוב ב- Project Service Automation לסוג החיוב הנכון ב- Finance. שינוי זה כבר הוגדר בתבנית נתונים בפועל של פרויקט (PSA ל- Fin and Ops). לאחר מכן, סוג החיוב ימופה אל מאפיין השורה, בהתאם לתצורה בדף **פרמטרי שילוב של Project Service Automation**.
@@ -84,9 +83,9 @@ ms.locfileid: "6988112"
 - אם לא יסונכרנו הנתונים בפועל של שעות בין-חברתיות והוצאות בין-חברתיות ל- Finance, עליך למחוק את העמודה המותנית האחרונה שהוכנסה מהתבנית. אחרת, עלולה להתרחש שגיאת שילוב או ייבוא של עסקאות בפועל שגויות אל Finance.
 
 #### <a name="contract-organizational-unit"></a>יחידה ארגונית של חוזה
-כדי לעדכן את העמודה המותנית שהוכנסה בתבנית, לחץ על החץ **מפה** כדי לפתוח את המיפוי. בחר בקישור **שאילתות וסינון מתקדמים** כדי לפתוח את Power Query.
+כדי לעדכן את העמודה המותנית שהוכנסה בתבנית, לחץ על החץ **מפה** כדי לפתוח את המיפוי. בחר את הקישור **שאילתה וסינון מתקדמים** לפתיחת Power Query.
 
-- אם אתה משתמש בתבנית ברירת מחדל לנתונים בפועל של פרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות האחרונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **USSI** בשם של הישות המשפטית שתהיה בשימוש בשילוב. הוסף תנאים נוספים לערך **פונקציה** כנדרש ועדכן את התנאי **else** מ- **USMF** לישות המשפטית הנכונה.
+- אם אתה משתמש בתבנית ברירת המחדל של הנתונים בפועל של הפרויקט (PSA to Fin and Ops), ב- Power Query, בחר את **התנאי שנוסף** האחרון מהמקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **USSI** בשם של הישות המשפטית שתהיה בשימוש בשילוב. הוסף תנאים נוספים לערך **פונקציה** כנדרש ועדכן את התנאי **else** מ- **USMF** לישות המשפטית הנכונה.
 - אם אתה יוצר תבנית חדשה, עליך להוסיף את העמודה כדי לתמוך בשעות והוצאות בין-חברתיות. בחר **הוסף עמודה מותנית** והזן שם לעמודה, כגון **LegalEntity**. הזן תנאי עבור העמודה, שבו, אם **msdyn\_contractorganizationalunitid.msdyn\_name** הוא \<organizational unit\>, אז \<enter the legal entity\>; אחרת Null.
 
 ### <a name="template-mapping-in-data-integration"></a>מיפוי תבנית בשילוב נתונים
@@ -126,7 +125,7 @@ ms.locfileid: "6988112"
 
 ### <a name="power-query"></a>Power Query
 
-בתבנית עדכון נתונים בפועל של פרויקט, עליך להשתמש ב- Power Query כדי להשלים את המשימות הבאות:
+בתבנית עדכון הנתונים בפועל של הפרויקט, עליך להשתמש ב- Power Query ‏Microsoft עבור Excel כדי להשלים את המשימות הבאות:
 
 - שנה את סוג העסקה ב- Finance לסוג העסקה הנכון ב- Project Service Automation. שינוי זה כבר הוגדר בתבנית עדכון נתונים בפועל של פרויקט (Fin Ops ל- PSA).
 - שנה את סוג החיוב ב- Finance לסוג החיוב הנכון ב- Project Service Automation. שינוי זה כבר הוגדר בתבנית עדכון נתונים בפועל של פרויקט (Fin Ops ל- PSA).

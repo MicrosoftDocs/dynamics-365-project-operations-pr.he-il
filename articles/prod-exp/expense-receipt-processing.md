@@ -1,24 +1,23 @@
 ---
 title: עיבוד קבלות של הוצאות
-description: נושא זה מספק מידע על עיבוד זיהוי תווים אופטי (OCR) של קבלות. תכונה זו נועדה לשפר את חווית המשתמש בעת יצירת דוחות הוצאות ב-Dynamics 365 Finance‏ Microsoft.
+description: נושא זה מספק מידע על עיבוד זיהוי תווים אופטי (OCR) של קבלות. תכונה זו נועדה לשפר את חוויית המשתמש בעת יצירת דוחות הוצאות ב- Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001387"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684321"
 ---
 # <a name="expense-receipt-processing"></a>עיבוד קבלות של הוצאות
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001387"
 
 תכונה זו פועלת בשילוב עם התכונה **דוחות ההוצאות החדשניות** המסייעת לפשט את חוויית ההוצאות. תכונה זו זמינה רק בסביבות Tier 2+‎, שהן ארגז חול וייצור.
 
-כדי להשתמש ביכולות המתקדמות של הוצאות, התקן את תוספת השירות של ניהול הוצאות עבור Microsoft Dynamics 365 Finance והפעל את התכונות במופע שלך. אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).
+כדי להשתמש ביכולות ההוצאות המתקדמות הללו, התקן את התוסף Expense Management Service עבור Microsoft Dynamics 365 Finance, והפעל את התכונות במופע שלך. אתה יכול לגשת לתוספת מהפרויקט שלך ב- Microsoft Dynamics Lifecycle Services (LCS).
 
 1. היכנס ל- LCS ופתח את הסביבה הרצויה.
 2. עבור אל **פרטים מלאים**.

@@ -1,32 +1,31 @@
 ---
-title: סנכרון הערכות פרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
-description: נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון הערכת שעות בפרויקט והערכת הוצאות בפרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+title: סנכרון הערכות פרויקט ישירות מ-Project Service Automation ועד ל- Finance and Operations
+description: נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון הערכות של שעות פרויקט והערכות של הוצאות פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988202"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684597"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון הערכות פרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון הערכות פרויקט ישירות מ-Project Service Automation ועד ל- Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון הערכת שעות בפרויקט והערכת הוצאות בפרויקט ישירות מ- Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+נושא זה מתאר את התבניות והמשימות המשמשות כבסיסת שמשמשות לסנכרון הערכות של שעות פרויקט והערכות של הוצאות פרויקט ישירות מ- Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 
 > [!NOTE]
 > - שילוב משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות ונעילת פונקציונליות זמינים בגירסה 8.0.
@@ -70,7 +69,7 @@ ms.locfileid: "6988202"
 
 ### <a name="power-query"></a>Power Query
 
-בתבנית הערכת שעות בפרויקט, עליך להשתמש ב- Microsoft Power Query for Excel כדי להשלים את המשימות הבאות:
+בתבנית הערכות של שעות הפרויקט, עליך להשתמש ב-Power Query ‏Microsoft עבור Excel כדי להשלים את המשימות הבאות:
 
 - הגדר את מזהה מודל תחזית ברירת המחדל שישמש כאשר השילוב יוצר תחזיות חדשות לשעות.
 - סנן רשומות שספציפיות למשאבים במשימה אשר יכשלו בשילוב בתוך תחזיות השעות.
@@ -81,7 +80,7 @@ ms.locfileid: "6988202"
 כדי לעדכן את מזהה מודל התחזית בברירת מחדל בתבנית, לחץ על החץ **מפה** כדי לפתוח את המיפוי. לאחר מכן, בחר בקישור **שאילתות וסינון מתקדמים**.
 
 - אם אתה משתמש בתבנית ברירת מחדל להערכת השעות בפרויקט (PSA ל- Fin and Ops), בחר באפשרות **תנאי שהוכנס** ברשימה **שלבים שהוחלו**. בערך **פונקציה**, החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
-- אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית** והזן שם לעמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם משימה בפרויקט אינה Null, \<enter the forecast model ID\>; אחרת Null.
+- אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית**, והזן שם עבור העמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם משימה בפרויקט אינה Null, \<enter the forecast model ID\>; אחרת Null.
 
 #### <a name="filter-out-resource-specific-records"></a>סנן רשומות שספציפיות למשאבים
 
@@ -126,7 +125,7 @@ ms.locfileid: "6988202"
 
 ### <a name="power-query"></a>Power Query
 
-בתבנית הערכת הוצאות בפרויקט, עליך להשתמש ב- Power Query כדי להשלים את המשימות הבאות:
+בתבנית הערכות של הוצאות הפרויקט, עליך להשתמש ב- Power Query ‏כדי להשלים את המשימות הבאות:
 
 - סנן כדי לכלול רק רשומות של שורת הערכת הוצאות.
 - הגדר את מזהה מודל תחזית ברירת המחדל שישמש כאשר השילוב יוצר תחזיות חדשות לשעות.
@@ -141,8 +140,8 @@ ms.locfileid: "6988202"
 
 כדי לעדכן את מזהה מודל התחזית בברירת מחדל בתבנית, בחר במשימה **הערכת הוצאות** ולאחר מכן לחץ על החץ **מפה** כדי לפתוח את המיפוי. בחר בקישור **שאילתות וסינון מתקדמים**.
 
-- אם אתה משתמש בתבנית ברירת מחדל להערכת הוצאות בפרויקט (PSA ל- Fin and Ops), ב- Power Query, בחר באפשרות הראשונה **תנאי שהוכנס** במקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
-- אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית** והזן שם לעמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם מזהה שורת הערכה אינו Null, \<enter the forecast model ID\>; אחרת Null.
+- אם אתה משתמש בתבנית ברירת המחדל של הערכות של הוצאות פרויקט (PSA to Fin and Ops), ב- Power Query, בחר את **התנאי שנוסף** הראשון מהמקטע **שלבים שהוחלו**. בערך **פונקציה**, החלף את **O\_forecast** בשם של מזהה מודל התחזית שבו יש להשתמש בשילוב. לתבנית ברירת המחדל יש מזהה מודל תחזית מנתוני ההדגמה.
+- אם אתה יוצר תבנית חדשה, עליך להוסיף עמודה זו. ב- Power Query, בחר **הוסף עמודה מותנית**, והזן שם עבור העמודה החדשה, כגון **ModelID**. הזן את התנאי עבור העמודה, שבה, אם מזהה שורת הערכה אינו Null, \<enter the forecast model ID\>; אחרת Null.
 
 #### <a name="transform-the-billing-types"></a>שנה את סוגי החיובים
 

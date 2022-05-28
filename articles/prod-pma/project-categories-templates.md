@@ -1,32 +1,31 @@
 ---
-title: סנכרון קטגוריות של הוצאות בפרויקט בין Finance and Operations ו- Project Service Automation
-description: נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון קטגוריות של הוצאות בפרויקט בין Microsoft Dynamics 365 Finance ו- Dynamics 365 Project Service Automation.
+title: סנכרון קטגוריות הוצאות של פרויקט בין Project Service Automation ובפיננסים ותפעול
+description: נושא זה מתאר את התבניות והמשימות המשמשות כבסיס שמשמשות קטגוריות של הוצאות פרויקט בין Microsoft Dynamics 365 Finance לבין Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001117"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685471"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>סנכרון קטגוריות של הוצאות בפרויקט בין Finance and Operations ו- Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>סנכרון קטגוריות הוצאות של פרויקט בין Project Service Automation ובפיננסים ותפעול
 
 [!include[banner](../includes/banner.md)]
 
-נושא זה מתאר את התבניות ואת המשימות הבסיסיות המשמשות לסנכרון קטגוריות של הוצאות בפרויקט בין Dynamics 365 Finance ו- Dynamics 365 Project Service Automation.
+נושא זה מתאר את התבניות והמשימות המשמשות כבסיס שמשמשות קטגוריות של הוצאות פרויקט בין Dynamics 365 Finance לבין Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - שילוב משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות ונעילת פונקציונליות זמינים בגירסה 8.0.
@@ -81,10 +80,10 @@ ms.locfileid: "7001117"
 
 ### <a name="power-query"></a>Power Query
 
-בעת סנכרון ל- Project Service Automation, עליך להשתמש ב- Microsoft Power Query for Excel כדי לקבוע את סוג החיוב בקטגוריית העסקה. התבנית קטגוריות של עסקאות הוצאות בפרויקט (Fin and Ops ל- PSA) מספק עמודה ומיפוי בברירת מחדל. אם אתה יוצר תבנית משלך, עליך להוסיף עמודה מותנית ב- Power Query. פעל בהתאם לשלבים אלה.
+כאשר אתה מסתנכרן עם Project Service Automation, עליך להשתמש ב- Power Query ‎‏‎‎‎Microsoft‎ עבור Excel כדי להגדיר את סוג החיוב בקטגוריית העסקה. התבנית קטגוריות של עסקאות הוצאות בפרויקט (Fin and Ops ל- PSA) מספק עמודה ומיפוי בברירת מחדל. אם אתה יוצר תבנית משלך, עליך להוסיף עמודה מותנית ב- Power Query. פעל בהתאם לשלבים אלה.
 
 1. לחץ על החץ כדי לפתוח את המיפוי של משימת הקטגוריות של הוצאות בפרויקט בתבנית קטגוריות עסקאות של הוצאות הפרויקט (Fin and Ops ל- PSA).
-2. לחץ על הקישור **שאילתות וסינון מתקדמים** כדי לפתוח את Power Query.
+2. לחץ על הקישור **שאילתה וסינון מתקדמים** לפתיחת Power Query.
 2. בחר **הוסף עמודה מותנית**.
 3. הזן שם לעמודה החדשה, כגון **BillingType**.
 4. הזן את התנאי הבא: **אם CATEGORYID לא שווה ל- Null אז 19235001, אחרת Null**.

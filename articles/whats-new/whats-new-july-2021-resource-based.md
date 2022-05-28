@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008047"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600881"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש ביולי 2021 - Project Operations לתרחישים של משאבים/ללא-מלאי
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008047"
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
    - Project Operations בגירסה של סביבת Microsoft Dataverse 4.12.0.148 או 4.12.0.152.
-   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.20.
+   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
@@ -80,7 +80,7 @@ ms.locfileid: "7008047"
 | כללי                       | 2253682              | אין להתקין את פתרון הכתיבה הכפולה של Project Operations כאשר ליבת כתיבה כפולה מותקנת בסביבה ללא פתרון התיאום של הכתיבה הכפולה.                                                |
 | כללי                       | 2316420              | הקצאת משאבים בסיסי של Project Service נכשלת אם משתנה היחידה העסקית של משתמש היישום.                                                                                                                     |
 | כללי                       | 2376405              | תוקנה בעיית עדכונים מונעי אתרים (עדכון איכות זמין בגרסה 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב- Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות                      | מספר אסמכתא | עדכון איכות                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

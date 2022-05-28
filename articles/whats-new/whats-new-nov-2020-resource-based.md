@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על עדכוני האיכות הז
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007957"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600375"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש נובמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -20,7 +20,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - פעולות פרויקט בסביבת CDS גירסה 4.4.0.70
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.14
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>עדכונים ל-Project Operations לתרחישים מבוססי משאבים ללא מלאי
 
@@ -42,7 +42,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ערך זמן והוצאה מהירה | 2059859          | חלון קופץ לא צפוי נפתח בעת יצירת ערך הוצאות.                                                                                                                         |
 | אחר                        | 2044181          | (הסרת התקנת הזמנת הרכש) בעת ניסיון להסיר את ההתקנה של את פתרונות הליבה של שירותי פרויקט msdyn_ProjectServiceCore_Patch ו- msdyn Project, מתרחשת השגיאה "הרשומה אינה זמינה".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות        | מספר אסמכתא | עדכון איכות                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | חשבונאות פרויקט  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | הפעלת התכונה סעיפי חוזה מרובים אינם אפשרית ללא שילוב CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על הדרך ליצור פתרונ
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992207"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601111"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>יצירת פתרון עבור ממדי תמחור מותאם אישית
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992207"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>יצירת פתרון עבור ממדי תמחור מותאם אישית
 
 1.  בחר **הגדרות** > **פתרונות**, ולאחר מכן בחר **חדש**.
-2.  תן שם לפתרון, *ממדי תמחור של <your organization name>*.
+2.  תן שם לפתרון, *ממדי תמחור של \<your organization name\>*.
 3. הזן את המידע הדרוש שנותר ולאחר מכן בחר **שמור**.
 
   ![יצירת פתרון של ממד תמחור מותאם אישית.](./media/Creation-of-custom-pricing-dimension-solution.png)

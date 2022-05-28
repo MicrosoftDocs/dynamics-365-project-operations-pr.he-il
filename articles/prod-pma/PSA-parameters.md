@@ -1,32 +1,31 @@
 ---
 title: פרמטרי שילוב של Project Service Automation
-description: נושא זה מסביר כיצד להגדיר את אופן הזנת הנתונים בברירת מחדל בעת שילוב Microsoft Dynamics 365 for Project Service Automation עם Microsoft Dynamics 365 Finance.
+description: נושא זה מסביר כיצד להגדיר כיצד נתוני ברירת מחדל מוזנים בעת שילוב Microsoft Dynamics 365 for Project Service Automation עם ‏‏‎‎365 Finanace‎‏ Microsoft Dynamics.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005842"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683677"
 ---
 # <a name="project-service-automation-integration-parameters"></a>פרמטרי שילוב של Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-בדף **פרמטרי שילוב של Service Automation**, תוכל להגדיר כיצד נתוני ברירת המחדל יוזנו בעת שילוב Dynamics 365 Project Service Automation עם Dynamics 365 Finance. כדי לסנכרן בהצלחה פרויקטים מ- Project Service Automation ל- Finance, עליך להגדיר את השדות הבאים.
+בדף **פרמטרי שילוב של Project Service Automation**, ניתן להגדיר את האופן שבו מוזנים נתוני ברירת מחדל בעת שילוב Dynamics 365 Project Service Automation עם Dynamics 365 Finance. כדי לסנכרן בהצלחה פרויקטים מ- Project Service Automation ל- Finance, עליך להגדיר את השדות הבאים.
 
 כדי לפתוח את הדף **פרמטרי שילוב של Project Service Automation**, עבור אל **ניהול פרויקטים וחשבונאות** \> **הגדרה** \> **פרמטרי שילוב של Dynamics 365 for Project Service Automation**. 
 

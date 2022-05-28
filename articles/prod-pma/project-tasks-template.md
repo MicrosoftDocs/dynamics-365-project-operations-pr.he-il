@@ -1,32 +1,31 @@
 ---
-title: סנכרון משימות פרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
-description: נושא זה מתאר את התבנית ואת המשימה הבסיסית המשמשות לסנכרון משימות פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+title: סנכרון משימות פרויקט ישירות מ-Project Service Automation ועד לפיננסים ותפעול
+description: נושא זה מתאר את התבנית והמשימה המשמשות כבסיס, שמשמשות לסנכרון משימות פרויקט ישירות מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992792"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683311"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון משימות פרויקטים ישירות מ- Project Service Automation ל- Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>סנכרון משימות פרויקט ישירות מ-Project Service Automation ועד לפיננסים ותפעול
 
 [!include[banner](../includes/banner.md)]
 
-נושא זה מתאר את התבנית ואת המשימה הבסיסית המשמשות לסנכרון משימות פרויקט ישירות מ- Dynamics 365 Project Service Automation אל Dynamics 365 Finance.
+נושא זה מתאר את התבנית והמשימה המשמשות כבסיס, שמשמשות לסנכרון משימות פרויקט ישירות מ- Dynamics 365 Project Service Automation ל- Dynamics 365 Finance.
 
 > [!NOTE]
 > - שילוב משימות פרויקט, קטגוריות של עסקאות הוצאות, הערכות לשעות, הערכות להוצאות ונעילת פונקציונליות זמינים בגירסה 8.0.
@@ -68,11 +67,11 @@ ms.locfileid: "6992792"
 
 ## <a name="power-query"></a>Power Query
 
-עליך להשתמש ב- Microsoft Power Query for Excel כדי לסנן נתונים אם מתקיים התנאי הזה:
+עליך להשתמש השתמש ב- Power Query ‏Microsoft עבור Excel אם מתקיים התנאי הבא:
 
 - יש לך רשומות ספציפיות למשאבים במשימת הפרויקט.
 
-אם עליך להשתמש ב- Power Query, פעל לפי ההנחיה זו:
+אם אתה חייב להשתמש ב- Power Query, פעל לפי ההנחיה הבאה:
 
 - תבנית משימות הפרויקט (PSA ל- Fin and Ops) כוללת מסנן ברירת מחדל המסנן רשומות ספציפיות למשאבים ממשימת פרויקט על ידי הגדרת המסנן ל- **IsLineTask** בתור **False**. אם אתה יוצר תבנית משלך, עליך להוסיף מסנן זה.
 

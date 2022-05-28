@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993872"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728005"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>תכנון העבודה ב- Microsoft Project עם התוספת Project Service
 
@@ -40,7 +41,7 @@ ms.locfileid: "6993872"
 ## <a name="download-and-install-the-add-in"></a>הורדה והתקנה של התוספת  
  הכן את פרטי הכניסה שלך ל- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. תזדקק למידע זה כדי להתחבר מתוך [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] אל [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  דרך 'מרכז ההורדות', באפשרותך להוריד את התוספת עבור הגירסה הנתמכת של Project Service, גירסה [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) או גירסה [V3.4+‎](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  דרך 'מרכז ההורדות', באפשרותך להוריד את התוספת עבור הגירסה הנתמכת של Project Service, גירסה [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) או גירסה [V3.4+‎](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  בחר את קישור ההורדה.  
 

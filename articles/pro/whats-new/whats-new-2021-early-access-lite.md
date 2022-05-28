@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323912"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723677"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>מה חדש במהדורת גישה מוקדמת גל 2 ל- 2021 - פריסת קלה של Project Operations
 
@@ -26,7 +26,7 @@ _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת 
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
-[ניהול חוזה משנה](../subcontracting/subcontracting_EA_scope.md) - תכונה זו מספקת ניראות ושליטה טובות יותר בכל היבטי העבודה בפרוייקט. ה- preview של ניהול חוזה משנה כולל את היכולות הבאות:
+[ניהול חוזה משנה](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - תכונה זו מספקת ניראות ושליטה טובות יותר בכל היבטי העבודה בפרוייקט. ה- preview של ניהול חוזה משנה כולל את היכולות הבאות:
 
   - מנהל פרוייקט יכול ליצור חוזה משנה מול ספק. כברירת מחדל, המחירונים המצורפים לרשומת הספקים משמשים עבור חוזה המשנה. לחשבונות ספק יש סוג מערכת יחסים של **מוכר** או **ספק**.
   - מנהל פרוייקט יכול לפרט את כל הרכישות כפריטי שורה בחוזה המשנה. שורות חוזה משנה יכולות להיות לזמן, הוצאות או מוצרים. סוג העסקה של סעיף החוזה קובע לשם מה השורה.

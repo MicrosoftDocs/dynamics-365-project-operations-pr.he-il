@@ -4,14 +4,14 @@ description: נושא זה מספק את רשימת המפות הכתיבה הכ
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547110"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612751"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -25,12 +25,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 | מפת טבלאות | סינכרון ראשוני |
 | --- | --- |
-| ספר (msdyn_ledgers) | דרוש סנכרון ראשוני עבור מפת הטבלה והדרישות המוקדמות. פריט ראשי לסינכרון ראשוני הוא יישומי Finance and Operations. |
+| ספר (msdyn_ledgers) | דרוש סנכרון ראשוני עבור מפת הטבלה והדרישות המוקדמות. פריט ראשי לסנכרון ראשוני הוא יישומי Finance and Operations. |
 | ישויות משפטיות (cdm_companies) | לא נדרש. המערכת מאכלסת ישות זו באופן אוטומטי כאשר מקושרים סביבות באמצעות כתיבה כפולה. |
 | לקוחות גרסה 3 (תיקי לקוח) | לא נדרש להקצאה. |
 | ספקים גרסה 2 (msdyn_vendors) | לא נדרש להקצאה. |
 
-1. מרשימת המפות, בחר את המפה 'ספר חשבונות' **(‏‎‏‏msdyn‏‏\_ledgers)** עם כל הדרישות המוקדמות ובחר את תיבת הסימון **סנכרון ראשוני**. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **ביישומי Finance and Operations** הן עבור מפת ספר החשבונות הראשי והן עבור כל המפות שנדרשות מראש. בחר **הפעל**.
+1. מרשימת המפות, בחר את המפה 'ספר חשבונות' **(‏‎‏‏msdyn‏‏\_ledgers)** עם כל הדרישות המוקדמות ובחר את תיבת הסימון **סנכרון ראשוני**. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **יישומי Finance and Operations** עבור מפת ספר ראשי וכל המפות של הדרישות המוקדמות. בחר **הפעל**.
 
 ![סנכרון מפת ספר ראשי.](media/DW6.png)
 
@@ -40,26 +40,26 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 המפות הבאות נדרשות מראש לפתרון Project Operations. גרסאות של מפה עם כתיבה כפולה מפורטות בעדכון מאי 2021 של Project Operations, גירסה 4.10.0.186.
 
-| **מפת ישויות** | **הגירסה האחרונה** | **סינכרון ראשוני** |
-| --- | --- | --- |
-| ‏‫ישות שילוב לקשרי עסקת פרויקט‬ (msdyn\_transactionconnections) | 1.0.0.0 | לא נדרש להקצאה. |
-| כותרות על חוזי פרויקט (הזמנות מכירה) | 1.0.0.1 | לא נדרש להקצאה. |
-| סעיפי חוזה של פרויקט (salesorderdetails) | 1.0.0.0 | לא נדרש להקצאה. |
-| מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | לא נדרש להקצאה. |
-| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. |
-| הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. |
-| נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. |
-| אבני דרך של סעיף חוזה של שילוב Project Operations‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. |
-| ישות שילוב Project Operations עבור אומדני הוצאות (msdyn_estimatelines) | 1.0.0.2 | לא נדרש להקצאה. |
-| ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. |
-| ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. |
-| ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.2 | לא נדרש להקצאה. |
-| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.0 | לא נדרש להקצאה. |
-| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.1 | לא נדרש להקצאה. |
-| תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories) | 1.0.0.1 | מחייב סנכרון ראשוני של מפת הטבלה כדי לסנכרן את תפקידי המשאבים של מנהל הפרויקט וחבר הצוות, שמאוכלסים בסביבת Dataverse Dynamics 365 במהלך ההקצאה. Dataverse הוא המקור הראשי לסנכרון הראשוני. |
-| משימות פרויקט (msdyn_projecttasks) | 1.0.0.4 | לא נדרש להקצאה. |
-| קטגוריות עסקאות פרויקט (msdyn_transactioncategories) | 1.0.0.0 | לא נדרש להקצאה. |
-| פרויקטים גרסה 2 (msdyn_projects) | 1.0.0.2 | לא נדרש להקצאה. |
+| מפת ישויות | הגירסה האחרונה | סינכרון ראשוני | גירסת Dynamics 365 Finance נדרשת |
+| --- | --- | --- | --- |
+| ‏‫ישות שילוב לקשרי עסקת פרויקט‬ (msdyn\_transactionconnections) | 1.0.0.0 | לא נדרש להקצאה. ||
+| כותרות על חוזי פרויקט (הזמנות מכירה) | 1.0.0.1 | לא נדרש להקצאה. ||
+| סעיפי חוזה של פרויקט (salesorderdetails) | 1.0.0.0 | לא נדרש להקצאה. ||
+| מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | לא נדרש להקצאה. ||
+| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. ||
+| הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. ||
+| נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. ||
+| אבני דרך של סעיף חוזה של שילוב Project Operations‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. ||
+| ישות שילוב Project Operations עבור אומדני הוצאות (msdyn_estimatelines) | 1.0.0.2 | לא נדרש להקצאה. ||
+| ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. ||
+| ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. ||
+| ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.3 | לא נדרש להקצאה. ||
+| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.0 | לא נדרש להקצאה. ||
+| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.4 | לא נדרש להקצאה. | 10.0.26 או גירסה מתקדמת יותר |
+| תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories) | 1.0.0.1 | מחייב סנכרון ראשוני של מפת הטבלה כדי לסנכרן את תפקידי המשאבים של מנהל הפרויקט וחבר הצוות, שמאוכלסים בסביבת Dataverse Dynamics 365 במהלך ההקצאה. Dataverse הוא המקור הראשי לסנכרון הראשוני. ||
+| משימות פרויקט (msdyn_projecttasks) | 1.0.0.4 | לא נדרש להקצאה. ||
+| קטגוריות עסקאות פרויקט (msdyn_transactioncategories) | 1.0.0.0 | לא נדרש להקצאה. ||
+| פרויקטים גרסה 2 (msdyn_projects) | 1.0.0.2 | לא נדרש להקצאה. ||
 
 השלם את השלבים הבאים להפעלת המפות המפורטות.
 

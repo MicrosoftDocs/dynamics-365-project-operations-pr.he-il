@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991172"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723723"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, מרץ 2021 לתרחישים של מלאי/ מבוססי ייצור
 
@@ -20,7 +20,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.17
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.17
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 התכונות הבאות כלולות בהפצה זו:
@@ -121,7 +121,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | ניהול פרוייקטים וחשבונאות | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | שיטת הסיווג של מבנה התפלגות עבודה (WBS) של הדור הקודם, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** הוצאה משימוש.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates.md). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

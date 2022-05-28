@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994682"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723769"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש במאי 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבה של Dynamics 365 Dataverse גירסה 4.10.0.186
-- ניהול פרוייקטים וחשבונאות בסביבות של אפליקציות Finance and Operations גירסה 10.0.18
+- ניהול פרויקטים וחשבונאות בסביבות יישומי Finance and Operations גירסה 10.0.18
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
@@ -41,9 +41,9 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations‏ ‏‎(‏‎msdyn\_projectvendorinvoicelines‎‏‎)‏‎‎‏‏ | 1.0.0.1 | עדכוני איכות |
 | פרוייקטים V2 (msdyn\_projects) | 1.0.0.2 | עדכוני איכות |
 
-תמיד צריך להפעיל את הגירסה האחרונה של המפה בסביבה ולהפוך את כל מפות הטבלה הקשורות לזמינות בעת עדכון פתרון Dataverse Project Operations וגרסת פתרון של Finance and Operations. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגירסה האחרונה של המפה אינה מופעלת. אפשר לראות את הגירסה הפעילה של המפה בעמודה **גירסה** בדף **כתיבה כפולה**. כדי להפעיל גירסה חדשה של המפה, בחר באפשרות **גירסאות של מפת טבלאות**, בחר בגירסה העדכנית ביותר ושמור את הגירסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+הפעל תמיד את הגרסה האחרונה של המפה בסביבה שלך, והפעל את כל מפות הטבלות הקשורות תוך כדי עדכון הפתרון שלך בגירסת פתרון ביישומי Finance and Operations, ופתרון Project Operations Dataverse. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגירסה האחרונה של המפה אינה מופעלת. אפשר לראות את הגירסה הפעילה של המפה בעמודה **גירסה** בדף **כתיבה כפולה**. כדי להפעיל גירסה חדשה של המפה, בחר באפשרות **גירסאות של מפת טבלאות**, בחר בגירסה העדכנית ביותר ושמור את הגירסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-אם נתקלת בבעיה בהפעלת המפה, פעל לפי ההוראות במקע [בעיית עמודות טבלה חסרות במפות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) במדריך לפתרון בעיות של כתיבה כפולה.
+אם נתקלת בבעיה בהפעלת המפה, פעל לפי ההוראות במקע [בעיית עמודות טבלה חסרות במפות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) במדריך לפתרון בעיות של כתיבה כפולה.
 
 ## <a name="quality-updates"></a>עדכוני איכות
 
@@ -67,7 +67,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ערך זמן | 2202476 | הדף **ערך זמן** משתמש כעת בפקד רשת ומתקן בעיות כגון חוסר יישור של הרשת. |
 | ערך זמן | 2223377 | ערך הזמן מוסתר מהמקטע **קשור** בדף **משאבים שניתנים להזמנה** כדי למנוע בלבול עם שימושיות. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות | מספר אסמכתא | עדכון איכות |
 | --- | --- | --- |
