@@ -4,20 +4,20 @@ description: נושא זה מסביר כיצד להגדיר או להעריך ח
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992612"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737303"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>הערכות כספיות עבור חומרים בפרוייקטים
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-Dynamics 365 Project Operations מאפשר למנהלי פרויקטים להגדיר עלויות חומר מבוססות פרויקט עבור כל פרויקט או משימה. ניתן לשייך כל הערכת חומר למשימת פרויקט ספציפית. ההוצאות מסווגות לקטגוריות הוצאות שונות, המוגדרות ברמה הארגונית. תמחור ועלות לכל קטגוריית הוצאות מוגדרים במחירון. 
+Dynamics 365 Project Operations מאפשר למנהלי פרויקטים להגדיר עלויות חומר מבוססות פרויקט עבור כל פרויקט או משימה. ניתן לשייך כל הערכת חומר למשימת פרויקט ספציפית. חומרים המשמשים בפרויקטים יכולים להיות מוצרים שאינם מופיעים ברשימה או מוצרים מקטלוג המוצרים. לכל שילוב של מוצר ויחידה ניתן להגדיר מחיר במחירוני הפרויקט עבור מכירות ובמחירוני הפרויקט עבור עלות.  
 
 בצע את השלבים הבאים כדי להציג, להוסיף או למחוק הערכת חומר לפרויקט.
 
