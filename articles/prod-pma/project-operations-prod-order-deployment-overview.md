@@ -3,16 +3,15 @@ title: מבט כולל על פריסת Project Operations לתרחישים מב�
 description: נושא זה מספק מידע על סוג הפריסה, Project Operations לתרחישים מבוססי ייצור/מלאי.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009082"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582481"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>מבט כולל על פריסת Project Operations לתרחישים מבוססי ייצור/מלאי
 
@@ -23,21 +22,21 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 - תכנון פרויקט באמצעות [מבני התפלגות העבודה](work-breakdown-structures.md)
 - רכישה וצריכת מלאי מוחזק לפרויקטים
-- ניהול מכירות מבוססות פרויקט באמצעות מודול **מכירות ושיווק** באפליקציות Dynamics 365 Finance and Operations
-- תמחור ותמחיר פרויקטים תוך שימוש בתצורות שעור העלות ושיעור החיוב באפליקציות Finance and Operations
-- ניהול משאבים עבור פרויקטים באפליצקיות של Finance and Operations
-- התקדמות הפרויקט ומעקב אחר זמן באפליקציות Finance and Operations
+- ניהול מכירות מבוססות פרויקטים באמצעות המודול **מכירות ושיווק** ביישומים פיננסים ותפעות של Dynamics 365
+- תמחור ותמחיר פרויקט באמצעות תצורות תעריף העלות ותעריף החיוב ביישומי פיננסים ותפעול
+- ניהול משאבים לפרויקטים באפליקציות פיננסים ותפעול
+- התקדמות הפרויקט ומעקב אחר זמן ביישומי פיננסים ותפעול
 - חוויות ניהול הוצאות עבור הוצאות פרוייקט ולא שאינן קשורות לפרויקט עם לכידת קבלות באמצעות יכולות OCR
 - הפקת חשבוניות באמצעות מערכת שערי חליפין של מע״מ ותאריכי תוקף ברמה הארגונית
 - קבוצות פרוייקט הניתנות להגדרה לחשבונאות WIP וצבירה
 - הכרה בהכנסות מפרויקטים
 
-סוג פריסה זה מספק גם הרחבה לפונקציונליות המסופקת על ידי האפליקציות Dynamics 365 Finance ו-Dynamics 365 Supply Chain Management יישומים.
+סוג פריסה זה מספק גם הרחבה לפונקציונליות המסופקת על ידי יישומי Dynamics 365 Finance ו- Dynamics 365 Supply Chain Management.
 
 בחר סוג פריסה זה לשימוש ב- Dynamics 365 Project Operations עבור מחזור החיים המלא של הפרויקט, כולל דרישות המפתח הבאות:
 
 - מערכת ניהול פרויקטים נרחבת המנהלת פריטי מלאי ועלויות הזמנת עבודה/ייצור עבור פרויקטים פנימיים ופרויקטים הניתנים לחיוב עבור לוחות זמנים וכספים.
-- לארגון כבר יש אפליקציות של Dynamics 365 Finance או יישומי Dynamics 365 Supply Chain and Manufacturing ושילוב עסקאות מבוססות פרוייקט יפשטו את צורכי הגישה לנתונים והדיווח.
+- לארגון כבר יש את האפליקציות Dynamics 365 Finance או Dynamics 365 Supply Chain and Manufacturing ושילוב עסקאות מבוססות פרויקט יפשט את הגישה לנתונים ואת צרכי הדיווח.
 - מערכת ניהול הוצאות מתפקדת לחלוטין הכוללת אכיפת מדיניות והחזרים עבור מעקב אחר הוצאות של פרויקטים והוצאות שאינן קשורות לפרויקטים.
 - מנוע מע״מ ושער חליפין ברמה ארגונית ליצירת חשבוניות המוגשות לקוחות עבור פרויקטים.
 - מערכת חשבונאות פרויקטים והכרה בהכנסות התואמת לתקני דיווח פיננסי בינלאומי (IFRS).

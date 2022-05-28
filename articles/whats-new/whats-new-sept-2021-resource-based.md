@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547155"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582895"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש בספטמבר 2021 - Project Operations לתרחישים מבוססי משאב/לא במלאי
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547155"
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
    - Project Operations בגירסה של סביבת Microsoft Dataverse 4.14.0.99.
-   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.20.
+   - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>עדכוני מפות כתיבה כפולה של Project Operations
 
@@ -45,7 +45,7 @@ ms.locfileid: "7547155"
 | חיוב ותמחור | 2385802 | תוקנה השגיאה המתרחשת עם שעות בפועל שליליות כאשר מתבצע רענון של סכומי הפרוייקט. |
 | חיוב ותמחור | 2389675 | אופן הפעולה של אישור חשבונית פרופורמה שופר. ישות משימות הפועלות זמן רב מוכרחה לקחת בחשבון את הפעילות הנדרשת לכתיבת תוצאות אישור עבור חשבונאות. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance
 
 | אזור תכונות | מספר אסמכתא | עדכון איכות |
 | --- | --- | --- |

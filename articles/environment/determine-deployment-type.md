@@ -4,14 +4,14 @@ description: נושא זה מספק מידע שיעזור לך לקבוע איז
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994637"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584137"
 ---
 # <a name="determine-your-deployment-type"></a>קביעת סוג הפריסה
 
@@ -42,7 +42,7 @@ Project Operations תומך במספר אפשרויות פריסה כדי להת
 - [Project Operations לתרחישים של משאבים/ללא מלאי](#integrated)
 - [Project Operations לתרחישי מלאי/הזמנת ייצור](#pma)
 
-Project Operations תומכות בתרחישים של מלאי/הזמנת ייצור ותרחישים ללא מלאי / מבוססי משאבים באותה סביבה באמצעות תצורות ברמת הישות המשפטית. לדוגמה, Contoso יכולה להשתמש ביכולות המלאי / הזמנת הייצור במתקן הייצור שלה בארה"ב (היישות המשפטית = Contoso Manufacturing United States). Contoso יכולה להשתמש ביכולות מבוססות משאבים / שאינן במלאי במתקן השירות שלה Contoso Robotics Arms בבריטניה (היישות המשפטית = Contoso Robotics United Kingdom).
+Project Operations תומכות בתרחישים של מלאי/הזמנת ייצור ותרחישים ללא מלאי / מבוססי משאבים באותה סביבה באמצעות תצורות ברמת הישות המשפטית. לדוגמה, חברת Contoso יכולה להשתמש ביכולות הזמנת מלאי/הייצורבמתקן הייצור בארה"ב (היישות המשפטית = Contoso Manufacturing United States). Contoso יכולה להשתמש ביכולות שאינן במלאי/מבוססות משאבים במתקן השירות שלהם Contoso Robotics Arms בבריטניה (ישות משפטית = Contoso Robotics בריטניה).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>פריסה קלה – עסקה לחשבונית פרופורמה
 

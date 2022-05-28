@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006787"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581699"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>ביטול ממד תמחור
 
@@ -39,8 +40,8 @@ ms.locfileid: "7006787"
 
 | כותרת סטנדרטית         | יחידה ארגונית    |יחידה   |מחיר  |מטבע  |
 | -----------------------|-------------|-------|-------|----------|
-| מהנדס מערכות|Contoso בארה"ב|שעה| 100|USD|
-| מהנדס מערכות בכיר|Contoso בארה"ב|שעה| 150| USD|
+| מהנדס מערכות|Contoso US|שעה| 100|USD|
+| מהנדס מערכות בכיר|Contoso US|שעה| 150| USD|
 
 
 כאשר אתה מבטל את הכותרת הסטנדרטית בתור **ממד התמחור**, ומנגנון התמחור של Project Service מחפש מחיר, הוא ישתמש רק בערך של **היחידה הארגונית** מתוך הקשר הקלט. אם **היחידה הארגונית** של הקשר הקלט היא "Contoso US", התוצאה תהיה לא דטרמיניסטית כיוון ששתי השורות יתאימו. כדי להימנע מתרחיש זה, בעת יצירת רשומות **מחיר תפקיד**, Project Service מאמת ששילוב הממדים הוא ייחודי. אם הממד מבוטל לאחר שנוצרו רשומות **מחיר התפקיד**, ניתן להפר אילוץ זה. לפיכך, לפני ביטול הממד, עליך למחוק את כל השורות של **מחיר תפקיד** ו **ייקור מחיר תפקיד** שערך ממד זה מאוכלס אצלן.

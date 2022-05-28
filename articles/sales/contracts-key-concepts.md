@@ -4,26 +4,26 @@ description: נושא זה מספק מידע על המושגים המרכזיי�
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986942"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582941"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>מושגים הייחודיים לחוזים מבוססי פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 נושא זה מספק את מושגי המפתח שיש לדעת עליהם לפני שתתחיל להשתמש בחוזי פרויקט ב- Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>החברה המהווה בעלים
 
-החברת הבעלות היא הישות משפטית במודול **ניהול פרויקטים וחשבונאות** של Project Operations מהיישום Dynamics 365 Finance. חברת הבעלות מייצגת את הישות המשפטית שתביא בחשבון את העלויות ובהכנסות שנובעות מעסקה.
+החברה הבעלים היא הישות המשפטית מהמודול **ניהול פרויקטים וחשבונאות** עבור Project Operations מ- Dynamics 365 Finance. חברת הבעלות מייצגת את הישות המשפטית שתביא בחשבון את העלויות ובהכנסות שנובעות מעסקה.
 
 ## <a name="contracting-unit"></a>יחידת החוזה
 

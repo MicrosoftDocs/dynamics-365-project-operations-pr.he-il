@@ -2,22 +2,22 @@
 title: הרשמה לגירסאות ניסיון של Project Operations
 description: נושא זה מספק מידע לגבי אופן הפריסה של גירסת ניסיון של Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901618"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584275"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>הרשמה לגירסאות ניסיון של Project Operations 
 
 _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבים/ללא מלאי, פריסת לייט - מעסקה לחשבונית פרופורמה, Project Operations לתרחישים מלאי/מבוססי ייצור_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 נושא זה מסביר כיצד להירשם כמנוי להצעת שותף של Preview ולפרוס סביבת Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 | שימוש בהצעה                    | פעם אחת לדייר                          |
 | משך ההצעה               | 30 ימים קלנדריים                             |
 | מימושים לדייר       | 1                                            |
-| מספר המשתמשים              | 25                                           |
 | הרחבה                    | הרחבה אחת, 30 ימים קלנדריים               |
 | מספר סביבות ניסיון | 3                                            |
 
@@ -87,7 +86,7 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
  
   כאשר ההקצאה הושלמה, מצב הסביבה שלך הוא **מוכן**. הקצאת הסביבה כוללת פריסת נתוני הדגמה.
  
-4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי Finance and Operations המתאימות כדי לאמת את הפריסה.
+4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי פיננסים ותפעול המתאימים כדי לאמת את הפריסה.
 
 ## <a name="configuring-dual-write"></a>קביעת תצורה של כתיבה כפולה
 - כדי להגדיר תפקידי אבטחה עבור כתיבה כפולה, ראה [עדכון הגדרות האבטחה ב-Project Operations ב- Dataverse](resource-provision-new-environment.md).
@@ -95,9 +94,9 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
 
-תזדקק לגישה מנהלתית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.
+תזדקק תגישה ניהולית לפורטל Microsoft 365 של הארגון שלך כדי להשלים את השלבים הבאים.
 
-1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרשיונות למשתמשים שלך.
+1. עבור אל [מרכז הניהול של Microsoft 365](https://portal.office.com/) כדי להקצות את הרישיונות למשתמשים שלך.
 
    ![דף הבית של מרכז הניהול](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 
 ## <a name="frequently-asked-questions"></a>שאלות נפוצות
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>מה אם אני זקוק ל- ALM או ELM עבור סביבת יישומי Finance and Operations שלי?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>מה אם דרוש ללי ALM או ELM עבור סביבת יישומי הפיננסים והתפעול שלי?
 
 - עבור שותפים הזקוקים ליכולות מלאות של ניהול מחזור חיים של סביבה, עיין ב[בקשה לרשיון לארגז חול של שותף](https://experience.dynamics.com/requestlicense) כדי לסקור את הצעת השותף החדשה. 
 - עבור שותפים הזקוקים למידע נוסף אודות זכויות שימוש פנימי, ראה [יתרון הענן והתוכנה של זכויות השימוש הפנימי (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

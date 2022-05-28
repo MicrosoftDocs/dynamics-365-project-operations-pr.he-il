@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על אופן הגדרת סוגי �
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998777"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580457"
 ---
 # <a name="period-types"></a>סוגי תקופות
 
@@ -22,7 +22,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ## <a name="create-and-work-with-period-types"></a>יצירה ועבודה עם סוגי תקופות
 כדי ליצור ולעבוד עם סוגי תקופות, בצע את השלבים הבאים:
 
-1. בסביבת Dynamics 365 Finance שלך, עבור אל **ניהול פרויקטים וחשבונאות** > **הגדרה** > **אומדנים** > **סוגי תקופות**.
+1. בסביבת Dynamics 365 Finance שלך, עבור אל **ניהול פרויקטים וחשבונאות** > **הגדרה** > **הערכות** > **סוגי תקופה**.
 2. ליצירת סוג תקופה חדש, בחר **חדש**. הזן שם ותיאור.
 3. בשדה **תדירות** בחר ערך:
 
