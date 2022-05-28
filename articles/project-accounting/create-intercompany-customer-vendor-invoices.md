@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על אופן יצירת חשבונ
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989254"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591497"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>יצירת חשבוניות לקוחות וספקים בין-חברות
 
@@ -27,7 +27,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 יש לבצע את השלבים הבאים בגוף המשפטי המלווה. 
 
-1. ב- Dynamics 365 Finance, עבור אל **ניהול פרויקטים וחשבונאות** > **חשבוניות פרויקט** > **חשבוניות לקוחות בין חברות**. בדף הרשימה **חשבוניות לקוחות בין חברות**, בחלונית הפעולה, בחר **חדש.**
+1. ב-Dynamics 365 Finance, עבור אל **ניהול פרויקטים וחשבונאות** > **חשבוניות פרויקט** > **חשבוניות לקוח בין-חברתיות**. בדף הרשימה **חשבוניות לקוחות בין חברות**, בחלונית הפעולה, בחר **חדש.**
 2. בדף **צור חשבונית בין-חברות**, בשדה **ישות משפטית**, בחר ישות משפטית לווה.
 3. אופציונלי: הזן חוזה פרויקט ומספר פרויקט ספציפיים.
 4. צמצם את החיפוש על ידי בחירת טווח תאריכים. הזן תאריכים ספציפיים בשדות **תאריך התחלה** ו **תאריך סיום**. רק עסקאות בין-חברות שמתפרסמות בטווח תאריכים זה מוצגות בתוצאות החיפוש.

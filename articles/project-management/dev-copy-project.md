@@ -2,76 +2,80 @@
 title: פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
 description: נושא זה מספק מידע על אופן יצירת תבניות פרוייקט באמצעות הפעולה המותאמת אישית העתק פרויקט.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989255"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590899"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>פיתוח תבניות פרוייקט בעזרת 'העתק פרוייקט'
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations תומך ביכולת להעתיק פרויקט ולהחזיר כל משימה למשאבים הגנריים המייצגים את התפקיד. לקוחות יכולים להשתמש בפונקציונליות זו לבניית תבניות פרוייקט בסיסיות.
 
 כשבוחרים **העתק פרויקט**, מצב פרויקט היעד מתעדכן. השתמש ב **סיבת המצב** כדי לקבוע מתי הושלמה פעולת ההעתקה. בחירה ב **העתק פרויקט** מעדכן גם את תאריך ההתחלה של הפרויקט לתאריך ההתחלה הנוכחי אם לא מזוהה תאריך יעד בישות פרויקט היעד.
 
-## <a name="copy-project-custom-action"></a>פעולה מותאמת אישית 'העתק פרויקט' 
+## <a name="copy-project-custom-action"></a>פעולה מותאמת אישית 'העתק פרויקט'
 
-### <a name="name"></a>שם 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn \_CopyProjectV3
 
 ### <a name="input-parameters"></a>פרמטרי קלט
+
 ישנם ‏שלושה פרמטרי קלט:
 
-| פרמטר          | סוג   | ערכים                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** או **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | הפניית ישות | פרויקט מקור |
-| יעד             | הפניית ישות | פרויקט יעד |
+- **ReplaceNamedResources** או **ClearTeamsAndAssignments** – הגדר רק אחת מהאפשרויות. אל תגדיר את שניהם.
 
+    - **\{"ReplaceNamedResources":true\}** - אופן הפעולה המהווה ברירת המחדל עבור Project Operations. כל משאב בעל שם מוחלף על ידי משאבים כלליים
+    - **\{"‎‏ClearTeamsAndAssignments‏‎": ‏true\}** – אופן פעולה המהווה ברירת המחדל עבור Project for the Web. כל המשימות וחברי הצוות מוסרים.
 
-- **{"clearTeamsAndAssignments":true}**: התנהגות ברירת המחדל עבור Project באינטרנט ותסיר את כל ההקצאות וחברי הצוות..
-- **{"removeNamedResources":true}** אופן הפעולה המהווה ברירת המחדל ב-Project Operations שיחזיר את ההקצאות למשאבים כלליים.
+- **SourceProject** – הפניה לישות של פרויקט המקור שיש להעתיק ממנו. הפרמטר אינו יכול להיות Null.
+- **יעד** – הפניה לישות של פרויקט היעד שיש להעתיק אליו. הפרמטר אינו יכול להיות Null.
 
-לקבלת מידע נוסף על פעולות ברירת מחדל נוספיות, ראה [שימוש בפולות Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+הטבלה הבאה מספקת סיכום של שלושת הפרמטרים.
 
-## <a name="specify-fields-to-copy"></a>ציון שדות להעתקה 
+| פרמטר                | Type             | ערך                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | בוליאני‬          | **True** או **false** |
+| ClearTeamsAndAssignments | בוליאני‬          | **True** או **false** |
+| SourceProject            | הפניית ישות | פרויקט המקור    |
+| יעד                   | הפניית ישות | פרוייקט היעד    |
+
+לקבלת מידע על פעולות ברירת מחדל נוספיות, ראה [שימוש בפולות Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>אימותים
+
+מתבצעים האימותים הבאים.
+
+1. Null בודק ומחאזר את פרויקט המקור והיעד כדי לאשר את קיומם של שני הפרויקטים בארגון.
+2. המערכת מאמתת שפרויקט היעד תקף להעתקה על ידי אימות התנאים הבאים:
+
+    - אין פעילות קודמת בפרויקט (כולל בחירת הכרטיסיה **משימות**), והפרויקט נוצר לאחרונה.
+    - אין עותק קודם, לא התבקש ייבוא לפרויקט זה, ולפרויקט אין מצב של **נכשל**.
+
+3. הפעולה לא נקראת באמצעות HTTP.
+
+## <a name="specify-fields-to-copy"></a>ציון שדות להעתקה
+
 כאשר נקראת הפעולה, **העתק פרויקט** יבדק את תצוגת הפרויקט **העתק עמודות פרוייקט** כדי לקבוע אילו שדות יש להעתיק בעת העתקת הפרויקט.
 
-
 ### <a name="example"></a>דוגמה
-הדוגמה הבאה מראה כיצד להתקשר לפעולה מותאמת אישית **CopyProject** עם ערכת הפרמטרים **removeNamedResources**.
+
+הדוגמה הבאה מראה כיצד לקרוא לפעולה המותאמת אישית **CopyProjectV3** באמצעות ערכת הפרמטרים **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations תומך ביכולת להעתיק פרויקט 
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

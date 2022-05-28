@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986807"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589013"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, פברואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבת Dataverse 4.7.0.95
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.16 
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.16 
 
 ## <a name="quality-updates"></a>עדכוני איכות
 
@@ -44,14 +44,14 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | **ערך זמן** | 2129161 | הופעלו מגבלות מחמירות יותר כדי להבטיח שמשתמשים אינם יכולים לשנות ולעדכן רשומת זמן שהוגשה או אושרה. |
 | **ערך זמן** | 2103572 | אישור זמן לערכי זמן שאינם פרוייקטים לא יכול לחפש תפקיד של מאשר פרוייקט. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול פרויקטים וחשבונאות ב-Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance 
 
-למידע נוסף על ניהול פרוייקטים וחשבונאות ב- Dynamics 365 Finance, ראה [מה חדש בינואר 2021 - Project Operations לתרחישים מבוססי משאבים/לא מלאי](whats-new-jan-2021-resource-based.md).
+למידע נוסף על ניהול וחשבונאות של פרוייקטים ב- Dynamics 365 Finance, ראה [מה חדש בינואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

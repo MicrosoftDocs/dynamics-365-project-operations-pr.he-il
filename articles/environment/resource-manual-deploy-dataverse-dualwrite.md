@@ -4,14 +4,14 @@ description: נושא זה מסביר כיצד לפרוס ידנית את האפ
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986447"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591221"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>פריסה ידנית של אפליקציית Dataverse ‏Project Operations עם תמיכה בכתיבה כפולה
 
@@ -37,7 +37,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 3. בחר את סוג הסביבה. אם נרשמת לגירסת הניסיון, בחר **גירסת ניסיון (מבוסס מנוי)**.
 4. אשר את אזור הפריסה.
 5. הפעל את האפשרות **צור מסד נתונים עבור סביבה זו**. 
-6. אשר את השפה ולאחר מכן אשר שהמטבע תואם למטבע של יישומי Finance and Operations.
+6. אשר את השפה ולאחר מכן אשר שהמטבע תואם למטבע עבור יישומי Finance and Operations. 
 7. הפעל את האפשרות **יישומי Dynamics 365**, ואשר שהשדה **פרוס יישומים אלה באופן אוטומטי** מוגדר **אף אחד**.
 8. הוסף קבוצת אבטחה אם נדרשת קבוצת אבטחה.
 9. בחר **שמור** כדי ליצור סביבה חדשה.
@@ -62,4 +62,4 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="link-your-environments"></a><a name="link"></a>קשר אל הסביבות שלך
 
-לאחר הפריסה של סביבת Dataverse, אתה יכול להגדיר את הקישור לאפליקציות Finance and Operations. בצע את השלבים במקטע [השתמש באשף הכתיבה הכפולה לקישור הסביבות שלך](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+לאחר פריסה של סביבת Dataverse, תוכל להגדיר את הקישור ביישומי Finance and Operations. בצע את השלבים במקטע [השתמש באשף הכתיבה הכפולה לקישור הסביבות שלך](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

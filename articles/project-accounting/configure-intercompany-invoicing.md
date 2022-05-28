@@ -4,14 +4,14 @@ description: נושא זה מספק מידע ודוגמאות על קביעת ת
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994052"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591589"
 ---
 # <a name="configure-intercompany-invoicing"></a>קביעת תצורה של הפקת חשבוניות בין-חברות
 
@@ -21,11 +21,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="example-configure-intercompany-invoicing"></a>דוגמה: הגדרה של הפקת חשבוניות בין-חברות
 
-בדוגמה הבאה,Contoso Robotics USA‎‏(USPM) היא הישות המשפטית הלווה Contoso Robotics UK ‏(GBPM)‏ היא הישות המשפטית המלווה. 
+בדוגמה הבאה, Contoso Robotics USA ‏(USPM) היא הישות המשפטית הלווה, ו- Contoso Robotics UK ‏(GBPM) היא הישות המשפטית המלווה. 
 
 1. **הגדר חשבונאות בין חברות בין ישויות משפטיות**. יש להגדיר כל זוג ישויות משפטיות שכלולות בהלוואה בספר החשבונות הכללי [חשבונאות בין חברות](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
-    1. ב- Dynamics 365 Finance, עבור אל **ספר חשבונות כללי** > **הגדרת פרסום** > **חשבונאות בין חברות**. צור רשומה עם הפרטים הבאים:
+    1. ב- Dynamics 365 Finance, עבור אל **ספר ראשי** > **הגדרת פרסום** > **חשבונאות בין ארגונית**. צור רשומה עם הפרטים הבאים:
 
         - **חברת המקור** = **GBPM**
         - **חברת יעד** = **USPM**
@@ -35,13 +35,13 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
      1. ב- Finance, בחר את הישות המשפטית **GBPM**.
      2. עבור אל **חשבונות חייבים** > **לקוח** > **כל הלקוחות**. צור רשומה חדשה עבור הישות המשפטית **USPM**.
      3. הרחב את **שם**, סנן את הרשומות לפי **סוּג** ובחר **ישויות משפטיות**. 
-     4. מצא ובחר את רשומת הלקוח עבור **Contoso‎ ‎Robitics USA ‎‏(USPM)**.
+     4. מצא ובחר את רשומת הלקוח עבור **Contoso Robotics USA (‏USPM)**.
      5. בחר **השתמש בהתאמה**. 
      6. בחר את קבוצת הלקוחות **50 - לקוחות בין חברות** ואז שמור את הרשומה.
      7. בחר את הישות המשפטית **USPM**.
      8. עבור אל **חשבונות זכאים** > **ספקים** > **כל הספקים**. צור רשומה חדשה עבור הישות המשפטית **GBPM**.
      9. הרחב את **שם**, סנן את הרשומות לפי **סוג** ובחר **ישויות משפטיות**. 
-     10. מצא ובחר את רשומת הלקוח עבור **Contoso‎ ‎Robitics USA ‎‏(USPM)**.
+     10. מצא ובחר את רשומת הלקוח עבור **Contoso Robotics UK (‏GBPM)**.
      11. בחר **השתמש בהתאמה**, בחר את קבוצת הספקים ושמור את הרשומה.
      12. ברשומת הספק בחר **כללי** > **הגדרה** > **בין חברות**.
      13. בכרטיסיה **יחסי מסחר**, הגדר את השדה **פעיל** שיהיה **כן**.
@@ -80,23 +80,23 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 5. **הגדר תמחור העברה לעבודה**. תמחור העברות בין חברות מוגדר ב- Project Operations ב- Dataverse. הגדר [שיעורי עלות עבודה](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) וגם [שיעורי חיוב על עבודה](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) לחשבונית בין-חברות. תמחור העברה אינו נתמך בעסקאות הוצאות בין-חברות. מחיר המכירה של היחידה בין-ארגונים יוגדר תמיד לאותו ערך כמו מחיר עלות היחידה.
 
-      עלות משאב היזם ב- Contoso Robotics UK היא 88 ליש"ט לשעה. Contoso Robotics UK תחייב את ContosoRobotics ‏ב- 120 דולר אמריקאי עבור כל שעה שמשאב זה עבד על פרויקטים בארה"ב. Contoso Robotics USAתחייב את הלקוח Adventure Works ב- 200 דולר אמריקאי עבור העבודה שביצע משאב הפיתוח Contoso.Robotics UK
+      עלות המשאב למפתחים ב- Contoso Robotics בבריטניה היא 88 ליש"ט לשעה. החברה Contoso Robotics UK תחייב את Contoso Robotics USA בסכום של 120 USD עבור כל שעה שמשאב זה עבד על פרויקטים בארה"ב. Contoso Robotics USA תחייב את הלקוח Adventure Works בסכום של 200 USD עבור העבודה שנעשתה על ידי משאב הפיתוח של Contoso Robotics UK.
 
-      1. ב- Project Operations ב- Dataverse, עבור אל **מכירה** > **מחירונים**. צור מחירון עלות חדש בשם **שיעורי עלות Contoso Robotics UK.** 
+      1. ב- Project Operations ב- Dataverse, עבור אל **מכירה** > **מחירונים**. צור מחירון עלות חדש שנקרא **שיעורי העלות של Contoso Robotics UK.** 
       2. במחירון, צור רשומה עם המידע הבא:
          - **תפקיד** = **מפתח**
          - **עלות** = **88 GBP**
       3. עבור אל **הגדרות** > **יחידות ארגוניות** וצרף מחירון עלות זה ליחידה הארגונית **Contoso Robotics UK**.
-      4. עבור אל **מכירות** > **מחירונים**. צור מחירון עלות חדש בשם **שיעורי עלות Contoso Robotics USA**. 
+      4. עבור אל **מכירות** > **מחירונים**. צור מחירון עלות שנקרא **שיעורי העלות של Contoso Robotics USA**. 
       5. במחירון, צור רשומה עם המידע הבא:
           - **תפקיד** = **מפתח**
-          - **חברת הקצאת המשאבים** = **Contoso Robotics UK**
+          - **חברת הקצאת משאבים** = **Contoso Robotics UK**
           - **עלות** = **120 USD**
-      6. עבור אל **הגדרות** > **יחידות ארגוניות** וצרף את רשימת מחיר העלות **שיעורי עלות Contoso Robotics USA** ליחידה הארגונית **Robotics USA Contoso**.
+      6. עבור אל **הגדרות** > **יחידות ארגוניות** וצרף את מחירון העלות **שיעורי עלות של Contoso Robotics USA** אל יחידה הארגונית **Contoso Robotics USA**.
       7. עבור אל **מכירות** > **מחירונים**. צור מחירון מכירות שנקרא **שיעורי חיוב של Adventure Works**. 
       8. במחירון המכירות, צור רשומה עם המידע הבא:
           - **תפקיד** = **מפתח**
-          - **חברת הקצאת המשאבים** = **Contoso Robotics UK**
+          - **חברת הקצאת משאבים** = **Contoso Robotics UK**
           - **תעריף חיוב** = **200 USD**
       9. עבור אל **מכירות** > **חוזים בפרויקט** וצרף את המחירון **תעריפי חיוב של Adventure Works** למחירון הפרויקטים של Adventure Works של חוזה הפרויקט.
 

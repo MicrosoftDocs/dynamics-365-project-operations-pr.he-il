@@ -4,14 +4,14 @@ description: נושא זה מספק מידע על הצגת חוזים מבוסס
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001837"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590485"
 ---
 # <a name="manage-project-contracts"></a>ניהול חוזי פרויקט
 
@@ -31,6 +31,9 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 2. בחר את **מחליף התצוגות** (החץ הנפתח לצד שם התצוגה) לבחירת תצוגות מסוננות אחרות. ניתן ליצור תצוגות משלך עם קריטריוני סינון מותאמים אישית.
 
 ניתן ליצור או למחוק חוזים מדף רשימה זה או מדפי הפרטים.
+
+> [!NOTE]
+> לא ניתן למחוק חוזים שמשוייכים אליהם הם פרויקטים, משימות, אומדנים, יומנים ו/או נתונים בפועל. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

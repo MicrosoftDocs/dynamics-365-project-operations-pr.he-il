@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992747"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592647"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 
@@ -20,7 +20,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.16
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.16
 
 
 ### <a name="quality-updates"></a>עדכוני איכות
@@ -142,7 +142,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | ב- Project Operations, לא ניתן ליצור או לאשר זמן עם משימות בין-חברות ב- Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

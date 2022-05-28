@@ -4,25 +4,25 @@ description: נושא זה מספק מידע על אופן הגישה אל Proje
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591865"
 ---
 # <a name="navigate-project-operations"></a>ניווט ב-Project Operations
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Project Operations עבור תרחישי משאבים/ללא מלאי מורכבת משני מרכיבים: 
 
  - **Project Operations בסביבת (CDS) Common Data Service**: רכיב זה מכסה יכולות ותהליכים מהזדמנות ועד להפקת חשבוניות פרופורמה. 
- - **ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance**: מכסה יכולות ניהול הוצאות, חשבונאות פרויקטים והכרה בהכנסות. 
+ - **ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance**: רכיב זה מכסה יכולות ניהול הוצאות, חשבונאות פרויקטים והכרה בהכנסות. 
 
 לאחר הקצאת Project Operations כמתואר בנושא זה, הדף **פרטי הסביבה** ‏של Lifecycle Services‏ (LCS) מספק גישה נוחה לשני המרכיבים של Project Operations.  
 

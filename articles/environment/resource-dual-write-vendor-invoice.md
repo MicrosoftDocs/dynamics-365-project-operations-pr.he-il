@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986492"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591176"
 ---
 # <a name="vendor-invoice-integration"></a>שילוב חשבונית ספק
 
@@ -34,7 +34,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
      > [!NOTE]
      > פרטי חשבונית הספק ב- Dataverse אינם ניתנים לעריכה.
 
-ספר משנה של מיסים, ספר משנה של ספקים, ורישומים פיננסיים נוספים נרשמים באופן המתאים ב- Dynamics 365 Finance בעת רישום חשבונית הספק.
+ספר משנה של מס, ספר משנה של ספקים ורישומים פיננסיים אחרים רשומים כרלוונטיים ב- Dynamics 365 Finance כאשר נרשמת חשבונית הספק.
 
 ![שילוב חשבונית ספק.](media/DW7VendorInvoice.png)
 

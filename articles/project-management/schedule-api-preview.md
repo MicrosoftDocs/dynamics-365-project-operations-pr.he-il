@@ -2,16 +2,16 @@
 title: השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון
 description: נושא זה מספק מידע ודוגמאות לשימוש ב- API של לוח הזמנים של הפרוייקט.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487686"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592049"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון
 
@@ -42,7 +42,7 @@ OperationSet הוא דפוס יחידת עבודה שניתן להשתמש בו 
 
 להלן רשימה של ממשקי ה- API הנוכחיים של לוח הזמנים של פרוייקט.
 
-- **msdyn_CreateProjectV1** : ניתן להשתמש בממשק API זה ליצירת פרויקט. הפרויקט ומיכל הפרויקט המוגדר כברירת מחדל נוצרים באופן מיידי.
+- **msdyn_CreateProjectV1** : ניתן להשתמש בממשק API זה ליצירת פרויקט. הפרוייקט ומיכל הפרוייקטים המוגדר כברירת מחדל נוצרים באופן מיידי.
 - **msdyn_CreateTeamMemberV1** : ניתן להשתמש בממשק API זה ליצירת חבר צוות פרוייקט. רשומת חבר הצוות נוצרת באופן מיידי.
 - **msdyn_CreateOperationSetV1** : ניתן להשתמש בממשק API זה לתזמון מספר בקשות שיש לבצע במסגרת עסקה.
 - **msdyn_PSSCreateV1** : ניתן להשתמש בממשק API זה ליצירת ישות. הישות יכולה להיות כל אחת מישויות תזמון הפרוייקט התומכות בפעולת היצירה.
@@ -56,14 +56,14 @@ OperationSet הוא דפוס יחידת עבודה שניתן להשתמש בו 
 
 ## <a name="supported-operations"></a>פעולות נתמכות
 
-| ישות תזמון | צור | עדכון | DELETE | שיקולים חשובים: |
+| ישות תזמון | צור | עדכן | מחק | שיקולים חשובים: |
 | --- | --- | --- | --- | --- |
-משימת פרוייקט | ‏‏כן | ‏‏כן | ‏‏כן | ללא |
-| ‏‫יחס תלות במשימת פרוייקט | ‏‏כן | ‏‏כן | | רשומות יחס תלות במשימת פרוייקט אינן מעודכנות. במקום זאת, ניתן למחוק רשומה ישנה וליצור רשומה חדשה. |
-| הקצאת משאבים | ‏‏כן | ‏‏כן | | פעולות עם השדות הבאים אינן נתמכות: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ו- **PlannedWork**. רשומות הקצאת משאבים אינן מעודכנות. במקום זאת, ניתן למחוק את הרשומה הישנה וליצור רשומה חדשה. |
-| מיכל של פרוייקט | לא זמין | לא זמין | לא זמין | מיכל ברירת המחדל נוצר באמצעות ממשק ה- API **CreateProjectV1**. |
-| חבר צוות פרויקט | ‏‏כן | ‏‏כן | ‏‏כן | לצורך פעולת היצירה, השתמש בממשק API **CreateTeamMemberV1**. |
-| פרויקט | ‏‏כן | ‏‏כן | לא זמין | פעולות עם השדות הבאים אינן נתמכות: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ו- **Duration**. |
+משימת פרוייקט | כן | כן | כן | ניתן לערוך את השדות **התקדמות**, **EffortCompleted** ו- **EffortRemaining** ב- Project for the Web, אך לא ניתן לערוך אותם ב- Project Operations.  |
+| ‏‫יחס תלות במשימת פרוייקט | כן |  | כן | רשומות יחס תלות במשימת פרוייקט אינן מעודכנות. במקום זאת, ניתן למחוק רשומה ישנה וליצור רשומה חדשה. |
+| הקצאת משאבים | כן | כן | | פעולות עם השדות הבאים אינן נתמכות: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** ו- **PlannedWork**. רשומות הקצאת משאבים אינן מעודכנות. במקום זאת, ניתן למחוק את הרשומה הישנה וליצור רשומה חדשה. |
+| מיכל של פרוייקט | כן | כן | כן | מיכל ברירת המחדל נוצר באמצעות ממשק ה- API **CreateProjectV1**. תמיכה ביצירה ומחיקה של מיכלי פרוייקטים נוספה במהדורת עדכון 16. |
+| חבר צוות פרויקט | כן | כן | כן | לצורך פעולת היצירה, השתמש בממשק API **CreateTeamMemberV1**. |
+| פרויקט | כן | כן |  | פעולות עם השדות הבאים אינן נתמכות: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** ו- **Duration**. |
 
 ניתן לקרוא לממשקי API אלה באמצעות אובייקטים של ישויות הכוללים שדות מותאמים אישית.
 
@@ -71,196 +71,207 @@ OperationSet הוא דפוס יחידת עבודה שניתן להשתמש בו 
 
 ## <a name="restricted-fields"></a>שדות מוגבלים
 
-הטבלאות הבאות מגדירות את השדות שהאפשרויות **צור** ו **עריכה** מוגבלות בהם.
+הטבלאות הבאות מגדירות את השדות שהאפשרויות **יצירה** ו **עריכה** מוגבלות בהם.
 
 ### <a name="project-task"></a>משימת פרוייקט
 
-| **שם לוגי**                       | **אפשר ליצור** | **יכול לערוך**     |
+| שם לוגי                           | אפשר ליצור     | יכול לערוך         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | לא             | לא               |
-| msdyn_actualcost_base                  | לא             | לא               |
-| msdyn_actualend                        | לא             | לא               |
-| msdyn_actualsales                      | לא             | לא               |
-| msdyn_actualsales_base                 | לא             | לא               |
-| msdyn_actualstart                      | לא             | לא               |
-| msdyn_costatcompleteestimate           | לא             | לא               |
-| msdyn_costatcompleteestimate_base      | לא             | לא               |
-| msdyn_costconsumptionpercentage        | לא             | לא               |
-| msdyn_effortcompleted                  | לא             | לא               |
-| msdyn_effortestimateatcomplete         | לא             | לא               |
-| msdyn_iscritical                       | לא             | לא               |
-| msdyn_iscriticalname                   | לא             | לא               |
-| msdyn_ismanual                         | לא             | לא               |
-| msdyn_ismanualname                     | לא             | לא               |
-| msdyn_ismilestone                      | לא             | לא               |
-| msdyn_ismilestonename                  | לא             | לא               |
-| msdyn_LinkStatus                       | לא             | לא               |
-| msdyn_linkstatusname                   | לא             | לא               |
-| msdyn_msprojectclientid                | לא             | לא               |
-| msdyn_plannedcost                      | לא             | לא               |
-| msdyn_plannedcost_base                 | לא             | לא               |
-| msdyn_plannedsales                     | לא             | לא               |
-| msdyn_plannedsales_base                | לא             | לא               |
-| msdyn_pluginprocessingdata             | לא             | לא               |
-| msdyn_progress                         | לא             | לא (כן עבור P4W) |
-| msdyn_remainingcost                    | לא             | לא               |
-| msdyn_remainingcost_base               | לא             | לא               |
-| msdyn_remainingsales                   | לא             | לא               |
-| msdyn_remainingsales_base              | לא             | לא               |
-| msdyn_requestedhours                   | לא             | לא               |
-| msdyn_resourcecategory                 | לא             | לא               |
-| msdyn_resourcecategoryname             | לא             | לא               |
-| msdyn_resourceorganizationalunitid     | לא             | לא               |
-| msdyn_resourceorganizationalunitidname | לא             | לא               |
-| msdyn_salesconsumptionpercentage       | לא             | לא               |
-| msdyn_salesestimateatcomplete          | לא             | לא               |
-| msdyn_salesestimateatcomplete_base     | לא             | לא               |
-| msdyn_salesvariance                    | לא             | לא               |
-| msdyn_salesvariance_base               | לא             | לא               |
-| msdyn_scheduleddurationminutes         | לא             | לא               |
-| msdyn_scheduledend                     | לא             | לא               |
-| msdyn_scheduledstart                   | לא             | לא               |
-| msdyn_schedulevariance                 | לא             | לא               |
-| msdyn_skipupdateestimateline           | לא             | לא               |
-| msdyn_skipupdateestimatelinename       | לא             | לא               |
-| msdyn_summary                          | לא             | לא               |
-| msdyn_varianceofcost                   | לא             | לא               |
-| msdyn_varianceofcost_base              | לא             | לא               |
+| msdyn_actualcost                       | כן             | כן               |
+| msdyn_actualcost_base                  | כן             | כן               |
+| msdyn_actualend                        | כן             | כן               |
+| msdyn_actualsales                      | כן             | כן               |
+| msdyn_actualsales_base                 | כן             | כן               |
+| msdyn_actualstart                      | כן             | כן               |
+| msdyn_costatcompleteestimate           | כן             | כן               |
+| msdyn_costatcompleteestimate_base      | כן             | כן               |
+| msdyn_costconsumptionpercentage        | כן             | כן               |
+| msdyn_effortcompleted                  | לא (כן עבור פרוייקט)             | לא (כן עבור פרוייקט)               |
+| msdyn_effortremaining                  | לא (כן עבור פרוייקט)              | לא (כן עבור פרוייקט)                |
+| msdyn_effortestimateatcomplete         | כן             | כן               |
+| msdyn_iscritical                       | כן             | כן               |
+| msdyn_iscriticalname                   | כן             | כן               |
+| msdyn_ismanual                         | כן             | כן               |
+| msdyn_ismanualname                     | כן             | כן               |
+| msdyn_ismilestone                      | כן             | כן               |
+| msdyn_ismilestonename                  | כן             | כן               |
+| msdyn_LinkStatus                       | כן             | כן               |
+| msdyn_linkstatusname                   | כן             | כן               |
+| msdyn_msprojectclientid                | כן             | כן               |
+| msdyn_plannedcost                      | כן             | כן               |
+| msdyn_plannedcost_base                 | כן             | כן               |
+| msdyn_plannedsales                     | כן             | כן               |
+| msdyn_plannedsales_base                | כן             | כן               |
+| msdyn_pluginprocessingdata             | כן             | כן               |
+| msdyn_progress                         | לא (כן עבור פרוייקט)             | לא (כן עבור פרוייקט) |
+| msdyn_remainingcost                    | כן             | כן               |
+| msdyn_remainingcost_base               | כן             | כן               |
+| msdyn_remainingsales                   | כן             | כן               |
+| msdyn_remainingsales_base              | כן             | כן               |
+| msdyn_requestedhours                   | כן             | כן               |
+| msdyn_resourcecategory                 | כן             | כן               |
+| msdyn_resourcecategoryname             | כן             | כן               |
+| msdyn_resourceorganizationalunitid     | כן             | כן               |
+| msdyn_resourceorganizationalunitidname | כן             | כן               |
+| msdyn_salesconsumptionpercentage       | כן             | כן               |
+| msdyn_salesestimateatcomplete          | כן             | כן               |
+| msdyn_salesestimateatcomplete_base     | כן             | כן               |
+| msdyn_salesvariance                    | כן             | כן               |
+| msdyn_salesvariance_base               | כן             | כן               |
+| msdyn_scheduleddurationminutes         | כן             | כן               |
+| msdyn_scheduledend                     | כן             | כן               |
+| msdyn_scheduledstart                   | כן             | כן               |
+| msdyn_schedulevariance                 | כן             | כן               |
+| msdyn_skipupdateestimateline           | כן             | כן               |
+| msdyn_skipupdateestimatelinename       | כן             | כן               |
+| msdyn_summary                          | כן             | כן               |
+| msdyn_varianceofcost                   | כן             | כן               |
+| msdyn_varianceofcost_base              | כן             | כן               |
 
 ### <a name="project-task-dependency"></a>‏‫יחס תלות במשימת פרוייקט
 
-| **שם לוגי**              | **אפשר ליצור** | **יכול לערוך** |
+| שם לוגי                  | אפשר ליצור     | יכול לערוך     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | לא             | לא           |
-| msdyn_linktypename            | לא             | לא           |
-| msdyn_predcessortask         | כן            | לא           |
-| msdyn_predecessortaskname     | כן            | לא           |
-| msdyn_project                 | כן            | לא           |
-| msdyn_projectname             | כן            | לא           |
-| msdyn_projecttaskdependencyid | כן            | לא           |
-| msdyn_successortask           | כן            | לא           |
-| msdyn_successortaskname       | כן            | לא           |
+| msdyn_linktype                | כן             | כן           |
+| msdyn_linktypename            | כן             | כן           |
+| msdyn_predcessortask         | כן            | כן           |
+| msdyn_predecessortaskname     | כן            | כן           |
+| msdyn_project                 | כן            | כן           |
+| msdyn_projectname             | כן            | כן           |
+| msdyn_projecttaskdependencyid | כן            | כן           |
+| msdyn_successortask           | כן            | כן           |
+| msdyn_successortaskname       | כן            | כן           |
 
 ### <a name="resource-assignment"></a>הקצאת משאבים
 
-| **שם לוגי**             | **אפשר ליצור** | **יכול לערוך** |
+| שם לוגי                 | אפשר ליצור     | יכול לערוך     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | כן            | לא           |
-| msdyn_bookableresourceidname | כן            | לא           |
-| msdyn_bookingstatusid        | לא             | לא           |
-| msdyn_bookingstatusidname    | לא             | לא           |
-| msdyn_committype             | לא             | לא           |
-| msdyn_committypename         | לא             | לא           |
-| msdyn_effort                 | לא             | לא           |
-| msdyn_effortcompleted        | לא             | לא           |
-| msdyn_effortremaining        | לא             | לא           |
-| msdyn_finish                 | לא             | לא           |
-| msdyn_plannedcost            | לא             | לא           |
-| msdyn_plannedcost_base       | לא             | לא           |
-| msdyn_plannedcostcontour     | לא             | לא           |
-| msdyn_plannedsales           | לא             | לא           |
-| msdyn_plannedsales_base      | לא             | לא           |
-| msdyn_plannedsalescontour    | לא             | לא           |
-| msdyn_plannedwork            | לא             | לא           |
-| msdyn_projectid              | כן            | לא           |
-| msdyn_projectidname          | לא             | לא           |
-| msdyn_projectteamid          | לא             | לא           |
-| msdyn_projectteamidname      | לא             | לא           |
-| msdyn_start                  | לא             | לא           |
-| msdyn_taskid                 | לא             | לא           |
-| msdyn_taskidname             | לא             | לא           |
-| msdyn_userresourceid         | לא             | לא           |
+| msdyn_bookableresourceid     | כן            | כן           |
+| msdyn_bookableresourceidname | כן            | כן           |
+| msdyn_bookingstatusid        | כן             | כן           |
+| msdyn_bookingstatusidname    | כן             | כן           |
+| msdyn_committype             | כן             | כן           |
+| msdyn_committypename         | כן             | כן           |
+| msdyn_effort                 | כן             | כן           |
+| msdyn_effortcompleted        | כן             | כן           |
+| msdyn_effortremaining        | כן             | כן           |
+| msdyn_finish                 | כן             | כן           |
+| msdyn_plannedcost            | כן             | כן           |
+| msdyn_plannedcost_base       | כן             | כן           |
+| msdyn_plannedcostcontour     | כן             | כן           |
+| msdyn_plannedsales           | כן             | כן           |
+| msdyn_plannedsales_base      | כן             | כן           |
+| msdyn_plannedsalescontour    | כן             | כן           |
+| msdyn_plannedwork            | כן             | כן           |
+| msdyn_projectid              | כן            | כן           |
+| msdyn_projectidname          | כן             | כן           |
+| msdyn_projectteamid          | כן             | כן           |
+| msdyn_projectteamidname      | כן             | כן           |
+| msdyn_start                  | כן             | כן           |
+| msdyn_taskid                 | כן             | כן           |
+| msdyn_taskidname             | כן             | כן           |
+| msdyn_userresourceid         | כן             | כן           |
 
 ### <a name="project-team-member"></a>חבר צוות פרויקט
 
-| **שם לוגי**                                 | **אפשר ליצור** | **יכול לערוך** |
+| שם לוגי                                     | אפשר ליצור     | יכול לערוך     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | לא             | לא           |
-| msdyn_creategenericteammemberwithrequirementname | לא             | לא           |
-| msdyn_deletestatus                               | לא             | לא           |
-| msdyn_deletestatusname                           | לא             | לא           |
-| msdyn_effort                                     | לא             | לא           |
-| msdyn_effortcompleted                            | לא             | לא           |
-| msdyn_effortremaining                            | לא             | לא           |
-| msdyn_finish                                     | לא             | לא           |
-| msdyn_hardbookedhours                            | לא             | לא           |
-| msdyn_hours                                      | לא             | לא           |
-| msdyn_markedfordeletiontimer                     | לא             | לא           |
-| msdyn_markedfordeletiontimestamp                 | לא             | לא           |
-| msdyn_msprojectclientid                          | לא             | לא           |
-| msdyn_percentage                                 | לא             | לא           |
-| msdyn_requiredhours                              | לא             | לא           |
-| msdyn_softbookedhours                            | לא             | לא           |
-| msdyn_start                                      | לא             | לא           |
+| msdyn_calendarid                                 | כן             | כן           |
+| msdyn_creategenericteammemberwithrequirementname | כן             | כן           |
+| msdyn_deletestatus                               | כן             | כן           |
+| msdyn_deletestatusname                           | כן             | כן           |
+| msdyn_effort                                     | כן             | כן           |
+| msdyn_effortcompleted                            | כן             | כן           |
+| msdyn_effortremaining                            | כן             | כן           |
+| msdyn_finish                                     | כן             | כן           |
+| msdyn_hardbookedhours                            | כן             | כן           |
+| msdyn_hours                                      | כן             | כן           |
+| msdyn_markedfordeletiontimer                     | כן             | כן           |
+| msdyn_markedfordeletiontimestamp                 | כן             | כן           |
+| msdyn_msprojectclientid                          | כן             | כן           |
+| msdyn_percentage                                 | כן             | כן           |
+| msdyn_requiredhours                              | כן             | כן           |
+| msdyn_softbookedhours                            | כן             | כן           |
+| msdyn_start                                      | כן             | כן           |
 
 ### <a name="project"></a>פרויקט
 
-| **שם לוגי**                       | **אפשר ליצור** | **יכול לערוך** |
+| שם לוגי                           | אפשר ליצור     | יכול לערוך     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | לא             | לא           |
-| msdyn_actualexpensecost_base           | לא             | לא           |
-| msdyn_actuallaborcost                  | לא             | לא           |
-| msdyn_actuallaborcost_base             | לא             | לא           |
-| msdyn_actualsales                      | לא             | לא           |
-| msdyn_actualsales_base                 | לא             | לא           |
-| msdyn_contractlineproject              | כן            | לא           |
-| msdyn_contractorganizationalunitid     | כן            | לא           |
-| msdyn_contractorganizationalunitidname | כן            | לא           |
-| msdyn_costconsumption                  | לא             | לא           |
-| msdyn_costestimateatcomplete           | לא             | לא           |
-| msdyn_costestimateatcomplete_base      | לא             | לא           |
-| msdyn_costvariance                     | לא             | לא           |
-| msdyn_costvariance_base                | לא             | לא           |
-| msdyn_duration                         | לא             | לא           |
-| msdyn_effort                           | לא             | לא           |
-| msdyn_effortcompleted                  | לא             | לא           |
-| msdyn_effortestimateatcompleteeac      | לא             | לא           |
-| msdyn_effortremaining                  | לא             | לא           |
+| msdyn_actualexpensecost                | כן             | כן           |
+| msdyn_actualexpensecost_base           | כן             | כן           |
+| msdyn_actuallaborcost                  | כן             | כן           |
+| msdyn_actuallaborcost_base             | כן             | כן           |
+| msdyn_actualsales                      | כן             | כן           |
+| msdyn_actualsales_base                 | כן             | כן           |
+| msdyn_contractlineproject              | כן            | כן           |
+| msdyn_contractorganizationalunitid     | כן            | כן           |
+| msdyn_contractorganizationalunitidname | כן            | כן           |
+| msdyn_costconsumption                  | כן             | כן           |
+| msdyn_costestimateatcomplete           | כן             | כן           |
+| msdyn_costestimateatcomplete_base      | כן             | כן           |
+| msdyn_costvariance                     | כן             | כן           |
+| msdyn_costvariance_base                | כן             | כן           |
+| msdyn_duration                         | כן             | כן           |
+| msdyn_effort                           | כן             | כן           |
+| msdyn_effortcompleted                  | כן             | כן           |
+| msdyn_effortestimateatcompleteeac      | כן             | כן           |
+| msdyn_effortremaining                  | כן             | כן           |
 | msdyn_finish                           | כן            | כן          |
-| msdyn_globalrevisiontoken              | לא             | לא           |
-| msdyn_islinkedtomsprojectclient        | לא             | לא           |
-| msdyn_islinkedtomsprojectclientname    | לא             | לא           |
-| msdyn_linkeddocumenturl                | לא             | לא           |
-| msdyn_msprojectdocument                | לא             | לא           |
-| msdyn_msprojectdocumentname            | לא             | לא           |
-| msdyn_plannedexpensecost               | לא             | לא           |
-| msdyn_plannedexpensecost_base          | לא             | לא           |
-| msdyn_plannedlaborcost                 | לא             | לא           |
-| msdyn_plannedlaborcost_base            | לא             | לא           |
-| msdyn_plannedsales                     | לא             | לא           |
-| msdyn_plannedsales_base                | לא             | לא           |
-| msdyn_progress                         | לא             | לא           |
-| msdyn_remainingcost                    | לא             | לא           |
-| msdyn_remainingcost_base               | לא             | לא           |
-| msdyn_remainingsales                   | לא             | לא           |
-| msdyn_remainingsales_base              | לא             | לא           |
-| msdyn_replaylogheader                  | לא             | לא           |
-| msdyn_salesconsumption                 | לא             | לא           |
-| msdyn_salesestimateatcompleteeac       | לא             | לא           |
-| msdyn_salesestimateatcomplete_base  | לא             | לא           |
-| msdyn_salesvariance                    | לא             | לא           |
-| msdyn_salesvariance_base               | לא             | לא           |
-| msdyn_scheduleperformance              | לא             | לא           |
-| msdyn_scheduleperformancename          | לא             | לא           |
-| msdyn_schedulevariance                 | לא             | לא           |
-| msdyn_taskearlieststart                | לא             | לא           |
-| msdyn_teamsize                         | לא             | לא           |
-| msdyn_teamsize_date                    | לא             | לא           |
-| msdyn_teamsize_state                   | לא             | לא           |
-| msdyn_totalactualcost                  | לא             | לא           |
-| msdyn_totalactualcost_base             | לא             | לא           |
-| msdyn_totalplannedcost                 | לא             | לא           |
-| msdyn_totalplannedcost_base            | לא             | לא           |
+| msdyn_globalrevisiontoken              | כן             | כן           |
+| msdyn_islinkedtomsprojectclient        | כן             | כן           |
+| msdyn_islinkedtomsprojectclientname    | כן             | כן           |
+| msdyn_linkeddocumenturl                | כן             | כן           |
+| msdyn_msprojectdocument                | כן             | כן           |
+| msdyn_msprojectdocumentname            | כן             | כן           |
+| msdyn_plannedexpensecost               | כן             | כן           |
+| msdyn_plannedexpensecost_base          | כן             | כן           |
+| msdyn_plannedlaborcost                 | כן             | כן           |
+| msdyn_plannedlaborcost_base            | כן             | כן           |
+| msdyn_plannedsales                     | כן             | כן           |
+| msdyn_plannedsales_base                | כן             | כן           |
+| msdyn_progress                         | כן             | כן           |
+| msdyn_remainingcost                    | כן             | כן           |
+| msdyn_remainingcost_base               | כן             | כן           |
+| msdyn_remainingsales                   | כן             | כן           |
+| msdyn_remainingsales_base              | כן             | כן           |
+| msdyn_replaylogheader                  | כן             | כן           |
+| msdyn_salesconsumption                 | כן             | כן           |
+| msdyn_salesestimateatcompleteeac       | כן             | כן           |
+| msdyn_salesestimateatcomplete_base  | כן             | כן           |
+| msdyn_salesvariance                    | כן             | כן           |
+| msdyn_salesvariance_base               | כן             | כן           |
+| msdyn_scheduleperformance              | כן             | כן           |
+| msdyn_scheduleperformancename          | כן             | כן           |
+| msdyn_schedulevariance                 | כן             | כן           |
+| msdyn_taskearlieststart                | כן             | כן           |
+| msdyn_teamsize                         | כן             | כן           |
+| msdyn_teamsize_date                    | כן             | כן           |
+| msdyn_teamsize_state                   | כן             | כן           |
+| msdyn_totalactualcost                  | כן             | כן           |
+| msdyn_totalactualcost_base             | כן             | כן           |
+| msdyn_totalplannedcost                 | כן             | כן           |
+| msdyn_totalplannedcost_base            | כן             | כן           |
 
+### <a name="project-bucket"></a>מיכל של פרוייקט
+
+| שם לוגי          | אפשר ליצור      | יכול לערוך     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | כן             | כן           |
+| msdyn_name            | כן             | כן          |
+| msdyn_project         | כן             | כן           |
+| msdyn_projectbucketid | כן             | כן           |
 
 ## <a name="limitations-and-known-issues"></a>בעיות ומגבלות ידועות
 להלן רשימה של מגבלות ובעיות ידועות:
 
 - רק **משתמשים עם רישיון Microsoft Project** יכולים להשתמש בממשקי API של לוח הזמנים של פרוייקט. המשתמשים שיכולים להשתמש בהם:
+
     - משתמשים ביישום
     - משתמשי מערכת
     - משתמשי שילוב
     - משתמשים אחרים שאין להם את הרישיון הנדרש
+
 - כל **OperationSet** יכולה לבצע מקסימום 100 פעולות.
 - לכל משתמש יכולות להיות עד 10 **OperationSets** פתוחות.
 - Project Operations תומך כיום במקסימום 500 משימות בסה"כ לפרויקט.
@@ -269,8 +280,8 @@ OperationSet הוא דפוס יחידת עבודה שניתן להשתמש בו 
 
 ## <a name="error-handling"></a>טיפול בשגיאות
 
-   - כדי לסקור שגיאות שנוצרו מערכי תפעול, עבור אל **גדרות** \> **שילוב תזמון** \> **מערכי תפעול**.
-   - כדי לבדוק שגיאות שנוצרו משירות לוח הזמנים של הפרוייקט, עבור אל **הגדרות** \>**שילוב של לוח זמנים** \> **יומני שגיאה של PSS**.
+- כדי לסקור שגיאות שנוצרו מערכי תפעול, עבור אל **גדרות** \> **שילוב תזמון** \> **מערכי תפעול**.
+- כדי לבדוק שגיאות שנוצרו משירות לוח הזמנים של הפרוייקט, עבור אל **הגדרות** \>**שילוב של לוח זמנים** \> **יומני שגיאה של PSS**.
 
 ## <a name="sample-scenario"></a>תרחיש לדוגמה
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

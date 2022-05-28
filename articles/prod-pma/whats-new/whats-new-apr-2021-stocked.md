@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005572"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589611"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, אפריל 2021 בתרחישים מבוססי מלאי/ייצור
 
@@ -20,7 +20,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
-- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גרסה 10.0.18
+- ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.18
  
 ### <a name="quality-updates"></a>עדכוני איכות
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | כאשר קטגוריית הוצאות היא קטגוריה שאינה קשורה לפרויקט, הממדים הכספיים שנבחרו בדף **הוצאות** לא מועתקים אל דוח ההוצאות.                                          |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי Finance and Operations, ראה [עדכוני רגולציה](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

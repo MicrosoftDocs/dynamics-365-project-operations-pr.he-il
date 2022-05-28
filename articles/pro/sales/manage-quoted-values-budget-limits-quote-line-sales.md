@@ -3,16 +3,15 @@ title: מבט כולל על שורות הצעות מחיר מבוססות פרו
 description: נושא זה מספק מידע על עבודה עם שורות הצעות מחיר המבוססות פרויקט לעבודת פרויקט.
 author: rumant
 ms.date: 03/30/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 2f2d38c7fb3bc3ec26cf64525ef8275adecafd7fc48e97d6daef595d341c045d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001567"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591083"
 ---
 # <a name="project-based-quote-lines-overview"></a>מבט כולל על שורות הצעות מחיר מבוססות פרוייקט 
 
@@ -256,7 +255,7 @@ P1 </p>
             </td>
             <td width="46" valign="top">
                 <p>
-Yes </p>
+כן </p>
             </td>
             <td width="43" valign="top">
                 <p>
@@ -364,7 +363,7 @@ P1 </p>
             </td>
             <td width="46" valign="top">
                 <p>
-Yes </p>
+כן </p>
             </td>
             <td width="43" valign="top">
                 <p>
@@ -409,7 +408,7 @@ P1 </p>
             </td>
             <td width="45" valign="top">
                 <p>
-Yes </p>
+כן </p>
             </td>
             <td width="46" valign="top">
                 <p>
@@ -417,11 +416,11 @@ Yes </p>
             </td>
             <td width="43" valign="top">
                 <p>
-Yes </p>
+כן </p>
             </td>
             <td width="41" valign="top">
                 <p>
-Yes </p>
+כן </p>
             </td>
         </tr>
         <tr>
