@@ -1,33 +1,33 @@
 ---
 title: עדכון תכונות של יישום plug-in עם ממדי תמחור חדשים
-description: נושא זה מספק מידע על הדרך לעדכן תכונות של יישום Plug-in עבור ממדי תמחור.
+description: מאמר זה מספק מידע על אופן עדכון תכונות של יישום plug-in עבור ממדי תמחור.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920015"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>עדכון תכונות של יישום plug-in עם ממדי תמחור חדשים
 
-נושא זה מספק מידע על הדרך לעדכן תכונות של יישום Plug-in עבור ממדי תמחור.
+מאמר זה מספק מידע על אופן עדכון תכונות של יישום plug-in עבור ממדי תמחור.
 
 > [!NOTE]
-> נושא זה חל רק על התכונות של הצעות מחיר וחוזה ב- Dynamics 365 Project Operations.
+> מאמר זה חל רק על תכונות הצעת המחיר והחוזה ב- Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
-לפני שתשלים את השלבים בנושא זה, עליך להשלים את ההליכים בנושאים הבאים:
+לפני השלמת השלבים במאמר זה, עליך להשלים את ההליכים במאמרים הבאים:
 
   - [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities-pricing-dimensions.md) 
   - [הוספת שדות מותאמים אישית לישויות הגדרת מחיר וישויות של עסקאות ](add-custom-fields-price-setup-transactional-entities.md)
   - [הגדרת שדות מותאמים אישית כממדי תמחור](set-up-custom-fields-pricing-dimensions.md). 
   
-אם לא השלמת הליכים אלה, עליך להשלים אותם ולאחר מכן לחזור לנושא זה.
+אם לא השלמת הליכים אלה, השלם אותם ולאחר מכן חזור מאמר זה.
 
 ## <a name="register-a-plug-in"></a>רשום יישום plug-in
 כאשר נוצר פרט של שורת הצעת מחיר בדף **שורת הצעת מחיר** עבור שורת הצעת מחיר של פרויקט, המערכת יוצרת שתי שורות אומדן. שורה אחת מיועדת לצד העלות של האומדן והשורה השנייה מיועדת למכירות. אותה פעולה מתבצעת עבור סעיפי חוזה של פרויקט.

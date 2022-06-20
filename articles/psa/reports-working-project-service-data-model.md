@@ -1,6 +1,6 @@
 ---
 title: עבודה עם מודל הנתונים של Project Service Automation
-description: נושא זה מספק מידע לגבי אופן העבודה עם מודל הנתונים.
+description: מאמר זה מספק מידע לגבי אופן העבודה עם מודל הנתונים.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926685"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>עבודה עם מודל הנתונים של Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587541"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation מרחיב ישויות אחרות של אפליקציות ומציג ישויות משלו במודל הנתונים Common Data Service. נושא זו מתאר חלק מהישויות שבהן תיתקל בתרחישי דיווח טיפוסיים של PSA.
+Dynamics 365 Project Service Automation מרחיב ישויות אחרות של אפליקציות ומציג ישויות משלו במודל הנתונים Common Data Service. מאמר זה מתאר חלק מהישויות שבהן תיתקל בתרחישי דיווח טיפוסיים של PSA.
 
 ## <a name="reporting-on-opportunities"></a>דיווח על הזדמנויות
 

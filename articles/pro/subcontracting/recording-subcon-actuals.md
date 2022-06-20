@@ -1,17 +1,17 @@
 ---
 title: רישום זמן, הוצאות ושימוש בחומרים עבור רכיבים בחוזה משנה
-description: נושא זה מסביר כיצד Dynamics 365 Project Operations‏ Microsoft עוקבת אחר זמן, הוצאות ושימוש בחומרים שנרשמו בפרויקטים ממרכיבים בקבלנות משנה.
+description: מאמר זה מסביר כיצד Microsoft Dynamics 365 Project Operations‏ עוקבת אחר זמן, הוצאות ושימוש בחומרים שנרשמו בפרויקטים ממרכיבים בקבלנות משנה.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927651"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>רישום של זמן, הוצאות ושימוש בחומרים בפרוייקטים עבור רכיבים בחוזה משנה
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599225"
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה מסביר כיצד Dynamics 365 Project Operations‏ Microsoft עוקבת אחר זמן, הוצאות ושימוש בחומרים שנרשמו בפרויקטים ממרכיבים בקבלנות משנה.
+מאמר זה מסביר כיצד Microsoft Dynamics 365 Project Operations‏ עוקבת אחר זמן, הוצאות ושימוש בחומרים שנרשמו בפרויקטים ממרכיבים בקבלנות משנה.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>תמחיר עבור זמן של קבלן משנה בפרויקטים
 ב- Project Operations, קבלני משנה יכולים לרשום זמן בפרויקטים באופן דומה לעובדים. בעת הזנת זמן בפרויקטים ו/או במשימות פרויקט, קבלן משנה יכול לבחור חוזה משנה וסעיף חוזה משנה ספציפיים.

@@ -1,24 +1,24 @@
 ---
 title: עריכת הזמנות
-description: נושא זה מספק מידע על אופן העדכון והשינויים בהזמנות.
+description: מאמר זה מספק מידע על איך לעדכן ולבצע שינויים בהזמנות.
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915231"
 ---
 # <a name="edit-bookings"></a>עריכת הזמנות
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 
-כאשר מתרחשים שינויים בפרוייקט שדורשים ממך לעדכן הזמנות קיימות, ישנן מספר דרכים לבצע את השינויים. נושא זה מסביר על אופן העדכון והשינויים בהזמנות.
+כאשר מתרחשים שינויים בפרוייקט שדורשים ממך לעדכן הזמנות קיימות, ישנן מספר דרכים לבצע את השינויים. מאמר זה מסביר כיצד לעדכן ולבצע שינויים בהזמנות.
 
 ## <a name="resource-reconciliation"></a>התאמת משאבים
 

@@ -1,6 +1,6 @@
 ---
 title: יצירה והחלה של תנאי שמירת התשלום של ספק
-description: נושא זה מספק מידע על אופן ההגדרה והתחזוקת תנאי השמירה של תשלומי ספק.
+description: מאמר זה מספק מידע על אופן ההגדרה והתחזוקה של תנאי השמירה עבור תשלומי ספקים.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 3961d18fcd53381ad43a1d3e598ac61652ba9843
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 2cd18375d93e503ac532cb3839c691231ea46681
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916749"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>יצירה והחלה של תנאי שמירת התשלום של ספק
 

@@ -1,6 +1,6 @@
 ---
 title: השפעת נתונים בפועל עבור פרוייקט פנימי
-description: נושא זה מספק מידע על ההשפעה על טבלת הנתונים בפועל באירועים שונים עבור פרויקט פנימי ב- Microsoft Dynamics 365 Project Operations ‎‏.
+description: מאמר זה מספק מידע על ההשפעה על טבלת הנתונים בפועל באירועים שונים עבור פרויקט פנימי ב- Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 66a9ac4d2f56ae95313ed6731c3e51926105cff7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: de05714c079fe121ef68e28b1acb82c24bce095e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579767"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921349"
 ---
 # <a name="actuals-impact-for-an-internal-project"></a>השפעת נתונים בפועל עבור פרוייקט פנימי
 

@@ -1,6 +1,6 @@
 ---
 title: הגדרת שדות מותאמים אישית כממדי תמחור
-description: נושא זה מספק מידע על אופן ההגדרה של ממדי תמחור באמצעות שדות מותאמים אישית.
+description: מאמר זה מספק מידע על אופן הגדרת ממדי תמחור באמצעות שדות מותאמים אישית.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917577"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>הגדרת שדות מותאמים אישית כממדי תמחור
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-לפני שתתחיל, נושא זה יוצא מנקודת הנחה שהשלמת את ההליכים בנושאים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities-pricing-dimensions.md) ו[הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](add-custom-fields-price-setup-transactional-entities.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור לנושא זה. 
+לפני שתתחיל, מאמר זה יוצא מנקודת הנחה שהשלמת את ההליכים במאמרים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities-pricing-dimensions.md) ו[הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](add-custom-fields-price-setup-transactional-entities.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור למאמר זה. 
 
-נושא זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית. בדף **פרמטרים**, הכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות** מראה את הרשומות בישויות של ממדי התמחור. כברירת מחדל, יש שתי שורות ברשת בכרטיסיה זו:
+מאמר זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית. בדף **פרמטרים**, הכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות** מראה את הרשומות בישויות של ממדי התמחור. כברירת מחדל, יש שתי שורות ברשת בכרטיסיה זו:
 
 - **msdyn_resourcecategory** (תפקיד)
 - **msdyn_OrganizationalUnit** (יחידה ארגונית)

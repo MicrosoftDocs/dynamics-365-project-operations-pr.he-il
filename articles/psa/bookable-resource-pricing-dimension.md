@@ -1,6 +1,6 @@
 ---
 title: שימוש במשאב ניתן להזמנה כממד תמחור
-description: נושא זה מספק מידע על שימוש במשאב ניתן להזמנה כממד תמחור.
+description: מאמר זה מספק מידע על שימוש במשאב ניתן להזמנה כממד תמחור.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916105"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>שימוש במשאב ניתן להזמנה כממד תמחור
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-נושא זה מספק מידע על שימוש במשאב ניתן להזמנה כממד תמחור. לפני שתתחיל, אם עדיין לא יצרת פתרון של ממד תמחור, תצטרך ליצור פתרון חדש. אם כבר יש לך פתרון ממד תמחור, תוכל לבצע את השינויים בפתרון זה. אם לא יצרת פתרון ממד תמחור חדש עבור הארגון שלך, השלם את ההליכים בנושא [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md).
+מאמר זה מספק מידע על שימוש במשאב ניתן להזמנה כממד תמחור. לפני שתתחיל, אם עדיין לא יצרת פתרון של ממד תמחור, תצטרך ליצור פתרון חדש. אם כבר יש לך פתרון ממד תמחור, תוכל לבצע את השינויים בפתרון זה. אם לא יצרת פתרון ממד תמחור חדש עבור הארגון שלך, השלם את ההליכים במאמר [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>הוספת משאב ניתן להזמנה לטפסים ולתצוגות
 כדי להפוך את השדות לגלויים בממשק המשתמש בפתרון ממד התמחור, תצטרך לעבור בין כל הטפסים והתצוגות של הישויות העיקריות של Project Service ולהוסיף שדות אלה לטפסים ולתצוגות של ישויות אלה.

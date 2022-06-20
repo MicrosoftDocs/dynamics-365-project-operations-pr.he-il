@@ -1,24 +1,24 @@
 ---
 title: שילוב של ניהול הוצאות
-description: נושא זה מספק מידע על שילוב דוח הוצאות ב- Project Operations באמצעות כתיבה כפולה.
+description: מאמר זה מספק מידע על שילוב דוחות הוצאות ב- Project Operations באמצעות כתיבה כפולה.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924615"
 ---
 # <a name="expense-management-integration"></a>שילוב של ניהול הוצאות
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מספק מידע על שילוב דוח הוצאות ב- Project Operations [פריסת הוצאות מלאה](../expense/expense-overview.md) באמצעות כתיבה כפולה.
+מאמר זה מספק מידע על שילוב דוחות של הוצאות ב- Project Operations [פריסת הוצאות מלאה](../expense/expense-overview.md) באמצעות כתיבה כפולה.
 
 ## <a name="expense-categories"></a>קטגוריות של הוצאות
 

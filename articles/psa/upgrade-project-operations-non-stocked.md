@@ -1,6 +1,6 @@
 ---
 title: שדרג מ- Project Service Automation ל- Project Operations
-description: נושא זה מספק סקירה כללית של התהליך השדרוג מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Project Operations.
+description: מאמר זה מספק סקירה כללית של התהליך השדרוג מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912977"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>שדרג מ- Project Service Automation ל- Project Operations
 
-אנו נרגשים להכריז על השלב הראשון מבין שלושה לשדרוג מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Project Operations. נושא זה מספק סקירה כללית ללקוחות שיוצאים למסע המרגש הזה. נושאים עתידיים יכללו שיקולי מפתחים ופרטים על שיפורים בתכונות. הם לא רק יספקו הנחיות שיעזרו לך להתכונן לשדרוג שלך ל- Project Operations אלא גם יסבירו למה לצפות לאחר השדרוג.
+אנו נרגשים להכריז על השלב הראשון מבין שלושה לשדרוג מ- Microsoft Dynamics 365 Project Service Automation ל- Dynamics 365 Project Operations. מאמר זה מספק סקירה כללית ללקוחות שיוצאים למסע המרגש הזה. מאמרים עתידיים יכללו שיקולי מפתחים ופרטים על שיפורים בתכונות. הם לא רק יספקו הנחיות שיעזרו לך להתכונן לשדרוג שלך ל- Project Operations אלא גם יסבירו למה לצפות לאחר השדרוג.
 
 תוכנית אספקת השדרוג תפוצל לשלושה שלבים.
 
@@ -90,7 +90,7 @@ ms.locfileid: "8626716"
     > [!NOTE]
     > בהתאם לכמות הנתונים בסביבה, השדרוג עשוי להימשך מספר שעות. בהתאם לכך, על צוות הליבה שמנהל את השדרוג לתכנן להפעיל את השדרוג בשעות שאינן שעות עבודה. במקרים מסוימים, אם נפח הנתונים גדול, יש להפעיל את השדרוג במהלך סוף השבוע. ההחלטה לגבי תזמון צריכה להתבסס על תוצאות הבדיקה בסביבות נמוכות יותר.
 
-3. שדרג פתרונות מותאמים אישית לפי הצורך. בשלב זה, פרוס את כל השינויים שביצעת בהתאמות האישיות שלך במקטע [‏‫בדיקת התאמות אישיות וארגון הקוד מחדש‬](#testing-and-refactoring-customizations) של נושא זה.
+3. שדרג פתרונות מותאמים אישית לפי הצורך. בשלב זה, פרוס את כל השינויים שביצעת בהתאמות האישיות שלך במקטע [‏‫בדיקת התאמות אישיות וארגון הקוד מחדש‬](#testing-and-refactoring-customizations) של מאמר זה.
 4. עבור אל **הגדרות** \> **פתרונות**, ובחר להסיר את ההתקנה של הפתרון **רכיבים של Project Operations שהוצאו משימוש**.
 
     פתרון זה הינו פתרון זמני המחזיק את מודל הנתונים הקיים ואת הרכיבים הקיימים במהלך השדרוג. על ידי הסרת פתרון זה, אתה מסיר את כל השדות והרכיבים שאינם בשימוש עוד. בדרך זו, אתה עוזר לפשט את הממשק ולהקל על האינטגרציה וההרחבה.
@@ -126,7 +126,6 @@ ms.locfileid: "8626716"
 | Project Service Automation                             | פריסת לייט של Project Operations                        | נתמך               |
 | Dynamics 365 Finance - ניהול וחשבונאות של פרוייקטים | פריסת לייט של Project Operations                        | נכון לעכשיו לא נתמך |
 | ניהול וחשבונאות של פרוייקטים ב- Finance              | Project Operations לתרחישים של משאבים/ללא מלאי     | נכון לעכשיו לא נתמך |
-| ניהול וחשבונאות של פרוייקטים ב- Finance              | Project Operations לתרחישי מלאי/הזמנת ייצור | נכון לעכשיו לא נתמך |
 | Project Service Automation ‏‎3.x                         | Project Operations לתרחישים של משאבים/ללא מלאי     | נכון לעכשיו לא נתמך |
 | Project for the Web (סביבה ייעודית)            | פריסת לייט של Project Operations                        | נכון לעכשיו לא נתמך |
 

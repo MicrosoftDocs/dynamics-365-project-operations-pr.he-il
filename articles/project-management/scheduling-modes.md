@@ -1,17 +1,17 @@
 ---
 title: מצבי תזמון
-description: נושא זה מספק מידע על מצבי תזמון.
+description: מאמר זו מספק מידע על מצבי תזמון.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923649"
 ---
 # <a name="scheduling-modes"></a>מצבי תזמון
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations מספק לארגונים יכולת להגדי�
 | משימה במאמץ קבוע    | משך הזמן מחושב מחדש. | יחידות מחושבות מחדש.    | משך הזמן מחושב מחדש. |
 | משימה במשך זמן קבוע  | המאמץ מחושב מחדש.   | המאמץ מחושב מחדש.    | יחידות מחושבות מחדש.   |
 
-למידע נוסף אודות ההשלכות של מצב נתון, ראה [שנה את סוג המשימה לתזמון מדויק יותר](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). בנושא, המונח **עבודה** משמש במקום המונח **מאמץ**.
+למידע נוסף אודות ההשלכות של מצב נתון, ראה [שנה את סוג המשימה לתזמון מדויק יותר](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). במאמר, המונח **עבודה** משמש במקום **מאמץ**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>שנה את מצב התזמון של הארגון
 

@@ -1,24 +1,24 @@
 ---
 title: החלת נתוני ההדגמה בסביבת Finance המתארחת בענן
-description: נושא זה מסביר כיצד להחיל נתוני הדגמה מ- Project Operations בסביבת Dynamics 365 Finance המתארחת בענן.
+description: מאמר זה מסביר כיצד להחיל נתוני הדגמה מ- Project Operations על סביבת Dynamics 365 Finance המתארחת בענן.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924661"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>החלת נתוני ההדגמה בסביבת Finance המתארחת בענן
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 > [!IMPORTANT]
-> נושא זה ישים רק בגירסת Microsoft Dynamics 365 Finance‏ 10.0.13 וניתן לביצוע בסביבה המתארחת בענן בלבד. השלם את השלבים בנושא זה **לפני** שאתה מחיל עדכוני איכות על הסביבה.
+> מאמר זה ישים רק ב- Microsoft Dynamics 365 Finance‏ גרסה 10.0.13 וניתן לביצוע בסביבה המתארחת בענן בלבד. השלם את השלבים במאמר זה **לפני** החלת עדכוני איכות בסביבה.
 
 1. בפרויקט LCS שלך, פתח את הדף **פרטי סביבה**. שים לב שהוא כולל את הפרטים הדרושים להתחברות לסביבה באמצעות פרוטוקול שולחן עבודה מרוחק (RDP).
 

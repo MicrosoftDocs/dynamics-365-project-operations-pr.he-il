@@ -1,25 +1,25 @@
 ---
 title: עדכן את Project Operations בסביבת Finance שלך
-description: נושא זה מספק מידע על אופן העדכון של Project Operations בסביבת Dynamics 365 Finance.
+description: מאמר זה מספק מידע על אופן העדכון של Project Operations בסביבת Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912471"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>עדכן את Project Operations בסביבת Finance שלך
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 
-נושא זה מספק מידע על אופן העדכון של Dynamics 365 Project Operations בסביבת Dynamics 365 Finance. יש שלושה נהלים הנדרשים לעדכון Project Operations לעדכון 5 (UR5):
+מאמר זה מספק מידע על אופן העדכון של Dynamics 365 Project Operations בסביבת Dynamics 365 Finance. יש שלושה נהלים הנדרשים לעדכון Project Operations לעדכון 5 (UR5):
 
 - [ייבא את החבילה לפרוייקט Preview שלך](#import)
 - [החל את העדכון](#apply)

@@ -1,17 +1,17 @@
 ---
 title: פרטי כותרת לחוזי משנה
-description: נושא זה מסביר את הפונקציונליות שסופקה בכותרת חוזה המשנה ב- Project Operations.
+description: מאמר זה מסביר את הפונקציונליות הניתנת בכותרת חוזה המשנה ב- Project Operations.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914173"
 ---
 # <a name="header-details-for-subcontracts"></a>פרטי כותרת לחוזי משנה
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598167"
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה מסביר את הפונקציונליות שסופקה בכותרת חוזה המשנה ב- Dynamics 365 Project Operations.
+מאמר זה מסביר את הפונקציונליות הניתנת בכותרת חוזה המשנה ב- Dynamics 365 Project Operations.
 
 מכיוון שמנהל פרויקטים מתכנן ומבצע פרוייקטים, הוא עשוי להעסיק קבלני משנה ולרכוש מוצרים ושירותים מספקים. כאשר מנהל פרוייקטים צריך לרכוש מוצרים או שירותים, הוא יכול ליצור חוזה משנה ב- Project Operations.
 

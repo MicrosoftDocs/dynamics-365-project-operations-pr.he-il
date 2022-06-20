@@ -1,6 +1,6 @@
 ---
 title: הגדרת שדות מותאמים אישית כממדי תמחור
-description: נושא זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית.
+description: מאמר זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922598"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>הגדרת שדות מותאמים אישית כממדי תמחור 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-לפני שתתחיל, נושא זה יוצא מנקודת הנחה שהשלמת את ההליכים בנושאים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md) ו[הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](field-references.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור לנושא זה. 
+לפני שתתחיל, מאמר זה יוצא מנקודת הנחה שהשלמת את ההליכים במאמרים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md) ו[הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](field-references.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור למאמר זה. 
 
-נושא זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית. בממשק האינטרנט של Project Service, בדף **פרמטרים**, הכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות** מציגה את הרשומות בישויות ממדי התמחור. כברירת מחדל, ההתקנה של Project Service יוצרת 2 שורות ברשת בכרטיסיה זו:
+מאמר זה מספק מידע אודות הגדרה של ממדי תמחור מותאמים אישית. בממשק האינטרנט של Project Service, בדף **פרמטרים**, הכרטיסיה ‏‫**ממדי תמחור מבוססי-כמות** מציגה את הרשומות בישויות ממדי התמחור. כברירת מחדל, ההתקנה של Project Service יוצרת 2 שורות ברשת בכרטיסיה זו:
 
 - **msdyn_resourcecategory** (תפקיד)
 - **msdyn_OrganizationalUnit** (יחידה ארגונית)

@@ -1,6 +1,6 @@
 ---
 title: דף הבית 'יצירת הצעות מחיר, תמחור וחיוב'
-description: נושא זה מספק מידע אודות יצירת הצעות מחיר, תמחור וחיוב.
+description: נושא זה מספק מידע על הצעות מחיר, תמחור וחיוב.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581101"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926731"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>דף הבית 'יצירת הצעות מחיר, תמחור וחיוב'
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581101"
 
 יצירת הצעות מחיר, תמחור וחיוב הם תכונות המשמשות גם ארגונים קטנים וגם ארגונים גדולים. על-ידי הבנת האופן שבו פועלות תכונות אלה באפליקציה, ארגונים יכולים להתאים אישית תצורות בקלות רבה יותר.
 
-הנושאים הבאים מספקים מידע נוסף על הפונקציונליות של יצירת הצעות מחיר, תמחור וחיוב ב- PSA:
+המאמרים הבאים מספקים מידע נוסף על הפונקציונליות של יצירת הצעות מחיר, תמחור וחיוב ב- PSA:
 
 - [תהליך מכירות](basic-sales-process.md)
 - [שורות הצעת מחיר](basic-quote-lines.md)

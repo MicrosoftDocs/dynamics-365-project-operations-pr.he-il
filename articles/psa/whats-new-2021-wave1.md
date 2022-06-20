@@ -1,6 +1,6 @@
 ---
 title: מה חדש ומה השתנה בגל ההפצה המוקדמת 1 ב-2021 של Project Service Automation V3
-description: נושא זה מפרט את התכונות והתיקונים שזמינים בגל ההפצה המוקדמת 1 של עדכון V3 2021 של Project Service Automation.
+description: מאמר זה מפרט את התכונות והתיקונים הזמינים בעדכון Project Service Automation גישה מוקדמת גל 1, 2021, גרסה 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ed2d497146d711fe7e2af06e7ba37c5045aa63e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7de0c20ae3ce3087946a2c44632f243a30a6dbe9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930733"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>מה חדש ומה השתנה בגל ההפצה המוקדמת 1 ב-2021 של Project Service Automation V3
 
@@ -31,7 +31,7 @@ ms.locfileid: "8598811"
 
 אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
-נושא זה מפרט את התכונות והתיקונים החדשים או שהשתנו בגל ההפצה המוקדמת 1 של עדכון V3 2021 של Project Service Automation. לגרסה זו יש מספר build של V3.10.49.3 והיא זמינה בדרך כלל באמצעות עדכון עצמי בפברואר 2021.
+מאמר זה מפרט את התכונות והתיקונים החדשים או ששונו עבור Project Service Automation גרסה 3, גישה מוקדמת גל 1, 2021. לגרסה זו יש מספר build של V3.10.49.3 והיא זמינה בדרך כלל באמצעות עדכון עצמי בפברואר 2021.
 
 
 ### <a name="bug-fixes"></a>תיקוני באגים

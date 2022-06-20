@@ -1,6 +1,6 @@
 ---
 title: התקדמות בפרויקט וצריכת עלויות
-description: נושא זו מספק מידע כיצד ניתן לעקוב אחר התקדמות הפרויקט וצריכת העלות.
+description: מאמר זו מספק מידע על מעקב אחר התקדמות הפרויקט וצריכת העלות.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921763"
 ---
 # <a name="project-progress-and-cost-consumption"></a>התקדמות בפרויקט וצריכת עלויות
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575259"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-הצורך לעקוב אחר ההתקדמות מול לוח זמנים משתנה לפי ענף. תעשיות מסוימות עוקבות ברמה מפורטת, ואילו תעשיות אחרות עוקבות ברמה גבוהה יותר. נושא זה מראה כיצד ליצור לוח זמנים שיעמוד בדרישות הארגון שלך.
+הצורך לעקוב אחר ההתקדמות מול לוח זמנים משתנה לפי ענף. תעשיות מסוימות עוקבות ברמה מפורטת, ואילו תעשיות אחרות עוקבות ברמה גבוהה יותר. מאמר זה מראה כיצד ליצור לוח זמנים שיעמוד בדרישות הארגון שלך.
 
 ## <a name="effort-tracking-view"></a>תצוגה של מעקב אחר המאמץ
 

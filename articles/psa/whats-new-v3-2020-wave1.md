@@ -1,6 +1,6 @@
 ---
 title: מה חדש או השתנה בגירסה ‎3.x wave 1 2020 של Project Service Automation
-description: נושא זה מספק מידע על מה חדש ומה שהשתנה בגירסה 3, גל 1 2020 של Project Service Automation.
+description: מאמר זה מספק מידע על הדברים החדשים והדברים שהשתנו ב- Project Service Automation גירסה 3, גל הפצה 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577881"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928617"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>מה חדש או השתנה בגירסה ‎3 גל 1 2020 של Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-הנושא מדגיש את השיקולים המרכזיים לשדרוג בעת המעבר למהדורה האחרונה של Project Service Automation‏ (PSA) גירסה ‎ 3.xגל 1 2020.
+המאמר מדגיש את שיקולי השדרוג העיקריים בעת מעבר למהדורה האחרונה של Project Service Automation (PSA)‎‏‏‏‎‏‏ גרסה ‎3.x גל 1‏, 2020.
 
 ## <a name="time-entry"></a>ערך זמן
 החוויה של הכנסת ערך הזמן הורחבה כדי לספק יכולות להארכת ערכי הזמן לתרחישים רבים יותר של לקוחות. זה כולל את היכולת להוסיף סוגי ערכים, מה שמניע כעת התנהגות ספציפית על סמך שם סכימת השדה **הגדרות ערך זמן**, שמוצג בתור **מקור זמן**. פתרון חדש, שנקרא 'זמן, הוצאה, סטטוס ואישורים' (TESA) נוסף לתמיכה בפונקציונליות זו.

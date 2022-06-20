@@ -1,6 +1,6 @@
 ---
 title: שימוש בקטגוריית עסקה כממד תמחור
-description: נושא זה מספק מידע על שימוש בקטגוריית עסקה כממד תמחור.
+description: מאמר זה מספק מידע על שימוש בקטגוריית עסקה כממד תמחור.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915737"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>שימוש בקטגוריית עסקה כממד תמחור
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-נושא זה מראה כיצד להשתמש בקטגוריית עסקה כממד תמחור. לפני שתתחיל, אם עדיין לא יצרת פתרון של ממד תמחור, תצטרך ליצור פתרון חדש. אם כבר יש לך פתרון ממד תמחור, תוכל לבצע את השינויים בפתרון זה. אם לא יצרת פתרון ממד תמחור חדש עבור הארגון שלך, השלם את ההליכים בנושא [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md).
+מאמר זה מראה כיצד להשתמש בקטגוריית עסקה כממד תמחור. לפני שתתחיל, אם עדיין לא יצרת פתרון של ממד תמחור, תצטרך ליצור פתרון חדש. אם כבר יש לך פתרון ממד תמחור, תוכל לבצע את השינויים בפתרון זה. אם לא יצרת פתרון ממד תמחור חדש עבור הארגון שלך, השלם את ההליכים במאמר [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>הוספת קטגוריית עסקה לטפסים ולתצוגות
 כדי להפוך את קטגוריית העסקה לגלויה בממשק המשתמש בפתרון ממד התמחור, תצטרך לעבור בין כל הטפסים והתצוגות של הישויות העיקריות ולהוסיף שדות אלה לטפסים ולתצוגות של ישויות אלה.

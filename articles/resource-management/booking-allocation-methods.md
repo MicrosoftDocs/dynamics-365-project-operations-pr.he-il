@@ -1,6 +1,6 @@
 ---
 title: שיטות הקצאה של הזמנות
-description: נושא זה מספק מידע על אופן הפעולה של שיטות הקצאת הזמנות ב-Project Operations.
+description: מאמר זה מספק מידע על אופן הפעולה של שיטות הקצאת הזמנות ב- Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912747"
 ---
 # <a name="booking-allocation-methods"></a>שיטות הקצאה של הזמנות
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-בין אם אתה מוסיף חבר צוות ישירות לפרויקט בכרטיסיה **צוות**, או מזמין משאב לפרויקט או דרישה מלוח הזמנים, קיימות כמה שיטות שונות להקצאת הזמנה שניתן להשתמש בהן. נושא זה מסביר כיצד פועלת כל שיטה ואילו שיטות עלול לגרום להזמנת יתר של משאבים.
+בין אם אתה מוסיף חבר צוות ישירות לפרויקט בכרטיסיה **צוות**, או מזמין משאב לפרויקט או דרישה מלוח הזמנים, קיימות כמה שיטות שונות להקצאת הזמנה שניתן להשתמש בהן. מאמר זה מסביר כיצד פועלת כל שיטה ואילו שיטות עלול לגרום להזמנת יתר של משאבים.
 
 ## <a name="booking-allocation-methods"></a>שיטות הקצאה של הזמנות
 

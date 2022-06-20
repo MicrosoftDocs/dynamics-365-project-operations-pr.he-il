@@ -1,6 +1,6 @@
 ---
 title: יצירת שדות וישויות מותאמים אישית
-description: נושא זה מסביר כיצד ליצור קבוצות אפשרויות וישויות בפתרון שלך בפלטפורמת Power Apps.
+description: מאמר זה מסביר כיצד ליצור קבוצות אפשרויות וישויות בפתרון שלך בפלטפורמת Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926915"
 ---
 # <a name="create-custom-fields-and-entities"></a>יצירת שדות וישויות מותאמים אישית 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 בצע את השלבים הבאים בכל עת שברצונך ליצור קבוצת אפשרויות או ישות מותאמת אישית בפלטפורמת Power Apps.  
-יש להשלים את ההליכים בנושא זה באמצעות ממשק האינטרנט של Project Service Automation‏ (PSA).
+יש להשלים את ההליכים במאמר זה באמצעות ממשק האינטרנט של Project Service Automation‏ (PSA).
 
 > [!IMPORTANT]
 > מומלץ לבצע את כל השינויים בממד התמחור המותאם אישית בפתרון נפרד. שיטת עבודה מומלצת וחשובה זו מספקת גמישות בעתיד כדי לעדכן או להסיר שינויים בהתאם לצורך, היא תסייע לך להשתמש מחדש בעבודתך ומאפשרת להפנות את השינויים הללו אל מופע אחר בקלות רבה יותר. לאחר שביצעת את כל השינויים הדרושים, יצא פתרון זה כ **פתרון מנוהל** ויבא אותו אל מופעים אחרים כדי להשתמש שוב בהגדרת התמחור.

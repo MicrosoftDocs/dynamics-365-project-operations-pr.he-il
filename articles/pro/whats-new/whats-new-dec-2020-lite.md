@@ -1,24 +1,24 @@
 ---
 title: מה חדש דצמבר 2020 - פריסת לייט של Project Operations – מהעסקה ועד להפקת חשבונית פרופורמה
-description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת דצמבר 2020 עבור פריסת לייט של Project Operations - מהעסקה ועד להפקת חשבונית פרופרמה.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת דצמבר 2020 של פריסת Project Operations Lite - מהעסקה ועד חשבונית פרופורמה.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924063"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>מה חדש דצמבר 2020 - פריסת לייט של Project Operations – מהעסקה ועד להפקת חשבונית פרופורמה
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
   - Project Operations בסביבת Dataverse גרסה 4.5.0.134 
 

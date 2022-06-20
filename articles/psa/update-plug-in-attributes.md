@@ -1,6 +1,6 @@
 ---
 title: עדכון תכונות של יישום Plug-in כדי לכלול ממדי תמחור חדשים
-description: נושא זה מספק מידע על עדכון תכונות של יישום Plug-in עבור ממדי תמחור.
+description: מאמר זה מספק מידע על עדכון תכונות של יישום Plug-in עבור ממדי תמחור.
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913207"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>עדכון תכונות של יישום Plug-in כדי לכלול ממדי תמחור חדשים
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> אם אינך משתמש בתכונות 'יצירת הצעת מחיר' ו'חוזה' של Project Service Automation ‏(PSA), אתה מוזמן לדלג על נושא זה.
+> אם אינך משתמש בתכונות 'יצירת הצעת מחיר' ו'חוזה' של Project Service Automation ‏(PSA), אתה מוזמן לדלג על מאמר זה.
 
-נושא זה יוצא מנקודת הנחה שהשלמת את ההליכים בנושאים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md), [הוספת שדות מותאמים אישית להגדרת מחיר וישויות של עסקאות](field-references.md) ו[הגדרת שדות מותאמים אישית כממדי תמחור](set-up-pricing-dimensions.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור לנושא זה.
+מאמר זה יוצא מנקודת הנחה שהשלמת את ההליכים במאמרים [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md), [הוספת שדות מותאמים אישית להגדרת מחיר וישויות של עסקאות](field-references.md) ו[הגדרת שדות מותאמים אישית כממדי תמחור](set-up-pricing-dimensions.md). אם לא השלמת הליכים אלה, חזור והשלם אותם ולאחר מכן חזור למאמר זה.
 
 בעת יצירת פרט של שורת הצעת מחיר בדף **שורת הצעת מחיר** של שורת הצעת מחיר של פרויקט, המערכת יוצרת שתי שורות הערכה ברקע – שורה אחת עבור צד העלות של ההערכה ושורה אחת עבור צד המכירות. אותה פעולה מתבצעת עבור סעיפי חוזה של פרויקט.
 

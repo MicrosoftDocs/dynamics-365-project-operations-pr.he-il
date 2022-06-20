@@ -1,18 +1,18 @@
 ---
 title: שילוב חשבונית ספק
-description: נושא זה מספק מידע על שילו חשבוניות ספק ב- Project Operations.
+description: מאמר זה מספק מידע על שילוב חשבוניות ספק ב- Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912057"
 ---
 # <a name="vendor-invoice-integration"></a>שילוב חשבונית ספק
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 ניתן לתעד רכש הקשור לפרויקט ב- Dynamics 365 Project Operations על ידי מעבר אל **חשבונות זכאים** > **חשבוניות** > **חשבוניות ספק בהמתנה** ושימוש במסמך חשבונית ספק בהמתנה. למידע נוסף ראה [רכוש חומרים שאינם במלאי באמצעות חשבונית ספק בהמתנה](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> לפני שתשתמש בפונקציונליות המתוארת בנושא זה, יש לסקור ולהחיל את התצורות הנדרשות. למידע נוסף ראה [הפוך חומרים שאינם במלאי וחשבונית ספק בהמתנה לזמינים](../procurement/configure-materials-nonstocked.md).
+> לפני שתשתמש בפונקציונליות המתוארת במאמר זה, סקור והחל את התצורות הנדרשות. למידע נוסף ראה [הפוך חומרים שאינם במלאי וחשבונית ספק בהמתנה לזמינים](../procurement/configure-materials-nonstocked.md).
 
 ב- Project Operations, חשבוניו ספק הקשורות לפרויקט נרשמות לפי כללי רישום מיוחדים:
 

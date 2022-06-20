@@ -1,6 +1,6 @@
 ---
 title: שדרוג דף הבית
-description: נושא זה מראה היכן למצוא מידע חשוב על התכונות החדשות והתכונות שהשתנו ב- Dynamics 365 Project Service Automation, והתהליך לשדרוג לגירסה החדשה ביותר.
+description: מאמר זה מראה היכן למצוא מידע חשוב על התכונות החדשות והתכונות שהשתנו ב- Dynamics 365 Project Service Automation, והתהליך לשדרוג לגירסה החדשה ביותר.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926639"
 ---
 # <a name="upgrade-home-page"></a>שדרוג דף הבית
 
@@ -48,14 +48,14 @@ ms.locfileid: "8591390"
 לפני שתתחיל בתהליך השדרוג, מומלץ להשלים את המשימות הבאות:
 
 - בדוק אם Dynamics 365 Field Service ו- Project Service Automation מותקנים שניהם במופע המזוהה. אם שני הפתרונות מותקנים, עליך לתכנן לשדרג את שניהם לפני שתחדש את השימוש הרגיל במופע.
-- עיין היטב בנושאים הבאים. מודעות לשינויים בין הגירסאות והבנה שלהם יעזרו לך בתהליך השדרוג. נושאים אלה מספקים מידע על השינויים העיקריים ב- PSA, יחד עם שיקולים והמלצות לתכנון השדרוג לגירסה ‎3.x.
+- עיין היטב במאמרים הבאים. מודעות לשינויים בין הגירסאות והבנה שלהם יעזרו לך בתהליך השדרוג. מאמרים אלה מספקים מידע על השינויים העיקריים ב- PSA, יחד עם שיקולים והמלצות לתכנון השדרוג לגירסה ‎3.x.
 
     - [מה חדש או השתנה בגירסה 3 של Project Service Automation](whats-new-changed-v3.md)
     - [שיקולים לשדרוג – גירסה ‎2.x או ‎1.x של Project Service Automation לגירסה ‎3.x](upgrade-v3.md)
 
 - שדרג את מופע ארגז החול (Sandbox) כדי להעריך את השינויים בהטמעה לפני שתשדרג את מופע הייצור.
 
-לאחר שעיינת בנושאים שהוזכרו קודם לכן ואתה מוכן לשדרג לגירסה ‎3.x של PSA או לגירסה המבוססת על UCI, שלח בקשה לתמיכה של Microsoft כדי להפוך את השדרוג לזמין ממרכז הניהול. במסגרת הבקשה, ספק את פרטי המופע שלך.
+לאחר שעיינת במאמרים שהוזכרו קודם לכן ואתה מוכן לשדרג לגירסה ‎3.x של PSA או לגירסה המבוססת על UCI, שלח בקשה לתמיכה של Microsoft כדי להפוך את השדרוג לזמין ממרכז הניהול. במסגרת הבקשה, ספק את פרטי המופע שלך.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>גירסאות קודמות של PSA ‏(PSA גירסה ‎2.x) במופע חדש שנוצר
 

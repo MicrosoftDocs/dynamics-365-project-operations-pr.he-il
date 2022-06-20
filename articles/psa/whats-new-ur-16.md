@@ -1,6 +1,6 @@
 ---
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 16 V3
-description: נושא זה מפרט את התכונות החדשות והתיקונים במהדורה 16, עדכון V3 של Project Service Automation.
+description: מאמר זה מפרט את התכונות והתיקונים הזמינים בעדכון Project Service Automation מהדורה 16, גרסה 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926501"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>מהדורה 16, V3 של Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 אנו שמחים להכריז על העדכון האחרון של אפליקציית Project Service Automation של Dynamics 365. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות.  מהדורה זו תואמת את Dynamics 365 9.x. כדי לעדכן למהדורה זו, בקר במרכז הניהול של Dynamics 365 ועבור לדף הפתרונות כדי להתקין את העדכון. למידע נוסף: [התקנה, עדכון של פתרון מועדף](/dynamics365/project-service/upgrade-psa-home-page).
-נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 16, עדכון V3 של PSA. מספר ה-build של גירסה זו הוא V3.10.6.34 והיא זמינה דרך עדכון עצמי החל מינואר 2020.
+מאמר זה מפרט את התכונות והתיקונים החדשים או ששונו עבור PSA בגרסה 3, מהדורת עדכון 16. מספר ה-build של גירסה זו הוא V3.10.6.34 והיא זמינה דרך עדכון עצמי החל מינואר 2020.
 
 
 ## <a name="update-release-16"></a>הפצת עדכון 16

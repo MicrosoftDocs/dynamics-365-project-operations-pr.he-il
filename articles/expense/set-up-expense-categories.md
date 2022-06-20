@@ -1,17 +1,17 @@
 ---
 title: הגדרת קטגוריות הוצאות
-description: נושא זה מספק מידע על הדרך להגדרת קטגוריות הוצאות וקטגוריות משותפות עבור דוחות הוצאות.
+description: מאמר זה מספק מידע על אופן הגדרת קטגוריות ההוצאות וקטגוריות משותפות לדוחות של הוצאות.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 602a56cb26d2f97143ffedcdfa96ac751c7b252f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917764"
 ---
 # <a name="set-up-expense-categories"></a>הגדרת קטגוריות הוצאות
 

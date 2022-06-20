@@ -1,25 +1,25 @@
 ---
 title: פתרון בעיות בעבודה ברשת המשימות
-description: נושא זה מספק מידע לגבי פתרון בעיות הדרוש בעבודה ברשת המשימות.
+description: מאמר זה מספק מידע לגבי פתרון בעיות בעת העבודה ברשת המשימות.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911045"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>פתרון בעיות בעבודה ברשת המשימות 
 
 
 _**חל על:** Project Operations עבור תרחישים מבוססי-משאב/לא במלאי, פריסה קלה - עסקה להנפקת חשבונית פרופורמה, Project for the web_
 
-רשת המשימה שמונפה על-ידי Dynamics 365 Project Operations היא iFrame מתארח ב- Microsoft Dataverse. כתוצאה משימוש זה, יש לעמוד בדרישות ספציפיות על מנת לוודא שהאימות והאישור פועלים כראוי. נושא זה מתאר את הבעיות הנפוצות שיכולות להשפיע על היכולת לעבד את הרשת או לנהל משימות במבנה התפלגות העבודה (WBS).
+רשת המשימה שמונפה על-ידי Dynamics 365 Project Operations היא iFrame מתארח ב- Microsoft Dataverse. כתוצאה משימוש זה, יש לעמוד בדרישות ספציפיות על מנת לוודא שהאימות והאישור פועלים כראוי. מאמר זה מתאר את הבעיות הנפוצות שיכולות להשפיע על היכולת לעבד את הרשת או לנהל משימות במבנה התפלגות העבודה (WBS).
 
 בעיות נפוצות כוללות:
 

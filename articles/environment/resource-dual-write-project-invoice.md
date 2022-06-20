@@ -1,22 +1,22 @@
 ---
 title: שילוב חשבונית פרויקט
-description: נושא זה מספק מידע על שילוב כתיבה כפולה עבור יצירת חשבוניות ב- Project Operations.
+description: מאמר זה מספק מידע על שילוב הפקת חשבוניות לקוח ב- Project Operations באמצעות כתיבה כפולה.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912103"
 ---
 # <a name="project-invoice-integration"></a>שילוב חשבונית פרויקט
 
-נושא זה מספק מידע על שילוב כתיבה כפולה עבור יצירת חשבוניות ב- Project Operations.
+מאמר זה מספק מידע על שילוב הפקת חשבוניות לקוח ב- Project Operations באמצעות כתיבה כפולה.
 
 ב-Project Operations מנהל הפרויקט מנהל את צבר חיובי הפרויקט ויוצר חשבונית פרופורמה עבור הלקוח ב- Microsoft Dataverse. בהתבסס על חשבונית פרופורמה זו, פקיד חשבונות חייבים או רואה חשבון פרויקט יוצר חשבונית המוצגת ללקוח. שילוב של כתיבה כפולה מוודא שפרטי חשבונית הפרופורמה יסונכרנו ביישומי Finance and Operations. לאחר פרסום החשבונית שמוצגת ללקוח, המערכת מעדכנת את נתוני הפרויקט הרלוונטיים ב- Dataverse עם הפרט החשבונאי. הגרפיקה הבאה מספקת סקירה קונספטואלית ברמה גבוהה על שילוב זה.
 

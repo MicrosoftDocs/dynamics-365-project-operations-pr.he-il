@@ -1,23 +1,23 @@
 ---
 title: מבט כולל על זיהוי הכנסה
-description: נושא זו מספק מידע על זיהוי הכנסות ב-Project Operations.
+description: מאמר זה מספק מידע על הכרה בהכנסות ב-Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926271"
 ---
 # <a name="revenue-recognition-overview"></a>מבט כולל על זיהוי הכנסה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-ב- Dynamics 365 Project Operations, עקרונות של זיהוי הכנסות משתנים בהתאם לשיטת החיוב שנבחרה עבור פרויקט או חלק מהפרויקט. נושא זו מספק מידע על זיהוי הכנסות ב-Project Operations.
+ב- Dynamics 365 Project Operations, עקרונות של זיהוי הכנסות משתנים בהתאם לשיטת החיוב שנבחרה עבור פרויקט או חלק מהפרויקט. מאמר זה מספק מידע על הכרה בהכנסות ב-Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>עסקאות מחויבות לפי שיטת חיוב עבור זמן וחומר
 

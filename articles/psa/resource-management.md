@@ -1,6 +1,6 @@
 ---
 title: דף הבית 'הקצאת משאבים לפרויקטים'
-description: נושא זה מספק מידע על יכולות ניהול המשאבים ב- Project Service Automation‏ (PSA) עבור Dynamics 365.
+description: מאמר זה מספק מידע על יכולות ניהול המשאבים ב- Project Service Automation‏ (PSA) עבור Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925259"
 ---
 # <a name="resourcing-projects-home-page"></a>דף הבית 'הקצאת משאבים לפרויקטים'
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599823"
 - צור מאגר של כישורים ומומחיות ושמור אותו.
 
 
-ניתן לאייש את הפרויקט בצוות של משאבים כלליים או בעלי שם ב- PSA. ניתן להשתמש בשיטות שונות כדי להוסיף ולהקצות חברי צוות ולנהל את ההזמנות וההקצאות שלהם. לקבלת מידע נוסף, עיין בנושאים הבאים:
+ניתן לאייש את הפרויקט בצוות של משאבים כלליים או בעלי שם ב- PSA. ניתן להשתמש בשיטות שונות כדי להוסיף ולהקצות חברי צוות ולנהל את ההזמנות וההקצאות שלהם. לקבלת מידע נוסף, עיין במאמרים הבאים:
 
 - [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרויקט והקצאתם למשימות](assign-named-bookable-resource.md)
 - [הקצאת משאבים כלליים הניתנים להזמנה למשימה ויצירת דרישות משאבים](assign-generic-bookable-resource.md)

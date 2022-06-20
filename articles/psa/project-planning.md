@@ -1,6 +1,6 @@
 ---
 title: דף הבית של תכנון פרויקט
-description: נושא זו מספק מידע על תכנון פרויקט.
+description: מאמר זו מספק מידע על תכנון פרויקט.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919095"
 ---
 # <a name="project-planning-home-page"></a>דף הבית של תכנון פרויקט
 
@@ -43,7 +43,7 @@ Dynamics 365 Project Service Automation מציע תמיכה מקצה לקצה ע
 - חיזוי דרישות משאבים עבור פרויקטים שנמצאים בקו הצינור.
 - מסירה מוצלחת של פרויקטים על-ידי מעקב אחר התקדמות וצריכת עלות.
 
-הנושאים הבאים מספקים מידע שיעזור למנהלי פרויקטים להעריך את העבודה, להעריך את עלויות הפרויקט ולחזות את דרישות המשאבים באמצעות הכלים הנתמכים ב- PSA:
+המאמרים הבאים מספקים מידע שיעזור למנהלי פרויקטים להעריך את העבודה, להעריך את עלויות הפרויקט ולחזות את דרישות המשאבים באמצעות הכלים הנתמכים ב- PSA:
 
 - [יצירת לוח זמנים](project-creating.md)
 - [הערכת עלות והכנסה בפרויקט ומעקב אחריהן](project-estimating.md)

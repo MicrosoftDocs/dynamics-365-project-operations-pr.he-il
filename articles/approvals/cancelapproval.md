@@ -1,17 +1,17 @@
 ---
 title: ביטול האישור של ערכים שאושרו בעבר
-description: נושא זה מסביר כיצד מנהל פרויקט יכול לבטל את האישור של רשומות זמן, הוצאות או שימוש בחומרים שאושרו בעבר.
+description: מאמר זה מסביר כיצד מנהל פרויקט יכול לבטל את האישור של רשומות זמן, הוצאות או שימוש בחומרים שאושרו בעבר.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930457"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>ביטול האישור של ערכים שאושרו בעבר
 

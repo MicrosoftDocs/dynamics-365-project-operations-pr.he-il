@@ -1,17 +1,17 @@
 ---
 title: מבט כולל על שורות הצעות מחיר מבוססות מוצר - לייט
-description: נושא זה מספק מידע על עבודה עם שרות הצעות מחיר מבוססות מוצר.
+description: מאמר זה מספק מידע על עבודה עם שורות הצעות מחיר מבוססות פרויקט.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d86bf3ed81dbb69912d0694909aa5448a958666
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914311"
 ---
 # <a name="product-based-quote-lines-overview---lite"></a>מבט כולל על שורות הצעות מחיר מבוססות מוצר - לייט
 

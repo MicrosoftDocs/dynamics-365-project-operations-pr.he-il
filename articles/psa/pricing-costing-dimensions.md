@@ -1,6 +1,6 @@
 ---
 title: דף הבית לממדי תמחור ותמחיר
-description: נושא זה מספק מבט כולל על ממדי תמחור.
+description: מאמר זה מספק מבט כולל על ממדי תמחור.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925443"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>דף הבית לממדי תמחור ותמחיר
 
@@ -47,7 +47,7 @@ PSA מסופק עם קבוצה של ממדי תמחור בברירת מחדל. �
 > [!IMPORTANT]
 > אם השתמשת בשדות המוכנים לשימוש של תפקיד ויחידה ארגונית כממדי תמחור לפי גירסה 3 של PSA, לא יהיו שינויים נראים לעין. באפשרותך להמשיך להשתמש ב- Project Service כרגיל. 
 
-אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית. לקבלת מידע נוסף, עיין בנושאים הבאים, אך שים לב שעליך להשלים את ההליכים בסדר המפורט להלן:
+אם אתה צריך מחיר או עלות עבור המשאבים שלך באמצעות תכונות נוספות, תוכל ליצור שדות, ישויות וממדים מותאמים אישית. לקבלת מידע נוסף, עיין במאמרים הבאים, אך שים לב שעליך להשלים את ההליכים בסדר המפורט להלן:
 
 - [יצירת שדות וישויות מותאמים אישית](create-custom-fields-entities.md)
 - [הוספת שדות מותאמים אישית להגדרת מחיר וישויות של טרנזקציות](field-references.md)

@@ -1,23 +1,23 @@
 ---
 title: סוגי תקופות
-description: נושא זה מספק מידע על אופן הגדרת סוגי תקופות להערכת הכנסות.
+description: מאמר זה מספק מידע על אופן הגדרת סוגי תקופות להערכת הכנסה.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930963"
 ---
 # <a name="period-types"></a>סוגי תקופות
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-סוג תקופה מגדיר את תדירות ההערכה של הכנסות בפרויקט. נושא זה מספק מידע על אופן הגדרת סוגי תקופות להערכת הכנסות. 
+סוג תקופה מגדיר את תדירות ההערכה של הכנסות בפרויקט. מאמר זה מספק מידע על אופן הגדרת סוגי תקופות להערכת הכנסה. 
 
 ## <a name="create-and-work-with-period-types"></a>יצירה ועבודה עם סוגי תקופות
 כדי ליצור ולעבוד עם סוגי תקופות, בצע את השלבים הבאים:

@@ -1,24 +1,24 @@
 ---
 title: מה חדש במאי 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מאי 2022 של Microsoft Dynamics 365 Project Operations עבור תרחישים מבוססי-משאב/לא במלאי.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מאי 2022 של Microsoft Dynamics 365 Project Operations עבור תרחישים מבוססי-משאב/לא במלאי.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709996"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921395"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש במאי 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - Project Operations בגירסת סביבת Dataverse 4.42.0.70
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.26

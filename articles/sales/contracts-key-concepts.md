@@ -1,17 +1,17 @@
 ---
 title: חוזי פרוייקט - מושגים עיקריים
-description: נושא זה מספק מידע על המושגים המרכזיים של חוזי פרויקט ב-Project Operations.
+description: מאמר זה מספק מידע על מושגי המפתח של חוזי פרויקט ב- Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926225"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>מושגים הייחודיים לחוזים מבוססי פרוייקט
 
@@ -19,7 +19,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 
 
-נושא זה מספק את מושגי המפתח שיש לדעת עליהם לפני שתתחיל להשתמש בחוזי פרויקט ב- Dynamics 365 Project Operations:
+מאמר זה מספק את המושגים העיקריים שכדאי להיות מודעים אליהם לפני שמתחילים להשתמש בחוזי Project ב- Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>החברה המהווה בעלים
 

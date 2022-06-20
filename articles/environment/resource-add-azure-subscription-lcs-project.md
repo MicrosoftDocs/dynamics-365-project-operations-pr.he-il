@@ -1,23 +1,23 @@
 ---
 title: הוסף מנוי Azure לפרויקט LCS
-description: נושא זה מספק מידע על אופן חיבור המנוי שלך ל- Azure אל פרויקט LCS.
+description: מאמר זה מספק מידע על איך לחבר את מנוי Azure שלך לפרויקט LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912149"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>הוסף מנוי Azure לפרויקט LCS
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-יש לפרוס סביבות המתארחות בענן באמצעות מנוי קיים ל- Azure. נושא זה מסביר איך לחבר את המנוי הקיים שלך ל- Azure אל פרויקט LCS. 
+יש לפרוס סביבות המתארחות בענן באמצעות מנוי קיים ל- Azure. מאמר זה מסביר כיצד לחבר את מנוי Azure הקיים שלך לפרויקט LCS. 
 
 ## <a name="grant-admin-consent"></a>הענק הסכמה של מנהל מערכת
 
@@ -59,7 +59,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 2. הזן את מזהה המנוי שלך ב- Azure. אתה יכול למצוא את מזהה המנוי שלך [בפורטל Azure](https://ms.portal.azure.com/), בקטע  **הגדרות**  בפינה השמאלית התחתונה של המסך.
 3. בשדה **קבע את התצורה של Azure Resource Manager**, בחר באפשרות **כן**.
 4. ודא שתחום דייר AAD של מנוי Azure תואם למנוי Azure המוגדר כבעלים של התחום שבו אתה משתמש, ובחר באפשרות **הבא**.
-5. במסך **הגדרת Microsoft Azure**, בחר באפשרות **הבא** כדי לאשר. אם נתקלת בשגיאה במסך זה, חזור למקטע [ספק גישה אל Dynamics Deployment Services למנוי שלך ב- Azure](#provide) בנושא זה כדי לוודא שהשלמת את כל השלבים.
+5. במסך **הגדרת Microsoft Azure**, בחר באפשרות **הבא** כדי לאשר. אם אתה מקבל שגיאה במסך זה, חזור למקטע [מתן גישה לשירותי פריסה של Dynamics אל מינוי Azure](#provide) במאמר זה וודא שהשלמת את כל השלבים.
 6. הורד את אישור הניהול של Azure לתיקיה מקומית במחשב שלך. בקש ממנהל המינוי שלך ב- Azure להעלות את האישור לפורטל הניהול של Azure על ידי בחירת המנוי ומעבר אל **הגדרות** > **אישורי ניהול**. אישור זה מאפשר ל- LCS לתקשר עם Azure בשמך. אתה יכול לדלג על שלב זה אם למשתמש שלך יש גישה למנוי.
 7. בחר באפשרות  **הבא**.
 8. בחר את אזור Azure לפריסה ובחר מרכז נתונים הקרוב למקום בו אתה מתכנן להשתמש במערכת זו.

@@ -1,6 +1,6 @@
 ---
 title: דוחות הוצאות בעיצוב חדש
-description: נושא זה מספק מידע על החווית הזנת דוח הוצאות שהומצאה ועוצבה מחדש.
+description: מאמר זה מספק מידע על החוויה החדשה עבור הזנת דוחות הוצאות.
 author: ryansandness
 ms.date: 06/14/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: cad971f3b45faf13dab4cd71ff7439c44b2e7b61
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 09322d7a59ae91f64dfa63b00f035178d7ca6444
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920981"
 ---
 # <a name="redesigned-expense-reports"></a>דוחות הוצאות בעיצוב חדש
 

@@ -1,6 +1,6 @@
 ---
 title: שינוי בתכונות מ- Project Service Automation ל- Project Operations
-description: נושא זה מספק סקירה כללית של השינויים בתכונות מ- Project Service Automation ל- Dynamics 365 Project Operations.
+description: מאמר זה מספק סקירה כללית של השינויים בתכונות מ- Project Service Automation ל- Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925351"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>שינוי בתכונות מ- Project Service Automation ל- Project Operations
 
-השדרוג מ- Dynamics 365 Project Service Automation ל- Lite Dynamics 365 Project Operations יסופק בשלושה שלבים. נושא זה מספק מידע על השינויים העיקריים שניתן לצפות להם עם סיום השדרוג.
+השדרוג מ- Dynamics 365 Project Service Automation ל- Lite Dynamics 365 Project Operations יסופק בשלושה שלבים. מאמר זה מספק מידע על השינויים העיקריים שניתן לצפות להם עם סיום השדרוג.
 
 | אספקת השדרוג | שלב 1 <br>(ינואר 2022) | שלב 2 <br>(גל אפריל 2022) | שלב 3  |
 |------------------|------------------------|---------------------------|---------------------------|

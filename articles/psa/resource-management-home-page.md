@@ -1,6 +1,6 @@
 ---
 title: דף הבית 'ניהול משאבים'
-description: נושא זה מספק מידע אודות אופן ניהול המשאבים.
+description: מאמר זה מספק מידע אודות אופן ניהול המשאבים.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913253"
 ---
 # <a name="resource-management-home-page"></a>דף הבית 'ניהול משאבים'
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578755"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-משאבים הם הנכס החשוב ביותר של ארגון מבוסס-שירות. היכולת למצוא ולהזמין את המשאבים הנכונים כאשר אתה זקוק להם ולהקפיד לנצל אותם, עוזרת לארגון לעמוד ביעדי ההכנסות וביעדי שביעות הרצון של הלקוחות. הנושאים הבאים מתמקדים ביכולות ניהול המשאבים של Dynamics 365 Project Service Automation:
+משאבים הם הנכס החשוב ביותר של ארגון מבוסס-שירות. היכולת למצוא ולהזמין את המשאבים הנכונים כאשר אתה זקוק להם ולהקפיד לנצל אותם, עוזרת לארגון לעמוד ביעדי ההכנסות וביעדי שביעות הרצון של הלקוחות. המאמרים הבאים מתמקדים ביכולות ניהול המשאבים של Dynamics 365 Project Service Automation:
 
-- [נהל משאבים](manage-resources.md)
+- [ניהול משאבים](manage-resources.md)
 - [מושגים עיקריים](reports-key-concepts.md)
 - [מימוש בקשות למשאבים](resource-management-fulfill-requests.md)
 - [הצעת משאבים](resource-management-propose-resources.md)

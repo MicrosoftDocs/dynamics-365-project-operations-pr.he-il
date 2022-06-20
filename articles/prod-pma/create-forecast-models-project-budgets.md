@@ -1,6 +1,6 @@
 ---
 title: יצירת מודלי תחזית לתקציבי הפרוייקט
-description: נושא מתאר כיצד ליצור מודל תחזית לתקציבים שנותרו.
+description: מאמר זה מתאר כיצד ליצור מודל תחזית עבור התקציבים שנותרו.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683631"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916703"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>יצירת מודלי תחזית לתקציבי הפרוייקט 
 
 [!include [banner](../includes/banner.md)]
 
-נושא מתאר כיצד ליצור מודל תחזית לתקציבים שנותרו. פרויקט הנתון לבקרת תקציב משתמש בשני סוגים של תקציבים: מקורי ונותר. בעת יצירת תקציב פרויקט, עליך לציין את מודלי תחזית התקציב המקורי והנותר שנוצרו בדף **מודלי תחזית**. תקציבי פרויקט שמבוססים על המודלים שצוינו נוצרים כאשר אתה מבצע את תקציב הפרויקט.
+מאמר זה מתאר כיצד ליצור מודל תחזית עבור התקציבים שנותרו. פרויקט הנתון לבקרת תקציב משתמש בשני סוגים של תקציבים: מקורי ונותר. בעת יצירת תקציב פרויקט, עליך לציין את מודלי תחזית התקציב המקורי והנותר שנוצרו בדף **מודלי תחזית**. תקציבי פרויקט שמבוססים על המודלים שצוינו נוצרים כאשר אתה מבצע את תקציב הפרויקט.
 
 > [!NOTE]
 > מודל תחזית המשמש לבקרת תקציב אינו יכול להיות בעל מודל משנה או לשמש כמודל משנה.

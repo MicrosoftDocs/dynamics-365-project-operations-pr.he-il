@@ -1,6 +1,6 @@
 ---
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 43 V3
-description: נושא זה מפרט את התכונות והתיקונים הזמינים ב- Microsoft Dynamics 365 Project Service Automation מהדורת עדכון 43, V3.
+description: מאמר זה מפרט את התכונות והתיקונים הזמינים בעדכון Microsoft Dynamics 365 Project Service Automation מהדורה 43, גרסה 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/04/2022
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fcf18a24b3bc354a16a415368063133743e79696
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: b12cfda08f1ea1fc441782003130be445a437f7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915321"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-43-v3"></a>מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 43 V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8710005"
 
 אנו שמחים להכריז על העדכון האחרון עבור האפליקציה Microsoft Dynamics 365 Project Service Automation. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. היא תואמת עם Dynamics 365 9.x. לעדכון למהדורה זו, בקר בדף הפתרונות המקוון של מרכז הניהול עבור Dynamics 365 והתקן את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
-נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 43, עדכון V3 של Project Service Automation. גירסה זו כוללת מספר build של V3.10.74.200 ובדרך כלל היא זמינה דרך עדכון עצמי במאי 2022.
+מאמר זה מפרט את התכונות והתיקונים החדשים או ששונו בעדכון Project Service Automation מהדורה 43, גרסה 3. גירסה זו כוללת מספר build של V3.10.74.200 ובדרך כלל היא זמינה דרך עדכון עצמי במאי 2022.
 
 ## <a name="update-release-43"></a>הפצת עדכון 43
 

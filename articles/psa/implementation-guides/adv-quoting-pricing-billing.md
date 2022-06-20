@@ -1,6 +1,6 @@
 ---
 title: יצירת הצעות מחיר, תמחור וחיוב מתקדמים
-description: נושא זה מספק מידע אודות יצירת הצעות מחיר, חיוב ותמחור ב- Project Service Automation.
+description: מאמר זה מספק מידע אודות יצירת הצעות מחיר, חיוב ותמחור ב- Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921809"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>‏‫מדריך מתקדם ליצירת הצעות מחיר, תמחור וחיוב
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579353"
 
 היכולת למצוא את המשאבים הנכונים בזמן הנכון, להזמין משאבים אלה בפרוייקטים ולשמור על ניצול המשאבים עוזרת לארגונים לעמוד ביעדי ההכנסות וביעדי שביעות הרצון של הלקוחות. 
 
-קישור ה- PDF שהוזכר קודם לכן בנושא זה הוסר והתוכן הועבר לנושאים הבאים:
+קישור ה- PDF שהוזכר קודם לכן במאמר זה הוסר והתוכן הועבר למאמרים הבאים:
 
 - [יצירת הצעות מחיר, תמחור וחיוב](../quote-bill-price.md)
 - [תהליכי מכירות](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579353"
 - [תיעוד נתונים בפועל](../advanced-actuals.md)
 
 > [!NOTE]
-> נושא זה יוסר בעדכון עתידי של תיעוד. 
+> מאמר זה יוסר בעדכון עתידי של תיעוד. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

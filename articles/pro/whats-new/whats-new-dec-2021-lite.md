@@ -1,24 +1,24 @@
 ---
 title: מה חדש דצבמר 2021 - פריסה קלה של Project Operations
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת דצמבר 2021 של פריסה קלה של Project Operations.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת דצמבר 2021 של פריסה קלה של Project Operations.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585379"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914081"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>מה חדש דצבמר 2021 - פריסה קלה של Project Operations
 
 _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - Project Operations בגירסת סביבת Dataverse 4.27.0.195, 4.27.0.242, 4.27.0.244
 

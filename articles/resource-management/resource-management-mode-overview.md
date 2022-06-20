@@ -1,17 +1,17 @@
 ---
 title: מבט כולל על מצבי ניהול משאבים
-description: נושא זה מספק מידע על ניהול משאבים ב- Dynamics 365 Project Operations.
+description: מאמר זה מספק מידע על פונקציולניות ניהול המשאבים ב- Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928433"
 ---
 # <a name="resource-management-modes-overview"></a>מבט כולל על מצבי ניהול משאבים
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations תומך בשני מצבים על מנת שתו�
 
 ![מצב היברידי.](./media/resource-management-hybrid.png)
 
-בנוסף לתהליך המצב המרכזי הנתמך, עיין בנושאים הבאים לניהול כל זרימות ההזמנות הנתמכות הנוספות במצב היברידי:
+בנוסף לתהליך המצב המרכזי הנתמך, עיין במאמרים הבאים כדי לנהל את כל זרימות ההזמנות הנתמכות האחרות במצב היברידי:
 
 הזמן משאב ישירות לפרויקט:
 - [הזמנת משאבים בעלי שם הניתנים להזמנה לצוות פרויקט והקצאת משימות](/dynamics365/project-service/assign-named-bookable-resource)

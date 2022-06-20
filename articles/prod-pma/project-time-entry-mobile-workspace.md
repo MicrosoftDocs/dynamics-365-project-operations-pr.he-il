@@ -1,6 +1,6 @@
 ---
 title: סביבת עבודה ניידת של הזנת זמן בפרויקט
-description: נושא זה מספק מידע על סביבת עבודה ניידת של הזנת זמן בפרויקט. סביבת עבודה זו מאפשרת למשתמשים להזין שעות לפרויקט ולשמור אותם באמצעות המכשיר הנייד שלהם.
+description: מאמר זה מספק מידע על סביבת העבודה במכשירים ניידים של ערך זמן בפרויקט. סביבת עבודה זו מאפשרת למשתמשים להזין שעות לפרויקט ולשמור אותם באמצעות המכשיר הנייד שלהם.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919539"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>סביבת עבודה ניידת של הזנת זמן בפרויקט
 
 [!include [banner](../includes/banner.md)]
 
-נושא זה מספק מידע על סביבת עבודה ניידת של **הזנת זמן בפרויקט**. סביבת עבודה זו מאפשרת למשתמשים להזין שעות לפרויקט ולשמור אותם באמצעות המכשיר הנייד שלהם.
+מאמר זה מספק מידע על סביבת העבודה במכשירים ניידים של **ערך זמן בפרויקט**. סביבת עבודה זו מאפשרת למשתמשים להזין שעות לפרויקט ולשמור אותם באמצעות המכשיר הנייד שלהם.
 
 סביבת עבודה ניידת זו מיועדת לשימוש עם יישום Dynamics 365 Unified Ops למכשירים ניידים. 
 

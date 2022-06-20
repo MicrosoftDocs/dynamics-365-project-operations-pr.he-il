@@ -1,24 +1,24 @@
 ---
 title: מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
-description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת ינואר 2021 של Project Operations לתרחישים מבוססי ייצור-עם-מלאי.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת ינואר 2021 של Project Operations עבור תרחישים מבוססי מלאי/ייצור.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923925"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>מה חדש בינואר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור
 
 _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/עם מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.16
 

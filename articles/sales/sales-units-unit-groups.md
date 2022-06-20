@@ -1,6 +1,6 @@
 ---
 title: יחידות וקבוצות של יחידות
-description: נושא זה מספק מידע על אופן יצירת יחידות וקבוצות יחידות ב- Dynamics 365 Project Operations.
+description: מאמר זה מספק מידע אודות קבוצות יחידות ויחידות ב- Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578433"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921441"
 ---
 # <a name="units-and-unit-groups"></a>יחידות וקבוצות של יחידות
 
@@ -28,7 +28,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 יחידות הן הכמויות או המידות שבהן אתה מוכר את המוצרים או השירותים שלך. לדוגמה, אם אתה מוכר מוצרים לגן, אתה יכול למכור זרעים ביחידות של מנות, תיבות או משטחים. קבוצת יחידות היא אוסף של יחידות שונות.
 
-להשלמת השלבים בנושא זה, ודא שהוקצה לך תפקיד של מנהל מערכת או מנהל Sales Professional או שיש לך הרשאות שוות ערך.
+כדי להשלים את השלבים במאמר זה, ודא שהתפקיד מנהל מערכת או מנהל Sales Professional הוקצה לך או שיש לך הרשאות מקבילות.
 
 ## <a name="create-a-unit-group"></a>יצירת קבוצת יחידות
 

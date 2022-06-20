@@ -1,17 +1,17 @@
 ---
 title: אימות של חשבוניות ספק עם נתונים בפועל שאושרו
-description: נושא זה מסביר כיצד Microsoft Dynamics 365 Project Operations מאפשר למנהלי פרוייקטים לאמת חשבוניות ספק עם הנתונים בפועל שאושרו כאשר קבלנים ביצעו עבודה ותיעדו את הזמן, ואת ההוצאות והחומרים שבהם השתמשו חברי צוות הפרוייקט.
+description: מאמר זה מסביר כיצד Microsoft Dynamics 365 Project Operations מאפשר למנהלי פרוייקטים לאמת חשבוניות ספק עם הנתונים בפועל שאושרו כאשר קבלנים ביצעו עבודה ותיעדו את הזמן, ואת ההוצאות והחומרים שבהם השתמשו חברי צוות הפרוייקט.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914219"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>אימות של חשבוניות ספק עם נתונים בפועל שאושרו
 

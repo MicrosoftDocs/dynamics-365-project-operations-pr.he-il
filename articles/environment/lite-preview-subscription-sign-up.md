@@ -1,21 +1,21 @@
 ---
-title: הרשמה למנוי Preview‏ - לייט
-description: נושא זה מספק מידע על אופן ההרשמה ל-Project Operations ועל אופן פריסתו בגרסת לייט - מהעסקה ועד להוצאת חשבונית פרופורמה.
+title: רישום למנוי Preview‏ - Lite
+description: מאמר זה מספק מידע על אופן ההרשמה והפריסה של Project Operations lite - מהעסקה ועד הפקת חשבונית פרופורמה.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921257"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>רישום למנוי Preview‏ - Lite 
 
-נושא זה מסביר כיצד להירשם כמנוי להצעה של גירסת הניסיון ולפרוס את הפריסה הקלה של Dynamics 365 Project Operations - עסקה לחשבונית פרופורמה.
+מאמר זה מסביר כיצד להירשם להצעת הניסיון ולפרוס את הפריסה של Dynamics 365 Project Operations lite - מהעסקה ועד הפקת חשבונית פרופורמה.
 
 > [!NOTE]
 > תהליך זה ישתנה במהדורות הקרובות של Project Operations.
@@ -50,7 +50,7 @@ ms.locfileid: "8588001"
 
 ## <a name="create-a-new-dataverse-environment"></a>יצירת סביבת Dataverse חדשה
 
-1. הקצה סביבת פריסת חדשה של Project Operations Dataverse על ידי ביצוע ההוראות בנושא זה, [מודל פריסת Dataverse](lite-deployment.md). כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.
+1. הקצאת סביבת פריסה של Dataverse ‏Project Operations על ידי ביצוע ההוראות במאמר [מודל הפריסה של Dataverse](lite-deployment.md). כאשר אתה בוחר את סוג הסביבה, הקפד להשתמש באפשרות **גירסת ניסיון (מבוסס מנוי)**.
 
   ![סביבה חדשה.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588001"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>התקן את התצורה של CSD ואת נתוני הגדרת ההדגמה
 
-התקן את תצורת ה-CDS והגדר נתוני הדגמה על ידי מעקב אחר ההוראות בנושא, [החל הגדרת ההדגמה ואת נתוני התצורה](lite-apply-demo-setup-config-data.md).
+התקן את תצורת ה- CDS והגדר נתוני הדגמה על ידי ביצוע ההוראות במאמר [החל נתוני הגדרה ותצורה של הדגמה](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

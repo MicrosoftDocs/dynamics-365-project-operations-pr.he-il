@@ -1,25 +1,25 @@
 ---
 title: פריסה ידנית של אפליקציית Dataverse ‏Project Operations עם תמיכה בכתיבה כפולה
-description: נושא זה מסביר כיצד לפרוס ידנית את האפליקציה Dataverse של Project Operations כך שהיא תתמוך בכתיבה כפולה.
+description: מאמר זה מסביר כיצד לפרוס באופן ידני את האפליקציה Dataverse ‏Project Operations כך שתתמוך בכתיבה כפולה.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912011"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>פריסה ידנית של אפליקציית Dataverse ‏Project Operations עם תמיכה בכתיבה כפולה
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מסביר כיצד לפרוס ידנית את Microsoft Dynamics 365 Project Operations ב- Microsoft Dataverse כך שהיא תתמוך בכתיבה כפולה. Project Operations מזהה את תצורת הסביבה ומוסיף תמיכה בכתיבה כפולה אם מתקיימים התנאים המוקדמים.
+מאמר זה מסביר כיצד לפרוס באופן ידני את Microsoft Dynamics 365 Project Operations ב- Microsoft Dataverse כדי שתתמוך בכתיבה כפולה. Project Operations מזהה את תצורת הסביבה ומוסיף תמיכה בכתיבה כפולה אם מתקיימים התנאים המוקדמים.
 
-במהלך פריסה דרך Microsoft Dynamics Lifecycle Services (LCS), אם בצעת את ההנחיות בנושא זה, תוכל לדלג על הפריסה של שילוב Microsoft Power Platform (נקראה קודם סביבת Common Data Service).
+במהלך הפריסה דרך Microsoft Dynamics Lifecycle Services (LCS)‎, אם פעלת לפי ההוראות במאמר זה, תוכל לדלג על הפריסה של שילוב Microsoft Power Platform (שנודעה בעבר בשם סביבת Common Data Service).
 
 לתהליך הפרידה של Project Operations ב- Dataverse לצורך תמיכה בכתיבה כפולה יש ארבעה שלבים עיקריים:
 

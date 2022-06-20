@@ -1,6 +1,6 @@
 ---
 title: שיטות הקצאת הזמנות ב-Project Service Automation
-description: נושא זה מספק מידע אודות הדרכים השונות שבהן באפשרותך להזמין הקצאות.
+description: מאמר זה מספק מידע אודות הדרכים השונות שבהן באפשרותך להזמין הקצאות.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929169"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>שיטות הקצאת הזמנות ב-Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-בין אם אתה מוסיף חבר צוות ישירות לפרויקט בכרטיסיה **צוות**, או מזמין משאב לפרויקט או דרישה מלוח הזמנים, קיימות כמה שיטות שונות להקצאת הזמנה שניתן להשתמש בהן. נושא זה מסביר כיצד פועלת כל שיטה ואילו שיטות עלול לגרום להזמנת יתר של משאבים.
+בין אם אתה מוסיף חבר צוות ישירות לפרויקט בכרטיסיה **צוות**, או מזמין משאב לפרויקט או דרישה מלוח הזמנים, קיימות כמה שיטות שונות להקצאת הזמנה שניתן להשתמש בהן. מאמר זה מסביר כיצד פועלת כל שיטה ואילו שיטות עלול לגרום להזמנת יתר של משאבים.
 
 ## <a name="full-capacity"></a>קיבולת מלאה 
 השיטה 'קיבולת מלאה' מזמינה קיבולת מלאה של המשאב עבור התאריכים 'מ' ו'עד' שצוינו. לדוגמה, אם למשאב יש לוח שנה שמוגדר לעבודה שמונה שעות ביום, חמישה ימים בשבוע, הגדרת תאריך התחלה וסיום המכסה חמישה ימי עבודה תזמין את המשאב ל- 40 שעות. ההזמנה מתבצעת ללא קשר לקיבולת הנותרת של משאב. אם משאב מוזמן כבר במהלך תקופה זו לפרוייקטים אחרים, 40 השעות מוזמנות כשעות נוספות, מה שעלול להוביל להזמנות יתר.

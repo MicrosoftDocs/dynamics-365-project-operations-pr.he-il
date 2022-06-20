@@ -1,6 +1,6 @@
 ---
 title: מדריך לניהול משאבים
-description: נושא זה מספק קישורים למידע אודות ניהול משאבים ב- Project Service Automation
+description: מאמר זה מספק קישורים למידע אודות ניהול משאבים ב- Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910775"
 ---
 # <a name="resource-management-guide"></a>מדריך לניהול משאבים
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595453"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-קישור ה- PDF שהוזכר קודם לכן בנושא זה הוסר והתוכן הועבר לנושאים הבאים:
+קישור ה- PDF שהוזכר קודם לכן במאמר זה הוסר והתוכן הועבר למאמרים הבאים:
 
 - [דף הבית 'ניהול משאבים'](../resource-management-home-page.md)
 - [מושגים עיקריים](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595453"
 - [שאלות נפוצות בנושא ניהול משאבים](../resource-management-faq.md)
 
 > [!NOTE]
-> נושא זה יוסר בעדכון עתידי של תיעוד. 
+> מאמר זה יוסר בעדכון עתידי של תיעוד. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

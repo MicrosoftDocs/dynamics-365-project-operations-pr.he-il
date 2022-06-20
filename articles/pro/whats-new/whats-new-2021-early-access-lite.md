@@ -1,24 +1,24 @@
 ---
 title: מה חדש במהדורת גישה מוקדמת גל 2 ל- 2021 - פריסת קלה של Project Operations
-description: נושא זה מספק מידע על התכונות הזמינות במהדורת הגישה המוקדמת גל 2 ל- 2021 של פריסה קלה של Project Operations.
+description: מאמר זה מספק מידע אודות התכונות הזמינות במהדורת במהדורת הגישה המקודמת גל 2, ב- 2021 של פריסת Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924109"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>מה חדש במהדורת גישה מוקדמת גל 2 ל- 2021 - פריסת קלה של Project Operations
 
 _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
   - Project Operations בסביבת Dataverse גרסה 4.23.0.4
 

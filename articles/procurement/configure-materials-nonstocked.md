@@ -1,18 +1,18 @@
 ---
 title: הגדר תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
-description: נושא מסביר כיצד להפוך חומרים שאינם במלאי וחשבוניות ספק בהמתנה לזמינים.
+description: מאמר זה מסביר כיצד להפעיל חומרים שאינם במלאי וחשבוניות ספק שבהמתנה.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913759"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>הגדר תצורה של חומרים שאינם במלאי ושל חשבוניות ספק בהמתנה
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance‏:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>הפעל מפות כתיבה כפולה עבור חומרים שאינם במלאי ושילוב חשבוניות ספק
 
-מקטע זה מספק פרטים אודות המידע הספציפי שנדרש למפות עבור חומרים שאינם במלאי וחשבוניות ספק. ודא שהמפות הדרושות מראש המופיעות בנושא [הקצאת סביבה חדשה](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) פועלות בסביבה שלך.
+מקטע זה מספק פרטים אודות המידע הספציפי שנדרש למפות עבור חומרים שאינם במלאי וחשבוניות ספק. ודא כי המפות הדרושות המפורטות במאמר [הקצאת סביבה חדשה](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) פועלים בסביבה שלך.
 
 1. עבור אל Lifecycle Services (LCS)‎‏, נווט אל פרויקט LCS שלך ועבור אל הדף **פרטי הסביבה**.
 2. במקטע **פרטי סביבת Common Data Service**, בחר **קישור ל- CDS עבור אפליקציות**. לאחר שתבחרו בקישור, תועברו לרשימת הישויות במיפויים.

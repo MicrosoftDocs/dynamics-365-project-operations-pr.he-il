@@ -1,24 +1,24 @@
 ---
 title: שילוב נתוני התקנה ותצורה של Project Operations
-description: נושא זה מספק מידע על הגדרה וקביעת התצורה של מפות כתיבה כפולה של Project Operations.
+description: מאמר זה מספק מידע על הגדרה וקביעת התצורה של מפות כתיבה כפולה של Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914541"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>שילוב נתוני התקנה ותצורה של Project Operations
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מספק מידע על שילוב כתיבה כפולה של Project Operations לישויות הגדרה ותצורה.
+מאמר זה מספק מידע על שילוב כתיבה כפולה של Project Operations עבור ישויות הגדרה ותצורה.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>חוזי פרוייקט, סעיפי חוזה ופרוייקטים
 

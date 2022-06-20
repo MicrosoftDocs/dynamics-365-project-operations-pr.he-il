@@ -1,23 +1,23 @@
 ---
 title: קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית
-description: נושא זה מספק מידע על הגדרת שילוב לפי ישות משפטית ב- Project Operations.
+description: מאמר זה מספק מידע על הגדרת שילוב לפי ישות משפטית ב- Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914679"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית 
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה מדריך אותך בשלבים הנדרשים להגדרה של Dynamics 365 Project Operations לכל ישות משפטית.
+מאמר זה מנחה אותך בשלבים הדרושים להגדרה Dynamics 365 Project Operations לכל ישות משפטית.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>הפעלת מפתחות של תכונות ב- Dynamics 365 Finance
 

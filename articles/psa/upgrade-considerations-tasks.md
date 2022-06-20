@@ -1,6 +1,6 @@
 ---
 title: שיקולים לשדרוג עבור מבנה התפלגות העבודה
-description: נושא זה מספק מידע לגבי שדרוג מבנה התפלגות העבודה מ- Project Service Automation 2.x ל- ‎3.x.
+description: מאמר זה מספק מידע לגבי שדרוג מבנה התפלגות העבודה מ- Project Service Automation 2.x עד ‎3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599731"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913115"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>שיקולים לשדרוג עבור מבנה התפלגות העבודה
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-נושא זה מספק מידע לגבי שדרוג מבנה התפלגות העבודה מ- Project Service Automation 2.x ל- ‎3.x. נושא זה מגדיר את המצב התקין של פרויקטים ב- Project Service Automation ‏(PSA) הנדרש לשדרוג מוצלח. הוא כולל גם מידע על תנאי החסימה הנפוצים שיגרמו לשדרוג להיכשל. לקבלת מידע נוסף על הגדרת משימות פרויקט והפונקציות שלהן במסגרת לוח זמנים של פרויקט, ראה [לוחות זמנים של פרויקטים](project-creating.md).
+מאמר זה מספק מידע לגבי שדרוג מבנה התפלגות העבודה מ- Project Service Automation 2.x עד ‎3.x. מאמר זה מגדיר את המצב התקין של פרויקטים ב- Project Service Automation (PSA)‎ הנדרש לשדרוג מוצלח. הוא כולל גם מידע על תנאי החסימה הנפוצים שיגרמו לשדרוג להיכשל. לקבלת מידע נוסף על הגדרת משימות פרויקט והפונקציות שלהן במסגרת לוח זמנים של פרויקט, ראה [לוחות זמנים של פרויקטים](project-creating.md).
 
 ## <a name="key-entities"></a>ישויות עיקריות
 עבור מבנה התפלגות עבודה מדויק שכבר נטענו בו משאבים, הישויות הבאות נדרשות:

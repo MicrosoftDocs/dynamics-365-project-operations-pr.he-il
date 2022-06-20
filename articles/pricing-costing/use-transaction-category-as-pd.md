@@ -1,17 +1,17 @@
 ---
 title: שימוש בקטגוריית עסקה כממד תמחור
-description: נושא זה מספק מידע על השימוש בקטגוריית עסקה כממד תמחור.
+description: מאמר זה מספק מידע על שימוש בשדה של קטגוריית העסקה כממד תמחור.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911695"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>שימוש בקטגוריית עסקה כממד תמחור
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591129"
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 
-נושא זה מסביר כיצד להשתמש בשדה **קטגוריית עסקה** כממד תמחור. 
+מאמר זה מסביר כיצד להשתמש בשדה של **קטגוריית העסקה** כממד תמחור. 
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
-לפני שתשלים את ההליכים בנושא זה, אתה צריך שיהיה לך פתרון חדש של ממד תמחור לארגון שלך. אם עוד לא יצרת ממד תמחור, ראה [צור שדות וישויות בהתאמה אישית כממדי תמחור](create-custom-fields-entities-pricing-dimensions.md).
+לפני השלמת ההליכים במאמר זה, צריך להיות לך פתרון ממד תמחור חדש עבור הארגון שלך. אם עוד לא יצרת ממד תמחור, ראה [צור שדות וישויות בהתאמה אישית כממדי תמחור](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>הוספת שדה 'קטגוריית עסקה' לטפסים ולתצוגות
 כדי להפוך את השדה **קטגוריית עסקאות** לגלוי בפתרון של ממד התמחור, עליך להוסיף את השדה לכל הטפסים והתצוגות כישות.

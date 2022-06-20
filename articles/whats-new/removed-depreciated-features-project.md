@@ -1,24 +1,24 @@
 ---
 title: תכונות שהוסרו או הוצאו משימוש ב- Dynamics 365 Project Operations
-description: נושא זה מתאר תכונות שהוסרו, או שמתוכננות להסרה מ- Dynamics 365 Project Operations.
+description: מאמר זה מתאר תכונות שהוסרו, או שמתוכננות להסרה מ- Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921487"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>תכונות שהוסרו או הוצאו משימוש ב- Dynamics 365 Project Operations
 
 _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבים/ללא מלאי, פריסת לייט - מעסקה לחשבונית פרופורמה ו-Project Operations לתרחישים מלאי/מבוססי ייצור_
 
-נושא זה מתאר תכונות שהוסרו, או שמתוכננות להסרה מ- Dynamics 365 Project Operations.
+מאמר זה מתאר תכונות שהוסרו, או שמתוכננות להסרה מ- Dynamics 365 Project Operations.
 
 - תוכנה *שהוסרה* כבר אינה זמינה במוצר.
 - תכונה *שהוצאה משימוש* אינה נמצאת בפיתוח פעיל וייתכן שתוסרה בעדכון עתידי.

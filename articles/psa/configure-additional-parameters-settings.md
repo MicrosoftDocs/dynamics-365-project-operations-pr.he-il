@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919233"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>קביעת תצורה של הגדרות פרמטרים נוספים (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592325"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-לאחר שקבעת את הפריטים בנושאים הקודמים, עליך להגדיר פרמטרים נוספים של הפרוייקט לשימוש עבור הפרוייקטים שלך. כאשר התקנת לראשונה את [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], יצרת הגדרת פרמטרים כדי ליצור תחילה את כל הרשומות הדרושות עבור [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. כעת הגיע הזמן לחזור ולהגדיר שדות נוספים עבור הגדרת אלה.  
+לאחר שקבעת את הפריטים מאמרים הקודמים, עליך להגדיר פרמטרים נוספים של הפרוייקט לשימוש עבור הפרוייקטים שלך. כאשר התקנת לראשונה את [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], יצרת הגדרת פרמטרים כדי ליצור תחילה את כל הרשומות הדרושות עבור [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. כעת הגיע הזמן לחזור ולהגדיר שדות נוספים עבור הגדרת אלה.  
   
  עליך לקבוע את ההגדרות הבאות:  
   

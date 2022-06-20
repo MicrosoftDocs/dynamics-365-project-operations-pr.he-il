@@ -1,6 +1,6 @@
 ---
 title: הפקת חשבונית ב- Project Service Automation
-description: נושא זה מספק מידע על הפקת חשבוניות.
+description: מאמר זה מספק מידע על הפקת חשבוניות.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926823"
 ---
 # <a name="invoicing-in-project-service-automation"></a>הפקת חשבונית ב- Project Service Automation
 
@@ -94,7 +94,7 @@ PSA אינו מיועד ליצור חשבוניות המוצגות ללקוח, �
 משימת תהליך האצווה ליצירת חשבוניות היא משימה חוזרת. אם תהליך אצווה זה מופעל פעמים רבות, נוצרים מופעים מרובים של המשימה וגורמים לשגיאות. לכן עליך להתחיל את תהליך האצווה רק פעם אחת, ועליך להפעיל אותו מחדש רק אם הוא מפסיק לפעול.
 
 > [!NOTE]
-> חשבוניות באצווה ב- Project Service Automation פועלות רק בסעיפי חוזה של פרויקט המוגדרים על פי לוחות זמנים של חשבוניות. אבני דרך חייבים להיות מוגדרים בסעיף חוזה בשיטת חיוב במחיר קבוע. סעיף חוזה בפרויקט בשיטת חיוב לפי זמן וחומר יצטרך הגדרה של לוח זמנים לחשבוניות המבוסס על תאריכים. מידע על הגדרת שכיחות חשבוניות בהקשר של פרויקט המבוסס על שורה בהצעת מחיר, ניתן בנושא [הצעת מחיר ו‏‫שורות הצעת המחיר](basic-quote-lines.md#invoice-schedule). כך גם בסעיף חוזה שמבוסס על פרויקטים.      
+> חשבוניות באצווה ב- Project Service Automation פועלות רק בסעיפי חוזה של פרויקט המוגדרים על פי לוחות זמנים של חשבוניות. אבני דרך חייבים להיות מוגדרים בסעיף חוזה בשיטת חיוב במחיר קבוע. סעיף חוזה בפרויקט בשיטת חיוב לפי זמן וחומר יצטרך הגדרה של לוח זמנים לחשבוניות המבוסס על תאריכים. מידע על הגדרת התדירות של הפקת חשבוניות בהקשר של פרויקט המבוסס על שורת הצעת מחיר, ניתן במאמר [הצעות מחיר ושורות הצעות מחיר](basic-quote-lines.md#invoice-schedule). כך גם בסעיף חוזה שמבוסס על פרויקטים.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>עריכת טיוטת חשבונית של PSA
 

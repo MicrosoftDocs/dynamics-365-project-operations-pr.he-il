@@ -1,17 +1,17 @@
 ---
 title: הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
-description: נושא זה מספק מידע אודות אופן ההרשמה ל- Project Operations ופריסה שלו עבור תרחישים מבוססי משאבים/ללא מלאי.
+description: מאמר זה מספק מידע על אופן ההרשמה והפריסה של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920107"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>הירשם למנוי Preview של Project Operations עבור תרחישים מבוססי משאבים/ללא מלאי
 
@@ -19,7 +19,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 
 
-נושא זה מסביר כיצד להירשם כמנוי להצעת הניסיון ולפרוס את סביבת Project Operations לתרחישים מבוססי משאבים/ללא מלאי.
+מאמר זה כיצד להירשם להצעת הניסיון של סביבת Project Operations ולפרוס אותה עבור תרחישים מבוססי משאבים/ללא מלאי.
 
 ## <a name="prerequisites"></a>דרישות מוקדמות
 - המשתמש שמבצע את הפריסה של ה-Preview חייב להיות בעל זכויות מנהל מערכת כלליות של דייר Azure. ניתן ליצור דייר במהלך מימוש ההצעה הראשונה. 
@@ -60,19 +60,19 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="start-a-new-project-in-lcs"></a>התחלת פרויקט חדש ב-LCS
 
-צור פרויקט LCS חדש כמתואר בנושא [התחלת פרויקט חדש ב- LCS](create-lcs-project.md)
+צור פרויקט LCS חדש כמתואר במאמר, [התחל פרויקט חדש ב- LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>הוסף מנוי Azure לפרויקט LCS
 
-להשלמת משימה זו, בצע את השלבים בנושא [הוסף מנוי Azure לפרויקט LCS](resource-add-azure-subscription-lcs-project.md).
+כדי להשלים משימה זו, בצע את השלבים במאמר, [הוספת מינוי Azure לפרויקט LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>פרוס את סביבת ההדגמה של Finance עם Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
 
-פעל לפי ההנחיות בנושא [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview. 
+עקבו אחר ההנחיות במאמר, [הקצאת סביבה חדשה](resource-provision-new-environment.md) להשלמת הפריסה. השתמש בסוג הפריסה [סביבת הדגמה](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) עבור ה- Preview. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>התקן הגדרת CDS ונתוני תצורה
 
-התקן הגדרת CDS ונתוני תצורה כמתואר בנושא [הגדר והחל נתוני תצורה ב- Common Data Service](resource-apply-pro-setup-config-data.md).
+התקן את נתוני ההגדרה והתצורה של CDS כמתואר במאמר, [הגדר והחל נתוני תצורה ב- Common Data Service](resource-apply-pro-setup-config-data.md).
 השלם שלב זה רק לאחר פריסה של סביבת ההדגמה של Finance ולאחר שנתוני ההדגמה יהיו מוכנים.
 
 

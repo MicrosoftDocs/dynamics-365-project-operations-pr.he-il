@@ -1,17 +1,17 @@
 ---
 title: מושגי מפתח בקבלנות משנה
-description: נושא זה מסביר כמה מושגים מרכזיים החלים על קבלנות משנה ב- Microsoft Dynamics 365 Project Operations.
+description: מאמר זה מסביר כמה מושגי מפתח החלים על קבלנות משנה ב- Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927697"
 ---
 # <a name="key-concepts-in-subcontracting"></a>מושגי מפתח בקבלנות משנה
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578112"
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-הנושא מסביר כמה מושגים מרכזיים שעליכם להיות מודעים אליהם לפני שאתם מתחילים להשתמש בפונקציונליות של קבלנות משנה ב- Microsoft Dynamics 365 Project Operations.
+המאמר מסביר כמה מושגי מפתח שעליך להיות מודע אליהם לפני שתתחיל להשתמש בפונקציונליות קבלנות המשנה ב- Microsoft Dynamics 365 Project Operations.
 
 ## <a name="contracting-unit-on-the-subcontract"></a>יחידת קבלנות על חוזה המשנה
 

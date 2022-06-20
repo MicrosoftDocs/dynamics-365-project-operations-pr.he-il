@@ -1,6 +1,6 @@
 ---
 title: מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 36 V3
-description: נושא זה מפרט את התכונות והתיקונים הזמינים ב- Microsoft Dynamics 365 Project Service Automation מהדורת עדכון 36, V3.
+description: מאמר זה מפרט את התכונות והתיקונים הזמינים בעדכון Microsoft Dynamics 365 Project Service Automation מהדורה 36, גרסה 3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924983"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>מה חדש או שונה במהדורה המעודכנת של Project Service Automation, 36 V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586667"
 
 אנו שמחים להכריז על העדכון האחרון עבור האפליקציה Microsoft Dynamics 365 Project Service Automation. מהדורה זו כוללת כמה שיפורים חשובים באיכות, בביצועים ובשימושיות. הוא תואם ל- Dynamics 365 9.x. לעדכון למהדורה זו, בקר בדף הפתרונות המקוון של מרכז הניהול עבור Dynamics 365 והתקן את העדכון. למידע נוסף: [התקנה, עדכון או הסרה של פתרון מועדף](/power-platform/admin/install-remove-preferred-solution).
 
-נושא זה מפרט את התכונות והתיקונים החדשים או ששונו עבור מהדורה 36, עדכון V3 של Project Service Automation. מספר ה-build של גירסה זו הוא V3.10.57.152 והיא זמינה דרך עדכון עצמי החל מאוקטובר 2021.
+מאמר זה מפרט את התכונות והתיקונים החדשים או ששונו בעדכון Project Service Automation מהדורה 36, גרסה 3. מספר ה-build של גירסה זו הוא V3.10.57.152 והיא זמינה דרך עדכון עצמי החל מאוקטובר 2021.
 
 ## <a name="update-release-36"></a>הפצת עדכון 36
 

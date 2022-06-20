@@ -1,18 +1,18 @@
 ---
 title: רכישת חומרים שאינם במלאי או קטגוריות רכש באמצעות חשבוניות ספק בהמתנה
-description: נושא זה מסביר כיצד לתעד חשבוניות ספק בהמתנה.
+description: מאמר זה מסביר כיצד לרשום חשבוניות ספק ממתינות.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921993"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>רכישת חומרים שאינם במלאי או קטגוריות רכש באמצעות חשבוניות ספק בהמתנה
 
@@ -23,7 +23,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 לדוגמה, Contoso Robotics US מבצעת פרוייקט חידוש ציוד וזקוקה לרשיונות תוכנה. רישיונות אלה נרכשים מספק צד שלישי.  באמצעות Dynamics 365 Finance, פקיד חשבונות זכאים מתעד מסמך חשבונית ספק בהמתנה ומייחס את עלויות הרישיון ישירות לפרויקט חידוש הציוד. 
 
 > [!IMPORTANT]
-> לפני שתשתמש בפונקציונליות המתוארת בנושא זה, יש לסקור ולהחיל את התצורות הנדרשות. למידע נוסף, ראה [הפוך חומרים שאינם במלאי וחשבוניות ספק בהמתנה לזמינים](configure-materials-nonstocked.md) ו[השתמש בקטגוריות רכש באמצעות הזמנות רכש של פרוייקטים וחשבוניות ספק בהמתנה](configure-procurement-categories.md)
+> לפני שתשתמש בפונקציונליות המתוארת במאמר זה, סקור והחל את התצורות הנדרשות. למידע נוסף, ראה [הפוך חומרים שאינם במלאי וחשבוניות ספק בהמתנה לזמינים](configure-materials-nonstocked.md) ו[השתמש בקטגוריות רכש באמצעות הזמנות רכש של פרוייקטים וחשבוניות ספק בהמתנה](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>רישום חשבונית ספק בהמתנה שקשורה לפרויקט 
 

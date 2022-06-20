@@ -1,23 +1,23 @@
 ---
 title: מעקב אחר מאמץ בפרוייקט
-description: נושא זו מסביר כיצד לעקוב אחר התקדמות העבודה והמאמץ בפרויקט.
+description: מאמר זו מספק מידע כיצד ניתן לעקוב אחר מאמץ בפרויקט והתקדמות העבודה.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929261"
 ---
 # <a name="project-effort-tracking"></a>מעקב אחר מאמץ בפרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-הצורך לעקוב אחר ההתקדמות מול לוח זמנים משתנה לפי ענף. תעשיות מסוימות עוקבות ברמה מפורטת, ואילו תעשיות אחרות עוקבות ברמה גבוהה יותר. נושא זה מראה כיצד ליצור לוח זמנים שיעמוד בדרישות הארגון שלך.
+הצורך לעקוב אחר ההתקדמות מול לוח זמנים משתנה לפי ענף. תעשיות מסוימות עוקבות ברמה מפורטת, ואילו תעשיות אחרות עוקבות ברמה גבוהה יותר. מאמר זה מראה כיצד ליצור לוח זמנים שיעמוד בדרישות הארגון שלך.
 
 ## <a name="effort-tracking-view"></a>תצוגה של מעקב אחר המאמץ
 

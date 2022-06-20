@@ -1,17 +1,17 @@
 ---
 title: אישור חוזה פרויקט
-description: נושא זה מספק מידע על אופן אישור פרויקט ב-Project Operations .
+description: מאמר זה מספק מידע על אופן אישור חוזה ב- Project Operations.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f5dab041bab1268235ed542f06d1b4b4cd240305
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0e92dc42c4ff6bdc40c479511c80d3e500df781a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929997"
 ---
 # <a name="confirm-a-project-contract"></a>אישור חוזה פרויקט
 

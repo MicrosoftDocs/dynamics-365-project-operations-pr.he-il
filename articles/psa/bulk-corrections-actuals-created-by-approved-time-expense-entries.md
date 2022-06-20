@@ -1,6 +1,6 @@
 ---
 title: תיקונים בכמויות גדולות של פעולות שנוצרו על ידי ערכי זמן והוצאות מאושרים
-description: נושא זה מסביר כיצד מנהל מערכת יכול לבצע תיקונים בודדים או רבים לערכי זמן או הוצאה שאושרו בעבר אם החיוב לא הושלם.
+description: מאמר זה מסביר כיצד מנהל מערכת יכול לבצע תיקונים בודדים או בצבר בערכי זמן או הוצאה שאושרו קודם לכן אם החיוב לא הושלם.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916290"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>תיקונים בכמויות גדולות של פעולות שנוצרו על ידי ערכי זמן והוצאות מאושרים
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683363"
 
 לעיתים, רשומת זמן או הוצאה יוזנו בצורה שגויה. לדוגמה, יועץ עשוי לבחור בתאריך הלא נכון בעת יצירת ערך זמן או שהוא עשוי להחליף בין המספרים בעת הזנת הוצאה. אם יועץ לא יכול לבצע את העדכונים בערכים שהוגשו, מנהל מערכת יכול לתקן את הרשומה בפרויקט ישירות.
 
-כדי להשלים את הנוהל בנושא זה, תצטרך הרשאות מנהל מערכת.
+כדי להשלים את ההליכים במאמר זה, תזדקק להרשאות של מנהל מערכת.
 
 ## <a name="correct-approved-time-entries"></a>תיקון רשומות זמן מאושרות     
 

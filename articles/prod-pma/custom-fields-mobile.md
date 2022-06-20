@@ -1,6 +1,6 @@
 ---
 title: יישם שדות מותאמים אישית עבור האפליקציה למכשירים ניידים Microsoft Dynamics 365 Project Timesheet ב- iOS וב- Android
-description: נושא זה מספק דפוסים נפוצים לשימוש בתוספים לצורך יישום שדות מותאמים אישית.
+description: מאמר זה מספק דפוסים נפוצים לשימוש הרחבות ליישום שדות מותאמים אישית.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682754"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913713"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>יישם שדות מותאמים אישית עבור האפליקציה למכשירים ניידים Microsoft Dynamics 365 Project Timesheet ב- iOS וב- Android
 
 [!include [banner](../includes/banner.md)]
 
-נושא זה מספק דפוסים נפוצים לשימוש בתוספים לצורך יישום שדות מותאמים אישית. אלו הנושאים שמאמר זה סוקר:
+מאמר זה מספק דפוסים נפוצים לשימוש הרחבות ליישום שדות מותאמים אישית. המאמרים הבאים מכוסים:
 
 - סוגי הנתונים השונים שמסגרת השדה המותאמת אישית תומכת בהם
 - כיצד להציג שדות לקריאה בלבד או לעריכה בערכי גליון הזמנים, ולשמור ערכים המסופקים על ידי המשתמש בחזרה למסד הנתונים
@@ -35,7 +35,7 @@ ms.locfileid: "8682754"
 
 ## <a name="audience"></a>קהל
 
-הנושא מיועד למפתחים שמשלבים את השדות המותאמים אישית שלהם באפליקציה למכשירים ניידים Microsoft Dynamics 365 Project Timesheet הזמינה עבור Apple iOS ו- Google Android. ההנחה היא שהקוראים מכירים את הפיתוח של X++‎ ואת פונקציונליות לוח הזמנים של הפרויקט.
+מאמר זה מיועד למפתחים המשלבים שדות המותאמים אישית באפליקציה למכשירים ניידים Microsoft Dynamics 365 Project Timesheet שזמינה עבור Apple iOS ו- Android ‏‎Google‎‏. ההנחה היא שהקוראים מכירים את הפיתוח של X++‎ ואת פונקציונליות לוח הזמנים של הפרויקט.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>חוזה נתונים - מחלקת TSTimesheetCustomField X++‎
 
@@ -64,7 +64,7 @@ ms.locfileid: "8682754"
 
 - אם המאפיין **stringOptions** מסופק באובייקט **TSTimesheetCustomField**, הרכיבים שברשימה הם הערכים היחידים שמשתמשים יכולים לבחור באמצעות לחצני האפשרויות (לחצני הבחירה).
 
-    במקרה זה, שדה המחרוזת יכול לשמש כערך ספירה לצורך ערך המשתמש. כדי לשמור את הערך למסד הנתונים כספירה, יש למפות את ערך המחרוזת באופן ידני בחזרה לערך ספירה לפני שמירתו במסד הנתונים באמצעות שרשרת הפקודה (עיין בסעיף "השתמש בשרשרת הפקודה במחלקה TSTimesheetEntryService כדי לשמור רשומת גליון זמנים מהאפליקציה חזרה למקטע מסד הנתונים בהמשך נושא זה לדוגמה).
+    במקרה זה, שדה המחרוזת יכול לשמש כערך ספירה לצורך ערך המשתמש. כדי לשמור את הערך במסד הנתונים כ-enum, מפה ידנית את ערך המחרוזת בחזרה לערך enum לפני שתשמור במסד הנתונים באמצעות שרשרת פקודות (לדוגמה, ראה "השתמש בשרשרת הפקודות במחלקה TSTimesheetEntryService כדי לשמור ערך גליון זמנים מהאפליקציה חזרה למסד הנתונים" בהמשך מאמר זה).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ ms.locfileid: "8682754"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (רשימת מיתרים)
 
-מאפיין זה חל רק כאשר **fieldBaseType** נקבע ל **מיתר**. אם מוגדר **stringOptions**, ערכי המחרוזת הזמינים לבחירה באמצעות לחצני האפשרויות (לחצני רדיו) מוגדרים על ידי המחרוזות ברשימה. אם לא מסופקות מחרוזות, מותר להזין טקסט חופשי בשדה המחרוזת (עיין בסעיף "השתמש בשרשרת הפקודה במחלקה TSTimesheetEntryService כדי לשמור ערך של לוח זמנים מהאפליקציה חזרה למסד הנתונים" בהמשך נושא זה לדוגמה).
+מאפיין זה חל רק כאשר **fieldBaseType** נקבע ל **מיתר**. אם מוגדר **stringOptions**, ערכי המחרוזת הזמינים לבחירה באמצעות לחצני האפשרויות (לחצני רדיו) מוגדרים על ידי המחרוזות ברשימה. אם לא סופקו מחרוזות, מותרת הזנת טקסט חופשי בשדה המחרוזת (לדוגמה, ראה את המקטע "השתמש בשרשרת הפקודות במחלקה TSTimesheetEntryService כדי לשמור ערך גליון זמנים מהאפליקציה בחזרה למסד הנתונים" בהמשך מאמר זה).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

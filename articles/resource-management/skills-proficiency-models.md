@@ -1,17 +1,17 @@
 ---
 title: כישורים והסמכות
-description: נושא זה מספק מידע על הוספת מאפייני כישורים והסמכות למשאבים.
+description: מאמר זה מספק מידע על הוספת מאפייני מיומנות והסמכה למשאבים.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918360"
 ---
 # <a name="skills-and-certifications"></a>כישורים והסמכות
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
