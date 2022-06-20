@@ -1,24 +1,24 @@
 ---
 title: מה חדש ומה השתנה באוקטובר 2021 ב- Project Operations בתרחישים של מלאי/מבוססי ייצור
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת אוקטובר 2021 של Project Operations עבור תרחישים מבוססי מלאי/ייצור.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת אוקטובר 2021 של Project Operations עבור תרחישים מבוססי מלאי/ייצור.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933677"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה באוקטובר 2021 ב- Project Operations בתרחישים של מלאי/מבוססי ייצור
 
 _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/עם מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.22
  

@@ -1,24 +1,24 @@
 ---
 title: מה חדש, מרץ 2022 - פריסה קלה של Project Operations
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מרץ 2022 של פריסה קלה של Project Operations.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מרץ 2022 של פריסה קלה של Project Operations.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934229"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>מה חדש, מרץ 2022 - פריסה קלה של Project Operations
 
 _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - Project Operations בגירסת סביבת Dataverse 4.30.0.99
 
@@ -51,9 +51,9 @@ _חל על: פריסה בגרסת לייט – מהעסקה ועד להוצאת 
 
 ## <a name="removed-and-deprecated-features"></a>תכונות שהוסרו והוצאו משימוש
 
-הנושא [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](../../whats-new/removed-depreciated-features-project.md) מתאר תכונות שהוסרו או הוצאו משימוש עבור Dynamics 365 Project Operations.
+המאמר [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](../../whats-new/removed-depreciated-features-project.md) מתאר תכונות שהוסרו או הוצאו משימוש עבור Dynamics 365 Project Operations.
 
 - תוכנה שהוסרה כבר אינה זמינה במוצר.
 - תכונה שהוצאה משימוש אינה נמצאת בפיתוח פעיל וניתן להסירה בעדכון עתידי.
 
-הודעה על הוצאה משימוש תופיע בנושא [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](../../whats-new/removed-depreciated-features-project.md) 12 חודשים לפני הסרה של תכונה כלשהי מהמוצר.
+הודעה על הוצאה משימוש תופיע במאמר [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](../../whats-new/removed-depreciated-features-project.md) 12 חודשים לפני הסרה של תכונה כלשהי מהמוצר.

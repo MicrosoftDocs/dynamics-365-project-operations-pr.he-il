@@ -1,24 +1,24 @@
 ---
 title: מה חדש, פברואר 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת פברואר 2022 של Project Operations עבור תרחישים מבוססי-משאב/לא במלאי.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת פברואר 2022 של Project Operations עבור תרחישים מבוססי-משאב/לא במלאי.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932987"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, פברואר 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
 *חל על: ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי*
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - Project Operations בגירסת סביבת Dataverse 4.28.0.120
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.24
@@ -76,11 +76,11 @@ ms.locfileid: "8600835"
 
 ## <a name="removed-and-deprecated-features"></a>תכונות שהוסרו והוצאו משימוש
 
-הנושא [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](removed-depreciated-features-project.md) מתאר תכונות שהוסרו או הוצאו משימוש עבור Dynamics 365 Project Operations.
+המאמר [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](removed-depreciated-features-project.md) מתאר תכונות שהוסרו או הוצאו משימוש עבור Dynamics 365 Project Operations.
 
 - תוכנה שהוסרה כבר אינה זמינה במוצר.
 - תכונה שהוצאה משימוש אינה נמצאת בפיתוח פעיל וניתן להסירה בעדכון עתידי.
 
-הודעה על הוצאה משימוש תופיע בנושא [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](removed-depreciated-features-project.md) 12 חודשים לפני הסרה של תכונה כלשהי מהמוצר.
+הודעה על הוצאה משימוש תופיע במאמר [‏‫תכונות שהוסרו או הוצאו משימוש ב- Project Operations‬](removed-depreciated-features-project.md) 12 חודשים לפני הסרה של תכונה כלשהי מהמוצר.
 
 עבור שינויים משמעותיים שמשפיעים על זמן ההידור בלבד, אבל עם תאימות בינארית לסביבות ייצור וארגז חול, זמן ההוצאה משימוש יהיה קצר מ- 12 חודשים. בדרך כלל, שינויים אלה הם עדכונים פונקציונליים שיש לבצע במהדר (Compiler).

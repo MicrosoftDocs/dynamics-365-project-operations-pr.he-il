@@ -1,24 +1,24 @@
 ---
 title: מה חדש במאי 2022 - פריסה קלה של Project Operations
-description: נושא זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מאי 2022 של פריסה קלה של Microsoft Dynamics 365 Project Operations.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מאי 2022 של פריסה קלה של Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709989"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934137"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>מה חדש במאי 2022 - פריסה קלה של Project Operations
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Microsoft Dynamics 365 Project Operations:
 
 - Project Operations בגירסת סביבת Dataverse 4.42.0.70
 

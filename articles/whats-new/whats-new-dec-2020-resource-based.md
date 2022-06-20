@@ -1,24 +1,24 @@
 ---
 title: מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת דצמבר 2020 של Project Operations לתרחישים מבוססי משאבים/לא מלאי.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת דצמבר 2020 של Project Operations עבור תרחישים מבוססי-משאב/ללא במלאי.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933033"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבת Dataverse גרסה 4.5.0.134
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.15

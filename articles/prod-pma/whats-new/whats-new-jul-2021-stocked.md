@@ -1,24 +1,24 @@
 ---
 title: מה חדש ומה השתנה ב- Project Operations, יולי 2021 עבור תרחישים של מלאי/מבוססי ייצור
-description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת יולי 2021 של Project Operations עבור תרחישים של מלאי/מבוססי ייצור.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת יולי 2021 של Project Operations עבור תרחישים מבוססי מלאי/ייצור.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933631"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, יולי 2021 עבור תרחישים של מלאי/מבוססי ייצור
 
 _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/עם מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.20
  

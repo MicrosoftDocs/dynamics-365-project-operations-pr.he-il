@@ -1,6 +1,6 @@
 ---
 title: ‏‫תכנון פרויקטים ומעקב אחריהם
-description: נושא זה מספק קישור למידע על תכנון ומעקב ב- Project Service Automation.
+description: מאמר זה מספק קישור למידע על תכנון ומעקב ב- Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933263"
 ---
 # <a name="project-planning-and-tracking"></a>‏‫תכנון פרויקטים ומעקב אחריהם
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589887"
 
 יישום Project Service עוזר לארגוני שירות לזהות הזדמנויות, לשלוח הצעות מחיר, להגיע להסכמים חוזיים, לנהל משאבים, לעקוב אחר שעות והוצאות, להפיק חשבוניות ללקוחות ולמסור פרויקטים בזמן ובמסגרת התקציב. 
 
-קישור ה- PDF שהוזכר קודם לכן בנושא זה הוסר והתוכן הועבר לנושאים הבאים:
+קישור ה- PDF שהוזכר קודם לכן במאמר זה הוסר והתוכן הועבר למאמרים הבאים:
 
 - [לוחות זמנים של פרויקטים](../project-creating.md)
 - [עלויות והכנסות של פרויקט](../project-estimating.md)
@@ -43,7 +43,7 @@ ms.locfileid: "8589887"
 - [הגדרות פרויקט](../project-settings.md)
 
 > [!NOTE]
-> נושא זה יוסר בעדכון עתידי של תיעוד. 
+> מאמר זה יוסר בעדכון עתידי של תיעוד. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

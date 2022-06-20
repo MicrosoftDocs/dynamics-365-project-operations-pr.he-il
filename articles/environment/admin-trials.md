@@ -1,17 +1,17 @@
 ---
 title: הרשמה לגירסאות ניסיון של Project Operations
-description: נושא זה מספק מידע לגבי אופן הפריסה של גירסת ניסיון של Dynamics 365 Project Operations.
+description: מאמר זה מספק מידע על אופן פריסת גרסת ניסיון של Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584275"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959488"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>הרשמה לגירסאות ניסיון של Project Operations 
 
@@ -19,9 +19,9 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 
 
 
-נושא זה מסביר כיצד להירשם כמנוי להצעת שותף של Preview ולפרוס סביבת Dynamics 365 Project Operations.
+מאמר זה מסביר כיצד להירשם להצעת שותף ל- Preview וכיצד לפרוס סביבת Dynamics 365 Project Operations.
 
-בעזרת גירסת הניסיון החדשה של Project Operations, באפשרותך לפרוס באופן אוטומטי את כל אחד משלושת תרחישי הפריסה הנתמכים על-ידי מילוי שאלון הממליץ על גישת הפריסה הטובה ביותר. נושא זה מספק מידע אודות אופן הביצוע של הפעולות הבאות:
+בעזרת גירסת הניסיון החדשה של Project Operations, באפשרותך לפרוס באופן אוטומטי את כל אחד משלושת תרחישי הפריסה הנתמכים על-ידי מילוי שאלון הממליץ על גישת הפריסה הטובה ביותר. מאמר זה מספק מידע על אופן:
 
 - מימוש הצעת הניסיון שלך.
 - הפעלת הקצאת משאבים.
@@ -89,7 +89,8 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי פיננסים ותפעול המתאימים כדי לאמת את הפריסה.
 
 ## <a name="configuring-dual-write"></a>קביעת תצורה של כתיבה כפולה
-- כדי להגדיר תפקידי אבטחה עבור כתיבה כפולה, ראה [עדכון הגדרות האבטחה ב-Project Operations ב- Dataverse](resource-provision-new-environment.md).
+- כדי להגדיר תפקידי אבטחה עבור כתיבה כפולה, ראה [עדכון הגדרות האבטחה ב-Project Operations ב- Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- כדי לגשת לתצורת כתיבה כפולה, נווט אל מופע Finance and Operations, ולאחר מכן נווט אל **ניהול נתונים** > **כתיבה כפולה**.
 - כדי להגדיר מפות כתיבה כפולה, ראה [הפעלה מפות כתיבה כפולה של Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות

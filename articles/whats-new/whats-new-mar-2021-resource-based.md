@@ -1,24 +1,24 @@
 ---
 title: מה חדש, מרץ 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-description: נושא זה מספק מידע על עדכוני האיכות הזמינים במהדורת מרץ 2021 של Project Operations לתרחישים מבוססי משאבים/לא מלאי.
+description: מאמר זה מספק מידע אודות עדכוני האיכות הזמינים במהדורת מרץ 2021 של Project Operations עבור תרחישים מבוססי-משאב/לא במלאי.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932941"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, מרץ 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-נושא זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
+מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבת Dataverse גרסה 4.8.0.91 
 - ניהול פרויקטים וחשבונאות בסביבת Dynamics 365 Finance גירסה 10.0.16 

@@ -1,17 +1,17 @@
 ---
 title: גרסאות מפה של כתיבה כפולה ב-Project Operations
-description: נושא זה מספק את רשימת המפות הכתיבה הכפולה הנדרשת עבור Dynamics 365 Project Operations.
+description: מאמר זה מספק את רשימת מפות הכתיבה הכפולות הנדרשות עבור Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612751"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959452"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -54,7 +54,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. ||
 | ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. ||
 | ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.3 | לא נדרש להקצאה. ||
-| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.0 | לא נדרש להקצאה. ||
+| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.1 | לא נדרש להקצאה. |10.0.26 או גירסה מתקדמת יותר|
 | ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.4 | לא נדרש להקצאה. | 10.0.26 או גירסה מתקדמת יותר |
 | תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories) | 1.0.0.1 | מחייב סנכרון ראשוני של מפת הטבלה כדי לסנכרן את תפקידי המשאבים של מנהל הפרויקט וחבר הצוות, שמאוכלסים בסביבת Dataverse Dynamics 365 במהלך ההקצאה. Dataverse הוא המקור הראשי לסנכרון הראשוני. ||
 | משימות פרויקט (msdyn_projecttasks) | 1.0.0.4 | לא נדרש להקצאה. ||
