@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 38fede1746bcb09700c9c9c5e20653e0c39fea2a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1fe1e59a0a3674752fe62525349a50f00e11089b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910637"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029616"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש, פברואר 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -51,7 +51,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). דרך נוספת ללמוד על עדכונים רגולטוריים היא להיכנס אל Lifecycle Services‏ (LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות כלי חיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

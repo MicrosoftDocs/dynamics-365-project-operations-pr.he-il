@@ -6,12 +6,12 @@ ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911230"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028228"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>מה חדש נובמבר 2020 - Project Operations לתרחישים מבוססי ייצור/עם מלאי
 
@@ -23,7 +23,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 ## <a name="regulatory-updates"></a>עדכוני רגולציה
 
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול ב- Dynamics 365, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול ב- Dynamics 365, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

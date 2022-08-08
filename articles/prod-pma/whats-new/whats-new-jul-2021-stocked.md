@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933631"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028841"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, יולי 2021 עבור תרחישים של מלאי/מבוססי ייצור
 
@@ -64,7 +64,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | הכלי **אפס את מצב מסמך ההוצאות** צריך לאפס את דוח ההוצאות למצב **טיוטה** אם זרימת העבודה לא נמצאה. 
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

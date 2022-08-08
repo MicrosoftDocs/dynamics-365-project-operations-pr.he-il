@@ -6,18 +6,25 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: bcd460c489d428238d27f87968e9afb62fde0cb1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e5df0bad9d2bcab54ad0fc1c917cfdb5aeaff927
+ms.sourcegitcommit: 422d8839c7ea4648d5adb20c40640ac8eb02ecdf
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912609"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125201"
 ---
 # <a name="create-resources"></a>יצירת משאבים
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 אתה יכול להשתמש ב- Dynamics 365 Field Service כדי ליצור משאבים שניתנים להזמנה לצורך שימוש בסביבת Dynamics 365 Project Operations שלך. ליצירת משאבים אלה, ראה [הגדר משאבים שניתנים להזמנה](/dynamics365/field-service/set-up-bookable-resources).
+
+Project Operations תומכת בסוגי המשאבים הבאים:
+- תיק לקוח
+- איש קשר
+- User
+- ציוד
+-  כללי
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

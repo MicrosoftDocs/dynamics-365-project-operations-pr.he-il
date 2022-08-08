@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922775"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028795"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>מבט כולל על פריסת Project Operations לתרחישים מבוססי ייצור/מלאי
 
@@ -22,9 +22,9 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 
 - תכנון פרויקט באמצעות [מבני התפלגות העבודה](work-breakdown-structures.md)
 - רכישה וצריכת מלאי מוחזק לפרויקטים
-- ניהול מכירות מבוססות פרויקטים באמצעות המודול **מכירות ושיווק** ביישומים פיננסים ותפעות של Dynamics 365
-- תמחור ותמחיר פרויקט באמצעות תצורות תעריף העלות ותעריף החיוב ביישומי פיננסים ותפעול
-- ניהול משאבים לפרויקטים באפליקציות פיננסים ותפעול
+- ניהול מכירות מבוססות פרויקטים באמצעות המודול **מכירות ושיווק** ביישומים פיננסים ותפעול של Dynamics 365
+- תמחור ותמחיר של פרויקט באמצעות תצורות תעריף העלות ותעריף החיוב ביישומי פיננסים ותפעול
+- ניהול משאבים לפרויקטים ביישומי פיננסים ותפעול
 - התקדמות הפרויקט ומעקב אחר זמן ביישומי פיננסים ותפעול
 - חוויות ניהול הוצאות עבור הוצאות פרוייקט ולא שאינן קשורות לפרויקט עם לכידת קבלות באמצעות יכולות OCR
 - הפקת חשבוניות באמצעות מערכת שערי חליפין של מע״מ ותאריכי תוקף ברמה הארגונית

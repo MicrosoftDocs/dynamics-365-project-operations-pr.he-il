@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930135"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064279"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>הגדרת מרחק באמצעות רמות תעריפי מרחק
 
@@ -50,5 +50,15 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 לאחר הפעלת התכונה, אפס את שכבות הקילומטראז' כך שהן ישקפו נכון את הערך בשדה **כמות**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>אפשר את התכונה חישוב סכומי קילומטראז' לפי שנת כספים
+
+תכונת ה **חישוב סכומי קילומטראז' לפי שנת כספים** מאפשרת הגדרה חדשה בפרמטרים של ניהול הוצאות המבצעת חישובים של סכומי קילומטראז' לפי שנת כספים במקום שנה קלנדרית. בצע את השלבים הבאים כדי להפעיל תכונה זו.
+
+1. עבור אל **סביבות עבודה** > **ניהול תכונות**.
+1. ברשימה, אתר ובחר **חישוב סכומי קילומטראז' לפי שנת כספים**, ולאחר מכן בחר **הפעל עכשיו**.
+1. עבור אל **ניהול הוצאות** > **הגדרה** > **כללי** > **פרמטרים של ניהול הוצאות**.
+1. בדף **פרמטרים של ניהול הוצאות**, אתר והפעל **השתמש בשנת כספים לסכומי קילומטראז'**.
+
+לאחר שתפעיל את **השתמש בשנת כספים לסכומי קילומטראז'**, סכומי קילומטראז' יחושבו על פי שנת הכספים.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927145"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029393"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, מאי 2021 עבור תרחישים של מלאי/מבוססי ייצור
 
@@ -93,7 +93,7 @@ ms.locfileid: "8927145"
 | נסיעות והוצאה                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | יש בעיות סינכרון באפליקציית ההוצאות למכשירים ניידים. 
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל- Lifecycle Services ‏(LCS) ולהציג את עדכוני הרגולציה המתוכננים באמצעות הכלי לחיפוש בעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931607"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028519"
 ---
 # <a name="provision-a-new-environment"></a>הקצאת סביבה חדשה
 
@@ -117,7 +117,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
     ![החל פתרונות.](./media/13ApplySolutions.png)
 
-5. בחר את שנה הפתרונות, **מפת ישות בכתיבה כפולה של Finance and Operations ב-Dynamics 365** ו-**מפות ישות בכתיבה כפולה של Dynamics 365 Project Operations**, ולאחר מכן בחר **החל**.
+5. בחר את שני הפתרונות, **מפת ישות בכתיבה כפולה של Dynamics 365 Finance** ו **מפות ישות בכתיבה כפולה של Dynamics 365 Project Operations**, ולאחר מכן בחר **החל**.
 
     ![אשר פתרונות.](./media/14ConfirmSolutions.png)
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912425"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029255"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש באפריל 2021 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -42,13 +42,13 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | **מפת ישויות** | **גרסה מעודכנת** | **הערות** |
 | --- | --- | --- |
 | נתונים בפעול של שילוב Project Operations ‏ (msdyn\_actuals) | 1.0.0.14 | המפה שונתה כדי לסנכרן את החומרים בפועל של הפרויקט. |
-| ישות שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.2 | נוסף סנכרון של סעיף חוזה פרוייקט עם יישומי Finance and Operations עבור תמיכה בחיוב על בסיס משימות. |
-| ישות שילוב Project Operations להערכת שעות (msdyn\_resourceassignments) | 1.0.0.5 | נוסף סנכרון של סעיף חוזה פרוייקט עם יישומי Finance and Operations עבור תמיכה בחיוב על בסיס משימות. |
-| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | מפת טבלה חדשה לסנכרון הערכות של חומרים מ- Dataverse ליישומי Finance and Operations. |
-| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations ‏(msdyn\_projectvendorinvoices‎‏)‎‏‎ | 1.0.0.0 | מפת טבלה חדשה לסנכרון כותרות של חשבוניות ספק מיישומי Finance and Operations ל- Dataverse. |
-| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations‏ ‏‎(‏‎msdyn\_projectvendorinvoicelines‎‏‎)‏‎‎‏‏ | 1.0.0.0 | מפת טבלה חדשה לסנכרון שורות של חשבוניות ספק מיישומי Finance and Operations ל- Dataverse. |
+| ישות שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.2 | נוסף סינכרון של סעיף בחוזה פרויקט עם יישומי פיננסים ותפעול עבור תמיכה בחיוב על בסיס משימות. |
+| ישות שילוב Project Operations להערכת שעות (msdyn\_resourceassignments) | 1.0.0.5 | נוסף סינכרון של סעיף בחוזה פרויקט עם יישומי פיננסים ותפעול עבור תמיכה בחיוב על בסיס משימות. |
+| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | מפת טבלה חדשה לסינכרון הערכות של חומרים מ- Dataverse ליישומי פיננסים ותפעול. |
+| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations ‏(msdyn\_projectvendorinvoices‎‏)‎‏‎ | 1.0.0.0 | מפת טבלה חדשה לסינכרון כותרות של חשבוניות ספק מיישומי פיננסים ותפעול ל- Dataverse. |
+| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations‏ ‏‎(‏‎msdyn\_projectvendorinvoicelines‎‏‎)‏‎‎‏‏ | 1.0.0.0 | מפת טבלה חדשה לסינכרון שורות של חשבוניות ספק מיישומי פיננסים ותפעול ל- Dataverse. |
 
-עליך להפעיל תמיד את הגרסה האחרונה של המפה בסביבה שלך, והפעל את כל מפות הטבלאות הקשורות תוך כדי עדכון הפתרון שלך בגירסת פתרון Finance and Operations, ופתרון Project Operations Dataverse. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגרסה האחרונה של המפה אינה מופעלת. אפשר לראות את הגרסה הפעילה של המפה בעמודה **גרסה** בדף **כתיבה כפולה**. אפשר להפעיל גרסה חדשה של המפה על ידי בחירה באפשרות **גרסאות של מפת טבלאות**, בחירה בגדסה העדכנית ביותר ואז שמירה של הגרסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+עליך להפעיל תמיד את הגירסה האחרונה של המפה בסביבה שלך, ולאפשר את כל מפות הטבלאות הקשורות תוך כדי עדכון פתרון Project Operations Dataverse וגרסת הפתרון של פיננסים ותפעול. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגרסה האחרונה של המפה אינה מופעלת. אפשר לראות את הגרסה הפעילה של המפה בעמודה **גרסה** בדף **כתיבה כפולה**. אפשר להפעיל גרסה חדשה של המפה על ידי בחירה באפשרות **גרסאות של מפת טבלאות**, בחירה בגדסה העדכנית ביותר ואז שמירה של הגרסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 אם נתקלת בבעיה בהפעלת המפה, פעל לפי ההוראות במקע [בעיית עמודות טבלה חסרות במפות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) במדריך לפתרון בעיות של כתיבה כפולה.
 

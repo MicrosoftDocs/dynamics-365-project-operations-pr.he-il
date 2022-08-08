@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912471"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030036"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>עדכן את Project Operations בסביבת Finance שלך
 
@@ -119,7 +119,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 4. בדף **גרסת מפת טבלה**, החל גרסה חדשה של המפה על כל אחת משלוש הישויות.
 5. בדף **כתיבה כפולה**, בחר 'הפעל' כדי להפעיל מחדש את המפות.
 6. מרשימת המפות בחר את המפה **ספר חשבונות (msdyn_ledgers)** עם כל התנאים המוקדמים ובחר את תיבת הסימון **סנכרון ראשוני**. 
-7. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **יישומי Finance and Operations** ולאחר מכן בחר **הפעל**.
+7. בשדה **פריט ראשי לסינכרון ראשוני**, בחר **יישומי פיננסים ותפעול** ולאחר מכן בחר **הפעל**.
  
  ![סנכרון מפת ספר ראשי.](media/DW6.png)
  

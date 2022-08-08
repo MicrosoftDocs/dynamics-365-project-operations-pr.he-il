@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910585"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028247"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש ביוני 2021 - Project Operations לתרחישים של משאבים/ללא-מלאי
 
@@ -21,7 +21,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 מאמר זה חל על הרכיבים והגירסאות הבאים של Dynamics 365 Project Operations:
 
 - Project Operations בסביבת Dynamics 365 Dataverse גירסה 4.11.0.156 או 4.11.0.164.
-- ניהול פרויקטים וחשבונאות בסביבות יישומי Finance and Operations גירסה 10.0.19.
+- ניהול פרויקטים וחשבונאות בסביבות יישומי פיננסים ותפעול גירסה 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>התכונות הזמינות בגירסה זו
 
@@ -38,7 +38,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 לקבלת רשימה עדכנית וגרסאות של מפות כתיבה כפולה של Project Operations, ראה [גירסאות של מפות כתיבה כפולה ב- Project Operations](../environment/resource-dual-write-maps.md).
 
-הפעל תמיד את הגרסה האחרונה של המפה בסביבה שלך, והפעל את כל מפות הטבלות הקשורות תוך כדי עדכון הפתרון שלך בגירסת פתרון ביישומי Finance and Operations, ופתרון Project Operations Dataverse. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגירסה האחרונה של המפה אינה מופעלת. אתה יכול לראות את הגירסה הפעילה של המפה בדף **כתיבה כפולה** בעמודה **גירסה**. הפעל גירסה חדשה של המפה על ידי בחירה באפשרות **גירסאות של מפת טבלה**, תוך בחירה בגירסה האחרונה ולאחר מכן שמור את הגירסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+הפעל תמיד את הגירסה האחרונה של המפה בסביבה שלך, ואפשר את כל מפות הטבלאות הקשורות תוך כדי עדכון פתרון Project Operations Dataverse וגירסת הפתרון של יישומי פיננסים ותפעול. ייתכן שתכונות ויכולות מסוימות לא יפעלו כראוי אם הגירסה האחרונה של המפה אינה מופעלת. אתה יכול לראות את הגירסה הפעילה של המפה בדף **כתיבה כפולה** בעמודה **גירסה**. הפעל גירסה חדשה של המפה על ידי בחירה באפשרות **גירסאות של מפת טבלה**, תוך בחירה בגירסה האחרונה ולאחר מכן שמור את הגירסה שנבחרה. אם התאמת אישית מפת טבלה שהגיעה מוכנה לשימוש עם המוצר, יהיה עליך להחיל מחדש את השינויים. מידע נוסף ראה [ניהול מחזור החיים של פתרונות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 אם אתה נתקל בבעיה בהתחלת המפה, עקוב אחר ההוראות המופיעות במקטע [בעיה שחסרות עמודות טבלה במפות](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) במדריך לפתרון בעיות בנושא כתיבה כפולה.
 

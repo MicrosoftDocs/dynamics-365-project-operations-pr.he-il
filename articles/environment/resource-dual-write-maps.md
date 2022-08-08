@@ -2,16 +2,16 @@
 title: גרסאות מפה של כתיבה כפולה ב-Project Operations
 description: מאמר זה מספק את רשימת מפות הכתיבה הכפולות הנדרשות עבור Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959452"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112430"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -25,12 +25,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 | מפת טבלאות | סינכרון ראשוני |
 | --- | --- |
-| ספר (msdyn_ledgers) | דרוש סנכרון ראשוני עבור מפת הטבלה והדרישות המוקדמות. פריט ראשי לסנכרון ראשוני הוא יישומי Finance and Operations. |
+| ספר (msdyn_ledgers) | דרוש סנכרון ראשוני עבור מפת הטבלה והדרישות המוקדמות. פריט ראשי לסינכרון ראשוני הוא יישומי פיננסים ותפעול. |
 | ישויות משפטיות (cdm_companies) | לא נדרש. המערכת מאכלסת ישות זו באופן אוטומטי כאשר מקושרים סביבות באמצעות כתיבה כפולה. |
 | לקוחות גרסה 3 (תיקי לקוח) | לא נדרש להקצאה. |
 | ספקים גרסה 2 (msdyn_vendors) | לא נדרש להקצאה. |
 
-1. מרשימת המפות, בחר את המפה 'ספר חשבונות' **(‏‎‏‏msdyn‏‏\_ledgers)** עם כל הדרישות המוקדמות ובחר את תיבת הסימון **סנכרון ראשוני**. בשדה **פריט ראשי לסנכרון ראשוני**, בחר **יישומי Finance and Operations** עבור מפת ספר ראשי וכל המפות של הדרישות המוקדמות. בחר **הפעל**.
+1. מרשימת המפות, בחר את המפה 'ספר חשבונות' **(‏‎‏‏msdyn‏‏\_ledgers)** עם כל הדרישות המוקדמות ובחר את תיבת הסימון **סנכרון ראשוני**. בשדה **פריט ראשי לסינכרון ראשוני**, בחר **יישומי פיננסים ותפעול** עבור מפת ספר חשבונות וכל המפות של הדרישות המוקדמות. בחר **הפעל**.
 
 ![סנכרון מפת ספר ראשי.](media/DW6.png)
 
@@ -46,7 +46,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | כותרות על חוזי פרויקט (הזמנות מכירה) | 1.0.0.1 | לא נדרש להקצאה. ||
 | סעיפי חוזה של פרויקט (salesorderdetails) | 1.0.0.0 | לא נדרש להקצאה. ||
 | מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | לא נדרש להקצאה. ||
-| טבלת שילוב Project Operations להערכת הוצאות (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. ||
+| טבלת שילוב פרויקט להערכת חומרים (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. ||
 | הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. ||
 | נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. ||
 | אבני דרך של סעיף חוזה של שילוב Project Operations‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. ||

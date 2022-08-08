@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959488"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029301"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>הרשמה לגירסאות ניסיון של Project Operations 
 
@@ -86,11 +86,11 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
  
   כאשר ההקצאה הושלמה, מצב הסביבה שלך הוא **מוכן**. הקצאת הסביבה כוללת פריסת נתוני הדגמה.
  
-4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי פיננסים ותפעול המתאימים כדי לאמת את הפריסה.
+4.  בחר את כתובת ה- URL המתאימה של Microsoft Dataverse ואת כתובות ה- URL של יישומי הפיננסים והתפעול המתאימים כדי לאמת את הפריסה.
 
 ## <a name="configuring-dual-write"></a>קביעת תצורה של כתיבה כפולה
 - כדי להגדיר תפקידי אבטחה עבור כתיבה כפולה, ראה [עדכון הגדרות האבטחה ב-Project Operations ב- Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- כדי לגשת לתצורת כתיבה כפולה, נווט אל מופע Finance and Operations, ולאחר מכן נווט אל **ניהול נתונים** > **כתיבה כפולה**.
+- כדי לגשת לתצורת כתיבה כפולה, נווט אל מופע הפיננסים והתפעול, ולאחר מכן נווט אל **ניהול נתונים** > **כתיבה כפולה**.
 - כדי להגדיר מפות כתיבה כפולה, ראה [הפעלה מפות כתיבה כפולה של Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>הקצאת רשיונות
@@ -115,9 +115,9 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 - [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
 - [קביעת סוג הפריסה](determine-deployment-type.md)
 
-## <a name="frequently-asked-questions"></a>שאלות נפוצות
+## <a name="frequently-asked-questions"></a>‏‫שאלות נפוצות‬
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>מה אם דרוש ללי ALM או ELM עבור סביבת יישומי הפיננסים והתפעול שלי?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>מה אם דרוש לי ALM או ELM עבור סביבת יישומי הפיננסים והתפעול שלי?
 
 - עבור שותפים הזקוקים ליכולות מלאות של ניהול מחזור חיים של סביבה, עיין ב[בקשה לרשיון לארגז חול של שותף](https://experience.dynamics.com/requestlicense) כדי לסקור את הצעת השותף החדשה. 
 - עבור שותפים הזקוקים למידע נוסף אודות זכויות שימוש פנימי, ראה [יתרון הענן והתוכנה של זכויות השימוש הפנימי (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

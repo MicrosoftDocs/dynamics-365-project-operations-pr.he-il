@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911321"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028749"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, מרץ 2021 לתרחישים של מלאי/ מבוססי ייצור
 
@@ -121,7 +121,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | ניהול פרוייקטים וחשבונאות | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | שיטת הסיווג של מבנה התפלגות עבודה (WBS) של הדור הקודם, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** הוצאה משימוש.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

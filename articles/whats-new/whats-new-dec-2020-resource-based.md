@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933033"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029715"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש דצמבר 2020 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
 
@@ -61,7 +61,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ‏‫תכנון פרויקטים ומעקב אחריהם | 2057197          | אין תמיכה בהערכת העתק שורה עם הפניה למשימה                                                                                                     |
 | ‏‫תכנון פרויקטים ומעקב אחריהם | 2060687          | אזהרה על אזור הזמן נעלמת כעת לאחר פרק זמן מסוים                                                                                                      |
 | ניהול משאבים           | 1832887          | מזהה קטגוריית ברירת המחדל של משאבים צריך להיות סטטי כדי להבטיח עומסי נתונים שניתנים לחזרה עבור Dataverse וסביבות Finance                                                 |
-| זמן והוצאה              | 2081793          | יש למפות את **שם קטגוריית הוצאות** לשדה **תיאור קטגוריית הוצאות** ביישומי Finance and Operations                                                  |
+| זמן והוצאה              | 2081793          | יש למפות את **שם קטגוריית הוצאות** לשדה **תיאור קטגוריית הוצאות** ביישומי פיננסים ותפעול                                                  |
 | זמן והוצאה              | 2034882          | לחצן **חדש** מוצג פעמיים בסרגל הפקודות עבור ערכי זמן כאשר Dynamics 365 Field Service מותקן                                          |
 | זמן והוצאה              | 2056028          | עדכון דף **עריכת זמן** שיכלול ציר זמן                                                                                                              |
 | זמן והוצאה              | 1983747          | תרשים ערכי הזמן מציג נתונים נוספים                                                                                                                   |
@@ -106,7 +106,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | נסיעות והוצאה                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | זרימת העבודה של רישום אוטומטי של דוח הוצאות הושלמה אך החשבונית לא פורסמה                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

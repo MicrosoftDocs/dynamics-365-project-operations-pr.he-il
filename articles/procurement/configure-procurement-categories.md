@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927421"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028611"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>השתמש בקטגוריות רכש עם הזמנות רכש של פרוייקטים וחשבוניות ספק ממתינות
 
@@ -25,7 +25,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 הגרסאות הבאות נדרשות כדי להשתמש בקטגוריות רכש עם הזמנות רכש של פרוייקטים עבור תרחישי Microsoft Dynamics 365 Project Operations ללא מלאי/מבוססי משאבים:
 
 - פתרון Dataverse Project Operations גרסת 4.41.0.45 ואילך
-- סביבת פיננסים ותפעול גרסה 10.0.26 ואילך
+- סביבת פיננסים ותפעול גhרסה 10.0.26 ואילך
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>הפעל מפות כתיבה כפולות לתמיכה בקטגוריות רכש
 

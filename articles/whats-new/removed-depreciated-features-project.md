@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921487"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028330"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>תכונות שהוסרו או הוצאו משימוש ב- Dynamics 365 Project Operations
 
@@ -26,7 +26,7 @@ _**חל על:** ‏ Project Operations לתרחישים מבוססי משאבי�
 רשימה זו נועדה לסייע לך לקחת בחשבון בתכנון שלך את התכונות האלה שהוסרו או הוצאו משימוש.
 
 > [!NOTE]
-> מידע מפורט על אובייקטים ביישומי Finance and Operations ניתן למצוא ב [**דוחות הפניה טכניים**](/dynamics/s-e/global/axtechrefrep_61). ניתן להשוות בין הגרסאות השונות של דוחות אלה כדי ללמוד על אובייקטים שהשתנו או הוסרו בכל גרסה של יישומי Finance and Operations.
+> מידע מפורט על אובייקטים ביישומי פיננסים ותפעול ניתן למצוא ב [**דוחות הפניה טכניים**](/dynamics/s-e/global/axtechrefrep_61). אפשר להשוות בין הגירסאות השונות של דוחות אלה כדי ללמוד על אובייקטים שהשתנו או הוסרו בכל גרסה של יישומי פיננסים ותפעול.
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>תכונות שהוסרו או הוצאו משימוש במהדורת מרץ 2022 של Project Operations
 

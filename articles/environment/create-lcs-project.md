@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6f5bd20b9d0e8ca1ace1dd6a5a66ae1810bb5b3b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a3b7db477434c08c5b0b57a71c0ffa32a78aea47
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923235"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028658"
 ---
 # <a name="start-a-new-lcs-project"></a>התחלת פרוייקט LCS חדש
 
@@ -27,7 +27,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
   ![בחר סוג פרוייקט LCS.](./media/create-lcs-1.png)
 
 5. תן שם לפרוייקט. 
-6. בחר **Finance and Operations** כשם המוצר, ובחר את התעשייה והמתודולוגיה. 
+6. בחר **פיננסים ותפעול** כשם המוצר, ובחר את התעשייה והמתודולוגיה. 
 7. בחר **Create** (צור).
 
 ![יצירת פרוייקט LCS.](./media/create-lcs-2.png)

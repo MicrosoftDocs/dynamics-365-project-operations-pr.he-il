@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916473"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028156"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>מה חדש ומה השתנה ב- Project Operations, אפריל 2021 בתרחישים מבוססי מלאי/ייצור
 
@@ -83,7 +83,7 @@ _חל על:**‏ Project Operations** לתרחישים מבוססי ייצור/�
 | נסיעות והוצאה                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | כאשר קטגוריית הוצאות היא קטגוריה שאינה קשורה לפרויקט, הממדים הכספיים שנבחרו בדף **הוצאות** לא מועתקים אל דוח ההוצאות.                                          |
 
 ### <a name="regulatory-updates"></a>עדכוני רגולציה
-למידע על עדכונים רגולטוריים עבור יישומי כספים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
+למידע על עדכונים רגולטוריים עבור יישומי פיננסים ותפעול, ראה [עדכונים רגולטוריים](/dynamics365/finance/localizations/regulatory-updates). ניתן גם להיכנס ל-LCS ולהציג את העדכונים הרגולטוריים המתוכננים באמצעות כלי החיפוש הבעיות. חיפוש בעיות מאפשר לך לחפש לפי מדינה, סוג תכונה והפצה.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

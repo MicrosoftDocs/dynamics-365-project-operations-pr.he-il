@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931193"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028474"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>פריטים נדרשים עבור חוזי פרויקט עם מספר מקורות מימון
 
@@ -31,9 +31,9 @@ Contoso זכתה בחוזה לחידוש ציוד עם שניים מלקוחות
 
 ## <a name="set-up-invoice-account-defaulting-rules-for-item-requirements"></a>הגדר כללי ברירת מחדל בחשבון החשבונית עבור דרישות הפריט
 
-### <a name="prerequisites"></a>דרישות מוקדמות
+### <a name="prerequisites"></a>‏‫דרישות מוקדמות‬
 
-- Microsoft Dynamics 365 Finance and Operations **גרסה 10.0.27 ואילך** נדרש לשימוש בדרישות פריט שיש להן מספר חשבונות חשבוניות.
+-  Microsoft Dynamics365 Finance **גירסה 10.0.27 ואילך** נדרשת לשימוש בדרישות פריט עם כמה חשבונות חשבוניות.
 - מנהל מערכת שלך חייבת להפוך את התכונה **אפשר דרישות פריט עם מקורות מימון מרובים עבור תרחישי מלאי/מבוססי ייצור של Project Operations** לזמינה בסביבת העבודה **ניהול תכונות**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>הגדר את כללי ברירת המחדל של חשבון החשבונית

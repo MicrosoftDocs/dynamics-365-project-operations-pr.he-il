@@ -6,12 +6,12 @@ ms.date: 10/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 583524ccf33f2dc42ee6beba7e00cc5fd74819d4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e09d92de310dbe09e53ae134e5bb195fd64178f
+ms.sourcegitcommit: 341192e1e45eb42d6b18a8370ac2e1100c4a4ca4
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598673"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9137181"
 ---
 # <a name="submit-a-resource-request"></a>שליחת בקשת משאב
 
@@ -24,7 +24,11 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 
 מצב הבקשה של חבר הצוות הכללי ישתנה ל **נשלח**.
 
-לאחר מימוש הבקשה, המשאב הכללי מוחלף במשאב בעל שם אם מנהל המשאבים מממש את הבקשה על-ידי הזמנה של משאב בעל שם. אחרת, אם מנהל המשאבים מציע משאב בעל שם, המשאב הכללי נשאר בצוות ומצב הבקשה משתנה ל **נחוצה סקירה**.
+למקבל בקשת המשאב יש את היכולת לממש את הבקשה באופן חלקי באמצעות משאב אחד או יותר, או לממש את בקשת המשאב במלואה.
+
+לאחר מימוש הבקשה, משאבים בשם אחד או יותר מתווספים לפרויקט כחברי צוות הפרויקט. אם דרישת המשאב מתממשת על ידי משאב אחד, חבר הצוות הכללי המשויך לבקשת המשאב יימחק. 
+
+לאחר שהמקבל של בקשת המשאב הציע משאבים ומוכן שמנהל הפרויקט יסקור את המשאבים שהוצעו, עליו לעדכן את סטטוס בקשת המשאב ל **נחוצה סקירה**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
