@@ -38,7 +38,7 @@
               href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: הקצאת סביבה חדשה
               href: environment/resource-provision-new-environment.md
-            - name: מודל האבטחה
+            - name: מודל אבטחה
               href: environment/security-model.md
             - name: קביעת תצורה של שילוב Project Operations עבור כל ישות משפטית
               href: environment/resource-configure-integration-per-legal-entity.md
@@ -60,12 +60,14 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: הסר התקנה של Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: מה חדש
+    - name: ‏‫מה חדש‬
       items:
-        - name: יולי 2022 - ‏‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: אוגוסט 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: ארכיון
           items:
+            - name: יולי 2022 - ‏‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: יוני 2022 - ‏‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: מאי 2022 - ‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
@@ -258,7 +260,7 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: הגדרת שדות מותאמים אישית כממדי תמחור
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-                - name: עדכון תכונות של יישום plug-in כדי לכלול ממדי תמחור חדשים
+                - name: עדכון תכונות של אפליקציה plug-in כדי לכלול ממדי תמחור חדשים
                   href: pricing-costing/update-plugin-attributes-pd.md
             - name: ביטול ממד תמחור
               href: pricing-costing/turning-off-pricing-dimension.md
@@ -384,6 +386,42 @@
           items:
             - name: מבט כולל על ניצול משאבים
               href: resource-management/resource-utilization-overview.md
+    - name: ניהול חוזי משנה
+      items:
+        - name: ניהול חוזי משנה ב- Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: מושגי מפתח בקבלנות משנה
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: ניהול ספקים ומחירוני פרוייקטים
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: קבלני משנה כמשאבים ניתנים להזמנה
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: פרטי כותרת לחוזי משנה
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: סעיפי חוזה משנה לזמן
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: סעיפי חוזה משנה לקטגוריות הוצאה
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: סעיפי חוזה משנה למוצרים
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: משאבים של סעיף חוזה משנה
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: אבני דרך של סעיף חוזה משנה
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: חוזי משנה של חברי צוות פרוייקט
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: אפשרויות חוזי משנה של חברי צוות פרוייקט
+          href: pro/subcontracting/subcon-options.md
+        - name: הערכת עלויות של הקצאות משאבים בקבלנות משנה
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: קביעת התצורה של לוח הזמנים כדי להציג עובדי חוזה וקיבולת חוזה משנה
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: איוש פרויקט עם עובדי חוזה וקיבולת חוזה משנה
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'רישום זמן, הוצאות ושימוש בחומרים עבור רכיבים בחוזה משנה'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: מעברי מצב בחוזה משנה
+          href: pro/subcontracting/subcon-states.md
     - name: זמן
       items:
         - name: מבט כולל על זמן
@@ -580,6 +618,8 @@
       items:
         - name: העברת אבני דרך של חיוב עם חשבוניות מלאות במהלך ההעברה
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: סנכרן את מצב הפרוייקט כדי למנוע כניסה לפרוייקטים סגורים
+          href: advanced-configuration/sync-project-status.md
     - name: שדרוג
       items:
         - name: שיקולי שדרוג עבור אישורים מודרניים
@@ -606,14 +646,16 @@
           href: environment/lite-deployment.md
         - name: ‏‫החלה של נתוני הגדרת ההדגמה וקביעת התצורה - Lite‬
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: ‏‫מודל האבטחה‬
+        - name: ‏‫מודל אבטחה‬
           href: environment/security-model.md
     - name: ‏‫מה חדש‬
       items:
-        - name: ‏‫מה חדש ביולי 2022 - פריסה קלה
-          href: pro/whats-new/whats-new-july-2022-lite.md
-        - name: ארכיון‬
+        - name: מה חדש באוגוסט 2022 - פריסה קלה
+          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: ארכיון
           items:
+            - name: ‏‫מה חדש ביולי 2022 - פריסה קלה
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: ‏‫‏‫מה חדש ביוני 2022 - פריסה קלה
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: ‏‫מה חדש בגישה המוקדמת לגל 2 ב-2021 - פריסה קלה‬
@@ -828,7 +870,7 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: הגדרת שדות מותאמים אישית כממדי תמחור
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-                - name: עדכון תכונות של יישום plug-in כדי לכלול ממדי תמחור חדשים
+                - name: עדכון תכונות של אפליקציה plug-in כדי לכלול ממדי תמחור חדשים
                   href: pricing-costing/update-plugin-attributes-pd.md
             - name: ביטול ממד תמחור
               href: pricing-costing/turning-off-pricing-dimension.md
@@ -1164,7 +1206,7 @@
           href: prod-pma/work-breakdown-structures.md
         - name: שילוב של Microsoft Project Client
           href: prod-pma/project-integration.md
-        - name: מבט כולל על יישומים למכשירים ניידים של הפרוייקט
+        - name: מבט כולל על אפליקציות למכשירים ניידים של הפרוייקט
           href: prod-pma/project-mobile-application-overview.md
         - name: סביבת עבודה ניידת של ערכי זמן של פרוייקט
           href: prod-pma/project-time-entry-mobile-workspace.md
@@ -1354,7 +1396,7 @@
       href: expense/cash-advance.md
     - name: ‏‫אש"ל‬
       href: expense/per-diems.md
-    - name: ‏‫יישומי הוצאות למכשירים ניידים‬
+    - name: ‏‫אפליקציית הוצאות למכשירים ניידים‬
       href: expense/expense-using-mobile.md
     - name: ‏‫ניהול פיננסי‬
       items:
@@ -1458,7 +1500,7 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: מה חדש ומה השתנה ב-Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: תכנון ההטמעה (גירסת יישום ‎3.x)
+    - name: תכנון ההטמעה (גירסת אפליקציה ‎3.x)
       items:
         - name: התקנת נתונים לדוגמה
           href: psa/install-sample-data-3-x.md
@@ -1528,7 +1570,7 @@
               href: psa/field-references.md
             - name: הגדרת שדות מותאמים אישית כממדי תמחור
               href: psa/set-up-pricing-dimensions.md
-            - name: עדכון תכונות של יישום plug-in כדי לכלול ממדי תמחור חדשים
+            - name: עדכון תכונות של אפליקציה plug-in כדי לכלול ממדי תמחור חדשים
               href: psa/update-plug-in-attributes.md
             - name: שימוש בשדה קיים כממד תמחור
               items:
@@ -1662,9 +1704,9 @@
       items:
         - name: שאלות נפוצות ופתרון בעיות
           items:
-            - name: כיצד ניתן להקצות משאב למשימה (גירסת יישום ‎2.x)?
+            - name: כיצד ניתן להקצות משאב למשימה (גירסת אפליקציה ‎2.x)?
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
-            - name: כיצד ניתן לבצע ‏‫הזמנה טנטטיבית‬‬ של משאבים (גירסת יישום ‎2.x)?
+            - name: כיצד ניתן לבצע ‏‫הזמנה טנטטיבית‬‬ של משאבים (גירסת אפליקציה ‎2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
             - name: כיצד ניתן להתאים אישית את זרימת התהליך העסקי של שלבי פרוייקט?
               href: psa/FAQ-customize-bpf.md
@@ -1816,7 +1858,7 @@
               href: psa/find-next-project-finder-mobile-app.md
             - name: מדריך מרכז משאבי פרוייקט
               href: psa/project-resource-hub-users-guide.md
-        - name: הערות למפתחים (גירסת יישום ‎2.x)
+        - name: הערות למפתחים (גירסת אפליקציה ‎2.x)
           items:
             - name: הוספת טפסים מותאמים אישית עבור ישויות
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
