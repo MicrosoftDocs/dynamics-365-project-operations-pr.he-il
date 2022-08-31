@@ -1,17 +1,17 @@
 ---
-title: הגדרה והחלה של נתוני  תצורה ב-Common Data Service
+title: הגדרה והחלה של נתוני  תצורה ב-Microsoft Dataverse
 description: מאמר זה מספק מידע על הגדרת נתוני תצורה ב- Project Operations והחלתם.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928019"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230238"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>הגדרה והחלה של נתוני  תצורה ב-Common Data Service 
 
@@ -19,12 +19,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 
 
-## <a name="prerequisites"></a>דרישות מוקדמות
+## <a name="prerequisites"></a>‏‫דרישות מוקדמות‬
 
-לפני שתתחיל להגדיר נתונים ב- Common Data Service (CDS), יש לעמוד בתנאים המוקדמים הבאים:
+לפני שתתחיל להגדיר נתונים ב- Microsoft Dataverse, יש לעמוד בתנאים המוקדמים הבאים:
 
-1.  אספקת סביבת CDS וסביבת Dynamics 365 Finance עבור Project Operations.
-2.  פרטי ישות משפטית מ- Dynamics 365 Finance משותפעים בסביבת CDS. פירוש הדבר שישות **חברה** ב- CDS כוללת את רשומות החברה הבאות:
+1.  אספקת סביבת Dataverse וסביבת Dynamics 365 Finance עבור Project Operations.
+2.  פרטי ישות משפטית מ- Dynamics 365 Finance משותפים בסביבת Dataverse. פירוש הדבר שהישות **חברה** ב- Dataverse כוללת את רשומות החברה הבאות:
   - THPM
   - USPM
   - GBPM
