@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348011"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403857"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש באוגוסט 2022 - Project Operations לתרחישים של משאבים/ללא-מלאי
 
@@ -38,6 +38,11 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | אזור תכונות | מספר אסמכתא | עדכון איכות |
 | --- | --- | --- |
 |   ניהול הזדמנויות | 2762089 | טיפול בשגיאות במהלך סגירת החוזה יאבד אם השמירה האוטומטית מושבתת בארגון.|
+|‏‫תכנון פרויקטים ומעקב אחריהם | 2767841 | מדידת השימוש מעדכנת את התרחישי היצירה או העדכון של הישות 'פרויקט'.|
+|חיוב ותמחור | 2771072 | טיפול בחריג הפניה Null בזמן זכייה בהצעת מחיר.|
+|חיוב ותמחור | 2844181 |כשל בקבלת מזהה מתאם וחסימת יצירת חשבונית.|
+|חיוב ותמחור | 2852836 | חסרים נתונים בפועל בין חברות עבור הוצאות בין-חברות שנוצרו ואושרו ב-CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>ניהול וחשבונאות של פרוייקטים ב- Finance
 
