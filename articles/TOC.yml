@@ -166,13 +166,15 @@
                   href: sales/import-estimate-quote-line.md
                 - name: לוחות זמנים של חשבוניות בשורות הצעות מחיר מבוססות פרוייקט
                   href: sales/invoice-schedule-quote-line.md
-            - name: העתקת הצעות מחיר
+            - name: העתקת הצעות מחיר של פרוייקט
               href: sales/lose-quote.md
+            - name: הפעלה ותיקון של הצעת מחיר של פרוייקט
+              href: sales/activation-and-revision.md
             - name: סגירת הצעות מחיר של פרוייקט
               href: sales/win-quote.md
-        - name: ניהול חוזים של פרוייקט
+        - name: ניהול חוזי פרוייקט
           items:
-            - name: מבט כולל על ניהול חוזים של פרוייקט
+            - name: מבט כולל על ניהול חוזי פרוייקט
               href: pro/sales/manage-contracts-sales.md
             - name: מושגים ייחודיים לחוזים מבוססי פרוייקט
               href: sales/contracts-key-concepts.md
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: יצירת לוחות זמנים של חשבונית בסעיפי חוזה מבוססי פרוייקט
                   href: sales/invoice-schedules-contract-line.md
+            - name: העתקת חוזים מבוססי פרוייקט
+              href: sales/copy-project-based-contracts-sales.md
             - name: אישור חוזה פרוייקט
               href: pro/sales/confirm-contract-sales.md
             - name: מקדמות וריטיינרים
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: עקיפת מחירוני מכירות של פרוייקט
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: פתרון מחירי עלות עבור הערכות ונתונים בפועל
+            - name: קביעת מחירי עלות עבור הערכות ונתונים בפועל
               href: pricing-costing/cost-price-resolution.md
-            - name: פתרון מחירי מכירות עבור הערכות ונתונים בפועל
+            - name: קביעת מחירי מכירות עבור הערכות ונתונים בפועל
               href: pricing-costing/sales-price-resolution.md
             - name: העתקת מחירונים
               href: pricing-costing/copy-price-lists.md
@@ -762,10 +766,12 @@
                   href: pro/sales/create-estimate-quote-line-sales.md
                 - name: ייבוא הערכה מפרוייקט
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: ניהול לוחות זמנים של חשבוניות
+                - name: ניהול לוחות זמנים של חשבונית
                   href: sales/invoice-schedule-quote-line.md
             - name: העתקת הצעות מחיר מבוססות פרוייקט
               href: sales/lose-quote.md
+            - name: הפעלה ותיקון של הצעת מחיר של פרוייקט
+              href: sales/activation-and-revision.md
             - name: סגירת הצעות מחיר מבוססות פרוייקט
               href: pro/sales/win-quote-sales.md
         - name: ניהול חוזים מבוססי פרוייקט
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: עקיפת מחירוני מכירות של פרוייקט
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: פתרון מחירי עלות להערכות ולנתונים בפועל של פרוייקט
+            - name: קביעת מחירי עלות להערכות ולנתונים בפועל של פרוייקט
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: פתרון מחירי מכירות עבור הערכות ונתונים בפועל של פרוייקט
+            - name: קביעת מחירי מכירות עבור הערכות ונתונים בפועל של פרוייקט
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: העתקת מחירונים
               href: pricing-costing/copy-price-lists.md
