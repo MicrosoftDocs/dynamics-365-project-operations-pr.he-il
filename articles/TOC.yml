@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: עקיפת מחירוני מכירות של פרוייקט
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: הגדרת עקיפות בתוקף עבור מחירים ספציפיים במחירון
+              href: pricing-costing/dateffective_price_overrides.md
             - name: קביעת מחירי עלות עבור הערכות ונתונים בפועל
               href: pricing-costing/cost-price-resolution.md
             - name: קביעת מחירי מכירות עבור הערכות ונתונים בפועל
@@ -542,13 +544,21 @@
           href: procurement/configure-procurement-categories.md
         - name: רכישת סחורה ושירותים שאינם במלאי עבור פרוייקטים באמצעות חשבוניות ספק בהמתנה
           href: procurement/pending-vendor-invoices.md
-        - name: הזמנת סחורה ושירותים שאינם במלאי עבור פרוייקטים באמצעות הזמנות רכש לפרוייקט‬
+        - name: הזמנת סחורה ושירותים עבור פרוייקטים באמצעות הזמנות רכש לפרוייקט‬
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: חשבוניות ספק עבור חוזי משנה ב- Dataverse
+          items:
+            - name: יצירת חשבוניות ספק
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: אימות חשבוניות ספקים עם נתונים בפועל שאושרו
+              href: pro/subcontracting/VI-Verification.md
+            - name: אישור חשבוניות ספק של פרוייקט
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: שמירת ספקים
           items:
-            - name: מבט כולל על שימור ספקים
+            - name: מבט כולל על שמירת ספקים
               href: procurement/vendor-retention-overview.md
-            - name: הגדרת שימור ספקים
+            - name: הגדרת שמירת ספקים
               href: procurement/set-up-vendor-retention.md
     - name: הפקת חשבונית
       items:
@@ -844,7 +854,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: עקיפת מחירוני מכירות של פרוייקט
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: קביעת מחירי עלות להערכות ולנתונים בפועל של פרוייקט
+            - name: הגדרת עקיפות בתוקף עבור מחירים ספציפיים במחירון
+              href: pricing-costing/dateffective_price_overrides.md
+            - name: קביעת מחירי עלות עבור הערכות ונתונים בפועל של פרוייקט
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: קביעת מחירי מכירות עבור הערכות ונתונים בפועל של פרוייקט
               href: pro/pricing-costing/sales-price-resolution-sales.md
