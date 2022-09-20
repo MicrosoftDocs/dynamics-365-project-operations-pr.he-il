@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230252"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446036"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>שדרג מ- Project Service Automation ל- Project Operations
 
@@ -29,7 +29,7 @@ ms.locfileid: "9230252"
 
 תוכנית אספקת השדרוג תפוצל לשלושה שלבים.
 
-| אספקת השדרוג | שלב 1 (ינואר 2022) | שלב 2 (גל אפריל 2022) | שלב 3  |
+| אספקת השדרוג | שלב 1 (ינואר 2022) | שלב 2 (נובמבר 2022) | שלב 3 (גל אפריל 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | אין תלות במבנה התפלגות העבודה (WBS) עבור פרויקטים | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | ה-WBS במסגרת המגבלות של Project Operations שנתמכות כרגע | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ ms.locfileid: "9230252"
 
 כחלק מתהליך השדרוג, הוספנו יומני שדרוג למפת האתר, כך שמנהלי מערכת יוכלו לאבחן תקלות ביתר קלות. בנוסף לממשק החדש, כללי אימות חדשים יתווספו כדי להבטיח את שלמות הנתונים לאחר שדרוג. האימותים הבאים יתווספו לתהליך השדרוג.
 
-| אימותים | שלב 1 (ינואר 2022) | שלב 2 (גל אפריל 2022) | שלב 3  |
+| אימותים | שלב 1 (ינואר 2022) | שלב 2 (נובמבר 2022) | שלב 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | ה-WBS יאומת כנגד הפרות נפוצות של שלמות הנתונים (לדוגמה, הקצאות של משאבים המשויכות לאותה משימת אב אך יש להן פרויקטי אב שונים). | | :heavy_check_mark: | :heavy_check_mark: |
 | ה-WBS יאומת כנגד [המגבלות הידועות של Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

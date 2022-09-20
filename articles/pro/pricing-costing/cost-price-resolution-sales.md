@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410150"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475232"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>קביעת תעריפי עלות עבור הערכות ונתונים בפועל של פרוייקט
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-כדי לקבוע את מחירון מחיר העלות ואת תעריפי העלות בהקשרים של הערכה מחיר ונתונים בפועל, המערכת משתמשת במידע שמופיע בשדות **תאריך**, **מטבע**, ו **יחידת החוזה** של הפרויקט הקשור.
+כדי לקבוע את תעריף העלות בהערכות ובנתונים בפועל ב- Microsoft Dynamics 365 Project Operations, המערכת משתמשת תחילה בתאריך ובמטבע של הקשר ההערכה או נתונים בפועל הנכנסים כדי לקבוע את מחירון העלות. בהקשר של הנתונים בפועל באופן ספציפי, המערכת משתמשת בשדה **תאריך עסקה** כדי לקבוע איזה מחירון מתאים. הערך **תאריך עסקה** של אומדן הנתונים הנכנסים או בפועל מושווה עם **התחלה בפועל (בלתי תלוי באזור זמן)** וגם **תאריך סיום(בלתי תלוי באזור זמן)** במחירון. לאחר קביעת מחירון העלות, המערכת קובעת את תעריף העלות. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>קביעת תעריפי העלות בהקשרים של הערכת מחיר ונתונים בפועל עבור 'זמן'
 
