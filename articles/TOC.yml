@@ -508,13 +508,15 @@
           href: approvals/cancelapproval.md
         - name: אחזור של ערכים שאושרו בעבר
           href: approvals/recall-cancel.md
+        - name: אבטחה ואישורים
+          href: approvals/approvals-security.md
         - name: הערות למפתחים
           items:
             - name: הערות למפתחים עבור אישורים
               href: approvals/dev-notes-approvals.md
     - name: נתונים בפועל
       items:
-        - name: ‏‫עסקאות עסקיות ב- Project Operations‬
+        - name: ‏‫עסקאות עסקיות ב-Project Operations‬
           href: actuals/businesstransactions.md
         - name: ‏‫מבט כולל על נתונים בפועל‬
           href: actuals/actuals-overview.md
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: הגדרת שמירת ספקים
               href: procurement/set-up-vendor-retention.md
+            - name: גב אל גב
+              href: procurement/Pay-when-paid.md
     - name: הפקת חשבונית
       items:
         - name: מבט כולל על תהליך הפקת חשבונית
@@ -1102,13 +1106,15 @@
           href: approvals/cancelapproval.md
         - name: אחזור של ערכים שאושרו בעבר
           href: approvals/recall-cancel.md
+        - name: אבטחה ואישורים
+          href: approvals/approvals-security.md
         - name: הערות למפתחים
           items:
             - name: הערות למפתחים עבור אישורים
               href: approvals/dev-notes-approvals.md
     - name: נתונים בפועל
       items:
-        - name: עסקאות עסקיות ב- Project Operations
+        - name: ‏‫עסקאות עסקיות ב-Project Operations‬
           href: actuals/businesstransactions.md
         - name: מבט כולל על נתונים בפועל
           href: actuals/actuals-overview.md
