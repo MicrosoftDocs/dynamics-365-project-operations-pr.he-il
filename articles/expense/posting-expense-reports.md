@@ -1,8 +1,8 @@
 ---
 title: פרסום דוחות הוצאות
 description: מאמר זה מסביר כיצד לפרסם דוחות הוצאות.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934505"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524870"
 ---
 # <a name="post-expense-reports"></a>פרסום דוחות הוצאות
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934505"
 
 ניתן גם לרשום את כל דוחות ההוצאות שברשימה בו זמנית. בחר את כל דוחות ההוצאות ולאחר מכן בחר **רשום**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>הפעל את התכונה 'יכולת לפרסם חבות הוצאות במטבע הספק עבור אמצעי תשלום במזומן'
+
+התכונה **יכולת לפרסם חבות הוצאות במטבע הספק עבור אמצעי תשלום במזומן** מאפשרת פרסום של דוחות הוצאות במטבע ספק עבור שיטת התשלום במזומן.
+
+נכון לעכשיו, בעת הגשת הוצאות במזומן, דוחות ההוצאות מתפרסמים במטבע החשבונאות. בגלל המרת סכום בין מטבע העסקה, מטבע החשבונאות וומטבע הספק, סכום שגוי משולם לספקים אם בתאריך העסקה של ההוצאה ובתאריך התשלום בפועל יש שערי חליפין שונים.
+
+תכונה זו תבטיח שיתרת הספק תירשם במטבע הספק בעת רישום דוח ההוצאות.
+
+1. עבור אל **סביבות עבודה** \> **ניהול תכונות**.
+2. ברשימה, מצא ובחר **יכולת לפרסם חבות הוצאות במטבע הספק עבור אמצעי תשלום במזומן** ולאחר מכן בחר **הפעל עכשיו**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

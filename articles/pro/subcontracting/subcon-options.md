@@ -2,20 +2,20 @@
 title: אפשרויות קבלנות משנה לחברי צוות הפרויקט
 description: מאמר זה מסביר את אפשרויות קבלנות המשנה עבור חברי צוות הפרויקט ב- Microsoft Dynamics 365 Project Operations‏.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261607"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522279"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>אפשרויות קבלנות משנה לחברי צוות הפרויקט
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 ב- Dynamics 365 Project Operations‏ Microsoft, תוכל להעריך את אפשרויות קבלנות המשנה הזמינות עבור חבר אחד או יותר בצוות הפרויקט. אפשרויות קבלנות המשנה הזמינות מאפשרות לך:
 

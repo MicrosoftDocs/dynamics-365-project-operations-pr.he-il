@@ -2,20 +2,20 @@
 title: סעיפי חוזה משנה עבור קטגוריות הוצאות
 description: מאמר זה מסביר כיצד לרשום שורות קבלני משנה עבור הוצאות ולהשתמש בשדות כדי לתעד את רכישת הזמן מספקים.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261841"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522608"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>סעיפי חוזה משנה עבור קטגוריות הוצאות
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 לחוזה משנה ב- Dynamics 365 Project Operations יכול להיות סעיף חוזה משנה עבור קטגוריות הוצאות. סעיפי חוזה משנה עבור קטגוריות הוצאות מאפשרים למנהל פרוייקט לרכוש קטגוריות של שירותים או מוצרים מספקים שהוא יכול לחייב על פרוייקט.
 

@@ -2,16 +2,16 @@
 title: יומן שילוב ב-Project Operations
 description: מאמר זה מספק מידע על עבודה עם יומן השילוב ב- Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106276"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541078"
 ---
 # <a name="integration-journal-in-project-operations"></a>יומן שילוב ב-Project Operations
 
@@ -65,6 +65,12 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 > [!NOTE]
 > כדי להשתמש ביכולת זו, הפעל את תכונת **העבר את כל השורות עם שגיאות רישום ליומן שילוב חדש של Project Operations** בסביבת עבודה **ניהול תכונות**.
 
-במהלך הרישום ביומן שילוב Project Operations, המערכת מאמתת כל שורה ביומן. המערכת רושמת את כל השורות ללא שגיאות ויוצרת יומן חדש עבור כל השורות שיש בהן שגיאות רישום. כדי לסקור את היומנים שיש בהם שורות שגיאת רישום, עבור אל **ניהול פרויקטים וחשבונאות** > **יומנים** > **יומן שילוב של Project Operations**, וסנן את היומנים באמצעות שדה **יומן מקורי**.
+תכונה זו עוזרת לשפר את החוויה עם יומן השילוב של Project Operations. כאשר היא מופעלת, בעיות ברישום כפול של תזמון לא מונעות עוד פרסום של יומנים תקפים. במהלך הרישום ביומן שילוב Project Operations, המערכת מאמתת כל שורה ביומן. היא מפרסמת את כל השורות שאין בהן שגיאות ויוצרת יומן חדש עבור כל השורות שיש בהן שגיאות רישום.
+
+כדי לסקור את היומנים שיש בהם שורות של שגיאות רישום, עבור אל **ניהול פרוייקטים וחשבונאות** \> **יומנים** \> **יומן השילוב של Project Operations**, וסנן את רשימת היומנים באמצעות השדה **יומן מקורי**. האיור הבא מציג דוגמה שבא היומנים בדף **יומן השילוב של Project Operations** סוננו באופן זה.
+
+![היומן המקורי מוצג בדף יומן השילוב של Project Operations.](./media/transferLines-originalJournal.png)
+
+אם משימת אצווה תקופתית מוגדרת לפרסם את יומן השילוב, יתבצע ניסיון חוזר לפרסום, והיומנים יפורסמו אם בעיית התזמון תוקנה. יש לחקור ידנית את כל היומנים שנותרי באמצעות סקירת היומנים ונקיטת פעולה נדרשת.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

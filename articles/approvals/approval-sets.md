@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918083"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524917"
 ---
 # <a name="approval-sets"></a>קבוצות אישורים
 
@@ -45,14 +45,9 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
 ## <a name="configure-approval-sets"></a>הגדר קבוצות אישורים
 
 ### <a name="enable-the-approval-sets-feature"></a>הפעל את התכונה 'קבוצות אישורים'
-לפני שתפעיל את התכונה 'קבוצות אישורים', ודא שאין כרגע אישורים בעיבוד.
+לפני שתפעיל את התכונה 'קבוצות אישורים', ודא שאין כרגע אישורים בעיבוד. לאחר הפעלת תכונה זו, לא ניתן להשבית אותה.
 
 - עבור אל הדף **פרמטרים של הפרוייקט** ובחר **בקרת תכונות** > **הפעל אישורים מודרניים**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>השבת את התכונה 'קבוצות אישורים'
-לפני שתשבית את התכונה 'קבוצות אישורים', ודא שאין כרגע אישורים בעיבוד.
-
-- עבור אל הדף **פרמטרים של הפרוייקט** ובחר **בקרת תכונות** > **השבת אישורים מודרניים**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>הגדרת סף אסינכרוני 
 כאשר נוצרות קבוצות אישורים, העיבוד עובר לרקע כאשר מספר הרשומות שנבחר לאישור חורג מהסף המצוין. השתמש בשדה **סף אסינכרוני** כדי להגדיר מתי עיבוד האישורים צריך להיות מופעל באופן סינכרוני או אסינכרוני. בחר אחד מהערכים הבאים:

@@ -2,20 +2,20 @@
 title: פרטי כותרת לחוזי משנה
 description: מאמר זה מסביר את הפונקציונליות הניתנת בכותרת חוזה המשנה ב- Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261418"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522561"
 ---
 # <a name="header-details-for-subcontracts"></a>פרטי כותרת לחוזי משנה
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 מאמר זה מסביר את הפונקציונליות הניתנת בכותרת חוזה המשנה ב- Dynamics 365 Project Operations.
 

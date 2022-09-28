@@ -2,20 +2,20 @@
 title: הערכת עלויות של הקצאות משאבים בקבלנות משנה
 description: מאמר זה מסביר כיצד Microsoft Dynamics 365 Project Operations‏ מחשבת הערכת עלות של הקצאות משאבים בקבלנות משנה.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262060"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522655"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>הערכת עלויות של הקצאות משאבים בקבלנות משנה
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 תמחיר הקצאות משימות של חברי צוות פרויקט בקבלנות משנה מתבצעת באמצעות המחירון **רכישה** המצורף לחוזה המשנה ברשומת חבר הצוות הקשור. זה שונה מהאופן שבו מתבצע תמחיר הקצאות משאבי עובדים כאשר תמחיר הקצאות משימות של משאבי עובדים מתבצעת באמצעות המחירון **עלות** המצורף ליחידה הקבלנית של הפרויקט. 
 

@@ -2,20 +2,20 @@
 title: משאבים של סעיף חוזה משנה
 description: מאמר זה מסביר כיצד לציין את המשאבים הייעודיים המסופקים על ידי הספק עבור סעיף קבלנות משנה ספציפי עבור זמן.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261465"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522373"
 ---
 # <a name="subcontract-line-resources"></a>משאבים של סעיף חוזה משנה
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 ב- Dynamics 365 Project Operations, ספק יכול לציין משאבים שישמשו לאספקת קיבולת המשאבים הנרכשים בסעיף חוזה המשנה עבור זמן.
 

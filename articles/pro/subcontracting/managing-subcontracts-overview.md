@@ -2,21 +2,21 @@
 title: ניהול חוזה משנה ב-Project Operations
 description: מאמר זה מספק סקירה כללית של תהליך ניהול חוזה המשנה מקצה לקצה, בדרך כלל בארגונים מבוססי פרויקט.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 09/14/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 783ab1b642bb8cfe2fb3b977a95c8064f33a7994
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: b2e4518f77b2099f9818ea56623be9efb20b01f4
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261204"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522326"
 ---
 # <a name="subcontract-management-in-project-operations"></a>ניהול חוזה משנה ב-Project Operations
 
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 מאמר זה מספק סקירה כללית של תהליך ניהול חוזה המשנה מקצה לקצה, בארגונים מבוססי פרויקט. קבלנות משנה עבור שירותים בדרך כלל עוקבת אחר זרימת התהליך העסקי המוצגת בתרשים הבא.
 

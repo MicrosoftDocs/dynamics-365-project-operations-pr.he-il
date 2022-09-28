@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029210"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527988"
 ---
 # <a name="expense-management-integration"></a>שילוב של ניהול הוצאות
 
@@ -34,7 +34,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 
 ## <a name="expense-reports"></a>דוחות הוצאות
 
-דוחות הוצאות נוצרים ומאושרים ביישומי פיננסים ותפעול. למידע נוסף ראה [צור ועבד דוחות הוצאות ב- Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). לאחר שמנהל הפרויקט מאשר את דוח ההוצאות, הוא יועבר ספר החשבונות הראשי. ב- Project Operations, שורות דוחות הוצאות הקשורות לפרויקט נרשמות לפי כללי רישום מיוחדים:
+דוחות הוצאות נוצרים ומאושרים ביישומי פיננסים ותפעול. למידע נוסף ראה [צור ועבד דוחות הוצאות ב- Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). לאחר שמנהל הפרויקט מאשר את דוח ההוצאות, הוא יועבר ספר החשבונות הראשי. ב- Project Operations, שורות דוחות הוצאות הקשורות לפרויקט נרשמות לפי כללי רישום מיוחדים:
 
   - עלות הקשורה לפרויקט (כולל מס שאינו בר-השבה) אינה נרשמת באופן מיידי לחשבון עלות הפרויקט בספר הראשי, אלא במקום זאת היא מתועדת בחשבון שילוב הוצאות. חשבון זה מוגדר ב **ניהול פרויקטים וחשבונאות** > **הגדרה** > **פרמטרים של ניהול פרויקטים חשבונאות**, ב- **Project Operations בכרטיסיה Dynamics 365 Customer Engagement**.
   - כתיבה כפולה מסנכרנת עם Dataverse באמצעות מפת הטבלה **יישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏ (msdyn\_expenses)**.

@@ -2,20 +2,20 @@
 title: מעברי מצב בחוזה משנה
 description: מאמר זה מסביר את מעברי המצב בחוזה משנה ב- Microsoft Dynamics 365 Project Operations‏ כאשר חוזה המשנה נוצר, מבוצע ונסגר.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261199"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522890"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>מעברי מצב בחוזה משנה 
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
 מאמר זה מסביר את מעברי המצב בחוזה משנה ב- Microsoft Dynamics 365 Project Operations‏. כל מצב מיוצג כטיוטה, כמאושר, כסגור או כמבוטל. התמונה הבאה מייצגת את מעברי המצב.
 
