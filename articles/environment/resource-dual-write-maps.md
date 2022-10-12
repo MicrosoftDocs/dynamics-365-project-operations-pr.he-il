@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112430"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621082"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>גרסאות מפה של כתיבה כפולה ב-Project Operations
 
@@ -48,14 +48,14 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | מקור מימון הפרויקט (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | לא נדרש להקצאה. ||
 | טבלת שילוב פרויקט להערכת חומרים (msdyn\_estimateslines) | 1.0.0.0 | לא נדרש להקצאה. ||
 | הצעות לחשבוניות פרוייקט גרסה 2 (חשבוניות) | 1.0.0.3 | לא נדרש להקצאה. ||
-| נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.14 | לא נדרש להקצאה. ||
+| נתוני שילוב בפועל של Project Operations ‏(msdyn_actuals) | 1.0.0.15 | לא נדרש להקצאה. |10.0.29 ואילך|
 | אבני דרך של סעיף חוזה של שילוב Project Operations‏ (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | לא נדרש להקצאה. ||
 | ישות שילוב Project Operations עבור אומדני הוצאות (msdyn_estimatelines) | 1.0.0.2 | לא נדרש להקצאה. ||
 | ישות שילוב של Project Operations להערכת שעות (msdyn_resourceassignments) | 1.0.0.5 | לא נדרש להקצאה. ||
 | ישות ייצוא של Project Operations לשילוב קטגוריות של הוצאות פרויקט (msdyn_expensecategories) | 1.0.0.1 | לא נדרש להקצאה. ||
 | ישות ייצוא של שילוב הוצאות פרויקט של Project Operations ‏(msdyn_expenses) | 1.0.0.3 | לא נדרש להקצאה. ||
-| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.1 | לא נדרש להקצאה. |10.0.26 או גירסה מתקדמת יותר|
-| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.4 | לא נדרש להקצאה. | 10.0.26 או גירסה מתקדמת יותר |
+| ישות יצוא חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.2 | לא נדרש להקצאה. |10.0.29 ואילך|
+| ישות יצוא שורות חשבוניות ספק של פרויקט שילוב של Project Operations (msdyn_projectvendorinvoices‎)‎ | 1.0.0.5 | לא נדרש להקצאה. | 10.0.29 ואילך |
 | תפקידי משאבי פרויקט לכל החברות (bookableresourcecategories) | 1.0.0.1 | מחייב סנכרון ראשוני של מפת הטבלה כדי לסנכרן את תפקידי המשאבים של מנהל הפרויקט וחבר הצוות, שמאוכלסים בסביבת Dataverse Dynamics 365 במהלך ההקצאה. Dataverse הוא המקור הראשי לסנכרון הראשוני. ||
 | משימות פרויקט (msdyn_projecttasks) | 1.0.0.4 | לא נדרש להקצאה. ||
 | קטגוריות עסקאות פרויקט (msdyn_transactioncategories) | 1.0.0.0 | לא נדרש להקצאה. ||
