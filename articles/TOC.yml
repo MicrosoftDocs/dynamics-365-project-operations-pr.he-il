@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: ‏‫מה חדש‬
       items:
-        - name: אוגוסט 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: ספטמבר 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: ארכיון
           items:
+            - name: אוגוסט 2022 - Project Operations לתרחישים מבוססי משאבים/ללא מלאי
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: יולי 2022 - ‏‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: יוני 2022 - ‏‏‫Project Operations לתרחישים מבוססי משאבים/ללא מלאי‬
@@ -664,14 +666,16 @@
           href: environment/lite-deployment.md
         - name: ‏‫החלה של נתוני הגדרת ההדגמה וקביעת התצורה - Lite‬
           href: environment/lite-apply-demo-setup-config-data.md
-        - name: ‏‫מודל אבטחה‬
+        - name: מודל אבטחה
           href: environment/security-model.md
     - name: ‏‫מה חדש‬
       items:
-        - name: מה חדש באוגוסט 2022 - פריסה קלה
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: מה חדש בספטמבר 2022 - פריסה קלה
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: ארכיון
           items:
+            - name: מה חדש באוגוסט 2022 - פריסה קלה
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: ‏‫מה חדש ביולי 2022 - פריסה קלה
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: ‏‫‏‫מה חדש ביוני 2022 - פריסה קלה
@@ -1178,12 +1182,14 @@
           items:
             - name: עדכן את Project Operations‬ בסביבת Finance שלך
               href: whats-new/ur5-nonstocked-installation.md
-    - name: מה חדש
+    - name: ‏‫מה חדש‬
       items:
-        - name: ‏‫מה חדש ביולי 2022 - Project Operations לתרחישים של מלאי/מבוססי ייצור‬
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: מה חדש בספטמבר 2022 - Project Operations לתרחישים של מלאי/מבוססי ייצור
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: ארכיון
           items:
+            - name: ‏‫מה חדש ביולי 2022 - Project Operations לתרחישים של מלאי/מבוססי ייצור‬
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: ‏‫מה חדש ביוני 2022 - Project Operations לתרחישים של מלאי/מבוססי ייצור‬
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: ‏‫מה חדש באוקטובר 2021 - Project Operations לתרחישים של מלאי/מבוססי ייצור‬
@@ -1436,6 +1442,10 @@
       items:
         - name: ‏‫עדכון לוח הזמנים להפצת Project Service 3.x‬
           href: psa/version-history-ps.md
+        - name: '‏‫מה חדש ומה השתנה במהדורת עדכון 47, V3‬'
+          href: psa/whats-new-ur-47.md
+        - name: '‏‫מה חדש ומה השתנה במהדורת עדכון 45, V3‬'
+          href: psa/whats-new-ur-45.md
         - name: '‏‫מה חדש ומה השתנה במהדורת עדכון 44, V3‬'
           href: psa/whats-new-ur-44.md
         - name: '‏‫מה חדש ומה השתנה במהדורת עדכון 43, V3‬'
