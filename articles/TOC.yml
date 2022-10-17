@@ -1532,8 +1532,16 @@
           href: psa/whats-new-2021-wave1.md
         - name: מה חדש ומה השתנה בגל הפצה 1 ב-2020 של Project Service Automation V3.x
           href: psa/whats-new-v3-2020-wave1.md
-        - name: מה חדש ומה השתנה ב-Project Service Automation V3
+        - name: מה חדש ומה השתנה ב- Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: שדרוג של Project Service Automation (גירסה קלה של אפליקציית Project Operations 4.x)
+      items:
+        - name: שדרוג מ- Project Service Automation ל- Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: שינויי תכונות מ- Project Service Automation ל- Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: תהליך המרה של Project Service Automation לתזמון פרויקטים של Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: תכנון ההטמעה (גירסת אפליקציה ‎3.x)
       items:
         - name: התקנת נתונים לדוגמה
@@ -1550,7 +1558,7 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: שדרוג מ- Project Service Automation ל- Project Operations - גירסה קלה
       href: psa/upgrade-project-operations-non-stocked.md
-    - name: שינויי תכונות מ- Project Service Automation ל- Project Operations - גירסה קלה
+    - name: שינויי תכונות מ- Project Service Automation ל- Project Operations
       href: psa/psa-project-operations-changes.md
     - name: שדרוג Project Service Automation (גירסת אפליקציה ‎3.x)
       items:
