@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621246"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634806"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>מה חדש בספטמבר 2022 - Project Operations לתרחישים מבוססי משאב/לא במלאי
 
@@ -35,6 +35,7 @@ _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים
 | ניהול הוצאות | **יכולת רישום חבות להוצאות במטבע הספק**<br>תכולה זו מאפשרת פרסם דוחות של הוצעות הוצאות במטבע הספק עבור אמצעי תשלום במזומן. | [יכולת רישום חבות להוצאות במטבע הספק](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | רכש פרויקטים | **תשלומי ספק מסוג גב-אל-גב**<br>תכונה זו מאפשרת שימוש בתכונה גב-אל-גב (PWP) בסביבות Project Operations ללא מלאי. היא מאפשרת חסימה/שמירה של תשלומי הספק, בהתבסס על תנאי שמירה, עד לקבלת התשלום מהלקוח. | [תשלומי ספק מסוג גב-אל-גב](/dynamics365/project-operations/procurement/pay-when-paid) |
 | רכש פרויקטים | **דרישות רכש לפרויקט**<br>תכונה זו מאפשרת למשתמשים ליצור הזמנות רכש הקשורות לפרויקט בישויות משפטיות שבהן מופעלת שילוב Project Operations ב- Dynamics 365 Customer Engagement. ניתן להשתמש בהזמנות רכש של פרויקט כדי לתעד רכש חומר שאינו במלאי כנגד הפרויקט על ידי אישיות מחלקת הרכש. הזמנות רכש של פרויקט לא יסונכרנו עם Dataverse. עם זאת, אתה יכול להשתמש בישות וירטואלית כדי להציג שורות הזמנת רכש של פרויקט ב- Dataverse לפרטי מנהל הפרויקט. עלות חשבונית ספק הקשורה לפרויקט משולבת עם הישות 'נתונים בפועל של הפרויקט' ב- Dataverse. עלות הפרויקט נרשמת בספר המשני של הבפוריקט באמצעות יומן האינטגרציה של Project Operations. | |
+|‏‫תכנון פרויקטים ומעקב אחריהם|**השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון** </br> </br>ממשק ה-API לעריכת קווי מתאר של הקצאת משאבים מאפשר למפתחים לציין באופן פרוגרמטי את המאמץ של מקבל המשימה בכל טווח תאריכים נתמך לתכנון מאמץ מפורט יותר בשלבי זמן.|[השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>עדכוני מפות כתיבה כפולה של Project Operations
 

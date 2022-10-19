@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932067"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655189"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>יצירת מבנה התפלגות עבודה (WBS)
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932067"
 באפשרותך להשתמש בלוח הזמנים ב- Project Operations כדי ליצור קשרי פעילויות קדם בין משימות. השדה **‏‫‏‏פעילות קדם‬** משתמש בערך אחד או יותר כדי לציין את המשימות שמשימה תלויה בהן. בעת הקצאת ערכים לפעילות קדם, המשימה תוכל להתחיל רק לאחר השלמת כל המשימות של פעילויות הקדם. בשל התלות, תאריך ההתחלה המתוכנן של הפעילות מאופס לתאריך שבו הושלמו המשימות של פעילויות הקדם.
 
 למצב המשימה אין שום השפעה על עדכונים שמתבצעים לתאריכי ההתחלה או הסוף של משימות תלויות/פעילויות קדם.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>הבנת ההשפעות של משך זמן, לוחות שנה של משאבים ולוחות שנה של פרויקטים על משימות
+משך הזמן של משימה מוגדר כמספר שעות העבודה בין שעת ההתחלה של תאריך ההתחלה לשעת הסיום של תאריך הסיום של המשימה.   Project for the Web מגדיר יחידות מידה של משך באופן הבא:
+
+| **מדד משך זמן** | **כמות**|
+|----------------------------------------------------|----------------------|
+| שעות ביום | 8 |
+| שעות לשבוע |  40 |
+| ימים בחודש |  20 |
+
+משימות שלא הוקצו מתוזמנות באמצעות לוח השנה של הפרויקט. עם זאת, עם הקצאת משאב ראשונית, התזמון של משימה מתעדכן כך שיכבד את לוח השנה של המשאב. השינויים הבאים במשימה שיש לה הקצאה יהיו כפופים ל[מצב התזמון](scheduling-modes.md) של הפרויקט. למידע נוסף על השפעתם של לוחות שנה על משימות, ראה [לוחות שנה של משאבים ב-Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) ו[זמני התחלת המשימות והפרויקטים שלך!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>נגישות וקיצורי מקשים
 

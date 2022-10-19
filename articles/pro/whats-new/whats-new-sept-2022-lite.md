@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621255"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634853"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>מה חדש בספטמבר 2022 - פריסה קלה של Project Operations
 
@@ -30,6 +30,7 @@ _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצ�
 | חיוב ותמחור | **ברירת מחדל של מחיר ללא תלות באזור זמן**<br>Project Operations הציגה את הרעיון של תאריך שאינו תלוי באזור זמן בכל הנתונים בפועל של פרויקט. שדה  חדש, **תאריך עסקה**, זמין כעת בשורות ובנתונים בפועל של יומן, והוא ישמש לאחסון התאריך שבו התרחשה העסקה, אך מבלי להמיר את התאריך לזמן אוניברסלי מתואם. תאריך זה ישמש לתהליכים במורד הזרם כגון ברירת מחדל למחיר ויצירת חשבוניות. | <p>[קביעת תעריפי עלות עבור הערכות ונתונים בפועל של פרוייקט](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[קביעת מחירי מכירות עבור הערכות ונתונים בפועל המבוססים על פרוייקט](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | חיוב ותמחור | **עקיפת מחירים בתוקף ב- Project Operations**<br>עקיפות מחירים בתוקף היא דרך לעקוף או לשנות מחירים ספציפיים במחירון. | [עקיפות מחירים בתוקף](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | זמן והוצאה | **מאשר כללי**<br>תכונה זו מאפשרת אישור ספק תוכנה עצמאי (ISV) ומרכזי, ללא קשר למצב הפרויקט או חבר הצוות בפרויקט. | [אבטחה ואישורים](/dynamics365/project-operations/approvals/approvals-security) |
+|‏‫תכנון פרויקטים ומעקב אחריהם|**השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון** </br> </br>ממשק ה-API לעריכת קווי מתאר של הקצאת משאבים מאפשר למפתחים לציין באופן פרוגרמטי את המאמץ של מקבל המשימה בכל טווח תאריכים נתמך לתכנון מאמץ מפורט יותר בשלבי זמן.|[השתמש בממשקי API של לוח זמנים של הפרוייקט לביצוע פעולות עם ישויות תזמון](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>עדכוני איכות
 
