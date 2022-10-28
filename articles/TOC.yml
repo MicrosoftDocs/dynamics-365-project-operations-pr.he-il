@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: כיצד ניתן להתאים אישית את זרימת התהליך העסקי של שלבי פרוייקט?
               href: psa/FAQ-customize-bpf.md
-            - name: שיקולי שדרוג עבור מבנה התפלגות העבודה
-              href: psa/upgrade-considerations-tasks.md
         - name: סקירות טכניות
           href: psa/white-papers.md
         - name: מדריך למנהל מערכת
