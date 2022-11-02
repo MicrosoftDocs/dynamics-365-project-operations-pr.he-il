@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686976"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709445"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>שדרג מ- Project Service Automation ל- Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686976"
 
 ## <a name="licensing"></a>רישוי‬
 
-אם יש לך רישיונות פעילים עבור Project Service Automation, תוכל להתקין ולהשתמש ב- Project Operations, הכולל את כל היכולות של Project Service Automation ועוד. תוכל לבדוק את היכולות של Project Operations בסביבה נפרדת, בזמן שאתה ממשיך להשתמש ב-Project Service Automation בייצור. לאחר פקיעת הרישיונות של Project Service Automation, תצטרך לעבור ל- Project Operations. בעת תכנון מעבר זה, עליך לתת את הדעת לכך שרישיון Project Operations אינו כולל רישיון Project Service Automation.
+אם יש לך רישיונות פעילים עבור Project Service Automation, תוכל להתקין ולהשתמש ב- Project Operations, הכולל את כל היכולות של Project Service Automation ועוד. בדרך זו, תוכל לבדוק את היכולות של Project Operations בזמן שאתה ממשיך להשתמש ב-Project Service Automation בייצור. לאחר פקיעת הרישיונות של Project Service Automation, תצטרך לעבור ל- Project Operations. בעת תכנון מעבר זה, עליך לתת את הדעת לכך שרישיון Project Operations אינו כולל רישיון Project Service Automation. לקוחות שיש להם תרחישים שבהם הם פרסו את Project Service Automation וצריכים להמשיך להשתמש או להרחיב את הרישיונות שלהם עבור PSA בזמן שהם מתכננים לעבור ל- Project Operations, עשויים לבקש רישיונות PSA זמניים בהתבסס על רישיונות שנרכשו ב- Project Operations. רישיון Project Service Automation אחד יונפק עבור רישיון Project Operations אחד. ניתן לבקש רישיונות PSA זמניים באמצעות קישור זה: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>בדיקת התאמות אישיות וארגון הקוד מחדש
 
