@@ -286,9 +286,11 @@
           href: project-management/define-project-calendars.md
         - name: מצבי תזמון
           href: project-management/scheduling-modes.md
-        - name: עדכון פרויקט
+        - name: תזמון חיצוני
+          href: project-management/external-scheduling.md
+        - name: עדכון פרוייקט
           href: project-management/update-project.md
-        - name: העתקת פרויקט
+        - name: העתקת פרוייקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
@@ -914,9 +916,11 @@
           href: project-management/define-project-calendars.md
         - name: מצבי תזמון
           hreF: project-management/scheduling-modes.md
-        - name: עדכון פרויקט
+        - name: תזמון חיצוני
+          href: project-management/external-scheduling.md
+        - name: עדכון פרוייקט
           href: project-management/update-project.md
-        - name: העתקת פרויקט
+        - name: העתקת פרוייקט
           href: project-management/copy-project.md
         - name: תכנון מבנה התפלגות העבודה
           items:
