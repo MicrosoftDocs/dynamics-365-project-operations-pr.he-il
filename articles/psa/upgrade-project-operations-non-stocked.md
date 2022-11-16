@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709445"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736667"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>שדרג מ- Project Service Automation ל- Project Operations
 
@@ -97,7 +97,7 @@ ms.locfileid: "9709445"
     בהתאם לכמות הנתונים בסביבה, השדרוג עשוי להימשך מספר שעות. בהתאם לכך, על צוות הליבה שמנהל את השדרוג לתכנן להפעיל את השדרוג בשעות שאינן שעות עבודה. במקרים מסוימים, אם נפח הנתונים גדול, יש להפעיל את השדרוג במהלך סוף השבוע. ההחלטה לגבי תזמון צריכה להתבסס על תוצאות הבדיקה בסביבות נמוכות יותר.
 
 3. שדרג פתרונות מותאמים אישית לפי הצורך. בשלב זה, פרוס את כל השינויים שביצעת בהתאמות האישיות שלך במקטע [‏‫בדיקת התאמות אישיות וארגון הקוד מחדש‬](#testing-and-refactoring-customizations) של מאמר זה.
-4. עבור אל **הגדרות** \> **פתרונות**, ובחר להסיר את ההתקנה של הפתרון **רכיבים של Project Operations שהוצאו משימוש**.
+4. יש לעבור אל **make.powerapps.com**, לבחור את הסביבה שלך מהתפריט הנפתח בפינה הימנית העליונה של הפורטל, לבחור ב **פתרונות** מהתפריט השמאלי, לבחור בפתרון **רכיבים שהוצאו משימוש בפרויקטים** וב **הסרת ההתקנה**.
 
     פתרון זה הינו פתרון זמני המחזיק את מודל הנתונים הקיים ואת הרכיבים הקיימים במהלך השדרוג. על ידי הסרת פתרון זה, אתה מסיר את כל השדות והרכיבים שאינם בשימוש עוד. בדרך זו, אתה עוזר לפשט את הממשק ולהקל על האינטגרציה וההרחבה.
     
