@@ -1,19 +1,19 @@
 ---
-title: ניהול לקוחות מרובים בחוזי פרוייקט - לייט
+title: ניהול לקוחות מרובים בחוזים של פרוייקט
 description: מאמר זה מספק מידע על אופן הניהול של לקוחות מרובים בחוזי פרויקט.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917206"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824533"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>ניהול לקוחות מרובים בחוזי פרוייקט - לייט
+# <a name="manage-multiple-customers-on-project-contracts"></a>ניהול לקוחות מרובים בחוזים של פרוייקט
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 

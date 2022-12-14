@@ -1,31 +1,29 @@
 ---
-title: ניהול הפניות
+title: ניהול הפניות מבוססות פרויקט
 description: מאמר זה מספק מידע על ניהול הפניות מבוססות פרויקט.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920199"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825800"
 ---
-# <a name="manage-leads"></a>ניהול הפניות
+# <a name="manage-project-based-leads"></a>ניהול הפניות מבוססות פרויקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
 ניתן לנהל ולאשר הפניות מבוססות פרויקטים Project Operations. תהליך ניהול ההפניות כולל יצירת הפניות מבוססות עבודה ואישור הפניות אלה. 
 
-## <a name="project-sales-leads"></a>הפניות ממכירות פרויקט
-
 במקטע **מכירות**, בחלונית הניווט הימנית, פתח את דף הרשימה **הפניות** כדי להציג רשימה של כל הרשומות של הפניות הקיימות במערכת. ההפניות המוצגות ברשימה הן מבוססות עבודה וסוגי הפניות אחרות שניתן ליצור אם יש לך גם את היישומים Dynamics 365 Sales או Dynamics 365 Field Service.
 
 ניתן ליצור תצוגה מסוננת כדי לראות הפניות מבוססות פרויקט בלבד על ידי יצירת מסנן בערך **סוג**. לדוגמה, אפשר לבחור להציג רק הפניות מבוססות עבודה.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>יצירת הפניה חדשה לעסקה מבוססת פרויקט
+## <a name="create-a-new-project-based-lead"></a>צור הפנייה מבוססת פרויקט חדשה 
 
 כאשר הפנייה מבוססת פרויקט מקבלת אישור, נוצרים הזדמנות ותיק לקוח. הזדמנות המבוססת פרויקט היא נקודת המוצא לעיסוק בפעילות מכירה בשלב ההזדמנות. להזדמנויות מבוססות פרויקט יכולות ייחודיות הנדרשות למכירת עבודת פרויקט. יכולות אלה כוללות:
 

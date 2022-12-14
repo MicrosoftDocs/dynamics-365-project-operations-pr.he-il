@@ -1,21 +1,21 @@
 ---
-title: ייבוא הערכה לסעיף חוזה מבוסס פרוייקט - לייט
+title: ייבוא הערכות מפרוייקט לסעיף חוזה של פרוייקט
 description: מאמר זה מספק מידע על יבוא אומדנים פיננסיים מפרויקט לסעיף חוזה.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924201"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824675"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>ייבוא הערכה לסעיף חוזה מבוסס פרוייקט - לייט
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>ייבוא הערכות מפרוייקט לסעיף חוזה של פרוייקט
 
-_**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
+_**חל על:** פריסת Lite – עסקה לחשבונית פרופורמה, Project Operations לתרחישים מבוססי משאבים/לא מלאי_ _
 
 ב- Dynamics 365 Project Operations ניתן לייבא הערכות מפרוייקט לסעיף חוזה מבוסס פרוייקט.
 

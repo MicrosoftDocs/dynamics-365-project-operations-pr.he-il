@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911643"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826082"
 ---
 # <a name="manage-project-quotes"></a>ניהול הצעות מחיר של פרוייקט
 
@@ -23,7 +23,7 @@ _**חל על:** Project Operations לתרחישים מבוססי משאבים/ל
   - פרטי שורת הצעת מחיר המזהים ומעריכים את העבודה עבור כל רכיב או שורת הצעת מחיר ברמה גבוהה. הערכות של לוח הזמנים או תאריכים וההיבטים הכספיים של עבודה הקשורים לאותה שורת הצעת מחיר.
   - מודלים לחוזים ורכיבים הניתנים לחיוב מוגדרים לכל שורת הצעת מחיר. מערך זה מסייע להעריך את פריסת ההכנסות, ההוצאות והרווחיות עבור כל שורת הצעות מחיר ועבור הצעת המחיר הכוללת.
 
-## <a name="view-all-project-based-quotes"></a>תצוגה של כל הצעות המחיר המבוססות הפרוייקטים
+## <a name="view-all-project-quotes"></a>תצוגה של כל הצעות המחיר של הפרוייקט
 
 ניתן לראות רשימה של כל הצעות המחיר של פרויקט בדף הרשימה **הצעות מחיר**. 
 

@@ -1,23 +1,23 @@
 ---
-title: סגירת הצעת מחיר
+title: סגירת הצעות מחיר מבוססות פרוייקט
 description: מאמר זה מספק מידע על סגירת הצעות מחיר ב- Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931883"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824218"
 ---
-# <a name="close-a-quote"></a>סגירת הצעת מחיר
+# <a name="close-project-based-quotes"></a>סגירת הצעות מחיר מבוססות פרוייקט
 
 _**חל על:** ‏Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-ניתן לסגור הצעת מחיר של פרויקט כ'זכייה' או כ'הפסד'. מכיוון שהפעולות 'הפעלה' ו'שינוי' אינן נתמכות בהצעות מחיר ב- Microsoft Dynamics 365 Project Operations, ניתן לסגור טיוטה של הצעת מחיר.
+ניתן לסגור הצעת מחיר של פרויקט כ **זכייה** או כ **הפסד**. 
 
 ## <a name="close-a-quote-as-won"></a>סגירת הצעת מחיר כ'זכייה'
 

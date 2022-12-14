@@ -1,19 +1,19 @@
 ---
-title: יצירת מקדמה אד-הוק על חוזה
+title: יצירת מקדמה אד-הוק על חוזה פרויקט
 description: מאמר זה מספק מידע על יצירת מקדמה עבור חוזה לפי הצורך.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922177"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824845"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>יצירת מקדמה אד-הוק על חוזה
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>יצירת מקדמה אד-הוק על חוזה פרויקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 

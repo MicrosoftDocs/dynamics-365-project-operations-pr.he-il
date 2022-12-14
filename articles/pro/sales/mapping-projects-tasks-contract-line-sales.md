@@ -1,23 +1,23 @@
 ---
-title: מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט - לייט
+title: מיפוי פרוייקטים ומשימות לסעיף חוזה של פרוייקט
 description: מאמר זה מספק מידע על הוספה פרויקטים ומשימות לסעיף חוזה והסרתם ממנה.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932527"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825059"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>מיפוי פרוייקטים ומשימות לסעיף חוזה מבוסס פרוייקט 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>מיפוי פרוייקטים ומשימות לסעיף חוזה של פרוייקט 
 
 _**חל על:** פריסה קלה - עסקה עם חשבונית פרופורמה, Project Operations לתרחישים מבוססי משאבים/ללא מלאי_
 
-בסעיפי חוזה מבוססי פרויקט, ניתן למפות משימות ספציפיות בפרויקט לסעיף החוזה.
+בסעיפי שורת חוזה פרויקט, ניתן למפות משימות ספציפיות בפרויקט לסעיף החוזה.
 
 כאשר ממפים משימות ספציפיות לסעיף חוזה, שיטת החיוב, אפשרויות החיוב, מגבלות 'אין לחרוג' והלקוחות המוגדרים בסעיף החוזה יחולו על משימות ספציפיות אלה בלבד.
 
@@ -25,7 +25,7 @@ _**חל על:** פריסה קלה - עסקה עם חשבונית פרופורמ�
 
 כל השלבים האחרים במבנה התפלגות עבודות (WBS) בפרויקט שלך יכולים להיות משויכים לסעיף חוזה המבוסס על זמן וחומרים.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>שיוך משימות לסעיפי חוזה מבוססי פרויקט
+## <a name="associate-tasks-to-project-contract-lines"></a>שיוך משימות לשורות חוזה פרויקט
 
 ניתן לשייך משימות לסעיפי חוזה מהכרטיסיה **משימות הניתנות לחיוב** בדף **סעיף החוזה** או מהכרטיסיה **חיוב משימות** בדף ה **פרויקט**.
 

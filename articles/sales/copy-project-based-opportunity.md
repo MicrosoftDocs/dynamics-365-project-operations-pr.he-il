@@ -1,19 +1,19 @@
 ---
-title: העתקת הזדמנויות מבוססות פרוייקט
+title: העתקת הזדמנויות פרוייקט
 description: מאמר זה מספק מידע על העתקת הזדמנויות מבוססות פרויקט ב- Project Operations.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 0fe29918e14a944de7277639f752ad53513a7589
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8926133"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826129"
 ---
-# <a name="copy-project-based-opportunities"></a>העתקת הזדמנויות מבוססות פרוייקט
+# <a name="copy-project-opportunities"></a>העתקת הזדמנויות פרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 

@@ -1,23 +1,23 @@
 ---
-title: מיפוי פרויקטים ומשימות בשורות הצעת מחיר מבוססת פרויקט
-description: מאמר זה מספק מידע על אופן מיפוי פרויקטים ומשימות לשורת משימה מבוססת פרויקט.
+title: מיפוי פרוייקטים ומשימות לשורות הצעת מחיר של פרוייקט
+description: מאמר זה מספק מידע על אופן מיפוי פרויקטים ומשימות לשורות הצעת מחיר של פרויקט.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917163"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824273"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>מיפוי פרויקטים ומשימות בשורות הצעת מחיר מבוססת פרויקט
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>מיפוי פרוייקטים ומשימות לשורות הצעת מחיר של פרוייקט
 
 _**חל על:** Project Operations לתרחישים מבוססי משאבים/לא מלאי, פריסה קלה - עסקה בחשבונית פרופורמה_
 
-בשורות הצעות מחיר מבוססות פרויקט, אפשר למפות את המשימות הספציפיות של פרויקט שכבר משויך לשורת הצעת מחיר.
+בשורות הצעות מחיר של פרויקט, אפשר למפות את המשימות הספציפיות של פרויקט שכבר משויך לשורת הצעת מחיר.
 
 כשממפים משימות לשורת הצעת מחיר, רק עליהם יכולו הפריטים הבאים, שהגדרת בשורת הצעת המחיר:
 

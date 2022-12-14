@@ -1,24 +1,24 @@
 ---
-title: שורות הזדמנות מבוססות מוצר - לייט
-description: מאמר זה מספק מידע על פריטי שורות הזדמנויות מבוססות מוצר ב- Project Operations.
+title: שורות הזדמנות במוצר
+description: מאמר זה מספק מידע על פריטי שורות הזדמנויות מוצר ב- Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 22dd55854f6ab6014021fb073ebed8d4d8b7b4c7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917117"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825004"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>שורות הזדמנות מבוססות מוצר - לייט
+# <a name="product-opportunity-lines"></a>שורות הזדמנות במוצר
 
 _**חל על**: פריסה בגרסת לייט – מהעסקה ועד להוצאת חשבונית פרופורמה_
 
-שורות הזדמנות מבוססות מוצר הן פריטי שורה בהזדמנות. פריטי שורה נפרדים אלה נמצאים בחשבונית הסופית שמסופקת ללקוח. החשבונית אינה כוללת שירותים נוספים אחרים. ההוצאות והצריכה במשוייכים אינם נמצאים במעקב במשימות של פרויקטים קשורים כלשהם.
+שורות הזדמנות מוצר הן פריטי שורה בהזדמנות שאינן מתייחסות לפרויקט. פריטי שורה נפרדים אלה נמצאים בחשבונית הסופית שמסופקת ללקוח. החשבונית אינה כוללת שירותים נוספים אחרים. ההוצאות והצריכה במשוייכים אינם נמצאים במעקב במשימות של פרויקטים קשורים כלשהם.
 
 שורות מבוססות מוצר יכולים להיות פריטי קטלוג או מוצרים שאינם מופיעים ברשימה. מרבית הפונקציונליות בשורות מבוססות מוצר של הזדמנות מבוססת על הפונקציונליות ביישום Dynamics 365 Sales. לקבלת מידע נוסף אודות שורות הזדמנות מבוססות מוצר, ראה[הוספת מוצרים להזדמנות](/dynamics365/sales-enterprise/add-products-opportunity).
 

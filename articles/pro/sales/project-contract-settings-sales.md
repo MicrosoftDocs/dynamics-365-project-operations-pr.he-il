@@ -1,17 +1,17 @@
 ---
-title: הגדרות של חוזה פרוייקט - לייט
-description: מאמר זה מספק מידע על שדות המשפיעים על סעיפי החוזה והמידע על החוזה שמסוכם עבור כל הפריטי השורה.
+title: פרטי כותרת לחוזים של פרוייקט
+description: מאמר זה מספק מידע על השדות ועל המידע על חוזי פרויקט ב- Project Operations.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f648113f54257e2c303cb2729e282d70f818d838
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: he-IL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917071"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824909"
 ---
 # <a name="header-details-for-project-contracts"></a>פרטי כותרת לחוזים של פרוייקט
 
